@@ -1,0 +1,71 @@
+project:
+  type: book
+
+book:
+  title: "Nápověda a dokumentace Archeologické mapy České republiky"
+  # cover-image: "figs/AISCR_CZ_H_CMYK_Pozitiv.png"
+  author: "[AIS CR](https://aiscr.cz/)"
+  date: today
+  date-format: "D. M. YYYY"
+  downloads: [pdf, docx]
+  repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
+  repo-actions: [edit, issue]
+  
+  page-footer:
+    background: light
+    left: 
+      - icon: github
+        href: https://github.com/ARUP-CAS/
+      - icon: twitter
+        href: https://twitter.com/AISCRproject/
+      - icon: facebook
+        href: https://www.facebook.com/ArcheologickyInformacniSystem/
+    center: |
+      [![](figs/AISCR_CZ_H_CMYK_Pozitiv.png){height=50}](https://aiscr.cz/)  
+    right: |
+      Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.
+  
+  sidebar:
+    title: "Nápověda a dokumentace AMČR"
+    # subtitle: Fuu
+    logo: "figs/AMCR_cmyk_pozitiv-03.png"
+    search: true
+    # tools:
+    #   - icon: github
+    #     href: https://github.com/ARUP-CAS/aiscr-webamcr-help/
+    #     text: GitHub
+    footer: |
+      Fuu
+
+  chapters:
+    - index.qmd
+    - part: o-systemu-amcr.qmd
+      chapters:
+        - historie.qmd
+        - pojmy-a-koncepce.qmd
+        - datovy-model.qmd
+        - procesy-a-stavy.qmd
+        - heslare.qmd
+        - pracovni-postupy.qmd
+    - part: "Popis aplikace"
+      chapters:
+      - aplikace.qmd
+  appendices:
+    - admin.qmd
+
+format:
+  html:
+    theme: 
+      light: yeti
+      # dark: darkly
+    css: styles.css
+  pdf: 
+    documentclass: scrreport
+  docx: default
+  
+callout-appearance: simple
+number-depth: 2
+toc-title: "Navigace"
+
+
+

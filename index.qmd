@@ -1,0 +1,16 @@
+# Úvod {.unnumbered}
+
+::: {.callout-tip}
+Úvodní stránku k AMČR najdete zde: [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/).  
+Do **webové aplikace AMČR** vstoupíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/).  
+Stránky AIS CR s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/).
+:::
+
+Nacházíte se v nápovědě a dokumentaci *Archeologické mapy České Republiky* (AMČR).
+AMČR je součástí velké výzkumné infrastruktury *Archeologický informační systém* (AIS CR).
+
+
+
+
+
+
