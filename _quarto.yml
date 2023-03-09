@@ -63,6 +63,9 @@ format:
     documentclass: scrreport
   docx: default
   
+execute: 
+  freeze: auto
+  
 callout-appearance: simple
 number-depth: 2
 toc-title: "Navigace"
