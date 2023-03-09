@@ -1,16 +1,40 @@
 # Úvod {.unnumbered}
 
 ::: {.callout-tip}
+
+# Odkazy
+
 Úvodní stránku k AMČR najdete zde: [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/).  
 Do **webové aplikace AMČR** vstoupíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/).  
 Stránky AIS CR s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/).
+
 :::
 
 Nacházíte se v nápovědě a dokumentaci *Archeologické mapy České Republiky* (AMČR).
 AMČR je součástí velké výzkumné infrastruktury *Archeologický informační systém* (AIS CR).
 
+::: {.callout-note  collapse="true"}
 
+# Jak upravovat
 
+Pro úpravy stačí kliknout na *Edit this page* v pravo pod navigací.
+Odkaz vede do [GitHub](https://github.com/ARUP-CAS/aiscr-webamcr-help/)
+repozitáře přímo na daný dokument, který lze rovnou upravovat (mám-li dostatečná práva).
+Při **commitu** se spustí akce, která celou stránku aktalizuje a nasadí 
+(při větším množství úprav je tedy rozumné upravovat lokálně a **push** používat 
+jen při ukončení práce, je to sice cizí výpočetní síla a nic nás nestojí, ale nemusí běžet zbytečně).
+
+Jednotlivé dokumenty jsou formátovány pomocí [markdownu](https://www.markdownguide.org/):
+
+- **\#** Nadpis 1. úrovně.
+- **\#\#** Nadpis 2. úrovně atd.
+- **\***Text**\*** *kurzívou*.
+- **\*\***Text**\*\*** **tučně**.
+- **\[**Text odkazu**\]\(**url**\)** vytvoří [link](https://www.aiscr.cz/).
+- Obrázek se vkládá obdobně: **\!\[**Popisek obrázku**\]\(**cesta fig/...**\)**.
+- Dvě mezery na konci řádku vytvoří nový odstavec, pro čitelnost je lepší vynechat celý řádek.
+
+:::
 
 
 
