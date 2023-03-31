@@ -24,6 +24,8 @@ Při **commitu** se spustí akce, která celou stránku aktalizuje a nasadí
 (při větším množství úprav je tedy rozumné upravovat lokálně a **push** používat 
 jen při ukončení práce, je to sice cizí výpočetní síla a nic nás nestojí, ale nemusí běžet zbytečně).
 
+Návod ke Quarto je zde: <https://quarto.org/>.
+
 Jednotlivé dokumenty jsou formátovány pomocí [markdownu](https://www.markdownguide.org/):
 
 - **\#** Nadpis 1. úrovně.
