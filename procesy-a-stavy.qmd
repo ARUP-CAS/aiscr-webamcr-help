@@ -1,2 +1,2 @@
 # Procesní pravidla
-
+Jedním z hlavních poslání AMČR je zabezpečit nutnou agendu a evidenci archeologických akcí prováděných na území ČR. V aplikaci proto nejsou obsažena pouze data, která lze považovat za archivní, ale také rozpracované záznamy, které postihují právě probíhající, případně nedávno realizované výzkumy. Pro sběr a užívání dat v AMČR platí tzv. procesní pravidla, která říkají, jaký typ uživatele spravuje danou datovou třídu, v jaký okamžik vkládá data a jakého cíle má být dosaženo.
