@@ -103,5 +103,12 @@
     "title": "3  Datový model",
     "section": "",
     "text": "Aplikaci AMČR lze popsat jako provázaný systém několika segmentů (skupin tabulek, datových tříd a heslářů) vztahujících se k základním funkcím informačního systému. Některé segmenty jsou zcela integrovány (např. komponenty v akcích), jiné tvoří volněji připojené moduly na periferii systému (MADB aj.). Základními segmenty AMČR jsou:\n\nregistr terénních zásahů (projektů);\nevidence archeologických akcí (v rámci registrovaných projektů i mimo ně);\nevidence lokalit;\nodborný popis akcí a lokalit tedy popis jejich komponent;\ndigitální archiv a repozitář ARÚP a ARÚB;\nevidence leteckých snímků;\nodborný popis obsahu dokumentů;\nevidence prostorových jednotek PIAN;\nkatalog bibliografických záznamů (tzv. externích zdrojů);\npopis dokumentačních jednotek - archeologických dokumentačních bodů (MADB).\n\nSystém je koncipován tak, že většina jeho prvků představuje samostatné databázové objekty. Např. prostorové vymezení archeologických akcí nebo bibliografický odkaz nejsou v AMČR zaznamenány jako „vlastnosti“ záznamu o akci (které by bylo možno zachytit formálně různým zápisem), nýbrž jako vztah mezi objekty dvou samostatných datových tříd, které navazují vzájemné vazby, a to zpravidla typu 1:N nebo N:N. K jedné akci se tedy může vázat více bibliografických záznamů, avšak zároveň k týmž bibliografickým položkám mohou být navázány jiné akce či lokality. Tento koncept plně využívá výhod relační databáze, avšak je blízký také objektově orientovaným datovým modelům, které dekompozici datových tříd na základní jednotky dále prohlubují. Zároveň naplňuje potřeby autoritního značení jednotlivých záznamů pomocí identifikátorů."
+  },
+  {
+    "objectID": "procesy-a-stavy.html",
+    "href": "procesy-a-stavy.html",
+    "title": "4  Procesní pravidla",
+    "section": "",
+    "text": "Jedním z hlavních poslání AMČR je zabezpečit nutnou agendu a evidenci archeologických akcí prováděných na území ČR. V aplikaci proto nejsou obsažena pouze data, která lze považovat za archivní, ale také rozpracované záznamy, které postihují právě probíhající, případně nedávno realizované výzkumy. Pro sběr a užívání dat v AMČR platí tzv. procesní pravidla, která říkají, jaký typ uživatele spravuje danou datovou třídu, v jaký okamžik vkládá data a jakého cíle má být dosaženo."
   }
 ]
