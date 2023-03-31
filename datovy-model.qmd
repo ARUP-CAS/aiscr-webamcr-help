@@ -1,2 +1,17 @@
 # Datový model
 
+Aplikaci AMČR lze popsat jako provázaný systém několika segmentů (skupin tabulek, datových tříd a heslářů) vztahujících se k základním funkcím informačního systému. Některé segmenty jsou zcela integrovány (např. komponenty v akcích), jiné tvoří volněji připojené moduly na periferii systému (MADB aj.). Základními segmenty AMČR jsou:
+
+- registr terénních zásahů (projektů);
+- evidence archeologických akcí (v rámci registrovaných projektů i mimo ně);
+- evidence lokalit;
+- odborný popis akcí a lokalit tedy popis jejich komponent;
+- digitální archiv a repozitář ARÚP a ARÚB;
+- evidence leteckých snímků;
+- odborný popis obsahu dokumentů;
+- evidence prostorových jednotek PIAN;
+- katalog bibliografických záznamů (tzv. externích zdrojů);
+- popis dokumentačních jednotek - archeologických dokumentačních bodů (MADB).
+
+
+Systém je koncipován tak, že většina jeho prvků představuje samostatné databázové objekty. Např. prostorové vymezení archeologických akcí nebo bibliografický odkaz nejsou v AMČR zaznamenány jako „vlastnosti“ záznamu o akci (které by bylo možno zachytit formálně různým zápisem), nýbrž jako vztah mezi objekty dvou samostatných datových tříd, které navazují vzájemné vazby, a to zpravidla typu 1:N nebo N:N. K jedné akci se tedy může vázat více bibliografických záznamů, avšak zároveň k týmž bibliografickým položkám mohou být navázány jiné akce či lokality. Tento koncept plně využívá výhod relační databáze, avšak je blízký také objektově orientovaným datovým modelům, které dekompozici datových tříd na základní jednotky dále prohlubují. Zároveň naplňuje potřeby autoritního značení jednotlivých záznamů pomocí identifikátorů.
