@@ -18,3 +18,5 @@ Podobným způsobem probíhá i životní cyklus akcí, který má různé varia
 Přechod od jednoho procesního stavu k druhému je řízen interakcemi systému, uživatele a archiváře. Systém eviduje datum přechodu jednotky z jednoho stavu do druhého a uživatele, který přechod provedl. V případě stavů, které mohou být nabývány opakovaně (např. „vrácení zprávy o akci k dopracování“) se eviduje i historie změn a důvody, které k nim vedly.
 
 
+
+![**Návaznost procesních stavů projektů a akcí**](figs/stavy_schema.png)
