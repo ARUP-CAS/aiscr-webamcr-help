@@ -38,5 +38,22 @@ Jednotlivé dokumenty jsou formátovány pomocí [markdownu](https://www.markdow
 
 :::
 
+::: {.callout-note  collapse="true"}
 
+# Tabulky
+
+Tabulky lze vkládat ručně jako text formátovaný v Markdownu, viz <https://quarto.org/docs/authoring/tables.html>.
+Druhou variantou je pak stavět tabulky automatizovaně z CSV souborů.
+CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými uvozovkami (")
+vkládejte do složky `./tabs/`. 
+
+Tabulku lze pak vložit tímhle kódem:
+```{{r}}
+#| label: tbl-role              # popisek pro křížové odkazy
+#| tbl-cap: "Uživatelské role." # popisek tabulky zobrazený v textu
+
+read.csv("tabs/table.csv") |>   #  "table" nahradit za skutečný název tabulky
+  knitr::kable()
+```
+:::
 

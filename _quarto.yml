@@ -2,8 +2,9 @@ project:
   type: book
 
 book:
-  title: "Nápověda a dokumentace Archeologické mapy České republiky"
-  # cover-image: "figs/AISCR_CZ_H_CMYK_Pozitiv.png"
+  title: "Nápověda a dokumentace AMČR"
+  favicon: "figs/cover.png"
+  # cover-image: "cover1.png"
   author: "[AIS CR](https://aiscr.cz/)"
   date: today
   date-format: "D. M. YYYY"
