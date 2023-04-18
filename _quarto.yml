@@ -9,7 +9,7 @@ book:
   date-format: "D. M. YYYY"
   downloads: [pdf, docx]
   repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
-  repo-actions: [edit, issue]
+  repo-actions: [source, edit, issue]
   
   page-footer:
     background: light
@@ -43,6 +43,7 @@ book:
       chapters:
         - historie.qmd
         - pojmy-a-koncepce.qmd
+        - role.qmd
         - datovy-model.qmd
         - procesy-a-stavy.qmd
         - heslare.qmd
@@ -59,12 +60,17 @@ format:
       light: yeti
       # dark: darkly
     css: styles.css
+    df-print: kable
   pdf: 
-    documentclass: scrreport
+    documentclass: scrreprt
+    papersize: a4wide
+    lot: true
+    lof: true
   docx: default
   
 execute: 
   freeze: auto
+  echo: false
   
 callout-appearance: simple
 number-depth: 2
