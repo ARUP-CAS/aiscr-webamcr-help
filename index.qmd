@@ -6,12 +6,27 @@
 
 Úvodní stránku k AMČR najdete zde: [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/).  
 Do **webové aplikace AMČR** vstoupíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/).  
-Stránky AIS CR s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/).
+Stránky **AIS CR** s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/).
 
 :::
 
-Nacházíte se v nápovědě a dokumentaci *Archeologické mapy České Republiky* (AMČR).
-AMČR je součástí velké výzkumné infrastruktury *Archeologický informační systém* (AIS CR).
+Informační systém **Archeologická mapa České republiky** ([AMČR](https://amcr-info.aiscr.cz/)) integruje dvě základní oblasti správy archeologického dědictví ČR.
+Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva).
+Na druhé straně jde o budování souhrnného přehledu archeologického dědictví ČR, tedy o vytvoření *národní* databáze archeologického kulturního dědictví.
+Oba úkoly spolu v mnoha ohledech souvisejí, a jejich spojení proto je pro uživatele výhodné: vzniká jím jednotný systém evidence klíčových informací využitelných v celé šíři archeologické terénní, památkové a v některých ohledech i muzejní práce.
+AMČR je součástí [velké výzkumné infrastruktury](pojmy.qmd#výzkumné-infrastruktury) **Archeologický informační systém České Republiky** ([AIS CR](https://aiscr.cz/)).
+
+AMČR slučuje některé dosud nespojité datové báze a operace související s jejich plněním a správou.
+Jde o:
+
+1. administrativní evidenci plánovaných a probíhajících terénních archeologických výzkumů;
+2. shromažďování informací o odborných výsledcích archeologických terénních aktivit (jak těch, které prošly administrativní evidencí zmíněnou výše, tak aktivit staršího data a jiných druhů);
+3. systematické podchycení dalších archeologických památek v krajině, známých především z dlouhodobého povrchového a dálkového průzkumu a
+4. správu repozitáře terénní dokumentace pro účely Archeologických ústavů AV ČR v Praze a Brně ([ARÚP](https://www.arup.cas.cz/) a [ARÚB](https://arub.cz/)), případně dalších institucí, v rozsahu daném platnou legislativou.
+
+Cílem zavedení systému AMČR je zvýšení efektivity v oblasti shromažďování a šíření odborných informací, což je jedním z důležitých předpokladů dalšího rozvoje oboru, a to jak v ohledu teoretického výzkumu, tak památkové péče i komunikace se širší veřejností.
+Základním způsobem, jak tohoto cíle má být dosaženo, je vytvoření autoritních seznamů archeologických projektů, terénních akcí, dokumentů a dalších jednotek informačního systému.
+Evidence těchto jednotek pomocí jednotných a [persistentních identifikátorů](identifikatory.qmd) umožňuje spolehlivě identifikovat každý z prvků [archeologického fondu](pojmy.qmd#archeologický-fond) a vytvářet mezi prvky účelné vazby (např. nález k akci, akce k dokumentu apod.).
 
 ::: {.callout-note  collapse="true"}
 
@@ -20,8 +35,8 @@ AMČR je součástí velké výzkumné infrastruktury *Archeologický informačn
 Pro úpravy stačí kliknout na *Edit this page* v pravo pod navigací.
 Odkaz vede do [GitHub](https://github.com/ARUP-CAS/aiscr-webamcr-help/)
 repozitáře přímo na daný dokument, který lze rovnou upravovat (mám-li dostatečná práva).
-Při **commitu** se spustí akce, která celou stránku aktalizuje a nasadí 
-(při větším množství úprav je tedy rozumné upravovat lokálně a **push** používat 
+Při **commitu** se spustí akce, která celou stránku aktalizuje a nasadí
+(při větším množství úprav je tedy rozumné upravovat lokálně a **push** používat
 jen při ukončení práce, je to sice cizí výpočetní síla a nic nás nestojí, ale nemusí běžet zbytečně).
 
 Návod ke Quarto je zde: <https://quarto.org/>.
@@ -45,7 +60,7 @@ Jednotlivé dokumenty jsou formátovány pomocí [markdownu](https://www.markdow
 Tabulky lze vkládat ručně jako text formátovaný v Markdownu, viz <https://quarto.org/docs/authoring/tables.html>.
 Druhou variantou je pak stavět tabulky automatizovaně z CSV souborů.
 CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými uvozovkami (")
-vkládejte do složky `./tabs/`. 
+vkládejte do složky `./tabs/`.
 
 Tabulku lze pak vložit tímhle kódem:
 ```{{r}}
@@ -55,5 +70,5 @@ Tabulku lze pak vložit tímhle kódem:
 read.csv("tabs/table.csv") |>   #  "table" nahradit za skutečný název tabulky
   knitr::kable()
 ```
-:::
 
+:::
