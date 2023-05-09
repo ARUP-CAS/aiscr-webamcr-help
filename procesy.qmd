@@ -1,22 +1,13 @@
 # Procesní pravidla
+
 Jedním z hlavních poslání AMČR je zabezpečit nutnou agendu a evidenci archeologických akcí prováděných na území ČR. V aplikaci proto nejsou obsažena pouze data, která lze považovat za archivní, ale také rozpracované záznamy, které postihují právě probíhající, případně nedávno realizované výzkumy. Pro sběr a užívání dat v AMČR platí tzv. procesní pravidla, která říkají, jaký [typ uživatele]() spravuje danou datovou třídu, v jaký okamžik vkládá data a jakého cíle má být dosaženo.
-
-
 
 Pro označení fáze zpracování záznamů slouží tzv. procesní stavy, které jsou přidělovány všem záznamům v základních datových třídách ([Projekty](), [Akce](), [Lokality](), [Dokumenty](), [Bibliografie](), [PIAN]()). Procesní stav určuje, kdo může daný záznam zobrazit, kdo jej může editovat, jaké funkce jsou pro práci se záznamem dostupné a zároveň jaké kroky je třeba učinit pro plnou archivaci záznamu. Každému ze stavů také odpovídá určitý okruh dat, která je v daném okamžiku možno (či nutno) vložit, a určitá práva a povinnosti konkrétních uživatelů.
 
-
-
 Procesním stavem rozumíme dílčí fázi archeologické (terénní) aktivity, což lze na obecnější rovině chápat jako specifickou fázi vzniku archeologické informace. Např. každý projekt musí být nejprve zapsán do systému (stav P1), a to s některými povinnými popisnými údaji. Zapsaný projekt si může některá z oprávněných organizací rezervovat k provedení výzkumu (P2), přičemž doplňuje některé údaje a zároveň dočasně omezuje dostupnost jiných pro ostatní uživatele (např. osobní údaje týkající se stavebníka). Daná [oprávněná organizace](https://arup-cas.github.io/aiscr-webamcr-help/pojmy-a-koncepce.html#opr%C3%A1vn%C4%9Bn%C3%A1-archeologick%C3%A1-organizace) nyní získává povinnost zahájit a oznámit terénní práce (P3), informovat o jejich ukončení (P4) a v zákonné lhůtě podat závěrečnou informaci spolu s [nálezovou zprávou](https://arup-cas.github.io/aiscr-webamcr-help/pojmy-a-koncepce.html#n%C3%A1lezov%C3%A1-zpr%C3%A1va) (P6). Poté Archivář rozhoduje, zda podané podklady je třeba vrátit k doplnění/přepracování (P7), nebo je možno je uznat za dostatečné a archivovat (P8).
-
-
 
 Podobným způsobem probíhá i životní cyklus akcí, který má různé varianty, a to podle typu akce (projektová akce/samostatná akce). Projektové akce procházejí pouze stavy A1-A2-A6-A7-A8, protože podávat závěrečnou informaci o výsledcích výzkumu bez předepsané nálezové zprávy není povoleno. U samostatných akcí, převážně starých výzkumů, kde zhotovení úplné nálezové zprávy je už málo pravděpodobné, je tato praxe povolena a jejich životní cyklus se tedy skládá ze všech uvedených kroků. V poněkud jednodušší podobě se procesní stavy vyskytují i u záznamů dalších datových tříd.
 
-
-
 Přechod od jednoho procesního stavu k druhému je řízen interakcemi systému, uživatele a archiváře. Systém eviduje datum přechodu jednotky z jednoho stavu do druhého a uživatele, který přechod provedl. V případě stavů, které mohou být nabývány opakovaně (např. „vrácení zprávy o akci k dopracování“) se eviduje i historie změn a důvody, které k nim vedly.
 
-
-
-![**Návaznost procesních stavů projektů a akcí**](figs/stavy_schema.png)
+![Návaznost procesních stavů projektů a akcí](figs/stavy_schema.png)
