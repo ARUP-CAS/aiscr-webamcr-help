@@ -1,4 +1,4 @@
-# Uživatelské role
+# Uživatelské role {#sec-role}
 
 AMČR rozlišuje pět uživatelských rolí, jejichž nositelé se liší svými právy při práci s informačním systémem. Právo ke vstupu do informačního systému na elementární úrovni (A – Anonym) získává každý uživatel, který software nainstaluje do svého počítače. Rozšířená uživatelská práva lze získat na základě registrace (role B – Badatel), další oprávnění získá pracovník některé z organizací oprávněných k provádění archeologických výzkumů (C – Archeolog). Vyšší uživatelská práva potom mají pracovníci organizací provozujících informační systém AMČR, tedy ARÚP a ARÚB. Uživatel na úrovni D – Archivář provádí zejména formální a obsahovou kontrolu záznamů vkládanými uživateli úrovní B a C, správu systému pak provádí uživatel s oprávněním E – Administrátor.
 
