@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Nápověda a dokumentace AMČR - 2&nbsp; Základní pojmy</title>
+<title>Nápověda a dokumentace AMČR - Základní pojmy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./role.html" rel="next">
+<link href="./implementace.html" rel="next">
 <link href="./historie.html" rel="prev">
 <link href="./figs/cover.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -70,11 +70,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Základní pojmy</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./pojmy.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Základní pojmy</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -82,116 +87,132 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./figs/AMCR_cmyk_pozitiv-03.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Nápověda a dokumentace AMČR</a> 
+      <a href="./">Dokumentace AMČR</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./Nápověda-a-dokumentace-AMČR.pdf">
-            <i class="bi bi-bi-file-pdf pe-1"></i>
-          Download PDF
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./Nápověda-a-dokumentace-AMČR.docx">
-            <i class="bi bi-bi-file-word pe-1"></i>
-          Download Docx
-          </a>
-        </li>
-    </ul>
+    <a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Nápověda-a-dokumentace-AMČR.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Nápověda-a-dokumentace-AMČR.docx">
+              <i class="bi bi-bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Úvod</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Úvod</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./historie.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Historie AMČR</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pojmy.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Základní pojmy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./implementace.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Technická implementace</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./role.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Uživatelské role</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./datovy-model.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Datový model</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./identifikatory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Identifikátory</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./procesy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Procesní pravidla</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./heslare.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Hesláře</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./o-systemu-amcr.html" class="sidebar-item-text sidebar-link">O AMČR</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Pracovní postupy</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./historie.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Historie AMČR</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./pojmy-a-koncepce.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Základní pojmy</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./role.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Uživatelské role</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./datovy-model.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Datový model</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./procesy-a-stavy.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Procesní pravidla</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./heslare.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Hesláře</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./pracovni-postupy.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Příklady užití a základní pracovní postupy</span></a>
+  <a href="./pracovni-postupy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Příklady užití a základní pracovní postupy</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Popis aplikace</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Popis aplikace</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./aplikace.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Popis aplikace</span></a>
+  <a href="./aplikace.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Popis aplikace</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Appendices</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./admin.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Admin nápověda</span></a>
+  <a href="./admin.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Admin nápověda</span></a>
   </div>
 </li>
       </ul>
@@ -199,30 +220,31 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 <div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
-<p>Fuu</p>
+<p>Stránka je ve výstavbě!</p>
 </div></div></nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Navigace</h2>
+    <h2 id="toc-title">Obsah</h2>
    
   <ul>
-  <li><a href="#projekty" id="toc-projekty" class="nav-link active" data-scroll-target="#projekty"><span class="toc-section-number">2.1</span>  Projekty</a></li>
-  <li><a href="#akce" id="toc-akce" class="nav-link" data-scroll-target="#akce"><span class="toc-section-number">2.2</span>  Akce</a></li>
-  <li><a href="#lokality" id="toc-lokality" class="nav-link" data-scroll-target="#lokality"><span class="toc-section-number">2.3</span>  Lokality</a></li>
-  <li><a href="#dokumentační-jednotky" id="toc-dokumentační-jednotky" class="nav-link" data-scroll-target="#dokumentační-jednotky"><span class="toc-section-number">2.4</span>  Dokumentační jednotky</a></li>
-  <li><a href="#komponenty" id="toc-komponenty" class="nav-link" data-scroll-target="#komponenty"><span class="toc-section-number">2.5</span>  Komponenty</a></li>
-  <li><a href="#nálezy" id="toc-nálezy" class="nav-link" data-scroll-target="#nálezy"><span class="toc-section-number">2.6</span>  Nálezy</a></li>
-  <li><a href="#pian" id="toc-pian" class="nav-link" data-scroll-target="#pian"><span class="toc-section-number">2.7</span>  PIAN</a></li>
-  <li><a href="#dokumenty" id="toc-dokumenty" class="nav-link" data-scroll-target="#dokumenty"><span class="toc-section-number">2.8</span>  Dokumenty</a></li>
-  <li><a href="#externí-zdroje-bibliografie" id="toc-externí-zdroje-bibliografie" class="nav-link" data-scroll-target="#externí-zdroje-bibliografie"><span class="toc-section-number">2.9</span>  Externí zdroje (bibliografie)</a></li>
-  <li><a href="#madb" id="toc-madb" class="nav-link" data-scroll-target="#madb"><span class="toc-section-number">2.10</span>  MADB</a>
+  <li><a href="#projekty" id="toc-projekty" class="nav-link active" data-scroll-target="#projekty">Projekty</a></li>
+  <li><a href="#akce" id="toc-akce" class="nav-link" data-scroll-target="#akce">Akce</a></li>
+  <li><a href="#lokality" id="toc-lokality" class="nav-link" data-scroll-target="#lokality">Lokality</a></li>
+  <li><a href="#dokumentační-jednotky" id="toc-dokumentační-jednotky" class="nav-link" data-scroll-target="#dokumentační-jednotky">Dokumentační jednotky</a></li>
+  <li><a href="#komponenty" id="toc-komponenty" class="nav-link" data-scroll-target="#komponenty">Komponenty</a></li>
+  <li><a href="#nálezy" id="toc-nálezy" class="nav-link" data-scroll-target="#nálezy">Nálezy</a></li>
+  <li><a href="#pian" id="toc-pian" class="nav-link" data-scroll-target="#pian">PIAN</a></li>
+  <li><a href="#dokumenty" id="toc-dokumenty" class="nav-link" data-scroll-target="#dokumenty">Dokumenty</a></li>
+  <li><a href="#externí-zdroje-bibliografie" id="toc-externí-zdroje-bibliografie" class="nav-link" data-scroll-target="#externí-zdroje-bibliografie">Externí zdroje (bibliografie)</a></li>
+  <li><a href="#madb" id="toc-madb" class="nav-link" data-scroll-target="#madb">MADB</a>
   <ul class="collapse">
   <li><a href="#mapa-archeologických-dokumentačních-bodů-madb" id="toc-mapa-archeologických-dokumentačních-bodů-madb" class="nav-link" data-scroll-target="#mapa-archeologických-dokumentačních-bodů-madb">Mapa archeologických dokumentačních bodů (MADB)</a></li>
   <li><a href="#archeologické-dokumentační-body-adb" id="toc-archeologické-dokumentační-body-adb" class="nav-link" data-scroll-target="#archeologické-dokumentační-body-adb">Archeologické dokumentační body (ADB)</a></li>
   <li><a href="#výškové-body-vb" id="toc-výškové-body-vb" class="nav-link" data-scroll-target="#výškové-body-vb">Výškové body (VB)</a></li>
   </ul></li>
-  <li><a href="#další-pojmy" id="toc-další-pojmy" class="nav-link" data-scroll-target="#další-pojmy"><span class="toc-section-number">2.11</span>  Další pojmy</a>
+  <li><a href="#sec-dalsipojmy" id="toc-sec-dalsipojmy" class="nav-link" data-scroll-target="#sec-dalsipojmy">Další pojmy</a>
   <ul class="collapse">
   <li><a href="#archeologická-databáze-čech-adč" id="toc-archeologická-databáze-čech-adč" class="nav-link" data-scroll-target="#archeologická-databáze-čech-adč">Archeologická databáze Čech (ADČ)</a></li>
   <li><a href="#archeologický-fond" id="toc-archeologický-fond" class="nav-link" data-scroll-target="#archeologický-fond">Archeologický fond</a></li>
@@ -242,14 +264,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#zpráva-o-archeologické-akci-zaa" id="toc-zpráva-o-archeologické-akci-zaa" class="nav-link" data-scroll-target="#zpráva-o-archeologické-akci-zaa">Zpráva o archeologické akci (ZAA)</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/pojmy-a-koncepce.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/pojmy-a-koncepce.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/pojmy.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/pojmy.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Základní pojmy</span></h1>
+<h1 class="title"><span class="chapter-title">Základní pojmy</span></h1>
 </div>
 
 
@@ -267,53 +289,58 @@ ul.task-list li input[type="checkbox"] {
 <p>Řídící jednotkou evidence terénních aktivit v ČR je (v návaznosti na Archeologickou databázi Čech) „archeologická akce“, tedy jeden terénní výzkum. Tento pojem byl v rámci AMČR integrován do dynamického modelu archeologického výzkumu jakožto způsobu tvorby odborných poznatků. V tomto modelu prochází terénní archeologický výzkum postupně několika fázemi, z nichž v každé se pracuje se specifickými pojmy a kategoriemi. Těmito fázemi jsou formulace odborných cílů a územní plánování; vlastní terénní práce; funkční a chronologická analýza prozkoumaného archeologického kontextu a (iv) syntéza a interpretace získaných dat. Poté, co poznatky dospějí do fáze syntézy, mohou být kladeny nové výzkumné otázky a dochází k další iteraci poznávacího cyklu.</p>
 <p>Datový model AMČR je nastaven tak, aby dovedl co nejvěrněji postihnout dynamický tok informací ve zmíněných fázích. Fázím poznávacího procesu odpovídají následující jednotky archeologické evidence: (i) projekty (plánování), (ii) akce a lokality (terénní práce); (iii) komponenty (funkční a chronologická analýza) a (iv) krajinné entity (syntéza).</p>
 <p>Kromě nich existují v AMČR ještě další čtyři důležité skupiny dat, které využívá pro bližší specifikaci podoby a obsahu předchozích kategorií. Jde především o repozitář a soubor metadat terénní dokumentace v repozitářích Archeologických ústavů AV ČR, tzv. (v) dokumenty. Dále jde o (vi) nálezy z terénních výzkumů, kterými jsou jednotlivé komponenty blíže charakterizovány. Pomocným, leč také důležitou informaci nesoucím údajem jsou (vii) prostorové jednotky (PIAN) a (viii) bibliografické záznamy chápané jako externí zdroje.</p>
-<p><img src="figs/cyklus.png" class="img-fluid"></p>
-<section id="projekty" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="projekty"><span class="header-section-number">2.1</span> Projekty</h2>
+<div id="fig-fuu" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/cyklus.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Obr.&nbsp;1: Schéma návaznosti fází archeologického výzkumu</figcaption>
+</figure>
+</div>
+<section id="projekty" class="level2">
+<h2 class="anchored" data-anchor-id="projekty">Projekty</h2>
 <p>Evidenční jednotky terénní činnosti badatelského nebo záchranného rázu evidované již ve fázi přípravy nazýváme projekty. Pro vymezení projektu je rozhodující podnět k výzkumu a provádějící subjekt (oprávněná organizace), lokalizace a příp. projektová dokumentace. Na projekt zpravidla navazuje jedna či (méně často) více terénních akcí.</p>
 </section>
-<section id="akce" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="akce"><span class="header-section-number">2.2</span> Akce</h2>
+<section id="akce" class="level2">
+<h2 class="anchored" data-anchor-id="akce">Akce</h2>
 <p>Archeologická akce je jakákoli logická, tj. prostorově a dobou provedení ucelená a konkrétní osobou/organizací provedená část terénní archeologické činnosti, sloužící jako jednotka evidence. V zásadě může jít o terénní činnost libovolného časového a prostorového rozsahu; u velkých terénních výzkumů (např. výzkumů na liniových stavbách) je ovšem doporučováno evidovat terénní práce jako několik akcí, a to podle území katastrů. Důvodem je přehlednost dat a jejich snazší vyhledávání podle jména katastru, což je jedno z nejčastějších vyhledávacích kritérií.</p>
 <p>Akce je zpravidla pokračováním archeologického projektu; v takovém případě hovoříme o projektové akci. V rámci projektu může proběhnout i několik (projektových) akcí, které se liší prostorovým vymezením, ale teoreticky třeba i sezónou výzkumu.</p>
 <p>Existují i případy akcí, které nesouvisejí s předem evidovaným projektem. Stává se to zejména při retrospektivním zpracování starších archeologických výzkumů, u neplánovaných výzkumů (např. při náhodných nálezech) nebo při aplikaci některých nedestruktivních terénních metod. U těchto typů akcí není jejich předběžná a/nebo zpětná evidence jako projektů možná nebo účelná. Dané akce proto evidujeme samostatně a hovoříme o samostatných akcích.</p>
 </section>
-<section id="lokality" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="lokality"><span class="header-section-number">2.3</span> Lokality</h2>
+<section id="lokality" class="level2">
+<h2 class="anchored" data-anchor-id="lokality">Lokality</h2>
 <p>Specifickým případem terénního výzkumu je vizuální povrchový a letecký průzkum, při kterém bývají evidovány archeologické útvary, ale bez získání movitých nálezů. Při tomto typu terénní práce jsou zpravidla evidovány logické celky odpovídající určitému krajinnému prvku s potenciálním archeologickým významem (např. jeskyně, výšinná poloha) a/nebo specifickému, na povrchu viditelnému archeologickému projevu (příznaky na letecké fotografii, prostor vymezený valy apod.). Takovým celkům (dokumentačním jednotkám) říkáme lokality.</p>
 <p>Smyslem zavedení kategorie lokality je (i) zařadit do evidence prostorové celky známé z různých druhů vizuálního průzkumu, ale dosud řádně nezkoumané a mezi akcemi tudíž nepodchycené; (ii) neztratit informaci o těchto jednotkách jako větších celcích, jelikož mezi akcemi se většinou objevují jen jejich dílčí prozkoumané části, a zároveň (iii) vyčistit databázi akcí od zbytečných, redundantních záznamů typu opakovaných „návštěv lokality“, tedy případů, kdy se větší počet akcí váže ke stejné lokalitě, ale v zásadě nepřináší nové informace.</p>
 </section>
-<section id="dokumentační-jednotky" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="dokumentační-jednotky"><span class="header-section-number">2.4</span> Dokumentační jednotky</h2>
+<section id="dokumentační-jednotky" class="level2">
+<h2 class="anchored" data-anchor-id="dokumentační-jednotky">Dokumentační jednotky</h2>
 <p>Archeologické terénní akce členíme na prostorové celky, tzv. dokumentační jednotky. Za dokumentační jednotku lze považovat celý prostor akce, jeho část odpovídající určité skupině nálezů, příp. jeho část definovanou průběhem výzkumu (např. konkrétní sondu). Akce mohou mít jednu nebo více dokumentačních jednotek různých typů, lokalita má právě jednu.</p>
 <p><img src="figs/typy_akci.png" class="img-fluid"></p>
 </section>
-<section id="komponenty" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="komponenty"><span class="header-section-number">2.5</span> Komponenty</h2>
+<section id="komponenty" class="level2">
+<h2 class="anchored" data-anchor-id="komponenty">Komponenty</h2>
 <p>Komponenta akce je prostorovým, chronologickým a funkčním celkem nálezů z jedné dokumentační jednotky akce, komponenta lokality je analogickou částí lokality, avšak definovaná jen typologicky na základě viditelných povrchových znaků nebo informace z jiných zdrojů. Jako komponentu dokumentu chápeme chronologický a funkční celek archeologické akce doložený výpovědí některého dokumentu.</p>
 <p>Komponenty jsou určeny přiřazením k určitému areálu aktivity (specifické funkční části sídelního areálu, cf.&nbsp;Neustupný 1986) a období (chronologicko-kulturnímu zařazení). Každé komponentě se dále přiřazuje i výčet aktivit, tedy druhů činností, které jsou v rámci komponenty přímo doloženy: např. v areálu „sídliště“ může být kromě aktivity „sídlištní“ (přiřazené automaticky) zachycena i aktivita „pohřební“ (např. pohřeb v sídlištní jámě), „výrobní“ (keramická pec), „deponování“ (depot keramických nádob) a „komunikace“ (cesta vedoucí sídlištěm).</p>
 <p>Komponenty jsou arbitrárně vymezenými jednotkami; rozhodujícím hlediskem při jejich vymezení je přehlednost a srozumitelnost záznamu o obsahu akce. Máme-li např. v rámci menší archeologické akce sídlištní nálezy dvou archeologických kultur, můžeme danou situaci popsat jako jednu dokumentační jednotku se dvěma komponentami. Je-li plocha výzkumu větší a nálezy jednotlivých kultur nejsou rozprostřeny po jejím celém rozsahu, je vhodnější vymezit v rámci akce jednu dokumentační jednotku typu „celek“ a doplnit ji dvěma komponentami menšího rozsahu (obě mohou společnou dokumentační jednotku, ale též rozdílnou). Pokud je na ploše výzkumu několik sond a rozhodneme-li se každou sondu chápat jako samostatnou dokumentační jednotku, bude počet komponent odpovídat počtu sond násobenému počtem archeologických období v nich zastoupených.</p>
 <p>(viz také Negativní zjištění)</p>
 </section>
-<section id="nálezy" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="nálezy"><span class="header-section-number">2.6</span> Nálezy</h2>
+<section id="nálezy" class="level2">
+<h2 class="anchored" data-anchor-id="nálezy">Nálezy</h2>
 <p>V AMČR nepočítáme s podrobným a vyčerpávajícím popisem archeologických nálezů patřících jednotlivým komponentám, nálezy chápeme jen jako specifické vlastnosti komponent, které nám pomáhají charakterizovat pramenné východisko, podle něhož byla komponenta rozpoznána. Bližší popis nálezu je totiž v mnoha případech nezbytný pro pochopení, o jakou akci/komponentu šlo. Např. u komponenty „depot“ je nezbytné uvést, o jaký materiál a druh předmětů jde a někdy může být užitečné specifikovat dokonce čísla muzejní evidence. U velkých komponent je tomu jinak: nálezy stačí evidovat souhrnně a výběrově a uvést při tom jen ty položky, které komponentu nejlépe charakterizují; např. u rozsáhlého pravěkého sídliště uvedeme třeba jen údaje typu „desítky domů“, „stovky zahloubených jam“, příp. „pohřby v sídlištních jamách“ a další charakteristické příklady.</p>
 <p>V rámci AMČR tedy nevzniká pro nálezy (na rozdíl od jiných datových tříd) autoritní seznam položek s jednoznačnými identifikátory; nemovité nálezy mohou být dokonce evidovány v rámci více akcí opakovaně (týž příkop odkrytý opakovaně, základy téže kostelní stavby aj.).</p>
 </section>
-<section id="pian" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="pian"><span class="header-section-number">2.7</span> PIAN</h2>
+<section id="pian" class="level2">
+<h2 class="anchored" data-anchor-id="pian">PIAN</h2>
 <p>Prostorové vymezení archeologických výzkumů je v AMČR zajišťováno povinným vztahem dokumentačních jednotek k některé z jednotek prostorové identifikace. Tyto jednotky nazýváme PIAN (Prostorová identifikace archeologických nálezů). Pojetí prostorových vymezení archeologických akcí jako samostatných databázových objektů (tedy nikoliv jako vlastností záznamů o akcích) je jedním z nových prvků, které AMČR přinesla. Každá jednotka PIAN může mít vazby k většímu počtu akcí nebo lokalit a v případě akcí to platí i naopak.</p>
 </section>
-<section id="dokumenty" class="level2" data-number="2.8">
-<h2 data-number="2.8" class="anchored" data-anchor-id="dokumenty"><span class="header-section-number">2.8</span> Dokumenty</h2>
+<section id="dokumenty" class="level2">
+<h2 class="anchored" data-anchor-id="dokumenty">Dokumenty</h2>
 <p>Dokumentem rozumíme v AMČR prvek dokumentace terénního archeologického výzkumu uložený v archivech ARÚP a ARÚB. Obdobné informační zdroje v jiných institucích chápeme jako externí zdroje; na rozdíl od dokumentů totiž nemůžeme zajistit jejich podrobný metadatový popis ani fulltextovou verzi. Obsah dokumentů lze popsat prostřednictvím komponent dokumentu (analogicky ke komponentám akcí) a nálezů dokumentu. Takový popis má účel zejména u fotografií a plánů, jejichž obsah je pochopitelně vždy užší než obsah celé terénní akce. Jde-li např. o fotografii hrobu starší bronzové, je chronologický a věcný údaj zachycen jako komponenta a nález (dokumentu), podle nichž lze fotografii vyhledat, aniž by bylo nutné probírat stovky jiných fotografií z daného výzkumu. Fyzickým ekvivalentem dokumentu je soubor, příp. několik souborů uložených v repozitářích digitálního archivu. Soubor má svůj vlastní metadatový popis týkající jeho fyzických vlastností, data vzniku, migrace apod.</p>
 </section>
-<section id="externí-zdroje-bibliografie" class="level2" data-number="2.9">
-<h2 data-number="2.9" class="anchored" data-anchor-id="externí-zdroje-bibliografie"><span class="header-section-number">2.9</span> Externí zdroje (bibliografie)</h2>
+<section id="externí-zdroje-bibliografie" class="level2">
+<h2 class="anchored" data-anchor-id="externí-zdroje-bibliografie">Externí zdroje (bibliografie)</h2>
 <p>Bibliografický segment AMČR slouží k napojení záznamů o akcích na zdrojové informace v publikacích, odborných zprávách a šedé literatuře. Jako externí zdroje jsou chápány publikace, novinové články, nepublikované odborné zprávy a jiné informační zdroje, které nejsou uloženy v archivech ARÚP a ARÚB a nejsou tudíž zahrnuty mezi dokumenty.</p>
 </section>
-<section id="madb" class="level2" data-number="2.10">
-<h2 data-number="2.10" class="anchored" data-anchor-id="madb"><span class="header-section-number">2.10</span> MADB</h2>
+<section id="madb" class="level2">
+<h2 class="anchored" data-anchor-id="madb">MADB</h2>
 <p>Extenze MADB vychází z dlouhodobého badatelsko-evidenčního záměru Oddělení archeologie středověku ARÚ Praha - Mapa archeologických dokumentačních bodů na území Pražské památkové rezervace (MADB; PPR) - jenž byl po několik desetiletí spjat se jménem Ladislava Hrdličky (1937–2011). Na jeho odkaz navázal v letech 2013–2017 projekt NAKI (DF13P01OVV014) Integrovaný informační systém archeologických pramenů Prahy, v jehož rámci byl vytvořen obecný nástroj sběru záznamů archeologických dokumentačních bodů (ADB) a výškových bodů (VB) na komplexních lokalitách urbánního charakteru, tedy zejména v historických jádrech měst.</p>
 <section id="mapa-archeologických-dokumentačních-bodů-madb" class="level3">
 <h3 class="anchored" data-anchor-id="mapa-archeologických-dokumentačních-bodů-madb">Mapa archeologických dokumentačních bodů (MADB)</h3>
@@ -329,8 +356,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Další informace též ZDE</p>
 </section>
 </section>
-<section id="další-pojmy" class="level2" data-number="2.11">
-<h2 data-number="2.11" class="anchored" data-anchor-id="další-pojmy"><span class="header-section-number">2.11</span> Další pojmy</h2>
+<section id="sec-dalsipojmy" class="level2">
+<h2 class="anchored" data-anchor-id="sec-dalsipojmy">Další pojmy</h2>
 <section id="archeologická-databáze-čech-adč" class="level3">
 <h3 class="anchored" data-anchor-id="archeologická-databáze-čech-adč">Archeologická databáze Čech (ADČ)</h3>
 <p>Původní databáze archeologických výzkumů a nálezů. Vznikla v ARÚP v r. 1990 a byla průběžně doplňována jak rešerší literatury, archivů a muzejních sbírek, tak informacemi o výsledcích nových terénních výzkumů, které oprávněné organizace předávají do centrálního archivu. K r. 2012 ADČ zahrnovala kolem 94 tis. záznamů, které byly v rámci projektu AMČR obsahově a prostorově revidovány. V r. 2016 probíhá její transformace do AMČR.</p>
@@ -427,9 +454,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -494,6 +535,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -536,12 +663,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./historie.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Historie AMČR</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Historie AMČR</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./role.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Uživatelské role</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./implementace.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Technická implementace</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -570,8 +697,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
-      <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="figs/AISCR_CZ_H_CMYK_Pozitiv.png" height="50"></a><br>
-</div>
+    <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="figs/AISCR_CZ_H_CMYK_Pozitiv.png" height="50"></a></div>
     <div class="nav-footer-right">Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
