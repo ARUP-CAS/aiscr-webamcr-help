@@ -11,10 +11,10 @@ book:
   downloads: [pdf, docx]
   repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
   repo-actions: [source, edit, issue]
-  
+
   page-footer:
     background: light
-    left: 
+    left:
       - icon: github
         href: https://github.com/ARUP-CAS/
       - icon: twitter
@@ -22,12 +22,12 @@ book:
       - icon: facebook
         href: https://www.facebook.com/ArcheologickyInformacniSystem/
     center: |
-      [![](figs/AISCR_CZ_H_CMYK_Pozitiv.png){height=50}](https://aiscr.cz/)  
+      [![](figs/AISCR_CZ_H_CMYK_Pozitiv.png){height=50}](https://aiscr.cz/)
     right: |
       Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.
-  
+
   sidebar:
-    title: "Nápověda a dokumentace AMČR"
+    title: "Dokumentace AMČR"
     # subtitle: Fuu
     logo: "figs/AMCR_cmyk_pozitiv-03.png"
     search: true
@@ -36,46 +36,53 @@ book:
     #     href: https://github.com/ARUP-CAS/aiscr-webamcr-help/
     #     text: GitHub
     footer: |
-      Fuu
+      Stránka je ve výstavbě!
 
   chapters:
     - index.qmd
-    - part: o-systemu-amcr.qmd
+    - historie.qmd
+    - pojmy.qmd
+    - implementace.qmd
+    - role.qmd
+    - datovy-model.qmd
+    - identifikatory.qmd
+    - procesy.qmd
+    - heslare.qmd
+    - part: "Pracovní postupy"
       chapters:
-        - historie.qmd
-        - pojmy-a-koncepce.qmd
-        - role.qmd
-        - datovy-model.qmd
-        - procesy-a-stavy.qmd
-        - heslare.qmd
         - pracovni-postupy.qmd
     - part: "Popis aplikace"
       chapters:
-      - aplikace.qmd
+        - aplikace.qmd
   appendices:
     - admin.qmd
 
 format:
   html:
-    theme: 
+    theme:
       light: yeti
       # dark: darkly
     css: styles.css
     df-print: kable
-  pdf: 
+  pdf:
     documentclass: scrreprt
     papersize: a4wide
     lot: true
     lof: true
   docx: default
-  
-execute: 
+
+execute:
   freeze: auto
   echo: false
-  
+
+crossref:
+  chapters: false
+  tbl-prefix: "Tab."
+  tbl-title: "Tab."
+  fig-prefix: "Obr."
+  fig-title: "Obr."
+
 callout-appearance: simple
-number-depth: 2
-toc-title: "Navigace"
-
-
-
+number-sections: false
+# number-depth: 0
+toc-title: "Obsah"
