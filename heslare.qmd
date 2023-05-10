@@ -16,4 +16,6 @@ Hesláře Areály a Období umožňují provádět popis komponent pomocí obecn
 
 ## Prostorové vymezení
 
+## Archiv dokumentů
+
 ## Sondy (MADB)
