@@ -48,12 +48,12 @@ book:
     - identifikatory.qmd
     - procesy.qmd
     - heslare.qmd
-    - part: "Pracovní postupy"
-      chapters:
-        - pracovni-postupy.qmd
-    - part: "Popis aplikace"
-      chapters:
-        - aplikace.qmd
+    # - part: "Pracovní postupy"
+    #   chapters:
+    #     - pracovni-postupy.qmd
+    # - part: "Popis aplikace"
+    #   chapters:
+    #     - aplikace.qmd
     - zdroje.qmd
   appendices:
     - admin.qmd
