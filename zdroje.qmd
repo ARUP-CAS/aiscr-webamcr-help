@@ -1,4 +1,6 @@
-# Zdroje
+# Zdroje {.unnumbered}
+
+## Bibliografie
 
 ::: {#refs}
 :::

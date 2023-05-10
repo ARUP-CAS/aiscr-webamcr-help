@@ -49,9 +49,7 @@ book:
     - procesy.qmd
     - heslare.qmd
     - pracovni-postupy.qmd
-    # - part: "Popis aplikace"
-    #   chapters:
-    #     - aplikace.qmd
+    - aplikace.qmd
     - zdroje.qmd
   appendices:
     - admin.qmd
