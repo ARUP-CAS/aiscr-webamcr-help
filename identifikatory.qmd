@@ -1,1 +1,27 @@
 # Identifikátory
+
+Základním cílem AMČR je vytvořit jednotný a trvale udržitelný systém evidence terénních archeologických akcí, jejich výsledků a s nimi souvisejících informačních zdrojů. Nezbytnou součástí systému jsou proto autoritní seznamy položek v jednotlivých datových třídách, v nichž každý záznam získává jedinečný a persistentní identifikátor, přidělovaný jak nově přibývajícím položkám, tak dodatečně importovaným starším datům.
+
+Základem systému identifikátorů AMČR je identifikátor projektu nebo samostatné akce. Tento identifikátor by měl provázet terénní výzkum ve všech jeho fázích a být spojujícím článkem, který jednoznačně propojuje odborné databáze, administrativu terénních výzkumů, příslušné dokumenty, publikace a potenciálně i nálezy v muzejních sbírkách. Identifikátory mají logickou podobu a do jisté míry i srozumitelnou formu: z identifikátoru lze např. vyčíst, ke kterému regionu patří (Čechy/Morava – C/M) a o jakou datovou třídu či část datové třídy jde. Tam, kde to bylo možné, byly zachovány starší identifikátory, které již mohou kolovat v literatuře (např. čísla projektů v systému IDAV, čísla fotografií archivu ARÚP, stará čísla jednací atd.), byť někdy v poněkud pozměněném formátu.
+
+Systém rozlišuje identifikátory definitivní a provizorní. Přidělení definitivního identifikátoru je závislé na procesním stavu, ve kterém se aktuálně záznam nachází. Díky tomu zbytečně nevznikají v řadách identifikátorů mezery, způsobené odstraňováním invalidních záznamů a přírůstek identifikátorů je tak regulován. Definitivní identifikátory jsou akcím přidělovány po odeslání uživatelem ke kontrole, projektům po zápisu a lokalitám, dokumentům, bibliografii a PIAN při archivaci. Veškeré záznamy je také možno do systému dávkově naimportovat s již definitivním identifikátorem. Provizorní identifikátory jsou před potvrzením a převodem do definitivní podoby označeny prefixem „X-“.
+
+:::{.column-page-inset}
+```{r}
+#| label: tbl-identifikatory
+#| tbl-cap: "Systém identifikátorů"
+
+read.csv("tabs/identifikatory.csv") |>
+  knitr::kable()
+```
+:::
+
+:::{.column-body}
+```{r}
+#| label: tbl-rady
+#| tbl-cap: "Řady identifikátorů dokumentů"
+
+read.csv("tabs/rady.csv") |>
+  knitr::kable()
+```
+:::

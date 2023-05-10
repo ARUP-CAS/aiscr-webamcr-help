@@ -1,6 +1,9 @@
-# Datový model
+# Struktura dat
 
-Aplikaci AMČR lze popsat jako provázaný systém několika segmentů (skupin tabulek, datových tříd a heslářů) vztahujících se k základním funkcím informačního systému. Některé segmenty jsou zcela integrovány (např. komponenty v akcích), jiné tvoří volněji připojené moduly na periferii systému (MADB aj.). Základními segmenty AMČR jsou:
+Aplikaci AMČR lze popsat jako provázaný systém několika segmentů (skupin tabulek, datových tříd a heslářů) vztahujících se k základním funkcím informačního systému.
+Některé segmenty jsou zcela integrovány (např. komponenty v akcích), jiné tvoří volněji připojené moduly na periferii systému (MADB aj.).
+
+Základními segmenty AMČR jsou:
 
 - registr terénních zásahů (projektů);
 - evidence archeologických akcí (v rámci registrovaných projektů i mimo ně);
@@ -13,6 +16,96 @@ Aplikaci AMČR lze popsat jako provázaný systém několika segmentů (skupin t
 - katalog bibliografických záznamů (tzv. externích zdrojů);
 - popis dokumentačních jednotek - archeologických dokumentačních bodů (MADB).
 
-
 Systém je koncipován tak, že většina jeho prvků představuje samostatné databázové objekty.
-Např. prostorové vymezení archeologických akcí nebo bibliografický odkaz nejsou v AMČR zaznamenány jako „vlastnosti“ záznamu o akci (které by bylo možno zachytit formálně různým zápisem), nýbrž jako vztah mezi objekty dvou samostatných datových tříd, které navazují vzájemné vazby, a to zpravidla typu 1:N nebo N:N. K jedné akci se tedy může vázat více bibliografických záznamů, avšak zároveň k týmž bibliografickým položkám mohou být navázány jiné akce či lokality. Tento koncept plně využívá výhod relační databáze, avšak je blízký také objektově orientovaným datovým modelům, které dekompozici datových tříd na základní jednotky dále prohlubují. Zároveň naplňuje potřeby autoritního značení jednotlivých záznamů pomocí identifikátorů.
+Např. prostorové vymezení archeologických akcí nebo bibliografický odkaz nejsou v AMČR zaznamenány jako „vlastnosti“ záznamu o akci (které by bylo možno zachytit formálně různým zápisem), nýbrž jako vztah mezi objekty dvou samostatných datových tříd, které navazují vzájemné vazby, a to zpravidla typu 1:N nebo N:N.
+K jedné akci se tedy může vázat více bibliografických záznamů, avšak zároveň k týmž bibliografickým položkám mohou být navázány jiné akce či lokality.
+Tento koncept plně využívá výhod relační databáze, avšak je blízký také objektově orientovaným datovým modelům, které dekompozici datových tříd na základní jednotky dále prohlubují.
+Zároveň naplňuje potřeby autoritního značení jednotlivých záznamů pomocí identifikátorů.
+
+## Datový model
+
+::: {.column-page-inset}
+
+![Datový model databáze AMČR](figs/datovy_model.png){#fig-datovy-model}
+
+:::
+
+## Registr projektů
+
+V registru terénních zásahů systém eviduje zejména administrativní údaje k archeologickým [projektům](pojmy.qmd#projekty).
+Datová třída **Projekty** obsahuje informace o podnětu k terénnímu zásahu, jeho lokalizaci (slovně a bodem v mapě – nejde ovšem o [PIAN](pojmy.qmd#pian)), stavebníkovi a předpokládaném datu zahájení.
+Během dalšího průběhu je záznam o projektu doplňován datem zahájení a ukončení terénních prací a archivace.
+K projektu je možno přidávat také dílčí dokumentaci, která má však pouze informativní charakter a není přímou součástí [Digitálního archivu AMČR](pojmy.qmd#digitální-archiv-amčr).
+
+## Evidence archeologických akcí
+
+Popis archeologické [akce](pojmy.qmd#akce) v AMČR víceméně odpovídá formuláři [Zpráva o archeologické akci](pojmy.qmd#zpráva-o-archeologické-akci-zaa), který je od 90. let užíván v praxi archivech ARÚP a ARÚB.
+Jeho obsahem jsou údaje o správní jednotce (katastru), okolnostech výzkumu (které vedly k jeho provedení, příp. vymezení), jeho průběhu (vedoucí, organizace, data provedení) a použitých metodách.
+Projektové akce jsou vždy provázány vztahem ke konkrétnímu projektu, u samostatných akcí tento vztah chybí.
+Pomocí [dokumentačních jednotek](pojmy.qmd#dokumentační-jednotky) jsou akce děleny na logické prostorové celky (části, sondy), které jsou dále popisovány pomocí [komponent](pojmy.qmd#komponenty), [nálezů](pojmy.qmd#nálezy) a jednotek [PIAN](pojmy.qmd#pian).
+
+![Formulář správa o archeologické akci (ZAA)](figs/zaa.png){#fig-zaa}
+
+## Evidence lokalit
+
+Popisný systém lokalit se podobá archeologickým akcím, jeho struktura je však jednodušší. Odpadají zde údaje týkající se okolností terénního výzkumu a data provedení; naproti tomu se uvádí jméno lokality (pokud existuje) a její typ (ve smyslu formální, „fenotypické“ struktury – např. „příznaky letecké archeologie“, „mohylník“, „hrad“ atd.). Každé lokalitě odpovídá právě jedna dokumentační jednotka, která ji vymezuje v prostoru vazbou na PIAN a umožňuje ji popsat na úrovni komponent. Movité nálezy nejsou pro lokality evidovány.
+
+## Popis akcí a lokalit
+
+Analytický potenciál dat AMČR je dán deskriptivním systémem, který umožní data popisovat nejen po stránce administrativní, ale také obsahové. Popis odborného obsahu je řešen pomocí datové třídy Komponenty, která je vázána na dokumentační jednotky akcí a lokalit. Komponenty definujeme chronologickým zařazením (heslář Období), významovým určením (heslář Areál), zachycených minulých aktivit (heslář Aktivity) a doplňujících popisných údajů.
+
+Nálezy tvoří samostatnou datovou třídu podřízenou komponentám, avšak nejde o autoritní údaje, ale pouze o rozšíření popisu komponenty. Nálezy se dělí na „objekty“ a „předměty“. Ke každému typu náleží dvojstupňový heslář (Kategorie a Druh nálezu), jehož položky lze dále upřesnit pomocí specifikujících výrazů, orientačního kvantitativního údaje a poznámky. V principu nejsou evidovány konkrétní nálezy (de facto ovšem někdy ano), ale pouze jejich druhy. Z tohoto důvodu záznamy o nálezech nemají procesní stavy ani vlastní identifikátory.
+
+## Digitální archiv a repozitář
+
+Modul slouží k ukládání a popisu různých druhů dokumentů produkovaných v rámci archeologických akcí od terénní dokumentace, po závěrečné zprávy a expertní posudky. Ukládány a evidovány jsou textové dokumenty, digitální data, fotografie, plány a další typy dokumentů. Kategorizace dokumentů reflektuje toto dělení a respektuje praxi, která historicky vznikla v ARÚP během posledních desetiletí. Rozlišováno je proto 15 „řad“ dokumentů, každá s vlastní řadou identifikátorů.
+
+Datová třída Dokumenty popisuje obsah informačního zdroje a fyzickou podobu analogového originálu (pokud existuje). Popis dokumentů vychází ze systému, který vznikl po r. 2002 v rámci Digitálního archivu ARÚP; v současné době je většina dokumentů již popsána. Větším problémem než sám popis ovšem představuje vytvoření vazeb mezi dokumenty a konkrétními akcemi či lokalitami; tento úkol byl dosud limitován absencí jejich autoritních seznamů.
+
+Popis dokumentů zahrnuje typ dokumentu (např. „nálezová zpráva“, „plán objektu“, „fotografie sondy“), autora dokumentu, materiál originálu (např. „černobílý negativ“, „digitální text“), datum vzniku a další údaje. Vlastnosti, které jsou specifické jen pro některé typy dokumentů, jsou uloženy v samostatných tabulce Extra data.
+
+Tabulka Extra data obsahuje údaje získané z exif souborů digitálních fotografií (např. přesné datum snímku a zeměpisné souřadnice zachycené kamerou), dále rozměry fotografie či plánu, číslo objektu podle původní terénní dokumentace a údaje o události, k níž se dokument váže (v případě fotografií dokumentujících život instituce). Lze také připojit jména osob, které jsou na snímcích zachyceny či popis událostí, ze kterých fotografie pocházejí (např. zahraniční expedice či konference).
+
+Soubory jsou metadatové popisy digitálních dokumentů a digitálních kopií analogových dokumentů obsažených v repozitáři na úrovni souborového systému. Tabulka obsahuje popis fyzické podoby a historie vzniku (nikoliv obsahu) digitálních dokumentů (např. název, původní označení, velikost, datum uložení atd.).
+
+## Evidence leteckých snímků
+
+Pro potřeby evidence leteckých snímků je systém doplněn o dvojici datových tříd – Tvary a Lety. Ostatní popisné údaje jsou evidovány standardní formou v nativních datových třídách (zejména Dokumenty, Lokality, Komponenty, PIAN). Datová třída Tvary obsahuje popis příznaků (vegetačních, půdních atd.) pozorovaných na leteckých fotografiích (např. „macula“, „ohrazení pravoúhlé malé“ apod.). Datová třída Lety shrnuje záznamy o terénních „akcích“ v oblasti letecké fotografie (datum průzkumného letu, počasí, letiště, jméno pilota, jméno archeologa apod.).
+
+Evidence leteckých snímků je úzce svázána s dokončením nového rozhraní Digitálního archivu AMČR a bude dostupná po jeho spuštění na podzim 2017.
+
+## Popis obsahu dokumentů
+
+Dokumenty podle obsahu dělíme na logické části, které lze vztahovat k dílčím archeologickým akcím či lokalitám. Tyto logické části nazýváme Jednotkami dokumentu (analogicky k dokumentačním jednotkám akcí). Jednotky dokumentu mohou mít svůj vlastní odborný popis pomocí komponent a nálezů a zároveň zprostředkovávají vazbu mezi dokumentem a konkrétní archeologickou akcí či lokalitou.
+
+Odborný popis obsahu dokumentů má dvojí význam. Za prvé, dokumenty (zejména hlášení a nálezové zprávy) někdy obsahují informace o terénních výzkumech, které nejsou reportovány v záznamech archeologických akcí, nebo (a to je častější) není zatím mezi dokumentem a záznamem o akci nastavena vazba. Pro tyto případy je v AMČR vytvořena datová třída Neidentifikované akce ve formě rozšiřujících informací o jednotce dokumentu. Tyto záznamy simulují záznamy o terénních akcích, ale jakmile bude k jednotkám dokumentu vytvořena nebo nalezena příslušná akce či lokalita a dané informace budou na ni připojeny, virtuální „neidentifikovaná akce“ zanikne.
+
+Za druhé, v případě dokumentů, které se nevztahují k akci jako celku (např. nálezová zpráva), nýbrž jen k jejím dílčím částem (např. fotografie či plán objektu), je popis obsahu jednotlivých dokumentů nezbytný. Jde-li např. o fotografii hrobu starší bronzové, je chronologický a věcný údaj zachycen jako komponenta a nález (dokumentu), podle nichž lze fotografii vyhledat, aniž by bylo nutné probírat veškerou dokumentaci z daného výzkumu (jehož větší část může patřit zcela jinému období a areálům).
+
+Vazba mezi dokumentem a terénní akcí může být v principu tří typů:
+
+    V prvním případě jde o vazbu mezi akcí a její primární terénní dokumentací v archivu. Tuto vazba vzniká napojením akce na příslušnou jednotku dokumentu uloženého v repozitáři ARÚP/ARÚB.
+    V druhém případě jde o vztah záznamu akce k dokumentu, který z hlediska akce obsahuje jen sekundární informaci (např. údaj o dalších výzkumech na stejném místě, analogie k nálezům apod.).
+    Třetím případem je vztah akce k dokumentu uloženému mimo repozitáře ARÚP/ARÚB.
+
+Druhý a třetí typ vazby zařazujeme mezi „externí odkazy“, tedy vztahy mezi akcí a bibliografickými záznamy.
+
+Validita vazby mezi dokumentem a konkrétní archeologickou akcí může být v tomto okamžiku nejasná, a to zejména v otázce rozlišení prvního a druhého typu vazby. V průběhu revize dat sice byly tyto vazby revidovány, avšak revizi dosud nelze považovat za dokončenou. Z tohoto důvodu je datový model opatřen třídou Odkazy, která provazuje dokumenty a akce (lokality) v případě, že přímé napojení dokumentu k akci je nejisté. Postupným zpracováním dat budou „odkazy“ validovány a převáděny buď na přímé vazby mezi akcí a jednotkou dokumentu, nebo na externí odkazy. Pro systémové vyhledávací funkce však typ propojení nehraje roli.
+
+## Evidence PIAN
+
+PIAN je prostorový útvar vymezující některou z dokumentačních jednotek archeologické akce či lokality. Jednotky PIAN se liší tvarem (polygon, linie nebo bod) a přesností (stupně 1-4). Stupně přesnosti odpovídají možné chybě do (nižších) jednotek metrů, desítek metrů, stovek metrů, resp. možnosti lokalizovat nález pouze jménem katastru. Jednotka PIAN může mít vazby k většímu počtu dokumentačních jednotek (nezávisle na typu), neboť uživatel má možnost napojovat záznamy na již existující PIAN a zamezit tak vzniku redundantních údajů. PIAN je v systému ukládán na dvou úrovních; jednak v rámci metadatového popisu typu (tvaru), přesnosti a autora vymezení jednotky, jednak na úrovni geometrie geografických prvků. PIAN v přesnostech 1–3 jsou vymezovány uživatelem v mapě v aplikačním prostředí AMČR. Jednotky PIAN s přesností 4 jsou vymezeny systémově (automaticky) na základě pravidelně aktualizované polygonové vrstvy katastrálních území ČR.
+
+Systém AMČR z důvodu integrace starších dat nepracuje pouze s heslářem aktuálních katastrálních území, ale jsou v něm zahrnuty také katastry staré, jež mohly administrativně zaniknout v důsledku slučování, přejmenování, dělení apod. Vzhledem k tomu, že v oborové literatuře je jméno katastru užíváno jako jeden s definujících identifikačních znaků akcí a lokalit, nebylo možné provést prostý převod na současný stav, neboť by došlo k podstatné ztrátě informací. Tzv. staré katastry tak sice nelze užívat při popisu projektových akcí (vznikají vždy nově), jejich užití je však možné v případě samostatných akcí. Za starý katastr považujeme takový, který (a) názvem neodpovídá žádnému z aktuálních katastrů, nebo (b) jeho definice v mapě ani rámcově neodpovídá stávajícímu vymezení. Takové katastry jsou v hesláři označeny pomocí symbolu * a jejich zobrazení záleží na uživatelské volbě. Aktualizace hesláře katastrů a tím i označení starých katastrů probíhá zpravidla jednou ročně. Při vzniku nových katastrálních území tak k jejich zařazení do hesláře dojde nejdéle s ročním zpožděním. Východiskem pro evidenci starých katastrů bylo porovnání stavu územního dělení v letech 1949 a 2016.
+
+Vyhledávací funkce umožňují tvořit dotazy jak na základě starých katastrů i aktuálních katastrů, kdy jsou data vedená pod starými katastry na základě geoprostorové korelace zobrazena současně s daty vázanými na stávající katastrální území a naopak ke starým katastrům jsou automaticky napojována data katastrů aktuálních.
+
+## Katalog externích zdrojů
+
+Bibliografie je v AMČR evidována pomocí datové třídy Externí zdroje, která obsahuje autoritní seznam bibliografických záznamů. Pojem „externí zdroj“ byl zaveden proto, že jde o informace uložené mimo repozitář ARÚP/ARÚB. Mezi nimi nalezneme všechny typy publikací, šedé literatury a nepublikovaných zpráv. Struktura popisu odpovídá oborovému citačnímu standardu (AR 1998, 336-339) a je doplněna o identifikátor v knihovním systému ALEPH (pole sysno), užívaném Knihovnou ARÚP, díky čemuž je možná pravidelná aktualizace obsahu databáze, stejně jako snadné vyhledávání fyzických svazků v knihovně. Externí zdroje jsou prostřednictvím Externích odkazů provázány s akcemi a lokalitami, přičemž je možné uvádět konkrétní stranový rozsah každého takového odkazu (paginaci). S ukládáním fulltextových souborů systém AMČR nepočítá, ale pomocí identifikátoru typu sysno umožňuje propojení na knihovnické systémy, které takové soubory obsahují, nebo v budoucnu obsahovat budou.
+
+## Popis MADB
+
+Mapa archeologických dokumentačních bodů (MADB) je stejně jako modul leteckých snímků plně integrován do systému. Rozšiřuje systém v oblasti dokumentačních jednotek, kde k dokumentačním jednotkám typu sonda připojuje další popis Dokumentačních bodů a Výškových bodů.
+
+Pro MADB je v rámci projektu Integrovaný informační systém archeologických pramenů Prahy implementováno speciální webové rozhraní, které umožňuje provázání údajů MADB s další evidencí, zejména pak s fondy Národního památkového ústavu. Rozhraní je dostupné na webu http://www.praha-archeologicka.cz/ a bude uvedeno do plného provozu v roce 2017.
