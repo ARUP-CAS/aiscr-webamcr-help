@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Nápověda a dokumentace AMČR - 7&nbsp; Procesní pravidla</title>
+<title>Nápověda a dokumentace AMČR - 7&nbsp; Procesní pravidla a stavy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./procesy.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Procesní pravidla</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./procesy.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Procesní pravidla a stavy</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -168,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./procesy.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Procesní pravidla</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Procesní pravidla a stavy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -208,14 +208,25 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Obsah</h2>
+   
+  <ul>
+  <li><a href="#procesní-stavy-projektů" id="toc-procesní-stavy-projektů" class="nav-link active" data-scroll-target="#procesní-stavy-projektů">Procesní stavy projektů</a></li>
+  <li><a href="#procesní-stavy-akcí" id="toc-procesní-stavy-akcí" class="nav-link" data-scroll-target="#procesní-stavy-akcí">Procesní stavy akcí</a></li>
+  <li><a href="#procesní-stavy-lokalit" id="toc-procesní-stavy-lokalit" class="nav-link" data-scroll-target="#procesní-stavy-lokalit">Procesní stavy lokalit</a></li>
+  <li><a href="#procesní-stavy-dokumentů" id="toc-procesní-stavy-dokumentů" class="nav-link" data-scroll-target="#procesní-stavy-dokumentů">Procesní stavy dokumentů</a></li>
+  <li><a href="#procesní-stavy-externích-zdrojů" id="toc-procesní-stavy-externích-zdrojů" class="nav-link" data-scroll-target="#procesní-stavy-externích-zdrojů">Procesní stavy externích zdrojů</a></li>
+  <li><a href="#procesní-stavy-jednotek-pian" id="toc-procesní-stavy-jednotek-pian" class="nav-link" data-scroll-target="#procesní-stavy-jednotek-pian">Procesní stavy jednotek PIAN</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/procesy.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/procesy.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Procesní pravidla</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Procesní pravidla a stavy</span></h1>
 </div>
 
 
@@ -235,14 +246,350 @@ ul.task-list li input[type="checkbox"] {
 <p>Procesním stavem rozumíme dílčí fázi archeologické (terénní) aktivity, což lze na obecnější rovině chápat jako specifickou fázi vzniku archeologické informace. Např. každý projekt musí být nejprve zapsán do systému (stav P1), a to s některými povinnými popisnými údaji. Zapsaný projekt si může některá z oprávněných organizací rezervovat k provedení výzkumu (P2), přičemž doplňuje některé údaje a zároveň dočasně omezuje dostupnost jiných pro ostatní uživatele (např. osobní údaje týkající se stavebníka). Daná <a href="https://arup-cas.github.io/aiscr-webamcr-help/pojmy-a-koncepce.html#opr%C3%A1vn%C4%9Bn%C3%A1-archeologick%C3%A1-organizace">oprávněná organizace</a> nyní získává povinnost zahájit a oznámit terénní práce (P3), informovat o jejich ukončení (P4) a v zákonné lhůtě podat závěrečnou informaci spolu s <a href="https://arup-cas.github.io/aiscr-webamcr-help/pojmy-a-koncepce.html#n%C3%A1lezov%C3%A1-zpr%C3%A1va">nálezovou zprávou</a> (P6). Poté Archivář rozhoduje, zda podané podklady je třeba vrátit k doplnění/přepracování (P7), nebo je možno je uznat za dostatečné a archivovat (P8).</p>
 <p>Podobným způsobem probíhá i životní cyklus akcí, který má různé varianty, a to podle typu akce (projektová akce/samostatná akce). Projektové akce procházejí pouze stavy A1-A2-A6-A7-A8, protože podávat závěrečnou informaci o výsledcích výzkumu bez předepsané nálezové zprávy není povoleno. U samostatných akcí, převážně starých výzkumů, kde zhotovení úplné nálezové zprávy je už málo pravděpodobné, je tato praxe povolena a jejich životní cyklus se tedy skládá ze všech uvedených kroků. V poněkud jednodušší podobě se procesní stavy vyskytují i u záznamů dalších datových tříd.</p>
 <p>Přechod od jednoho procesního stavu k druhému je řízen interakcemi systému, uživatele a archiváře. Systém eviduje datum přechodu jednotky z jednoho stavu do druhého a uživatele, který přechod provedl. V případě stavů, které mohou být nabývány opakovaně (např. „vrácení zprávy o akci k dopracování“) se eviduje i historie změn a důvody, které k nim vedly.</p>
-<div class="quarto-figure quarto-figure-center">
+<div id="fig-stavy" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="figs/stavy_schema.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Návaznost procesních stavů projektů a akcí</figcaption>
+<figcaption class="figure-caption">Obr.&nbsp;7.1: Návaznost procesních stavů projektů a akcí</figcaption>
 </figure>
+</div>
+<section id="procesní-stavy-projektů" class="level2">
+<h2 class="anchored" data-anchor-id="procesní-stavy-projektů">Procesní stavy projektů</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-stavy-projekty" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Tab.&nbsp;7.1: Procesní stavy projektů</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 4%">
+<col style="width: 92%">
+<col style="width: 2%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Stav</th>
+<th style="text-align: left;">Název</th>
+<th style="text-align: left;">Vysvětlivka</th>
+<th style="text-align: left;">Provádí</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">P1</td>
+<td style="text-align: left;">Zapsaný</td>
+<td style="text-align: left;">Za zapsaný je považován takový záznam o projektu, který obsahuje údaje o lokalizaci, plánovaném zahájení a objednateli, vč. rámcové lokalizace projektu v&nbsp;mapě. Projekt lze zapsat pomocí formuláře Zapsat projekt. Zapsaný projekt je dostupný pro přihlášení kteroukoli oprávněnou organizací pomocí obrazovky Přihlásit projekt. V&nbsp;momentě zápisu je projektu přidělen definitivní identifikátor.</td>
+<td style="text-align: left;">Archeolog</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">P2</td>
+<td style="text-align: left;">Přihlášený</td>
+<td style="text-align: left;">Projekt vybraný a přihlášený ke konkrétní oprávněné archeologické organizaci pomocí obrazovky Přihlásit projekt. Výběrem konkrétního projektu, doplněním povinných údajů a potvrzením se oprávněná organizace zavazuje k&nbsp;provedení výzkumu. Projekt není dostupný ostatním oprávněným organizacím k úpravám. V&nbsp;této fázi je možné volně připojovat projektovou dokumentaci. V této fázi je též nutné vyplnit korektní údaje o památkové ochraně.</td>
+<td style="text-align: left;">Archeolog</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">P3</td>
+<td style="text-align: left;">Zahájený v&nbsp;terénu</td>
+<td style="text-align: left;">Postihuje běžící projekty, u nichž bylo pomocí obrazovky Zahájit terén zadáno datum zahájení terénních prací. U těchto projektů je možno k&nbsp;projektu přidávat Karty akce pro podávání údajů o odborných výsledcích projektu.</td>
+<td style="text-align: left;">Archeolog</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">P4</td>
+<td style="text-align: left;">Ukončený v&nbsp;terénu</td>
+<td style="text-align: left;">Projekt je považován za ukončený po skončení jeho terénní části. Datum ukončení je do systému zadáváno pomocí obrazovky Ukončit terén a od tohoto data začíná běžet lhůta pro odevzdání nálezové zprávy. U těchto projektů je možno k&nbsp;projektu přidávat Karty akcí pro podávání údajů o odborných výsledcích projektu.</td>
+<td style="text-align: left;">Archeolog</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">P5</td>
+<td style="text-align: left;">Uzavřený</td>
+<td style="text-align: left;">Projekt je uzavřený po vyplnění potřebných údajů k&nbsp;jednotlivým akcím, včetně prostorového vymezení, připojení všech nálezových zpráv a odeslání ke kontrole pomocí obrazovky Uzavřít projekt.</td>
+<td style="text-align: left;">Archeolog</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">P6</td>
+<td style="text-align: left;">Archivovaný</td>
+<td style="text-align: left;">Projekt je automaticky archivován, jakmile byl uzavřený pracovníkem oprávněné organizace a jsou archivovány všechny obsažené Karty akcí. Archivované projekty jsou viditelné ve Vyhledávání.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">P7</td>
+<td style="text-align: left;">Navržen ke zrušení</td>
+<td style="text-align: left;">Projekt byl uživatelem pomocí Karty projektu navržen ke zrušení, neboť nedošlo k&nbsp;jeho realizaci, nebo se jedná o chybný zápis.</td>
+<td style="text-align: left;">Archeolog</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">P8</td>
+<td style="text-align: left;">Zrušený</td>
+<td style="text-align: left;">Projekt byl správcem systému pomocí Karty projektu zrušen, neboť nedošlo k&nbsp;jeho realizaci, nebo se jedná o chybný zápis.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="procesní-stavy-akcí" class="level2">
+<h2 class="anchored" data-anchor-id="procesní-stavy-akcí">Procesní stavy akcí</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-stavy-akce" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Tab.&nbsp;7.2: Procesní stavy akcí</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 6%">
+<col style="width: 86%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Stav</th>
+<th style="text-align: left;">Název</th>
+<th style="text-align: left;">Vysvětlivka</th>
+<th style="text-align: left;">Provádí</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A0</td>
+<td style="text-align: left;">Nerevidovaná</td>
+<td style="text-align: left;">Akce byla do systému vložena dávkově pomocí importu a věcný obsah záznamu čeká na kontrolu. Nerevidované akce jsou viditelné ve Vyhledávání a jsou opatřeny definitivním identifikátorem.</td>
+<td style="text-align: left;">Administrátor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A1</td>
+<td style="text-align: left;">Rozepsaná</td>
+<td style="text-align: left;">Akce byla založena, avšak na Kartě akce nebyly doplněny všechny údaje a akce nebyla postoupena k&nbsp;dalšímu zpracování. Identifikátor akce je pouze dočasný a definitivní je přidělen až po přechodu akce do libovolného dalšího stavu.</td>
+<td style="text-align: left;">Badatel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A2</td>
+<td style="text-align: left;">ZAA podaná</td>
+<td style="text-align: left;">Karta akce obsahuje všechny potřebné údaje, avšak akce byla odeslána k&nbsp;archivaci bez nálezové zprávy z&nbsp;důvodu její nedostupnosti.</td>
+<td style="text-align: left;">Badatel</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A3</td>
+<td style="text-align: left;">ZAA vrácená</td>
+<td style="text-align: left;">Akce byla správcem systému vrácena k&nbsp;doplnění chybných či chybějících údajů na Kartě akce.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A4</td>
+<td style="text-align: left;">ZAA archivovaná</td>
+<td style="text-align: left;">Akce byla po kontrole všech údajů správcem systému archivována bez nálezové zprávy. Dodání nálezové zprávy již v&nbsp;budoucnu nelze očekávat. Akce v&nbsp;tomto stavu jsou viditelné ve Vyhledávání.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A5</td>
+<td style="text-align: left;">NZ odložená</td>
+<td style="text-align: left;">Akce byla po kontrole všech údajů správcem systému archivována bez nálezové zprávy, která však bude dodána v&nbsp;budoucnu. Akce v&nbsp;tomto stavu jsou viditelné ve Vyhledávání.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A6</td>
+<td style="text-align: left;">NZ podaná</td>
+<td style="text-align: left;">Akce byla odeslána ke kontrole správci systému a obsahuje všechny potřebné údaje, včetně nálezové zprávy.</td>
+<td style="text-align: left;">Badatel</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A7</td>
+<td style="text-align: left;">ZAA/NZ vrácená</td>
+<td style="text-align: left;">Akce byla správcem systému vrácena k&nbsp;doplnění chybných nebo chybějících údajů na Kartě akce či v&nbsp;nálezové zprávě.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A8</td>
+<td style="text-align: left;">Archivovaná</td>
+<td style="text-align: left;">Akce byla po kontrole všech údajů správcem systému archivována spolu s nálezovou zprávou. Akce v&nbsp;tomto stavu jsou viditelné ve Vyhledávání.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="procesní-stavy-lokalit" class="level2">
+<h2 class="anchored" data-anchor-id="procesní-stavy-lokalit">Procesní stavy lokalit</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-stavy-lokality" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Tab.&nbsp;7.3: Procesní stavy lokalit</caption>
+<colgroup>
+<col style="width: 2%">
+<col style="width: 5%">
+<col style="width: 85%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Stav</th>
+<th style="text-align: left;">Název</th>
+<th style="text-align: left;">Vysvětlivka</th>
+<th style="text-align: left;">Provádí</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">L1</td>
+<td style="text-align: left;">Nerevidovaná</td>
+<td style="text-align: left;">Lokalita byla do systému vložena dávkově pomocí importu a věcný obsah záznamu čeká na kontrolu. Nerevidované lokality jsou viditelné ve Vyhledávání a jsou opatřeny definitivním identifikátorem.</td>
+<td style="text-align: left;">Administrátor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">L2</td>
+<td style="text-align: left;">Zapsaná</td>
+<td style="text-align: left;">Lokalita byla založena, avšak na Kartě lokality nebyly doplněny všechny údaje a lokalita nebyla dosud zveřejněna. Identifikátor lokality je pouze dočasný.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">L3</td>
+<td style="text-align: left;">Archivovaná</td>
+<td style="text-align: left;">Lokalita byla po kontrole všech údajů správcem systému archivována. Lokality v&nbsp;tomto stavu jsou viditelné ve Vyhledávání a opatřeny definitivním identifikátorem.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="procesní-stavy-dokumentů" class="level2">
+<h2 class="anchored" data-anchor-id="procesní-stavy-dokumentů">Procesní stavy dokumentů</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-stavy-dokumenty" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Tab.&nbsp;7.4: Procesní stavy dokumentů</caption>
+<colgroup>
+<col style="width: 2%">
+<col style="width: 5%">
+<col style="width: 85%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Stav</th>
+<th style="text-align: left;">Název</th>
+<th style="text-align: left;">Vysvětlivka</th>
+<th style="text-align: left;">Provádí</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">D1</td>
+<td style="text-align: left;">Nerevidovaný</td>
+<td style="text-align: left;">Dokument byl do systému vložen dávkově pomocí importu a věcný obsah záznamu čeká na kontrolu. Nerevidované dokumenty jsou viditelné ve Vyhledávání a jsou opatřeny definitivním identifikátorem.</td>
+<td style="text-align: left;">Administrátor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">D2</td>
+<td style="text-align: left;">Zapsaný</td>
+<td style="text-align: left;">Dokument byl založen, avšak na Kartě dokumentu nebyly doplněny všechny údaje a dokument nebyl dosud zveřejněn. Identifikátor dokumentu je pouze dočasný.</td>
+<td style="text-align: left;">Badatel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">D3</td>
+<td style="text-align: left;">Archivovaný</td>
+<td style="text-align: left;">Dokument byl po kontrole všech údajů správcem systému archivován. Dokumenty v&nbsp;tomto stavu jsou viditelné ve Vyhledávání a opatřeny definitivním identifikátorem.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="procesní-stavy-externích-zdrojů" class="level2">
+<h2 class="anchored" data-anchor-id="procesní-stavy-externích-zdrojů">Procesní stavy externích zdrojů</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-stavy-biblio" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Tab.&nbsp;7.5: Procesní stavy externích zdrojů</caption>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 7%">
+<col style="width: 84%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Stav</th>
+<th style="text-align: left;">Název</th>
+<th style="text-align: left;">Vysvětlivka</th>
+<th style="text-align: left;">Provádí</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">B1</td>
+<td style="text-align: left;">Nerevidovaný záznam</td>
+<td style="text-align: left;">Bibliografický záznam (externí zdroj) byl do systému vložen dávkově pomocí importu a věcný obsah záznamu čeká na kontrolu. Nerevidované záznamy jsou viditelné ve Vyhledávání a jsou opatřeny definitivním identifikátorem.</td>
+<td style="text-align: left;">Administrátor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B2</td>
+<td style="text-align: left;">Zapsaný</td>
+<td style="text-align: left;">Bibliografický záznam (externí zdroj) byl založen, avšak na Kartě bibliografického záznamu nebyly doplněny všechny údaje a záznam nebyl dosud zveřejněn. Identifikátor záznamu je pouze dočasný.</td>
+<td style="text-align: left;">Badatel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B3</td>
+<td style="text-align: left;">Potvrzený</td>
+<td style="text-align: left;">Bibliografický záznam (externí zdroj) byl po kontrole všech údajů správcem systému potvrzen. Záznamy v&nbsp;tomto stavu jsou viditelné ve Vyhledávání a opatřeny definitivním identifikátorem.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="procesní-stavy-jednotek-pian" class="level2">
+<h2 class="anchored" data-anchor-id="procesní-stavy-jednotek-pian">Procesní stavy jednotek PIAN</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-stavy-pian" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Tab.&nbsp;7.6: Procesní stavy jednotek PIAN</caption>
+<colgroup>
+<col style="width: 2%">
+<col style="width: 6%">
+<col style="width: 85%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Stav</th>
+<th style="text-align: left;">Název</th>
+<th style="text-align: left;">Vysvětlivka</th>
+<th style="text-align: left;">Provádí</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">N</td>
+<td style="text-align: left;">Nepotvrzený</td>
+<td style="text-align: left;">PIAN byl vytvořen uživatelem při zápisu akce či projektu, avšak nebyl dosud ověřen správcem systému. Identifikátor PIAN je v&nbsp;tomto stavu pouze dočasný.</td>
+<td style="text-align: left;">Badatel</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">P</td>
+<td style="text-align: left;">Potvrzený</td>
+<td style="text-align: left;">PIAN byl zkontrolován správcem systému a byl mu přidělen definitivní identifikátor.</td>
+<td style="text-align: left;">Archivář</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -515,7 +862,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="figs/AISCR_CZ_H_CMYK_Pozitiv.png" height="50"></a><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/procesy.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/procesy.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="figs/AISCR_CZ_H_CMYK_Pozitiv.png" height="50"></a></div>
     <div class="nav-footer-right">Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
