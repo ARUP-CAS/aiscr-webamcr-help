@@ -4,7 +4,7 @@ Jedním z hlavních poslání AMČR je zabezpečit nutnou agendu a evidenci arch
 V aplikaci proto nejsou obsažena pouze data, která lze považovat za archivní, ale také rozpracované záznamy, které postihují právě probíhající, případně nedávno realizované výzkumy.
 Pro sběr a užívání dat v AMČR platí tzv. procesní pravidla, která říkají, jaký [typ uživatele](role.qmd) spravuje danou datovou třídu, v jaký okamžik vkládá data a jakého cíle má být dosaženo.
 
-Pro označení fáze zpracování záznamů slouží tzv. **procesní stavy**, které jsou přidělovány všem záznamům v základních datových třídách ([Projekty](pojmy.qmd#projekty), [Akce](pojmy.qmd#akce), [Lokality](pojmy.qmd#lokality), [Dokumenty](pojmy.qmd#dokumenty), [Bibliografie](pojmy.qmd#externí-zdroje), [PIAN](pojmy.qmd#pian)).
+Pro označení fáze zpracování záznamů slouží tzv. **procesní stavy**, které jsou přidělovány všem záznamům v základních datových třídách ([Projekty](pojmy.qmd#projekty), [Akce](pojmy.qmd#akce), [Lokality](pojmy.qmd#lokality), [Dokumenty](pojmy.qmd#dokumenty), [Bibliografie](pojmy.qmd#externí-zdroje-bibliografie), [PIAN](pojmy.qmd#pian)).
 Procesní stav určuje, kdo může daný záznam zobrazit, kdo jej může editovat, jaké funkce jsou pro práci se záznamem dostupné a zároveň jaké kroky je třeba učinit pro plnou archivaci záznamu.
 Každému ze stavů také odpovídá určitý okruh dat, která je v daném okamžiku možno (či nutno) vložit, a určitá práva a povinnosti konkrétních uživatelů.
 
