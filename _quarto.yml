@@ -77,15 +77,15 @@ execute:
   echo: false
 
 crossref:
-  chapters: false
+  chapters: true
   tbl-prefix: "Tab."
   tbl-title: "Tab."
   fig-prefix: "Obr."
   fig-title: "Obr."
 
 callout-appearance: simple
-number-sections: false
-# number-depth: 0
+number-sections: true
+number-depth: 1
 toc-title: "Obsah"
 
 bibliography: references.bib
