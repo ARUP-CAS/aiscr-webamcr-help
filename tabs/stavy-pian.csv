@@ -1,0 +1,3 @@
+"Stav","Název","Vysvětlivka","Provádí"
+"N","Nepotvrzený","PIAN byl vytvořen uživatelem při zápisu akce či projektu, avšak nebyl dosud ověřen správcem systému. Identifikátor PIAN je v tomto stavu pouze dočasný.","Badatel"
+"P","Potvrzený","PIAN byl zkontrolován správcem systému a byl mu přidělen definitivní identifikátor.","Archivář"

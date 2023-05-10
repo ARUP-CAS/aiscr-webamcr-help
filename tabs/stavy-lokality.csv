@@ -1,0 +1,4 @@
+"Stav","Název","Vysvětlivka","Provádí"
+"L1","Nerevidovaná","Lokalita byla do systému vložena dávkově pomocí importu a věcný obsah záznamu čeká na kontrolu. Nerevidované lokality jsou viditelné ve Vyhledávání a jsou opatřeny definitivním identifikátorem.","Administrátor"
+"L2","Zapsaná","Lokalita byla založena, avšak na Kartě lokality nebyly doplněny všechny údaje a lokalita nebyla dosud zveřejněna. Identifikátor lokality je pouze dočasný.","Archivář"
+"L3","Archivovaná ","Lokalita byla po kontrole všech údajů správcem systému archivována. Lokality v tomto stavu jsou viditelné ve Vyhledávání a opatřeny definitivním identifikátorem.","Archivář"

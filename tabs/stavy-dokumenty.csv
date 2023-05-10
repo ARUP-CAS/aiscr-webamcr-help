@@ -1,0 +1,4 @@
+"Stav","Název","Vysvětlivka","Provádí"
+"D1","Nerevidovaný ","Dokument byl do systému vložen dávkově pomocí importu a věcný obsah záznamu čeká na kontrolu. Nerevidované dokumenty jsou viditelné ve Vyhledávání a jsou opatřeny definitivním identifikátorem.","Administrátor"
+"D2","Zapsaný ","Dokument byl založen, avšak na Kartě dokumentu nebyly doplněny všechny údaje a dokument nebyl dosud zveřejněn. Identifikátor dokumentu je pouze dočasný.","Badatel"
+"D3","Archivovaný","Dokument byl po kontrole všech údajů správcem systému archivován. Dokumenty v tomto stavu jsou viditelné ve Vyhledávání a opatřeny definitivním identifikátorem.","Archivář"
