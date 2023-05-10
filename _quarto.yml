@@ -54,6 +54,7 @@ book:
     - part: "Popis aplikace"
       chapters:
         - aplikace.qmd
+    - zdroje.qmd
   appendices:
     - admin.qmd
 
@@ -86,3 +87,6 @@ callout-appearance: simple
 number-sections: false
 # number-depth: 0
 toc-title: "Obsah"
+
+bibliography: references.bib
+csl: journal-of-computer-applications-in-archaeology.csl
