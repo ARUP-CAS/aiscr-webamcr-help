@@ -1,0 +1,4 @@
+"Heslář","Obsah"
+"Typ lokality","Základní klasifikace lokalit podle metody jejich vymezení. Definuje prefix pro číselnou řadu při generování identifikátoru lokality. Jedná se o systémový heslář."
+"Lokalita (kategorie)","Slouží pro kategorizaci položek ve dvojstupňovém hesláři Druh lokality na základě obecnějších pojmů."
+"Lokalita (druh)","Klasifikace lokalit podle povahy identifikovaných terénních reliktů."

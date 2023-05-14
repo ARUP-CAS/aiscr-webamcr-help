@@ -77,8 +77,8 @@ Za dokumentační jednotku lze považovat celý prostor akce, jeho část odpov�
 **Komponenta akce** je prostorovým, chronologickým a funkčním celkem nálezů z jedné [dokumentační jednotky](pojmy.qmd#dokumentační-jednotky) [akce](pojmy.qmd#akce), **komponenta lokality** je analogickou částí [lokality](pojmy.qmd#lokality), avšak definovaná jen typologicky na základě viditelných povrchových znaků nebo informace z jiných zdrojů.
 Jako **komponentu dokumentu** chápeme chronologický a funkční celek archeologické akce doložený výpovědí některého [dokumentu](pojmy.qmd#dokumenty).
 
-Komponenty jsou určeny přiřazením k určitému [areálu](heslare.qmd#komponenty-a-nálezy) aktivity (specifické funkční části sídelního areálu, cf. @neustupny1986) a [období](heslare.qmd#komponenty-a-nálezy) (chronologicko-kulturnímu zařazení).
-Každé komponentě se dále přiřazuje i výčet [aktivit](heslare.qmd#komponenty-a-nálezy), tedy druhů činností, které jsou v rámci komponenty přímo doloženy: např. v areálu „sídliště“ může být kromě aktivity „sídlištní“ (přiřazené automaticky) zachycena i aktivita „pohřební“ (např. pohřeb v sídlištní jámě), „výrobní“ (keramická pec), „deponování“ (depot keramických nádob) a „komunikace“ (cesta vedoucí sídlištěm).
+Komponenty jsou určeny přiřazením k určitému [areálu](heslare.qmd#komponenty) aktivity (specifické funkční části sídelního areálu, cf. @neustupny1986) a [období](heslare.qmd#komponenty) (chronologicko-kulturnímu zařazení).
+Každé komponentě se dále přiřazuje i výčet [aktivit](heslare.qmd#komponenty), tedy druhů činností, které jsou v rámci komponenty přímo doloženy: např. v areálu „sídliště“ může být kromě aktivity „sídlištní“ (přiřazené automaticky) zachycena i aktivita „pohřební“ (např. pohřeb v sídlištní jámě), „výrobní“ (keramická pec), „deponování“ (depot keramických nádob) a „komunikace“ (cesta vedoucí sídlištěm).
 
 Komponenty jsou arbitrárně vymezenými jednotkami; rozhodujícím hlediskem při jejich vymezení je přehlednost a srozumitelnost záznamu o obsahu akce.
 Máme-li např. v rámci menší archeologické akce sídlištní nálezy dvou archeologických kultur, můžeme danou situaci popsat jako jednu dokumentační jednotku se dvěma komponentami.
@@ -127,7 +127,7 @@ Na jeho odkaz navázal v letech 2013–2017 projekt NAKI ([DF13P01OVV014](https:
 
 Autoritní databáze zásahů do archeologických terénů prováděných oprávněnými organizacemi na území Pražské památkové rezervace (UNESCO).
 Databáze vychází ze souboru informací shromážděných v 90. letech L. Hrdličkou.
-Řídícím prvkem databáze je „archeologický dokumentační bod“, čili jednotlivá sonda archeologického výzkumu, geologického průzkumu apod.  
+Řídícím prvkem databáze je „archeologický dokumentační bod“, čili jednotlivá sonda archeologického výzkumu, geologického průzkumu apod.
 Databáze je specializovaným rozšířením AMČR a je zpřístupněna jako součást webového rozhraní [Praha archeologická](http://www.praha-archeologicka.cz/).
 
 ### Archeologické dokumentační body (ADB)

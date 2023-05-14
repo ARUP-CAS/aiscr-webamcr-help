@@ -1,0 +1,46 @@
+Název,Třída,Typ,Poznámka
+AKTIVITY,Komponenty,"jednoduchý, systémový",
+AREÁL,Komponenty,dvoustupňový,zápis jen heslo
+AUTORSKÁ ROLE,Externí zdroje,jednoduchý,
+DOHLEDNOST,Lety,jednoduchý,
+FORMÁT (VELIKOST) DOKUMENTU,Extra data,jednoduchý,
+JAZYK DOKUMENTU,Dokumenty,jednoduchý,
+JMÉNA,"Projekty, Akce, Dokumenty, Externí zdroje, Osobní foto",jednoduchý,zobrazena doplňující informace
+KATASTRY,"Projekty, Akce, Lokality","jednoduchý, systémový",zobrazena doplňující informace
+KATEGORIE / DRUH LOKALITY,Lokality,dvoustupňový,zápis jen heslo
+KATEGORIE / DRUH OBJEKTU,Nálezy,dvoustupňový,"zápis do 2 polí (kategorie, heslo)"
+KATEGORIE / DRUH PŘEDMĚTU,Nálezy,dvoustupňový,"zápis do 2 polí (kategorie, heslo)"
+KRAJE,"Projekty, Akce, Lokality","jednoduchý, systémový",
+KULTURNÍ PAMÁTKA,Projekty,jednoduchý,
+LETIŠTĚ,Lety,jednoduchý,
+MATERIÁL DOKUMENTU,Dokumenty,jednoduchý,
+NÁHRADA (DOKUMENTU),Extra data,jednoduchý,
+OBDOBÍ,"Komponenty, Komponenty dokumentu",dvoustupňový,zápis jen heslo
+OKRESY,"Projekty, Akce, Lokality","jednoduchý, systémový",
+ORGANIZACE,"Projekty, Akce, Dokumenty, Externí zdroje",jednoduchý,zobrazena doplňující informace
+POČASÍ,Lety,jednoduchý,
+PODNĚT – SONDY,Dokumentační jednotky (Akce),jednoduchý,
+POSUDEK,Dokumenty,jednoduchý,
+POVRCH,Dokumentační jednotky (Akce),jednoduchý,
+PŘESNOST PIAN,PIAN,"jednoduchý, systémový",
+PŘÍSTUPNOST,"Projekty, Akce, Lokality, Dokumenty","jednoduchý, systémový",
+ŘADA,Dokumenty,"jednoduchý, systémový",
+SOUŘADNICOVÝ SYSTÉM,PIAN,"jednoduchý, systémový",
+SPECIFIKACE DATA,Akce (samostatné),"jednoduchý, systémový",
+SPECIFIKACE OBJEKTU,Nálezy,dvoustupňový,zápis jen heslo
+SPECIFIKACE PŘEDMĚTU ,Nálezy,jednoduchý,
+TVAR,Tvary,jednoduchý,
+TYP AKCE,Akce,dvoustupňový,zápis jen heslo
+TYP DOKUMENTU,Dokumenty,"jednoduchý, systémový",
+TYP DOKUMENTAČNÍ JEDNOTKY,Dokumentační jednotky (Akce),"jednoduchý, systémový",
+TYP EXTERNÍHO ZDROJE,Externí zdroje,"jednoduchý, systémový",
+TYP LOKALITY,Lokality,"jednoduchý, systémový",
+TYP NÁLEZU,Nálezy,"jednoduchý, systémový",
+TYP ORGANIZACE,Organizace,jednoduchý,
+TYP PIAN,PIAN,"jednoduchý, systémový",
+TYP PROJEKTU,Projekty,"jednoduchý, systémový",
+TYP SONDY,Dokumentační jednotky (Akce),jednoduchý,
+TYP UDÁLOSTI,Extra data,jednoduchý,
+ULOŽENÍ ORIGINÁLU,Dokumenty,jednoduchý,
+ZACHOVALOST (DOKUMENTU),Extra data,jednoduchý,
+ZEMĚ,Extra data,jednoduchý,
