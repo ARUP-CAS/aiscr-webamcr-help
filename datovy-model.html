@@ -195,28 +195,9 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Zdroje</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./admin.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Admin nápověda</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
-<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
-<p>Stránka je ve výstavbě!</p>
-</div></div></nav>
+</nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -318,7 +299,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="evidence-leteckých-snímků" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-leteckých-snímků">Evidence leteckých snímků</h2>
 <p>Pro potřeby evidence leteckých snímků je systém doplněn o dvojici datových tříd – <strong>Tvary</strong> a <strong>Lety</strong>. Ostatní popisné údaje jsou evidovány standardní formou v nativních datových třídách (zejména <a href="./pojmy.html#dokumenty">Dokumenty</a>, <a href="./pojmy.html#lokality">Lokality</a>, <a href="./pojmy.html#komponenty">Komponenty</a>, <a href="./pojmy.html#pian">PIAN</a>). Datová třída <a href="./heslare.html#letecké-snímky">Tvary</a> obsahuje popis příznaků (vegetačních, půdních atd.) pozorovaných na leteckých fotografiích (např. <em>macula</em>, <em>ohrazení pravoúhlé malé</em> apod.). Datová třída Lety shrnuje záznamy o terénních <em>akcích</em> v oblasti letecké fotografie (datum průzkumného letu, počasí, letiště, jméno pilota, jméno archeologa apod.).</p>
-<p>Modul letecké snímky lze prohlížet v <a href="https://digiarchiv.aiscr.cz/results?kategorie_dokumentu=lfoto&amp;entity=dokument">Digitálním Archivu AMČR</a>.</p>
+<p>Modul letecké snímky lze prohlížet v <a href="https://digiarchiv.aiscr.cz/results?kategorie_dokumentu=lfoto&amp;entity=dokument" class="external">Digitálním Archivu AMČR</a>.</p>
 </section>
 <section id="popis-obsahu-dokumentů" class="level2">
 <h2 class="anchored" data-anchor-id="popis-obsahu-dokumentů">Popis obsahu dokumentů</h2>
@@ -347,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="popis-madb" class="level2">
 <h2 class="anchored" data-anchor-id="popis-madb">Popis MADB</h2>
 <p>Mapa archeologických dokumentačních bodů (<a href="./pojmy.html#madb">MADB</a>) je stejně jako <a href="./datovy-model.html#evidence-leteckých-snímků">modul leteckých snímků</a> plně integrován do AMČR. Rozšiřuje systém v oblasti <a href="./pojmy.html#dokumentační-jednotky">dokumentačních jednotek</a>, kde k dokumentačním jednotkám typu sonda připojuje další popis <strong>Dokumentačních bodů</strong> a <strong>Výškových bodů</strong>.</p>
-<p>Pro MADB je v rámci projektu <em>Integrovaný informační systém archeologických pramenů Prahy</em> implementováno speciální webové rozhraní, které umožňuje provázání údajů MADB s další evidencí, zejména pak s fondy <a href="https://npu.cz/">Národního památkového ústavu</a>. Rozhraní je dostupné na webu <a href="http://www.praha-archeologicka.cz/">http://www.praha-archeologicka.cz/</a> a bylo uvedeno do provozu v roce 2017.</p>
+<p>Pro MADB je v rámci projektu <em>Integrovaný informační systém archeologických pramenů Prahy</em> implementováno speciální webové rozhraní, které umožňuje provázání údajů MADB s další evidencí, zejména pak s fondy <a href="https://npu.cz/" class="external">Národního památkového ústavu</a>. Rozhraní je dostupné na webu <a href="http://www.praha-archeologicka.cz/" class="external">http://www.praha-archeologicka.cz/</a> a bylo uvedeno do provozu v roce 2017.</p>
 
 
 </section>
@@ -584,6 +565,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">
