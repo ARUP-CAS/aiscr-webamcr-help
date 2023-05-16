@@ -42,6 +42,14 @@ Správa uživatelů a podpora pro oblast **Moravy a Slezska** (vč. Kraje Vysoč
   [https://www.arub.cz/](https://www.arub.cz/)  
   [amcr@arub.cz](mailto:amcr@arub.cz)
 
+## Jak citovat
+
+Citujte jako (...)
+
+## Licence
+
+Veškerý obsah podléhá licenci [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
 ::: {.callout-note  collapse="true"}
 
 # Jak upravovat
