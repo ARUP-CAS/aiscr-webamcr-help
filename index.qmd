@@ -4,17 +4,17 @@
 
 # Odkazy
 
-Úvodní stránku k AMČR najdete zde: [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/).
-Do **webové aplikace AMČR** vstoupíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/).
-Stránky **AIS CR** s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/).
+Úvodní stránku k AMČR najdete zde: [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/){.external}.
+Do **webové aplikace AMČR** vstoupíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.
+Stránky **AIS CR** s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/){.external}.
 
 :::
 
-Informační systém **Archeologická mapa České republiky** ([AMČR](https://amcr-info.aiscr.cz/)) integruje dvě základní oblasti správy archeologického dědictví ČR.
+Informační systém **Archeologická mapa České republiky** ([AMČR](https://amcr-info.aiscr.cz/){.external}) integruje dvě základní oblasti správy archeologického dědictví ČR.
 Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva).
 Na druhé straně jde o budování souhrnného přehledu archeologického dědictví ČR, tedy o vytvoření *národní* databáze archeologického kulturního dědictví.
 Oba úkoly spolu v mnoha ohledech souvisejí, a jejich spojení proto je pro uživatele výhodné: vzniká jím jednotný systém evidence klíčových informací využitelných v celé šíři archeologické terénní, památkové a v některých ohledech i muzejní práce.
-AMČR je součástí [velké výzkumné infrastruktury](pojmy.qmd#výzkumné-infrastruktury) **Archeologický informační systém České Republiky** ([AIS CR](https://aiscr.cz/)).
+AMČR je součástí [velké výzkumné infrastruktury](pojmy.qmd#výzkumné-infrastruktury) **Archeologický informační systém České Republiky** ([AIS CR](https://aiscr.cz/){.external}).
 
 AMČR slučuje některé dosud nespojité datové báze a operace související s jejich plněním a správou.
 Jde o:
@@ -22,7 +22,7 @@ Jde o:
 1. administrativní evidenci plánovaných a probíhajících terénních archeologických výzkumů;
 2. shromažďování informací o odborných výsledcích archeologických terénních aktivit (jak těch, které prošly administrativní evidencí zmíněnou výše, tak aktivit staršího data a jiných druhů);
 3. systematické podchycení dalších archeologických památek v krajině, známých především z dlouhodobého povrchového a dálkového průzkumu a
-4. správu repozitáře terénní dokumentace pro účely Archeologických ústavů AV ČR v Praze a Brně ([ARÚP](https://www.arup.cas.cz/) a [ARÚB](https://arub.cz/)), případně dalších institucí, v rozsahu daném platnou legislativou.
+4. správu repozitáře terénní dokumentace pro účely Archeologických ústavů AV ČR v Praze a Brně ([ARÚP](https://www.arup.cas.cz/){.external} a [ARÚB](https://arub.cz/){.external}), případně dalších institucí, v rozsahu daném platnou legislativou.
 
 Cílem zavedení systému AMČR je zvýšení efektivity v oblasti shromažďování a šíření odborných informací, což je jedním z důležitých předpokladů dalšího rozvoje oboru, a to jak v ohledu teoretického výzkumu, tak památkové péče i komunikace se širší veřejností.
 Základním způsobem, jak tohoto cíle má být dosaženo, je vytvoření autoritních seznamů archeologických projektů, terénních akcí, dokumentů a dalších jednotek informačního systému.
@@ -33,14 +33,14 @@ Evidence těchto jednotek pomocí jednotných a [persistentních identifikátor�
 Správa uživatelů a podpora pro oblast **Čech**:
 
 - Archeologický ústav AV ČR, Praha, v.v.i.  
-  [https://www.arup.cas.cz/](https://www.arup.cas.cz/)  
-  [amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
+  [https://www.arup.cas.cz/](https://www.arup.cas.cz/){.external}  
+  [{{< fa regular envelope size=xs >}} amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
 
 Správa uživatelů a podpora pro oblast **Moravy a Slezska** (vč. Kraje Vysočina):
 
 - Archeologický ústav AV ČR, Brno, v.v.i.  
-  [https://www.arub.cz/](https://www.arub.cz/)  
-  [amcr@arub.cz](mailto:amcr@arub.cz)
+  [https://www.arub.cz/](https://www.arub.cz/){.external}  
+  [{{< fa regular envelope size=xs >}} amcr@arub.cz](mailto:amcr@arub.cz)
 
 ## Jak citovat
 
@@ -48,7 +48,7 @@ Citujte jako (...)
 
 ## Licence
 
-Veškerý obsah podléhá licenci [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Veškerý obsah podléhá licenci [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/){.external}.
 
 ::: {.callout-note  collapse="true"}
 

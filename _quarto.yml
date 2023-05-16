@@ -35,8 +35,8 @@ book:
     #   - icon: github
     #     href: https://github.com/ARUP-CAS/aiscr-webamcr-help/
     #     text: GitHub
-    footer: |
-      Stránka je ve výstavbě!
+#    footer: |
+#      [htpps://aiscr.cz/](https://aiscr.cz/){.external}
 
   chapters:
     - index.qmd
@@ -51,8 +51,8 @@ book:
     - pracovni-postupy.qmd
     - aplikace.qmd
     - zdroje.qmd
-  appendices:
-    - admin.qmd
+#  appendices:
+#    - admin.qmd
 
 format:
   html:
@@ -61,6 +61,8 @@ format:
       # dark: darkly
     css: styles.css
     df-print: kable
+#    link-external-icon: true
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
     papersize: a4wide

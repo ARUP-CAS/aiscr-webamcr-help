@@ -90,7 +90,7 @@ Ostatní popisné údaje jsou evidovány standardní formou v nativních datový
 Datová třída [Tvary](heslare.qmd#letecké-snímky) obsahuje popis příznaků (vegetačních, půdních atd.) pozorovaných na leteckých fotografiích (např. *macula*, *ohrazení pravoúhlé malé* apod.). 
 Datová třída Lety shrnuje záznamy o terénních *akcích* v oblasti letecké fotografie (datum průzkumného letu, počasí, letiště, jméno pilota, jméno archeologa apod.).
 
-Modul letecké snímky lze prohlížet v [Digitálním Archivu AMČR](https://digiarchiv.aiscr.cz/results?kategorie_dokumentu=lfoto&entity=dokument).
+Modul letecké snímky lze prohlížet v [Digitálním Archivu AMČR](https://digiarchiv.aiscr.cz/results?kategorie_dokumentu=lfoto&entity=dokument){.external}.
 
 ## Popis obsahu dokumentů
 
@@ -155,5 +155,5 @@ S ukládáním fulltextových souborů systém AMČR nepočítá, ale pomocí id
 Mapa archeologických dokumentačních bodů ([MADB](pojmy.qmd#madb)) je stejně jako [modul leteckých snímků](datovy-model.qmd#evidence-leteckých-snímků) plně integrován do AMČR. 
 Rozšiřuje systém v oblasti [dokumentačních jednotek](pojmy.qmd#dokumentační-jednotky), kde k dokumentačním jednotkám typu sonda připojuje další popis **Dokumentačních bodů** a **Výškových bodů**.
 
-Pro MADB je v rámci projektu *Integrovaný informační systém archeologických pramenů Prahy* implementováno speciální webové rozhraní, které umožňuje provázání údajů MADB s další evidencí, zejména pak s fondy [Národního památkového ústavu](https://npu.cz/). 
-Rozhraní je dostupné na webu [http://www.praha-archeologicka.cz/](http://www.praha-archeologicka.cz/) a bylo uvedeno do provozu v roce 2017.
+Pro MADB je v rámci projektu *Integrovaný informační systém archeologických pramenů Prahy* implementováno speciální webové rozhraní, které umožňuje provázání údajů MADB s další evidencí, zejména pak s fondy [Národního památkového ústavu](https://npu.cz/){.external}. 
+Rozhraní je dostupné na webu [http://www.praha-archeologicka.cz/](http://www.praha-archeologicka.cz/){.external} a bylo uvedeno do provozu v roce 2017.

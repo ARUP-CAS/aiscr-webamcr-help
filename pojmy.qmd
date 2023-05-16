@@ -77,7 +77,7 @@ Za dokumentační jednotku lze považovat celý prostor akce, jeho část odpov�
 **Komponenta akce** je prostorovým, chronologickým a funkčním celkem nálezů z jedné [dokumentační jednotky](pojmy.qmd#dokumentační-jednotky) [akce](pojmy.qmd#akce), **komponenta lokality** je analogickou částí [lokality](pojmy.qmd#lokality), avšak definovaná jen typologicky na základě viditelných povrchových znaků nebo informace z jiných zdrojů.
 Jako **komponentu dokumentu** chápeme chronologický a funkční celek archeologické akce doložený výpovědí některého [dokumentu](pojmy.qmd#dokumenty).
 
-Komponenty jsou určeny přiřazením k určitému [areálu](heslare.qmd#komponenty) aktivity (specifické funkční části sídelního areálu, cf. @neustupny1986) a [období](heslare.qmd#komponenty) (chronologicko-kulturnímu zařazení).
+Komponenty jsou určeny přiřazením k určitému [areálu](heslare.qmd#komponenty) aktivity [specifické funkční části sídelního areálu, cf. @neustupny1986] a [období](heslare.qmd#komponenty) (chronologicko-kulturnímu zařazení).
 Každé komponentě se dále přiřazuje i výčet [aktivit](heslare.qmd#komponenty), tedy druhů činností, které jsou v rámci komponenty přímo doloženy: např. v areálu „sídliště“ může být kromě aktivity „sídlištní“ (přiřazené automaticky) zachycena i aktivita „pohřební“ (např. pohřeb v sídlištní jámě), „výrobní“ (keramická pec), „deponování“ (depot keramických nádob) a „komunikace“ (cesta vedoucí sídlištěm).
 
 Komponenty jsou arbitrárně vymezenými jednotkami; rozhodujícím hlediskem při jejich vymezení je přehlednost a srozumitelnost záznamu o obsahu akce.
@@ -121,14 +121,14 @@ Jako externí zdroje jsou chápány publikace, novinové články, nepublikovan�
 ## MADB
 
 Extenze MADB vychází z dlouhodobého badatelsko-evidenčního záměru Oddělení archeologie středověku ARÚ Praha -- **Mapa archeologických dokumentačních bodů na území Pražské památkové rezervace** (MADB; PPR) -- jenž byl po několik desetiletí spjat se jménem Ladislava Hrdličky (1937–2011).
-Na jeho odkaz navázal v letech 2013–2017 projekt NAKI ([DF13P01OVV014](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF13P01OVV014)) Integrovaný informační systém archeologických pramenů Prahy, v jehož rámci byl vytvořen obecný nástroj sběru záznamů archeologických dokumentačních bodů (ADB) a výškových bodů (VB) na komplexních lokalitách urbánního charakteru, tedy zejména v historických jádrech měst.
+Na jeho odkaz navázal v letech 2013–2017 projekt NAKI ([DF13P01OVV014](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF13P01OVV014){.external}) Integrovaný informační systém archeologických pramenů Prahy, v jehož rámci byl vytvořen obecný nástroj sběru záznamů archeologických dokumentačních bodů (ADB) a výškových bodů (VB) na komplexních lokalitách urbánního charakteru, tedy zejména v historických jádrech měst.
 
 ### Mapa archeologických dokumentačních bodů (MADB)
 
 Autoritní databáze zásahů do archeologických terénů prováděných oprávněnými organizacemi na území Pražské památkové rezervace (UNESCO).
 Databáze vychází ze souboru informací shromážděných v 90. letech L. Hrdličkou.
 Řídícím prvkem databáze je „archeologický dokumentační bod“, čili jednotlivá sonda archeologického výzkumu, geologického průzkumu apod.
-Databáze je specializovaným rozšířením AMČR a je zpřístupněna jako součást webového rozhraní [Praha archeologická](http://www.praha-archeologicka.cz/).
+Databáze je specializovaným rozšířením AMČR a je zpřístupněna jako součást webového rozhraní [Praha archeologická](http://www.praha-archeologicka.cz/){.external}.
 
 ### Archeologické dokumentační body (ADB)
 
@@ -166,7 +166,7 @@ Provádění badatelských výzkumů podléhá schvalování ze strany Archeolog
 
 Repozitář skenovaných dokumentů a soubor primárně digitálních dat v archivu terénní dokumentace ARÚP a ARÚB doplněný podrobným popisem metadaty.
 Práce na DA byly na ARÚP zahájeny po povodni r. 2002, v r. 2010 byla digitalizace dokončena.
-V roce 2016 byla původní aplikace nahrazena [Digitálním archivem AMČR](https://digiarchiv.aiscr.cz/).
+V roce 2016 byla původní aplikace nahrazena [Digitálním archivem AMČR](https://digiarchiv.aiscr.cz/){.external}.
 
 ### Digitální archiv a evidence archeologických výzkumů Moravy a Slezska (DAEAV)
 
@@ -184,7 +184,7 @@ V r. 2017 byl nahrazen AMČR, přičemž záznamy tohoto typu jsou evidovány ja
 
 **Nálezovou zprávou** rozumíme dokument souhrnně popisující provedenou archeologickou [akci](pojmy.qmd#akce), s pevně určenými náležitostmi.
 Nálezová zpráva má za úkol plně postihnout podstatu výzkumu, srozumitelnou formou zpřístupnit terénní dokumentaci a nastínit základní interpretaci.
-Pokyny a doporučené postupy pro vypracování nálezové zprávy jsou dostupné jak na webu [ARÚP](https://www.arup.cas.cz/wp-content/uploads/2020/05/pravidla_NZ_obecna_191009.pdf), tak [ARÚB](https://www.arub.cz/archiv/chci-odevzdat-dokument/).
+Pokyny a doporučené postupy pro vypracování nálezové zprávy jsou dostupné jak na webu [ARÚP](https://www.arup.cas.cz/wp-content/uploads/2020/05/pravidla_NZ_obecna_191009.pdf){.external}, tak [ARÚB](https://www.arub.cz/archiv/chci-odevzdat-dokument/){.external}.
 
 ### Negativní zjištění
 
@@ -196,7 +196,7 @@ Připojit hodnotu *negativního zjištění* dokumentační jednotce *celku* akc
 ### Oprávněná archeologická organizace
 
 Pojem oprávněná archeologická organizace (také oprávněná organizace či **OAO**) označuje instituci oprávněnou k provádění archeologických výzkumů podle zákona o státní památkové péči (20/1987 Sb.).
-Více informací o OAO lze získat v samostatné aplikaci [Mapa archeologických organizací](https://oao.aiscr.cz/) spuštěné v roce 2022.
+Více informací o OAO lze získat v samostatné aplikaci [Mapa archeologických organizací](https://oao.aiscr.cz/){.external} spuštěné v roce 2022.
 
 ### Projektová dokumentace
 
@@ -211,7 +211,7 @@ Za registrovaného uživatele je považován každý uživatel aplikace s aktivn
 
 Správcem systému se rozumí uživatelé s [oprávněním](role.qmd) Archivář či Administrátor.
 Zpravidla jde o zaměstnance archivů ARÚP a ARÚB.
-Správce lze kontaktovat přes emailovou adresu [info@amapa.cz](mailto:info@amapa.cz) nebo na adresách uvedených v [Kontaktech](#kontakty).
+Správce lze kontaktovat přes emailovou adresu [{{< fa regular envelope size=xs >}} info@amapa.cz](mailto:info@amapa.cz) nebo na adresách uvedených v [Kontaktech](#kontakty).
 
 ### Terénní zásah
 
@@ -220,7 +220,7 @@ Libovolný zásah do terénu, který dává podnět k provedení archeologickéh
 ### Výzkumné infrastruktury
 
 Výzkumnou infrastrukturou se rozumí zařízení, zdroje a související služby, které vědecká obec využívá k provádění špičkového výzkumu ve všech oborech, zahrnující základní vědecké vybavení a výzkumný materiál; zdroje založené na znalostech, například sbírky, archivy a strukturované vědecké informace; infrastruktury informačních a komunikačních technologií, například sítě GRID, počítačové a programové vybavení, komunikační prostředky, jakož i veškeré další prvky jedinečné povahy nezbytné k dosažení špičkové úrovně.
-Tyto infrastruktury se mohou nacházet na jednom místě nebo mohou být *rozmístěné* v rámci sítě (organizovaná síť zdrojů; viz [definice MŠMT](http://www.msmt.cz/vyzkum-a-vyvoj/definice-infrastruktury) a popis na portálu [Velké výzkumné infrastruktury](https://www.vyzkumne-infrastruktury.cz/co-jsou-velke-vyzkumne-infrastruktury/)).
+Tyto infrastruktury se mohou nacházet na jednom místě nebo mohou být *rozmístěné* v rámci sítě (organizovaná síť zdrojů; viz [definice MŠMT](http://www.msmt.cz/vyzkum-a-vyvoj/definice-infrastruktury){.external} a popis na portálu [Velké výzkumné infrastruktury](https://www.vyzkumne-infrastruktury.cz/co-jsou-velke-vyzkumne-infrastruktury/){.external}).
 
 ### Záchranná akce (záchranný projekt)
 
