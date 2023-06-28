@@ -87,4 +87,4 @@ number-depth: 1
 toc-title: "Obsah"
 
 bibliography: references.bib
-csl: journal-of-computer-applications-in-archaeology.csl
+csl: https://www.zotero.org/styles/journal-of-computer-applications-in-archaeology
