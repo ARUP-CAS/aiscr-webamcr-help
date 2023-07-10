@@ -40,16 +40,24 @@ book:
 
   chapters:
     - index.qmd
-    - historie.qmd
-    - pojmy.qmd
-    - implementace.qmd
-    - role.qmd
-    - datovy-model.qmd
-    - identifikatory.qmd
-    - procesy.qmd
-    - heslare.qmd
-    - pracovni-postupy.qmd
-    - aplikace.qmd
+    - part: "AMČR"
+      chapters:
+        - historie.qmd
+        - pojmy.qmd
+        - implementace.qmd
+        - role.qmd
+        - datovy-model.qmd
+        - identifikatory.qmd
+        - procesy.qmd
+        - heslare.qmd
+        - pracovni-postupy.qmd
+        - aplikace.qmd
+    - part: "Moduly AMČR"
+      chapters:
+        - pas.qmd
+    - part: "AMČR API"
+      chapters:
+        - api.qmd
     - zdroje.qmd
 #  appendices:
 #    - admin.qmd
@@ -63,6 +71,7 @@ format:
     df-print: kable
 #    link-external-icon: true
     link-external-newwindow: true
+    citation-location: margin
   pdf:
     documentclass: scrreprt
     papersize: a4wide
