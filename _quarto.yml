@@ -2,9 +2,21 @@ project:
   type: book
 
 book:
-  title: "Nápověda a dokumentace AMČR"
-  favicon: "figs/cover.png"
-  # cover-image: "cover1.png"
+
+  title: Nápověda a dokumentace AMČR
+
+  favicon: figs/cover.png
+  cover-image: figs/AMCR_cmyk_pozitiv-03.png
+  date: today
+  date-format: "D. M. YYYY"
+  doi: 10.5281/zenodo.8141634
+  license: https://creativecommons.org/licenses/by-nc/4.0/
+  language: cs
+  type: book
+  downloads: [pdf]
+  repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
+  repo-actions: [source, edit, issue]
+  reader-mode: true
 
   author: 
     - name: David Novák
@@ -24,21 +36,51 @@ book:
     - name: Odřej Švejcar
       # affiliations:
       #   - ref: arup
+    - name: Tomáš Pavloň
     - name: Tomáš Chlup
       orcid: 0000-0003-3179-992X
       # affiliations:
       #   - ref: arup
 
-  date: today
-  date-format: "D. M. YYYY"
-  doi: fuu
-  license: CC BY-SA 4.0
-  language: cs
-  type: book
-  downloads: [pdf, docx]
-  repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
-  repo-actions: [source, edit, issue]
-  reader-mode: true
+  sidebar:
+    title: Dokumentace AMČR
+    # logo: figs/AMCR_cmyk_pozitiv-03.png
+    search: true
+
+  chapters:
+    - index.qmd
+
+    - part: "AMČR"
+      chapters:
+        - historie.qmd
+        - pojmy.qmd
+        - implementace.qmd
+        - role.qmd
+        - datovy-model.qmd
+        - identifikatory.qmd
+        - procesy.qmd
+        - heslare.qmd
+        - pracovni-postupy.qmd
+        - aplikace.qmd
+
+    - part: "Moduly AMČR"
+      chapters:
+        - lokality.qmd
+        - pas.qmd
+
+    - part: "Dobrá praxe"
+      chapters:
+        - dj.qmd
+        - drobne-akce.qmd
+        - adb.qmd
+        - pas-foto.qmd
+
+    - part: "AMČR API"
+      chapters:
+        - api.qmd
+    - zdroje.qmd
+#  appendices:
+#    - admin.qmd
 
   page-footer:
     background: light
@@ -54,64 +96,22 @@ book:
     right: |
       Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.
 
-  sidebar:
-    title: "Dokumentace AMČR"
-    # subtitle: Fuu
-    logo: "figs/AMCR_cmyk_pozitiv-03.png"
-    search: true
-    # tools:
-    #   - icon: github
-    #     href: https://github.com/ARUP-CAS/aiscr-webamcr-help/
-    #     text: GitHub
-#    footer: |
-#      [htpps://aiscr.cz/](https://aiscr.cz/){.external}
-
-  chapters:
-    - index.qmd
-    - part: "AMČR"
-      chapters:
-        - historie.qmd
-        - pojmy.qmd
-        - implementace.qmd
-        - role.qmd
-        - datovy-model.qmd
-        - identifikatory.qmd
-        - procesy.qmd
-        - heslare.qmd
-        - pracovni-postupy.qmd
-        - aplikace.qmd
-    - part: "Moduly AMČR"
-      chapters:
-        - pas.qmd
-    - part: "Dobrá praxe"
-      chapters:
-        - dj.qmd
-        - drobne-akce.qmd
-        - pas-foto.qmd
-    - part: "AMČR API"
-      chapters:
-        - api.qmd
-    - zdroje.qmd
-#  appendices:
-#    - admin.qmd
-
 format:
   html:
     theme:
-      light: yeti
+      light: cosmo
       # dark: darkly
     css: styles.css
     df-print: kable
-#    link-external-icon: true
     link-external-newwindow: true
     # citation-location: margin
-#    title-block-banner: true
+    # title-block-banner: true
   pdf:
     documentclass: scrreprt
     papersize: a4wide
     lot: true
     lof: true
-  docx: default
+  # docx: default
 
 execute:
   freeze: auto
@@ -128,6 +128,7 @@ callout-appearance: simple
 number-sections: true
 number-depth: 1
 toc-title: "Obsah"
+toc-expand: false
 
 bibliography: references.bib
-csl: https://www.zotero.org/styles/journal-of-computer-applications-in-archaeology
+csl: https://www.zotero.org/styles/internet-archaeology
