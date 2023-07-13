@@ -1,6 +1,6 @@
 # Akce drobného rozsahu
 
-Zpracování pozitivních archeologických výzkumů do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva) (NZ) se řídí *Pravidly pro podání nálezové zprávy o terénním archeologickém výzkumu* (viz stránky ARÚ [Praha](https://www.arup.cas.cz/wp-content/uploads/2020/05/pravidla_NZ_obecna_191009.pdf) a [Brno](https://arub.cz/wp-content/uploads/Pravidla-pro-podani-nalezove-zpravy-o-terennim-archeologickem-vyzkumu_3_2020.pdf)).
+Zpracování pozitivních archeologických výzkumů do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva) (NZ) se řídí *Pravidly pro podání nálezové zprávy o terénním archeologickém výzkumu* (viz stránky ARÚ [Praha](https://www.arup.cas.cz/wp-content/uploads/2020/05/pravidla_NZ_obecna_191009.pdf){.external} a [Brno](https://arub.cz/wp-content/uploads/Pravidla-pro-podani-nalezove-zpravy-o-terennim-archeologickem-vyzkumu_3_2020.pdf){.external}).
 
 V případě [akcí](pojmy.qmd#akce) drobnějšího rozsahu je v AMČR akceptován i dokument, který nemá podobu plnohodnotné NZ, ale je redukován např. do podoby *Hlášení o archeologické akci* atp. 
 V některých případech může být záznam i zcela bez přiloženého dokumentu pouze s popisem ve formuláři v AMČR.

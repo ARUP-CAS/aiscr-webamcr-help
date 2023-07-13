@@ -2,7 +2,7 @@
 
 ::: {.callout-note}
 
-Původně zveřejněno na Zenodo jako Chlup, T. [-@chlup2021]: AMČR-PAS Fotografická dokumentace nálezů. doi:[10.5281/zenodo.4560101](https://doi.org/10.5281/zenodo.4560100).
+Původně zveřejněno na Zenodo jako Chlup, T. [-@chlup2021]: AMČR-PAS Fotografická dokumentace nálezů. doi:[10.5281/zenodo.4560101](https://doi.org/10.5281/zenodo.4560100){.external}.
 
 :::
 
@@ -90,7 +90,7 @@ Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní 
 
 - Fotografovaný předmět se snažte umístit do středu záběru (minimální optická deformace, nejlepší výkon automatiky ostření).
 - Delší osa předmětu by měla kopírovala delší rozměr záběru.
-- S mírným odstupem přiložte svislé a vodorovné měřítko (ke stažení [zde](http://archeologickamapa.cz/downloads/meritko.pdf), při jeho tisku volte možnost *skutečná velikost*, na trhu jsou běžně k dostání i profesionální kriminalistická měřítka).
+- S mírným odstupem přiložte svislé a vodorovné měřítko (ke stažení [zde](http://archeologickamapa.cz/downloads/meritko.pdf){.external}, při jeho tisku volte možnost *skutečná velikost*, na trhu jsou běžně k dostání i profesionální kriminalistická měřítka).
 - Přepište identifikátor nálezu z AMČR-PAS na papír a přiložte na okraj záběru. Neklaďte předměty až k okraji záběru.
 - Správně komponovaný snímek není nutné ořezávat a otáčet.
 
@@ -100,7 +100,7 @@ Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní 
 
 1. Připravte si fotopozadí, měřítko, foťák/telefon a papír s číslem nálezu.
 1. Dbejte na systematičnost. Nepořádek v evidenci přináší velké množství problémů.
-2. Pokud používáte jako zdroj denní světlo, počkejte si, až bude mírně pod mrakem, nebo foťte ve [zlatou hodinku](https://cs.wikipedia.org/wiki/Zlat%C3%A1_hodina) (v době, kdy je slunce nízko nad obzorem), pak nevznikají ostré stíny.
+2. Pokud používáte jako zdroj denní světlo, počkejte si, až bude mírně pod mrakem, nebo foťte ve [zlatou hodinku](https://cs.wikipedia.org/wiki/Zlat%C3%A1_hodina){.external} (v době, kdy je slunce nízko nad obzorem), pak nevznikají ostré stíny.
 3. Pokud máte stativ použijte ho. Ulehčí Vám práci a eliminuje rozmazané fotky.
 4. Sestavte si kompozici tak, aby zabírala celé pole hledáčku (pokud budete daleko, přicházíte o detail, pokud příliš blízko, bude kompozice natěsnaná nebo nekompletní).
 5. Užití měřítka je nutnost. Použití barevné kalibrační tabulky je zárukou věrohodného barevného podání fotografie.

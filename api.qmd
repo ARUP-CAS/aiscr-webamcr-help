@@ -1,18 +1,18 @@
 # OAI-PMH API
 
-API v současné době nabízí službu *AMCR Data Provider*, která poskytuje metadatové záznamy z databáze AMČR, a to pomocí protokolu *OpenArchives Initiative Protocol for Metadata Harvesting* ([OAI-PMH](http://www.openarchives.org/pmh/)).
+API v současné době nabízí službu *AMCR Data Provider*, která poskytuje metadatové záznamy z databáze AMČR, a to pomocí protokolu *OpenArchives Initiative Protocol for Metadata Harvesting* ([OAI-PMH](http://www.openarchives.org/pmh/){.external}).
 
 Naše implementace protokolu OAI-PMH podporuje
  reprezentaci metadat ve standardech:
 
-- [Dublin Core](http://dublincore.org/) -- poskytuje část datasetu týkající se dokumentů a jejich popisu;
-- [~~CIDOC-CRM~~](http://www.cidoc-crm.org/) -- nabízí archivovaná, volně přístupná data z AMČR ve formátu RDF v syntaxi odpovídající této ontologii;
+- [Dublin Core](http://dublincore.org/){.external} -- poskytuje část datasetu týkající se dokumentů a jejich popisu;
+- [~~CIDOC-CRM~~](http://www.cidoc-crm.org/){.external} -- nabízí archivovaná, volně přístupná data z AMČR ve formátu RDF v syntaxi odpovídající této ontologii;
 - **AMČR XML** -- nativní formát, který umožňuje plné vytěžování databáze při zohlednění přístupových práv.
 
 [Uživatelé](role.qmd) s vyšším oprávněním mohou využít své přihlašovací údaje do AMČR pro přístup k nearchivovaným či jinak chráněným záznamům.
 Aktualizace dat probíhá na denní bázi.
 
-API najdete na adrese [https://api.aiscr.cz](https://api.aiscr.cz).
+API najdete na adrese [https://api.aiscr.cz](https://api.aiscr.cz){.external}.
 
 [![Poster prezentující API s příklady možných requestů [@pajdla2021a]](/figs/api_liseh.png){width=100% fig-align="center" #fig-api-poster}](https://gams.uni-graz.at/o:liseh.8112/PDF_STREAM)
 
@@ -92,19 +92,19 @@ Přihlašovací údaje jsou poté posílány automaticky v každém requestu.
 
 Dotazování v protokolu OAI-PMH je možné pomocí tzv. sloves (verbs).
 Význam jednotlivých sloves s příkladem užití jsou popsány v následujících kapitolách.
-Podrobná specifikace protokolu OAI-PMH je k dispozici [zde](http://www.openarchives.org/OAI/openarchivesprotocol.html).
+Podrobná specifikace protokolu OAI-PMH je k dispozici [zde](http://www.openarchives.org/OAI/openarchivesprotocol.html){.external}.
 
 ### Identify
 
 Sloveso `Identify` se používá k získání informací o úložišti.
 
-Dotaz: [https://api.aiscr.cz/dapro/oai?verb=Identify](https://api.aiscr.cz/dapro/oai?verb=Identify)
+Dotaz: [https://api.aiscr.cz/dapro/oai?verb=Identify](https://api.aiscr.cz/dapro/oai?verb=Identify){.external}
 
 ### ListMetadataFormats
 
 Sloveso `ListMetadataFormats` se používá k načtení formátů metadat dostupných z úložiště.
 
-Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListMetadataFormats](https://api.aiscr.cz/dapro/oai?verb=ListMetadataFormats)
+Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListMetadataFormats](https://api.aiscr.cz/dapro/oai?verb=ListMetadataFormats){.external}
 
 Odpověď:
 
@@ -152,7 +152,7 @@ Nepovinné argumenty umožňují filtraci záhlaví na základě nastavených [s
 Uživatel dostane v odpovědi první stránku se záhlavím záznamů.
 Pro načtení dalších stránek je nutné použit [`resumptionToken`](api.qmd#resumptionToken).
 
-Dotaz: <https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr>
+Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr](https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr){.external}
 
 ### ListRecords
 
@@ -162,7 +162,7 @@ Nepovinné argumenty umožňují filtraci záznamů na základě nastavených [s
 Uživatel dostane v odpovědi první stránku se záznamy.
 Pro načtení dalších stránek je nutné použit [`resumptionToken`](api.qmd#resumptionToken).
 
-Dotaz: <https://api.aiscr.cz/dapro/oai?verb=ListRecords&metadataPrefix=oai_amcr>
+Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListRecords&metadataPrefix=oai_amcr](https://api.aiscr.cz/dapro/oai?verb=ListRecords&metadataPrefix=oai_amcr){.external}
 
 Odpověď:
 
@@ -211,7 +211,7 @@ K základnímu formátu identifikátoru je vždy jako prefix připojena URL: `ht
 Odkazy mezi záznamy napříč sety jsou řešeny na úrovni základního identifikátoru bez prefixu.
 Další informace ke struktuře identifikátorů a vazbám naleznete v samostatné [kapitole](identifikatory.qmd).
 
-Dotaz: <https://api.aiscr.cz/dapro/oai?verb=GetRecord&identifier=https://api.aiscr.cz/id/C-DL-200400001&metadataPrefix=oai_amcr>
+Dotaz: [https://api.aiscr.cz/dapro/oai?verb=GetRecord&identifier=https://api.aiscr.cz/id/C-DL-200400001&metadataPrefix=oai_amcr](https://api.aiscr.cz/dapro/oai?verb=GetRecord&identifier=https://api.aiscr.cz/id/C-DL-200400001&metadataPrefix=oai_amcr){.external}
 
 Odpověď:
 
@@ -264,7 +264,9 @@ Odpověď:
 
 Sloveso `ListSets` se používá k načtení nastavené struktury úložiště, tzv. setů.
 
-Dotaz: <https://api.aiscr.cz/dapro/oai?verb=ListSets>
+Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListSets](https://api.aiscr.cz/dapro/oai?verb=ListSets){.external}
+
+## Parametry
 
 ### Stránkování
 
@@ -281,7 +283,7 @@ Odpověď na dotaz v sekci [ListRecords](api.qmd#listrecords) vrátila následuj
 </resumptionToken>
 ```
 
-Dotaz: <https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&resumptionToken=2023-07-10.oai_amcr.1000.projekt.1000.1000...f>
+Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&resumptionToken=2023-07-10.oai_amcr.1000.projekt.1000.1000...f](https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&resumptionToken=2023-07-10.oai_amcr.1000.projekt.1000.1000...f){.external}
 
 Parametr `resumptionToken` je v tomto případě společně se slovesy `ListRecords` a `ListIndentifiers`
 výhradním parametrem.
@@ -306,11 +308,11 @@ Pomocí slovesa `ListSets` je možné získat hodnotu `setSpec` pro všechny nad
 Pro zvolené filtrování se poté do requestu se slovesy `ListRecords` nebo `ListIndentifiers` přidává parametr `set=setSpec`.
 Filtrování pomocí setů lze kombinovat s filtrováním pomocí `datestamp`.
 
-Dotaz: <https://api.aiscr.cz/dapro/oai?verb=ListRecords&set=akce&metadataPrefix=oai_amcr>
+Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListRecords&set=akce&metadataPrefix=oai_amcr](https://api.aiscr.cz/dapro/oai?verb=ListRecords&set=akce&metadataPrefix=oai_amcr){.external}
 
 #### Pomocí datestamp
 
 Protokol OAI-PMH umožňuje filtrování pomocí datumu (`datestamp`), přiřazeného ke každému záznamu.
 Pro požadované filtrování se poté do requestu se slovesy `ListRecords` nebo `ListIndentifiers` přidává parametr `from` (od) a/nebo `until` (do).
 
-Dotaz: <https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr&from=2022-12-10&until=2022-12-20>
+Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr&from=2022-12-10&until=2022-12-20](https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr&from=2022-12-10&until=2022-12-20){.external}

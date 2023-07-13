@@ -121,7 +121,7 @@ Jako externí zdroje jsou chápány publikace, novinové články, nepublikovan�
 ## MADB
 
 Extenze MADB vychází z dlouhodobého badatelsko-evidenčního záměru Oddělení archeologie středověku ARÚ Praha -- **Mapa archeologických dokumentačních bodů na území Pražské památkové rezervace** (MADB; PPR) -- jenž byl po několik desetiletí spjat se jménem Ladislava Hrdličky (1937–2011).
-Na jeho odkaz navázal v letech 2013–2017 projekt NAKI ([DF13P01OVV014](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF13P01OVV014){.external}) Integrovaný informační systém archeologických pramenů Prahy, v jehož rámci byl vytvořen obecný nástroj sběru záznamů archeologických dokumentačních bodů (ADB) a výškových bodů (VB) na komplexních lokalitách urbánního charakteru, tedy zejména v historických jádrech měst.
+Na jeho odkaz navázal v letech 2013–2017 projekt NAKI ([DF13P01OVV014](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF13P01OVV014){.external}) *Integrovaný informační systém archeologických pramenů Prahy*, v jehož rámci byl vytvořen obecný nástroj sběru záznamů archeologických dokumentačních bodů (ADB) a výškových bodů (VB) na komplexních lokalitách urbánního charakteru, tedy zejména v historických jádrech měst.
 
 ### Mapa archeologických dokumentačních bodů (MADB)
 
