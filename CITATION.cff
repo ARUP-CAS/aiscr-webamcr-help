@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Nápověda a dokumentace AMČR
+message: >-
+  If you use this document, please cite it using the
+  metadata from this file.
+authors:
+  - given-names: Petr
+    family-names: Pajdla
+    email: pajdla@arub.cz
+    affiliation: 'Institute of Archaeology, Czech Acad Sci, Brno'
+    orcid: 'https://orcid.org/0000-0001-7050-9572'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.8141634
+repository-code: 'https://github.com/ARUP-CAS/aiscr-webamcr-help/'
+url: 'https://arup-cas.github.io/aiscr-webamcr-help/'
+abstract: Dokumentace a nápověda k AMČR.
+license: CC-BY-NC-4.0
+date-released: 2023-07-13
