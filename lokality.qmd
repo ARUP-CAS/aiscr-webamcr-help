@@ -1,0 +1,210 @@
+# Evidence lokalit
+
+::: callout-note
+Původně zveřejněno jako Kuna, M a Novák, D. [-@kuna2020]: *Zásady
+evidence "nemovitých" lokalit v AMČR* na Zenodo pod DOI:
+[10.5281/zenodo.4113964](http://doi.org/10.5281/zenodo.4113964){.external}
+:::
+
+## Pojem lokalita
+
+Jádrem AMČR jsou záznamy dvou typů: [archeologické akce](pojmy.qmd#akce)
+a (archeologické) [lokality](pojmy.qmd#lokality).
+
+**Archeologická akce** je soubor archeologických nálezů a pozorování
+odpovídající určitému místu (prostorovému vymezení), původci (osobě,
+organizaci), době provedení a použité metodě výzkumu.
+
+**Lokalita** je soubor archeologických nálezů a pozorování odpovídající
+určitému místu (prostorovému vymezení), charakteristickému
+archeologickému projevu a předpokládané funkční souvislosti v minulosti.
+
+*Lokalitou* v principu může být jakýkoli archeologický nález nebo
+skupina nálezů odpovídající výše uvedené definici (tedy i jeden střep).
+**Mezi akcí a lokalitou není primární rozdíl v obecnosti nebo věcném
+obsahu, ale v organizaci informací (struktuře dat).** Zatímco pro
+vymezení *akce* je rozhodující archeologická výzkumná aktivita, pro
+vymezení *lokality* forma archeologického záznamu (projevu). Mezi oběma
+kategoriemi jsou v principu vztahy N:N (které však systematicky
+neevidujeme -- vyplývají z prostorového uspořádání). Reprezentaci akcí a
+lokalit v AMČR vyjadřuje @fig-lok-dj, viz také @fig-dj.
+
+![Dokumentační jednotka a komponenta vůči projektové akci, samostatné
+akci a lokalitě](figs/lok-dj.png){#fig-lok-dj}
+
+V praxi AMČR dbáme na to, aby principy evidence byly aplikovány účelně a
+jednotlivé kategorie záznamů se doplňovaly. Proto u každého nálezu a
+pozorování zvažujeme, zda ho budeme evidovat jako akci, lokalitu nebo
+obojí. Přitom dbáme na to, aby:
+
+-   nevznikaly redundantní informace;
+-   nedocházelo ke ztrátě informací a
+-   jednotky evidence byly aplikovány jen na soubory dat, pro které jsou
+    vhodné.
+
+Pro pochopení obsahu pojmů akce a lokalita je důležité ještě podotknout,
+že existují i archeologické nálezy/pozorování, které nelze efektivně
+zachytit ani jedním z obou pojmů (např. síť zaniklých cest v krajině
+aj.); tento problém bude třeba v dohledné době řešit jiným způsobem (viz
+níže).
+
+## Principy evidence lokalit
+
+-   Jako *lokalitu* evidujeme zejména soubory nálezů a pozorování,
+    jejichž souvislost je dána specifickým krajinným prvkem (valy,
+    mohyly, terénní konfigurace). Z podstaty věci proto jde často o
+    informace získané nedestruktivním terénním průzkumem.
+-   Vytvoření *lokality* na základě destruktivního výzkumu nevylučujeme,
+    pokud takový záznam o souboru informací představuje (ve srovnání se
+    záznamy o jednotlivých akcích) novou kvalitu, spočívající zejména v
+    definici určitého celku (např. ohrazeného areálu, jinak
+    nezjistitelného).
+-   Pokud z takové *lokality* pocházejí movité nálezy, jejich soubory
+    vždy primárně evidujeme jako *akce*, a to s maximálně přesným
+    prostorovým a věcným vymezením. Naopak, pokud k tomu není zvláštní
+    důvod, opakovaná nedestruktivní pozorování bez nálezů jako *akce*
+    neevidujeme (jednotlivé snímky, návštěvy lokality apod.).
+-   Popis [komponent](pojmy.qmd#komponenty) *lokality* chápeme jako
+    pomocnou informaci, která může být částečně redundantní vzhledem k
+    evidenci akcí. Jedním z úkolu do budoucna může být systematická
+    aktualizace popisu komponent lokalit podle komponent akcí.
+-   Jsme si vědomi arbitrárnosti výběru a popisu komponent *lokality*.
+    Za určitých okolností lze hradiště jako *lokalitu* zařadit do doby
+    bronzové, i když pro to není žádná opora v movitých nálezech, nebo k
+    této *lokalitě* přiřadit jako komponentu eneolitický depot, pokud
+    jsme přesvědčeni, že opevnění v době bronzové navázalo na starší
+    účel místa. Toto pojetí bude v budoucnu třeba rozpracovat s využitím
+    aktuální teorie archeologie (zejména konceptu *assemblage*).
+-   Naproti tomu nálezy, které považujeme za nesouvisející a/nebo nálezy
+    s odlišným archeologickým projevem, evidujeme jako různé *lokality*,
+    i když jsou na stejném místě (typicky třeba hrad na hradišti).
+-   *Lokality* mohou mít hierarchickou povahu (samostatně evidujeme
+    např. celou zaniklou vesnici a zároveň i tvrz či kostel v ní
+    zahrnutý). Takový postup je analyticky výhodný. V budoucnu bude
+    dopracována metodika členění *lokalit* na části (např. hradiště \>
+    akropole, předhradí) a evidence jejich podoby v různých obdobích
+    (srov. různý rozsah hradiště Závist v pozdní době bronzové, v době
+    halštatské a jako oppida). V principu existují dva postupy, z nichž
+    jeden považuje za primární hledisko logickou prostorovou součást
+    *lokality* a k ní přiřazuje období, druhý postup to činí naopak,
+    tedy k danému chronologickému celku přiřazuje relevantní prostorové
+    vymezení.
+-   Samostatné depoty a podobné druhy nálezů s movitým obsahem jsou
+    systematicky evidovány jako *akce* (mají původce a dobu nálezu, i
+    když je třeba neznáme), třebaže svým způsobem mají charakter
+    *lokalit*. Mohou však vystupovat i jako komponenty dílčích *lokalit*
+    (např. depot v rámci mohylníku); i v tomto bodě nás čeká dopracování
+    metodiky.
+
+#### Co neděláme
+
+-   *Lokalitou* je i každý soubor komponent *akcí* vázaný k určitému
+    místu (např. sídliště knovízské kultury). Tyto soubory v AMČR jako
+    lokality přesto neevidujeme, protože jejich vymezení:
+
+    -   se průběžně mění s přibýváním archeologických akcí a
+    -   nepřináší žádnou novou informaci (za předpokladu řádně vedené
+        evidence akcí).
+
+-   Jako *lokality* neevidujeme úseky krajiny s archeologickými nálezy,
+    které nelze jednoznačně členit na místa (prostorově diskrétní,
+    přiměřeně velké a rámcově ohraničené prostorové celky) a spojovat
+    podle předpokládané souvislosti v minulosti. Z toho plyne důležitý
+    závěr: ne všechny archeologické nálezy lze evidovat v pojmech *akcí*
+    a *lokalit*; v budoucnu budeme muset uvažovat o dalších kategoriích,
+    zejména pro evidenci výsledků dálkového průzkumu.
+
+-   O *lokalitách* neuvažujeme jako o jednotkách minulé reality. Jsou to
+    celky pramenů, které se sice mohou některým aspektům minulosti
+    blížit (předpoklad souvislosti), ale nemusejí.
+
+## Databáze *nemovitých* lokalit
+
+K dlouhodobé evidenci lokalit primárně slouží AMČR. **Tam lokality
+evidujeme a vkládáme nikoli ad hoc jednotlivě, ale jako ucelené celky s
+jasným původem, způsobem výběru a metodikou sběru dat.** Jednotlivé
+celky jsou z pravidla tvořeny lokalitami stejného charakteru (např.
+pravěká a raně středověká ohrazení; mohylová pohřebiště; jeskyně s
+lidskou aktivitou; polygony leteckého průzkumu), který je uveden jako
+základní *druh lokality*. Tento praktický (pragmatický) aspekt evidence
+lokalit je důležitý k pochopení našeho přístupu. Rozlišujeme tři **typy
+lokalit**:
+
+-   **L** (**letecké**) -- archeologické objekty a jejich shluky
+    identifikované při dálkovém průzkumu -- pro evidenci lokalit tohoto
+    typu existuje samostatná metodika připravená pro projekt
+    *Archeologie z nebe*, viz @gojda2022;
+-   **N** (**nemovité**) -- lokality tvořené funkčně, chronologicky a
+    prostorově ucelenými areály, které lze označit za dílčí nemovité
+    památky uchované v dnešní krajině. Jde o (víceméně) arbitrární celky
+    vzniklé za účelem evidence, které zpravidla minulou realitu odráží
+    jen částečně, neboť postrádají vnitřní dynamiku a jednoznačnou
+    interpretaci účelu;
+-   **K** (**krajina**) -- doplňková kategorie lokalit prostorově
+    definovaných s přesností na katastrální území; slouží zejména k
+    přiřazování prostorové informace dokumentaci, jejíž archeologická
+    hodnota je nízká, nebo přesné prostorové vymezení popisovaného
+    obsahu není možné.
+
+Těmto typům pak odpovídají dílčí **druhy lokalit**. 
+Heslář druhů lokalit je otevřený k doplňování a druhy do něj budou přidávány tak, jak budou
+vznikat jednotlivé datové bloky lokalit (viz výše zmíněný *pragmatický*
+přístup k evidenci), viz @tbl-lok-typy.
+
++--------------+----------------------------------+------------------------------------+---------------+
+| Typ lokality | Druh obecný                      | Druh konkrétní                     | PIAN          |
++==============+==================================+====================================+===============+
+| **L**        | polygon archeologického průzkumu | - polygon leteckého průzkumu       | Vlastní PIAN  |
+| letecká      |                                  |                                    |               |
++--------------+----------------------------------+------------------------------------+               |
+| **N**        | přírodní útvar                   | - jeskyně/skalní prostor           |               |
+| nemovitá     | s lidskou aktivitou              |                                    |               |
+|              +----------------------------------+------------------------------------+               |
+|              | zaniklý/historický areál         | - mohylové pohřebiště              |               |
+|              |                                  | - pravěké/raně středověké ohrazení |               |
+|              |                                  | - středověké/novověké sídlo elity  |               |
+|              |                                  | - těžěbní areál                    |               |
++--------------+----------------------------------+------------------------------------+---------------+
+| **K**        | krajina                          | - krajina                          | PIAN katastru |
+| krajina      |                                  | - památník/pomník                  |               |
+|              |                                  | - muzeum/skanzen                   |               |
++--------------+----------------------------------+------------------------------------+---------------+
+
+: Typy a druhy lokalit {#tbl-lok-typy}
+
+Následující zásady se zabývají zejména evidencí *nemovitých* lokalit (typ **N**).
+
+- Pro každý druh lokality existuje kromě autoritní evidence v AMČR také pomocná databáze, která slouží ke sběru dat a přípravě datových bloků k importu. 
+  Tato databáze má jednotnou formu odpovídající datové struktuře AMČR a je obvykle spravována zvlášť pro Čechy (působnost ARÚ Praha) a zvlášť pro Moravu a Slezsko (působnost ARÚ Brno). 
+  Údaje ukládané nad rámec datové struktury AMČR jsou prioritně vyčleněny do samostatné tabulky `LOKALITA_detaily`. 
+  Jakékoli zásahy do struktury databáze či heslářů jsou přípustné pouze po konzultaci se správcem databáze.
+- **Hlavním účelem pomocné databáze je přiřadit každé lokalitě jednoznačné číselné označení (pracovní ID)**, které lze používat při sběru dat a vyhodnocení, zda má být lokalita zařazena do finálního datového souboru v AMČR nebo nikoli. 
+  Do pomocné databáze jsou obvykle zapisovány všechny potenciální lokality sledovaného druhu. 
+  Dlouhodobým cílem je v AMČR podchytit všechny lokality ve sledovaných kategoriích. 
+  Při vstupu do AMČR každá lokalita získá svůj definitivní trvalý identifikátor, který lze používat k jejímu jednoznačnému označení (např. při citaci, při další evidenci apod.).
+- Mezi evidovanými lokalitami se mohou nacházet i lokality nejisté, domnělé či pseudolokality tradované v literatuře. 
+  Jejich evidence je žádoucí nejen z metodických důvodů, kdy skutečnou povahu lokality můžeme často vyhodnotit až zpětně po čase a projití více zdrojů, ale také proto, aby se tradované chyby dále nešířily a mohly být výhledově v AMČR evidovány vč. relevantních argumentů.
+- V pomocné databázi lze evidovat jednotlivé lokality, s nimi související bibliografii/zdroje a případně též archivní dokumenty, které je zachycují a mají být vloženy do AMČR (zejména fotky a plány). 
+  Tomu odpovídají tři samostatné formuláře (`Lokality_popis`, `Externi_zdroj_popis`, `Dokumenty_popis`.
+- Přidání nové lokality se provádí vždy v přímo v tabulce `LOKALITA`, a to přidáním řádky s požadovaným pracovním ID. 
+  **Pracovní ID záměrně není přidělováno automaticky**, aby byla zachována plná kontrola nad volbou správného ID zvláště pro ty případy, kdy existuje více kopií databáze. 
+  Nová pracovní ID by měla být přidělována vždy po konzultaci s relevantním správcem databáze lokality na ARÚP/ARÚB, který stanoví **rozsah přidělovaných čísel**. 
+  Musí být zajištěno, že ID jsou přidělována jako unikátní pro každý jednotlivý druh lokalit v rámci Čech/Moravy a Slezska.
+- **V názvu databáze je vhodné zachovat datum verze struktury databáze** a nezaměňovat jej od data poslední změny jejího obsahu. 
+  Zároveň by z názvu měl být patrný druh lokalit, kterého se databáze dotýká (např. `lokality_200703_mohylniky_200710.accdb`). 
+  Databázi je vhodné pravidelně zálohovat a při vzniku více verzí s různými datovými bloky zajistit pravidelné sloučení do jedné harmonizované autoritní verze. Každá databáze by měla mít svého správce, který za její strukturu a správnost obsahu odpovídá. 
+  Obdobně je třeba postupovat při správě souvisejících prostorových dat v GIS.
+
+  ### Popis lokalit ve formuláři
+
+  #### Komponenty a nálezy
+
+  #### Specifické údaje o lokalitě
+
+  #### Externí zdroje
+
+  ### Popis dokumentů
+
+  ## Prostorové vymezení lokalit
+
+  ## Archiv digitálních podkladů
