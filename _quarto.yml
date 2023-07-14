@@ -18,7 +18,7 @@ book:
   repo-actions: [source, edit, issue]
   reader-mode: true
 
-  author: 
+  author:
     - name: David Novák
       orcid: 0000-0001-6592-6291
       # affiliations:
@@ -46,6 +46,8 @@ book:
     title: Dokumentace AMČR
     # logo: figs/AMCR_cmyk_pozitiv-03.png
     search: true
+    collapse-level: 1
+    pinned: true
 
   chapters:
     - index.qmd
@@ -109,6 +111,7 @@ format:
   pdf:
     documentclass: scrreprt
     papersize: a4wide
+    # fontfamily: droid
     lot: true
     lof: true
   # docx: default
@@ -128,7 +131,6 @@ callout-appearance: simple
 number-sections: true
 number-depth: 1
 toc-title: "Obsah"
-toc-expand: false
 
 bibliography: references.bib
 csl: https://www.zotero.org/styles/internet-archaeology
