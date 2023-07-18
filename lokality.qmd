@@ -1,10 +1,14 @@
 ---
-format:
-  docx: default
-format-links: [pdf, docx]
+title: Evidence lokalit
+author:
+  - name: Martin Kuna
+    orcid: 0000-0001-9244-8387
+  - name: David Novák
+    orcid: 0000-0001-6592-6291
+doi: 10.5281/zenodo.4113964
+date: 2020-10-21
+date-format: D. M. YYYY
 ---
-
-# Evidence lokalit
 
 ::: callout-note
 
