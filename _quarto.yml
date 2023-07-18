@@ -8,7 +8,7 @@ book:
   favicon: figs/cover.png
   cover-image: figs/AMCR_cmyk_pozitiv-03.png
   date: today
-  date-format: "D. M. YYYY"
+  date-format: D. M. YYYY
   doi: 10.5281/zenodo.8141634
   license: https://creativecommons.org/licenses/by-nc/4.0/
   language: cs
@@ -69,6 +69,8 @@ book:
       chapters:
         - lokality.qmd
         - pas.qmd
+        - pas-archeolog.qmd
+        - pas-amater.qmd
 
     - part: "Dobrá praxe"
       chapters:

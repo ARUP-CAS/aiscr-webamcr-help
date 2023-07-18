@@ -1,0 +1,308 @@
+---
+title: "AMČR-PAS: Návod pro spolupracovníky"
+author:
+  - name: Petr Pajdla
+    orcid: 0000-0001-7050-9572
+  - name: David Novák
+    orcid: 0000-0001-6592-6291
+  - name: Jan Mařík
+    orcid: 0009-0007-7398-9365
+  - name: Balázs Komoróczy
+    orcid: 0000-0002-0576-7230
+  - name: Olga Lečbychová
+    orcid: 0000-0001-5123-1261
+  - name: Tomáš Chlup
+    orcid: 0000-0003-3179-992X
+  - name: Róbert Antal
+date: 2021-03-18
+date-format: D. M. YYYY
+doi: 10.5281/zenodo.8141634
+---
+
+::: {.callout-note}
+
+Původně zveřejněno jako...
+
+:::
+
+Dokument představuje **základní principy používání AMČR-PAS a návod pro spolupracovníky**.
+
+## Úvod
+
+AMČR-PAS (Portál amatérských spolupracovníků a evidence
+samostatných nálezů) byl vytvořen pro podporu součinnosti dobrovolných
+spolupracovníků a oprávněných organizací při provádění archeologických
+výzkumů metodou povrchové prospekce, včetně využití detektorů kovů.
+Úkolem AMČR-PAS je vytvořit podmínky pro formalizaci a
+zároveň usnadnění této spolupráce při současném respektování platných
+zákonných norem [čr]{.smallcaps}.
+
+**Modul AMČR-PAS** naleznete po přihlášení na
+<https://amcr.aiscr.cz/>.\
+**Webovou stránku [amčr--pas]{.smallcaps}** pak zde
+<http://www.archeologickamapa.cz/pas>.
+
+## Principy spolupráce
+
+Modul AMČR-PAS je založen na spolupráci amatérských
+badatelů s archeology z organizací s oprávněním provádět archeologický
+výzkum. Prvním krokem je tedy nalézt v regionu, kde chcete svoji
+badatelskou činnost provozovat, organizaci s oprávněním provádět
+archeologický výzkum, kde bude archeolog takové spolupráci nakloněn a
+ochoten Vaši amatérskou badatelskou činnost zaštítit. Pokud dojde ke
+shodě na vzájemné spolupráci, vstupuje do celého procesu modul
+AMČR-PAS, který usnadní a zformalizuje většinu kroků
+amatérského výzkumu.
+
+Vyhledávání archeologických nálezů pomocí detektoru kovů je jednou z
+metod archeologického výzkumu. Archeologický výzkum může být prováděn
+výhradně organizací k tomu oprávnenou a na území, které je vymezeno
+platnou dohodou dané organizace s [av čr]{.smallcaps}. Každý výzkum musí
+být registrován v Archeologické mapě České republiky
+(AMČR) ve formě projektu, který má svého vedoucího, který
+je pracovníkem dané oprávněné organizace.
+
+Veškeré archeologické nálezy a jejich nálezové okolnosti musí být
+evidovány. V ideálním případě by základní evidence měla proběhnout přímo
+v místě nálezu. V případě technických překážek (nedostupné internetové
+připojení, spolupracovník není vybaven chytrým telefonem apod.) by mělo
+k evidenci nálezu dojít bez zbytečných odkladů po návratu z terénu.
+Jelikož archeologické nálezy jsou učiněné v režimu archeologického
+výzkumu, je vyloučeno požadovat výplatu odměny podle § 23 památkového
+zákona.
+
+Nutným předpokladem navázání spolupráce s oprávněnou organizací je účast
+na školení, jehož obsahem by měly být právní podmínky celého systému,
+metodika práce v terénu, dokumentace nálezů a způsob užívání
+AMČR-PAS.
+
+## Modul AMČR-PAS
+
+### Registrace a přihlášení
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![Dialog pro přihlášení](figs/pas-login.png){#fig-pas-login width="80%"}
+:::
+
+::: {.column width="60%"}
+Pro přihlášení do [aplikace](https://amcr.aiscr.cz/){.external} slouží emailová
+adresa a heslo. Nutná je předchozí [registrace](https://backend.aiscr.cz/registrace/0/){.external}.
+
+Povinnými položkami pro registraci jsou:
+
+-   jméno
+-   příjmení
+-   platná emailová adresa
+-   organizace -- pro veřejnost obvykle `[amatérský spolupracovník]`
+
+Na uvedený email je automaticky odeslána ověřovací zpráva s odkazem pro
+potvrzení registrace. Po potvrzení je účet aktivován správcem systému.
+Aktivace účtů obvykle probíhá v běžné pracovní době.
+:::
+
+::::
+
+### Úvodní obrazovka
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![Výběr modulu AMČR](figs/pas-main.png){#fig-pas-main width="80%"}
+:::
+
+::: {.column width="60%"}
+Modul AMČR-PAS je jednou ze součástí Archeologického
+informačního systému [čr]{.smallcaps} ([ais cr]{.smallcaps}), resp.
+Archeologické mapy [čr]{.smallcaps} (AMČR). Ve webové
+aplikaci je v současnosti dostupný modul AMČR-PAS a
+Knihovna 3D, která slouží pro evidenci 3D modelů a textur relevantních
+pro archeologii.
+:::
+
+::::
+
+Samotný modul AMČR-PAS se skládá z několika karet:
+
+![Karty po přihlášení do AMČR-PAS](figs/pas-b_main.png){#fig-pas-karty width="80%"}
+
+- **Zapsat**: Zápis nového nálezu;
+- **Moje nálezy**: Výčet nálezů, které jsem zaevidoval;
+- **Vybrat**: Výběr mých nálezů dle zadaných kritérií;
+- **Spolupráce**: Správa spolupráce s archeology.
+
+### Spolupráce
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![Žádost o spolupráci](figs/pas-b_spoluprace.png){#fig-pas-spoluprace width="80%"}
+:::
+
+::: {.column width="60%"}
+Na kartě `Spolupráce` je nutné nejprve požádat archeologa o spolupráci.
+Tím vznikne vazba mezi archeologem a Vámi, jakožto spolupracovníkem. Pro
+navázání spolupráce je nutné znát email daného archeologa pod kterým je
+registrován v systému AMČR.
+
+Po potvrzení spolupráce archeolog vytvoří `Projekt`, pod kterým budou
+Vaše nálezy evidovány. Pro další postup je nutné, aby Vám archeolog
+sdělil číslo projektu, pod kterým budete své nálezy evidovat.
+:::
+
+::::
+
+### Zapsat
+
+Karta `Zapsat` slouží k zápisu samotných nálezů. Ten je možný jak přímo
+v terénu (aplikace spuštěná přímo v prohlížeči v mobilním telefonu), tak
+zpětně. V terénu doporučujeme provést následující kroky:
+
+1.  zaměřit polohu nálezu,
+2.  zapsat hloubku nálezu,
+3.  do pole `Poznámka` uvést údaje o kontextu nálezu.
+
+#### Nálezové okolnosti
+
+První sekcí, kterou je nutné vyplnit jsou `Nálezové okolnosti`. Zde je
+nutné vybrat projekt, v rámci kterého byl učiněn nález.
+
+1.  Vyberu ze seznamu relevantní číslo projektu (jedná se o jediný údaj
+    bezpodmínečně nutný pro první uložení nálezu do systému).
+2.  Přidám detailní popis lokalizace, např. formou parc. č., pomístního
+    názvu (název trati, ulice, polohy aj.). Prosím dodržte následující
+    formát zápisu: *Poloha, (parc. č.)*
+1.  Identifikuji nálezce (tlačítko `+` slouží k přidání chybějícího
+    jména do hesláře). Pokud nechci své jméno u nálezu zveřejnit, lze
+    zvolit `anonym, anonym`.
+2.  Vyplním datum nálezu.
+3.  Specifikuji nálezové okolnosti a hloubku nálezu.
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Zapsat nález](figs/pas-b_zapsat_nalez.png){#fig-pas-nalez width="80%"}
+:::
+
+::: {.column width="50%"}
+Po prvním uložení změn ve formuláři dojde k přidělení identifikátoru
+nálezu, který je viditelný v horní části obrazovky. Pod tímto
+[ID]{.smallcaps} bude nález navždy evidován a je vhodné jej využívat
+např. při označování nálezů.
+:::
+
+::::
+
+#### Lokalizace nálezu
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Mapové okno](figs/pas-b_zapsat_mapa.png){#fig-pas-mapa width="80%"}
+:::
+
+::: {.column width="50%"}
+Mapové okno slouží k přesné lokalizaci nálezu. Lze přepínat mezi různými
+mapovými podklady. Místo nálezu mohu určit několika způsoby.
+
+- Ručním zápisem geografických souřadnic. Akceptovány jsou souřadnice:
+
+    - [wgs-84]{.smallcaps} uváděné v decimálních stupních, např. `50.0903260, 14.4090983`
+    - [s-jtsk]{.smallcaps} uváděné v záporných hodnotách v metrech, např. `-597268, -1161521`.
+
+- V případě práce v terénu s telefonem vybaveným GPS lokalizací pomocí tlačítka `Současná poloha` {{< fa map-marker-alt >}}. Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.
+- Přiblížením v mapě a vybráním přesného bodu kliknutím na mapový podklad.
+:::
+
+::::
+
+#### Nález
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Okno nálezu](figs/pas-b_zapsat_nalez_detail.png){#fig-pas-detail width="80%"}
+:::
+
+::: {.column width="50%"}
+V sekci `Nález` lze specifikovat dataci nálezu, typ předmětu atd.
+Vyplnění této části je částečně povinné (období, nález a materiál),
+informace však reviduje a doplní archeolog v další fázi zpracování.
+:::
+
+::::
+
+#### Uložení
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Uložit](figs/pas-b_zapsat_uloz.png){#fig-pas-uloz width="80%"}
+:::
+
+::: {.column width="50%"}
+Již po vyplnění vazby na projekt lze rozepsaný nález kdykoliv uložit.
+:::
+
+::::
+
+#### Nahrání fotografie
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Přidání fotografie](figs/pas-b_zapsat_foto.png){#fig-pas-foto width="80%"}
+:::
+
+::: {.column width="50%"}
+Posledním klíčovým krokem po uložení celého záznamu je přiložit
+fotodokumentaci nálezové situace a předmětu, ideálně i s měřítkem.
+Akceptovány jsou fotografie ve formátu `JPG`, `PNG`, `TIFF` do maximální
+velikosti 100 MB. Není tedy třeba fotky komprimovat nebo zmenšovat.
+Pokud si nejste jistí, jak předměty správně dokumentovat, navštivte na
+webu AMČR-PAS sekci `Návody`.
+:::
+
+::::
+
+#### Odeslání záznamu
+
+Po vyplnění všech povinných údajů (pole označená červeným vykřičníkem
+{{< fa exclamation-circle >}}) a nahrání fotografie je
+možné záznam odeslat *archeologovi* pomocí tlačítka `Odeslat`. Až v tuto
+chvíli se nález zobrazí archeologovi, se kterým máte navázánu spolupráci
+a pod jehož číslem projektu byl nález zapsán.
+
+Ve chvíli, kdy dojde k osobní schůzce s daným archeologem a jsou mu
+předány nálezy, archeolog potvrdí jejich převzetí, případně opraví
+informace o dataci, typu předmětu atd. Také určí, jak veřejně budou
+informace o daném nálezu přístupné (např. v případě vzácných nálezů či
+ohrožené lokality se může rozhodnout informace o poloze nálezu
+nezpřístupnit).
+
+### Moje nálezy a Vybrat
+
+![Moje nálezy](figs/pas-b_moje.png){#fig-pas-moje width="80%"}
+
+Karta `Moje nálezy` nabízí výpis veškerých vašich nálezů. Toho využijete
+právě při uložení rozpracovaného záznamu v terénu s myšlenkou jeho
+dokončení, např. přidání detailnější fotky aj., později.
+
+Karta `Vybrat` pak nabízí multikriteriální vyhledávání ve vašich
+nálezech.
+
+## Nález v Digitálním archivu AMČR
+
+![Digitální archiv AMČR](figs/pas-digiarchiv1.png){#fig-pas-da1 width="80%"}
+
+Po odeslání záznamu nálezu jej potvrdí osoba pověřená archivací
+detektorových nálezů na příslušném Archeologickém ústavu [av
+čr]{.smallcaps}. Následně je záznam zveřejněn v Digitálním archivu
+AMČR v kategorii [Samostatné nálezy](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external}. Zde
+jsou zveřejněny všechny archivované nálezy evidované v modulu
+AMČR-PAS, jejich lokalizace však může být z důvodu ochrany
+archeologického dědictví zobecněna na okres, v němž byl daný nález
+evidován.
+
+![Samostatné nálezy v Digitálním archivu AMČR](figs/pas-digiarchiv2.png){#fig-pas-da2 width="80%"}
