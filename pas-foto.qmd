@@ -1,4 +1,12 @@
-# Fotografická dokumentace nálezů
+---
+title: Fotografická dokumentace nálezů
+author:
+  - name: Tomáš Chlup
+    orcid: 0000-0003-3179-992X
+doi: 10.5281/zenodo.4560101
+date: 2021-03-31
+date-format: D. M. YYYY
+---
 
 ::: {.callout-note}
 
@@ -74,13 +82,13 @@ Volíme dle individuálních možností.
 - Chceme-li stíny eliminovat, je vhodné použít odraznou desku či jinou formu odrazné plochy.
 - Fotíme-li předměty s nevýraznými detaily (např. mince), je vhodné svítit jedním světlem pod menším úhlem. Zvýrazní se tak stíny a nevýrazné kontury se lépe vykreslí.
 
-![Jednoduchý způsob jak vyrušit nežádoucí stíny pomocí plastové desky](figs/stin.jpg){#fig-foto-stin width=60%}
+![Jednoduchý způsob jak vyrušit nežádoucí stíny pomocí plastové desky](figs/foto-stin.jpg){#fig-foto-stin width=60%}
 
 ::: {#fig-foto-stin2 layout-ncol=2}
 
-![Snímek před](figs/stin_pred.jpg){#fig-foto-stin-pred}
+![Snímek před](figs/foto-stin_pred.jpg){#fig-foto-stin-pred}
 
-![Snímek po](figs/stin_po.jpg){#fig-foto-stin-po}
+![Snímek po](figs/foto-stin_po.jpg){#fig-foto-stin-po}
 
 Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní lampa
 
@@ -94,7 +102,7 @@ Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní 
 - Přepište identifikátor nálezu z AMČR-PAS na papír a přiložte na okraj záběru. Neklaďte předměty až k okraji záběru.
 - Správně komponovaný snímek není nutné ořezávat a otáčet.
 
-![Příklad správně komponované dokumentační fotografie, zdroj světla je zde stolní lampa](figs/kompo.jpg){#fig-foto-kompo width=60%}
+![Příklad správně komponované dokumentační fotografie, zdroj světla je zde stolní lampa](figs/foto-kompo.jpg){#fig-foto-kompo width=60%}
 
 ### Postup focení
 
@@ -109,7 +117,7 @@ Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní 
 8. Fotografie průběžně kontrolujte v náhledu. Rozmazané, tmavé a přesvětlené snímky rovnou mažte.
 9. Do AMČR-PAS nahrajte 2-3 finální fotografie.
 
-![Základní pomůcky pro fotografování archeologických nálezů](figs/tools.jpg){#fig-foto-tools width=80%}
+![Základní pomůcky pro fotografování archeologických nálezů](figs/foto-tools.jpg){#fig-foto-tools width=80%}
 
 ### Postprodukce
 
@@ -124,7 +132,7 @@ Postprodukce je soubor grafických úkonů, ke kterým přistupujeme pokud je t�
 
 ::: {.column-screen-inset}
 
-![Příklad správně upraveného snímku ořízlého od pozadí a jednotlivých pohledů vsazených do jednoho obrázku](figs/postproces.jpg){#fig-foto-postproces}
+![Příklad správně upraveného snímku ořízlého od pozadí a jednotlivých pohledů vsazených do jednoho obrázku](figs/foto-postproces.jpg){#fig-foto-postproces}
 
 :::
 
@@ -184,11 +192,11 @@ Při špatných světelných podmínkách automatika selhává a je třeba zvoli
 
 ::: {#fig-foto-clona layout-ncol=3 .column-screen-inset}
 
-![Clona f/3](figs/clona_1.jpg){#fig-foto-clona1}
+![Clona f/3](figs/foto-clona_1.jpg){#fig-foto-clona1}
 
-![Clona f/11](figs/clona_2x.jpg){#fig-foto-clona2}
+![Clona f/11](figs/foto-clona_2x.jpg){#fig-foto-clona2}
 
-![Clona f/32](figs/clona_3x.jpg){#fig-foto-clona3}
+![Clona f/32](figs/foto-clona_3x.jpg){#fig-foto-clona3}
 
 Příklady nastavení hloubky ostrosti
 
