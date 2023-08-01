@@ -1,9 +1,10 @@
-# Uživatelská dokumentace webAMČR
+# Uživatelská dokumentace AMČR
 
 [![DOI](https://zenodo.org/badge/610682820.svg)](https://zenodo.org/badge/latestdoi/610682820)
 [![][cc-by-nc-shield]][cc-by-nc]
 
-Repozitář obsahuje Dokumentaci a manuál k systému [AMČR](https://amcr-info.aiscr.cz/).
+Repozitář obsahuje uživatelský manuál k systému [AMČR](https://amcr-info.aiscr.cz/).
+Technická dokumentace je k dispozici na [ZDE](https://aiscr-webamcr.readthedocs.io/cs/latest/).
 AMČR je součástí Archeologického informačního systému ČR ([AIS CR](https://aiscr.cz/)).
 
 ## Licence
