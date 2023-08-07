@@ -2,28 +2,28 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Nápověda a dokumentace AMČR",
+    "title": "Uživatelská dokumentace AMČR",
     "section": "",
     "text": "Úvod\nInformační systém Archeologická mapa České republiky (AMČR) integruje dvě základní oblasti správy archeologického dědictví ČR. Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby nálezové zprávy. Na druhé straně jde o budování souhrnného přehledu archeologického dědictví ČR, tedy o vytvoření národní databáze archeologického kulturního dědictví. Oba úkoly spolu v mnoha ohledech souvisejí, a jejich spojení proto je pro uživatele výhodné: vzniká jím jednotný systém evidence klíčových informací využitelných v celé šíři archeologické terénní, památkové a v některých ohledech i muzejní práce. AMČR je součástí velké výzkumné infrastruktury Archeologický informační systém České Republiky (AIS CR).\nAMČR slučuje některé dosud nespojité datové báze a operace související s jejich plněním a správou. Jde o:\nCílem zavedení systému AMČR je zvýšení efektivity v oblasti shromažďování a šíření odborných informací, což je jedním z důležitých předpokladů dalšího rozvoje oboru, a to jak v ohledu teoretického výzkumu, tak památkové péče i komunikace se širší veřejností. Základním způsobem, jak tohoto cíle má být dosaženo, je vytvoření autoritních seznamů archeologických projektů, terénních akcí, dokumentů a dalších jednotek informačního systému. Evidence těchto jednotek pomocí jednotných a persistentních identifikátorů umožňuje spolehlivě identifikovat každý z prvků archeologického fondu a vytvářet mezi prvky účelné vazby (např. nález k akci, akce k dokumentu apod.)."
   },
   {
     "objectID": "index.html#kontakty",
     "href": "index.html#kontakty",
-    "title": "Nápověda a dokumentace AMČR",
+    "title": "Uživatelská dokumentace AMČR",
     "section": "Kontakty",
     "text": "Kontakty\nSpráva uživatelů a podpora pro oblast Čech:\n\nArcheologický ústav AV ČR, Praha, v.v.i.\nhttps://www.arup.cas.cz/\n amcr@arup.cas.cz\n\nSpráva uživatelů a podpora pro oblast Moravy a Slezska (vč. Kraje Vysočina):\n\nArcheologický ústav AV ČR, Brno, v.v.i.\nhttps://www.arub.cz/\n amcr@arub.cz"
   },
   {
     "objectID": "index.html#jak-citovat",
     "href": "index.html#jak-citovat",
-    "title": "Nápověda a dokumentace AMČR",
+    "title": "Uživatelská dokumentace AMČR",
     "section": "Jak citovat",
     "text": "Jak citovat\nCitujte jako (…)"
   },
   {
     "objectID": "index.html#licence",
     "href": "index.html#licence",
-    "title": "Nápověda a dokumentace AMČR",
+    "title": "Uživatelská dokumentace AMČR",
     "section": "Licence",
     "text": "Licence\nVeškerý obsah na těchto stránkách podléhá licenci CC BY-NC 4.0.\nData dostupná v AMČR jsou zveřejňována v souladu s politikou otevřeného přístupu k datům a se souhlasem držitelů autorských práv. Využití dat podléhá (pokud není explicitně uvedeno jinak) licenci CC BY-NC 4.0 (Creative Commons Uveďte původ-Neužívejte komerčně 4.0). Data je proto možné využít pouze s uvedením autora a pouze pro nekomerční použití. Toto ustanovení neomezuje využití AMČR na základě jiných smluvních ujednání či na základě zákonného titulu.\nVzhledem k tomu, že AMČR, ale i další nástroje patřící do rámce infrastruktury Archeologický informační systém ČR (AIS CR), poskytují data převážně v otevřeném režimu (Open Access), nemáme možnost sledovat využití těchto dat, ani to, jaké výstupy na jejich základě vznikají. Jelikož jsme však tyto informace povinni ze zákona vykazovat, chtěli bychom Vás, uživatele AMČR, požádat o součinnost při vykazování vědeckých výstupů, při jejichž vzniku byla využita data z AMČR či dalších součástí AIS CR.\nKaždý uživatel AMČR, jako nedílné součásti AIS CR, má proto povinnost:\n\nv konkrétních výstupech vždy obvyklým způsobem uvést, že k jejich tvorbě byla využita infrastruktura AIS CR s odkazem na využitá data či nástroj;\npokud zadává informace o výstupech do Rejstříku informací o výsledcích - RIV (např. na pracovištích AV ČR prostřednictvím databáze ASEP), vybrat návaznost výsledku na infrastrukturu AIS CR v poli VVI (Velké výzkumné infrastruktury) z nabízeného číselníku projektů podpory velkých výzkumných infrastruktur;\ndát nám laskavě vědět prostřednictvím tohoto dotazníku – https://www.aiscr.cz/vystupy, že výstup byl publikován.\n\n\n\n\n\n\n\nJak upravovat\n\n\n\n\n\nPro úpravy stačí kliknout na Edit this page v pravo pod navigací. Odkaz vede do GitHub repozitáře přímo na daný dokument, který lze rovnou upravovat (mám-li dostatečná práva). Při commitu se spustí akce, která celou stránku aktalizuje a nasadí (při větším množství úprav je tedy rozumné upravovat lokálně a push používat jen při ukončení práce, je to sice cizí výpočetní síla a nic nás nestojí, ale nemusí běžet zbytečně).\nNávod ke Quarto je zde: https://quarto.org/.\nJednotlivé dokumenty jsou formátovány pomocí markdownu:\n\n# Nadpis 1. úrovně.\n## Nadpis 2. úrovně atd.\n*Text* kurzívou.\n**Text** tučně.\n[Text odkazu](url) vytvoří link.\nObrázek se vkládá obdobně: ![Popisek obrázku](cesta fig/…).\nDvě mezery na konci řádku vytvoří nový odstavec, pro čitelnost je lepší vynechat celý řádek.\n\n\n\n\n\n\n\n\n\n\nTabulky\n\n\n\n\n\nTabulky lze vkládat ručně jako text formátovaný v Markdownu, viz https://quarto.org/docs/authoring/tables.html. Druhou variantou je pak stavět tabulky automatizovaně z CSV souborů. CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými uvozovkami (“) vkládejte do složky ./tabs/.\nTabulku lze pak vložit tímhle kódem:\n```{r}\n#| label: tbl-role              # popisek pro křížové odkazy\n#| tbl-cap: \"Uživatelské role.\" # popisek tabulky zobrazený v textu\n\nread.csv(\"tabs/table.csv\") |&gt;   #  \"table\" nahradit za skutečný název tabulky\n  knitr::kable()\n```"
   },
