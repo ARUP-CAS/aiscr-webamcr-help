@@ -1,5 +1,6 @@
 ---
-title: "AMČR-PAS: Návod pro spolupracovníky"
+title: "Návod pro spolupracovníky"
+description: "Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky."
 author:
   - name: Petr Pajdla
     orcid: 0000-0001-7050-9572
@@ -24,8 +25,6 @@ doi: 10.5281/zenodo.8141634
 Původně zveřejněno jako...
 
 :::
-
-Dokument představuje **základní principy používání AMČR-PAS a návod pro spolupracovníky**.
 
 ## Úvod
 

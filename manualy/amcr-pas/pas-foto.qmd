@@ -1,7 +1,8 @@
 ---
-title: Fotografická dokumentace nálezů
+title: "Fotografická dokumentace nálezů"
+description: "Návod jak fotografovat archeologické nálezy pro evidenci v AMČR-PAS."
 author:
-  - name: Tomáš Chlup
+  - name: "Tomáš Chlup"
     orcid: 0000-0003-3179-992X
 doi: 10.5281/zenodo.4560101
 date: 2021-03-31
@@ -130,7 +131,7 @@ Postprodukce je soubor grafických úkonů, ke kterým přistupujeme pokud je t�
 - Pokud jste zběhlí v postprodukci, je vhodné všechny pohledy oříznout od pozadí a vysadit na jeden snímek s měřítkem.
 - Snažte se o věrohodné podání předmětu, preferujte jednoduché úpravy.
 
-::: {.column-screen-inset}
+::: {.column-screen-inset-right}
 
 ![Příklad správně upraveného snímku ořízlého od pozadí a jednotlivých pohledů vsazených do jednoho obrázku](figs/foto-postproces.jpg){#fig-foto-postproces}
 
@@ -190,7 +191,7 @@ Nastavení preferencí kam a jak má fotoaparát ostřit.
 Ve většině případů lze ponechat na automatice.
 Při špatných světelných podmínkách automatika selhává a je třeba zvolit manuální režim, který se ovládá ostřícím kroužkem na těle objektivu.
 
-::: {#fig-foto-clona layout-ncol=3 .column-screen-inset}
+::: {#fig-foto-clona layout-ncol=3 .column-screen-inset-right}
 
 ![Clona f/3](figs/foto-clona_1.jpg){#fig-foto-clona1}
 
@@ -201,3 +202,4 @@ Při špatných světelných podmínkách automatika selhává a je třeba zvoli
 Příklady nastavení hloubky ostrosti
 
 :::
+

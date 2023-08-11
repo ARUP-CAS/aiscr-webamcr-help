@@ -1,4 +1,6 @@
-# Struktura dat
+---
+title: Struktura dat
+---
 
 Aplikaci AMČR lze popsat jako provázaný systém několika segmentů (skupin tabulek, datových tříd a heslářů) vztahujících se k základním funkcím informačního systému.
 Některé segmenty jsou zcela integrovány (např. [komponenty](pojmy.qmd#komponenty) v [akcích](pojmy.qmd#akce)), jiné tvoří volněji připojené moduly na periferii systému ([MADB](pojmy.qmd#madb) aj.).
@@ -24,7 +26,7 @@ Zároveň naplňuje potřeby autoritního značení jednotlivých záznamů pomo
 
 ## Datový model
 
-::: {.column-page-inset}
+::: {.column-screen-inset-right}
 ![Datový model databáze AMČR](figs/datovy_model.png){#fig-datovy-model}
 :::
 

@@ -1,4 +1,6 @@
-# Historie AMČR
+---
+title: Historie AMČR
+---
 
 ## Vznik systému a jeho autoři
 

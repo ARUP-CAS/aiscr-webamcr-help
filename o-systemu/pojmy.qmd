@@ -1,4 +1,6 @@
-# Základní pojmy
+---
+title: Základní pojmy
+---
 
 Řídící jednotkou evidence terénních aktivit v ČR je (v návaznosti na Archeologickou databázi Čech) „archeologická akce“, tedy jeden terénní výzkum.
 Tento pojem byl v rámci AMČR integrován do dynamického modelu archeologického výzkumu jakožto způsobu tvorby odborných poznatků (viz @fig-schema).
@@ -230,3 +232,4 @@ Archeologický výzkum realizovaný v souvislosti s plánovaným či probíhají
 
 Zpráva o archeologické akci (**ZAA**) označuje formulář pro metadatový popis archeologického výzkumu, používaný při sběru dat pro [Archeologickou databázi Čech](pojmy.qmd#archeologická-databáze-čech-adč).
 V rámci AMČR je jako ekvivalent ZAA označována tzv. Karta akce, resp. Karta samostatné akce.
+

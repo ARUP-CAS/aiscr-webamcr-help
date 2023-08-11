@@ -1,8 +1,10 @@
-# Zápis ADB
+---
+title: "Zápis ADB"
+# subtitle: "Zápis ADB v rámci Pražské památkové rezervace"
+description: "Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace."
+---
 
-## Zápis ADB v rámci Pražské památkové rezervace
-
-### Popis archeologického dokumentačního bodu
+## Popis archeologického dokumentačního bodu
 
 Popis archeologických dokumentačních bodů ([ADB](pojmy.qmd#madb)) se řídí metodikou dostupnou [zde](http://www.praha-archeologicka.cz/files/databaze-madb.pdf){.external}. 
 Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. 
@@ -10,7 +12,7 @@ Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní iden
 Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. 
 Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.
 
-### Použití DJ typu sonda a vyznačení PIAN
+## Použití DJ typu sonda a vyznačení PIAN
 
 Pro zápis ADB v AMČR je nutné používat [dokumentační jednotky](pojmy.qmd#dokumentační-jednotky) (*DJ*) typu **Sonda**. 
 Označení **Sonda** je v tomto případě třeba brát jako arbitrární, které se vymezuje oproti použití *DJ* typů **Celek/Část akce**.
@@ -18,7 +20,7 @@ Sonda v tomto případě může znamenat jak skutečnou jednotlivou sondu, tak i
 Tomu pak odpovídá i vyznačení [PIAN](pojmy.qmd#pian) v mapovém okně. 
 Popis ADB je pouze nadstavbou standardního zápisu, a proto se ke každé *DJ* připojují zachycené [komponenty](pojmy.qmd#komponenty), které mohou mít vliv na celkové rozdělení výzkumu do jednotlivých *DJ*.
 
-### Zápis ADB v rámci AMČR 
+## Zápis ADB v rámci AMČR 
 
 Pro zápis ADB v systému AMČR je třeba volit jako typ dokumentační jednotky možnost **Sonda**, ke které je po vytvoření PIAN možné připojovat ADB. 
 Zápis ADB se aktivuje zaškrtávacím políčkem *Zobrazit popis ADB* (@fig-adb-init).

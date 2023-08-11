@@ -1,4 +1,6 @@
-# Identifikátory
+---
+title: Identifikátory
+---
 
 Základním cílem AMČR je vytvořit jednotný a trvale udržitelný systém evidence terénních archeologických [akcí](pojmy.qmd#akce), jejich výsledků a s nimi souvisejících informačních zdrojů.
 Nezbytnou součástí systému jsou proto autoritní seznamy položek v jednotlivých datových třídách, v nichž každý záznam získává jedinečný a persistentní identifikátor, přidělovaný jak nově přibývajícím položkám, tak dodatečně importovaným starším datům.
@@ -15,7 +17,7 @@ Definitivní identifikátory jsou akcím přidělovány po odeslání uživatele
 Veškeré záznamy je také možno do systému dávkově naimportovat s již definitivním identifikátorem.
 Provizorní identifikátory jsou před potvrzením a převodem do definitivní podoby označeny prefixem *X-*.
 
-:::{.column-page-inset}
+:::{.column-page-right}
 ```{r}
 #| label: tbl-identifikatory
 #| tbl-cap: "Systém identifikátorů"
@@ -25,7 +27,6 @@ read.csv("tabs/identifikatory.csv") |>
 ```
 :::
 
-:::{.column-body}
 ```{r}
 #| label: tbl-rady
 #| tbl-cap: "Řady identifikátorů dokumentů"
@@ -33,4 +34,3 @@ read.csv("tabs/identifikatory.csv") |>
 read.csv("tabs/rady.csv") |>
   knitr::kable()
 ```
-:::

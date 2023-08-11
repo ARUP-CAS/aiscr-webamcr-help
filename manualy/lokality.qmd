@@ -1,5 +1,6 @@
 ---
 title: Evidence lokalit
+description: Zásady evidence nemovitých archeologických památek (lokalit).
 author:
   - name: Martin Kuna
     orcid: 0000-0001-9244-8387
@@ -27,7 +28,7 @@ Jádrem AMČR jsou záznamy dvou typů: [archeologické akce](pojmy.qmd#akce) a 
 *Lokalitou* v principu může být jakýkoli archeologický nález nebo skupina nálezů odpovídající výše uvedené definici (tedy i jeden střep).
 **Mezi akcí a lokalitou není primární rozdíl v obecnosti nebo věcném obsahu, ale v organizaci informací (struktuře dat).**
 Zatímco pro vymezení *akce* je rozhodující archeologická výzkumná aktivita, pro vymezení *lokality* forma archeologického záznamu (projevu).
-Mezi oběma kategoriemi jsou v principu vztahy N:N (které však systematicky neevidujeme -- vyplývají z prostorového uspořádání). Reprezentaci akcí a lokalit v AMČR vyjadřuje @fig-lok-dj, viz také @fig-dj.
+Mezi oběma kategoriemi jsou v principu vztahy N:N (které však systematicky neevidujeme -- vyplývají z prostorového uspořádání). Reprezentaci akcí a lokalit v AMČR vyjadřuje @fig-lok-dj.
 
 ![Dokumentační jednotka a komponenta vůči projektové akci, samostatné akci a lokalitě](figs/lok-dj.png){#fig-lok-dj}
 
@@ -304,3 +305,5 @@ hra_0592_XXX_Babin_vysinne_sidliste/
 
 Důležité je zejména číselné označení lokality, zde včetně prefixu označujícího konkrétní evidenční
 databázi; další údaje – ID z AMČR, název lokality – jsou nepovinné, avšak usnadňují orientaci.
+
+

@@ -1,6 +1,0 @@
-# Zdroje {.unnumbered}
-
-## Bibliografie
-
-::: {#refs}
-:::

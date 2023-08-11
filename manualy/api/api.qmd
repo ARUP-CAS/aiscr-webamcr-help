@@ -1,5 +1,6 @@
 ---
-title: OAI-PMH API
+title: "OAI-PMH API"
+description: "Manuál k OAI-PMH API, které poskytuje metadatové záznamy z AMČR."
 date: 2020-06-01
 date-format: D. M. YYYY
 ---
@@ -18,7 +19,7 @@ Aktualizace dat probíhá na denní bázi.
 
 API najdete na adrese [https://api.aiscr.cz](https://api.aiscr.cz){.external}.
 
-[![Poster prezentující API s příklady možných requestů [@pajdla2021a]](/figs/api_liseh.png){width=100% fig-align="center" #fig-api-poster}](https://gams.uni-graz.at/o:liseh.8112/PDF_STREAM)
+[![Poster prezentující API s příklady možných requestů [@pajdla2021a]](figs/api_liseh.png){width=60% fig-align="center" #fig-api-poster}](https://gams.uni-graz.at/o:liseh.8112/PDF_STREAM)
 
 ## Technické řešení
 
@@ -320,3 +321,4 @@ Protokol OAI-PMH umožňuje filtrování pomocí datumu (`datestamp`), přiřaze
 Pro požadované filtrování se poté do requestu se slovesy `ListRecords` nebo `ListIndentifiers` přidává parametr `from` (od) a/nebo `until` (do).
 
 Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr&from=2022-12-10&until=2022-12-20](https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr&from=2022-12-10&until=2022-12-20){.external}
+

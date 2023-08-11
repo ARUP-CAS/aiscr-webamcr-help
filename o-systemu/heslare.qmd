@@ -1,4 +1,6 @@
-# Hesláře
+---
+title: Hesláře
+---
 
 Data AMČR jsou z větší části strukturována pomocí standardizovaných heslářů (číselníků, řízených slovníků). 
 Hesláře jednoznačně nastavují sledovanou míru obecnosti/detailu, urychlují zápis typických informací, usnadňují vyhledávání, umožňují data strojově analyzovat a propojovat s dalšími systémy. 
@@ -28,7 +30,7 @@ Heslář Období obsahuje 135 chronologických pojmů v daných hierarchických 
 Každému pojmu odpovídá číselná hodnota stanovující jeho pořadí v chronologickém systému a číselně stanovený rozsah. 
 Vyhledávat pomocí tohoto hesláře lze buď podle jednoho hesla, nebo zadáním rozsahu, přičemž dále je možno volit všechny hierarchicky nižší (zahrnuté) pojmy a/nebo pojmy nadřazené (např. při výběru pojmu *střední doba bronzová* lze zohlednit i pojem *doba bronzová nesp.*, protože komponenty charakterizované tímto pojmem rovněž teoreticky mohou se střední dobou bronzovou souviset, více viz [Období](heslare.qmd#komponenty)).
 
-::: {.column-body-outset}
+::: {.column-page-right}
 ```{r}
 #| label: tbl-heslare
 #| tbl-cap: "Seznam heslářů (řízených slovníků)"
@@ -149,3 +151,9 @@ read.csv("tabs/heslare-biblio.csv") |>
 read.csv("tabs/heslare-madb.csv") |>
   knitr::kable()
 ```
+
+
+## Zdroje
+
+::: {#refs}
+:::

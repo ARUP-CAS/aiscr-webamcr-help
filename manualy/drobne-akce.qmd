@@ -1,4 +1,7 @@
-# Akce drobného rozsahu
+---
+title: "Akce drobného rozsahu"
+description: "Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu."
+---
 
 Zpracování pozitivních archeologických výzkumů do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva) (NZ) se řídí *Pravidly pro podání nálezové zprávy o terénním archeologickém výzkumu* (viz stránky ARÚ [Praha](https://www.arup.cas.cz/wp-content/uploads/2020/05/pravidla_NZ_obecna_191009.pdf){.external} a [Brno](https://arub.cz/wp-content/uploads/Pravidla-pro-podani-nalezove-zpravy-o-terennim-archeologickem-vyzkumu_3_2020.pdf){.external}).
 

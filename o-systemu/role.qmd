@@ -1,4 +1,6 @@
-# Uživatelské role
+---
+title: Uživatelské role
+---
 
 AMČR rozlišuje pět uživatelských rolí, jejichž nositelé se liší svými právy při práci s informačním systémem.
 Právo ke vstupu do informačního systému na elementární úrovni (**A** – **Anonym**) získává každý uživatel, který zavítá do AMČR, Digitálního archivu AMČR, či jiné aplikace AIS CR.
@@ -16,7 +18,7 @@ Rozpracované záznamy jsou zpřístupňovány jen tomu uživateli, který jej e
 
 ## Oprávnění jednotlivých uživatelských rolí
 
-:::{.column-body-outset}
+:::{.column-page-right}
 ```{r}
 #| label: tbl-role
 #| tbl-cap: "Seznam uživatelských rolí a oprávnění"

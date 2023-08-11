@@ -1,8 +1,8 @@
-# Zápis dok. jednotek
-
-## Volba a zápis správného typu dokumentačních jednotek
-
-V této části naleznete pokyny pro zápis správného typu dokumentačních jednotek.
+---
+title: "Zápis dok. jednotek"
+# subtitle: "Volba a zápis správného typu dokumentačních jednotek"
+description: "Pokyny pro volbu a zápis správného typu dokumentačních jednotek."
+---
 
 Při popisu archeologických [akcí](pojmy.qmd#akce) v AMČR nastávají situace, kdy je třeba vytvořit více než jednu [dokumentační jednotku](pojmy.qmd#dokumentační-jednotky) (DJ). 
 V takových případech je třeba zvolit správný typ těchto DJ. 
@@ -35,7 +35,7 @@ Dokumentační jednotku **Sonda** volíme když:
     
     Např. sektory pravidelné sítě povrchových sběrů popisované samostatně.
 
-![Schéma základních pravidel pro výběr správného typu *DJ*](figs/dj-schema.png){#fig-dj-schema}
+![Schéma základních pravidel pro výběr správného typu *DJ*](/o-systemu/figs/dj-schema.png){#fig-dj-schema}
 
 <!-- ![Vizualizace typických příkladů použití jednotlivých typů DJ](){#fig-dj-typy} -->
 
