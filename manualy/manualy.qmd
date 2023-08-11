@@ -1,0 +1,72 @@
+---
+title: "Manuály"
+subtitle: Manuály, návody a postupy *dobré praxe*.
+toc: false
+format-links: false
+listing:
+  - id: amcr
+    sort-ui: false
+    filter-ui: false
+    type: grid
+    grid-columns: 5
+    fields: [image, title, description]
+    max-description-length: 100
+    image-height: 100px
+    contents: 
+      - "dj.qmd"
+      - "drobne-akce.qmd"
+      - "adb.qmd"
+      
+  - id: pas
+    type: grid
+    grid-columns: 5
+    fields: [image, title, description]
+    max-description-length: 100
+    image-height: 100px
+    contents:
+      - "amcr-pas/*.qmd"
+      
+  - id: lok
+    type: grid
+    grid-columns: 5
+    fields: [image, title, description]
+    max-description-length: 100
+    image-height: 100px
+    contents:
+      - "lokality.qmd"
+      
+  - id: api
+    type: grid
+    grid-columns: 5
+    fields: [image, title, description]
+    max-description-length: 100
+    image-height: 100px
+    contents:
+      - "api/*.qmd"
+---
+
+## Správa Projektů a Akcí v AMČR
+
+Manuály ke správě projektů a akcí.
+
+::: {#amcr .column-screen-inset-right}
+:::
+
+## AMČR-PAS
+
+Návody k používání **Portálu amatérských spolupracovníků a evidence samostatných nálezů** ([AMČR-PAS](https://amcr-info.aiscr.cz/pas)). 
+
+::: {#pas .column-screen-inset-right}
+:::
+
+## Správa lokalit
+
+::: {#lok .column-screen-inset-right}
+:::
+
+## AMČR API
+
+Návody pro používání API.
+
+::: {#api .column-screen-inset-right}
+:::

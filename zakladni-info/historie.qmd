@@ -1,0 +1,92 @@
+---
+title: Historie AMČR
+---
+
+## Vznik systému a jeho autoři
+
+Struktura a funkcionality systému byly navrženy v rámci grantového projektu Archeologická mapa ČR. Systém pro sběr, správu a prezentaci dat (MK ČR – program NAKI, [DF12P01OVV003](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF12P01OVV003){.external}, 2012-2015) autorským týmem Archeologického ústavu AV ČR, Praha, v. v. i. (Martin Kuna, David Novák, Jan Hasil, Dana Křivánková).
+
+Technické řešení systému AMČR provedla podle návrhu ARÚP firma [SmartGIS](http://www.smartgis.cz/){.external}, s.r.o.. V současné době systém spravuje [Huld](https://huld.io/){.external} s. r. o. (dříve Space Systems Czech, s.r.o.)
+
+AMČR je součástí [Archeologického informačního systému ČR](https://www.aiscr.cz/){.external} zapsaného od roku 2016 do [Cestovní mapy velkých výzkumných infrastruktur ČR](https://www.vyzkumne-infrastruktury.cz/cestovni-mapa-velkych-vyzkumnych-infrastruktur-cr/){.external}, který budování infrastruktury v rámci stejnojmenného výzkumného projektu podporuje.
+Doplňkovou podporu získává infrastruktura i v rámci programu [Strategie AV21](https://strategie.avcr.cz/){.external} [Akademie věd ČR](https://www.avcr.cz/){.external} a dalších projektů.
+
+## Dosavadní vývoj infrastruktury
+
+Systém AMČR představuje klíčovou část archeologické výzkumné infrastruktury v ČR.
+Její vznik a rozvoj lze popsat jako tři etapy postupné tvorby a integrace datových bází, z nichž třetí etapa byla zahájena v roce 2016.
+Dané etapy lze stručně charakterizovat takto:
+
+1. **1990--2011**: Vznik a samostatné budování základních evidenčních databází, tj. [Archeologické databáze Čech](pojmy.qmd#archeologická-databáze-čech-adč) (od r. 1990), Digitálního archivu ARÚP (od r. 2002), [Internetové databáze archeologických výzkumů](pojmy.qmd#internetová-databáze-archeologických-výzkumů-idav) (od r. 2008) a [Digitálního archivu a evidence archeologických výzkumů na Moravě a ve Slezsku](pojmy.qmd#digitální-archiv-a-evidence-archeologických-výzkumů-moravy-a-slezska-daeav), od r. 2009).
+
+2. **2012--2015**: Integrace základních informačních zdrojů do komplexního systému Archeologická mapa ČR sjednocujícího oborový agendový systém s národní databází archeologického dědictví.
+
+3. **2016--2019**: Vytváření Archeologického informačního systému ČR (v rámci projektu MŠMT) s cílem:
+
+    i. implementovat informační systém na území Moravy a Slezska a
+    ii. integrovat další databázové systémy a webové portály k využití odbornou i širší veřejností.
+
+## Zdroje financování
+
+Vývoj archeologické infrastruktury byl dosud financován částečně z institucionálních zdrojů Archeologických ústavů AV ČR, z účelových prostředků přidělených na rozvoj informačních systémů, ale i z dalších projektů zaměřených na výzkum v oblasti sídelní a krajinné archeologie.
+Z účelové podpory lze zmínit následující grantové projekty:
+
+- **Riziko archeologického výzkumu**  
+  GA AV ČR, [IBS8002001](https://www.isvavai.cz/cep?ss=detail&n=0&h=IBS8002001){.external}, 2000-2003.  
+  V projektu byla zahájena revize prostorových údajů [Archeologické databáze Čech](pojmy.qmd#archeologická-databáze-čech-adč) a rozpracovány obecné principy tvorby a správy prostorových dat.  
+  Archeologický ústav AV ČR, Praha, v. v. i., odpovědný řešitel: M. Kuna.
+
+- **Sídelní prostor pravěkých Čech**  
+  GA ČR, [GV404/97/K024](https://www.isvavai.cz/cep?ss=detail&n=0&h=GV404%2F97%2FK024){.external}, 1997-2002.  
+  V rámci projektu byl mimo jiné zahájen systematický letecký průzkum Čech, který přinesl velké množství údajů o nových archeologických lokalitách.  
+  Archeologický ústav AV ČR, Praha, v. v. i., odpovědný řešitel: M. Gojda.
+
+- **Digitální archiv české archeologie**  
+  AV ČR, [1ET200020405](https://www.isvavai.cz/cep?ss=detail&n=0&h=1ET200020405){.external}, 2004-2008.  
+  Z projektu byl částečně hrazen vznik repozitáře terénní dokumentace a metadatový popis dokumentů při digitalizaci archivu po povodni v r. 2002.  
+  Archeologický ústav AV ČR, Praha, v. v. i., odpovědný řešitel: M. Kuna.
+
+- **Archeologická mapa ČR.** Systém pro sběr, správu a prezentaci dat (AMČR).  
+  MK ČR – program NAKI, [DF12P01OVV003](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF12P01OVV003){.external}, 2012-2015.  
+  V rámci projektu proběhla obsahová a věcná revize existujících dat a byl vytvořen softwarový nástroj (desktopový klient) pro správu dat a licence pro použití na území Čech.  
+  Archeologický ústav AV ČR, Praha, v. v. i., odpovědný řešitel: M. Kuna.
+
+- **ARIADNE** Advanced Research Infrastructure for Archaeological Dataset Networking in Europe  
+  European Commission - program FP7, [FP7-INFRASTRUCTURES-2012-1-313193](https://cordis.europa.eu/project/id/313193){.external}, 2013-2017.  
+  Projekt byl zaměřen na integraci archeologických digitálních dat do jednotného evropského katalogu a byl z něj financován vývoj aplikace Digitální archiv AMČR.  
+  PIN, odpovědný řešitel: F. Niccolucci.
+
+- **Informační systém archeologických pramenů Prahy** (IIS_APP)  
+  MK ČR – program NAKI, [DF13P01OVV014](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF13P01OVV014){.external}, 2013-2017.  
+  Cílem projektu bylo vytvořit interaktivní informační systém archeologických pramenů Prahy (IIS_APP) v prostředí GIS a současně digitalizovat a do systému AMČR integrovat Mapu archeologických dokumentačních bodů L. Hrdličky.  
+  Archeologický ústav AV ČR, Praha, v. v. i., odpovědný řešitel: I. Boháčová.
+
+- **Strategie AV21**  
+  AV ČR, 2015-2018.  
+  S podporou z tohoto programu bylo možné získat licenci aplikace AMČR pro území Moravy a Slezska a změnu licence AMČR do režimu open-source. Dochází též k podpoře tvorby nových datových bloků.  
+  Archeologický ústav AV ČR, Praha, v. v. i., odpovědný řešitel: M. Kuna, D. Novák.
+
+- **Archeologický informační systém ČR** (AIS CR)  
+  MŠMT ČR – program Velké infrastruktury, [LM2015080](https://www.isvavai.cz/cep?ss=detail&n=0&h=LM2015080){.external}, 2016-2019.  
+  Hlavním cílem projektu je vyrovnat rozdíl mezi zpracování dat v Čechách a na Moravě/Slezsku (zpracování fondů ARÚB) a navázat systém na další informační zdroje.  
+  Archeologický ústav AV ČR, Brno, v. v. i., odpovědný řešitel: O. Lečbychová.
+
+- **INDIHU** – vývoj nástrojů a infrastruktury pro digital humanities  
+  MK ČR - program NAKI II, [DG16P02B039](https://www.isvavai.cz/cep?ss=detail&n=0&h=DG16P02B039){.external}, 2016-2020.  
+  Cílem projektu je vytvořit potřebné nástroje a infrastrukturu pro vědeckou práci v humanitních oborech (například historie, literatura, filozofie apod.), jejímž základem nebudou dle stávajících zvyklostí analogové dokumenty, nýbrž zdroje dostupné v elektronické podobě.  
+  Knihovna AV ČR, v. v. i., odpovědný řešitel: M. Lhoták.
+
+- **Archeologický informační systém – druhá generace** (AIS-2)  
+  MŠMT ČR - OP VVV, [CZ.02.1.01/0.0/0.0/16_013/0001439](https://www.isvavai.cz/cep?ss=detail&n=0&h=EF16_013%2F0001439){.external}, 2017-2022.  
+  Cílem projektu AIS-2 je rozvoj infrastruktury AIS CR. O další rozvoj infrastruktury usiluje třemi způsoby: (i) modernizací HW a SW vybavení infrastruktury, (ii) rozšířením a zkvalitněním datového obsahu a (iii) vytyčením cest jejího vědeckého využití a budoucího rozvoje.  
+  Archeologický ústav AV ČR, Praha, v. v. i., odpovědný řešitel: M. Kuna.
+
+- **Archeologie z nebe.** Analýza a prezentace fondů dálkového průzkumu na Moravě a ve Slezsku (NEBE).  
+  MK ČR - program NAKI II, [DG18P02OVV058](https://www.isvavai.cz/cep?ss=detail&n=0&h=DG18P02OVV058){.external}, 2018 - 2022.  
+  Projekt je primárně zaměřen na evidenci a zpracování dat získaných v dosavadní historii letecko-archeologického průzkumu na území Moravy a Slezska.  
+  Ústav archeologické památkové péče Brno, v. v. i., odpovědný řešitel: J. Bíšková.
+
+- **ARIADNEplus** Advanced Research Infrastructure for Archaeological Data Networking in Europe - plus  
+  European Commission - program Horizon 2020, [H2020-INFRAIA-2018-1-823914](https://doi.org/10.3030/823914){.external}, 2018-2022.  
+  Navazuje na předchozí projekt ARIADNE a dále rozvíjí integrační aktivity spojené s webovou publikací dat.  
+  PIN, odpovědný řešitel: F. Niccolucci.

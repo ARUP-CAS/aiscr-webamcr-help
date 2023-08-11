@@ -1,138 +1,138 @@
 project:
-  type: book
+  type: website
 
-book:
-
-  title: Uživatelská dokumentace AMČR
-
+website:
+  title: "Uživatelská dokumentace AMČR"
   favicon: figs/cover.png
-  cover-image: figs/AMCR_cmyk_pozitiv-03.png
-  date: today
-  date-format: D. M. YYYY
-  doi: 10.5281/zenodo.8141634
-  license: https://creativecommons.org/licenses/by-nc/4.0/
-  language: cs
-  type: book
-  downloads: [pdf]
   repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
-  repo-actions: [source, edit, issue]
-  reader-mode: true
+  repo-actions: none
+  reader-mode: false
+  page-navigation: true
 
-  author:
-    - name: David Novák
-      orcid: 0000-0001-6592-6291
-      # affiliations:
-      #   - id: arup
-      #     name: Archeologický ústav AV ČR, Praha, v.v.i.
-    - name: Martin Kuna
-      orcid: 0000-0001-9244-8387
-      # affiliations:
-      #   - ref: arup
-    - name: Petr Pajdla
-      orcid: 0000-0001-7050-9572
-      # affiliations:
-      #   - id: arub
-      #     name: Archeologický ústav AV ČR, Brno, v.v.i.
-    - name: Odřej Švejcar
-      # affiliations:
-      #   - ref: arup
-    - name: Tomáš Pavloň
-    - name: Tomáš Chlup
-      orcid: 0000-0003-3179-992X
-      # affiliations:
-      #   - ref: arup
+  navbar:
+    background: dark
+    search: true
+    pinned: false
+    logo: figs/cover_g.png
+    left: 
+      - index.qmd
+      - zakladni-info/zakladni-info.qmd
+      - text: "O systému"
+        href: o-systemu/pojmy.qmd
+      - manualy/manualy.qmd
+    right:
+      - text: "Kontakty"
+        href: about.qmd
 
   sidebar:
-    title: Dokumentace AMČR
-    # logo: figs/AMCR_cmyk_pozitiv-03.png
-    search: true
-    collapse-level: 1
-    pinned: true
-
-  chapters:
-    - index.qmd
-
-    - part: "AMČR"
-      chapters:
-        - historie.qmd
-        - pojmy.qmd
-        - implementace.qmd
-        - role.qmd
-        - datovy-model.qmd
-        - identifikatory.qmd
-        - procesy.qmd
-        - heslare.qmd
-        - pracovni-postupy.qmd
-        - aplikace.qmd
-
-    - part: "Moduly AMČR"
-      chapters:
-        - lokality.qmd
-        - pas.qmd
-        - pas-archeolog.qmd
-        - pas-amater.qmd
-
-    - part: "Dobrá praxe"
-      chapters:
-        - dj.qmd
-        - drobne-akce.qmd
-        - adb.qmd
-        - pas-foto.qmd
-
-    - part: "AMČR API"
-      chapters:
-        - api.qmd
-    - zdroje.qmd
-#  appendices:
-#    - admin.qmd
+    - id: main
+      collapse-level: 2
+      style: "docked"
+      header: |
+        [![](/figs/logo-amcr-hor.png)](https://amcr-info.aiscr.cz/)
+      contents:
+        - index.qmd
+            
+    - id: zaklad
+      contents:
+        - zakladni-info/zakladni-info.qmd
+        - section: "Historie"
+          contents:
+            - zakladni-info/historie.qmd
+            
+    - id: o-systemu
+      contents:
+        - o-systemu/pojmy.qmd
+        - o-systemu/datovy-model.qmd
+        - o-systemu/role.qmd
+        - o-systemu/identifikatory.qmd
+        - o-systemu/procesy.qmd
+        - o-systemu/heslare.qmd
+        
+    - id: manualy
+      contents:
+        - manualy/manualy.qmd
+        - section: "AMČR"
+          contents:
+            - section: "Správa akcí"
+              contents: 
+                - manualy/dj.qmd
+                - manualy/drobne-akce.qmd
+                - manualy/adb.qmd
+            - section: "AMČR-PAS"
+              contents: 
+                - manualy/amcr-pas/pas-amater.qmd
+                - manualy/amcr-pas/pas-archeolog.qmd
+                - manualy/amcr-pas/pas-foto.qmd
+            - section: "Správa lokalit"
+              contents:
+                - manualy/lokality.qmd
+        - section: "AMČR API"
+          contents: 
+            - manualy/api/api.qmd
+            
+      # - section: "TODO"
+      #   contents:
+      #     - implementace.qmd
+      #     - pracovni-postupy.qmd
+      #     - aplikace.qmd
 
   page-footer:
     background: light
-    left:
-      - icon: github
-        href: https://github.com/ARUP-CAS/
-      - icon: twitter
-        href: https://twitter.com/AISCRproject/
-      - icon: facebook
-        href: https://www.facebook.com/ArcheologickyInformacniSystem/
+    left: 
+      - text: Kontakty
+        href: about.qmd
+      - text: Licence
+        href: index.qmd#licence
     center: |
-      [![](figs/AISCR_CZ_H_CMYK_Pozitiv.png){height=50}](https://aiscr.cz/)
+      [![](/figs/logo-aiscr-hor.png){height=60}](https://aiscr.cz/)
     right: |
       Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.
 
 format:
   html:
+    toc: true
     theme:
-      light: cosmo
-      # dark: darkly
-    css: styles.css
+      - spacelab # cerulean cosmo flatly lumen spacelab
+      - customtheme.scss
+    css: 
+      - museo.css
     df-print: kable
     link-external-newwindow: true
-    # citation-location: margin
-    # title-block-banner: true
+    grid: 
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
   pdf:
-    documentclass: scrreprt
+    documentclass: scrarticle
     papersize: a4wide
-    # fontfamily: droid
-    lot: true
-    lof: true
-  # docx: default
+    lot: false
+    lof: false
+  docx: default
 
 execute:
   freeze: auto
   echo: false
 
 crossref:
-  chapters: true
-  tbl-prefix: "Tab."
-  tbl-title: "Tab."
-  fig-prefix: "Obr."
-  fig-title: "Obr."
+   chapters: true
+   tbl-prefix: "Tab."
+   tbl-title: "Tab."
+   fig-prefix: "Obr."
+   fig-title: "Obr."
 
 callout-appearance: simple
-number-sections: true
-number-depth: 1
-toc-title: "Obsah"
+# number-sections: false
+# number-depth: 1
+toc-title: "Na této stránce..."
+toc-depth: 4
 
 bibliography: references.bib
 csl: https://www.zotero.org/styles/internet-archaeology
+
+lang: cs
+language: 
+  related-formats-title: "Stáhnout..."
+  section-title-references: "Zdroje"
+  
+  

@@ -1,4 +1,7 @@
-# Úvod {.unnumbered}
+---
+title: "Úvod"
+doi: 10.5281/zenodo.8141634
+---
 
 ::: {.callout-tip}
 
@@ -27,20 +30,6 @@ Jde o:
 Cílem zavedení systému AMČR je zvýšení efektivity v oblasti shromažďování a šíření odborných informací, což je jedním z důležitých předpokladů dalšího rozvoje oboru, a to jak v ohledu teoretického výzkumu, tak památkové péče i komunikace se širší veřejností.
 Základním způsobem, jak tohoto cíle má být dosaženo, je vytvoření autoritních seznamů archeologických projektů, terénních akcí, dokumentů a dalších jednotek informačního systému.
 Evidence těchto jednotek pomocí jednotných a [persistentních identifikátorů](identifikatory.qmd) umožňuje spolehlivě identifikovat každý z prvků [archeologického fondu](pojmy.qmd#archeologický-fond) a vytvářet mezi prvky účelné vazby (např. nález k akci, akce k dokumentu apod.).
-
-## Kontakty
-
-Správa uživatelů a podpora pro oblast **Čech**:
-
-- Archeologický ústav AV ČR, Praha, v.v.i.  
-  [https://www.arup.cas.cz/](https://www.arup.cas.cz/){.external}  
-  [{{< fa regular envelope size=xs >}} amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
-
-Správa uživatelů a podpora pro oblast **Moravy a Slezska** (vč. Kraje Vysočina):
-
-- Archeologický ústav AV ČR, Brno, v.v.i.  
-  [https://www.arub.cz/](https://www.arub.cz/){.external}  
-  [{{< fa regular envelope size=xs >}} amcr@arub.cz](mailto:amcr@arub.cz)
 
 ## Jak citovat
 
