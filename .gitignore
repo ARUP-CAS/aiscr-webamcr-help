@@ -6,6 +6,6 @@
 
 /.quarto/
 
-_book/
+_site/
 
 /.luarc.json
