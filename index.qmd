@@ -1,57 +1,39 @@
 ---
 title: "Úvod"
 doi: 10.5281/zenodo.8141634
+toc: false
+format-links: false
+listing:
+  - id: soucasti
+    type: grid
+    grid-columns: 5
+    image-height: 100px
+    contents: soucasti/soucasti.yml
+    template: soucasti/soucasti.ejs
 ---
 
-::: {.callout-tip}
-
-# Odkazy
-
-- Úvodní stránku k AMČR najdete zde: [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/){.external}.
-- Do **webové aplikace AMČR** vstoupíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.
-- Stránky **AIS CR** s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/){.external}.
+::: {#soucasti .column-screen-inset-right}
 
 :::
 
-Informační systém **Archeologická mapa České republiky** ([AMČR](https://amcr-info.aiscr.cz/){.external}) integruje dvě základní oblasti správy archeologického dědictví ČR.
-Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva).
-Na druhé straně jde o budování souhrnného přehledu archeologického dědictví ČR, tedy o vytvoření *národní* databáze archeologického kulturního dědictví.
-Oba úkoly spolu v mnoha ohledech souvisejí, a jejich spojení proto je pro uživatele výhodné: vzniká jím jednotný systém evidence klíčových informací využitelných v celé šíři archeologické terénní, památkové a v některých ohledech i muzejní práce.
-AMČR je součástí [velké výzkumné infrastruktury](pojmy.qmd#výzkumné-infrastruktury) **Archeologický informační systém České Republiky** ([AIS CR](https://aiscr.cz/){.external}).
 
-AMČR slučuje některé dosud nespojité datové báze a operace související s jejich plněním a správou.
-Jde o:
+<!-- ::: {.callout-tip} -->
 
-1. administrativní evidenci plánovaných a probíhajících terénních archeologických výzkumů;
-2. shromažďování informací o odborných výsledcích archeologických terénních aktivit (jak těch, které prošly administrativní evidencí zmíněnou výše, tak aktivit staršího data a jiných druhů);
-3. systematické podchycení dalších archeologických památek v krajině, známých především z dlouhodobého povrchového a dálkového průzkumu a
-4. správu repozitáře terénní dokumentace pro účely Archeologických ústavů AV ČR v Praze a Brně ([ARÚP](https://www.arup.cas.cz/){.external} a [ARÚB](https://arub.cz/){.external}), případně dalších institucí, v rozsahu daném platnou legislativou.
+<!-- # Odkazy -->
 
-Cílem zavedení systému AMČR je zvýšení efektivity v oblasti shromažďování a šíření odborných informací, což je jedním z důležitých předpokladů dalšího rozvoje oboru, a to jak v ohledu teoretického výzkumu, tak památkové péče i komunikace se širší veřejností.
-Základním způsobem, jak tohoto cíle má být dosaženo, je vytvoření autoritních seznamů archeologických projektů, terénních akcí, dokumentů a dalších jednotek informačního systému.
-Evidence těchto jednotek pomocí jednotných a [persistentních identifikátorů](identifikatory.qmd) umožňuje spolehlivě identifikovat každý z prvků [archeologického fondu](pojmy.qmd#archeologický-fond) a vytvářet mezi prvky účelné vazby (např. nález k akci, akce k dokumentu apod.).
+<!-- - Úvodní stránku k AMČR najdete zde: [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/){.external}. -->
+<!-- - Do **webové aplikace AMČR** vstoupíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}. -->
+<!-- - Stránky **AIS CR** s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/){.external}. -->
+
+<!-- ::: -->
+
+
 
 ## Jak citovat
 
 Citujte jako (...)
 
-## Licence
 
-Veškerý obsah na těchto stránkách podléhá licenci [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external}.
-
-Data dostupná v AMČR jsou zveřejňována v souladu s politikou otevřeného přístupu k datům a se souhlasem držitelů autorských práv. 
-Využití dat podléhá (pokud není explicitně uvedeno jinak) licenci [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external} (Creative Commons Uveďte původ-Neužívejte komerčně 4.0). 
-Data je proto možné využít pouze s uvedením autora a pouze pro nekomerční použití. 
-Toto ustanovení neomezuje využití AMČR na základě jiných smluvních ujednání či na základě zákonného titulu.
-
-Vzhledem k tomu, že AMČR, ale i další nástroje patřící do rámce infrastruktury Archeologický informační systém ČR ([AIS CR](https://aiscr.cz/){.external}), poskytují data převážně v otevřeném režimu (*Open Access*), nemáme možnost sledovat využití těchto dat, ani to, jaké výstupy na jejich základě vznikají. 
-Jelikož jsme však tyto informace povinni ze zákona vykazovat, chtěli bychom Vás, uživatele AMČR, požádat o součinnost při vykazování vědeckých výstupů, při jejichž vzniku byla využita data z AMČR či dalších součástí AIS CR.
-
-**Každý uživatel AMČR, jako nedílné součásti AIS CR, má proto povinnost:**
-
-- v konkrétních výstupech vždy obvyklým způsobem uvést, že k jejich tvorbě byla využita infrastruktura AIS CR s odkazem na využitá data či nástroj;
-- pokud zadává informace o výstupech do [Rejstříku informací o výsledcích - RIV](https://www.isvavai.cz/riv){.external} (např. na pracovištích AV ČR prostřednictvím databáze [ASEP](https://asep-portal.lib.cas.cz/){.external}), vybrat návaznost výsledku na infrastrukturu AIS CR v poli VVI (Velké výzkumné infrastruktury) z nabízeného číselníku projektů podpory velkých výzkumných infrastruktur;
-- dát nám laskavě vědět prostřednictvím tohoto dotazníku -- [https://www.aiscr.cz/vystupy](https://www.aiscr.cz/vystupy){.external}, že výstup byl publikován.
 
 ::: {.callout-note  collapse="true"}
 

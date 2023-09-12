@@ -1,0 +1,20 @@
+---
+title: "Licence"
+---
+
+Veškerý obsah na těchto stránkách podléhá licenci [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external}.
+
+Data dostupná v AMČR jsou zveřejňována v souladu s politikou otevřeného přístupu k datům a se souhlasem držitelů autorských práv. 
+Využití dat podléhá (pokud není explicitně uvedeno jinak) licenci [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external} (Creative Commons Uveďte původ-Neužívejte komerčně 4.0). 
+Data je proto možné využít pouze s uvedením autora a pouze pro nekomerční použití. 
+Toto ustanovení neomezuje využití AMČR na základě jiných smluvních ujednání či na základě zákonného titulu.
+
+Vzhledem k tomu, že AMČR, ale i další nástroje patřící do rámce infrastruktury Archeologický informační systém ČR ([AIS CR](https://aiscr.cz/){.external}), poskytují data převážně v otevřeném režimu (*Open Access*), nemáme možnost sledovat využití těchto dat, ani to, jaké výstupy na jejich základě vznikají. 
+Jelikož jsme však tyto informace povinni ze zákona vykazovat, chtěli bychom Vás, uživatele AMČR, požádat o součinnost při vykazování vědeckých výstupů, při jejichž vzniku byla využita data z AMČR či dalších součástí AIS CR.
+
+**Každý uživatel AMČR, jako nedílné součásti AIS CR, má proto povinnost:**
+
+- v konkrétních výstupech vždy obvyklým způsobem uvést, že k jejich tvorbě byla využita infrastruktura AIS CR s odkazem na využitá data či nástroj;
+- pokud zadává informace o výstupech do [Rejstříku informací o výsledcích - RIV](https://www.isvavai.cz/riv){.external} (např. na pracovištích AV ČR prostřednictvím databáze [ASEP](https://asep-portal.lib.cas.cz/){.external}), vybrat návaznost výsledku na infrastrukturu AIS CR v poli VVI (Velké výzkumné infrastruktury) z nabízeného číselníku projektů podpory velkých výzkumných infrastruktur;
+- dát nám laskavě vědět prostřednictvím tohoto dotazníku -- [https://www.aiscr.cz/vystupy](https://www.aiscr.cz/vystupy){.external}, že výstup byl publikován.
+

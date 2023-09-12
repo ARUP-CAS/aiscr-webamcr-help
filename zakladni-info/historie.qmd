@@ -1,5 +1,5 @@
 ---
-title: Historie AMČR
+title: Historie
 ---
 
 ## Vznik systému a jeho autoři
