@@ -2,90 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/about.html</loc>
-    <lastmod>2023-08-11T13:54:49.053Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/zakladni-info/zakladni-info.html</loc>
-    <lastmod>2023-08-11T13:54:30.389Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/implementace.html</loc>
-    <lastmod>2023-08-11T13:54:13.936Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/manualy.html</loc>
-    <lastmod>2023-08-11T13:53:57.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/amcr-pas/pas-amater.html</loc>
-    <lastmod>2023-08-11T13:53:40.400Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/amcr-pas/pas-foto.html</loc>
-    <lastmod>2023-08-11T13:53:06.007Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/dj.html</loc>
-    <lastmod>2023-08-11T13:52:15.934Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/pojmy.html</loc>
-    <lastmod>2023-08-11T13:51:42.010Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/datovy-model.html</loc>
-    <lastmod>2023-08-11T13:51:15.773Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/identifikatory.html</loc>
-    <lastmod>2023-08-11T13:50:39.945Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/aplikace.html</loc>
-    <lastmod>2023-08-11T13:50:16.872Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/index.html</loc>
-    <lastmod>2023-08-11T13:50:08.488Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/heslare.html</loc>
-    <lastmod>2023-08-11T13:50:30.036Z</lastmod>
+    <lastmod>2023-09-12T11:35:48.926Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/procesy.html</loc>
-    <lastmod>2023-08-11T13:50:51.449Z</lastmod>
+    <lastmod>2023-09-12T11:35:32.778Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/role.html</loc>
-    <lastmod>2023-08-11T13:51:25.081Z</lastmod>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/heslare.html</loc>
+    <lastmod>2023-09-12T11:35:18.018Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/lokality.html</loc>
-    <lastmod>2023-08-11T13:52:06.146Z</lastmod>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/datovy-model.html</loc>
+    <lastmod>2023-09-12T11:35:01.486Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/api/api.html</loc>
-    <lastmod>2023-08-11T13:52:31.607Z</lastmod>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/manualy.html</loc>
+    <lastmod>2023-09-12T11:34:30.314Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/dj.html</loc>
+    <lastmod>2023-09-12T11:34:05.383Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/amcr-pas/pas-amater.html</loc>
+    <lastmod>2023-09-12T11:33:46.843Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/amcr-pas/pas-archeolog.html</loc>
-    <lastmod>2023-08-11T13:53:24.928Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/adb.html</loc>
-    <lastmod>2023-08-11T13:53:48.776Z</lastmod>
+    <lastmod>2023-09-12T11:33:11.759Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/drobne-akce.html</loc>
-    <lastmod>2023-08-11T13:54:05.896Z</lastmod>
+    <lastmod>2023-09-12T11:32:48.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/zakladni-info/licence.html</loc>
+    <lastmod>2023-09-12T11:32:35.307Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/zakladni-info/historie.html</loc>
-    <lastmod>2023-08-11T13:54:22.625Z</lastmod>
+    <lastmod>2023-09-12T11:32:22.583Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/pracovni-postupy.html</loc>
-    <lastmod>2023-08-11T13:54:38.557Z</lastmod>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/zakladni-info/zakladni-info.html</loc>
+    <lastmod>2023-09-12T11:32:29.215Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/adb.html</loc>
+    <lastmod>2023-09-12T11:32:41.747Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/amcr-pas/pas.html</loc>
+    <lastmod>2023-09-12T11:32:57.779Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/amcr-pas/pas-foto.html</loc>
+    <lastmod>2023-09-12T11:33:35.503Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/api/api.html</loc>
+    <lastmod>2023-09-12T11:33:58.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/manualy/lokality.html</loc>
+    <lastmod>2023-09-12T11:34:23.850Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/pojmy.html</loc>
+    <lastmod>2023-09-12T11:34:42.726Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/identifikatory.html</loc>
+    <lastmod>2023-09-12T11:35:08.438Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/o-systemu/role.html</loc>
+    <lastmod>2023-09-12T11:35:24.406Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/ARUP-CAS/aiscr-webamcr-help/index.html</loc>
+    <lastmod>2023-09-12T11:35:40.994Z</lastmod>
   </url>
 </urlset>

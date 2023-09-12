@@ -11,5 +11,9 @@
       "/manualy/lokality.html",
       "/manualy/api/api.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]

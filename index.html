@@ -64,7 +64,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./zakladni-info/zakladni-info.html" rel="next">
 <link href="./figs/cover.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -94,12 +97,44 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Hledat"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-soucasti .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-href','listing-image',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-href","listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-soucasti'] = new List('listing-soucasti', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="museo.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar docked nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -122,10 +157,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Úvod</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./zakladni-info/zakladni-info.html" rel="" target="">
- <span class="menu-text">Základní informace</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./o-systemu/pojmy.html" rel="" target="">
@@ -176,23 +207,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Úvod</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./zakladni-info/zakladni-info.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Základní informace</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./zakladni-info/licence.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Licence</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./zakladni-info/historie.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Historie</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Na této stránce…</h2>
-   
-  <ul>
-  <li><a href="#jak-citovat" id="toc-jak-citovat" class="nav-link active" data-scroll-target="#jak-citovat">Jak citovat</a></li>
-  <li><a href="#licence" id="toc-licence" class="nav-link" data-scroll-target="#licence">Licence</a></li>
-  </ul>
-<div class="quarto-alternate-formats"><h2>Stáhnout...</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -219,49 +259,110 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<div id="listing-soucasti" class="column-screen-inset-right quarto-listing quarto-listing-container-custom">
+<div class="list grid quarto-listing-cols-5" "="">
+  <a class="quarto-grid-link" href="https://aiscr.cz/">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="listing-item-img-placeholder card-img-top" style="height: 100px;">
+        <img class="thumbnail-image card-img" src="figs/thumb_aiscr.png" style="height:100px;">
+      </div>
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">AIS CR</h5>
+        <div class="card-text listing-description">
+          <small> 
+            AMČR je součástí infrastruktury Archeologický informační systém České republiky. 
+V rámci AIS CR dochází k integraci digitálních zdrojů české archeologie. 
+Další služby poskytované infrastrukturou najdete na webu AIS CR.
+          </small>
+        </div>
+      </div>
+      <div class="card-footer" style="color:#85150F; text-decoration-line: underline;">
+          <small>
+            https://aiscr.cz/
+          </small>
+        </div>
+    </div>
+  </a>
+  <a class="quarto-grid-link" href="https://amcr-info.aiscr.cz/">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="listing-item-img-placeholder card-img-top" style="height: 100px;">
+        <img class="thumbnail-image card-img" src="figs/thumb_amcr.png" style="height:100px;">
+      </div>
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">AMČR</h5>
+        <div class="card-text listing-description">
+          <small> 
+            AMČR sjednocuje archeologické informační systémy v ČR a poskytuje nástroje 
+pro evidenci terénních aktivit. Shromažďuje metadata o výsledcích výzkumů, 
+slouží jako repozitář dokumentace a poskytuje data pro další služby AIS CR. 
+          </small>
+        </div>
+      </div>
+      <div class="card-footer" style="color:#85150F; text-decoration-line: underline;">
+          <small>
+            https://amcr-info.aiscr.cz/
+          </small>
+        </div>
+    </div>
+  </a>
+  <a class="quarto-grid-link" href="https://digiarchiv.aiscr.cz/">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="listing-item-img-placeholder card-img-top" style="height: 100px;">
+        <img class="thumbnail-image card-img" src="figs/thumb_digiarchiv.png" style="height:100px;">
+      </div>
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Digitální archiv AMČR</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Digitální archiv AMČR je webová aplikace určená k prohlížení informací 
+o archeologických výzkumech, lokalitách a nálezech. 
+          </small>
+        </div>
+      </div>
+      <div class="card-footer" style="color:#85150F; text-decoration-line: underline;">
+          <small>
+            https://digiarchiv.aiscr.cz/
+          </small>
+        </div>
+    </div>
+  </a>
+  <a class="quarto-grid-link" href="https://api.aiscr.cz/">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="listing-item-img-placeholder card-img-top" style="height: 100px;">
+        <img class="thumbnail-image card-img" src="figs/thumb_pin.png" style="height:100px;">
+      </div>
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">AMČR API</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Pomocí API lze získávat metadatové záznamy z databáze AMČR, a to pomocí 
+protokolu OpenArchives Initiative Protocol for Metadata Harvesting (OAI-PMH). 
+          </small>
+        </div>
+      </div>
+      <div class="card-footer" style="color:#85150F; text-decoration-line: underline;">
+          <small>
+            https://api.aiscr.cz/
+          </small>
+        </div>
+    </div>
+  </a>
 </div>
-<div class="callout-title-container flex-fill">
-Odkazy
+<div class="listing-no-matching d-none">
+Žádné nalezené výsledky
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Úvodní stránku k AMČR najdete zde: <a href="https://amcr-info.aiscr.cz/" class="external">https://amcr-info.aiscr.cz/</a>.</li>
-<li>Do <strong>webové aplikace AMČR</strong> vstoupíte zde: <a href="https://amcr.aiscr.cz/" class="external">https://amcr.aiscr.cz/</a>.</li>
-<li>Stránky <strong>AIS CR</strong> s odkazy na jednotlivé služby jsou zde: <a href="https://aiscr.cz/" class="external">https://aiscr.cz/</a>.</li>
-</ul>
-</div>
-</div>
-<p>Informační systém <strong>Archeologická mapa České republiky</strong> (<a href="https://amcr-info.aiscr.cz/" class="external">AMČR</a>) integruje dvě základní oblasti správy archeologického dědictví ČR. Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby <a href="pojmy.qmd#nálezová-zpráva">nálezové zprávy</a>. Na druhé straně jde o budování souhrnného přehledu archeologického dědictví ČR, tedy o vytvoření <em>národní</em> databáze archeologického kulturního dědictví. Oba úkoly spolu v mnoha ohledech souvisejí, a jejich spojení proto je pro uživatele výhodné: vzniká jím jednotný systém evidence klíčových informací využitelných v celé šíři archeologické terénní, památkové a v některých ohledech i muzejní práce. AMČR je součástí <a href="pojmy.qmd#výzkumné-infrastruktury">velké výzkumné infrastruktury</a> <strong>Archeologický informační systém České Republiky</strong> (<a href="https://aiscr.cz/" class="external">AIS CR</a>).</p>
-<p>AMČR slučuje některé dosud nespojité datové báze a operace související s jejich plněním a správou. Jde o:</p>
-<ol type="1">
-<li>administrativní evidenci plánovaných a probíhajících terénních archeologických výzkumů;</li>
-<li>shromažďování informací o odborných výsledcích archeologických terénních aktivit (jak těch, které prošly administrativní evidencí zmíněnou výše, tak aktivit staršího data a jiných druhů);</li>
-<li>systematické podchycení dalších archeologických památek v krajině, známých především z dlouhodobého povrchového a dálkového průzkumu a</li>
-<li>správu repozitáře terénní dokumentace pro účely Archeologických ústavů AV ČR v Praze a Brně (<a href="https://www.arup.cas.cz/" class="external">ARÚP</a> a <a href="https://arub.cz/" class="external">ARÚB</a>), případně dalších institucí, v rozsahu daném platnou legislativou.</li>
-</ol>
-<p>Cílem zavedení systému AMČR je zvýšení efektivity v oblasti shromažďování a šíření odborných informací, což je jedním z důležitých předpokladů dalšího rozvoje oboru, a to jak v ohledu teoretického výzkumu, tak památkové péče i komunikace se širší veřejností. Základním způsobem, jak tohoto cíle má být dosaženo, je vytvoření autoritních seznamů archeologických projektů, terénních akcí, dokumentů a dalších jednotek informačního systému. Evidence těchto jednotek pomocí jednotných a <a href="identifikatory.qmd">persistentních identifikátorů</a> umožňuje spolehlivě identifikovat každý z prvků <a href="pojmy.qmd#archeologický-fond">archeologického fondu</a> a vytvářet mezi prvky účelné vazby (např. nález k akci, akce k dokumentu apod.).</p>
+<!-- ::: {.callout-tip} -->
+<!-- # Odkazy -->
+<!-- - Úvodní stránku k AMČR najdete zde: [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/){.external}. -->
+<!-- - Do **webové aplikace AMČR** vstoupíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}. -->
+<!-- - Stránky **AIS CR** s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/){.external}. -->
+<!-- ::: -->
 <section id="jak-citovat" class="level2">
 <h2 class="anchored" data-anchor-id="jak-citovat">Jak citovat</h2>
 <p>Citujte jako (…)</p>
-</section>
-<section id="licence" class="level2">
-<h2 class="anchored" data-anchor-id="licence">Licence</h2>
-<p>Veškerý obsah na těchto stránkách podléhá licenci <a href="https://creativecommons.org/licenses/by-nc/4.0/" class="external">CC BY-NC 4.0</a>.</p>
-<p>Data dostupná v AMČR jsou zveřejňována v souladu s politikou otevřeného přístupu k datům a se souhlasem držitelů autorských práv. Využití dat podléhá (pokud není explicitně uvedeno jinak) licenci <a href="https://creativecommons.org/licenses/by-nc/4.0/" class="external">CC BY-NC 4.0</a> (Creative Commons Uveďte původ-Neužívejte komerčně 4.0). Data je proto možné využít pouze s uvedením autora a pouze pro nekomerční použití. Toto ustanovení neomezuje využití AMČR na základě jiných smluvních ujednání či na základě zákonného titulu.</p>
-<p>Vzhledem k tomu, že AMČR, ale i další nástroje patřící do rámce infrastruktury Archeologický informační systém ČR (<a href="https://aiscr.cz/" class="external">AIS CR</a>), poskytují data převážně v otevřeném režimu (<em>Open Access</em>), nemáme možnost sledovat využití těchto dat, ani to, jaké výstupy na jejich základě vznikají. Jelikož jsme však tyto informace povinni ze zákona vykazovat, chtěli bychom Vás, uživatele AMČR, požádat o součinnost při vykazování vědeckých výstupů, při jejichž vzniku byla využita data z AMČR či dalších součástí AIS CR.</p>
-<p><strong>Každý uživatel AMČR, jako nedílné součásti AIS CR, má proto povinnost:</strong></p>
-<ul>
-<li>v konkrétních výstupech vždy obvyklým způsobem uvést, že k jejich tvorbě byla využita infrastruktura AIS CR s odkazem na využitá data či nástroj;</li>
-<li>pokud zadává informace o výstupech do <a href="https://www.isvavai.cz/riv" class="external">Rejstříku informací o výsledcích - RIV</a> (např. na pracovištích AV ČR prostřednictvím databáze <a href="https://asep-portal.lib.cas.cz/" class="external">ASEP</a>), vybrat návaznost výsledku na infrastrukturu AIS CR v poli VVI (Velké výzkumné infrastruktury) z nabízeného číselníku projektů podpory velkých výzkumných infrastruktur;</li>
-<li>dát nám laskavě vědět prostřednictvím tohoto dotazníku – <a href="https://www.aiscr.cz/vystupy" class="external">https://www.aiscr.cz/vystupy</a>, že výstup byl publikován.</li>
-</ul>
 <div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -270,7 +371,7 @@ Jak upravovat
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Pro úpravy stačí kliknout na <em>Edit this page</em> v pravo pod navigací. Odkaz vede do <a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/">GitHub</a> repozitáře přímo na daný dokument, který lze rovnou upravovat (mám-li dostatečná práva). Při <strong>commitu</strong> se spustí akce, která celou stránku aktalizuje a nasadí (při větším množství úprav je tedy rozumné upravovat lokálně a <strong>push</strong> používat jen při ukončení práce, je to sice cizí výpočetní síla a nic nás nestojí, ale nemusí běžet zbytečně).</p>
 <p>Návod ke Quarto je zde: <a href="https://quarto.org/" class="uri">https://quarto.org/</a>.</p>
@@ -288,7 +389,7 @@ Jak upravovat
 </div>
 </div>
 <div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -297,7 +398,7 @@ Tabulky
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Tabulky lze vkládat ručně jako text formátovaný v Markdownu, viz <a href="https://quarto.org/docs/authoring/tables.html" class="uri">https://quarto.org/docs/authoring/tables.html</a>. Druhou variantou je pak stavět tabulky automatizovaně z CSV souborů. CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými uvozovkami (“) vkládejte do složky <code>./tabs/</code>.</p>
 <p>Tabulku lze pak vložit tímhle kódem:</p>
@@ -311,6 +412,7 @@ Tabulky
 </div>
 </div>
 </div>
+
 
 
 </section>
@@ -547,22 +649,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/github\.com\/ARUP-CAS\/aiscr-webamcr-help");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./zakladni-info/zakladni-info.html" class="pagination-link">
+        <span class="nav-page-text">Základní informace</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -572,7 +669,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <a class="nav-link" href="./about.html">Kontakty</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./index.html#licence">Licence</a>
+    <a class="nav-link" href="./zakladni-info/licence.html">Licence</a>
   </li>  
 </ul>
     </div>   
