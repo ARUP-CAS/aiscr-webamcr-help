@@ -24,7 +24,7 @@ listing:
     max-description-length: 100
     image-height: 100px
     contents:
-      - "amcr-pas/*.qmd"
+      - "amcr-pas/pas-*.qmd"
       
   - id: lok
     type: grid

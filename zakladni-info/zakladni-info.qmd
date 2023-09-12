@@ -2,3 +2,35 @@
 title: "Základní informace"
 ---
 
+Informační systém **Archeologická mapa České republiky** ([AMČR](https://amcr-info.aiscr.cz/){.external}) integruje dvě základní oblasti správy archeologického dědictví ČR.
+Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva).
+Na druhé straně jde o budování souhrnného přehledu archeologického dědictví ČR, tedy o vytvoření *národní* databáze archeologického kulturního dědictví.
+Oba úkoly spolu v mnoha ohledech souvisejí, a jejich spojení proto je pro uživatele výhodné: vzniká jím jednotný systém evidence klíčových informací využitelných v celé šíři archeologické terénní, památkové a v některých ohledech i muzejní práce.
+AMČR je součástí [velké výzkumné infrastruktury](pojmy.qmd#výzkumné-infrastruktury) **Archeologický informační systém České Republiky** ([AIS CR](https://aiscr.cz/){.external}).
+
+AMČR slučuje některé dosud nespojité datové báze a operace související s jejich plněním a správou.
+Jde o:
+
+1. administrativní evidenci plánovaných a probíhajících terénních archeologických výzkumů;
+2. shromažďování informací o odborných výsledcích archeologických terénních aktivit (jak těch, které prošly administrativní evidencí zmíněnou výše, tak aktivit staršího data a jiných druhů);
+3. systematické podchycení dalších archeologických památek v krajině, známých především z dlouhodobého povrchového a dálkového průzkumu a
+4. správu repozitáře terénní dokumentace pro účely Archeologických ústavů AV ČR v Praze a Brně ([ARÚP](https://www.arup.cas.cz/){.external} a [ARÚB](https://arub.cz/){.external}), případně dalších institucí, v rozsahu daném platnou legislativou.
+
+Cílem zavedení systému AMČR je zvýšení efektivity v oblasti shromažďování a šíření odborných informací, což je jedním z důležitých předpokladů dalšího rozvoje oboru, a to jak v ohledu teoretického výzkumu, tak památkové péče i komunikace se širší veřejností.
+Základním způsobem, jak tohoto cíle má být dosaženo, je vytvoření autoritních seznamů archeologických projektů, terénních akcí, dokumentů a dalších jednotek informačního systému.
+Evidence těchto jednotek pomocí jednotných a [persistentních identifikátorů](identifikatory.qmd) umožňuje spolehlivě identifikovat každý z prvků [archeologického fondu](pojmy.qmd#archeologický-fond) a vytvářet mezi prvky účelné vazby (např. nález k akci, akce k dokumentu apod.)
+
+AMČR je systémem pro evidenci archeologických výzkumů a nálezů v České republice. 
+Program si může každý uživatel zdarma nainstalovat na svém počítači a pokud je registrován, může také vkládat záznamy o vlastních archeologických průzkumech a výzkumech. 
+Pro procházení dat AMČR slouží webová aplikace [Digitální archiv AMČR](https://digiarchiv.aiscr.cz/){.external}, která je volně dostupná v prostředí internetu skrze webový prohlížeč.
+
+AMČR integruje funkce několika informačních bází, které česká archeologie dosud užívala. 
+Především jde o ústřední databáze výsledků archeologických výzkumů (*Archeologická databáze Čech* a moravský *Digitální archiv a evidence archeologických výzkumů*), jejichž data jsou postupně převáděna do AMČR, obsahově revidována a poprvé volně a společně prezentována. 
+Velká část záznamů je opatřena odkazy na literaturu či zdrojové dokumenty v digitálních úložištích Archeologických ústavů.
+
+Pro profesionální archeology je významnou inovací zapojení *Internetové databáze terénních archeologických výzkumů* (IDAV) do struktury AMČR a provázání pracovních postupů IDAV s podáváním nálezových zpráv k provedeným archeologickým akcím. 
+Díky tomu dochází k výraznému zpřehlednění administrace záchranných archeologických výzkumů, neboť organizace oprávněné k terénním výzkumům získávají i předávají potřebná data prostřednictvím jediného uzlového bodu – klienta AMČR. 
+K uzavření databáze IDAV v dosavadním webovém rozhraní došlo v roce 2017.
+
+AMČR je od počátku zamýšlena jako páteřní informační systém české archeologie, a proto již v současné době vznikají její účelová rozšíření pro archeologii [pražské památkové rezervace](http://www.praha-archeologicka.cz/){.external}, ale i další moduly. 
+AMČR je tak nejdůležitější součástí širší infrastruktury [*Archeologický informační České republiky* (AIS CR)](https://aiscr.cz/){.external}, která je zapsána na [*Cestovní mapě velkých infrastruktur pro výzkum, experimentální vývoj a invoace*](https://www.vyzkumne-infrastruktury.cz/){.external} a podporována Vládou České republiky. 
