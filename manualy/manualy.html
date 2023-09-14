@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Uživatelská dokumentace AMČR - Manuály</title>
+<title>Uživatelská dokumentace AMČR - AMČR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../manualy/dj.html" rel="next">
+<link href="../manualy/zamer.html" rel="next">
 <link href="../figs/cover.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-execute','listing-crossref','listing-callout-appearance','listing-toc-title','listing-toc-depth','listing-bibliography','listing-csl','listing-lang','listing-language','listing-title','listing-description','listing-path','listing-outputHref','listing-author','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-crossref","listing-callout-appearance","listing-toc-title","listing-toc-depth","listing-bibliography","listing-csl","listing-lang","listing-language","listing-title","listing-description","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -101,9 +101,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-execute','listing-crossref','listing-callout-appearance','listing-toc-title','listing-toc-depth','listing-bibliography','listing-csl','listing-lang','listing-language','listing-title','listing-description','listing-author','listing-date','listing-date-format','listing-doi','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-crossref","listing-callout-appearance","listing-toc-title","listing-toc-depth","listing-bibliography","listing-csl","listing-lang","listing-language","listing-title","listing-description","listing-author","listing-date","listing-date-format","listing-doi","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-subtitle"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,41 +129,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-execute','listing-crossref','listing-callout-appearance','listing-toc-title','listing-toc-depth','listing-bibliography','listing-csl','listing-lang','listing-language','listing-title','listing-description','listing-author','listing-doi','listing-date','listing-date-format','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-crossref","listing-callout-appearance","listing-toc-title","listing-toc-depth","listing-bibliography","listing-csl","listing-lang","listing-language","listing-title","listing-description","listing-author","listing-doi","listing-date","listing-date-format","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-lok'] = new List('listing-lok', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-api .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-api'] = new List('listing-api', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -209,12 +181,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Úvod</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../o-systemu/pojmy.html" rel="" target="">
+    <a class="nav-link" href="../o-systemu/architektura.html" rel="" target="">
  <span class="menu-text">O systému</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../manualy/manualy.html" rel="" target="" aria-current="page">
- <span class="menu-text">Manuály</span></a>
+ <span class="menu-text">Manuál AMČR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../manualy/digiarchiv/digiarchiv.html" rel="" target="">
+ <span class="menu-text">Manuál DA AMČR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../manualy/api/api.html" rel="" target="">
+ <span class="menu-text">Manuál AMČR API</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../o-systemu/pojmy.html" rel="" target="">
+ <span class="menu-text">Pojmy</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -233,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../manualy/manualy.html">Manuály</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../manualy/manualy.html">AMČR</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -254,56 +238,65 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../manualy/manualy.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Manuály</span></a>
+ <span class="menu-text">AMČR</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manualy/zamer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Oznámení záměru</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manualy/projekty.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Správa projektů</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">AMČR</span></a>
+ <span class="menu-text">Správa akcí</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
- <span class="menu-text">Správa akcí</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Přepnout sekci">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../manualy/dj.html" class="sidebar-item-text sidebar-link">
+  <a href="../manualy/amcr/dj.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Zápis dok. jednotek</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../manualy/drobne-akce.html" class="sidebar-item-text sidebar-link">
+  <a href="../manualy/amcr/drobne-akce.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Akce drobného rozsahu</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../manualy/adb.html" class="sidebar-item-text sidebar-link">
+  <a href="../manualy/amcr/adb.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Zápis ADB</span></a>
   </div>
 </li>
       </ul>
   </li>
-          <li class="sidebar-item sidebar-item-section">
+        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../manualy/amcr-pas/pas.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
  <span class="menu-text">AMČR-PAS</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Přepnout sekci">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manualy/amcr-pas/pas-faq.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Často kladené otázky</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../manualy/amcr-pas/pas-amater.html" class="sidebar-item-text sidebar-link">
@@ -324,42 +317,59 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-          <li class="sidebar-item sidebar-item-section">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manualy/knihovna3d.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Knihovna 3D</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
  <span class="menu-text">Správa lokalit</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Přepnout sekci">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../manualy/lokality.html" class="sidebar-item-text sidebar-link">
+  <a href="../manualy/lokality/lokality.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Evidence lokalit</span></a>
   </div>
 </li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
- <span class="menu-text">AMČR API</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Přepnout sekci">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../manualy/api/api.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">OAI-PMH API</span></a>
+  <a href="../manualy/lokality/plany.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tvorba plánů</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manualy/lokality/vektorizace.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Postup vektorizace</span></a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manualy/dokumenty.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Správa dokumentů</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manualy/externi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Správa externích zdrojů</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manualy/admin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Administrace systému</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -371,8 +381,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Manuály</h1>
-<p class="subtitle lead">Manuály, návody a postupy <em>dobré praxe</em>.</p>
+<h1 class="title">AMČR</h1>
+<p class="subtitle lead">Manuály, návody a postupy <em>dobré praxe</em> v AMČR.</p>
 </div>
 
 
@@ -390,53 +400,44 @@ ul.task-list li input[type="checkbox"] {
 <section id="správa-projektů-a-akcí-v-amčr" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="správa-projektů-a-akcí-v-amčr">Správa Projektů a Akcí v AMČR</h2>
 <p>Manuály ke správě projektů a akcí.</p>
-<div id="listing-amcr" class="column-screen-inset-right quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-5">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1694517923137" data-listing-reading-time-sort="3">
-<a href="../manualy/drobne-akce.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 100px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Akce drobného rozsahu
-</h5>
-<div class="card-text listing-description">
-Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1694517923049" data-listing-reading-time-sort="3">
-<a href="../manualy/adb.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 100px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Zápis ADB
-</h5>
-<div class="card-text listing-description">
-Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1694517923137" data-listing-reading-time-sort="8">
-<a href="../manualy/dj.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="../o-systemu/figs/dj-schema.png" style="height: 100px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Zápis dok. jednotek
-</h5>
-<div class="card-text listing-description">
-Pokyny pro volbu a zápis správného typu dokumentačních jednotek.
-</div>
-</div>
-</div>
-</a>
-</div>
+<div id="listing-amcr" class="column-screen-inset-right quarto-listing quarto-listing-container-custom">
+<div class="list grid quarto-listing-cols-5" "="">
+  <a class="quarto-grid-link" href="">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Akce drobného rozsahu</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu. 
+          </small>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a class="quarto-grid-link" href="">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Zápis ADB</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace. 
+          </small>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a class="quarto-grid-link" href="">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Zápis dok. jednotek</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Pokyny pro volbu a zápis správného typu dokumentačních jednotek. 
+          </small>
+        </div>
+      </div>
+    </div>
+  </a>
 </div>
 <div class="listing-no-matching d-none">
 Žádné nalezené výsledky
@@ -446,53 +447,56 @@ Pokyny pro volbu a zápis správného typu dokumentačních jednotek.
 <section id="amčr-pas" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="amčr-pas">AMČR-PAS</h2>
 <p>Návody k používání <strong>Portálu amatérských spolupracovníků a evidence samostatných nálezů</strong> (<a href="https://amcr-info.aiscr.cz/pas">AMČR-PAS</a>).</p>
-<div id="listing-pas" class="column-screen-inset-right quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-5">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1617148800000" data-listing-file-modified-sort="1694517923121" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
-<a href="../manualy/amcr-pas/pas-foto.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="amcr-pas/figs/foto-stin.jpg" style="height: 100px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Fotografická dokumentace nálezů
-</h5>
-<div class="card-text listing-description">
-Návod jak fotografovat archeologické nálezy pro evidenci v AMČR-PAS.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1687824000000" data-listing-file-modified-sort="1694517923121" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
-<a href="../manualy/amcr-pas/pas-archeolog.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="amcr-pas/figs/pas-a_amcr.png" style="height: 100px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Návod pro archeology
-</h5>
-<div class="card-text listing-description">
-Pokyny pro archeology k vytváření a správě projektů typu průzkum a samostatných nálezů v AMČR-PAS.
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1616025600000" data-listing-file-modified-sort="1694517923121" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
-<a href="../manualy/amcr-pas/pas-amater.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="amcr-pas/figs/pas-login.png" style="height: 100px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Návod pro spolupracovníky
-</h5>
-<div class="card-text listing-description">
-Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky.
-</div>
-</div>
-</div>
-</a>
-</div>
+<div id="listing-pas" class="column-screen-inset-right quarto-listing quarto-listing-container-custom">
+<div class="list grid quarto-listing-cols-5" "="">
+  <a class="quarto-grid-link" href="">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Fotografická dokumentace nálezů</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Návod jak fotografovat archeologické nálezy pro evidenci v AMČR-PAS. 
+          </small>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a class="quarto-grid-link" href="">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Návod pro archeology</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Pokyny pro archeology k vytváření a správě projektů typu průzkum a samostatných nálezů v AMČR-PAS. 
+          </small>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a class="quarto-grid-link" href="">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Návod pro spolupracovníky</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky. 
+          </small>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a class="quarto-grid-link" href="">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Často kladené otázky</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Poslední aktualizace FAQ pro archeology proběhla 19. 3. 2021. 
+          </small>
+        </div>
+      </div>
+    </div>
+  </a>
 </div>
 <div class="listing-no-matching d-none">
 Žádné nalezené výsledky
@@ -501,49 +505,20 @@ Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérský
 </section>
 <section id="správa-lokalit" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="správa-lokalit">Správa lokalit</h2>
-<div id="listing-lok" class="column-screen-inset-right quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-5">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1603238400000" data-listing-file-modified-sort="1694517923149" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21">
-<a href="../manualy/lokality.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="figs/lok-dj.png" style="height: 100px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Evidence lokalit
-</h5>
-<div class="card-text listing-description">
-Zásady evidence nemovitých archeologických památek (lokalit).
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Žádné nalezené výsledky
-</div>
-</div>
-</section>
-<section id="amčr-api" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="amčr-api">AMČR API</h2>
-<p>Návody pro používání API.</p>
-<div id="listing-api" class="column-screen-inset-right quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-5">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1590969600000" data-listing-file-modified-sort="1694517923121" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
-<a href="../manualy/api/api.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="api/figs/api_liseh.png" style="height: 100px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-OAI-PMH API
-</h5>
-<div class="card-text listing-description">
-Manuál k OAI-PMH API, které poskytuje metadatové záznamy z AMČR.
-</div>
-</div>
-</div>
-</a>
-</div>
+<div id="listing-lok" class="column-screen-inset-right quarto-listing quarto-listing-container-custom">
+<div class="list grid quarto-listing-cols-5" "="">
+  <a class="quarto-grid-link" href="">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Evidence lokalit</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Zásady evidence nemovitých archeologických památek (lokalit). 
+          </small>
+        </div>
+      </div>
+    </div>
+  </a>
 </div>
 <div class="listing-no-matching d-none">
 Žádné nalezené výsledky
@@ -786,14 +761,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/github\.com\/ARUP-CAS\/aiscr-webamcr-help");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../manualy/dj.html" class="pagination-link">
-        <span class="nav-page-text">Zápis dok. jednotek</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../manualy/zamer.html" class="pagination-link">
+        <span class="nav-page-text">Oznámení záměru</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

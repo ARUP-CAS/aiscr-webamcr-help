@@ -49,7 +49,6 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../o-systemu/datovy-model.html" rel="next">
 <link href="../figs/cover.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -113,12 +112,24 @@ div.csl-indent {
  <span class="menu-text">Úvod</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../o-systemu/pojmy.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../o-systemu/architektura.html" rel="" target="">
  <span class="menu-text">O systému</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../manualy/manualy.html" rel="" target="">
- <span class="menu-text">Manuály</span></a>
+ <span class="menu-text">Manuál AMČR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../manualy/digiarchiv/digiarchiv.html" rel="" target="">
+ <span class="menu-text">Manuál DA AMČR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../manualy/api/api.html" rel="" target="">
+ <span class="menu-text">Manuál AMČR API</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../o-systemu/pojmy.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Pojmy</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -159,36 +170,6 @@ div.csl-indent {
   <div class="sidebar-item-container"> 
   <a href="../o-systemu/pojmy.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Základní pojmy</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../o-systemu/datovy-model.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Struktura dat</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../o-systemu/role.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Uživatelské role</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../o-systemu/identifikatory.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Identifikátory</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../o-systemu/procesy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Procesní pravidla a stavy</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../o-systemu/heslare.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hesláře</span></a>
   </div>
 </li>
     </ul>
@@ -669,17 +650,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/github\.com\/ARUP-CAS\/aiscr-webamcr-help");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../o-systemu/datovy-model.html" class="pagination-link">
-        <span class="nav-page-text">Struktura dat</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
