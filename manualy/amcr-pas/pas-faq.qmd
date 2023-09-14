@@ -1,12 +1,10 @@
 ---
-title: "AMČR-PAS"
-subtitle: "Portál amatérských spolupracovníků a evidence samostatných nálezů"
-toc-depth: 3
+title: "Často kladené otázky"
+subtitle: FAQ
+toc-depth: 2
 ---
 
-## Často kladené otázky (FAQ)
-
-### Nejčastější dotazy ze strany archeologů
+## Nejčastější dotazy ze strany archeologů
 
 ::: {.callout-note}
 
@@ -14,13 +12,13 @@ Poslední aktualizace FAQ pro archeology proběhla 19. 3. 2021.
 
 :::
  	
-#### Jaký je účel AMČR-PAS? Je AMČR-PAS v souladu s platnými právními předpisy?
+### Jaký je účel AMČR-PAS? Je AMČR-PAS v souladu s platnými právními předpisy?
 
 Stejně jako další součásti AMČR, je i AMČR-PAS nástrojem pro sběr, administraci a archivaci dat z terénních archeologických výzkumů majících povahu detektorové prospekce a povrchových sběrů (tedy spadajících do kategorie "archeologický průzkum") prováděných oprávněnými archeologickými organizacemi a jejich oficiálními spolupracovníky z řad veřejnosti (tzv. občanský či dobrovolný spolupracovník). 
 Z povahy věci není pochyb o legálnosti systému jako takového. 
 AMČR-PAS má sloužit jako nástroj pro jednotný sběr a uchování dat pocházejících z archeologických průzkumů (ať již hromadných či zejména individuálních), na kterých se v rámci platných právních předpisů pod garancí archeologů podílejí amatéři.
 
-####  Je využívání AMČR-PAS povinné?
+###  Je využívání AMČR-PAS povinné?
 
 Snahou archeologických ústavů není nutit oprávněné organizace do spolupráce s amatéry nad rámec jejich běžné činnosti, dosavadních zvyklostí nebo aktuálně potřebné míry. 
 Probíhá-li v oprávněné organizaci spolupráce s amatéry, která vede k nabytí movitých nálezů, je ovšem její povinností vést o těchto nálezech evidenci, včetně uchování všech na souvisejících a dostupných metadat. 
@@ -31,20 +29,20 @@ Tento aspekt lze vnímat také jako motivační nástroj k legální, odbornými
 Čím více bude AMČR-PAS archeology používán, tím větší bude jeho přínos pro uchování informací, vědecký výzkum i prezentaci archeologie. 
 Všechny povinnosti vyplývající z právních předpisů a dohod mezi oprávněnou organizací a AV ČR platí bez ohledu na zvolený typ evidence.
 
-####  Slouží AMČR-PAS pro administraci záchranných nebo badatelských výzkumů?
+###  Slouží AMČR-PAS pro administraci záchranných nebo badatelských výzkumů?
 
 Po spuštění AMČR-PAS byl zavedena nový typ archeologického projektu „průzkum“, kdy podnětem není stavební nebo jiná destruktivní činnost, ale všeobecné a dlouhodobé ohrožení lokality či většího územního celku přirozenou degradací terénu, zemědělskou činností či nelegálními aktivitami hledačů. 
 Při takovém povrchovém průzkumu je použito nedestruktivních nebo málo destruktivních metod výzkumu. 
 Tyto prospekce mají povahu preventivní záchrany ohrožených movitých památek, vesměs již zbavených svého původního kontextu uložení. 
 Pro tuto kategorii není potřeba žádat stanovisko ARÚ/ARÚB, tak jako je tomu u badatelských výzkumů, které mají proběhnout formou sond či plošných odkryvů; vyžaduje se pouze vložení základního shrnutí projektového záměru do AMČR *(viz vzor)*.
 
-#### Podle jakého klíče je potřeba vytvářet a spravovat jednotlivé projekty?
+### Podle jakého klíče je potřeba vytvářet a spravovat jednotlivé projekty?
 
 Pro každou oprávněnou organizaci je doporučeno vytvoření dvou základních projektů na každý kalendářní rok. První by měl sloužit k evidenci výsledků průzkumů prováděných ve spolupráci s amatérskou veřejností v rámci předem vymezeného území (např. okres, výčet obcí v rozsahu působnosti OAO, jednotlivé katastry). Maximální přípustné území takového projektu jsou aktuálně platné hranice samosprávného celku kraj, projekt však může být vytvořen i na jednotlivé katastry či výčet více obcí. Nikdy však nesmí překročit hranice územního rozsahu působnosti OAO. Druhý projekt by měl sloužit k evidenci nálezů nejasného původu (viz otázka 5, druhý odstavec), a to v rozsahu působnosti OAO. Pro náhodné nálezy dle § 23 odst. 2 až 5 zákona č. 20/1987 Sb., o státní památkové péči, lze vytvořit samostatný projekt ad hoc. Další projekty lze vytvářet např. při cíleném dlouhodobém sledování konkrétní lokality či skupiny lokalit. Každý projekt umožňuje vést oddělenou evidenci nálezů, čehož lze při jejich správě využívat - dělení mezi projekty by mělo být logické.
 
 Počet vytvořených projektů není omezen, pro lepší organizaci tak lze vytvořit i více projektů dle potřeb oprávněné organizace.
 
-#### Nálezy jakého původu lze v AMČR-PAS administrovat?
+### Nálezy jakého původu lze v AMČR-PAS administrovat?
 
 AMČR-PAS cílí na sběr a správu informací o archeologických nálezech pocházejících z ověřené spolupráce se zodpovědnými a zaškolenými spolupracovníky z řad hledačů, která může mít podobu organizované prospekce pod přímým dohledem archeologa, nebo se uskutečňuje v rámci individuální, avšak archeologem schválené a vedené činnosti hledače v rámci konkrétního přihlášeného projektu. Tyto projekty mohou být vymezeny velice obecně a zaštítit tak i širší působení jednotlivých hledačů, v souladu s působností oprávněné organizace vymezené dohodou s AV ČR. Územní rozsah a prováděné aktivity v rámci takového projektu nemohou překračovat územní působnost oprávněné organizace a jakékoliv jiné právně závazné limity vymezující jejich kompetence.
 
@@ -56,13 +54,13 @@ V případě skutečně náhodného nálezu a postupu v souladu s § 23 odst. 2 
 
 V AMČR-PAS nelze zaznamenat nálezy, které nebyly fyzicky předány oprávněné organizaci (např. jenom ukázány).
 
-#### Provedení archeologického výzkumu je mimo jiné podmíněno dohodou s vlastníkem (správcem/uživatelem) pozemku. Jak mají oprávněné organizace přistupovat k této povinnosti při spolupráci s amatéry?
+### Provedení archeologického výzkumu je mimo jiné podmíněno dohodou s vlastníkem (správcem/uživatelem) pozemku. Jak mají oprávněné organizace přistupovat k této povinnosti při spolupráci s amatéry?
 
 Nepochybně je technicky neproveditelné zajištění dohod zejména u hledačů, kteří pátrají na nových lokalitách a mají velký akční rádius. Existuje zároveň řada zemědělců, kteří hledače na pozemek pustí, ale nechtějí vyřizovat příslušné dokumenty.
 
 ARÚ/ARÚB v současné době doporučuje, aby v dohodě uzavřené mezi hledačem a oprávněnou organizací bylo ustanovení, které spolupracovníka zavazuje při své činnosti plně dodržovat veškerá příslušná legislativní ustanovení a zároveň ho zplnomocňuje ke sjednání povolení ke vstupu na pozemek za účelem realizace činností, k nimž je oprávněn. Za případné škody způsobené třetí straně při jeho činnosti nese plnou odpovědnost (dohodu s vlastníkem pozemku není třeba uzavírat písemně).
 
-#### Jak bude řešena problematika vedení dvou až tří samostatných evidencí nálezů ve sbírkotvorných institucích?
+### Jak bude řešena problematika vedení dvou až tří samostatných evidencí nálezů ve sbírkotvorných institucích?
 
 Tomuto riziku lze čelit jen částečně. Data z AMČR aktuálně přebírá firma Musoft pro systém Museion. Pokud provede potřebné úpravy svého software, nálezy z AMČR-PAS bude možné zobrazovat a dále využívat v prostředí Museion (obdobně jako lze nyní stahovat údaje o archeologických akcích). Nástroje AIS CR (zejména https://api.aiscr.cz/) lze obdobným způsobem využít i v jiných informačních systémech. Konkrétní požadavky musí předložit uživatelé systémů vůči svým dodavatelům, ARÚ nabízí v tomto procesu potřebnou metodickou a technickou podporu.
 
@@ -70,11 +68,11 @@ Na rozdíl od jiných databází je AMČR-PAS jedinou, která je zcela přístup
 
 Přírůstková čísla nebo jiné označení nálezů lze do PAS zadat jako evidenční číslo v části formuláře nazývané "Uložení".
 
-#### Lze do AMČR-PAS zapisovat archeologické nálezy také zpětně?
+### Lze do AMČR-PAS zapisovat archeologické nálezy také zpětně?
 
 Do AMČR-PAS lze zapsat nálezy i zpětně. Zápis by měla provést oprávněná organizace, která nálezy spravuje. Pro zpětný zápis je vhodné vytvořit samostatný projekt či projekty.
 
-#### Jakou formu bude mít spolupráce mezi archeologem a spolupracovníkem? Co by měla obsahovat dohoda o spolupráci? Jakou by měla mít formu?
+### Jakou formu bude mít spolupráce mezi archeologem a spolupracovníkem? Co by měla obsahovat dohoda o spolupráci? Jakou by měla mít formu?
 
 Spolupráce by měla probíhat primárně na základě dohody o spolupráci. Pro dohodu je z důvodu transparentnosti a evidence důrazně doporučována písemná forma. Mezi náležitosti dohody patří:
 - Jednoznačná identifikace spolupracovníka (potvrzení o spolupráci je nepřenosné);
@@ -94,7 +92,7 @@ Spolupracovník musí být schopen se prokázat potvrzením (či průkazkou) o s
 V současné době není jednotná forma potvrzení (či průkazky), vystaveného oprávněnou organizací, zaváděna. Pouze se požaduje, aby obsahovalo všechny výše uvedené údaje. V počáteční fázi budou sledovány názory a představy zástupců oprávněných organizací a jejich zřizovatelů, zejména krajů. Nelze vyloučit, že některé organizace či kraje mohou preferovat vlastní řešení, včetně snadno identifikovatelné vlastní grafické podoby. V případě zájmu není pro ARÚ/ARÚB problém jednotnou formu průkazky navrhnout a vyrobit, pokud o to jednotlivé organizace či regiony projeví zájem.
 
 
-### Nejčastější otázky veřejnosti a potenciálních spolupracovníků
+## Nejčastější otázky veřejnosti a potenciálních spolupracovníků
 
 ::: {.callout-note}
 
@@ -102,33 +100,33 @@ Poslední aktualizace FAQ pro spolupracovníky proběhla 3. 5. 2022.
 
 :::
 
-#### Proč nemůžu hledat sám? Proč bych měl spolupracovat s archeologem?
+### Proč nemůžu hledat sám? Proč bych měl spolupracovat s archeologem?
 
 Archeologický výzkum může provádět jen organizace k tomu oprávněná, tj. taková, která má povolení Ministerstva kultury České republiky a smlouvu s Akademií věd České republiky (seznam organizací). Neoprávněné provádění archeologického výzkumu je podle zákona přestupkem, za který lze uložit sankci až do výše 4 mil. Kč. Kromě tradičních, plošných výzkumů, je archeologickým výzkumem také např. povrchový sběr či detektorový průzkum. Movité archeologické nálezy nejsou předmětem soukromého vlastnictví, ale výhradně majetkem kraje, obce, nebo státu. Samostatné hledání a držba artefaktů je proto protiprávní činností. Naopak, kontrolovaná spolupráce v souladu s právními předpisy je přínosem jak pro amatéry, tak i pro archeology; zejména však poslouží k vhodnému nakládání s archeologickým dědictvím České republiky.
 
 Archeologie je vědní disciplína, která vyžaduje použití odborných metod, a to nejen na plošném výzkumu, ale také v rámci nedestruktivních či mírně destruktivních průzkumů. K archeologickým nálezům se vážou tzv. nálezové okolnosti, tedy informace o jejich původu, významu, účelu či důvodu uložení na konkrétním místě. Tyto informace jsou pro vědecké bádání naprosto nepostradatelné, ale hlavně také neobnovitelné. Po jejich zničení informace nenávratně mizí a kulturně-historická hodnota nálezu se snižuje. Oprávněná organizace své spolupracovníky náležitě zaškolí tak, aby k takovým ztrátám nedocházelo. Zároveň jasně vymezí, kde a za jakých podmínek je hledání přípustné.
 
-#### Jaký je účel AMČR-PAS? Je AMČR-PAS v souladu s platnými právními předpisy?
+### Jaký je účel AMČR-PAS? Je AMČR-PAS v souladu s platnými právními předpisy?
 
 Archeologická mapa ČR je oborovým nástrojem pro sběr, administraci a archivaci dat získaných terénními archeologickými výzkumy. Modul AMČR-PAS byl speciálně vytvořen pro evidenci dat, která pocházejí z detektorových průzkumů a povrchových sběrů prováděných oprávněnými archeologickými organizacemi a jejich oficiálními spolupracovníky z řad veřejnosti (tzv. občanský či dobrovolný spolupracovník). Z povahy věci není pochyb o legálnosti systému jako takového. AMČR-PAS slouží jako nástroj pro jednotný sběr a uchování dat pocházejících z archeologických průzkumů, na kterých se v rámci platných právních předpisů pod garancí archeologů podílejí amatéři.
 
-#### Je používání AMČR-PAS povinné? Proč bych ho měl používat?
+### Je používání AMČR-PAS povinné? Proč bych ho měl používat?
 
 Legálně spolupracovat s archeologickými pracovišti na detektorových průzkumech lze výhradně v rámci platných právních předpisů, tedy pouze v rámci oprávněného archeologického výzkumu, a to bez ohledu na uplatnění AMČR-PAS. Jak bylo v předchozí otázce uvedeno, AMČR-PAS je především oborovým nástrojem, který byl vyvinut přímo na míru povrchovým průzkumům. Jeho výhodou pro odborné archeologické instituce je, že umožňuje průběžnou digitální komunikaci se spolupracovníky a také snadnější zpracování a vyhodnocování jimi získaných dat. Výhody samozřejmě nabízí i spolupracovníkům z řad veřejnost, kteří užíváním AMČR-PAS získají možnost dostávat k jednotlivým svým nálezům přehlednou a rychlou zpětnou vazbu. Mohou je kdykoliv zpětně dohledat a všechny zobrazit ve formě vlastní obrazové galerie v Digitálním archivu AMČR.
 
 Základní podmínkou využívání AMČR-PAS spolupracovníky z řad veřejnosti je, že uživatel je legálním spolupracovníkem některé z organizací oprávněných k provádění archeologických výzkumů na daném území. S archeologickými pracovišti samozřejmě lze v současné době spolupracovat i bez používání AMČR-PAS a řada lidí tak již delší dobu činí. Nově vytvořený modul dosud ani všechny odborné organizace nemusí plně využívat. Předpokládáme, že se tento stav postupně změní a používání AMČR-PAS se v rámci oprávněných organizací stane standardem. Forma zapojení spolupracovníků do AMČR-PAS je plně v kompetenci jednotlivých organizací a je třeba vzájemné dohody v rámci komunikace s příslušnými odbornými pracovníky.
 
-#### S kterým archeologem nebo oprávněnou organizací mám spolupracovat?
+### S kterým archeologem nebo oprávněnou organizací mám spolupracovat?
 
 Každá oprávněná organizace má svoji územní působnost, ve které může provádět archeologické výzkumy. Jejich přehled lze najít na Mapě archeologických organizací. Pouze na tomto území může spolupracovat se zájemci z řad veřejnosti a pouze z tohoto území může získávat archeologické nálezy. Proto je vhodné vybírat a oslovovat s nabídkou spolupráce oprávněnou organizaci na základě územní působnosti. Zároveň je třeba mít na paměti, že ne všechna archeologická pracoviště jsou schopna podporu amatérským hledačům nabídnout (zejména z kapacitních a organizačních důvodů či kvůli svému specifickému zaměření). Ne všechny oprávněné organizace se na detektorové prospekce specializují a ne všechny dokážou movité archeologické nálezy adekvátně dlouhodobě spravovat. Obecně lze větší otevřenost vůči spolupracovníkům z řad veřejnosti předpokládat spíš u muzeí či jiných příspěvkových organizací, nebo u Archeologických ústavů AV ČR. Vaše spolupráce s oprávněnou organizací by měla být pravidelná, dlouhodobá a koordinovaná, proto při výběru zohledněte i dosažitelnost sídla organizace z Vašeho bydliště.
 
-#### Co když se mnou archeolog nechce spolupracovat?
+### Co když se mnou archeolog nechce spolupracovat?
 
 Jak již bylo řečeno, ne všechny odborné instituce disponují stejnými možnostmi a podmínkami pro spolupráci. Jejich možnosti se mohou také lišit např. dle aktuální vytíženosti. V takovém případě lze oslovit jinou oprávněnou organizaci v okolí. Prakticky v každém regionu je vždy více než jedna organizace, která je oprávněná archeologické výzkumy provádět.
 
 Je třeba mít na paměti, že ke vzniku vzájemné a dlouhodobé spolupráce je zapotřebí oboustranného zájmu a zejména pochopení pro oborová pravidla ze strany spolupracovníků. Jelikož mnoho hledačů provádí tuto činnost nelegálně, je důležité, aby panovala mezi spolupracovníkem a archeologem vzájemná důvěra a přesvědčení, že spolupráce bude probíhat v souladu se zákonem a nebude ohrožovat kulturní dědictví. Hledač by tak v zájmu zachování spolupráce měl dbát na dodržování všech stanovených pravidel.
 
-#### Jakou formu bude mít spolupráce mezi archeologem a spolupracovníkem? Co by měla obsahovat dohoda o spolupráci? Jakou by měla mít formu?
+### Jakou formu bude mít spolupráce mezi archeologem a spolupracovníkem? Co by měla obsahovat dohoda o spolupráci? Jakou by měla mít formu?
 
 Spolupráce by měla probíhat primárně na základě dohody o spolupráci. Pro dohodu je z důvodu transparentnosti důrazně doporučována písemná forma. Mezi náležitosti dohody patří:
 - Jednoznačná identifikace spolupracovníka (potvrzení o spolupráci je nepřenosné)
@@ -138,7 +136,7 @@ Spolupráce by měla probíhat primárně na základě dohody o spolupráci. Pro
 
 Vzor dohody o spolupráci lze najít zde: stáhnout
 
-#### Jak v praxi probíhá spolupráce a terénní průzkum?
+### Jak v praxi probíhá spolupráce a terénní průzkum?
 
 Po uzavření dohody je spolupracovník proškolen v metodách provádění průzkumu a ošetření nálezů. Tato pravidla musí spolupracovník pečlivě dodržovat. V rámci školení by měla též proběhnout komunikace o tom, na jakém území a jakými metodami spolupracovník může svou činnost vyvíjet. Současně může být spolupracovník proškolen též ve využívání modulu AMČR-PAS.
 
@@ -148,7 +146,7 @@ Všechny artefakty, které spolupracovník najde, musí být předány archeolog
 
 Pokud při hledání narazíte na specifický materiál, jako jsou palné zbraně a střelivo vyrobené po r. 1890, případně lidské ostatky, průzkum okamžitě ukončete a kontaktujte odpovědného archeologa. V případě zbraní a střeliva kontaktujte též Policii ČR.
 
-#### Jak se prokážu, že spolupracuji s archeologem?
+### Jak se prokážu, že spolupracuji s archeologem?
 
 Každý spolupracovník se musí na žádost majitele pozemku, Policie ČR či jiných oprávněných osob prokázat potvrzením o spolupráci. Potvrzení musí obsahovat prostorové vymezení oblasti průzkumu, základní identifikaci osoby (jméno příjmení, rok narození), pro kterou bylo potvrzení vydáno a dobu platnosti. Dále musí obsahovat přímý (ideálně neustále funkční) kontakt na odpovědného archeologa. Ohledně vydání potvrzení se informujte u oprávněné organizace. Mějte na paměti, že toto potvrzení spolu s průkazem totožnosti jsou jediný způsob jak na místě prokázat, že se nedopouštíte nelegální činnosti.
 Na co si musím dát pozor při zápisu nálezu do AMČR-PAS?
@@ -159,11 +157,11 @@ Nálezy do AMČR-PAS je ideální zapisovat hned na místě jejich učinění. V
 
 V případě, že se spolupracovník účastní více projektů, je nutné klást zvýšený důraz na správnou volbu projektu, pod který nález spadá. O správném zápisu rozhoduje odpovědný archeolog.
 
-#### Co se stane s nálezy, které vložím do AMČR-PAS?
+### Co se stane s nálezy, které vložím do AMČR-PAS?
 
 Data (zejména nálezy) vložená do AMČR-PAS jsou průběžně zveřejňována v Digitálním archivu AMČR, kde jsou informace o nálezech dostupné zejména vědecké obci, ale také za určitých podmínek široké veřejnosti. Obecně platí, že nálezy učiněné prostřednictvím detektorové prospekce jsou nedílnou součástí kulturního dědictví ČR a přístup k nim je základním lidským právem (čl. 34 a 35 Listiny základních práv a svobod). Právě to Digitální archiv AMČR umožňuje. Rozsah zveřejněných informací nicméně nastavuje archeolog, s nímž uživatel AMČR-PAS spolupracuje a který je zodpovědný za projekt, v jehož rámci spolupracovník svou činnost vykonává. Je plně v jeho kompetenci, aby některé informace (zejména místo nálezu) byly zpřístupněny pouze v takové podobě, která nemůže znamenat ohrožení dalších movitých či nemovitých archeologických památek, např. nelegálním vykrádáním.
 
-#### Náleží mi za nálezy odměna?
+### Náleží mi za nálezy odměna?
 
 Zákon č. 20/1987 Sb., o státní památkové péči, ve znění pozdějších předpisů, přiznává nárok na odměnu pouze v případě náhodného nálezu (§ 23). Tedy například v případě nálezu učiněného při provádění zahradních, nebo zemědělských prací.
 

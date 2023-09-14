@@ -1,48 +1,27 @@
 ---
-title: "Manuály"
-subtitle: Manuály, návody a postupy *dobré praxe*.
+title: "AMČR"
+subtitle: "Manuály, návody a postupy *dobré praxe* v AMČR."
 toc: false
 format-links: false
 listing:
   - id: amcr
     sort-ui: false
     filter-ui: false
-    type: grid
-    grid-columns: 5
-    fields: [image, title, description]
-    max-description-length: 100
-    image-height: 100px
+    template: ../tiles.ejs
     contents: 
       - "dj.qmd"
       - "drobne-akce.qmd"
       - "adb.qmd"
       
   - id: pas
-    type: grid
-    grid-columns: 5
-    fields: [image, title, description]
-    max-description-length: 100
-    image-height: 100px
+    template: ../tiles.ejs
     contents:
       - "amcr-pas/pas-*.qmd"
       
   - id: lok
-    type: grid
-    grid-columns: 5
-    fields: [image, title, description]
-    max-description-length: 100
-    image-height: 100px
+    template: ../tiles.ejs
     contents:
       - "lokality.qmd"
-      
-  - id: api
-    type: grid
-    grid-columns: 5
-    fields: [image, title, description]
-    max-description-length: 100
-    image-height: 100px
-    contents:
-      - "api/*.qmd"
 ---
 
 ## Správa Projektů a Akcí v AMČR
@@ -62,11 +41,4 @@ Návody k používání **Portálu amatérských spolupracovníků a evidence sa
 ## Správa lokalit
 
 ::: {#lok .column-screen-inset-right}
-:::
-
-## AMČR API
-
-Návody pro používání API.
-
-::: {#api .column-screen-inset-right}
 :::

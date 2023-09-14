@@ -1,31 +1,38 @@
 ---
-title: "Úvod"
+title: Úvod
+subtitle: Vítejte na stránkách Uživatelské dokumentace AMČR!
 doi: 10.5281/zenodo.8141634
 toc: false
 format-links: false
 listing:
   - id: soucasti
-    type: grid
-    grid-columns: 5
-    image-height: 100px
-    contents: soucasti/soucasti.yml
-    template: soucasti/soucasti.ejs
+    contents: soucasti.yml
+    template: tiles.ejs
 ---
+
+::: {.callout-important collapse="true"}
+
+## Odkazy na další služby AIS CR
+
+[Archeologická mapa České republiky (AMČR)](https://amcr-info.aiscr.cz/){.external} 
+je sočástí [Archeologického informačního systému České republiky (AIS CR)](https://aiscr.cz/){.external}.
+
+- **Úvodní stránku k AMČR** najdete na odkaze [https://amcr-info.aiscr.cz](https://amcr-info.aiscr.cz){.external}.
+- Do **webové aplikace AMČR** vstoupíte zde [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.
+- **Digitální archiv AMČR** najdete na odkaze [https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/){.external}.
+- Stránky **AIS CR** s odkazy na další služby a součásti systému najdete zde: [https://aiscr.cz/](https://aiscr.cz/){.external}.
+
+:::
 
 ::: {#soucasti .column-screen-inset-right}
 
 :::
 
+<!-- Uživatelská dokumentace AMČR je členěna do několika úrovní: -->
 
-<!-- ::: {.callout-tip} -->
-
-<!-- # Odkazy -->
-
-<!-- - Úvodní stránku k AMČR najdete zde: [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/){.external}. -->
-<!-- - Do **webové aplikace AMČR** vstoupíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}. -->
-<!-- - Stránky **AIS CR** s odkazy na jednotlivé služby jsou zde: [https://aiscr.cz/](https://aiscr.cz/){.external}. -->
-
-<!-- ::: -->
+<!-- - Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/zakladni-info.qmd) o celém systému, informace o [licencích](zakladni-info/licence.qmd), nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd). -->
+<!-- - V sekci [O systému](o-systemu/architektura.qmd) je rámcově popsán používaný datový model a struktura systému. -->
+<!-- - Následují manuály pro jednotlivé součásti AMČR -- [webovou aplikaci](manualy/manualy.qmd), [digitální archiv](manualy/digiarchiv/digiarchiv.qmd) a [API](manualy/api/api.qmd). -->
 
 
 

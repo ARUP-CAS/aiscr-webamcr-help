@@ -1,0 +1,17 @@
+---
+title: Postup vektorizace
+subtitle: | 
+  Postup vektorizace archeologických objektů na základě šikmých leteckých 
+  snímků pro potřeby Archeologické mapy České republiky
+author: 
+  - name: David Novák
+    orcid: 0000-0001-6592-6291
+  - name: Martin Gojda
+    orcid: 0000-0001-7391-7096
+  - name: Martin Kuna
+    orcid: 0000-0001-9244-8387
+  - name: Ondřej Baier
+doi: https://zenodo.org/record/7925796
+date: 2023-05-11
+date-format: D. M. YYYY
+---
