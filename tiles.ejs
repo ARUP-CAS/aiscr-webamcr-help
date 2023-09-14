@@ -5,9 +5,11 @@
 <% for (const tile of items) { %>
   <a class="quarto-grid-link" href="<%- tile.href %>">
     <div class="quarto-grid-item card h-100 w-200">
-      <div class="listing-item-img-placeholder card-img-top" style="height: 100px;">
-        <img class="thumbnail-image card-img" src="<%- tile.image %>" style="height:100px;">
-      </div>
+      <% if (tile.image) { %>
+        <div class="listing-item-img-placeholder card-img-top" style="height: 100px;">
+          <img class="thumbnail-image card-img" src="<%- tile.image %>" style="height:100px;">
+        </div>
+      <% } %>
       <div class="card-body post-contents">
         <h5 class="no-anchor card-title listing-title"><%= tile.title %></h5>
         <div class="card-text listing-description">
@@ -16,11 +18,13 @@
           </small>
         </div>
       </div>
-      <div class="card-footer" style="color:#85150F; text-decoration-line: underline;">
+      <% if (tile.url) { %>
+        <div class="card-footer" style="color:#85150F; text-decoration-line: underline;">
           <small>
-            <%- tile.href %>
+            <%- tile.url %>
           </small>
         </div>
+      <% } %>
     </div>
   </a>
 

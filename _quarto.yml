@@ -15,11 +15,18 @@ website:
     pinned: false
     logo: figs/cover_g.png
     left: 
-      - index.qmd
-      # - zakladni-info/zakladni-info.qmd
+      - text: "Úvod"
+        href: index.qmd
       - text: "O systému"
+        href: o-systemu/architektura.qmd
+      - text: "Manuál AMČR"
+        href: manualy/manualy.qmd
+      - text: "Manuál DA AMČR"
+        href: manualy/digiarchiv/digiarchiv.qmd
+      - text: "Manuál AMČR API"
+        href: manualy/api/api.qmd
+      - text: "Pojmy"
         href: o-systemu/pojmy.qmd
-      - manualy/manualy.qmd
     right:
       - text: "Kontakty"
         href: about.qmd
@@ -34,45 +41,61 @@ website:
         - index.qmd
         - zakladni-info/zakladni-info.qmd
         - zakladni-info/licence.qmd
+        - zakladni-info/ucty.qmd
         - zakladni-info/historie.qmd
             
     - id: o-systemu
       contents:
-        - o-systemu/pojmy.qmd
+        - o-systemu/architektura.qmd
         - o-systemu/datovy-model.qmd
         - o-systemu/role.qmd
         - o-systemu/identifikatory.qmd
         - o-systemu/procesy.qmd
         - o-systemu/heslare.qmd
         
-    - id: manualy
+    - id: manual-amcr
       contents:
         - manualy/manualy.qmd
-        - section: "AMČR"
-          contents:
-            - section: "Správa akcí"
-              contents: 
-                - manualy/dj.qmd
-                - manualy/drobne-akce.qmd
-                - manualy/adb.qmd
-            - section: "AMČR-PAS"
-              href: manualy/amcr-pas/pas.qmd
-              contents: 
-                - manualy/amcr-pas/pas-amater.qmd
-                - manualy/amcr-pas/pas-archeolog.qmd
-                - manualy/amcr-pas/pas-foto.qmd
-            - section: "Správa lokalit"
-              contents:
-                - manualy/lokality.qmd
-        - section: "AMČR API"
+        - text: "Oznámení záměru"
+          href: manualy/zamer.qmd
+        - text: "Správa projektů"
+          href: manualy/projekty.qmd
+        - section: "Správa akcí"
           contents: 
-            - manualy/api/api.qmd
-            
-      # - section: "TODO"
-      #   contents:
-      #     - implementace.qmd
-      #     - pracovni-postupy.qmd
-      #     - aplikace.qmd
+            - manualy/amcr/dj.qmd
+            - manualy/amcr/drobne-akce.qmd
+            - manualy/amcr/adb.qmd
+        - section: "AMČR-PAS"
+          contents: 
+            - manualy/amcr-pas/pas-faq.qmd
+            - manualy/amcr-pas/pas-amater.qmd
+            - manualy/amcr-pas/pas-archeolog.qmd
+            - manualy/amcr-pas/pas-foto.qmd
+        - text: "Knihovna 3D"
+          href: manualy/knihovna3d.qmd
+        - section: "Správa lokalit"
+          contents:
+            - manualy/lokality/lokality.qmd
+            - manualy/lokality/plany.qmd
+            - manualy/lokality/vektorizace.qmd
+        - text: "Správa dokumentů"
+          href: manualy/dokumenty.qmd
+        - text: "Správa externích zdrojů"
+          href: manualy/externi.qmd
+        - text: "Administrace systému"
+          href: manualy/admin.qmd
+    
+    - id: manual-digiarchiv
+      contents:
+        - manualy/digiarchiv/digiarchiv.qmd
+    
+    - id: manual-api
+      contents: 
+        - manualy/api/api.qmd
+        
+    - id: pojmy
+      contents: 
+        - o-systemu/pojmy.qmd
 
   page-footer:
     background: light
@@ -90,13 +113,13 @@ format:
   html:
     toc: true
     theme:
-      - spacelab # cerulean cosmo flatly lumen spacelab
+      - spacelab
       - customtheme.scss
     css: 
       - museo.css
       - styles.css
     df-print: kable
-    link-external-newwindow: false
+    link-external-newwindow: true
     grid: 
       sidebar-width: 250px
       body-width: 900px

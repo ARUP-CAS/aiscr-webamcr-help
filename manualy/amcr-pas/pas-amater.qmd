@@ -18,6 +18,7 @@ author:
 date: 2021-03-18
 date-format: D. M. YYYY
 doi: 10.5281/zenodo.8141634
+# image: ../../figs/thumb_pin.png
 ---
 
 ::: {.callout-note}
