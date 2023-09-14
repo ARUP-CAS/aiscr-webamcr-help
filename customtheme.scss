@@ -1,6 +1,8 @@
 /*-- scss:defaults --*/
 $amcr: #85150F !default;
 
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500&display=swap');
+
 // Colors
 $link-color: $amcr;
 $navbar-bg: #303641;
@@ -16,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'museo300', monospace;
 }
 
+/*-- navbar --*/
 .navbar-title {
   font-size: 20px;
   font-family: 'museo300', monospace;
@@ -31,8 +34,36 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-dark .navbar-nav .nav-link:focus {
   color: #FFFFFF;
 }
+  
+.nav-item {
+  font-variant: small-caps;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 300;
+}
+  
+.nav-item .active {
+  font-weight: 400;
+}
 
+/*-- sidebar --*/
+.sidebar-item {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+}
 
+.sidebar-item .active {
+  font-weight: 500;
+}
+
+/*-- card/tile --*/
+.card-footer {
+    background-color: white;
+}
+
+strong, b {
+  color: $amcr;
+}
+  
 /*--.menu-text {
   font-family: 'Proxima Nova', sans-serif;
 }--*/

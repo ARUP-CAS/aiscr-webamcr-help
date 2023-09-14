@@ -33,16 +33,16 @@ website:
 
   sidebar:
     - id: main
-      collapse-level: 2
+      collapse-level: 1
       style: "docked"
       header: |
         [![](/figs/logo-amcr-hor.png)](https://amcr-info.aiscr.cz/)
       contents:
         - index.qmd
         - zakladni-info/zakladni-info.qmd
-        - zakladni-info/licence.qmd
         - zakladni-info/ucty.qmd
         - zakladni-info/historie.qmd
+        - zakladni-info/licence.qmd
             
     - id: o-systemu
       contents:
@@ -117,7 +117,8 @@ format:
       - customtheme.scss
     css: 
       - museo.css
-      - styles.css
+      # - styles.css
+    mainfont: "Figtree"
     df-print: kable
     link-external-newwindow: true
     grid: 
@@ -155,5 +156,4 @@ lang: cs
 language: 
   related-formats-title: "Stáhnout..."
   section-title-references: "Zdroje"
-  
   
