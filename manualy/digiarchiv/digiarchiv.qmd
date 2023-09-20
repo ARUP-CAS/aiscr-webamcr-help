@@ -1,4 +1,4 @@
 ---
 title: Digitální archiv AMČR
-subtitle: Manuál k Digitálnímu archivu AMČR
+subtitle: Uživatelská příručka
 ---
