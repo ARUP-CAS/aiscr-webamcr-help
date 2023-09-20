@@ -19,13 +19,13 @@ website:
         href: index.qmd
       - text: "O systému"
         href: o-systemu/architektura.qmd
-      - text: "Manuál AMČR"
+      - text: "AMČR"
         href: manualy/manualy.qmd
-      - text: "Manuál DA AMČR"
+      - text: "Digitální archiv AMČR"
         href: manualy/digiarchiv/digiarchiv.qmd
-      - text: "Manuál AMČR API"
+      - text: "AMČR API"
         href: manualy/api/api.qmd
-      - text: "Pojmy"
+      - text: "Slovník pojmů"
         href: o-systemu/pojmy.qmd
     right:
       - text: "Kontakty"
