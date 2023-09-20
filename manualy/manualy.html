@@ -761,7 +761,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/github\.com\/ARUP-CAS\/aiscr-webamcr-help");
+      var filterRegex = new RegExp("https:\/\/amcr-help\.aiscr\.cz");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

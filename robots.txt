@@ -1,1 +1,1 @@
-Sitemap: https://github.com/ARUP-CAS/aiscr-webamcr-help/sitemap.xml
+Sitemap: https://amcr-help.aiscr.cz/sitemap.xml
