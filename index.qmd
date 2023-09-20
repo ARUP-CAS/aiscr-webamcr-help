@@ -10,9 +10,20 @@ listing:
     template: tiles.ejs
 ---
 
-::: {.callout-important collapse="true"}
 
-## Odkazy na další služby AIS CR
+Uživatelská dokumentace AMČR je členěna do několika úrovní:
+
+- Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/zakladni-info.qmd) o celém systému, informace o [licencích](zakladni-info/licence.qmd), nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd).
+- V sekci [O systému](o-systemu/architektura.qmd) je rámcově popsán používaný datový model a struktura systému.
+- Následují manuály pro jednotlivé součásti AMČR -- [webovou aplikaci](manualy/manualy.qmd), [Digitální archiv](manualy/digiarchiv/digiarchiv.qmd) a [API](manualy/api/api.qmd).
+
+
+::: {#soucasti .column-screen-inset-right}
+
+:::
+
+
+## Odkazy na služby AIS CR
 
 [Archeologická mapa České republiky (AMČR)](https://amcr-info.aiscr.cz/){.external} 
 je sočástí [Archeologického informačního systému České republiky (AIS CR)](https://aiscr.cz/){.external}.
@@ -21,18 +32,6 @@ je sočástí [Archeologického informačního systému České republiky (AIS C
 - Do **webové aplikace AMČR** vstoupíte zde [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.
 - **Digitální archiv AMČR** najdete na odkaze [https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/){.external}.
 - Stránky **AIS CR** s odkazy na další služby a součásti systému najdete zde: [https://aiscr.cz/](https://aiscr.cz/){.external}.
-
-:::
-
-::: {#soucasti .column-screen-inset-right}
-
-:::
-
-<!-- Uživatelská dokumentace AMČR je členěna do několika úrovní: -->
-
-<!-- - Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/zakladni-info.qmd) o celém systému, informace o [licencích](zakladni-info/licence.qmd), nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd). -->
-<!-- - V sekci [O systému](o-systemu/architektura.qmd) je rámcově popsán používaný datový model a struktura systému. -->
-<!-- - Následují manuály pro jednotlivé součásti AMČR -- [webovou aplikaci](manualy/manualy.qmd), [digitální archiv](manualy/digiarchiv/digiarchiv.qmd) a [API](manualy/api/api.qmd). -->
 
 
 
@@ -65,11 +64,7 @@ Jednotlivé dokumenty jsou formátovány pomocí [markdownu](https://www.markdow
 - Obrázek se vkládá obdobně: **\!\[**Popisek obrázku**\]\(**cesta fig/...**\)**.
 - Dvě mezery na konci řádku vytvoří nový odstavec, pro čitelnost je lepší vynechat celý řádek.
 
-:::
-
-::: {.callout-note  collapse="true"}
-
-# Tabulky
+Tabulky
 
 Tabulky lze vkládat ručně jako text formátovaný v Markdownu, viz <https://quarto.org/docs/authoring/tables.html>.
 Druhou variantou je pak stavět tabulky automatizovaně z CSV souborů.

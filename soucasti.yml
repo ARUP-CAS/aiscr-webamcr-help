@@ -6,7 +6,7 @@
   href: o-systemu/architektura.qmd
   image: figs/thumb_pin_wrench.png
 
-- title: Manuál AMČR
+- title: AMČR
   description: |
     Sekce obsahuje širokou škálu návodů pro používání webové 
     aplikace AMČR od správy projektů, akcí a lokalit až po manuály
@@ -14,14 +14,14 @@
   href: manualy/manualy.qmd
   image: figs/thumb_amcr.png
   
-- title: Manuál Digitální archiv AMČR
+- title: Digitální archiv AMČR
   description: | 
     Manuál představuje funkce Digitálního archivu AMČR, webové aplikace určené k 
     prohlížení informací a dokumentů o archeologických výzkumech, lokalitách a nálezech. 
   href: manualy/digiarchiv/digiarchiv.qmd
   image: figs/thumb_digiarchiv.png
   
-- title: Manuál AMČR API
+- title: AMČR API
   description: | 
     Manuál popisuje API rozhraní, pomocí kterého lze získávat metadatové záznamy 
     z databáze AMČR, a to pomocí protokolu OpenArchives Initiative Protocol 
