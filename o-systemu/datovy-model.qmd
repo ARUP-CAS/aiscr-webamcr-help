@@ -1,5 +1,5 @@
 ---
-title: Struktura dat
+title: Datový model
 ---
 
 Aplikaci AMČR lze popsat jako provázaný systém několika segmentů (skupin tabulek, datových tříd a heslářů) vztahujících se k základním funkcím informačního systému.
