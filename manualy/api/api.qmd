@@ -1,6 +1,6 @@
 ---
 title: "OAI-PMH API"
-description: "Uživatelská příručka"
+subtitle: "Uživatelská příručka"
 date: 2020-06-01
 date-format: D. M. YYYY
 ---
