@@ -1,5 +1,5 @@
 ---
-title: Evidence lokalit
+title: Zásady evidence
 description: Zásady evidence nemovitých archeologických památek (lokalit).
 author:
   - name: Martin Kuna
