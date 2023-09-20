@@ -1,6 +1,6 @@
 ---
 title: "AMČR"
-subtitle: "Manuály, návody a postupy *dobré praxe* v AMČR."
+subtitle: "Uživatelská příručka"
 toc: false
 format-links: false
 listing:
