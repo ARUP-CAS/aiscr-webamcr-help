@@ -1,6 +1,6 @@
 ---
 title: "OAI-PMH API"
-description: "Manuál k OAI-PMH API, které poskytuje metadatové záznamy z AMČR."
+description: "Uživatelská příručka"
 date: 2020-06-01
 date-format: D. M. YYYY
 ---
