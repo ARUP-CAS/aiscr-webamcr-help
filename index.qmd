@@ -18,6 +18,7 @@ Uživatelská dokumentace AMČR je členěna do několika úrovní:
 - Následují manuály pro jednotlivé součásti AMČR -- [webovou aplikaci](manualy/manualy.qmd), [Digitální archiv](manualy/digiarchiv/digiarchiv.qmd) a [API](manualy/api/api.qmd).
 
 
+
 ::: {#soucasti .column-screen-inset-right}
 
 :::
