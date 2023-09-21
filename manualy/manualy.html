@@ -34,6 +34,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../figs/cover.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -101,9 +103,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-execute','listing-crossref','listing-callout-appearance','listing-toc-title','listing-toc-depth','listing-bibliography','listing-csl','listing-lang','listing-language','listing-title','listing-description','listing-author','listing-date','listing-date-format','listing-doi','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-execute','listing-crossref','listing-callout-appearance','listing-toc-title','listing-toc-depth','listing-bibliography','listing-csl','listing-lang','listing-language','listing-title','listing-subtitle','listing-author','listing-date','listing-date-format','listing-doi','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-toc','listing-format-links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-crossref","listing-callout-appearance","listing-toc-title","listing-toc-depth","listing-bibliography","listing-csl","listing-lang","listing-language","listing-title","listing-description","listing-author","listing-date","listing-date-format","listing-doi","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-subtitle"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-crossref","listing-callout-appearance","listing-toc-title","listing-toc-depth","listing-bibliography","listing-csl","listing-lang","listing-language","listing-title","listing-subtitle","listing-author","listing-date","listing-date-format","listing-doi","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-toc","listing-format-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -150,13 +152,29 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S3BT2B2SPF"></script>
 
-<script type="text/javascript">
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
 </script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -323,6 +341,12 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
  <span class="menu-text">Fotografická dokumentace nálezů</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../manualy/amcr-pas/pas-dokumenty.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vzorové dokumenty</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -410,7 +434,7 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
 <p>Manuály ke správě projektů a akcí.</p>
 <div id="listing-amcr" class="column-screen-inset-right quarto-listing quarto-listing-container-custom">
 <div class="list grid quarto-listing-cols-5" "="">
-  <a class="quarto-grid-link" href="">
+  <a class="quarto-grid-link" href="" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       <div class="card-body post-contents">
         <h5 class="no-anchor card-title listing-title">Akce drobného rozsahu</h5>
@@ -422,7 +446,7 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
       </div>
     </div>
   </a>
-  <a class="quarto-grid-link" href="">
+  <a class="quarto-grid-link" href="" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       <div class="card-body post-contents">
         <h5 class="no-anchor card-title listing-title">Zápis ADB</h5>
@@ -434,7 +458,7 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
       </div>
     </div>
   </a>
-  <a class="quarto-grid-link" href="">
+  <a class="quarto-grid-link" href="" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       <div class="card-body post-contents">
         <h5 class="no-anchor card-title listing-title">Zápis dok. jednotek</h5>
@@ -457,43 +481,55 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
 <p>Návody k používání <strong>Portálu amatérských spolupracovníků a evidence samostatných nálezů</strong> (<a href="https://amcr-info.aiscr.cz/pas">AMČR-PAS</a>).</p>
 <div id="listing-pas" class="column-screen-inset-right quarto-listing quarto-listing-container-custom">
 <div class="list grid quarto-listing-cols-5" "="">
-  <a class="quarto-grid-link" href="">
+  <a class="quarto-grid-link" href="" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       <div class="card-body post-contents">
         <h5 class="no-anchor card-title listing-title">Fotografická dokumentace nálezů</h5>
         <div class="card-text listing-description">
           <small> 
-            Návod jak fotografovat archeologické nálezy pro evidenci v AMČR-PAS. 
+            Původně zveřejněno na Zenodo jako Chlup, T. <span class="citation" data-cites="chlup2021">(2021)</span>: AMČR-PAS Fotografická dokumentace nálezů. doi:10.5281/zenodo.4560101. 
           </small>
         </div>
       </div>
     </div>
   </a>
-  <a class="quarto-grid-link" href="">
+  <a class="quarto-grid-link" href="" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       <div class="card-body post-contents">
         <h5 class="no-anchor card-title listing-title">Návod pro archeology</h5>
         <div class="card-text listing-description">
           <small> 
-            Pokyny pro archeology k vytváření a správě projektů typu průzkum a samostatných nálezů v AMČR-PAS. 
+            Původně zveřejněno jako… 
           </small>
         </div>
       </div>
     </div>
   </a>
-  <a class="quarto-grid-link" href="">
+  <a class="quarto-grid-link" href="" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       <div class="card-body post-contents">
         <h5 class="no-anchor card-title listing-title">Návod pro spolupracovníky</h5>
         <div class="card-text listing-description">
           <small> 
-            Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky. 
+            Původně zveřejněno jako… 
           </small>
         </div>
       </div>
     </div>
   </a>
-  <a class="quarto-grid-link" href="">
+  <a class="quarto-grid-link" href="" target="_self">
+    <div class="quarto-grid-item card h-100 w-200">
+      <div class="card-body post-contents">
+        <h5 class="no-anchor card-title listing-title">Vzorové dokumenty</h5>
+        <div class="card-text listing-description">
+          <small> 
+            Na této stránce naleznete vzorové dokumenty ke stažení. 
+          </small>
+        </div>
+      </div>
+    </div>
+  </a>
+  <a class="quarto-grid-link" href="" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       <div class="card-body post-contents">
         <h5 class="no-anchor card-title listing-title">Často kladené otázky</h5>
@@ -515,7 +551,7 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="správa-lokalit">Správa lokalit</h2>
 <div id="listing-lok" class="column-screen-inset-right quarto-listing quarto-listing-container-custom">
 <div class="list grid quarto-listing-cols-5" "="">
-  <a class="quarto-grid-link" href="">
+  <a class="quarto-grid-link" href="" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       <div class="card-body post-contents">
         <h5 class="no-anchor card-title listing-title">Zásady evidence</h5>
@@ -807,7 +843,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
-    <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></div>
+    <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
