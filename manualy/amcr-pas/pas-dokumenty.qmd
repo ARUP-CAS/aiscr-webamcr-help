@@ -1,0 +1,20 @@
+---
+title: Vzorové dokumenty
+toc: false
+format-links: false
+---
+
+Na této stránce naleznete vzorové dokumenty ke stažení.
+
+::: {.column-body-outset-right}
+
+| Dokument                                                               | Formát | Datum  aktualizace | Popis dokumentu                                                                    |
+|------------------------------------------------------------------------|--------|--------------------|------------------------------------------------------------------------------------|
+| [Vzor dohody {{< fa file-download >}}](AMCR-PAS_dohoda_vzor.docx)      | DOCX   | 30. 3. 2021        | Vzor dohody o spolupráci mezi oprávněnou organizací a amatérským spolupracovníkem. |
+| [Vzor protokolu {{< fa file-download >}}](AMCR-PAS_protokol_vzor.docx) | DOCX   | 30. 3. 2021        | Vzor protokolu o proškolení spolupracovníka oprávněnou organizací.                 |
+| [Vzor projektu {{< fa file-download >}}](AMCR-PAS_projekt_vzor.docx)   | DOCX   | 22. 3. 2021        | Vzor projektové dokumentace pro přiložení k projektu typu průzkum v AMČR.          |
+| [Vzor NZ {{< fa file-download >}}](AMCR-PAS_NZ_vzor.docx)              | DOCX   | 13. 3. 2023        | Vzor nálezové zprávy pro přiložení k projektu typu průzkum v AMČR.                 |
+| [Příklad NZ {{< fa file-download >}}](AMCR-PAS_NZ_priklad.pdf)         | PDF    | 24. 5. 2023        | Příklad vypracované nálezové zprávy k projektu typu průzkum v AMČR.                |
+| [Grafická měřítka {{< fa file-download >}}](AMCR-PAS_meritka.zip)      | ZIP    | --                 | Grafická měřítka pro focení připravená pro tisk. Při tisku použijte nastavení velikosti stránky “skutečná velikost”, aby velikost měřítka odpovídala skutečnosti. |
+
+:::
