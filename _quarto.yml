@@ -1,5 +1,7 @@
 project:
   type: website
+  resources: 
+    - "CNAME"
 
 website:
   title: "Uživatelská dokumentace AMČR"
@@ -8,7 +10,13 @@ website:
   repo-actions: none
   reader-mode: false
   page-navigation: true
-  google-analytics: "G-S3BT2B2SPF"
+  google-analytics: 
+    tracking-id: "G-S3BT2B2SPF"
+    anonymize-ip: true
+    storage: cookies
+  cookie-consent: 
+    style: simple   
+    palette: light
 
   navbar:
     background: dark
@@ -72,6 +80,7 @@ website:
             - manualy/amcr-pas/pas-amater.qmd
             - manualy/amcr-pas/pas-archeolog.qmd
             - manualy/amcr-pas/pas-foto.qmd
+            - manualy/amcr-pas/pas-dokumenty.qmd
         - text: "Knihovna 3D"
           href: manualy/knihovna3d.qmd
         - section: "Správa lokalit"
