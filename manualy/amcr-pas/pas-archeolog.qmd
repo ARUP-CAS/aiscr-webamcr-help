@@ -1,6 +1,6 @@
 ---
 title: "Návod pro archeology"
-description: "Pokyny pro archeology k vytváření a správě projektů typu průzkum a samostatných nálezů v AMČR-PAS."
+subtitle: "Pokyny pro archeology k vytváření a správě projektů typu průzkum a samostatných nálezů v AMČR-PAS."
 author:
   - name: Petr Pajdla
     orcid: 0000-0001-7050-9572
