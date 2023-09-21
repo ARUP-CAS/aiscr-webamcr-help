@@ -3,7 +3,7 @@
 <div class="list grid quarto-listing-cols-5"">
 
 <% for (const tile of items) { %>
-  <a class="quarto-grid-link" href="<%- tile.href %>">
+  <a class="quarto-grid-link" href="<%- tile.href %>" target=_self>
     <div class="quarto-grid-item card h-100 w-200">
       <% if (tile.image) { %>
         <div class="listing-item-img-placeholder card-img-top" style="height: 100px;">
