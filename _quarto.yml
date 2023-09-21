@@ -8,6 +8,7 @@ website:
   repo-actions: none
   reader-mode: false
   page-navigation: true
+  google-analytics: "G-S3BT2B2SPF"
 
   navbar:
     background: dark
