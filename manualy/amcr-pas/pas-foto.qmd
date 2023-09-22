@@ -1,6 +1,6 @@
 ---
 title: "Fotografická dokumentace nálezů"
-subtitle: "Návod jak fotografovat archeologické nálezy pro evidenci v AMČR-PAS."
+subtitle: "Návod jak fotografovat archeologické nálezy pro evidenci v AMČR-PAS"
 author:
   - name: "Tomáš Chlup"
     orcid: 0000-0003-3179-992X
@@ -19,7 +19,7 @@ Fotografická dokumentace předmětů získaných povrchovou prospekcí slouží
 Fotografování předmětů je proto třeba věnovat odpovídající pozornost.
 Následujících několik stránek si klade za cíl stručně vysvětlit, jaké fotografie má AMČR-PAS zájem shromažďovat a jak je pořídit i v improvizovaných podmínkách.
 
-AMČR-PAS přijímá fotografie ve formátu JPEG, PNG a TIFF do velikosti 100 MB. 
+AMČR-PAS přijímá fotografie ve formátu JPEG, PNG a TIFF do velikosti 100 MB.
 Obecně apelujeme na ukládání fotografií v co nejlepším rozlišení a kvalitě, za využití minimální komprese JPEG, případně využití komprese LZW TIFF.
 
 Ke každému předmětu náleží dvojí typ fotografické dokumentace -- fotografie z místa nálezu a fotografie předmětu samotného.
@@ -34,30 +34,30 @@ Na základě těchto fotografií by mělo být možné odpovědět na následuj�
 
 ## Fotografie předmětu
 
-Musí podávat celkový obraz o dokumentovaném předmětu a musí splňovat základní kritéria dokumentační fotografie. 
-Je na vzájemné dohodě mezi archeology a spolupracovníky, kdo zajistí finální dokumentační fotografii. 
+Musí podávat celkový obraz o dokumentovaném předmětu a musí splňovat základní kritéria dokumentační fotografie.
+Je na vzájemné dohodě mezi archeology a spolupracovníky, kdo zajistí finální dokumentační fotografii.
 Před vlastním focením je vhodné předmět očistit podle následujících pravidel.
 
 #### Fragmenty keramiky
 
-Lze opláchnout pod tekoucí vodou. 
-Nenechávejte keramiku delší dobu máčet ve vodě ani ji nedrhněte, mohli byste setřít výzdobu, která je zásadní pro určení stáří a původu nálezů. 
+Lze opláchnout pod tekoucí vodou.
+Nenechávejte keramiku delší dobu máčet ve vodě ani ji nedrhněte, mohli byste setřít výzdobu, která je zásadní pro určení stáří a původu nálezů.
 Pokud je zřejmé, že keramická hmota není dobře vypálená, vyvarujte se mytí úplně.
 
 #### Kamenné artefakty
 
-lze, stejně jako keramiku, umýt pod tekoucí vodou. 
+lze, stejně jako keramiku, umýt pod tekoucí vodou.
 Zejména u štípaných artefaktů se vyvarujte mechanického čištění, neboť na jejich povrchu mohou být stále přítomna organická pojiva a stopy po používání.
 
 #### Kovové artefakty
 
-lze zbavit nečistot jejich ponořením do destilované vody. 
-Zejména u této kategorie je nezbytné vyvarovat se použití jakýchkoliv jiných chemických činidel nebo hrubého mechanického čištění. 
+lze zbavit nečistot jejich ponořením do destilované vody.
+Zejména u této kategorie je nezbytné vyvarovat se použití jakýchkoliv jiných chemických činidel nebo hrubého mechanického čištění.
 Pro správný postup konzervace je nutné znát přesné chemické složení kovu, jeho pH atp., proto další kroky nechte vždy na odborníkovi!
 
 ## Jak vytvořit dokumentační fotografii
 
-Základem dokumentační fotografie je vhodně nastavené prostředí ve kterém fotografujeme. 
+Základem dokumentační fotografie je vhodně nastavené prostředí ve kterém fotografujeme.
 Pokud vytvoříme dobré světelné podmínky lze plnohodnotný dokumentační snímek pořídit i pomocí telefonu s minimem technických znalostí.
 
 ### Pozadí
@@ -78,7 +78,7 @@ Volíme dle individuálních možností.
 - Z důvodu rovnoměrného osvětlení předmětu je vhodné fotit na denním světle.
 - Čím menší je intenzita světla, tím delší expoziční časy bude nutné použít. Pak je lepší počkat na lepší světlo/použít stativ.
 - Hlavní světlo by mělo přicházet z levého horního rohu záběru (obecný usus v archeologické dokumentaci).
-- Výrazné stíny a přepaly lze částečně vyrušit tím, že světelný proud odrazíme (od stropu/stěny), rozptýlíme (pauzovací papír/nízkogramážní tkaniny) nebo umístíme dál od předmětu. 
+- Výrazné stíny a přepaly lze částečně vyrušit tím, že světelný proud odrazíme (od stropu/stěny), rozptýlíme (pauzovací papír/nízkogramážní tkaniny) nebo umístíme dál od předmětu.
 - Chceme-li stíny rozptýlit, kombinujeme více světelných zdrojů, např. stropní světlo a světlo lampy.
 - Chceme-li stíny eliminovat, je vhodné použít odraznou desku či jinou formu odrazné plochy.
 - Fotíme-li předměty s nevýraznými detaily (např. mince), je vhodné svítit jedním světlem pod menším úhlem. Zvýrazní se tak stíny a nevýrazné kontury se lépe vykreslí.
@@ -99,7 +99,7 @@ Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní 
 
 - Fotografovaný předmět se snažte umístit do středu záběru (minimální optická deformace, nejlepší výkon automatiky ostření).
 - Delší osa předmětu by měla kopírovala delší rozměr záběru.
-- S mírným odstupem přiložte svislé a vodorovné měřítko (ke stažení [zde](http://archeologickamapa.cz/downloads/meritko.pdf){.external}, při jeho tisku volte možnost *skutečná velikost*, na trhu jsou běžně k dostání i profesionální kriminalistická měřítka).
+- S mírným odstupem přiložte svislé a vodorovné měřítko (ke stažení [zde](AMCR-PAS_meritka.zip), při jeho tisku volte možnost *skutečná velikost*, na trhu jsou běžně k dostání i profesionální kriminalistická měřítka).
 - Přepište identifikátor nálezu z AMČR-PAS na papír a přiložte na okraj záběru. Neklaďte předměty až k okraji záběru.
 - Správně komponovaný snímek není nutné ořezávat a otáčet.
 
@@ -139,9 +139,9 @@ Postprodukce je soubor grafických úkonů, ke kterým přistupujeme pokud je t�
 
 ## Nastavení fotoaparátu
 
-Pokud vlastníte digitální zrcadlovku/bezzrcadlovku, setkáte se s celou škálou parametrů, které je třeba nastavit, aby snímek vyšel optimálně ostrý a dostatečně osvětlený. 
-Níže jmenované parametry jsou pouze orientační a jedná se o velmi obecný exkurz do nastavení fotoaparátu. 
-Ovládací rozhraní se u jednotlivých značek a modelů fotoaparátů velmi liší. 
+Pokud vlastníte digitální zrcadlovku/bezzrcadlovku, setkáte se s celou škálou parametrů, které je třeba nastavit, aby snímek vyšel optimálně ostrý a dostatečně osvětlený.
+Níže jmenované parametry jsou pouze orientační a jedná se o velmi obecný exkurz do nastavení fotoaparátu.
+Ovládací rozhraní se u jednotlivých značek a modelů fotoaparátů velmi liší.
 Pro konkrétní nastavení doporučujeme nahlédnout do manuálu.
 
 #### Přednastavené režimy
@@ -154,34 +154,34 @@ Volte tu nejvyšší, kterou Vaše zařízení umožňuje.
 
 #### Formát (*File type*)
 
-Digitální fotoaparáty umožňují ukládat fotografie do formátů JPEG a RAW. 
-Pokud nemáte zkušenosti s postprodukční úpravou fotografií, volte formát JPEG v co nejvyšší kvalitě (*Fine/L*). 
+Digitální fotoaparáty umožňují ukládat fotografie do formátů JPEG a RAW.
+Pokud nemáte zkušenosti s postprodukční úpravou fotografií, volte formát JPEG v co nejvyšší kvalitě (*Fine/L*).
 Pokud jste zběhlí v postprodukčních úpravách, volte formát RAW a fotografie exportujte do formátu TIFF (<100 MB, komprese LZW).
 
 #### Citlivost (ISO)
 
-Udává citlivost obrazového snímače. 
-Čím je hodnota ISO nižší, tím méně obrazového šumu (nežádoucího) vzniká na výsledné fotce, ale tím delší čas je potřebný ke správnému osvětlení snímače. 
-Snažte se tedy držet ISO co nejnižší, např. 100-400, ale ne na úkor příliš dlouhého expozičního času. 
+Udává citlivost obrazového snímače.
+Čím je hodnota ISO nižší, tím méně obrazového šumu (nežádoucího) vzniká na výsledné fotce, ale tím delší čas je potřebný ke správnému osvětlení snímače.
+Snažte se tedy držet ISO co nejnižší, např. 100-400, ale ne na úkor příliš dlouhého expozičního času.
 
 #### Vyvážení bílé (WB)
 
-Slouží ke sjednocení barevného podání fotografie tak, aby souhlasil s vnímáním barev lidským okem. 
-Ve většině případů lze ponechat na automatice. 
+Slouží ke sjednocení barevného podání fotografie tak, aby souhlasil s vnímáním barev lidským okem.
+Ve většině případů lze ponechat na automatice.
 U focení s bleskem volte příslušný symbol.
 Případnou kalibraci lze bezztrátově provést při postprodukci.
 
 #### Clona (f/...)
 
 Clona je zařízení, které redukuje množství světla procházející objektivem a podílí se na výsledné hloubce ostrosti.
-S rostoucím clonovým číslem (f) roste hloubka ostrosti. 
-Současně se ale redukuje množství procházejícího světla, což klade větší nároky na délku času, po který musí být snímač vystaven světelnému proudu. 
-U archeologických nálezů je žádoucí vyšší hloubka ostrosti. 
+S rostoucím clonovým číslem (f) roste hloubka ostrosti.
+Současně se ale redukuje množství procházejícího světla, což klade větší nároky na délku času, po který musí být snímač vystaven světelnému proudu.
+U archeologických nálezů je žádoucí vyšší hloubka ostrosti.
 Obecně doporučujeme vyšší clonová čísla (>8).
 
 #### Expoziční čas
 
-Čas, po který je senzor snímače vystaven světelnému proudu. 
+Čas, po který je senzor snímače vystaven světelnému proudu.
 Pro focení archeologických nálezů doporučujeme používat stativ a režim priority clony (A, Av), který potřebné výpočty provede za vás.
 V případě, že fotíme na bílém pozadí se může stát, že snímek bude potřeba *ztmavit/zesvětlit* funkcí kompenzace expozice (symbol +/-).
 
@@ -202,4 +202,3 @@ Při špatných světelných podmínkách automatika selhává a je třeba zvoli
 Příklady nastavení hloubky ostrosti
 
 :::
-

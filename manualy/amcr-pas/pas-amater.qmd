@@ -1,6 +1,6 @@
 ---
 title: "Návod pro spolupracovníky"
-subtitle: "Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky."
+subtitle: "Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky"
 author:
   - name: Petr Pajdla
     orcid: 0000-0001-7050-9572

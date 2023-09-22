@@ -1,33 +1,32 @@
 ---
 title: "Zápis ADB"
-# subtitle: "Zápis ADB v rámci Pražské památkové rezervace"
-description: "Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace."
+subtitle: "Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace"
 ---
 
 ## Popis archeologického dokumentačního bodu
 
-Popis archeologických dokumentačních bodů ([ADB](pojmy.qmd#madb)) se řídí metodikou dostupnou [zde](http://www.praha-archeologicka.cz/files/databaze-madb.pdf){.external}. 
-Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. 
+Popis archeologických dokumentačních bodů ([ADB](pojmy.qmd#madb)) se řídí metodikou dostupnou [zde](http://www.praha-archeologicka.cz/files/databaze-madb.pdf){.external}.
+Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují.
 Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla.
-Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. 
+Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět.
 Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.
 
 ## Použití DJ typu sonda a vyznačení PIAN
 
-Pro zápis ADB v AMČR je nutné používat [dokumentační jednotky](pojmy.qmd#dokumentační-jednotky) (*DJ*) typu **Sonda**. 
+Pro zápis ADB v AMČR je nutné používat [dokumentační jednotky](pojmy.qmd#dokumentační-jednotky) (*DJ*) typu **Sonda**.
 Označení **Sonda** je v tomto případě třeba brát jako arbitrární, které se vymezuje oproti použití *DJ* typů **Celek/Část akce**.
-Sonda v tomto případě může znamenat jak skutečnou jednotlivou sondu, tak i např. skupiny sond či řezů atp. (srov. [heslář](heslare.qmd#sondy-madb) v poli *Typ sondy*), které je vhodné popisovat jako jeden celek. 
-Tomu pak odpovídá i vyznačení [PIAN](pojmy.qmd#pian) v mapovém okně. 
+Sonda v tomto případě může znamenat jak skutečnou jednotlivou sondu, tak i např. skupiny sond či řezů atp. (srov. [heslář](heslare.qmd#sondy-madb) v poli *Typ sondy*), které je vhodné popisovat jako jeden celek.
+Tomu pak odpovídá i vyznačení [PIAN](pojmy.qmd#pian) v mapovém okně.
 Popis ADB je pouze nadstavbou standardního zápisu, a proto se ke každé *DJ* připojují zachycené [komponenty](pojmy.qmd#komponenty), které mohou mít vliv na celkové rozdělení výzkumu do jednotlivých *DJ*.
 
-## Zápis ADB v rámci AMČR 
+## Zápis ADB v rámci AMČR
 
-Pro zápis ADB v systému AMČR je třeba volit jako typ dokumentační jednotky možnost **Sonda**, ke které je po vytvoření PIAN možné připojovat ADB. 
+Pro zápis ADB v systému AMČR je třeba volit jako typ dokumentační jednotky možnost **Sonda**, ke které je po vytvoření PIAN možné připojovat ADB.
 Zápis ADB se aktivuje zaškrtávacím políčkem *Zobrazit popis ADB* (@fig-adb-init).
 
 <!-- ![Nastavení dokumentační jednotky pro možnost zápisu ADB](){#fig-adb-init} -->
 
-Zaškrtnutím políčka *Zobrazit popis ADB* se zpřístupní pole pro jeho popis. 
+Zaškrtnutím políčka *Zobrazit popis ADB* se zpřístupní pole pro jeho popis.
 Povinná pole jsou podbarvena stejně jako v jiných částech AMČR (@fig-adb-pole).
 
 <!-- ![Aktivovaná pole pro zápis ADB](){#fig-adb-pole} -->
@@ -44,7 +43,7 @@ Podle zachycené situace je možné připojit odpovídající počet výškovýc
 
 ### Oddělené sondy
 
-Jako první příklad si uvedeme dvě oddělené sondy dokumentované při výstavbě inženýrských sítí. 
+Jako první příklad si uvedeme dvě oddělené sondy dokumentované při výstavbě inženýrských sítí.
 Pro každou ze sond byla vytvořena vlastní dokumentační jednotka typu sonda a v rámci jejího popisu byly zaznamenány také informace o ADB.
 Zápis v AMČR a vyznačení v mapě v tomto případě zobrazují @fig-adb-sonda1 a @fig-adb-sonda2.
 
@@ -54,10 +53,10 @@ Zápis v AMČR a vyznačení v mapě v tomto případě zobrazují @fig-adb-sond
 
 ### Síť sond
 
-Výzkum v rámci uzavřené parcely se sítí sond v interiéru domu a na dvoře domu. 
+Výzkum v rámci uzavřené parcely se sítí sond v interiéru domu a na dvoře domu.
 V rámci tohoto výzkumy byla ve sklepě domu a na jeho dvoře položena pravidelná síť sond, ve které probíhal výzkum.
-Vzhledem ke stejnému charakteru situace, která byla zachycena v sondách na dvoře není třeba zadávat do AMČR všechny dílčí sondy odděleně, ale je možné je zadat jako jedinou *DJ* typu **Sonda** (pokud to odpovídá charakteru nálezové situace). 
-Stejně tak bychom zadali jako jednu *DJ* typu **Sonda** i všechny sondy ve sklepě domu, pokud by tomu charakter nálezové situace odpovídal. 
+Vzhledem ke stejnému charakteru situace, která byla zachycena v sondách na dvoře není třeba zadávat do AMČR všechny dílčí sondy odděleně, ale je možné je zadat jako jedinou *DJ* typu **Sonda** (pokud to odpovídá charakteru nálezové situace).
+Stejně tak bychom zadali jako jednu *DJ* typu **Sonda** i všechny sondy ve sklepě domu, pokud by tomu charakter nálezové situace odpovídal.
 Zápis v AMČR a vyznačení PIAN pak zobrazují @fig-adb-sit1 a @fig-adb-sit2.
 
 <!-- ![Příklad zápisu skupiny sond s připojenými ADB](){#fig-adb-sit1} -->
