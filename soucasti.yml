@@ -1,31 +1,30 @@
 - title: O systému
   description: |
-    V této sekci je vysvětlena struktura dat, popsána architektura systému a 
-    shrnuty informace o používaných řízených slovnících, procesních pravidlech 
+    V této sekci je vysvětlena struktura dat, popsána architektura systému a
+    shrnuty informace o používaných řízených slovnících, procesních pravidlech
     a přístupnosti jednotlivých záznamů.
-  href: o-systemu/architektura.qmd
+  href: o-systemu/o-systemu.qmd
   image: figs/thumb_pin_wrench.png
 
 - title: AMČR
   description: |
-    Sekce obsahuje širokou škálu návodů pro používání webové 
+    Sekce obsahuje širokou škálu návodů pro používání webové
     aplikace AMČR od správy projektů, akcí a lokalit až po manuály
-    Knihovny 3D či AMČR-PAS, včetně dobré praxe focení drobných nálezů atd. 
+    Knihovny 3D či AMČR-PAS, včetně dobré praxe focení drobných nálezů atd.
   href: manualy/manualy.qmd
   image: figs/thumb_amcr.png
-  
+
 - title: Digitální archiv AMČR
-  description: | 
-    Manuál představuje funkce Digitálního archivu AMČR, webové aplikace určené k 
-    prohlížení informací a dokumentů o archeologických výzkumech, lokalitách a nálezech. 
+  description: |
+    Manuál představuje funkce Digitálního archivu AMČR, webové aplikace určené k
+    prohlížení informací a dokumentů o archeologických výzkumech, lokalitách a nálezech.
   href: manualy/digiarchiv/digiarchiv.qmd
   image: figs/thumb_digiarchiv.png
-  
+
 - title: AMČR API
-  description: | 
-    Manuál popisuje API rozhraní, pomocí kterého lze získávat metadatové záznamy 
-    z databáze AMČR, a to pomocí protokolu OpenArchives Initiative Protocol 
-    for Metadata Harvesting (OAI-PMH). 
+  description: |
+    Manuál popisuje API rozhraní, pomocí kterého lze získávat metadatové záznamy
+    z databáze AMČR, a to pomocí protokolu OpenArchives Initiative Protocol
+    for Metadata Harvesting (OAI-PMH).
   href: manualy/api/api.qmd
   image: figs/thumb_pin_bits.png
-  

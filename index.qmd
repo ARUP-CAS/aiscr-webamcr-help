@@ -18,7 +18,6 @@ Uživatelská dokumentace AMČR je členěna do několika úrovní:
 - Následují manuály pro jednotlivé součásti AMČR -- [webovou aplikaci](manualy/manualy.qmd), [Digitální archiv](manualy/digiarchiv/digiarchiv.qmd) a [API](manualy/api/api.qmd).
 
 
-
 ::: {#soucasti .column-screen-inset-right}
 
 :::
@@ -26,7 +25,7 @@ Uživatelská dokumentace AMČR je členěna do několika úrovní:
 
 ## Odkazy na služby AIS CR
 
-[Archeologická mapa České republiky (AMČR)](https://amcr-info.aiscr.cz/){.external} 
+[Archeologická mapa České republiky (AMČR)](https://amcr-info.aiscr.cz/){.external}
 je sočástí [Archeologického informačního systému České republiky (AIS CR)](https://aiscr.cz/){.external}.
 
 - **Úvodní stránku k AMČR** najdete na odkaze [https://amcr-info.aiscr.cz](https://amcr-info.aiscr.cz){.external}.
@@ -65,7 +64,7 @@ Jednotlivé dokumenty jsou formátovány pomocí [markdownu](https://www.markdow
 - Obrázek se vkládá obdobně: **\!\[**Popisek obrázku**\]\(**cesta fig/...**\)**.
 - Dvě mezery na konci řádku vytvoří nový odstavec, pro čitelnost je lepší vynechat celý řádek.
 
-Tabulky
+## Tabulky
 
 Tabulky lze vkládat ručně jako text formátovaný v Markdownu, viz <https://quarto.org/docs/authoring/tables.html>.
 Druhou variantou je pak stavět tabulky automatizovaně z CSV souborů.

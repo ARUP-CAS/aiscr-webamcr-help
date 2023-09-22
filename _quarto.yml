@@ -1,6 +1,6 @@
 project:
   type: website
-  resources: 
+  resources:
     - "CNAME"
 
 website:
@@ -10,12 +10,12 @@ website:
   repo-actions: none
   reader-mode: false
   page-navigation: true
-  google-analytics: 
+  google-analytics:
     tracking-id: "G-S3BT2B2SPF"
     anonymize-ip: true
     storage: cookies
-  cookie-consent: 
-    style: simple   
+  cookie-consent:
+    style: simple
     palette: light
 
   navbar:
@@ -23,11 +23,11 @@ website:
     search: true
     pinned: false
     logo: figs/cover_g.png
-    left: 
+    left:
       - text: "Úvod"
         href: index.qmd
       - text: "O systému"
-        href: o-systemu/architektura.qmd
+        href: o-systemu/o-systemu.qmd
       - text: "AMČR"
         href: manualy/manualy.qmd
       - text: "Digitální archiv AMČR"
@@ -52,16 +52,17 @@ website:
         - zakladni-info/ucty.qmd
         - zakladni-info/historie.qmd
         - zakladni-info/licence.qmd
-            
+
     - id: o-systemu
       contents:
+        - o-systemu/o-systemu.qmd
         - o-systemu/architektura.qmd
         - o-systemu/datovy-model.qmd
         - o-systemu/role.qmd
         - o-systemu/identifikatory.qmd
         - o-systemu/procesy.qmd
         - o-systemu/heslare.qmd
-        
+
     - id: manual-amcr
       contents:
         - manualy/manualy.qmd
@@ -70,12 +71,12 @@ website:
         - text: "Správa projektů"
           href: manualy/projekty.qmd
         - section: "Správa akcí"
-          contents: 
+          contents:
             - manualy/amcr/dj.qmd
             - manualy/amcr/drobne-akce.qmd
             - manualy/amcr/adb.qmd
         - section: "AMČR-PAS"
-          contents: 
+          contents:
             - manualy/amcr-pas/pas-faq.qmd
             - manualy/amcr-pas/pas-amater.qmd
             - manualy/amcr-pas/pas-archeolog.qmd
@@ -86,30 +87,32 @@ website:
         - section: "Správa lokalit"
           contents:
             - manualy/lokality/lokality.qmd
-            - manualy/lokality/plany.qmd
-            - manualy/lokality/vektorizace.qmd
+            - section: "Letecká archeologie"
+              contents:
+                - manualy/lokality/plany.qmd
+                - manualy/lokality/vektorizace.qmd
         - text: "Správa dokumentů"
           href: manualy/dokumenty.qmd
         - text: "Správa externích zdrojů"
           href: manualy/externi.qmd
         - text: "Administrace systému"
           href: manualy/admin.qmd
-    
+
     - id: manual-digiarchiv
       contents:
         - manualy/digiarchiv/digiarchiv.qmd
-    
+
     - id: manual-api
-      contents: 
+      contents:
         - manualy/api/api.qmd
-        
+
     - id: pojmy
-      contents: 
+      contents:
         - o-systemu/pojmy.qmd
 
   page-footer:
     background: light
-    left: 
+    left:
       - text: Kontakty
         href: about.qmd
       - text: Licence
@@ -125,13 +128,13 @@ format:
     theme:
       - spacelab
       - customtheme.scss
-    css: 
+    css:
       - museo.css
       # - styles.css
     mainfont: "Figtree"
     df-print: kable
     link-external-newwindow: true
-    grid: 
+    grid:
       sidebar-width: 250px
       body-width: 900px
       margin-width: 300px
@@ -163,7 +166,6 @@ bibliography: references.bib
 csl: https://www.zotero.org/styles/internet-archaeology
 
 lang: cs
-language: 
+language:
   related-formats-title: "Stáhnout..."
   section-title-references: "Zdroje"
-  
