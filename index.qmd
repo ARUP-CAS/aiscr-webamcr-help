@@ -10,6 +10,16 @@ listing:
     template: tiles.ejs
 ---
 
+::: {.callout-important}
+
+## Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!
+
+Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR.
+
+Původní platnou nápovědu a dokumentaci AMČR najdete na stránkách [https://amcr-info.aiscr.cz/help](https://amcr-info.aiscr.cz/help).
+
+:::
+
 
 Uživatelská dokumentace AMČR je členěna do několika úrovní:
 

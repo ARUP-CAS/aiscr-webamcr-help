@@ -52,6 +52,10 @@ website:
         - zakladni-info/ucty.qmd
         - zakladni-info/historie.qmd
         - zakladni-info/licence.qmd
+      footer: |
+        **{{< fa skull-crossbones >}}  Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!**  
+        Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR. 
+        Platná nápověda je [zde](https://amcr-info.aiscr.cz/help).
 
     - id: o-systemu
       contents:
