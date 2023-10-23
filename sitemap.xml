@@ -1,139 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://amcr-help.aiscr.cz/about.html</loc>
-    <lastmod>2023-10-06T09:57:27.734Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/zakladni-info/zakladni-info.html</loc>
-    <lastmod>2023-10-06T09:57:11.790Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/zakladni-info/ucty.html</loc>
-    <lastmod>2023-10-06T09:56:59.298Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/role.html</loc>
-    <lastmod>2023-10-06T09:56:47.534Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/identifikatory.html</loc>
-    <lastmod>2023-10-06T09:56:29.090Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/heslare.html</loc>
-    <lastmod>2023-10-06T09:56:16.494Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/procesy.html</loc>
-    <lastmod>2023-10-06T09:55:48.586Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/dokumenty.html</loc>
-    <lastmod>2023-10-06T09:55:34.658Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/projekty.html</loc>
-    <lastmod>2023-10-06T09:55:23.158Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/amcr-pas/pas-archeolog.html</loc>
-    <lastmod>2023-10-06T09:54:53.882Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/amcr-pas/pas-dokumenty.html</loc>
-    <lastmod>2023-10-06T09:54:28.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/admin.html</loc>
-    <lastmod>2023-10-06T09:54:11.570Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/lokality/lokality.html</loc>
-    <lastmod>2023-10-06T09:53:59.998Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/lokality/plany.html</loc>
-    <lastmod>2023-10-06T09:53:35.598Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/zamer.html</loc>
-    <lastmod>2023-10-06T09:53:18.298Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/amcr/drobne-akce.html</loc>
-    <lastmod>2023-10-06T09:53:06.522Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/amcr/adb.html</loc>
-    <lastmod>2023-10-06T09:52:53.098Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/manualy.html</loc>
-    <lastmod>2023-10-06T09:52:46.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/amcr/dj.html</loc>
-    <lastmod>2023-10-06T09:53:00.210Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/externi.html</loc>
-    <lastmod>2023-10-06T09:53:12.474Z</lastmod>
+    <loc>https://amcr-help.aiscr.cz/index.html</loc>
+    <lastmod>2023-10-23T13:25:00.902Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/manualy/api/api.html</loc>
-    <lastmod>2023-10-06T09:53:29.726Z</lastmod>
+    <lastmod>2023-10-23T13:24:25.036Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/amcr/drobne-akce.html</loc>
+    <lastmod>2023-10-23T13:24:03.196Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/manualy/lokality/vektorizace.html</loc>
-    <lastmod>2023-10-06T09:53:41.678Z</lastmod>
+    <lastmod>2023-10-23T13:23:49.152Z</lastmod>
   </url>
   <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/knihovna3d.html</loc>
-    <lastmod>2023-10-06T09:54:05.774Z</lastmod>
+    <loc>https://amcr-help.aiscr.cz/manualy/lokality/plany.html</loc>
+    <lastmod>2023-10-23T13:23:22.888Z</lastmod>
   </url>
   <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/amcr-pas/pas-faq.html</loc>
-    <lastmod>2023-10-06T09:54:20.970Z</lastmod>
+    <loc>https://amcr-help.aiscr.cz/manualy/admin.html</loc>
+    <lastmod>2023-10-23T13:23:09.576Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/manualy.html</loc>
+    <lastmod>2023-10-23T13:22:56.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/projekty.html</loc>
+    <lastmod>2023-10-23T13:22:42.984Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/manualy/amcr-pas/pas-amater.html</loc>
-    <lastmod>2023-10-06T09:54:40.078Z</lastmod>
+    <lastmod>2023-10-23T13:22:21.204Z</lastmod>
   </url>
   <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/amcr-pas/pas-foto.html</loc>
-    <lastmod>2023-10-06T09:55:17.402Z</lastmod>
+    <loc>https://amcr-help.aiscr.cz/manualy/amcr-pas/pas-faq.html</loc>
+    <lastmod>2023-10-23T13:21:59.652Z</lastmod>
   </url>
   <url>
-    <loc>https://amcr-help.aiscr.cz/manualy/digiarchiv/digiarchiv.html</loc>
-    <lastmod>2023-10-06T09:55:28.878Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/architektura.html</loc>
-    <lastmod>2023-10-06T09:55:40.422Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/datovy-model.html</loc>
-    <lastmod>2023-10-06T09:56:07.102Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/o-systemu.html</loc>
-    <lastmod>2023-10-06T09:56:22.250Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/pojmy.html</loc>
-    <lastmod>2023-10-06T09:56:41.258Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/zakladni-info/licence.html</loc>
-    <lastmod>2023-10-06T09:56:53.478Z</lastmod>
+    <loc>https://amcr-help.aiscr.cz/manualy/dokumenty.html</loc>
+    <lastmod>2023-10-23T13:21:22.575Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/zakladni-info/historie.html</loc>
-    <lastmod>2023-10-06T09:57:05.654Z</lastmod>
+    <lastmod>2023-10-23T13:21:09.367Z</lastmod>
   </url>
   <url>
-    <loc>https://amcr-help.aiscr.cz/index.html</loc>
-    <lastmod>2023-10-06T09:57:20.062Z</lastmod>
+    <loc>https://amcr-help.aiscr.cz/zakladni-info/zakladni-info.html</loc>
+    <lastmod>2023-10-23T13:20:55.303Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/role.html</loc>
+    <lastmod>2023-10-23T13:20:39.535Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/pojmy.html</loc>
+    <lastmod>2023-10-23T13:20:23.851Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/procesy.html</loc>
+    <lastmod>2023-10-23T13:19:50.963Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/o-systemu.html</loc>
+    <lastmod>2023-10-23T13:19:28.155Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/heslare.html</loc>
+    <lastmod>2023-10-23T13:19:21.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/identifikatory.html</loc>
+    <lastmod>2023-10-23T13:19:38.823Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/datovy-model.html</loc>
+    <lastmod>2023-10-23T13:20:10.127Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/architektura.html</loc>
+    <lastmod>2023-10-23T13:20:30.431Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/about.html</loc>
+    <lastmod>2023-10-23T13:20:48.371Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/zakladni-info/licence.html</loc>
+    <lastmod>2023-10-23T13:21:02.127Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/zakladni-info/ucty.html</loc>
+    <lastmod>2023-10-23T13:21:15.967Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/amcr-pas/pas-foto.html</loc>
+    <lastmod>2023-10-23T13:21:48.756Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/amcr-pas/pas-dokumenty.html</loc>
+    <lastmod>2023-10-23T13:22:08.796Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/amcr-pas/pas-archeolog.html</loc>
+    <lastmod>2023-10-23T13:22:36.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/knihovna3d.html</loc>
+    <lastmod>2023-10-23T13:22:49.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/zamer.html</loc>
+    <lastmod>2023-10-23T13:23:03.024Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/externi.html</loc>
+    <lastmod>2023-10-23T13:23:16.208Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/lokality/lokality.html</loc>
+    <lastmod>2023-10-23T13:23:42.440Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/amcr/adb.html</loc>
+    <lastmod>2023-10-23T13:23:56.092Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/amcr/dj.html</loc>
+    <lastmod>2023-10-23T13:24:11.048Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/manualy/digiarchiv/digiarchiv.html</loc>
+    <lastmod>2023-10-23T13:24:51.314Z</lastmod>
   </url>
 </urlset>

@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
     "listing": "/manualy/manualy.html",
     "items": [
       "/manualy/amcr/drobne-akce.html",
@@ -12,9 +16,5 @@
       "/manualy/amcr-pas/pas-faq.html",
       "/manualy/lokality/lokality.html"
     ]
-  },
-  {
-    "listing": "/index.html",
-    "items": []
   }
 ]
