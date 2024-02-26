@@ -29,11 +29,11 @@ website:
       - text: "O systému"
         href: o-systemu/o-systemu.qmd
       - text: "AMČR"
-        href: manualy/manualy.qmd
+        href: amcr/amcr.qmd
       - text: "Digitální archiv AMČR"
-        href: manualy/digiarchiv/digiarchiv.qmd
+        href: digiarchiv/digiarchiv.qmd
       - text: "AMČR API"
-        href: manualy/api/api.qmd
+        href: api/api.qmd
       - text: "Slovník pojmů"
         href: o-systemu/pojmy.qmd
     right:
@@ -69,46 +69,46 @@ website:
 
     - id: manual-amcr
       contents:
-        - manualy/manualy.qmd
+        - amcr/amcr.qmd
         - text: "Oznámení záměru"
-          href: manualy/zamer.qmd
+          href: amcr/zamer.qmd
         - text: "Správa projektů"
-          href: manualy/projekty.qmd
+          href: amcr/projekty.qmd
         - section: "Správa akcí"
           contents:
-            - manualy/amcr/dj.qmd
-            - manualy/amcr/drobne-akce.qmd
-            - manualy/amcr/adb.qmd
+            - amcr/akce/dj.qmd
+            - amcr/akce/drobne-akce.qmd
+            - amcr/akce/adb.qmd
         - section: "AMČR-PAS"
           contents:
-            - manualy/amcr-pas/pas-faq.qmd
-            - manualy/amcr-pas/pas-amater.qmd
-            - manualy/amcr-pas/pas-archeolog.qmd
-            - manualy/amcr-pas/pas-foto.qmd
-            - manualy/amcr-pas/pas-dokumenty.qmd
+            - amcr/amcr-pas/faq.qmd
+            - amcr/amcr-pas/amater.qmd
+            - amcr/amcr-pas/archeolog.qmd
+            - amcr/amcr-pas/foto.qmd
+            - amcr/amcr-pas/dokumenty.qmd
         - text: "Knihovna 3D"
-          href: manualy/knihovna3d.qmd
+          href: amcr/knihovna3d.qmd
         - section: "Správa lokalit"
           contents:
-            - manualy/lokality/lokality.qmd
+            - amcr/lokality/lokality.qmd
             - section: "Letecká archeologie"
               contents:
-                - manualy/lokality/plany.qmd
-                - manualy/lokality/vektorizace.qmd
+                - amcr/lokality/plany.qmd
+                - amcr/lokality/vektorizace.qmd
         - text: "Správa dokumentů"
-          href: manualy/dokumenty.qmd
+          href: amcr/dokumenty.qmd
         - text: "Správa externích zdrojů"
-          href: manualy/externi.qmd
+          href: amcr/externi.qmd
         - text: "Administrace systému"
-          href: manualy/admin.qmd
+          href: amcr/admin.qmd
 
     - id: manual-digiarchiv
       contents:
-        - manualy/digiarchiv/digiarchiv.qmd
+        - digiarchiv/digiarchiv.qmd
 
     - id: manual-api
       contents:
-        - manualy/api/api.qmd
+        - api/api.qmd
 
     - id: pojmy
       contents:
@@ -116,11 +116,10 @@ website:
 
   page-footer:
     background: light
-    left:
-      - text: Kontakty
-        href: about.qmd
-      - text: Licence
-        href: zakladni-info/licence.qmd
+    left: |
+      [Kontakty](about.qmd) | 
+      [Licence](zakladni-info/licence.qmd) | 
+      [<u>Cookies</u>]{#open_preferences_center}
     center: |
       [![](/figs/logo-aiscr-hor.png){height=60}](https://aiscr.cz/)
     right: |
