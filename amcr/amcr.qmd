@@ -1,0 +1,70 @@
+---
+title: "AMČR"
+subtitle: "Uživatelská příručka"
+toc: true
+format-links: false
+breadcrumbs: true
+# listing:
+#   - id: amcr
+#     sort-ui: false
+#     filter-ui: false
+#     template: ../tiles.ejs
+#     contents: 
+#       - "projekty.qmd"
+#       - "akce/*.qmd"
+      
+#   - id: pas
+#     template: ../tiles.ejs
+#     contents:
+#       - "amcr-pas/*.qmd"
+      
+#   - id: lok
+#     template: ../tiles.ejs
+#     contents:
+#       - "lokality.qmd"
+---
+
+## Správa Projektů
+
+- [Projekty](projekty.qmd)
+
+## Správa Akcí
+
+- [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd)
+- [Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu](akce/drobne-akce.qmd)
+- [Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace](akce/adb.qmd)
+
+<!-- ::: {#amcr .column-screen-inset-right}
+::: -->
+
+## Správa AMČR-PAS
+
+Návody k používání **Portálu amatérských spolupracovníků a evidence samostatných nálezů** ([AMČR-PAS](https://amcr-info.aiscr.cz/pas)). 
+
+- [Často kladené otázky (FAQ)](amcr-pas/faq.qmd)
+- [Návod pro spolupracovníky](amcr-pas/amater.qmd)
+- [Návod pro archeology](amcr-pas/archeolog.qmd)
+- [Fotografická dokumentace nálezů](amcr-pas/foto.qmd)
+- [Vzorové dokumenty](amcr-pas/dokumenty.qmd)
+
+<!-- ::: {#pas .column-screen-inset-right}
+::: -->
+
+## Správa Knihovny 3D
+
+- [Správa Knihovny 3D](knihovna3d.qmd)
+
+## Správa lokalit
+
+- [Zásady evidence nemovitých archeologických památek (lokalit)](lokality/lokality.qmd)
+
+### Letecká archeologie
+
+- [Metodika tvorby plánů archeologických objektů na základě šikmých leteckých snímků pro potřeby AMČR](lokality/plany.qmd)
+- [Postup vektorizace archeologických objektů na základě šikmých leteckých snímků pro potřeby AMČR](lokality/vektorizace.qmd)
+
+<!-- ::: {#lok .column-screen-inset-right}
+::: -->
+
+
+

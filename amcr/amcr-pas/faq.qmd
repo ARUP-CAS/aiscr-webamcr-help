@@ -4,7 +4,9 @@ subtitle: FAQ
 toc-depth: 2
 ---
 
-## Nejčastější dotazy ze strany archeologů
+Nejčastější otázky ze strany [archeologů a archeoložek](faq.qmd#sec-faq-arch) a [potenciálních spolupracovníků a spolupracovnic](faq.qmd#sec-faq-spol).
+
+## Nejčastější dotazy ze strany archeologů {#sec-faq-arch}
 
 ::: {.callout-note}
 
@@ -92,7 +94,7 @@ Spolupracovník musí být schopen se prokázat potvrzením (či průkazkou) o s
 V současné době není jednotná forma potvrzení (či průkazky), vystaveného oprávněnou organizací, zaváděna. Pouze se požaduje, aby obsahovalo všechny výše uvedené údaje. V počáteční fázi budou sledovány názory a představy zástupců oprávněných organizací a jejich zřizovatelů, zejména krajů. Nelze vyloučit, že některé organizace či kraje mohou preferovat vlastní řešení, včetně snadno identifikovatelné vlastní grafické podoby. V případě zájmu není pro ARÚ/ARÚB problém jednotnou formu průkazky navrhnout a vyrobit, pokud o to jednotlivé organizace či regiony projeví zájem.
 
 
-## Nejčastější otázky veřejnosti a potenciálních spolupracovníků
+## Nejčastější otázky veřejnosti a potenciálních spolupracovníků {#sec-faq-spol}
 
 ::: {.callout-note}
 
