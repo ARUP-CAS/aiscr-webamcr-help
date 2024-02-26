@@ -20,7 +20,6 @@ Původní platnou nápovědu a dokumentaci AMČR najdete na stránkách [https:/
 
 :::
 
-
 Uživatelská dokumentace AMČR je členěna do několika úrovní:
 
 - Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/zakladni-info.qmd) o celém systému, informace o [licencích](zakladni-info/licence.qmd), nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd).
