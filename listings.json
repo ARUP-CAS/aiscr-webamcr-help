@@ -2,19 +2,5 @@
   {
     "listing": "/index.html",
     "items": []
-  },
-  {
-    "listing": "/manualy/manualy.html",
-    "items": [
-      "/manualy/amcr/drobne-akce.html",
-      "/manualy/amcr/adb.html",
-      "/manualy/amcr/dj.html",
-      "/manualy/amcr-pas/pas-foto.html",
-      "/manualy/amcr-pas/pas-archeolog.html",
-      "/manualy/amcr-pas/pas-amater.html",
-      "/manualy/amcr-pas/pas-dokumenty.html",
-      "/manualy/amcr-pas/pas-faq.html",
-      "/manualy/lokality/lokality.html"
-    ]
   }
 ]

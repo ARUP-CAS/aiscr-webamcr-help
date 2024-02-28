@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Petr Pajdla">
+<meta name="author" content="David Novák">
+<meta name="author" content="Jan Mařík">
+<meta name="author" content="Balázs Komoróczy">
+<meta name="author" content="Olga Lečbychová">
+<meta name="author" content="Tomáš Chlup">
+<meta name="author" content="Róbert Antal">
+
+<title>Uživatelská dokumentace AMČR - Návod pro spolupracovníky</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../amcr/amcr-pas/archeolog.html" rel="next">
+<link href="../../amcr/amcr-pas/faq.html" rel="prev">
+<link href="../../figs/cover.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Žádný výsledek",
+    "search-matching-documents-text": "Nalezené výsledky",
+    "search-copy-link-title": "Zkopírovat odkaz pro vyhledávání",
+    "search-hide-matches-text": "Skrýt další výsledky",
+    "search-more-match-text": "další výsledek v tomto dokumentu",
+    "search-more-matches-text": "dalších výsledků v tomto dokumentu",
+    "search-clear-button-title": "Vymazat",
+    "search-detached-cancel-button-title": "Zrušit",
+    "search-submit-button-title": "Odeslat",
+    "search-label": "Hledat"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S3BT2B2SPF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../../museo.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../figs/cover_g.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Uživatelská dokumentace AMČR</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Hledat"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Přepnout navigaci" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Úvod</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../o-systemu/o-systemu.html" rel="" target="">
+ <span class="menu-text">O systému</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../amcr/amcr.html" rel="" target="" aria-current="page">
+ <span class="menu-text">AMČR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../digiarchiv/digiarchiv.html" rel="" target="">
+ <span class="menu-text">Digitální archiv AMČR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../api/api.html" rel="" target="">
+ <span class="menu-text">AMČR API</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../o-systemu/pojmy.html" rel="" target="">
+ <span class="menu-text">Slovník pojmů</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">Kontakty</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../amcr/amcr-pas/faq.html">AMČR-PAS</a></li><li class="breadcrumb-item"><a href="../../amcr/amcr-pas/amater.html">Návod pro spolupracovníky</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://amcr-info.aiscr.cz/"><img src="../../figs/logo-amcr-hor.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div></div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/amcr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AMČR</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/zamer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Oznámení záměru</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/projekty.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Správa projektů</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+ <span class="menu-text">Správa akcí</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Přepnout sekci">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/akce/dj.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zápis dok. jednotek</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/akce/drobne-akce.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Akce drobného rozsahu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/akce/adb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zápis ADB</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">AMČR-PAS</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Přepnout sekci">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/amcr-pas/faq.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Často kladené otázky</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/amcr-pas/amater.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Návod pro spolupracovníky</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/amcr-pas/archeolog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Návod pro archeology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/amcr-pas/foto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fotografická dokumentace nálezů</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/amcr-pas/dokumenty.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vzorové dokumenty</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/knihovna3d.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Knihovna 3D</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Správa lokalit</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Přepnout sekci">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/lokality/lokality.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zásady evidence</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">Letecká archeologie</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Přepnout sekci">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/lokality/plany.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tvorba plánů</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/lokality/vektorizace.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Postup vektorizace</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/dokumenty.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Správa dokumentů</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/externi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Správa externích zdrojů</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../amcr/admin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Administrace systému</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+<div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
+<p><strong><i class="fa-solid fa-skull-crossbones" aria-label="skull-crossbones"></i> Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!</strong><br>
+Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR. Platná nápověda je <a href="https://amcr-info.aiscr.cz/help">zde</a>.</p>
+</div></div></nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Na této stránce…</h2>
+   
+  <ul>
+  <li><a href="#úvod" id="toc-úvod" class="nav-link active" data-scroll-target="#úvod">Úvod</a></li>
+  <li><a href="#principy-spolupráce" id="toc-principy-spolupráce" class="nav-link" data-scroll-target="#principy-spolupráce">Principy spolupráce</a></li>
+  <li><a href="#modul-amčr-pas" id="toc-modul-amčr-pas" class="nav-link" data-scroll-target="#modul-amčr-pas">Modul AMČR-PAS</a>
+  <ul>
+  <li><a href="#registrace-a-přihlášení" id="toc-registrace-a-přihlášení" class="nav-link" data-scroll-target="#registrace-a-přihlášení">Registrace a přihlášení</a></li>
+  <li><a href="#úvodní-obrazovka" id="toc-úvodní-obrazovka" class="nav-link" data-scroll-target="#úvodní-obrazovka">Úvodní obrazovka</a></li>
+  <li><a href="#spolupráce" id="toc-spolupráce" class="nav-link" data-scroll-target="#spolupráce">Spolupráce</a></li>
+  <li><a href="#zapsat" id="toc-zapsat" class="nav-link" data-scroll-target="#zapsat">Zapsat</a>
+  <ul class="collapse">
+  <li><a href="#nálezové-okolnosti" id="toc-nálezové-okolnosti" class="nav-link" data-scroll-target="#nálezové-okolnosti">Nálezové okolnosti</a></li>
+  <li><a href="#lokalizace-nálezu" id="toc-lokalizace-nálezu" class="nav-link" data-scroll-target="#lokalizace-nálezu">Lokalizace nálezu</a></li>
+  <li><a href="#nález" id="toc-nález" class="nav-link" data-scroll-target="#nález">Nález</a></li>
+  <li><a href="#uložení" id="toc-uložení" class="nav-link" data-scroll-target="#uložení">Uložení</a></li>
+  <li><a href="#nahrání-fotografie" id="toc-nahrání-fotografie" class="nav-link" data-scroll-target="#nahrání-fotografie">Nahrání fotografie</a></li>
+  <li><a href="#odeslání-záznamu" id="toc-odeslání-záznamu" class="nav-link" data-scroll-target="#odeslání-záznamu">Odeslání záznamu</a></li>
+  </ul></li>
+  <li><a href="#moje-nálezy-a-vybrat" id="toc-moje-nálezy-a-vybrat" class="nav-link" data-scroll-target="#moje-nálezy-a-vybrat">Moje nálezy a Vybrat</a></li>
+  </ul></li>
+  <li><a href="#nález-v-digitálním-archivu-amčr" id="toc-nález-v-digitálním-archivu-amčr" class="nav-link" data-scroll-target="#nález-v-digitálním-archivu-amčr">Nález v Digitálním archivu AMČR</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Stáhnout...</h2><ul><li><a href="amater.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="amater.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Návod pro spolupracovníky</h1>
+<p class="subtitle lead">Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autoři</div>
+    <div class="quarto-title-meta-contents">
+             <p>Petr Pajdla <a href="https://orcid.org/0000-0001-7050-9572" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>David Novák <a href="https://orcid.org/0000-0001-6592-6291" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Jan Mařík <a href="https://orcid.org/0009-0007-7398-9365" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Balázs Komoróczy <a href="https://orcid.org/0000-0002-0576-7230" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Olga Lečbychová <a href="https://orcid.org/0000-0001-5123-1261" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Tomáš Chlup <a href="https://orcid.org/0000-0003-3179-992X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Róbert Antal </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Publikováno</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">18. 3. 2021</p>
+    </div>
+  </div>
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.5281/zenodo.8141634">10.5281/zenodo.8141634</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+
+</header>
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Původně zveřejněno jako…</p>
+</div>
+</div>
+</div>
+<section id="úvod" class="level2">
+<h2 class="anchored" data-anchor-id="úvod">Úvod</h2>
+<p>AMČR-PAS (Portál amatérských spolupracovníků a evidence samostatných nálezů) byl vytvořen pro podporu součinnosti dobrovolných spolupracovníků a oprávněných organizací při provádění archeologických výzkumů metodou povrchové prospekce, včetně využití detektorů kovů. Úkolem AMČR-PAS je vytvořit podmínky pro formalizaci a zároveň usnadnění této spolupráce při současném respektování platných zákonných norem <span class="smallcaps">čr</span>.</p>
+<p><strong>Modul AMČR-PAS</strong> naleznete po přihlášení na <a href="https://amcr.aiscr.cz/" class="uri">https://amcr.aiscr.cz/</a>.<br>
+<strong>Webovou stránku <span class="smallcaps">amčr–pas</span></strong> pak zde <a href="http://www.archeologickamapa.cz/pas" class="uri">http://www.archeologickamapa.cz/pas</a>.</p>
+</section>
+<section id="principy-spolupráce" class="level2">
+<h2 class="anchored" data-anchor-id="principy-spolupráce">Principy spolupráce</h2>
+<p>Modul AMČR-PAS je založen na spolupráci amatérských badatelů s archeology z organizací s oprávněním provádět archeologický výzkum. Prvním krokem je tedy nalézt v regionu, kde chcete svoji badatelskou činnost provozovat, organizaci s oprávněním provádět archeologický výzkum, kde bude archeolog takové spolupráci nakloněn a ochoten Vaši amatérskou badatelskou činnost zaštítit. Pokud dojde ke shodě na vzájemné spolupráci, vstupuje do celého procesu modul AMČR-PAS, který usnadní a zformalizuje většinu kroků amatérského výzkumu.</p>
+<p>Vyhledávání archeologických nálezů pomocí detektoru kovů je jednou z metod archeologického výzkumu. Archeologický výzkum může být prováděn výhradně organizací k tomu oprávnenou a na území, které je vymezeno platnou dohodou dané organizace s <span class="smallcaps">av čr</span>. Každý výzkum musí být registrován v Archeologické mapě České republiky (AMČR) ve formě projektu, který má svého vedoucího, který je pracovníkem dané oprávněné organizace.</p>
+<p>Veškeré archeologické nálezy a jejich nálezové okolnosti musí být evidovány. V ideálním případě by základní evidence měla proběhnout přímo v místě nálezu. V případě technických překážek (nedostupné internetové připojení, spolupracovník není vybaven chytrým telefonem apod.) by mělo k evidenci nálezu dojít bez zbytečných odkladů po návratu z terénu. Jelikož archeologické nálezy jsou učiněné v režimu archeologického výzkumu, je vyloučeno požadovat výplatu odměny podle § 23 památkového zákona.</p>
+<p>Nutným předpokladem navázání spolupráce s oprávněnou organizací je účast na školení, jehož obsahem by měly být právní podmínky celého systému, metodika práce v terénu, dokumentace nálezů a způsob užívání AMČR-PAS.</p>
+</section>
+<section id="modul-amčr-pas" class="level2">
+<h2 class="anchored" data-anchor-id="modul-amčr-pas">Modul AMČR-PAS</h2>
+<section id="registrace-a-přihlášení" class="level3">
+<h3 class="anchored" data-anchor-id="registrace-a-přihlášení">Registrace a přihlášení</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div id="fig-pas-login" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-login.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;1: Dialog pro přihlášení</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<p>Pro přihlášení do <a href="https://amcr.aiscr.cz/" class="external">aplikace</a> slouží emailová adresa a heslo. Nutná je předchozí <a href="https://backend.aiscr.cz/registrace/0/" class="external">registrace</a>.</p>
+<p>Povinnými položkami pro registraci jsou:</p>
+<ul>
+<li>jméno</li>
+<li>příjmení</li>
+<li>platná emailová adresa</li>
+<li>organizace – pro veřejnost obvykle <code>[amatérský spolupracovník]</code></li>
+</ul>
+<p>Na uvedený email je automaticky odeslána ověřovací zpráva s odkazem pro potvrzení registrace. Po potvrzení je účet aktivován správcem systému. Aktivace účtů obvykle probíhá v běžné pracovní době.</p>
+</div>
+</div>
+</section>
+<section id="úvodní-obrazovka" class="level3">
+<h3 class="anchored" data-anchor-id="úvodní-obrazovka">Úvodní obrazovka</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div id="fig-pas-main" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-main.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;2: Výběr modulu AMČR</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<p>Modul AMČR-PAS je jednou ze součástí Archeologického informačního systému <span class="smallcaps">čr</span> (<span class="smallcaps">ais cr</span>), resp. Archeologické mapy <span class="smallcaps">čr</span> (AMČR). Ve webové aplikaci je v současnosti dostupný modul AMČR-PAS a Knihovna 3D, která slouží pro evidenci 3D modelů a textur relevantních pro archeologii.</p>
+</div>
+</div>
+<p>Samotný modul AMČR-PAS se skládá z několika karet:</p>
+<div id="fig-pas-karty" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-b_main.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;3: Karty po přihlášení do AMČR-PAS</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Zapsat</strong>: Zápis nového nálezu;</li>
+<li><strong>Moje nálezy</strong>: Výčet nálezů, které jsem zaevidoval;</li>
+<li><strong>Vybrat</strong>: Výběr mých nálezů dle zadaných kritérií;</li>
+<li><strong>Spolupráce</strong>: Správa spolupráce s archeology.</li>
+</ul>
+</section>
+<section id="spolupráce" class="level3">
+<h3 class="anchored" data-anchor-id="spolupráce">Spolupráce</h3>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div id="fig-pas-spoluprace" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-b_spoluprace.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;4: Žádost o spolupráci</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<p>Na kartě <code>Spolupráce</code> je nutné nejprve požádat archeologa o spolupráci. Tím vznikne vazba mezi archeologem a Vámi, jakožto spolupracovníkem. Pro navázání spolupráce je nutné znát email daného archeologa pod kterým je registrován v systému AMČR.</p>
+<p>Po potvrzení spolupráce archeolog vytvoří <code>Projekt</code>, pod kterým budou Vaše nálezy evidovány. Pro další postup je nutné, aby Vám archeolog sdělil číslo projektu, pod kterým budete své nálezy evidovat.</p>
+</div>
+</div>
+</section>
+<section id="zapsat" class="level3">
+<h3 class="anchored" data-anchor-id="zapsat">Zapsat</h3>
+<p>Karta <code>Zapsat</code> slouží k zápisu samotných nálezů. Ten je možný jak přímo v terénu (aplikace spuštěná přímo v prohlížeči v mobilním telefonu), tak zpětně. V terénu doporučujeme provést následující kroky:</p>
+<ol type="1">
+<li>zaměřit polohu nálezu,</li>
+<li>zapsat hloubku nálezu,</li>
+<li>do pole <code>Poznámka</code> uvést údaje o kontextu nálezu.</li>
+</ol>
+<section id="nálezové-okolnosti" class="level4">
+<h4 class="anchored" data-anchor-id="nálezové-okolnosti">Nálezové okolnosti</h4>
+<p>První sekcí, kterou je nutné vyplnit jsou <code>Nálezové okolnosti</code>. Zde je nutné vybrat projekt, v rámci kterého byl učiněn nález.</p>
+<ol type="1">
+<li>Vyberu ze seznamu relevantní číslo projektu (jedná se o jediný údaj bezpodmínečně nutný pro první uložení nálezu do systému).</li>
+<li>Přidám detailní popis lokalizace, např. formou parc. č., pomístního názvu (název trati, ulice, polohy aj.). Prosím dodržte následující formát zápisu: <em>Poloha, (parc. č.)</em></li>
+<li>Identifikuji nálezce (tlačítko <code>+</code> slouží k přidání chybějícího jména do hesláře). Pokud nechci své jméno u nálezu zveřejnit, lze zvolit <code>anonym, anonym</code>.</li>
+<li>Vyplním datum nálezu.</li>
+<li>Specifikuji nálezové okolnosti a hloubku nálezu.</li>
+</ol>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div id="fig-pas-nalez" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-b_zapsat_nalez.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;5: Zapsat nález</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p>Po prvním uložení změn ve formuláři dojde k přidělení identifikátoru nálezu, který je viditelný v horní části obrazovky. Pod tímto <span class="smallcaps">ID</span> bude nález navždy evidován a je vhodné jej využívat např. při označování nálezů.</p>
+</div>
+</div>
+</section>
+<section id="lokalizace-nálezu" class="level4">
+<h4 class="anchored" data-anchor-id="lokalizace-nálezu">Lokalizace nálezu</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div id="fig-pas-mapa" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-b_zapsat_mapa.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;6: Mapové okno</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p>Mapové okno slouží k přesné lokalizaci nálezu. Lze přepínat mezi různými mapovými podklady. Místo nálezu mohu určit několika způsoby.</p>
+<ul>
+<li><p>Ručním zápisem geografických souřadnic. Akceptovány jsou souřadnice:</p>
+<ul>
+<li><span class="smallcaps">wgs-84</span> uváděné v decimálních stupních, např. <code>50.0903260, 14.4090983</code></li>
+<li><span class="smallcaps">s-jtsk</span> uváděné v záporných hodnotách v&nbsp;metrech, např. <code>-597268, -1161521</code>.</li>
+</ul></li>
+<li><p>V případě práce v terénu s telefonem vybaveným GPS lokalizací pomocí tlačítka <code>Současná poloha</code> <i class="fa-solid fa-map-marker-alt" aria-label="map-marker-alt"></i>. Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.</p></li>
+<li><p>Přiblížením v mapě a vybráním přesného bodu kliknutím na mapový podklad.</p></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="nález" class="level4">
+<h4 class="anchored" data-anchor-id="nález">Nález</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div id="fig-pas-detail" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-b_zapsat_nalez_detail.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;7: Okno nálezu</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p>V sekci <code>Nález</code> lze specifikovat dataci nálezu, typ předmětu atd. Vyplnění této části je částečně povinné (období, nález a materiál), informace však reviduje a doplní archeolog v další fázi zpracování.</p>
+</div>
+</div>
+</section>
+<section id="uložení" class="level4">
+<h4 class="anchored" data-anchor-id="uložení">Uložení</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div id="fig-pas-uloz" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-b_zapsat_uloz.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;8: Uložit</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p>Již po vyplnění vazby na projekt lze rozepsaný nález kdykoliv uložit.</p>
+</div>
+</div>
+</section>
+<section id="nahrání-fotografie" class="level4">
+<h4 class="anchored" data-anchor-id="nahrání-fotografie">Nahrání fotografie</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div id="fig-pas-foto" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-b_zapsat_foto.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;9: Přidání fotografie</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<p>Posledním klíčovým krokem po uložení celého záznamu je přiložit fotodokumentaci nálezové situace a předmětu, ideálně i s měřítkem. Akceptovány jsou fotografie ve formátu <code>JPG</code>, <code>PNG</code>, <code>TIFF</code> do maximální velikosti 100 MB. Není tedy třeba fotky komprimovat nebo zmenšovat. Pokud si nejste jistí, jak předměty správně dokumentovat, navštivte na webu AMČR-PAS sekci <code>Návody</code>.</p>
+</div>
+</div>
+</section>
+<section id="odeslání-záznamu" class="level4">
+<h4 class="anchored" data-anchor-id="odeslání-záznamu">Odeslání záznamu</h4>
+<p>Po vyplnění všech povinných údajů (pole označená červeným vykřičníkem <i class="fa-solid fa-exclamation-circle" aria-label="exclamation-circle"></i>) a nahrání fotografie je možné záznam odeslat <em>archeologovi</em> pomocí tlačítka <code>Odeslat</code>. Až v tuto chvíli se nález zobrazí archeologovi, se kterým máte navázánu spolupráci a pod jehož číslem projektu byl nález zapsán.</p>
+<p>Ve chvíli, kdy dojde k osobní schůzce s daným archeologem a jsou mu předány nálezy, archeolog potvrdí jejich převzetí, případně opraví informace o dataci, typu předmětu atd. Také určí, jak veřejně budou informace o daném nálezu přístupné (např. v případě vzácných nálezů či ohrožené lokality se může rozhodnout informace o poloze nálezu nezpřístupnit).</p>
+</section>
+</section>
+<section id="moje-nálezy-a-vybrat" class="level3">
+<h3 class="anchored" data-anchor-id="moje-nálezy-a-vybrat">Moje nálezy a Vybrat</h3>
+<div id="fig-pas-moje" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-b_moje.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;10: Moje nálezy</figcaption>
+</figure>
+</div>
+<p>Karta <code>Moje nálezy</code> nabízí výpis veškerých vašich nálezů. Toho využijete právě při uložení rozpracovaného záznamu v terénu s myšlenkou jeho dokončení, např. přidání detailnější fotky aj., později.</p>
+<p>Karta <code>Vybrat</code> pak nabízí multikriteriální vyhledávání ve vašich nálezech.</p>
+</section>
+</section>
+<section id="nález-v-digitálním-archivu-amčr" class="level2">
+<h2 class="anchored" data-anchor-id="nález-v-digitálním-archivu-amčr">Nález v Digitálním archivu AMČR</h2>
+<div id="fig-pas-da1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-digiarchiv1.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;11: Digitální archiv AMČR</figcaption>
+</figure>
+</div>
+<p>Po odeslání záznamu nálezu jej potvrdí osoba pověřená archivací detektorových nálezů na příslušném Archeologickém ústavu <span class="smallcaps">av čr</span>. Následně je záznam zveřejněn v Digitálním archivu AMČR v kategorii <a href="https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez" class="external">Samostatné nálezy</a>. Zde jsou zveřejněny všechny archivované nálezy evidované v modulu AMČR-PAS, jejich lokalizace však může být z důvodu ochrany archeologického dědictví zobecněna na okres, v němž byl daný nález evidován.</p>
+<div id="fig-pas-da2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="figs/pas-digiarchiv2.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption class="figure-caption">Obr.&nbsp;12: Samostatné nálezy v Digitálním archivu AMČR</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Zkopírováno!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Zkopírováno!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/amcr-help\.aiscr\.cz");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../amcr/amcr-pas/faq.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Často kladené otázky</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../amcr/amcr-pas/archeolog.html" class="pagination-link">
+        <span class="nav-page-text">Návod pro archeology</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><a href="about.qmd">Kontakty</a> | <a href="zakladni-info/licence.qmd">Licence</a> | <span id="open_preferences_center"><u>Cookies</u></span></div>   
+    <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="../../figs/logo-aiscr-hor.png" height="60"></a></div>
+    <div class="nav-footer-right">Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
+
+
+
+</body></html>
