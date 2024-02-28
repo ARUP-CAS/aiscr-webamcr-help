@@ -166,9 +166,10 @@ toc-title: "Na této stránce..."
 toc-depth: 4
 
 bibliography: references.bib
-csl: https://www.zotero.org/styles/internet-archaeology
+# csl: https://www.zotero.org/styles/archeologicke-rozhledy
 
 lang: cs
 language:
   related-formats-title: "Stáhnout..."
   section-title-references: "Zdroje"
+

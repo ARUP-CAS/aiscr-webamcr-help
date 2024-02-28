@@ -3,8 +3,8 @@ title: "Fotografická dokumentace nálezů"
 subtitle: "Návod jak fotografovat archeologické nálezy pro evidenci v AMČR-PAS"
 author:
   - name: "Tomáš Chlup"
-    orcid: 0000-0003-3179-992X
-doi: 10.5281/zenodo.4560101
+    orcid: "0000-0003-3179-992X"
+doi: "10.5281/zenodo.4560101"
 date: 2021-03-31
 date-format: D. M. YYYY
 ---
@@ -124,7 +124,7 @@ Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní 
 
 Postprodukce je soubor grafických úkonů, ke kterým přistupujeme pokud je třeba fotku dodatečně upravit.
 
-- Jednodušší úkony (otáčení, ořez, úprava expozice atp. zvládnete s volně dostupnými nástroji (nástroj Fotky v základní sadě Windows, Windows prohlížeč fotografií, Aplikace Fotky v telefonu aj.)
+- Jednodušší úkony otáčení, ořez, úprava expozice atp. zvládnete s volně dostupnými nástroji (nástroj Fotky v základní sadě Windows, Windows prohlížeč fotografií, Aplikace Fotky v telefonu aj.)
 - Složitější úpravy barev, odstranění pozadí fotografií, či úpravy ve vrstvách vyžadují již specializované aplikace.
 - Pokud je snímek špatně natočený, srovnejte jej a vhodně ořízněte.
 - Při exportu fotografie volte vždy co nejvyšší kvalitu.
