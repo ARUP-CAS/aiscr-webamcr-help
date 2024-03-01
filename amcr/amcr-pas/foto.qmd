@@ -7,6 +7,8 @@ author:
 doi: "10.5281/zenodo.4560101"
 date: 2021-03-31
 date-format: D. M. YYYY
+format:
+  html: default
 ---
 
 ::: {.callout-note}
@@ -94,6 +96,7 @@ Volíme dle individuálních možností.
 Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní lampa
 
 :::
+
 
 ### Kompozice
 

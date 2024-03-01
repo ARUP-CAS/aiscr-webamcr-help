@@ -17,6 +17,7 @@ website:
   cookie-consent:
     style: simple
     palette: light
+  bread-crumbs: true
 
   navbar:
     background: dark
@@ -71,21 +72,22 @@ website:
       contents:
         - amcr/amcr.qmd
         - text: "Oznámení záměru"
-          href: amcr/zamer.qmd
+          href: amcr/oznameni.qmd
         - text: "Správa projektů"
           href: amcr/projekty.qmd
         - section: "Správa akcí"
+          href: amcr/akce/akce.qmd
           contents:
             - amcr/akce/dj.qmd
             - amcr/akce/drobne-akce.qmd
             - amcr/akce/adb.qmd
         - section: "AMČR-PAS"
+          href: amcr/amcr-pas/amcr-pas.qmd
           contents:
             - amcr/amcr-pas/faq.qmd
             - amcr/amcr-pas/amater.qmd
             - amcr/amcr-pas/archeolog.qmd
             - amcr/amcr-pas/foto.qmd
-            - amcr/amcr-pas/dokumenty.qmd
         - text: "Knihovna 3D"
           href: amcr/knihovna3d.qmd
         - section: "Správa lokalit"

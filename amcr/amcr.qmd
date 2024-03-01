@@ -24,12 +24,15 @@ breadcrumbs: true
 #       - "lokality.qmd"
 ---
 
+- [Oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy](oznameni.qmd)
+
 ## Správa Projektů
 
-- [Projekty](projekty.qmd)
+- [Správa Projektů v AMČR](projekty.qmd)
 
 ## Správa Akcí
 
+- Správa Akcí v AMČR
 - [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd)
 - [Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu](akce/drobne-akce.qmd)
 - [Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace](akce/adb.qmd)
@@ -41,11 +44,11 @@ breadcrumbs: true
 
 Návody k používání **Portálu amatérských spolupracovníků a evidence samostatných nálezů** ([AMČR-PAS](https://amcr-info.aiscr.cz/pas)). 
 
+- [Úvodní stránka nápovědy k AMČR-PAS](amcr-pas/amcr-pas.qmd)
 - [Často kladené otázky (FAQ)](amcr-pas/faq.qmd)
 - [Návod pro spolupracovníky](amcr-pas/amater.qmd)
 - [Návod pro archeology](amcr-pas/archeolog.qmd)
 - [Fotografická dokumentace nálezů](amcr-pas/foto.qmd)
-- [Vzorové dokumenty](amcr-pas/dokumenty.qmd)
 
 <!-- ::: {#pas .column-screen-inset-right}
 ::: -->

@@ -1,5 +1,5 @@
 ---
-title: Správa projektů
+title: Správa akcí
 ---
 
 ## Zapsat projekt
@@ -16,6 +16,3 @@ title: Správa projektů
 
 ## Vybrat projekt
 
-![](./figs/proj-vybrat.png)
-
-- Karta **Vybrat** umožňuje filtrovat projekty na základě různých kritérií.

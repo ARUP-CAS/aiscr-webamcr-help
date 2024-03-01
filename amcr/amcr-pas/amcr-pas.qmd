@@ -1,10 +1,16 @@
 ---
-title: Vzorové dokumenty
-toc: false
-format-links: false
+title: AMČR-PAS
+subtitle: Portál amatérských spolupracovníků a evidence samostatných nálezů AMČR
 ---
 
-Na této stránce naleznete vzorové dokumenty ke stažení.
+Sekce k AMČR-PAS obsahuje následující dokumenty:
+
+- [Často kladené otázky (FAQ)](faq.qmd)
+- [Návod pro spolupracovníky](amater.qmd)
+- [Návod pro archeology](archeolog.qmd)
+- [Fotografická dokumentace nálezů](foto.qmd)
+
+## Vzorové dokumenty 
 
 ::: {.column-body-outset-right}
 
