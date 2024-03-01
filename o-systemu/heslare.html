@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -70,7 +71,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Žádný výsledek",
     "search-matching-documents-text": "Nalezené výsledky",
@@ -79,6 +86,7 @@ div.csl-indent {
     "search-more-match-text": "další výsledek v tomto dokumentu",
     "search-more-matches-text": "dalších výsledků v tomto dokumentu",
     "search-clear-button-title": "Vymazat",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Zrušit",
     "search-submit-button-title": "Odeslat",
     "search-label": "Hledat"
@@ -105,6 +113,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"cs"
   });
 });
 </script> 
@@ -118,9 +128,9 @@ cookieconsent.run({
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../figs/cover_g.png" alt="" class="navbar-logo">
     </a>
@@ -135,61 +145,57 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
- <span class="menu-text">Úvod</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Úvod</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../o-systemu/o-systemu.html" rel="" target="" aria-current="page">
- <span class="menu-text">O systému</span></a>
+    <a class="nav-link active" href="../o-systemu/o-systemu.html" aria-current="page"> 
+<span class="menu-text">O systému</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../amcr/amcr.html" rel="" target="">
- <span class="menu-text">AMČR</span></a>
+    <a class="nav-link" href="../amcr/amcr.html"> 
+<span class="menu-text">AMČR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../digiarchiv/digiarchiv.html" rel="" target="">
- <span class="menu-text">Digitální archiv AMČR</span></a>
+    <a class="nav-link" href="../digiarchiv/digiarchiv.html"> 
+<span class="menu-text">Digitální archiv AMČR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../api/api.html" rel="" target="">
- <span class="menu-text">AMČR API</span></a>
+    <a class="nav-link" href="../api/api.html"> 
+<span class="menu-text">AMČR API</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../o-systemu/pojmy.html" rel="" target="">
- <span class="menu-text">Slovník pojmů</span></a>
+    <a class="nav-link" href="../o-systemu/pojmy.html"> 
+<span class="menu-text">Slovník pojmů</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
- <span class="menu-text">Kontakty</span></a>
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">Kontakty</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../o-systemu/heslare.html">Hesláře</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../o-systemu/heslare.html">Hesláře</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://amcr-info.aiscr.cz/"><img src="../figs/logo-amcr-hor.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
+<p><a href="https://amcr-info.aiscr.cz/"><img src="../figs/logo-amcr-hor.png" class="img-fluid"></a></p>
 </div></div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
@@ -241,7 +247,7 @@ cookieconsent.run({
 <p><strong><i class="fa-solid fa-skull-crossbones" aria-label="skull-crossbones"></i> Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!</strong><br>
 Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR. Platná nápověda je <a href="https://amcr-info.aiscr.cz/help">zde</a>.</p>
 </div></div></nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -281,20 +287,26 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
   </div>
   
 
+
 </header>
+
 
 <p>Data AMČR jsou z větší části strukturována pomocí standardizovaných heslářů (číselníků, řízených slovníků). Hesláře jednoznačně nastavují sledovanou míru obecnosti/detailu, urychlují zápis typických informací, usnadňují vyhledávání, umožňují data strojově analyzovat a propojovat s dalšími systémy. Díky heslářům je také dodržována jednotná terminologie na území ČR, která vede ke snadnější orientaci ve vznikajících datech.</p>
 <p>Hesláře dělíme na <strong>jednoduché</strong> a <strong>dvojstupňové</strong>. Jednoduché hesláře obsahují jednu řadu hesel, z nichž uživatel vybírá, ale mohou též obsahovat další dílčí pomocné informace pro zápis (např. zobrazení okresu u katastru). Dvojstupňové hesláře obsahují hierarchicky uspořádaná hesla, z nichž obecnější kategorie slouží pro usnadnění výběru a do záznamu se neukládá (<a href="../o-systemu/heslare.html#komponenty">Areály</a>, <a href="../o-systemu/heslare.html#lokality">Druh lokality</a>), nebo se ukládají hesla obě (obecnější i specifické: viz např. <a href="../o-systemu/heslare.html#nálezy">Kategorie</a> a <a href="../o-systemu/heslare.html#nálezy">Druh nálezu</a>). Charakteru heslářů odpovídají typy výběrových seznamů v aplikaci. Některé hesláře chápeme jako <strong>systémové</strong> – nelze je editovat bez zásahu do zdrojového kódu, jelikož na nich přímo závisí chování aplikace a specifické funkce.</p>
 <p>Obsažená hesla vycházejí z hesel užívaných v ADČ <span class="citation" data-cites="kuna2006">(<a href="#ref-kuna2006" role="doc-biblioref">Kuna a Křivánková 2006</a>)</span>, SAS <span class="citation" data-cites="volfik2009">(<a href="#ref-volfik2009" role="doc-biblioref">Volfík 2009</a>)</span> a formulářích <a href="../o-systemu/pojmy.html#zpráva-o-archeologické-akci-zaa">ZAA</a>. Systém odborných heslářů se opírá o standardní archeologickou terminologii a obsažena jsou taková hesla, u nichž lze předpokládat vyšší než výjimečné zastoupení na základě analýzy stávajících dat. Aplikace obecně preferuje uzavřené hesláře, jejichž doplnění je možné pouze v důvodných případech po konzultaci se <a href="../o-systemu/pojmy.html#správce-systému">správcem systému</a>. Výjimku tvoří <a href="../o-systemu/heslare.html#obecné-hesláře">heslář jmen</a>, u něhož lze předpokládat pravidelný nárůst počtu údajů a lze jej proto uživatelsky doplňovat.</p>
 <p>Hesláře AMČR vytvářejí svým obsahem základ jednotné oborové terminologie, který je aplikován pro popis všech archeologických výzkumů v ČR evidovaných archivy ARÚP a ARÚB. Aktuální obsah všech heslářů je dostupný na webové adrese <a href="http://www.archeologickamapa.cz/?page=documents" class="external">http://www.archeologickamapa.cz/?page=documents</a>.</p>
-<p>Hesláře obvykle obsahují pole <strong>pořadí</strong>, pro určení pořadí položek v seznamu. Řazení může být abecední, případně chronologické (<a href="../o-systemu/heslare.html#komponenty">Období</a>), vyskytují se však také případy řazení významového (<a href="../o-systemu/heslare.html#nálezy">Nálezy</a>), případně na základě četnosti užívání (<a href="../o-systemu/heslare.html#projekty">Typ projektu</a>). Některé z heslářů mohou obsahovat pole <strong>rozsah</strong> či <strong>zahrnuje</strong>, která udávají hierarchický vztah hesel, který je zohledněn v modulu vyhledávání (viz <a href="#fig-heslare_obdobi">Obr.&nbsp;1</a>). Obecná hesla jsou často doplněna zkratkou <em>nesp.</em> s významem <em>blíže nespecifikováno</em>.</p>
+<p>Hesláře obvykle obsahují pole <strong>pořadí</strong>, pro určení pořadí položek v seznamu. Řazení může být abecední, případně chronologické (<a href="../o-systemu/heslare.html#komponenty">Období</a>), vyskytují se však také případy řazení významového (<a href="../o-systemu/heslare.html#nálezy">Nálezy</a>), případně na základě četnosti užívání (<a href="../o-systemu/heslare.html#projekty">Typ projektu</a>). Některé z heslářů mohou obsahovat pole <strong>rozsah</strong> či <strong>zahrnuje</strong>, která udávají hierarchický vztah hesel, který je zohledněn v modulu vyhledávání (viz <a href="#fig-heslare_obdobi" class="quarto-xref">Obr.&nbsp;1</a>). Obecná hesla jsou často doplněna zkratkou <em>nesp.</em> s významem <em>blíže nespecifikováno</em>.</p>
 <p>Hesláře <a href="../o-systemu/heslare.html#komponenty">Areály</a> a <a href="../o-systemu/heslare.html#komponenty">Období</a> umožňují provádět popis komponent pomocí obecnějších i konkrétnějších pojmů (např. pojem <em>sídliště nesp.</em> zahrnuje též pojmy <em>stanice</em>, <em>usedlost</em> a <em>vesnice</em>). Heslář Období obsahuje 135 chronologických pojmů v daných hierarchických vztazích. Každému pojmu odpovídá číselná hodnota stanovující jeho pořadí v chronologickém systému a číselně stanovený rozsah. Vyhledávat pomocí tohoto hesláře lze buď podle jednoho hesla, nebo zadáním rozsahu, přičemž dále je možno volit všechny hierarchicky nižší (zahrnuté) pojmy a/nebo pojmy nadřazené (např. při výběru pojmu <em>střední doba bronzová</em> lze zohlednit i pojem <em>doba bronzová nesp.</em>, protože komponenty charakterizované tímto pojmem rovněž teoreticky mohou se střední dobou bronzovou souviset, více viz <a href="../o-systemu/heslare.html#komponenty">Období</a>).</p>
 <div class="column-page-right">
 <div class="cell">
+<div id="tbl-heslare" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;1: Seznam heslářů (řízených slovníků)
+</figcaption>
+<div aria-describedby="tbl-heslare-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;1: Seznam heslářů (řízených slovníků)</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 20%">
 <col style="width: 39%">
@@ -584,15 +596,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </div>
 <section id="obecné-hesláře" class="level2">
 <h2 class="anchored" data-anchor-id="obecné-hesláře">Obecné hesláře</h2>
 <div class="cell">
+<div id="tbl-heslare-obecne" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-obecne-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;2: Obecné hesláře
+</figcaption>
+<div aria-describedby="tbl-heslare-obecne-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-obecne" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;2: Obecné hesláře</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 2%">
 <col style="width: 97%">
@@ -640,15 +658,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="projekty" class="level2">
 <h2 class="anchored" data-anchor-id="projekty">Projekty</h2>
 <div class="cell">
+<div id="tbl-heslare-projekty" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-projekty-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;3: Hesláře týkající se projektů
+</figcaption>
+<div aria-describedby="tbl-heslare-projekty-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-projekty" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;3: Hesláře týkající se projektů</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 13%">
 <col style="width: 86%">
@@ -672,15 +696,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="akce" class="level2">
 <h2 class="anchored" data-anchor-id="akce">Akce</h2>
 <div class="cell">
+<div id="tbl-heslare-akce" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-akce-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;4: Hesláře týkající se akcí
+</figcaption>
+<div aria-describedby="tbl-heslare-akce-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-akce" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;4: Hesláře týkající se akcí</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 10%">
 <col style="width: 89%">
@@ -708,15 +738,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="lokality" class="level2">
 <h2 class="anchored" data-anchor-id="lokality">Lokality</h2>
 <div class="cell">
+<div id="tbl-heslare-lokality" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-lokality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;5: Hesláře týkající se lokalit
+</figcaption>
+<div aria-describedby="tbl-heslare-lokality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-lokality" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;5: Hesláře týkající se lokalit</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 11%">
 <col style="width: 88%">
@@ -744,15 +780,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="komponenty" class="level2">
 <h2 class="anchored" data-anchor-id="komponenty">Komponenty</h2>
 <div class="cell">
+<div id="tbl-heslare-komponenty" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-komponenty-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;6: Hesláře týkající se komponent
+</figcaption>
+<div aria-describedby="tbl-heslare-komponenty-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-komponenty" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;6: Hesláře týkající se komponent</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 2%">
 <col style="width: 97%">
@@ -788,21 +830,31 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
 </div>
-<div id="fig-heslare_obdobi" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/heslare_obdobi.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Obr.&nbsp;1: Význam chronologických pojmů</figcaption>
+</div>
+<div id="fig-heslare_obdobi" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-heslare_obdobi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/heslare_obdobi.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-heslare_obdobi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;1: Význam chronologických pojmů
+</figcaption>
 </figure>
 </div>
 </section>
 <section id="nálezy" class="level2">
 <h2 class="anchored" data-anchor-id="nálezy">Nálezy</h2>
 <div class="cell">
+<div id="tbl-heslare-nalezy" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-nalezy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;7: Hesláře týkající se nálezů
+</figcaption>
+<div aria-describedby="tbl-heslare-nalezy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-nalezy" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;7: Hesláře týkající se nálezů</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 19%">
 <col style="width: 80%">
@@ -850,15 +902,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="prostorové-vymezení" class="level2">
 <h2 class="anchored" data-anchor-id="prostorové-vymezení">Prostorové vymezení</h2>
 <div class="cell">
+<div id="tbl-heslare-prostor" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-prostor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;8: Hesláře týkající se prostorového vymezení a PIANů
+</figcaption>
+<div aria-describedby="tbl-heslare-prostor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-prostor" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;8: Hesláře týkající se prostorového vymezení a PIANů</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 18%">
 <col style="width: 81%">
@@ -886,15 +944,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="archiv-dokumentů" class="level2">
 <h2 class="anchored" data-anchor-id="archiv-dokumentů">Archiv dokumentů</h2>
 <div class="cell">
+<div id="tbl-heslare-dokumenty" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-dokumenty-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;9: Hesláře týkající se dokumentů
+</figcaption>
+<div aria-describedby="tbl-heslare-dokumenty-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-dokumenty" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;9: Hesláře týkající se dokumentů</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 11%">
 <col style="width: 88%">
@@ -954,15 +1018,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="letecké-snímky" class="level2">
 <h2 class="anchored" data-anchor-id="letecké-snímky">Letecké snímky</h2>
 <div class="cell">
+<div id="tbl-heslare-letecke" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-letecke-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;10: Hesláře týkající se leteckých snímků
+</figcaption>
+<div aria-describedby="tbl-heslare-letecke-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-letecke" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;10: Hesláře týkající se leteckých snímků</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 10%">
 <col style="width: 89%">
@@ -994,15 +1064,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="bibliografie" class="level2">
 <h2 class="anchored" data-anchor-id="bibliografie">Bibliografie</h2>
 <div class="cell">
+<div id="tbl-heslare-biblio" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-biblio-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;11: Hesláře týkající se bibliografie a zdrojů
+</figcaption>
+<div aria-describedby="tbl-heslare-biblio-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-biblio" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;11: Hesláře týkající se bibliografie a zdrojů</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 13%">
 <col style="width: 86%">
@@ -1026,15 +1102,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="sondy-madb" class="level2">
 <h2 class="anchored" data-anchor-id="sondy-madb">Sondy (MADB)</h2>
 <div class="cell">
+<div id="tbl-heslare-madb" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-heslare-madb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;12: Hesláře týkající se modulu MADB
+</figcaption>
+<div aria-describedby="tbl-heslare-madb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-heslare-madb" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;12: Hesláře týkající se modulu MADB</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 15%">
 <col style="width: 84%">
@@ -1062,11 +1144,13 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="zdroje" class="level2">
 <h2 class="anchored" data-anchor-id="zdroje">Zdroje</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-kuna2006" class="csl-entry" role="listitem">
 Kuna, Martin, a Dana Křivánková. 2006. <em><span>ARCHIV</span> 3.0. <span>Systém</span> Archeologické Databáze <span>Čech</span>. <span>Uživatelská</span> Příručka.</em> <span>Praha</span>: <span>Archeologický ústav AV ČR, Praha</span>. <a href="https://www.academia.edu/2922274/2006_Kuna_M_K%C5%99iv%C3%A1nkov%C3%A1_D_ARCHIV_3_0_Syst%C3%A9m_Archeologick%C3%A9_datab%C3%A1ze_%C4%8Cech_U%C5%BEivatelsk%C3%A1_p%C5%99%C3%ADru%C4%8Dka_Praha_AR%C3%9AP">https://www.academia.edu/2922274/2006_Kuna_M_K%C5%99iv%C3%A1nkov%C3%A1_D_ARCHIV_3_0_Syst%C3%A9m_Archeologick%C3%A9_datab%C3%A1ze_%C4%8Cech_U%C5%BEivatelsk%C3%A1_p%C5%99%C3%ADru%C4%8Dka_Praha_AR%C3%9AP</a>.
 </div>
@@ -1158,10 +1242,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/amcr-help\.aiscr\.cz");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1171,8 +1272,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1185,6 +1295,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1228,6 +1457,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1253,6 +1483,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1310,25 +1566,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/amcr-help\.aiscr\.cz");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../o-systemu/procesy.html" class="pagination-link">
+      <a href="../o-systemu/procesy.html" class="pagination-link" aria-label="Procesní pravidla a stavy">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Procesní pravidla a stavy</span>
       </a>          
   </div>
@@ -1338,11 +1580,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="about.qmd">Kontakty</a> | <a href="zakladni-info/licence.qmd">Licence</a> | <span id="open_preferences_center"><u>Cookies</u></span></div>   
-    <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></div>
-    <div class="nav-footer-right">Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-left">
+<p><a href="about.qmd">Kontakty</a> | <a href="zakladni-info/licence.qmd">Licence</a> | <span id="open_preferences_center"><u>Cookies</u></span></p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
   </div>
 </footer>
+
 
 
 

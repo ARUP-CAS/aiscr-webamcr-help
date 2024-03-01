@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -22,7 +22,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -58,6 +58,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -103,7 +104,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Žádný výsledek",
     "search-matching-documents-text": "Nalezené výsledky",
@@ -112,6 +119,7 @@ div.csl-indent {
     "search-more-match-text": "další výsledek v tomto dokumentu",
     "search-more-matches-text": "dalších výsledků v tomto dokumentu",
     "search-clear-button-title": "Vymazat",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Zrušit",
     "search-submit-button-title": "Odeslat",
     "search-label": "Hledat"
@@ -138,6 +146,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"cs"
   });
 });
 </script> 
@@ -151,9 +161,9 @@ cookieconsent.run({
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../figs/cover_g.png" alt="" class="navbar-logo">
     </a>
@@ -168,61 +178,57 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
- <span class="menu-text">Úvod</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Úvod</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../o-systemu/o-systemu.html" rel="" target="">
- <span class="menu-text">O systému</span></a>
+    <a class="nav-link" href="../o-systemu/o-systemu.html"> 
+<span class="menu-text">O systému</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../amcr/amcr.html" rel="" target="">
- <span class="menu-text">AMČR</span></a>
+    <a class="nav-link" href="../amcr/amcr.html"> 
+<span class="menu-text">AMČR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../digiarchiv/digiarchiv.html" rel="" target="">
- <span class="menu-text">Digitální archiv AMČR</span></a>
+    <a class="nav-link" href="../digiarchiv/digiarchiv.html"> 
+<span class="menu-text">Digitální archiv AMČR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../api/api.html" rel="" target="" aria-current="page">
- <span class="menu-text">AMČR API</span></a>
+    <a class="nav-link active" href="../api/api.html" aria-current="page"> 
+<span class="menu-text">AMČR API</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../o-systemu/pojmy.html" rel="" target="">
- <span class="menu-text">Slovník pojmů</span></a>
+    <a class="nav-link" href="../o-systemu/pojmy.html"> 
+<span class="menu-text">Slovník pojmů</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
- <span class="menu-text">Kontakty</span></a>
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">Kontakty</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../api/api.html">AMČR API</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../api/api.html">AMČR API</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://amcr-info.aiscr.cz/"><img src="../figs/logo-amcr-hor.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
+<p><a href="https://amcr-info.aiscr.cz/"><img src="../figs/logo-amcr-hor.png" class="img-fluid"></a></p>
 </div></div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
@@ -238,7 +244,7 @@ cookieconsent.run({
 <p><strong><i class="fa-solid fa-skull-crossbones" aria-label="skull-crossbones"></i> Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!</strong><br>
 Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR. Platná nápověda je <a href="https://amcr-info.aiscr.cz/help">zde</a>.</p>
 </div></div></nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -306,7 +312,9 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
   </div>
   
 
+
 </header>
+
 
 <p>API v současné době nabízí službu <em>AMCR Data Provider</em>, která poskytuje metadatové záznamy z databáze AMČR, a to pomocí protokolu <em>OpenArchives Initiative Protocol for Metadata Harvesting</em> (<a href="http://www.openarchives.org/pmh/" class="external">OAI-PMH</a>).</p>
 <p>Naše implementace protokolu OAI-PMH podporuje reprezentaci metadat ve standardech:</p>
@@ -317,31 +325,47 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </ul>
 <p><a href="role.qmd">Uživatelé</a> s vyšším oprávněním mohou využít své přihlašovací údaje do AMČR pro přístup k nearchivovaným či jinak chráněným záznamům. Aktualizace dat probíhá na denní bázi.</p>
 <p>API najdete na adrese <a href="https://api.aiscr.cz" class="external">https://api.aiscr.cz</a>.</p>
-<div id="fig-api-poster" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><a href="https://gams.uni-graz.at/o:liseh.8112/PDF_STREAM"><img src="figs/api_liseh.png" class="img-fluid figure-img" style="width:60.0%"></a></p>
-<figcaption class="figure-caption">Obr.&nbsp;1: Poster prezentující API s příklady možných requestů <span class="citation" data-cites="pajdla2021a">(<a href="#ref-pajdla2021a" role="doc-biblioref">Pajdla 2021</a>)</span></figcaption>
+<div id="fig-api-poster" class="quarto-figure quarto-figure-center quarto-float anchored" width="60%" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-api-poster-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://gams.uni-graz.at/o:liseh.8112/PDF_STREAM"><img src="figs/api_liseh.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-api-poster-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;1: Poster prezentující API s příklady možných requestů <span class="citation" data-cites="pajdla2021a">(<a href="#ref-pajdla2021a" role="doc-biblioref">Pajdla 2021</a>)</span>
+</figcaption>
 </figure>
 </div>
 <section id="technické-řešení" class="level2">
 <h2 class="anchored" data-anchor-id="technické-řešení">Technické řešení</h2>
-<div id="fig-api" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/api-schema.png" class="img-fluid figure-img" style="width:80.0%" data-align="center"></p>
-<figcaption class="figure-caption">Obr.&nbsp;2: OAI-PMH API a služba AMCR Data Provider</figcaption>
+<div id="fig-api" class="quarto-figure quarto-figure-center quarto-float anchored" data-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-api-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/api-schema.png" class="img-fluid figure-img" style="width:80.0%" data-align="center">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-api-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;2: OAI-PMH API a služba AMCR Data Provider
+</figcaption>
 </figure>
 </div>
 <p>Architektura API se skládá z 5 komponent: <em>AMCR Filter</em>, <em>RDF Converter</em>, <em>Scrub</em>, <em>AMCR Pass</em> a <em>AMCR Data Provider</em>. Všechny komponenty jsou napsány v jazyce Java. <del>Řešení používá open-source projekt X3ML Engine pro konverzi XML na RDF.</del></p>
-<div id="fig-api-reseni" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/api-reseni.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Obr.&nbsp;3: Schéma celkového řešení API</figcaption>
+<div id="fig-api-reseni" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-api-reseni-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/api-reseni.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-api-reseni-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;3: Schéma celkového řešení API
+</figcaption>
 </figure>
 </div>
-<div id="fig-api-sety" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/api-sety.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Obr.&nbsp;4: Schéma databáze s dílčími datovými sety</figcaption>
+<div id="fig-api-sety" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-api-sety-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/api-sety.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-api-sety-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;4: Schéma databáze s dílčími datovými sety
+</figcaption>
 </figure>
 </div>
 <section id="řešení-filtrace" class="level3">
@@ -349,21 +373,29 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <section id="stav-a-přístupnost-záznamu" class="level4">
 <h4 class="anchored" data-anchor-id="stav-a-přístupnost-záznamu">Stav a přístupnost záznamu</h4>
 <p>Přístupnost záznam je ovlivněna jak <a href="procesy.qmd">procesními stavy</a> daných metadatových záznamů, tak <a href="role.qmd">uživatelskou rolí</a>.</p>
-<div id="fig-api-pristupnost" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/api-pristupnost.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Obr.&nbsp;5: Schéma přístupnosti záznamů dle uživatelských rolí</figcaption>
+<div id="fig-api-pristupnost" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-api-pristupnost-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/api-pristupnost.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-api-pristupnost-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;5: Schéma přístupnosti záznamů dle uživatelských rolí
+</figcaption>
 </figure>
 </div>
 </section>
 <section id="sety" class="level4">
 <h4 class="anchored" data-anchor-id="sety">Sety</h4>
-<p>Selektivní výběr je umožněn pomocí nadefinovaných setů, viz také <a href="#fig-api-sety">Obr.&nbsp;4</a>.</p>
+<p>Selektivní výběr je umožněn pomocí nadefinovaných setů, viz také <a href="#fig-api-sety" class="quarto-xref">Obr.&nbsp;4</a>.</p>
 <div class="cell">
+<div id="tbl-api-sets" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-api-sets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tab.&nbsp;1: Sety
+</figcaption>
+<div aria-describedby="tbl-api-sets-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="tbl-api-sets" class="anchored">
-<table class="table table-sm table-striped small">
-<caption>Tab.&nbsp;1: Sety</caption>
+<table class="do-not-create-environment cell table table-sm table-striped small">
 <colgroup>
 <col style="width: 20%">
 <col style="width: 80%">
@@ -423,15 +455,21 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </table>
 </div>
 </div>
+</figure>
+</div>
 </div>
 </section>
 <section id="datestamps" class="level4">
 <h4 class="anchored" data-anchor-id="datestamps">Datestamps</h4>
 <p>Pro dotazy <code>ListRecords</code> a <code>ListIdentifiers</code> je umožněno filtrování na základě volitelného argumentu <code>datestamp</code> (from – od, until – do), kdy <code>datestamp</code> je vždy nejmladší z dostupných datumů.</p>
-<div id="fig-api-datestamps" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/api-datestamps.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Obr.&nbsp;6: Specifikace nastavení <code>datestamp</code> pro jednotlivé záznamy</figcaption>
+<div id="fig-api-datestamps" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-api-datestamps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/api-datestamps.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-api-datestamps-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;6: Specifikace nastavení <code>datestamp</code> pro jednotlivé záznamy
+</figcaption>
 </figure>
 </div>
 <p>AMČR nepodporuje evidenci smazaných záznamů. Po smazání záznamu z databáze proto dojde k odstranění záznamu z API bez náhrady ve formě hlavičky smazaného záznamu (<code>status="deleted"</code>). Některé operace se v AMČR se nemusí projevit změnou <code>datestamp</code> v API. Důvodem je způsob logování změn, který se váže pouze na specifické operace (změna <a href="procesy.qmd">stavu</a> záznamu). Při využití API proto doporučujeme data pravidelně obnovovat, nebo umožnit uživateli vynucenou aktualizaci konkrétního záznamu. Podpora úplného sledování změn bude implementována v budoucích verzích API po provedení nutných úprav v databázi AMČR</p>
@@ -610,7 +648,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="pomocí-setů" class="level4">
 <h4 class="anchored" data-anchor-id="pomocí-setů">Pomocí Setů</h4>
-<p>Protokol OAI-PMH umožňuje filtrování pomocí nadefinovaných setů, a to přidáním parametru <code>set</code>. Pomocí slovesa <code>ListSets</code> je možné získat hodnotu <code>setSpec</code> pro všechny nadefinované <a href="../api/api.html#sety">sety</a>, viz také <a href="#fig-api-sety">Obr.&nbsp;4</a>. Pro zvolené filtrování se poté do requestu se slovesy <code>ListRecords</code> nebo <code>ListIndentifiers</code> přidává parametr <code>set=setSpec</code>. Filtrování pomocí setů lze kombinovat s filtrováním pomocí <code>datestamp</code>.</p>
+<p>Protokol OAI-PMH umožňuje filtrování pomocí nadefinovaných setů, a to přidáním parametru <code>set</code>. Pomocí slovesa <code>ListSets</code> je možné získat hodnotu <code>setSpec</code> pro všechny nadefinované <a href="../api/api.html#sety">sety</a>, viz také <a href="#fig-api-sety" class="quarto-xref">Obr.&nbsp;4</a>. Pro zvolené filtrování se poté do requestu se slovesy <code>ListRecords</code> nebo <code>ListIndentifiers</code> přidává parametr <code>set=setSpec</code>. Filtrování pomocí setů lze kombinovat s filtrováním pomocí <code>datestamp</code>.</p>
 <p>Dotaz: <a href="https://api.aiscr.cz/dapro/oai?verb=ListRecords&amp;set=akce&amp;metadataPrefix=oai_amcr" class="external">https://api.aiscr.cz/dapro/oai?verb=ListRecords&amp;set=akce&amp;metadataPrefix=oai_amcr</a></p>
 </section>
 <section id="pomocí-datestamp" class="level4">
@@ -624,7 +662,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Zdroje</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Zdroje</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-pajdla2021a" class="csl-entry" role="listitem">
 Pajdla, Petr. 2021. <span>„<span>AIS CR Public API</span>: <span>AMCR Data Provider</span>"</span>. Poster prezentováno v <span>LiSeH</span> 2021, <span>GAMS</span>. <a href="https://hdl.handle.net/11471/562.40.3">https://hdl.handle.net/11471/562.40.3</a>.
 </div>
@@ -708,10 +746,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/amcr-help\.aiscr\.cz");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -721,8 +776,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -735,6 +799,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -778,6 +961,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -803,6 +987,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -860,30 +1070,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/amcr-help\.aiscr\.cz");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="about.qmd">Kontakty</a> | <a href="zakladni-info/licence.qmd">Licence</a> | <span id="open_preferences_center"><u>Cookies</u></span></div>   
-    <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></div>
-    <div class="nav-footer-right">Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-left">
+<p><a href="about.qmd">Kontakty</a> | <a href="zakladni-info/licence.qmd">Licence</a> | <span id="open_preferences_center"><u>Cookies</u></span></p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
   </div>
 </footer>
+
 
 
 

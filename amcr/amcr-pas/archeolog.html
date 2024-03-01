@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -59,7 +59,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Žádný výsledek",
     "search-matching-documents-text": "Nalezené výsledky",
@@ -68,6 +74,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "další výsledek v tomto dokumentu",
     "search-more-matches-text": "dalších výsledků v tomto dokumentu",
     "search-clear-button-title": "Vymazat",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Zrušit",
     "search-submit-button-title": "Odeslat",
     "search-label": "Hledat"
@@ -94,6 +101,8 @@ cookieconsent.run({
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
+  ,
+"language":"cs"
   });
 });
 </script> 
@@ -107,9 +116,9 @@ cookieconsent.run({
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../figs/cover_g.png" alt="" class="navbar-logo">
     </a>
@@ -124,61 +133,57 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Úvod</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Úvod</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../o-systemu/o-systemu.html" rel="" target="">
- <span class="menu-text">O systému</span></a>
+    <a class="nav-link" href="../../o-systemu/o-systemu.html"> 
+<span class="menu-text">O systému</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../amcr/amcr.html" rel="" target="" aria-current="page">
- <span class="menu-text">AMČR</span></a>
+    <a class="nav-link active" href="../../amcr/amcr.html" aria-current="page"> 
+<span class="menu-text">AMČR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../digiarchiv/digiarchiv.html" rel="" target="">
- <span class="menu-text">Digitální archiv AMČR</span></a>
+    <a class="nav-link" href="../../digiarchiv/digiarchiv.html"> 
+<span class="menu-text">Digitální archiv AMČR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../api/api.html" rel="" target="">
- <span class="menu-text">AMČR API</span></a>
+    <a class="nav-link" href="../../api/api.html"> 
+<span class="menu-text">AMČR API</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../o-systemu/pojmy.html" rel="" target="">
- <span class="menu-text">Slovník pojmů</span></a>
+    <a class="nav-link" href="../../o-systemu/pojmy.html"> 
+<span class="menu-text">Slovník pojmů</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">Kontakty</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">Kontakty</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../amcr/amcr-pas/faq.html">AMČR-PAS</a></li><li class="breadcrumb-item"><a href="../../amcr/amcr-pas/archeolog.html">Návod pro archeology</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../amcr/amcr-pas/amcr-pas.html">AMČR-PAS</a></li><li class="breadcrumb-item"><a href="../../amcr/amcr-pas/archeolog.html">Návod pro archeology</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
     </div>
   </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://amcr-info.aiscr.cz/"><img src="../../figs/logo-amcr-hor.png" class="img-fluid figure-img"></a></p>
-</figure>
-</div>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
+<p><a href="https://amcr-info.aiscr.cz/"><img src="../../figs/logo-amcr-hor.png" class="img-fluid"></a></p>
 </div></div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
@@ -190,7 +195,7 @@ cookieconsent.run({
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../amcr/zamer.html" class="sidebar-item-text sidebar-link">
+  <a href="../../amcr/oznameni.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Oznámení záměru</span></a>
   </div>
 </li>
@@ -202,7 +207,7 @@ cookieconsent.run({
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a href="../../amcr/akce/akce.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Správa akcí</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -231,7 +236,7 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a href="../../amcr/amcr-pas/amcr-pas.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">AMČR-PAS</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -260,12 +265,6 @@ cookieconsent.run({
   <div class="sidebar-item-container"> 
   <a href="../../amcr/amcr-pas/foto.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fotografická dokumentace nálezů</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../amcr/amcr-pas/dokumenty.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Vzorové dokumenty</span></a>
   </div>
 </li>
       </ul>
@@ -340,7 +339,7 @@ cookieconsent.run({
 <p><strong><i class="fa-solid fa-skull-crossbones" aria-label="skull-crossbones"></i> Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!</strong><br>
 Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR. Platná nápověda je <a href="https://amcr-info.aiscr.cz/help">zde</a>.</p>
 </div></div></nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -389,7 +388,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../amcr/amcr-pas/amcr-pas.html">AMČR-PAS</a></li><li class="breadcrumb-item"><a href="../../amcr/amcr-pas/archeolog.html">Návod pro archeology</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Návod pro archeology</h1>
 <p class="subtitle lead">Pokyny pro archeology k vytváření a správě projektů typu průzkum a samostatných nálezů v AMČR-PAS</p>
@@ -431,7 +430,9 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
   </div>
   
 
+
 </header>
+
 
 <div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
@@ -488,20 +489,28 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <p>Oba typy projektů jsou vždy zakončeny nálezovou zprávou, viz <a href="pas-archeolog.qmd#archivace-projektu-typu-průzkum">dále</a>.</p>
 <section id="založení-projektu-v-desktopové-aplikaci-amčr" class="level3">
 <h3 class="anchored" data-anchor-id="založení-projektu-v-desktopové-aplikaci-amčr">Založení projektu v desktopové aplikaci AMČR</h3>
-<div id="fig-pas-zapsatproj" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_amcr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;1: Zapsat projekt</figcaption>
+<div id="fig-pas-zapsatproj" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-zapsatproj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_amcr.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-zapsatproj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;1: Zapsat projekt
+</figcaption>
 </figure>
 </div>
 <p>Projekt založíme po přihlášení do aplikace AMČR kliknitím na kartu <code>Projekty</code> a <code>Zapsat projekt</code></p>
 </section>
 <section id="zapsat-projekt" class="level3">
 <h3 class="anchored" data-anchor-id="zapsat-projekt">Zapsat projekt</h3>
-<div id="fig-pas-pruzkum" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_proj_zapsat.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;2: Projekt typu průzkum</figcaption>
+<div id="fig-pas-pruzkum" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-pruzkum-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_proj_zapsat.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-pruzkum-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;2: Projekt typu průzkum
+</figcaption>
 </figure>
 </div>
 <ol type="1">
@@ -512,10 +521,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="přihlásit-projekt" class="level3">
 <h3 class="anchored" data-anchor-id="přihlásit-projekt">Přihlásit projekt</h3>
-<div id="fig-pas-prihlasitproj" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_proj_prihlasit.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;3: Přihlásit projekt</figcaption>
+<div id="fig-pas-prihlasitproj" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-prihlasitproj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_proj_prihlasit.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-prihlasitproj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;3: Přihlásit projekt
+</figcaption>
 </figure>
 </div>
 <ol type="1">
@@ -527,10 +540,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="zahájit-projekt-v-terénu" class="level3">
 <h3 class="anchored" data-anchor-id="zahájit-projekt-v-terénu">Zahájit projekt v terénu</h3>
-<div id="fig-pas-zahajitproj" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_proj_zahajit.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;4: Zahájit projekt</figcaption>
+<div id="fig-pas-zahajitproj" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-zahajitproj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_proj_zahajit.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-zahajitproj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;4: Zahájit projekt
+</figcaption>
 </figure>
 </div>
 <ol type="1">
@@ -540,10 +557,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="číslo-projektu" class="level3">
 <h3 class="anchored" data-anchor-id="číslo-projektu">Číslo projektu</h3>
-<div id="fig-pas-cisloproj" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_proj_akce.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;5: Číslo projektu</figcaption>
+<div id="fig-pas-cisloproj" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-cisloproj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_proj_akce.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-cisloproj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;5: Číslo projektu
+</figcaption>
 </figure>
 </div>
 <ol type="1">
@@ -561,10 +582,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <h3 class="anchored" data-anchor-id="přihlášení">Přihlášení</h3>
 <div class="columns">
 <div class="column" style="width:40%;">
-<div id="fig-pas-login" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-login.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;6: Dialog pro přihlášení</figcaption>
+<div id="fig-pas-login" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-login-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-login.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-login-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;6: Dialog pro přihlášení
+</figcaption>
 </figure>
 </div>
 </div><div class="column" style="width:60%;">
@@ -576,10 +601,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <h3 class="anchored" data-anchor-id="úvodní-obrazovka">Úvodní obrazovka</h3>
 <div class="columns">
 <div class="column" style="width:40%;">
-<div id="fig-pas-main" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-main.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;7: Výběr modulu AMČR</figcaption>
+<div id="fig-pas-main" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-main-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-main.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-main-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;7: Výběr modulu AMČR
+</figcaption>
 </figure>
 </div>
 </div><div class="column" style="width:60%;">
@@ -587,10 +616,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </div>
 </div>
 <p>Samotný modul AMČR-PAS se skládá z několika karet:</p>
-<div id="fig-pas-karty" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_main.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;8: Karty po přihlášení do AMČR-PAS</figcaption>
+<div id="fig-pas-karty" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-karty-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_main.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-karty-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;8: Karty po přihlášení do AMČR-PAS
+</figcaption>
 </figure>
 </div>
 <ul>
@@ -604,10 +637,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <section id="spolupráce" class="level3">
 <h3 class="anchored" data-anchor-id="spolupráce">Spolupráce</h3>
 <p>Na kartě <code>Spolupráce</code> se zobrazuje tabulka navázaných spolupracovníků. Po žádosti o spolupráci ze strany amatérského badatele budete vyzvání k jejímu potvrzení, to provedete právě v této části aplikace. Potvrzením spolupráce vznikne vazba mezi Vámi a spolupracujícím amatérem.</p>
-<div id="fig-pas-spolupracetab" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_spoluprace_tabulka.png" class="img-fluid figure-img" style="width:90.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;9: Tabulka spoluprací</figcaption>
+<div id="fig-pas-spolupracetab" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-spolupracetab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_spoluprace_tabulka.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-spolupracetab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;9: Tabulka spoluprací
+</figcaption>
 </figure>
 </div>
 <ol type="1">
@@ -616,10 +653,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </ol>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div id="fig-pas-spolupracepotvr" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_spoluprace_potvrdit.png" class="img-fluid figure-img" style="width:90.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;10: Potvrdit spolupráci</figcaption>
+<div id="fig-pas-spolupracepotvr" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-spolupracepotvr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_spoluprace_potvrdit.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-spolupracepotvr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;10: Potvrdit spolupráci
+</figcaption>
 </figure>
 </div>
 </div><div class="column" style="width:50%;">
@@ -630,10 +671,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <section id="potvrzení-nálezu" class="level3">
 <h3 class="anchored" data-anchor-id="potvrzení-nálezu">Potvrzení nálezu</h3>
 <p>Po tom, co spolupracovník zapíše a potvrdí nález k odeslání, zobrazí se Vám tyto nálezy pod kartou <code>Potvrdit</code> ve formě přehledné tabulky.</p>
-<div id="fig-pas-nalezytab" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_potvrdit_tabulka.png" class="img-fluid figure-img" style="width:90.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;11: Tabulka nálezů</figcaption>
+<div id="fig-pas-nalezytab" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-nalezytab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_potvrdit_tabulka.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-nalezytab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;11: Tabulka nálezů
+</figcaption>
 </figure>
 </div>
 <ol type="1">
@@ -650,10 +695,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <h3 class="anchored" data-anchor-id="detail-potvrzení-nálezu">Detail potvrzení nálezu</h3>
 <section id="fotografie" class="level4">
 <h4 class="anchored" data-anchor-id="fotografie">Fotografie</h4>
-<div id="fig-pas-fototab" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_zapis_foto.png" class="img-fluid figure-img" style="width:90.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;12: Tabulka přiložených fotografií</figcaption>
+<div id="fig-pas-fototab" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-fototab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_zapis_foto.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-fototab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;12: Tabulka přiložených fotografií
+</figcaption>
 </figure>
 </div>
 <p>První zobrazenou sekcí je seznam přiložených fotografií, ty lze po kliknutí na ikonu <i class="fa-solid fa-save" aria-label="save"></i> stáhnout. Rovněž je možné nadbytečné fotografie nálezu smazat, případně přidat další, např. po laboratorním zpracování. <strong>Upozorňujeme, že smazání fotografie ze systému je nevratné!</strong></p>
@@ -661,10 +710,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="nálezové-okolnosti" class="level4">
 <h4 class="anchored" data-anchor-id="nálezové-okolnosti">Nálezové okolnosti</h4>
-<div id="fig-pas-aokolnosti" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_zapis_okolnosti.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;13: Nálezové okolnosti</figcaption>
+<div id="fig-pas-aokolnosti" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-aokolnosti-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_zapis_okolnosti.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-aokolnosti-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;13: Nálezové okolnosti
+</figcaption>
 </figure>
 </div>
 <p>V sekci <code>Nálezové okolnosti</code> najdeme:</p>
@@ -680,10 +733,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="lokalizace-nálezu" class="level4">
 <h4 class="anchored" data-anchor-id="lokalizace-nálezu">Lokalizace nálezu</h4>
-<div id="fig-pas-amapa" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_zapis_mapa.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;14: Mapové okno</figcaption>
+<div id="fig-pas-amapa" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-amapa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_zapis_mapa.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-amapa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;14: Mapové okno
+</figcaption>
 </figure>
 </div>
 <p>Mapové okno slouží k přesné lokalizaci nálezu. Lze přepínat mezi různými mapovými podklady.</p>
@@ -700,10 +757,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="nález" class="level4">
 <h4 class="anchored" data-anchor-id="nález">Nález</h4>
-<div id="fig-pas-apopis" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_zapis_nalez.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;15: Popis nálezu</figcaption>
+<div id="fig-pas-apopis" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-apopis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_zapis_nalez.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-apopis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;15: Popis nálezu
+</figcaption>
 </figure>
 </div>
 <p>V sekci <code>Nález</code> je specifikována datace nálezu, typ předmětu atd. Vyplnění této části je pro amatérské spolupracovníky povinné, nicméně předpokládáme úpravu zadaných informací archeologem.</p>
@@ -713,10 +774,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="uložení" class="level4">
 <h4 class="anchored" data-anchor-id="uložení">Uložení</h4>
-<div id="fig-pas-ulozeninal" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_zapis_ulozeni.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;16: Detaily uložení nálezu</figcaption>
+<div id="fig-pas-ulozeninal" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-ulozeninal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_zapis_ulozeni.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-ulozeninal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;16: Detaily uložení nálezu
+</figcaption>
 </figure>
 </div>
 <p>Poslední vyplňovanou sekcí jsou informace o uložení a předání nálezu. Rozepsaný formulář lze v jakémkoliv bodě práce uložit a vrátit se k němu později. Zde je nutné:</p>
@@ -729,10 +794,14 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="moje-nálezy-a-vybrat" class="level3">
 <h3 class="anchored" data-anchor-id="moje-nálezy-a-vybrat">Moje nálezy a Vybrat</h3>
-<div id="fig-pas-amojenal" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-a_moje.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;17: Karty aplikace Moje nálezy a Vybrat</figcaption>
+<div id="fig-pas-amojenal" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-amojenal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-a_moje.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-amojenal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;17: Karty aplikace Moje nálezy a Vybrat
+</figcaption>
 </figure>
 </div>
 <p>Karta <code>Moje nálezy</code> nabízí výpis nálezů evidovaných spolupracovníky mé organizace. Karta <code>Vybrat</code> pak nabízí multikriteriální vyhledávání v nálezech evidovaných v modulu AMČR-PAS. V obou případech lze záznamy libovolně filtrovat, řadit, případně exportovat do podporovaných formátů.</p>
@@ -740,17 +809,25 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="nález-v-digitálním-archivu-amčr" class="level2">
 <h2 class="anchored" data-anchor-id="nález-v-digitálním-archivu-amčr">Nález v Digitálním archivu AMČR</h2>
-<div id="fig-pas-ada1" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-digiarchiv1.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;18: Digitální archiv AMČR</figcaption>
+<div id="fig-pas-ada1" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-ada1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-digiarchiv1.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-ada1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;18: Digitální archiv AMČR
+</figcaption>
 </figure>
 </div>
 <p>Po <strong>odeslání záznamu nálezu</strong> jej potvrdí osoba pověřená archivací detektorových nálezů na příslušném Archeologickém ústavu <span class="smallcaps">av čr</span>. Následně je záznam zveřejněn v Digitálním archivu AMČR v kategorii <a href="https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez" class="external">Samostatné nálezy</a>. Zde jsou zveřejněny všechny nálezy evidované v modulu AMČR-PAS, jejich lokalizace však může být z důvodu ochrany archeologického dědictví zobecněna na okres, v němž byl daný nález evidován. Ke zveřejnění nálezů dochází zpravidla do 48 hodin od archivace. Archivace a zveřejnění samostatných nálezů je nezávislá na archivaci daného projektu. Ve chvíli, kdy dojde k archivaci prvního nálezu, v Digitálním archivu jsou zveřejněna i základní metadata o souvisejícím projektu.</p>
-<div id="fig-pas-ada2" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="figs/pas-digiarchiv2.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption class="figure-caption">Obr.&nbsp;19: Samostatné nálezy v Digitálním archivu AMČR</figcaption>
+<div id="fig-pas-ada2" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-pas-ada2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figs/pas-digiarchiv2.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pas-ada2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Obr.&nbsp;19: Samostatné nálezy v Digitálním archivu AMČR
+</figcaption>
 </figure>
 </div>
 </section>
@@ -851,10 +928,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/amcr-help\.aiscr\.cz");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -864,8 +958,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -878,6 +981,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -921,6 +1143,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -946,6 +1169,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1003,30 +1252,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/amcr-help\.aiscr\.cz");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../amcr/amcr-pas/amater.html" class="pagination-link">
+      <a href="../../amcr/amcr-pas/amater.html" class="pagination-link" aria-label="Návod pro spolupracovníky">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Návod pro spolupracovníky</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../amcr/amcr-pas/foto.html" class="pagination-link">
+      <a href="../../amcr/amcr-pas/foto.html" class="pagination-link" aria-label="Fotografická dokumentace nálezů">
         <span class="nav-page-text">Fotografická dokumentace nálezů</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -1034,11 +1269,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="about.qmd">Kontakty</a> | <a href="zakladni-info/licence.qmd">Licence</a> | <span id="open_preferences_center"><u>Cookies</u></span></div>   
-    <div class="nav-footer-center"><a href="https://aiscr.cz/"><img src="../../figs/logo-aiscr-hor.png" height="60"></a></div>
-    <div class="nav-footer-right">Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-left">
+<p><a href="about.qmd">Kontakty</a> | <a href="zakladni-info/licence.qmd">Licence</a> | <span id="open_preferences_center"><u>Cookies</u></span></p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="https://aiscr.cz/"><img src="../../figs/logo-aiscr-hor.png" height="60"></a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
   </div>
 </footer>
+
 
 
 
