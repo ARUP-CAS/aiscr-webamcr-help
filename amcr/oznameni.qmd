@@ -3,3 +3,9 @@ title: Oznámení záměru
 ---
 
 <https://amcr-info.aiscr.cz/oznameni/>
+
+## Videonávod 
+
+::: {.column-page-right}
+{{< video https://www.youtube.com/embed/PKao-u3rRrU?si=SdbtPwwqgTCZ1PSQ >}}
+:::
