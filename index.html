@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Uživatelská dokumentace AMČR - Úvod</title>
+<title>Dokumentace AMČR - Úvod</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -209,7 +209,7 @@ window.Quarto = {
     <img src="./figs/cover_g.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Uživatelská dokumentace AMČR</span>
+    <span class="navbar-title">Dokumentace AMČR</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Hledat"></div>
@@ -244,6 +244,10 @@ window.Quarto = {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./zpravodaj/zpravodaj.html"> 
+<span class="menu-text">Zpravodaje</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Kontakty</span></a>
@@ -389,7 +393,7 @@ a přístupnosti jednotlivých záznamů.
     </div>
   </a>
 
-  <a class="quarto-grid-link" href="manualy/manualy.qmd" target="_self">
+  <a class="quarto-grid-link" href="./amcr/amcr.html" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       
         <div class="listing-item-img-placeholder card-img-top" style="background-color: white;">
@@ -411,7 +415,7 @@ Knihovny 3D či AMČR-PAS, včetně dobré praxe focení drobných nálezů atd.
     </div>
   </a>
 
-  <a class="quarto-grid-link" href="manualy/digiarchiv/digiarchiv.qmd" target="_self">
+  <a class="quarto-grid-link" href="./digiarchiv/digiarchiv.html" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       
         <div class="listing-item-img-placeholder card-img-top" style="background-color: white;">
@@ -432,7 +436,7 @@ prohlížení informací a dokumentů o archeologických výzkumech, lokalitách
     </div>
   </a>
 
-  <a class="quarto-grid-link" href="manualy/api/api.qmd" target="_self">
+  <a class="quarto-grid-link" href="./api/api.html" target="_self">
     <div class="quarto-grid-item card h-100 w-200">
       
         <div class="listing-item-img-placeholder card-img-top" style="background-color: white;">
@@ -608,6 +612,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -649,7 +658,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

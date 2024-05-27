@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Uživatelská dokumentace AMČR - Administrace systému</title>
+<title>Dokumentace AMČR - Administrace systému</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,7 +115,7 @@ cookieconsent.run({
     <img src="../figs/cover_g.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Uživatelská dokumentace AMČR</span>
+    <span class="navbar-title">Dokumentace AMČR</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Hledat"></div>
@@ -150,6 +150,10 @@ cookieconsent.run({
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../zpravodaj/zpravodaj.html"> 
+<span class="menu-text">Zpravodaje</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">Kontakty</span></a>
@@ -237,8 +241,14 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../amcr/amcr-pas/faq.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Často kladené otázky</span></a>
+  <a href="../amcr/amcr-pas/faq-spolupracovnici.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAQ – spolupracovníci</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amcr/amcr-pas/faq-archeologove.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FAQ – archeologové</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -452,6 +462,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -493,7 +508,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
