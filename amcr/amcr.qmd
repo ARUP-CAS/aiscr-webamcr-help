@@ -26,11 +26,11 @@ breadcrumbs: true
 
 - [Oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy](oznameni.qmd)
 
-## Správa Projektů
+## Projekty
 
 - [Správa Projektů v AMČR](projekty.qmd)
 
-## Správa Akcí
+## Akce
 
 - Správa Akcí v AMČR
 - [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd)
@@ -40,12 +40,13 @@ breadcrumbs: true
 <!-- ::: {#amcr .column-screen-inset-right}
 ::: -->
 
-## Správa AMČR-PAS
+## AMČR-PAS
 
 Návody k používání **Portálu amatérských spolupracovníků a evidence samostatných nálezů** ([AMČR-PAS](https://amcr-info.aiscr.cz/pas)). 
 
 - [Úvodní stránka nápovědy k AMČR-PAS](amcr-pas/amcr-pas.qmd)
-- [Často kladené otázky (FAQ)](amcr-pas/faq.qmd)
+- [Často kladené otázky (FAQ) -- spolupracovníci](amcr-pas/faq-spolupracovnici.qmd)
+- [Často kladené otázky (FAQ) -- archeologové](amcr-pas/faq-archeologove.qmd)
 - [Návod pro spolupracovníky](amcr-pas/amater.qmd)
 - [Návod pro archeology](amcr-pas/archeolog.qmd)
 - [Fotografická dokumentace nálezů](amcr-pas/foto.qmd)
@@ -53,11 +54,11 @@ Návody k používání **Portálu amatérských spolupracovníků a evidence sa
 <!-- ::: {#pas .column-screen-inset-right}
 ::: -->
 
-## Správa Knihovny 3D
+## Knihovna 3D
 
 - [Správa Knihovny 3D](knihovna3d.qmd)
 
-## Správa lokalit
+## Lokality
 
 - [Zásady evidence nemovitých archeologických památek (lokalit)](lokality/lokality.qmd)
 
