@@ -4,7 +4,7 @@ project:
     - "CNAME"
 
 website:
-  title: "Uživatelská dokumentace AMČR"
+  title: "Dokumentace AMČR"
   favicon: figs/cover.png
   repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
   repo-actions: none
@@ -38,6 +38,8 @@ website:
       - text: "Slovník pojmů"
         href: o-systemu/pojmy.qmd
     right:
+      - text: "Zpravodaje"
+        href: zpravodaj/zpravodaj.qmd
       - text: "Kontakty"
         href: about.qmd
 
@@ -84,7 +86,8 @@ website:
         - section: "AMČR-PAS"
           href: amcr/amcr-pas/amcr-pas.qmd
           contents:
-            - amcr/amcr-pas/faq.qmd
+            - amcr/amcr-pas/faq-spolupracovnici.qmd
+            - amcr/amcr-pas/faq-archeologove.qmd
             - amcr/amcr-pas/amater.qmd
             - amcr/amcr-pas/archeolog.qmd
             - amcr/amcr-pas/foto.qmd
@@ -136,12 +139,12 @@ format:
     css:
       - museo.css
       # - styles.css
-    mainfont: "Figtree"
+    mainfont: "Alegreya Sans"
     df-print: kable
     link-external-newwindow: true
     grid:
       sidebar-width: 250px
-      body-width: 900px
+      # body-width: 900px
       margin-width: 300px
   pdf:
     documentclass: scrarticle
