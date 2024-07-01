@@ -2,7 +2,7 @@
 title: Úvod
 subtitle: Vítejte na stránkách uživatelské dokumentace AMČR!
 doi: 10.5281/zenodo.8141634
-toc: false
+toc: true
 format-links: false
 listing:
   - id: soucasti
@@ -20,7 +20,7 @@ Původní platnou nápovědu a dokumentaci AMČR najdete na stránkách [https:/
 
 ::: -->
 
-::: {#soucasti .column-screen-inset-right}
+::: {#soucasti .column-body}
 
 :::
 
