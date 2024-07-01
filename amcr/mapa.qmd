@@ -1,0 +1,100 @@
+---
+title: Mapové rozhraní webové AMČR
+subtitle: Popis funkcionalit a vzhledu mapového rozhraní
+date: 2024-07-01
+---
+
+Mapové rozhraní je v aplikaci obecně dostupné na několika místech:
+
+- ve formuláři, sloužícímu pro odeslání [oznámení záměru](https://amcr.aiscr.cz/oznameni/){.external} -- přidání bodu lokalizujícího daný záměr (projekt);
+- v [Projektech](https://amcr.aiscr.cz/projekt/){.external} -- přidání/úprava bodové lokalizace projektu;
+- u [Akcí](https://amcr-tr.aiscr.cz/arch-z/akce/){.external} (jak projektových, tak samostatných) -- připojení PIAN (bod, linie, polygon);
+- u [Lokalit](https://amcr.aiscr.cz/arch-z/lokalita/){.external} -- připojení PIAN (bod, linie, polygon);
+- v [AMČR-PAS](https://amcr.aiscr.cz/pas/){.external} (Samostatné nálezy) -- lokalizace samostatného nálezu na bod;
+- v [Knihovně 3D](https://amcr.aiscr.cz/dokument/model/){.external} -- lokalizace 3D modelu na bod.
+
+## Popis mapového rozhraní
+
+V základním zobrazení se na mapě obvykle zobrazí heatmapa, která ukazuje hustotu pokrytí území České republiky prvky dané třídy (např. bodovými lokalizacemi projektů).
+Při přiblížení se heatmapa změní na shluky, které barevně a číslem udávají, kolik je v dané oblastni prvků.
+Při dalším přibližování jsou pak již viditelné jednotlivé prvky (body, linie, polygony).
+
+![](figs/map-init.jpg){#fuu}
+
+**Základní funkce**  
+Tlačítka pro základní funkce mapy jsou u jejího levého horního okraje.
+Jde v pořadí odshora dolů o tlačítka sloužící k:
+![](figs/map-tools.png){.column-margin}
+
+- přepnutí zobrazení mapy na celou obrazovku a zpět;
+- přiblížení, resp. oddálení;
+- vyhledávání v geografických názvech;
+- nástroj pro měření vzdáleností;
+- nástroj pro návrat k předchozímu zobrazení mapy;
+- povolení či zakázání úprav současné vrstvy.
+
+**Vrstvy**  
+Mapa nabízí několik podkladových vrstev, mezi kterými jde přepínat pomocí tlačítka vpravo nahoře, jsou to:
+![](figs/map-layers.png){.column-margin}
+
+- ČÚZK -- Základní topografická mapa;
+- ČÚZK -- Ortofotomapa;
+- ČÚZK -- Stínovaný reliéf 5G;
+- OpenStreetMap -- šedá.
+
+Dále lze podkladovou mapu překrýt následujícími vrstvami:
+
+- ČÚZK -- Katastrální území;
+- ČÚZK -- Katastrální mapa;
+- NPÚ -- vrstva s památkově chráněnými prvky;
+- a v neposlední řadě pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj. v závislosti na kontextu).
+
+**Vyhledávání v geografických jménech**  
+Pomocí tlačítka lupy lze vyhledávat v různých geografických jménech, např. názvech obcí, katastrálních území aj. (databáze gaonames).
+Po výběru daného prvku se mapa přiblíží na jeho geografický střed (centroid).
+![](figs/map-geonames.png)
+
+**Symbologie a barevnost**  
+V mapě se lze setkat s prvky (body symbolizovanými ikonou *pinu*, liniemi, polygony) čtyř základních barev, ty mají následující význam:
+![](figs/map-pins.png){.column-margin}
+
+- **fialová** -- lokalizace z ostatních vrstev zvolených pomocí zaškrtávacího políčka v nabídce vrstev;
+- **žlutá** -- právě vybraná lokalizace či PIAN;
+- **červená** -- nově vytvořená či upravená lokalizace;
+- **zelená** -- lokalizace související s daným záznamen, které však nejsou právě vybrány (např. v případě více dokumentačních jednotek, resp. PIANů u jedné akce).
+
+Uvnitř *pinu* pak mohou být zobrazeny různé *ikony* pro jednotlivé základní kategorie, např. ikona *pinu* pro samostatné nálezy, ikona *3D* pro 3D modely z Knihovny 3D aj.
+![](figs/map-pinicons.png){.column-margin}
+
+## Lokalizace bodem
+
+V případě Projektů, Samostatných nálezů (AMČR-PAS) a dalších míst, kde lze v mapě upravovat či vkládat lokalizace pouze pomocí bodů je práce s ní přímočará.
+Levým kliknutním myši je při patřičném přiblížení bod vyznačen na mapě, případně přemístěn na nové umístění.
+![](figs/map-proj.png)
+
+## Lokalizace pomocí PIAN
+
+U Akcí, Samostatných akcí a Lokalit lze vytvářet plnohodnotné [PIANy](o-systemu/pojmy.qmd/#pian) (prostorová identifikace archeologického nálezu).
+PIAN může být jak bod, tak linie či polygon.
+Pro jejich vyznačení v mapě slouží nástroje:
+![](figs/map-draw.png){.column-margin}
+
+- *Přidat bod* -- po kliknutí vloží bod;
+- *Přidat linii* -- kliknutím vloží nový uzel polylinie, kliknutím na poslední vložený uzel tvar potvrdí;
+- *Přidat polygon* -- kliknutím vloží uzel hrany polygonu, kliknutím na první vložený uzel tvar uzavře.
+
+Nabídka pro vložení linií a polygonů obsahují možnosti daný prvek potvrdit (*Dokončit*), smazat poslední vložený bod (*Krok zpět*) a smazat celý nakreslený tvar (*Storno*).
+Tlačítko *Editovat prvek* umožňuje zapnou editaci již nakresleného tvaru a jeho úpravu pomocí přetaženích zvolených uzlů na nové pozice, přidání nových uzlů mezi dva existující (průhledně zobrazené uzly), případně smazání existujících uzlů (po kliknutí na tmavě zobrazené uzly).
+
+Zakreslení polygonu:
+![](figs/map-poly1.png)
+
+Úprava již existujícího polygonu:
+![](figs/map-poly2.png)
+
+Pohled na právě zakreslený polygon a další PIANy v jeho okolí (některé stále ve shlucích zvýrazněných barevnými kolečky s čísly):
+![](figs/map-pian.png)
+
+### Videonávod
+
+Tady bude video postupu, jak v mapě nakreslit polygonální či liniový PIAN :)
