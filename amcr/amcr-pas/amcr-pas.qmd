@@ -3,6 +3,13 @@ title: AMČR-PAS
 subtitle: Portál amatérských spolupracovníků a evidence samostatných nálezů AMČR
 ---
 
+::: {.callout-note}
+
+Do portálu AMČR-PAS vstoupíte zde [**https://amcr.aiscr.cz/**](https://amcr.aiscr.cz/){.external}.  
+Hlavní stránku AMČR-PAS najdete zde [**https://amcr-info.aiscr.cz/pas/**](https://amcr-info.aiscr.cz/pas/){.external}.
+
+:::
+
 ## Obsah
 
 Sekce k AMČR-PAS obsahuje následující části:

@@ -1,9 +1,8 @@
 ---
-title: "AMČR"
-subtitle: "Uživatelská příručka"
+title: "Uživatelská příručka AMČR"
+subtitle: "Úvod"
 toc: true
 format-links: false
-breadcrumbs: true
 # listing:
 #   - id: amcr
 #     sort-ui: false
@@ -24,32 +23,44 @@ breadcrumbs: true
 #       - "lokality.qmd"
 ---
 
-## Formulář oznámení
+## Návody
 
-- [Oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy](oznameni.qmd)
+*Návody* ukazují základní pracovní postupy v aplikaci AMČR.
 
-## Projekty
+ - [Formulář oznámení](oznameni.qmd) -- jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy
+ - [Správa Projektů v AMČR](projekty.qmd)
 
-- [Správa Projektů v AMČR](projekty.qmd)
-
-## Akce
-
-- Správa Akcí v AMČR
-- [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd)
-- [Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu](akce/drobne-akce.qmd)
-- [Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace](akce/adb.qmd)
-
-<!-- ::: {#amcr .column-screen-inset-right}
-::: -->
-
-## AMČR-PAS
-
-Návody k používání **Portálu amatérských spolupracovníků a evidence samostatných nálezů** ([AMČR-PAS](https://amcr-info.aiscr.cz/pas)). 
+**Správa AMČR-PAS**  
+Návody k používání *Portálu amatérských spolupracovníků a evidence samostatných nálezů* ([AMČR-PAS](https://amcr-info.aiscr.cz/pas){.external}). 
 
 - [Úvodní stránka nápovědy k AMČR-PAS](amcr-pas/amcr-pas.qmd) se vzorovými dokumenty ke stažení aj.
 - Často kladené otázky (FAQ) [spolupracovníků](amcr-pas/faq-spolupracovnici.qmd) a [archeologů](amcr-pas/faq-archeologove.qmd)
 - Návod pro [spolupracovníky](amcr-pas/amater.qmd) a [archeology](amcr-pas/archeolog.qmd)
-- Návod jak provádět [fotografickou dokumentaci nálezů](amcr-pas/foto.qmd)
+
+
+## Tutoriály 
+
+*Tutoriály* dokumentaují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jendotku, nafotit drobný nález apod.
+
+#### Zápis dokumentačních jednotek 
+
+- [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd)
+- [Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace](akce/adb.qmd)
+
+#### AMČR-PAS 
+
+- Jak provádět [fotografickou dokumentaci nálezů](amcr-pas/foto.qmd) pro AMČR-PAS
+
+- [Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu](akce/drobne-akce.qmd)
+
+
+
+
+<!-- ::: {#amcr .column-screen-inset-right}
+::: -->
+
+
+
 
 <!-- ::: {#pas .column-screen-inset-right}
 ::: -->
