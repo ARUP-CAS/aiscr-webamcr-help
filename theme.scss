@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+strong, b {
+  color: $amcr;
+}
+
 /*-- navbar --*/
 .navbar-title {
   font-size: 84%;
@@ -66,8 +70,6 @@ ul.navbar-nav > li > a:focus > span {
 }
 
 /*-- cookie consent --*/
-
-
 .termsfeed-com---palette-light.termsfeed-com---nb {
   background-color: #f8f9fa;
   max-width: 30%;
@@ -86,9 +88,11 @@ ul.navbar-nav > li > a:focus > span {
   background-color: white;
 }
 
-strong, b {
-  color: $amcr;
+.listing-description {
+  color: black;
 }
+
+
   
 /*--.menu-text {
   font-family: 'Proxima Nova', sans-serif;
