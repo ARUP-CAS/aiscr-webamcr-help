@@ -1,5 +1,5 @@
 ---
-title: FAQ -- spolupracovníci
+title: FAQ Spolupracovníci
 subtitle: Často kladené otázky amatérských spolupracovníků a veřejnosti
 toc-depth: 2
 date: 2022-05-03

@@ -1,5 +1,5 @@
 ---
-title: FAQ -- archeologové
+title: FAQ Archeologové
 subtitle: Často kladené otázky archeologů a odborné veřejnosti
 toc-depth: 2
 date: 2021-03-19
@@ -96,4 +96,3 @@ Vzorovou dohodu o spolupráci lze v případě odlišné praxe oprávněné orga
 Spolupracovník musí být schopen se prokázat potvrzením (či průkazkou) o spolupráci. Potvrzení musí umožnit srozumitelně a lehce identifikovat, na jaké území bylo vydáno, komu bylo vydáno (není přenositelné), na jakou dobu bylo vydáno (doporučujeme 1 rok s možností prodloužení). Musí být na něm i přímý (ideálně neustále funkční) kontakt na vydávajícího, resp. na archeologa zodpovědného za provádění průzkumu. Doporučujeme do potvrzení vložit též identifikační číslo spolupracovníka podle AMČR-PAS, neboť jde o nezaměnitelný a kontrolovatelný údaj (např. U-001234).
 
 V současné době není jednotná forma potvrzení (či průkazky), vystaveného oprávněnou organizací, zaváděna. Pouze se požaduje, aby obsahovalo všechny výše uvedené údaje. V počáteční fázi budou sledovány názory a představy zástupců oprávněných organizací a jejich zřizovatelů, zejména krajů. Nelze vyloučit, že některé organizace či kraje mohou preferovat vlastní řešení, včetně snadno identifikovatelné vlastní grafické podoby. V případě zájmu není pro ARÚ/ARÚB problém jednotnou formu průkazky navrhnout a vyrobit, pokud o to jednotlivé organizace či regiony projeví zájem.
-

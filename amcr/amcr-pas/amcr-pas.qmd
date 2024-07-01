@@ -3,24 +3,51 @@ title: AMČR-PAS
 subtitle: Portál amatérských spolupracovníků a evidence samostatných nálezů AMČR
 ---
 
-Sekce k AMČR-PAS obsahuje následující dokumenty:
+## Obsah
 
-- [Často kladené otázky (FAQ)](faq.qmd)
+Sekce k AMČR-PAS obsahuje následující části:
+
+- [Často kladené otázky (FAQ) spolupracovníků](faq-spolupracovnici.qmd)
+- [Často kladené otázky (FAQ) archeologů](faq-archeologove.qmd)
 - [Návod pro spolupracovníky](amater.qmd)
 - [Návod pro archeology](archeolog.qmd)
 - [Fotografická dokumentace nálezů](foto.qmd)
+
+
+## Periodická školení 
+
+Archeologické ústavy AV ČR v Praze a Brně provádějí periodická online školení k systému AMČR-PAS. Registrovat se lze na následujícím [odkazu](https://forms.gle/Hkoygb6GgTueC7HeA){.external}.
+
+Školení se zabývá dvěma oblastmi: 
+
+1. metodika spolupráce a její zákonný rámec, vč. základních pravidel působení hledače v terénu; 
+2. fungování portálu AMČR-PAS a způsob jeho využití z pohledu uživatele. 
+
+Následuje vždy diskuse na základě pokládaných dotazů. Školení je určeno primárně pro širokou veřejnost, vítáni jsou však i odborní pracovníci v archeologii a památkové péči. Přesné datum školení bude stanoveno vždy v několikatýdenním předstihu na základě projeveného zájmu (obvykle ve čtvrtletních až pololetních cyklech). Před setkáním Vám na uvedený email zašleme další informace o tom, jak se k online setkání připojit.
+
+
+## Odkazy 
+
+- Organizace s oprávněním provádět archeologické výzkumy lze snadno vyhledat v [Mapě archeologických organizací](https://oao.aiscr.cz/){.external}.
+- Archivované nálezy lze prohlížet v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external}.
+- Heslář a časové vymezení jednotlivých období je k dispozici v nástroji [PeriodO](http://n2t.net/ark:/99152/p0wctqt){.external}.
+
+### Publikace a články související s AMČR-PAS 
+
+- Souhrnný článek kolektivu autorů AMČR-PAS vyšel v roce 2023 v časopise *Internet Archaeology*, viz [https://doi.org/10.11141/ia.64.13](https://doi.org/10.11141/ia.64.13){.external}.
+
 
 ## Vzorové dokumenty 
 
 ::: {.column-body-outset-right}
 
-| Dokument                                                               | Formát | Datum  aktualizace | Popis dokumentu                                                                    |
-|------------------------------------------------------------------------|--------|--------------------|------------------------------------------------------------------------------------|
-| [Vzor dohody {{< fa file-download >}}](AMCR-PAS_dohoda_vzor.docx)      | DOCX   | 30. 3. 2021        | Vzor dohody o spolupráci mezi oprávněnou organizací a amatérským spolupracovníkem. |
-| [Vzor protokolu {{< fa file-download >}}](AMCR-PAS_protokol_vzor.docx) | DOCX   | 30. 3. 2021        | Vzor protokolu o proškolení spolupracovníka oprávněnou organizací.                 |
-| [Vzor projektu {{< fa file-download >}}](AMCR-PAS_projekt_vzor.docx)   | DOCX   | 22. 3. 2021        | Vzor projektové dokumentace pro přiložení k projektu typu průzkum v AMČR.          |
-| [Vzor NZ {{< fa file-download >}}](AMCR-PAS_NZ_vzor.docx)              | DOCX   | 13. 3. 2023        | Vzor nálezové zprávy pro přiložení k projektu typu průzkum v AMČR.                 |
-| [Příklad NZ {{< fa file-download >}}](AMCR-PAS_NZ_priklad.pdf)         | PDF    | 24. 5. 2023        | Příklad vypracované nálezové zprávy k projektu typu průzkum v AMČR.                |
-| [Grafická měřítka {{< fa file-download >}}](AMCR-PAS_meritka.zip)      | ZIP    | --                 | Grafická měřítka pro focení připravená pro tisk. Při tisku použijte nastavení velikosti stránky “skutečná velikost”, aby velikost měřítka odpovídala skutečnosti. |
+| Dokument | | Formát | Datum  aktualizace | Popis dokumentu |
+|----------|-|--------|--------------------|-----------------|
+| [Vzor dohody](AMCR-PAS_dohoda_vzor.docx) | [{{< fa file-download >}}](AMCR-PAS_dohoda_vzor.docx) | DOCX | 30. 3. 2021 | Vzor dohody o spolupráci mezi oprávněnou organizací a amatérským spolupracovníkem. |
+| [Vzor protokolu](AMCR-PAS_protokol_vzor.docx) | [{{< fa file-download >}}](AMCR-PAS_protokol_vzor.docx) | DOCX | 30. 3. 2021 | Vzor protokolu o proškolení spolupracovníka oprávněnou organizací. |
+| [Vzor projektu](AMCR-PAS_projekt_vzor.docx) | [{{< fa file-download >}}](AMCR-PAS_projekt_vzor.docx) | DOCX | 22. 3. 2021 | Vzor projektové dokumentace pro přiložení k projektu typu průzkum v AMČR. |
+| [Vzor NZ](AMCR-PAS_NZ_vzor.docx) | [{{< fa file-download >}}](AMCR-PAS_NZ_vzor.docx) | DOCX | 13. 3. 2023 | Vzor nálezové zprávy pro přiložení k projektu typu průzkum v AMČR. |
+| [Příklad NZ](AMCR-PAS_NZ_priklad.pdf) | [{{< fa file-download >}}](AMCR-PAS_NZ_priklad.pdf) | PDF | 24. 5. 2023 | Příklad vypracované nálezové zprávy k projektu typu průzkum v AMČR.                |
+| [Grafická měřítka](AMCR-PAS_meritka.zip) | [{{< fa file-download >}}](AMCR-PAS_meritka.zip) | ZIP | -- | Grafická měřítka pro focení připravená pro tisk. Při tisku použijte nastavení velikosti stránky *skutečná velikost*, aby velikost měřítka odpovídala skutečnosti. |
 
 :::
