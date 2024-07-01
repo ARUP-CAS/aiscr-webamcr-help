@@ -1,11 +1,71 @@
 ---
 title: Oznámení záměru
+subtitle: Formulář pro splnění povinnosti oznámit stavební či jiný záměr prováděný na území s archeologickými nálezy dle § 22 odst. zákona č. 20/1987 Sb. o státní památkové péči
+date: 2024-06-28
 ---
 
-<https://amcr-info.aiscr.cz/oznameni/>
+::: {.callout-note}
+
+Oznámení o stavebním či jiném záměru proveďte prostřednictvím formuláře na stránce [**https://amcr.aiscr.cz/oznameni/**](https://amcr.aiscr.cz/oznameni/){.external}.  
+V případě potřeby nás prosím kontaktujte na emailech [oznameni@arup.cas.cz](mailto:oznameni@arup.cas.cz) (Čechy), nebo [oznameni@arub.cz](mailto:oznameni@arub.cz) (Morava a Slezsko).
+
+:::
+
 
 ## Videonávod 
 
-::: {.column-page-right}
-{{< video https://www.youtube.com/embed/PKao-u3rRrU?si=SdbtPwwqgTCZ1PSQ >}}
-:::
+Krátký videonávod ukazuje, jak prostřednictvím formuláře úspěšně odeslat oznámení. 
+*Video nemá zvuk.*
+
+{{< video https://youtu.be/LLWqV9SgeWw?feature=shared >}}
+
+<!-- ::: {.column-page-right}
+{{< video https://youtu.be/LLWqV9SgeWw?feature=shared >}}
+::: -->
+
+
+## Návod 
+
+Pro úspěšné odeslání oznámení o stavebním či jiném záměru na území s archeologickými nálezy, tedy splnění povinností uložených § 22 odst. zákona č. 20/1987 Sb. o státní památkové péči, postupujte dle následujícího návodu.
+
+### Co budete potřebovat
+
+Před samotným vyplněním oznámení se ujistětě, že znáte následující detaily či máte k dispozici patřičné dokumenty:
+
+- [ ] Kontaktní údaje na oznamovatele.
+- [ ] Konkrétní lokalizaci záměru (bod je nutné vybrat z mapy).
+- [ ] Čísla parcel, kterých se záměr bude dotýkat.
+- [ ] Přibližné datum zahájení prací.
+- [ ] Plánovou dokumentaci vymezující rozsah a míru terénního zásahu.
+
+### Postup
+
+#### Údaje o oznamovateli
+
+První část formuláře slouží k vyplnění údajů o oznamovateli. 
+Oznamovatelem nemusí být nutně osoba, která daný stavební či jiný záměr bude vykonávat, ale v případě kolonky **Pověřená osoba oznamovatele** by mělo by jít o někoho, s kým v případě potřeby oprávněná archeologická organizace dohode podmínky provedení archeologického výzkumu.
+
+![](figs/ozn-oznamovatel.png)
+
+#### Charakteristika záměru
+
+V charakteristice záměru je v první řadě nutné **lokalizovat záměr v mapě**.
+Mapové okno lze v případě potřeby zvětšit na celou obrazovku a levým kliknutím přiblížit na požadované místo (případně pomocí tlačítek +/- přiblížit a oddálit).
+Při dostatečnm přiblížení je levým kliknutím zvolen bod lokalizující oznamovaný záměr.
+Vybraný bod je zvýrazněn červeným *špendlíkem* a název katastrálního území je předvyplněn do patřičného pole ve formuláři.
+V mapě lze vyhledávat pomocí lupy dle názvů obcí, katastrálních území a dalších zeměpisných názvů.
+V případě, že záměr protíná více katastrálních území, další katastrální území lze vyplnit do patřičného pole.
+
+![](figs/ozn-zamer.png)
+
+**Rozsah data zahájení prací** je voleno z rozbalovacího kalendáře. 
+Po prvním kliknutí na konkrétní den v kalendáři je zvolen začátek rozsahu zahájení záměru, druhým kliknutím zvolíte konec daného rozsahu.
+Tak je možné označit celý měsíc, kdy může k začátku prací na oznamovaném záměru dojít, případně i delší časové období.
+
+![](figs/ozn-zahajeni.png)
+
+#### Souhlas s podmínkami o zpracování osobních údajů
+
+Nezapomeňte potvrdit souhlas se zpracováním osobních údajů, bez něj nelze v oznámení záměr upokračovat na další krok, ve kterém bude nahrána projektová dokumentace. 
+
+#### Projektová dokumentace 
