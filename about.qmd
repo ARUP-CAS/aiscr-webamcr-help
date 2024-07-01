@@ -1,8 +1,8 @@
 ---
 about:
   template: solana
-  image: "figs/logo-aiscr-ver.png"
-  image-width: "160px"
+  # image: "figs/logo-aiscr-ver.png"
+  # image-width: "160px"
   links:
     - text: Zenodo
       href: https://zenodo.org/communities/aiscr/
@@ -20,13 +20,11 @@ about:
       href: https://www.youtube.com/@aiscr253
 toc: false
 format-links: false
+repo-actions: false
 ---
 
-Archeologická mapa České republiky ([AMČR](https://amcr-info.aiscr.cz/){.external}) je součástí 
-Archeologického informačního systému České republiky ([AIS CR](https://aiscr.cz/){.external}).
-
-Infrastruktura je společně provozována Archeologickými ústavy Akademie věd České republiky 
-v [Praze](https://arup.cas.cz){.external} a [Brně](https://arub.cz/){.external}.
+Archeologická mapa České republiky ([AMČR](https://amcr-info.aiscr.cz/){.external}) je součástí Archeologického informačního systému České republiky ([AIS CR](https://aiscr.cz/){.external}).  
+Infrastruktura je společně provozována Archeologickými ústavy Akademie věd České republiky v [Praze](https://arup.cas.cz){.external} a [Brně](https://arub.cz/){.external}.
 
 
 ## Kontakty

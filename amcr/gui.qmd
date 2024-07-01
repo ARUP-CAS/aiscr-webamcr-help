@@ -1,0 +1,11 @@
+---
+title: Webová aplikace
+subtitle: Obecný popis vzhledu a fungování webové aplikace AMČR
+date: 2024-07-01
+---
+
+::: {.callout-note}
+
+Poznámka...
+
+:::

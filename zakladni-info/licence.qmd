@@ -1,5 +1,7 @@
 ---
-title: "Licence"
+title: Licence
+format-links: false
+repo-actions: false
 ---
 
 Veškerý obsah na těchto stránkách podléhá licenci [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external}.
@@ -17,4 +19,3 @@ Jelikož jsme však tyto informace povinni ze zákona vykazovat, chtěli bychom 
 - v konkrétních výstupech vždy obvyklým způsobem uvést, že k jejich tvorbě byla využita infrastruktura AIS CR s odkazem na využitá data či nástroj;
 - pokud zadává informace o výstupech do [Rejstříku informací o výsledcích - RIV](https://www.isvavai.cz/riv){.external} (např. na pracovištích AV ČR prostřednictvím databáze [ASEP](https://asep-portal.lib.cas.cz/){.external}), vybrat návaznost výsledku na infrastrukturu AIS CR v poli VVI (Velké výzkumné infrastruktury) z nabízeného číselníku projektů podpory velkých výzkumných infrastruktur;
 - dát nám laskavě vědět prostřednictvím tohoto dotazníku -- [https://www.aiscr.cz/vystupy](https://www.aiscr.cz/vystupy){.external}, že výstup byl publikován.
-
