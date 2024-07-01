@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.4.557">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -165,7 +165,7 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -246,7 +246,7 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./zpravodaj/zpravodaj.html"> 
-<span class="menu-text">Zpravodaje</span></a>
+<span class="menu-text">Zpravodaj</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -301,12 +301,6 @@ window.Quarto = {
  <span class="menu-text">Historie</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./zakladni-info/licence.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Licence</span></a>
-  </div>
-</li>
     </ul>
     </div>
 <div class="quarto-sidebar-footer"><div class="sidebar-footer-item">
@@ -322,7 +316,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Úvod</h1>
-<p class="subtitle lead">Vítejte na stránkách Uživatelské dokumentace AMČR!</p>
+<p class="subtitle lead">Vítejte na stránkách uživatelské dokumentace AMČR!</p>
 </div>
 
 
@@ -347,26 +341,15 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </header>
 
 
-<div class="callout callout-style-simple callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR.</p>
-<p>Původní platnou nápovědu a dokumentaci AMČR najdete na stránkách <a href="https://amcr-info.aiscr.cz/help">https://amcr-info.aiscr.cz/help</a>.</p>
-</div>
-</div>
-<p>Uživatelská dokumentace AMČR je členěna do několika úrovní:</p>
-<ul>
-<li>Na <a href="./index.html">úvodní stránce</a> najdete <a href="./zakladni-info/zakladni-info.html">základní informace</a> o celém systému, informace o <a href="./zakladni-info/licence.html">licencích</a>, nápovědu k <a href="./zakladni-info/ucty.html">uživatelským účtům</a> a stručný souhrn <a href="./zakladni-info/historie.html">historie</a>.</li>
-<li>V sekci <a href="./o-systemu/architektura.html">O systému</a> je rámcově popsán používaný datový model a struktura systému.</li>
-<li>Následují manuály pro jednotlivé součásti AMČR – <a href="manualy/manualy.qmd">webovou aplikaci</a>, <a href="manualy/digiarchiv/digiarchiv.qmd">Digitální archiv</a> a <a href="manualy/api/api.qmd">API</a>.</li>
-</ul>
+<!-- ::: {.callout-important}
+
+## Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!
+
+Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR.
+
+Původní platnou nápovědu a dokumentaci AMČR najdete na stránkách [https://amcr-info.aiscr.cz/help](https://amcr-info.aiscr.cz/help).
+
+::: -->
 <div id="listing-soucasti" class="column-screen-inset-right quarto-listing quarto-listing-container-custom">
 
 <div class="list grid quarto-listing-cols-5" "="">
@@ -464,21 +447,33 @@ for Metadata Harvesting (OAI-PMH).
 Žádné nalezené výsledky
 </div>
 </div>
-<section id="odkazy-na-služby-ais-cr" class="level2">
-<h2 class="anchored" data-anchor-id="odkazy-na-služby-ais-cr">Odkazy na služby AIS CR</h2>
-<p><a href="https://amcr-info.aiscr.cz/" class="external">Archeologická mapa České republiky (AMČR)</a> je sočástí <a href="https://aiscr.cz/" class="external">Archeologického informačního systému České republiky (AIS CR)</a>.</p>
+<p>Uživatelská dokumentace AMČR je členěna do několika úrovní:</p>
 <ul>
-<li><strong>Úvodní stránku k AMČR</strong> najdete na odkaze <a href="https://amcr-info.aiscr.cz" class="external">https://amcr-info.aiscr.cz</a>.</li>
-<li>Do <strong>webové aplikace AMČR</strong> vstoupíte zde <a href="https://amcr.aiscr.cz/" class="external">https://amcr.aiscr.cz/</a>.</li>
-<li><strong>Digitální archiv AMČR</strong> najdete na odkaze <a href="https://digiarchiv.aiscr.cz/" class="external">https://digiarchiv.aiscr.cz/</a>.</li>
-<li>Stránky <strong>AIS CR</strong> s odkazy na další služby a součásti systému najdete zde: <a href="https://aiscr.cz/" class="external">https://aiscr.cz/</a>.</li>
+<li>Na <a href="./index.html">úvodní stránce</a> najdete <a href="./zakladni-info/zakladni-info.html">základní informace</a> o celém systému, nápovědu k <a href="./zakladni-info/ucty.html">uživatelským účtům</a> a stručný souhrn <a href="./zakladni-info/historie.html">historie</a>.</li>
+<li>V sekci <a href="./o-systemu/architektura.html">O systému</a> je rámcově popsán používaný datový model a struktura systému, řízené slovníky apod.;</li>
+<li>Následují sekce pro jednotlivé součásti AMČR:
+<ul>
+<li><a href="./amcr/amcr.html">webovou aplikaci AMČR</a> jako hlavní rozhraní pro práci s daty AMČR;</li>
+<li><a href="./digiarchiv/digiarchiv.html">Digitální archiv AMČR</a>, který slouží k prohlížení a vyhledávání v AMČR;</li>
+<li>a <a href="./api/api.html">API</a>, které prostřednictvím protokolu OAI-PMH umožňuje hromadné sklízení dat AMČR.</li>
+</ul></li>
+<li>Sekce <a href="./zpravodaj/zpravodaj.html">Zpravodaj</a> pak obsahuje jednotlivá vydání občasníku určeného uživatelům AMČR.</li>
+</ul>
+<section id="služby-ais-cr" class="level2">
+<h2 class="anchored" data-anchor-id="služby-ais-cr">Služby AIS CR</h2>
+<p><a href="https://amcr-info.aiscr.cz/" class="external">Archeologická mapa České republiky (AMČR)</a> je páteřní součástí velké výzkumné infrastruktury <a href="https://aiscr.cz/" class="external">Archeologický informační systém České republiky (AIS CR)</a>.</p>
+<ul>
+<li><strong>Úvodní stránku k AMČR</strong> najdete na odkaze <a href="https://amcr-info.aiscr.cz" class="external"><strong>https://amcr-info.aiscr.cz</strong></a>.</li>
+<li>Do <strong>webové aplikace AMČR</strong> vstoupíte zde <a href="https://amcr.aiscr.cz/" class="external"><strong>https://amcr.aiscr.cz/</strong></a>.</li>
+<li><strong>Digitální archiv AMČR</strong> najdete na odkaze <a href="https://digiarchiv.aiscr.cz/" class="external"><strong>https://digiarchiv.aiscr.cz/</strong></a>.</li>
+<li>Stránky infrastruktury <strong>AIS CR</strong> s odkazy na další služby a součásti systému najdete zde: <a href="https://aiscr.cz/" class="external"><strong>https://aiscr.cz/</strong></a>.</li>
 </ul>
 </section>
 <section id="jak-citovat" class="level2">
 <h2 class="anchored" data-anchor-id="jak-citovat">Jak citovat</h2>
 <p>Citujte jako (…)</p>
 <div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -487,7 +482,7 @@ Jak upravovat
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Pro úpravy stačí kliknout na <em>Edit this page</em> v pravo pod navigací. Odkaz vede do <a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/">GitHub</a> repozitáře přímo na daný dokument, který lze rovnou upravovat (mám-li dostatečná práva). Při <strong>commitu</strong> se spustí akce, která celou stránku aktalizuje a nasadí (při větším množství úprav je tedy rozumné upravovat lokálně a <strong>push</strong> používat jen při ukončení práce, je to sice cizí výpočetní síla a nic nás nestojí, ale nemusí běžet zbytečně).</p>
 <p>Návod ke Quarto je zde: <a href="https://quarto.org/" class="uri">https://quarto.org/</a>.</p>
