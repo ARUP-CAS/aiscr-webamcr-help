@@ -1,0 +1,7 @@
+---
+title: 404 Page not found!
+subtitle: Stránka, kterou hledáte, momentálně není k dispozici.
+format-links: false
+---
+
+Vraťte se zpět na [**úvodní stránku**](index.qmd), případně zkuste štěstí v hledání pomocí lupy vpravo nahoře.
