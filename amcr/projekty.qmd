@@ -1,6 +1,58 @@
 ---
 title: Správa projektů
+# subtitle: 
+date: 2024-07-01
 ---
+
+**Projekt** je základní evidenční jednotkou terénní činnosti badatelského nebo záchranného rázu. 
+Jejich správa probíhá v AMČR v sekci [Projekty](https://amcr.aiscr.cz/projekt/){.external}. 
+Zde je možné projekty zapisovat a k již existujícím projektům doplňovat informace a posouvat je jednotlivými procesními stavy.
+
+Správu projektů mohou provádět pouze uživatelé s oprávněním [Archeolog](/o-systemu/role.qmd), tedy registrovaní archeologové z [oprávněných organizací](/o-systemu/pojmy.qmd#oprávněná-archeologická-organizace).
+
+## Videonávod
+
+Tady bude videonávod, až bude hotový :)
+
+## Návod 
+
+::: {.column-page}
+
+![](figs/proj-stavy.png)
+
+:::
+
+### Klíčové procesní stavy projektů
+
+#### Zápis projektu
+Projekt jako záznam v AMČR je zakládán zpravidla v okamžiku, kdy je některému z archeologických ústavů AV ČR či jiné oprávněné organizaci v intencích památkového či stavebního zákona oznámeno, že má dojít k terénnímu zásahu, který vyžaduje archeologický terénní zásah, nebo že již přímo došlo k porušení archeologických terénů. 
+V této fázi je definován zejména osobou investora nebo oznamovatele, územním vymezením (slovním, administrativním a lokalizací v mapě), základní slovní charakteristikou předpokládaného terénního zásahu a předpokládaným zahájením terénních prací. 
+V této fázi není tento tzv. Zapsaný projekt ještě přidělen žádné oprávněné organizaci k provedení archeologického výzkumu a je tedy všem uživatelům s oprávněním Archeolog přístupný k prohlédnutí, ale i k registraci pro provedení archeologického terénního výzkumu. 
+Zvláštním typem projektu je projekt “badatelský”, který je vyvolán cíleným vědeckým záměrem, a nikoliv plánovaným terénním zásahem třetí strany. 
+Druhým zvláštním typem projektu je projekt typu “průzkum”, který je opět vyvolán cíleným vědeckým záměrem a zpravidla jej definuje plánovaná dlouhodobost nebo velký územní rozsah, ale metodologicky jde o archeologický výzkum nedestruktivní nebo málo destruktivní, tedy s minimálním zásahem do terénu.
+
+#### Přihlášení projektu 
+V okamžiku, kdy oprávněná organizace uzavře dohodu s investorem o provedení archeologického výzkumu, může její pověřený pracovník projekt přihlásit, tj. provést změnu jeho stavu na tzv. Přihlášený projekt. Tímto krokem se příslušná oprávněná organizace stává „správcem záznamu“ a doplňuje k němu další údaje v rámci vlastního projektu i v rámci k němu připojené projektové akce (údaje o odpovědných pracovnících, má možnost k záznamu připojit soubory, jako např. odborný záměr výzkumu, relevantní části stavební dokumentace či dohodu s investorem).
+V případě badatelských projektů se postupuje obdobným způsobem, z logiky věci však odpadá identifikace investora a naopak zde přibývá dokumentace nezbytná pro povolení badatelského výzkumu autoritami na poli archeologické památkové péče.
+Po přihlášení projektu je jeho editace možná pouze pro příslušnou oprávněnou organizaci případně pro administrátory systému. Přihlášené projekty v různých stavech rozpracování je možné vyhledat v sekci Naše projekty.
+Pro přihlášení projektu je třeba vyplnit povinné informace, konkrétně odpovědnou osobu přihlašované organizace a úroveň památkové ochrany území, na kterém je projekt lokalizován.
+
+#### Zahájení terénu
+U projektů, u kterých dojde k zahájení terénní činnosti zaznamená pracovník oprávněné organizace neprodleně datum zahájení a převede tak projekt do stavu Zahájen v terénu, ve kterém zůstává až do ukončení terénních prací. 
+Tento krok je zároveň podle “Dohody o využívání AMČR” považován za splnění povinnosti oprávněné archeologické organizace oznámit zahájení archeologické akce Archeologickému ústavu AV ČR.
+
+#### Ukončení terénu
+Po ukončení terénní části projektu zaznamená odpovědný pracovník oprávněné organizace opět toto datum do systému a převede tak projekt do stavu Ukončen v terénu. Ukončením terénních prací začíná v AMČR běžet systémová lhůta pro podání informací o výsledcích výzkumu, která trvá 3 roky.
+
+#### Správa akcí
+Terénní část archeologického výzkumu se realizuje formou archeologických akcí (v rámci projektu zpravidla jedné, ale může jich být i více), o nichž je po ukončení terénní části nutno v zákonné lhůtě podat nálezovou zprávu doplněnou o základní strukturovaný popis terénního výzkumu (Zprávu o archeologické akci). 
+
+#### Uzavření projektu
+V okamžiku, kdy jsou všechny odborné informace a související dokumenty prostřednictvím aplikace AMCR podány, uživatel projekt uzavře. Pracovníci ARÚP či ARÚB pak provedou věcnou i formální kontrolu předložených informací a dokumentů, na jejímž základě mohou hlášení o akci, nálezovou zprávu či celý záznam o projektu vrátit k dopracování, nebo prohlásí projekt a záznamy o jeho odborných výsledcích – archeologických akcích za archivovaný projekt a archivované akce. Poté dochází k jejich zveřejnění v systému AMČR pro další uživatele.
+Navržení ke zrušení
+Některé ze zapsaných či přihlášených projektů nemusí být realizovány, neboť stavebník může od realizace projektu odstoupit či změní jeho parametry tak, že archeologický zásah nadále není zapotřebí nebo z jiného důvodu není terénní výzkum proveden. V tom případě může každá oprávněná organizace navrhnout, s patřičným odůvodněním, zapsaný či přihlášený projekt ke zrušení, které provede příslušný administrátor z ARÚP či ARÚB. Stejným způsobem může oprávněná organizace upozornit na změnu provádějící oprávněné organizace u konkrétního projektu.
+
+
 
 ## Zapsat projekt
 
