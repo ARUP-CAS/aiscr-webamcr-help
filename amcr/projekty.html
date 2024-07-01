@@ -103,9 +103,10 @@ cookieconsent.run({
 
 
 <link rel="stylesheet" href="../museo.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -170,7 +171,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/projekty.html">Správa projektů</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/gui.html">Návody</a></li><li class="breadcrumb-item"><a href="../amcr/projekty.html">Správa projektů</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -179,33 +180,22 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
-<p><a href="https://amcr-info.aiscr.cz/"><img src="../figs/logo-amcr-hor.png" class="img-fluid"></a></p>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
+<p><a href="../amcr/amcr.html"><img src="../figs/logo-amcr-hor.png" class="img-fluid"></a></p>
 </div></div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amcr/amcr.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">AMČR</span></a>
+ <span class="menu-text">Úvod</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../amcr/oznameni.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Oznámení záměru</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../amcr/projekty.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Správa projektů</span></a>
-  </div>
-</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../amcr/akce/akce.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Správa akcí</span></a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Návody</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -213,33 +203,35 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../amcr/akce/dj.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Zápis dok. jednotek</span></a>
+  <a href="../amcr/gui.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Webová aplikace</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../amcr/akce/drobne-akce.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Akce drobného rozsahu</span></a>
+  <a href="../amcr/oznameni.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Oznámení záměru</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../amcr/akce/adb.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Zápis ADB</span></a>
+  <a href="../amcr/projekty.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Správa projektů</span></a>
   </div>
 </li>
-      </ul>
+          <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Správa akcí</span></span>
   </li>
-        <li class="sidebar-item sidebar-item-section">
+          <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../amcr/amcr-pas/amcr-pas.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">AMČR-PAS</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Přepnout sekci">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amcr/amcr-pas/faq-spolupracovnici.html" class="sidebar-item-text sidebar-link">
@@ -264,10 +256,48 @@ cookieconsent.run({
  <span class="menu-text">Návod pro archeology</span></a>
   </div>
 </li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amcr/mapa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mapové rozhraní</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Tutoriály</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Přepnout sekci">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amcr/amcr-pas/foto.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fotografická dokumentace nálezů</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amcr/akce/dj.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zápis dok. jednotek</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amcr/akce/drobne-akce.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Akce drobného rozsahu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amcr/akce/adb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zápis ADB</span></a>
   </div>
 </li>
       </ul>
@@ -285,7 +315,20 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
     <h2 id="toc-title">Na této stránce…</h2>
    
   <ul>
-  <li><a href="#zapsat-projekt" id="toc-zapsat-projekt" class="nav-link active" data-scroll-target="#zapsat-projekt">Zapsat projekt</a></li>
+  <li><a href="#videonávod" id="toc-videonávod" class="nav-link active" data-scroll-target="#videonávod">Videonávod</a></li>
+  <li><a href="#návod" id="toc-návod" class="nav-link" data-scroll-target="#návod">Návod</a>
+  <ul>
+  <li><a href="#klíčové-procesní-stavy-projektů" id="toc-klíčové-procesní-stavy-projektů" class="nav-link" data-scroll-target="#klíčové-procesní-stavy-projektů">Klíčové procesní stavy projektů</a>
+  <ul class="collapse">
+  <li><a href="#zápis-projektu" id="toc-zápis-projektu" class="nav-link" data-scroll-target="#zápis-projektu">Zápis projektu</a></li>
+  <li><a href="#přihlášení-projektu" id="toc-přihlášení-projektu" class="nav-link" data-scroll-target="#přihlášení-projektu">Přihlášení projektu</a></li>
+  <li><a href="#zahájení-terénu" id="toc-zahájení-terénu" class="nav-link" data-scroll-target="#zahájení-terénu">Zahájení terénu</a></li>
+  <li><a href="#ukončení-terénu" id="toc-ukončení-terénu" class="nav-link" data-scroll-target="#ukončení-terénu">Ukončení terénu</a></li>
+  <li><a href="#správa-akcí" id="toc-správa-akcí" class="nav-link" data-scroll-target="#správa-akcí">Správa akcí</a></li>
+  <li><a href="#uzavření-projektu" id="toc-uzavření-projektu" class="nav-link" data-scroll-target="#uzavření-projektu">Uzavření projektu</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#zapsat-projekt" id="toc-zapsat-projekt" class="nav-link" data-scroll-target="#zapsat-projekt">Zapsat projekt</a></li>
   <li><a href="#přihlásit-projekt" id="toc-přihlásit-projekt" class="nav-link" data-scroll-target="#přihlásit-projekt">Přihlásit projekt</a></li>
   <li><a href="#zahájit-terén" id="toc-zahájit-terén" class="nav-link" data-scroll-target="#zahájit-terén">Zahájit terén</a></li>
   <li><a href="#ukončit-terén" id="toc-ukončit-terén" class="nav-link" data-scroll-target="#ukončit-terén">Ukončit terén</a></li>
@@ -293,12 +336,12 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
   <li><a href="#uzavřít-projekt" id="toc-uzavřít-projekt" class="nav-link" data-scroll-target="#uzavřít-projekt">Uzavřít projekt</a></li>
   <li><a href="#vybrat-projekt" id="toc-vybrat-projekt" class="nav-link" data-scroll-target="#vybrat-projekt">Vybrat projekt</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Stáhnout...</h2><ul><li><a href="projekty.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="projekty.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/amcr/projekty.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/amcr/projekty.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div><div class="quarto-alternate-formats"><h2>Stáhnout...</h2><ul><li><a href="projekty.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="projekty.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/gui.html">Návody</a></li><li class="breadcrumb-item"><a href="../amcr/projekty.html">Správa projektů</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Správa projektů</h1>
 </div>
@@ -308,6 +351,12 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Publikováno</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">1. července 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -317,6 +366,45 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </header>
 
 
+<p><strong>Projekt</strong> je základní evidenční jednotkou terénní činnosti badatelského nebo záchranného rázu. Jejich správa probíhá v AMČR v sekci <a href="https://amcr.aiscr.cz/projekt/" class="external">Projekty</a>. Zde je možné projekty zapisovat a k již existujícím projektům doplňovat informace a posouvat je jednotlivými procesními stavy.</p>
+<p>Správu projektů mohou provádět pouze uživatelé s oprávněním <a href="../o-systemu/role.html">Archeolog</a>, tedy registrovaní archeologové z <a href="../o-systemu/pojmy.html#oprávněná-archeologická-organizace">oprávněných organizací</a>.</p>
+<section id="videonávod" class="level2">
+<h2 class="anchored" data-anchor-id="videonávod">Videonávod</h2>
+<p>Tady bude videonávod, až bude hotový :)</p>
+</section>
+<section id="návod" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="návod">Návod</h2>
+<div class="column-page">
+<p><img src="figs/proj-stavy.png" class="img-fluid"></p>
+</div>
+<section id="klíčové-procesní-stavy-projektů" class="level3">
+<h3 class="anchored" data-anchor-id="klíčové-procesní-stavy-projektů">Klíčové procesní stavy projektů</h3>
+<section id="zápis-projektu" class="level4">
+<h4 class="anchored" data-anchor-id="zápis-projektu">Zápis projektu</h4>
+<p>Projekt jako záznam v AMČR je zakládán zpravidla v okamžiku, kdy je některému z archeologických ústavů AV ČR či jiné oprávněné organizaci v intencích památkového či stavebního zákona oznámeno, že má dojít k terénnímu zásahu, který vyžaduje archeologický terénní zásah, nebo že již přímo došlo k porušení archeologických terénů. V této fázi je definován zejména osobou investora nebo oznamovatele, územním vymezením (slovním, administrativním a lokalizací v mapě), základní slovní charakteristikou předpokládaného terénního zásahu a předpokládaným zahájením terénních prací. V této fázi není tento tzv. Zapsaný projekt ještě přidělen žádné oprávněné organizaci k provedení archeologického výzkumu a je tedy všem uživatelům s oprávněním Archeolog přístupný k prohlédnutí, ale i k registraci pro provedení archeologického terénního výzkumu. Zvláštním typem projektu je projekt “badatelský”, který je vyvolán cíleným vědeckým záměrem, a nikoliv plánovaným terénním zásahem třetí strany. Druhým zvláštním typem projektu je projekt typu “průzkum”, který je opět vyvolán cíleným vědeckým záměrem a zpravidla jej definuje plánovaná dlouhodobost nebo velký územní rozsah, ale metodologicky jde o archeologický výzkum nedestruktivní nebo málo destruktivní, tedy s minimálním zásahem do terénu.</p>
+</section>
+<section id="přihlášení-projektu" class="level4">
+<h4 class="anchored" data-anchor-id="přihlášení-projektu">Přihlášení projektu</h4>
+<p>V okamžiku, kdy oprávněná organizace uzavře dohodu s investorem o provedení archeologického výzkumu, může její pověřený pracovník projekt přihlásit, tj. provést změnu jeho stavu na tzv. Přihlášený projekt. Tímto krokem se příslušná oprávněná organizace stává „správcem záznamu“ a doplňuje k němu další údaje v rámci vlastního projektu i v rámci k němu připojené projektové akce (údaje o odpovědných pracovnících, má možnost k záznamu připojit soubory, jako např. odborný záměr výzkumu, relevantní části stavební dokumentace či dohodu s investorem). V případě badatelských projektů se postupuje obdobným způsobem, z logiky věci však odpadá identifikace investora a naopak zde přibývá dokumentace nezbytná pro povolení badatelského výzkumu autoritami na poli archeologické památkové péče. Po přihlášení projektu je jeho editace možná pouze pro příslušnou oprávněnou organizaci případně pro administrátory systému. Přihlášené projekty v různých stavech rozpracování je možné vyhledat v sekci Naše projekty. Pro přihlášení projektu je třeba vyplnit povinné informace, konkrétně odpovědnou osobu přihlašované organizace a úroveň památkové ochrany území, na kterém je projekt lokalizován.</p>
+</section>
+<section id="zahájení-terénu" class="level4">
+<h4 class="anchored" data-anchor-id="zahájení-terénu">Zahájení terénu</h4>
+<p>U projektů, u kterých dojde k zahájení terénní činnosti zaznamená pracovník oprávněné organizace neprodleně datum zahájení a převede tak projekt do stavu Zahájen v terénu, ve kterém zůstává až do ukončení terénních prací. Tento krok je zároveň podle “Dohody o využívání AMČR” považován za splnění povinnosti oprávněné archeologické organizace oznámit zahájení archeologické akce Archeologickému ústavu AV ČR.</p>
+</section>
+<section id="ukončení-terénu" class="level4">
+<h4 class="anchored" data-anchor-id="ukončení-terénu">Ukončení terénu</h4>
+<p>Po ukončení terénní části projektu zaznamená odpovědný pracovník oprávněné organizace opět toto datum do systému a převede tak projekt do stavu Ukončen v terénu. Ukončením terénních prací začíná v AMČR běžet systémová lhůta pro podání informací o výsledcích výzkumu, která trvá 3 roky.</p>
+</section>
+<section id="správa-akcí" class="level4">
+<h4 class="anchored" data-anchor-id="správa-akcí">Správa akcí</h4>
+<p>Terénní část archeologického výzkumu se realizuje formou archeologických akcí (v rámci projektu zpravidla jedné, ale může jich být i více), o nichž je po ukončení terénní části nutno v zákonné lhůtě podat nálezovou zprávu doplněnou o základní strukturovaný popis terénního výzkumu (Zprávu o archeologické akci).</p>
+</section>
+<section id="uzavření-projektu" class="level4">
+<h4 class="anchored" data-anchor-id="uzavření-projektu">Uzavření projektu</h4>
+<p>V okamžiku, kdy jsou všechny odborné informace a související dokumenty prostřednictvím aplikace AMCR podány, uživatel projekt uzavře. Pracovníci ARÚP či ARÚB pak provedou věcnou i formální kontrolu předložených informací a dokumentů, na jejímž základě mohou hlášení o akci, nálezovou zprávu či celý záznam o projektu vrátit k dopracování, nebo prohlásí projekt a záznamy o jeho odborných výsledcích – archeologických akcích za archivovaný projekt a archivované akce. Poté dochází k jejich zveřejnění v systému AMČR pro další uživatele. Navržení ke zrušení Některé ze zapsaných či přihlášených projektů nemusí být realizovány, neboť stavebník může od realizace projektu odstoupit či změní jeho parametry tak, že archeologický zásah nadále není zapotřebí nebo z jiného důvodu není terénní výzkum proveden. V tom případě může každá oprávněná organizace navrhnout, s patřičným odůvodněním, zapsaný či přihlášený projekt ke zrušení, které provede příslušný administrátor z ARÚP či ARÚB. Stejným způsobem může oprávněná organizace upozornit na změnu provádějící oprávněné organizace u konkrétního projektu.</p>
+</section>
+</section>
+</section>
 <section id="zapsat-projekt" class="level2">
 <h2 class="anchored" data-anchor-id="zapsat-projekt">Zapsat projekt</h2>
 </section>
@@ -780,7 +868,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
-</div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/amcr/projekty.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/amcr/projekty.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

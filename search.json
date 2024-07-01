@@ -123,7 +123,7 @@
     "text": "Manuál je platný pro verzi aplikace v2.1.1 a novější, viz Changelog.",
     "crumbs": [
       "Digitální archiv AMČR",
-      "Manuál",
+      "Návody",
       "Digitální archiv AMČR"
     ]
   },
@@ -135,7 +135,7 @@
     "text": "Homepage\nÚvodní stránka Digitálního archivu AMČR slouží jako rozcestník, kde uživatel nalezne základní informace o webu, sekci s aktualitami, a také ovládací prvky pro zobrazení dat a pro přihlášení registrovaného uživatele.\n\n\n\n\n\n\nObr. 1\n\n\n\nV horní části stránky se nachází panel ovládacích prvků s tlačítky:\n\n Home – návrat na hlavní stránku;\n Nápověda – otevře tuto nápovědu;\n Přihlásit uživatele – registrovaní uživatelé se zde mohou přihlásit a získají tak přístup ke všem datům, podle své. uživatelské role;\n Registrovat uživatele – neregistrovaní uživatelé zde mohou provést registraci;\nEnglish – přepnout do anglické verze webu.\n\n\nUživatelské účty\nRegistrovaní uživatelé se mohou přihlásit svým uživatelským jménem a heslem; údaje jsou shodné jako při užití aplikace AMČR. Neregistrovaní uživatelé se mohou registrovat kliknutím na možnost Registrovat uživatele, která otevře stránku s registračním formulářem.\nPři registraci je nutné vyplnit jméno a příjmení uživatele, kontaktní informace, případně organizaci pod kterou uživatel náleží. Uživatel nemusí spadat pod žádnou organizaci a může vystupovat např. jako samostatný badatel či neuvádět příslušnost k organizaci. Při registraci uživatel také nastaví heslo pro přihlášení do systému. Všichni uživatelé vystupují v AMČR/Digitálním archivu pod svými skutečnými jmény, a je tedy třeba zadat jejich plné znění, a to včetně diakritiky (nikoliv např. přezdívku). Následně nový uživatel obdrží na uvedený e-mail ověřovací zprávu, ve které je třeba kliknout na zaslaný odkaz, a ověřit tak správnost registrace. Tímto vzniká uživatelský účet, který je z počátku neaktivní. Systém poté automaticky kontaktujte správce systému, který po kontrole údajů účet aktivuje a přidělí mu uživatelskou roli (děje se tak obvykle v běžné pracovní době). Po aktivaci obdrží uživatel informační e-mail a následně se může přihlásit.\nNa následujícím odkazu Vám poskytujeme informace o zpracování osobních údajů registrovaných uživatelů.\n\n\nPřístupnost záznamů\nKaždý záznam v Digitálním archivu AMČR je označen v poli přístupnost odpovídající hodnotou podle toho, která skupina uživatelů může k datům přistupovat. Uživatelé vystupují v různých uživatelských rolích, podle přidělené úrovně oprávnění. Všichni uživatelé mají přístup k datům své úrovně a ke všem datům úrovní nižších. Neregistrovaní uživatelé vystupují s uživatelskou rolí Anonym (A) a mají přístup pouze k datům, která nejsou nijak chráněna. Všichni registrovaní uživatelé, kteří nespadají do kategorií s vyšším oprávněním, vystupují v uživatelské roli Badatel (B). Archeologové, kteří jsou autorizovanými členy organizací oprávněných k archeologickému výzkumu, vystupují v uživatelské roli Archeolog (C). V uživatelské roli Archivář (D) vystupují obvykle pracovníci Archeologických ústavů AV ČR.\nPřístupnost jednotlivých typů záznamů ovlivňuje informace, které jsou viditelné pro uživatele s rozdílnými uživatelskými rolemi. Pro ty záznamy, které mají přístupnost vyšší, než kterou daný uživatel disponuje, se zobrazí jen některé informace. Oprávnění na úrovni archeolog (C) dovoluje prohlížet záznamy vlastní instituce i v případech, kdy ostatním archeologům nejsou přístupné.\nOmezená přístupnost pro jednotlivé typy záznamů znamená:\n\nDokumenty – není možné stahovat sobory ani prohlížet jejich náhledy.\nProjekty, Akce, Lokality – zobrazuje se jen základní popis bez podrobností a údajů o lokalizaci, nejde otevřít detail záznamu a záznamy nejsou viditelné v mapě.\nSamostatné nálezy – jsou skryty lokalizační údaje a lokalizace je zobrazována na úrovni okresu, záznamy nejsou viditelné v mapě.\nKnihovna 3D – bez omezení.\n\n\n\nFulltextové vyhledávání\nPro fulltextové vyhledávání lze použít pole  Zadejte vyhledávácí dotaz.\nDotaz v tomto poli hledá výskyt jednotlivých slov (tokenů). Za oddělovač slov je považována vždy pouze mezera. Pro vyhledávání víceslovných výrazů, použijte uvozovky (např. „Palackého náměstí“). Lze využít hvězdičku jako zástupný znak pro libovolný řetězec (např. Roz*ky) a otazník jako zástupný znak pro právě jeden jiný znak (např. Roz??ky). Bližší popis chování vyhledávacího pole naleznete zde (využívání zástupných znaků) a zde (práce se speciálními znaky). Vyhledávací pole prohledává všechny popisné údaje v záznamech, nikoli však obsah jednotlivých textových dokumentů.\n\n\nPřechod do mapového okna\nTlačítko  Otevřít mapu slouží pro přesun do mapového okna. Práce v mapovém okně je podrobněji popsána níže.\n\n\nTypy záznamů\nZáznamy v Digitálním archivu AMČR jsou rozděleny do šesti základních typů. Dokumenty se dále dělí na pět podtypů. Pro každý typ záznamu je uveden jejich počet v Digitálním archivu. Kliknutím na položku přejdete na stránku s výsledky.\n\n\n\n\n\n\nObr. 2",
     "crumbs": [
       "Digitální archiv AMČR",
-      "Manuál",
+      "Návody",
       "Digitální archiv AMČR"
     ]
   },
@@ -147,7 +147,7 @@
     "text": "Stránka s výsledky\nPo zvolení typu záznamu nebo použití vyhledávání na úvodní stránce se uživatel dostane na stránku s výsledky, kde je možné záznamy zobrazit a filtrovat. Filtry lze aplikovat na všechny typy záznamů průřezově, pokud jsou data pro zvolené záznamy dostupná. Zvolený typ záznamu určuje, jaké výsledky se zobrazují. I zde lze použít pole pro fulltextové vyhledávání či se přepnout do mapového okna (viz výše).\n Na stránce s výsledky se po levé straně nachází facety s filtry pro přesnou specifikaci hledaných záznamů. V horní části panelu jsou zobrazeny typy záznamů a v závorce uvedený počet výsledků podle zadaného dotazu (bez aplikace filtru se zobrazuje celkový počet záznamů daného typu). Mezi typy záznamů lze libovolně přepínat a výsledky se zobrazí v okně výsledků v pravé části stránky.\nV záhlaví části s výsledky jsou umístěna ovládací tlačítka pro volbu způsobu jejich zobrazení. Výsledky lze zobrazit buď v  Plném zobrazení (titulek, náhled, popis), jako  Galerii (pouze náhledy), či v  Řádkovém zobrazení (pouze titulek). Vybrané záznamy lze exportovat jako seznam pomocí tlačítka  Export. Takto lze exportovat maximálně 1000 záznamů, které se zobrazí jako tabulka na samostatné stránce. Záznamy je možné snadno pomocí nástrojů kopírovat/vložit přenést do tabulkového editoru (např. MS Excel, LibreOffice Spreadsheets apod.).\n\n\n\n\n\n\nObr. 3\n\n\n\nPočet zobrazených záznamů na stránce lze nastavit podle předvolených možností v rozsahu 5 až 100, lze přepínat mezi stránkami či se přepnout na konkrétní číslo stránky. Výsledky lze řadit podle zvolených parametrů. U každého ze záznamů je pak v pravém horním rohu uvedeno datum jeho poslední změny.\n\n\n\n\n\n\nObr. 4\n\n\n\nU jednotlivých výsledků lze vybrat z následujících voleb:\n\n Zobrazit na mapě – otevře mapové okno, pokud je to pro záznam relevantní.\n Odkazy – umožňuje získat permalink či odkaz na záznam v OAI-PMH API (více viz dále).\n BibTeX – vygeneruje bibliografický záznam v BibTeX, který vytvoří soubor s příponou .bib a který lze použít k tvorbě bibliografie v externích nástrojích (např. Zotero).\n Vytisknout – umožňuje tisk detailu daného záznamu.\n Uložit do oblíbených – označí záznam jako oblíbený (pouze pro přihlášené uživatele). Oblíbené záznamy je možné zobrazit pomocí totožného symbolu v záhlaví stránky s výsledky.\n Odeslat zpětnou vazbu – umožňuje odeslat komentář.\nZobrazit detail  – otevře detail záznamu.\n\n\nDetail záznamu\nU každého ze zobrazených výsledků lze Zobrazit detail  záznamu, který obsahuje podrobný popis výsledku a odkazy na související záznamy. V detailu záznamu nalezneme podrobnější popis a další doplňující údaje (metadata) ve strukturované podobě. Pro přehlednost detailu záznamu lze jeho jednotlivé podčásti rozbalovat a skrývat vždy pomocí tučných nadpisů těchto podčástí.\n\n\n\n\n\n\nObr. 5\n\n\n\nU detailu projektu jsou u polí vázaných na řízené slovníky (hesláře) symboly filtrace . Po kliknutí na takto označené pole se konkrétní zvolené heslo použije jako aktivní filtr (k použití filtrů viz níže).\nKaždý identifikátor v detailu záznamu je opatřen ikonou odkazu , která umožňuje zobrazit samostatnou stránku persistentního odkazu se souvisejícími daty. Tato stránka má svůj trvalý odkaz a každý takovýto záznam je proto možné snadno přímo citovat. Zároveň je zde možné zobrazit záznam ve formátu XML přes proklik do OAI-PMH API (samotné rozhraní APi naleznete zde a návod zde).\nDetail obsahuje též informace o souvisejících záznamech, jelikož jednotlivé typy záznamů jsou mezi sebou vzájemně provázány. Určitý dokument se tedy kupříkladu může vázat ke konkrétní lokalitě či akci. Tyto vazby fungují oběma směry a je tedy možné naopak u konkrétní akce zjistit, které dokumenty se k ní vážou. Přes identifikátor souvisejících záznamů se lze na tyto záznamy prokliknout a zjistit o nich podrobnosti.\n\n\n\n\n\n\nObr. 6\n\n\n\nU vyhledaných dokumentů, samostatných nálezů a v Knihovně 3D lze zobrazit náhled souvisejících souborů (kliknutím na náhled v okně výsledků) a soubory si prohlédnout. Každý záznam může mít i více než jeden související soubor, mezi nimiž jde přepínat v záhlaví prohlížečky. Soubory lze pomocí příslušného tlačítka stahovat . Generování náhledů souborů probíhá zpětně po jejich publikaci v Digitálním archivu. Pokud u souboru ještě není vygenerován jeho náhled, zobrazí se místo něj ikona souboru bez náhledu . Přes ni je ale možné se na dokument prokliknout a následně jej stáhnout v plné verzi. Možnost náhledu a stahování dokumentů závisí na uživatelské roli (viz výše). Při stahování a dalším využití dat dbejte na dodržení licenčních podmínek a při citaci využívejte doporučený postup.\n\n\n\n\n\n\nObr. 7\n\n\n\n\n\nPersistentí stránka záznamu\nPro každý záznam existuje jedinečný a stálý (persistentní) identifikátor. Ten společně se základní částí URL adresy (https://digiarchiv.aiscr.cz/id/...) tvoří persistentní odkaz. Pokud si uživatel uloží tento persistentní odkaz, může jej kdykoliv použít pro přístup ke konkrétnímu záznamu. Persistentní odkaz vede ke stránce, na které je vždy možné najít stejný záznam. Na tuto stránku se lze dostat vždy po kliknutí na symbol odkazu  kdekoliv v rámci aplikace. Persistentní odkaz se nachází v ovládacích prvcích pod každým výsledkem či jeho popisem a u souvisejících záznamů po rozbalení nabídky Zobrazit detail . Na stránce persistentního odkazu je kromě samotného záznamu uvedeno znění persistentního odkazu a doporučená forma citace záznamu. Ze stránky persistentního odkazu je možné otevřít mapové okno a zobrazit polohu záznamu v mapě.\n\n\n\n\n\n\nObr. 8",
     "crumbs": [
       "Digitální archiv AMČR",
-      "Manuál",
+      "Návody",
       "Digitální archiv AMČR"
     ]
   },
@@ -159,7 +159,7 @@
     "text": "Filtrace\n\nFiltrace podle polí bez heslářů\nPole Filtrovat podle pole bez hesláře slouží pro vyhledávání v polích, pro které nejsou nastaveny řízené slovníky (např. datum, poznámky, číselné údaje apod.). Po zvolení pole, podle kterého chceme vyhledávat, je třeba vyplnit hledanou hodnotu či rozsah hodnot (např. hledané rozpětí data výzkumu). Pro aplikaci zadaného filtru slouží tlačítko  Aplikovat filtr.\n\n\n\n\n\n\n\nObr. 9\n\n\n\n\nFiltrace podle polí s hesláři (facety)\nV případě polí, které jsou vázány na řízené slovníky (hesláře) vybíráme hodnoty ve filtrech z nabízených možností. Ve filtrech je možné vyhledávat přímo konkrétní heslo v konkrétním hesláři, nebo je možné použít pole Vyhledej pojem v heslářových filtrech .\nV tomto poli lze zadat hledaný výraz; následně se zobrazí pouze filtry obsahující hesla, které danému výrazu odpovídají. Při vyhledávání není třeba zadat přesné znění hledaného hesla, ale výsledkem budou všechna slova obsahující zadaný textový řetězec (tedy např. začátek, kořen či konec slova). Pro každou z možností je v závorce uveden počet odpovídajících záznamů za současného nastavení. Hesla je možné řadit pomocí tlačítka  Řadit dle podle počtu záznamů, textu hesla či jeho pořadí v hesláři (např. u hesláře období).\n\n\n\n\n\n\n\nObr. 10\n\n\nAktivní filtry vidíme v horní části panelu nad typy záznamů, kde lze jednotlivé filtry pomocí  křížku u dílčího filtru vypnout, případně zrušit všechny filtry pomocí křížku vpravo nahoře. Použité filtry lze libovolně kombinovat. Filtry lze aplikovat buď najednou výběrem z více filtrů, nebo lze další filtry, které se aplikují na již existující výsledky, přidávat. Stejně tak lze jednotlivé filtry i odebírat a výsledky se tomu dynamicky přizpůsobí.\n\n\n\n\n\n\n\nObr. 11\n\n\nPři přidávání filtrů a jejich parametrů systém automaticky přiřazuje mezi jednotlivá hesla v rámci téhož filtru logický operátor OR, tedy že výsledek MŮŽE obsahovat jeden z uvedených parametrů. Pokud chceme použít jiný druh logického operátoru, je třeba kliknout na ikonu v záhlaví řádku. Rozbalí se nám nabídka dalších možností, ve které lze zvolit též varianty, kdy záznam MUSÍ obsahovat daný parametr a kdy záznam NESMÍ obsahovat daný parametr (operátor NOT). Mezi jednotlivými skupinami hesel (dílčími facetami; např. areál, katastr…) je vždy operátor AND (a zároveň).\n\n\n\n\n\n\n\nObr. 12\n\n\nPoužití filtrů je možné nejen z pásu s jednotlivými facetami, ale je možné aplikovat filtry také volbou ve výpisu výsledků. U hodnot použitelných pro filtraci je ikona pro aplikaci filtru . Vybraný parametr se následně přidá mezi aktivní filtry s podmínkou MUSÍ obsahovat.\n\n\n\n\n\n\nObr. 13",
     "crumbs": [
       "Digitální archiv AMČR",
-      "Manuál",
+      "Návody",
       "Digitální archiv AMČR"
     ]
   },
@@ -171,7 +171,7 @@
     "text": "Zobrazení v mapě\nDo mapového okna se lze dostat buď pomocí tlačítka  Otevřít mapu na horním panelu nebo pomocí tlačítka  Zobrazit na mapě u konkrétního záznamu.\nV mapovém okně máme po levé straně pomocí tlačítka | Filtrace/Výsledky možnost vysunout panel, kde lze zobrazit výsledky a pracovat s filtry. Použití filtrů je totožné jako v zobrazení stránky s výsledky. Panel je možné pro větší přehlednost skrýt |. Rovněž zde platí možnost použít fulltextové vyhledávání.\nVětšinu zobrazení zabírá mapové okno se zobrazenými výsledky. Pro pohyb v mapě slouží myš a pro změnu měřítka tlačítka    či kolečko myši. Při změně měřítka mapy se mění i počet zahrnutých výsledků, které jsou zobrazeny v panelu po levé straně – výsledky vždy odpovídají aktuálnímu náhledu mapy. Mapu lze přiblížit též stiskem SHIFT + levého tlačítka myši + tažením; vyberete tak konkrétní oblast mapy pro přiblížení.\n\n\n\n\n\n\nObr. 14\n\n\n\nV základním zobrazení mapového okna je distribuce a hustota všech dat na zobrazeném území vyjádřena teplotní mapou (barevný gradient). Výsledky v aktuálním náhledu jsou zobrazeny v panelu po levé straně (při posunu mapy či změně měřítka se jejich počet změní na aktuální náhled, který zahrnuje i prostor pod panelem s výsledky).\n\n\n\n\n\n\nObr. 15\n\n\n\nPo přiblížení se k mapě na úroveň, kdy se zobrazuje méně než 10 000, ale více než 500 záznamů, již nevidíte teplotní mapu, ale záznamy se shluknou do skupin (clusterů) podle jejich prostorového rozmístění a jejich počtu (barevně a velikostně odlišené shluky).\n\n\n\n\n\n\nObr. 16\n\n\n\nPo dalším přiblížení nebo po kliknutí na vybraný shluk se shluk „rozpadne“ do jednotlivých záznamů. V tomto zobrazení již můžete vidět plné geometrie jednotlivých PIAN (tedy body, linie a polygony). Symboly  reprezentují jejich definiční body.\n\n\n\n\n\n\nObr. 17\n\n\n\nPo kliknutí na záznam v seznamu výsledků se zobrazí podrobnosti ve stejném formátu, jako v běžném zobrazení záznamu na stránce s výsledky, a lokalizace záznamu v mapě se zvýrazní žlutě. Se záznamem je možné pracovat obdobně jako na stránce s výsledky (tedy např. zobrazit detail, náhled dokumentu, získat persistentní odkaz atd.).\n\n\n\n\n\n\nObr. 18\n\n\n\nPo kliknutí na symbol záznamu v mapě  se tento záznam (obvykle jednotka PIAN použije jako parametr filtru a v okně výsledků se zobrazí pouze ty záznamy, které jsou s daným záznamem provázané (připojené záznamy lze vidět rovněž po najetí kurzorem na symbol záznamu jako tooltip). V některých případech, pokud je na prvek připojený jediný záznam, se zobrazí rovnou detail souvisejícího záznamu (např. pro samostatné nálezy a 3D modely).\n\n\n\n\n\n\nObr. 19\n\n\n\nMimo použití filtrů lze vyhledávat také pomocí prostorového výběru, který lze aktivovat tlačítkem .\nVybraná oblast se zobrazí jako aktivní filtr (souřadnice rohů zvoleného území) a v mapovém okně i na stránce s výsledky se zobrazí pouze ty záznamy, které odpovídají danému prostorovému výběru. Po zavření mapového okna a návratu k zobrazení výsledků zůstávají všechny použité filtry nadále aktivní a s výsledky můžeme dále pracovat v tomto zobrazení.\n\n\n\n\n\n\nObr. 20\n\n\n\nPo kliknutí na ikonu  v pravém horním rohu mapového okna je možné změnit mapový podklad. Na výběr je ČÚZK - Základní mapa ČR, ČÚZK - Ortofotomapa a ČÚZK - Stínovaný reliéf 5G a dále OpenStreetMap.. K těmto podkladovým mapám je dále možné jako poloprůhledný překryv doplnit mapu ČÚZK - Katastrální území a ČÚZK - Katastrální mapu (dostupné podle zvoleného měřítka - mapu je nutno dostatečně přiblížit).\n\n\n\n\n\n\n\nObr. 21\n\n\nVybrané záznamy je možné pomocí tlačítka  Exportovat seznam exportovat a to ve formátech GML, WKT a GeoJSON, se kterými je možné dále pracovat např. v prostředí GIS (prostorové údaje v těchto formátech jsou uloženy v jednom z polí exportní tabulky; samostatně jsou vždy uváděny též souřadnice centroidu ve WGS-84). Maximální počet exportovaných záznamů je omezen na 1000 řádků.",
     "crumbs": [
       "Digitální archiv AMČR",
-      "Manuál",
+      "Návody",
       "Digitální archiv AMČR"
     ]
   },
@@ -183,7 +183,7 @@
     "text": "Využití dat a citace\nData dostupná v Digitálním archivu AMČR jsou zveřejňována v souladu s politikou otevřeného přístupu k datům a se souhlasem držitelů autorských práv. Využití dat podléhá (pokud není explicitně uvedeno jinak) licenci CC-BY-NC 4.0 (Creative Commons Uveďte původ Neužívejte komerčně 4.0), viz sekce Licence. Data je proto možné využít pouze s uvedením autora a pouze pro nekomerční použití.\nZdrojem podkladových map je Geoportál ČÚZK a OpenStreetMap. Další využití těchto podkladů je možné pouze v souladu s podmínkami stanovovanými poskytovateli podkladů pro jednotlivé mapové služby.\nDoporučenou formou citace jednotlivého záznamu v AMČR je:\n\nv textu:\n(…) text (AMČR, M-201400460A);\nv seznamu zdrojů jednotlivě:\nAMČR: Záznam M-201400460A [cit. RRRR-MM-DD]. Archeologická mapa České republiky. Dostupné z: https://digiarchiv.aiscr.cz/id/M-201400460A\nnebo v seznamu zdrojů souhrnně:\nAMČR: Archeologická mapa České republiky. [cit. RRRR-MM-DD]. Dostupné z: https://digiarchiv.aiscr.cz/\n\nDoporučenou formou citace obsahu dokumentu (nikoliv záznamu o něm) je:\n\nv textu:\n(…) text (Svoboda 1894, 3);\nv seznamu zdrojů jednotlivě:\nSvoboda, B. 1894: Dokument C-TX-198201171. Archeologický ústav Praha. Dostupné z: https://digiarchiv.aiscr.cz/id/C-TX-198201171\n\nVzhledem k tomu, že Digitální archiv AMČR, ale i další nástroje patřící do rámce infrastruktury Archeologický informační systém ČR (AIS CR), poskytují data převážně v otevřeném režimu (Open Access), nemáme možnost sledovat využití těchto dat, ani to, jaké výstupy na jejich základě vznikají. Jelikož jsme však tyto informace povinni ze zákona vykazovat, chtěli bychom Vás, uživatele Digitálního archivu AMČR, požádat o součinnost při vykazování vědeckých výstupů, při jejichž vzniku byla využita data z Digitálního archivu AMČR či dalších součástí AIS CR.\nKaždý uživatel Digitálního archivu AMČR, jako nedílné součásti AIS CR, má proto povinnost:\n\nv konkrétních výstupech vždy obvyklým způsobem uvést, že k jejich tvorbě byla využita infrastruktura AIS CR s odkazem na využitá data či nástroj;\npokud zadává informace o výstupech do Rejstříku informací o výsledcích – RIV (např. na pracovištích AV ČR prostřednictvím databáze ASEP), vybrat návaznost výsledku na infrastrukturu AIS CR v poli VVI (Velké výzkumné infrastruktury) z nabízeného číselníku projektů podpory velkých výzkumných infrastruktur;\ndát nám laskavě vědět prostřednictvím tohoto dotazníku (https://www.aiscr.cz/vystupy), že výstup byl publikován.",
     "crumbs": [
       "Digitální archiv AMČR",
-      "Manuál",
+      "Návody",
       "Digitální archiv AMČR"
     ]
   },
@@ -397,192 +397,135 @@
     ]
   },
   {
-    "objectID": "amcr/akce/akce.html#přihlásit-projekt",
-    "href": "amcr/akce/akce.html#přihlásit-projekt",
-    "title": "Správa akcí",
-    "section": "Přihlásit projekt",
-    "text": "Přihlásit projekt",
-    "crumbs": [
-      "AMČR",
-      "Správa akcí"
-    ]
-  },
-  {
-    "objectID": "amcr/akce/akce.html#zahájit-terén",
-    "href": "amcr/akce/akce.html#zahájit-terén",
-    "title": "Správa akcí",
-    "section": "Zahájit terén",
-    "text": "Zahájit terén",
-    "crumbs": [
-      "AMČR",
-      "Správa akcí"
-    ]
-  },
-  {
-    "objectID": "amcr/akce/akce.html#ukončit-terén",
-    "href": "amcr/akce/akce.html#ukončit-terén",
-    "title": "Správa akcí",
-    "section": "Ukončit terén",
-    "text": "Ukončit terén",
-    "crumbs": [
-      "AMČR",
-      "Správa akcí"
-    ]
-  },
-  {
-    "objectID": "amcr/akce/akce.html#spravovat-akce",
-    "href": "amcr/akce/akce.html#spravovat-akce",
-    "title": "Správa akcí",
-    "section": "Spravovat akce",
-    "text": "Spravovat akce",
-    "crumbs": [
-      "AMČR",
-      "Správa akcí"
-    ]
-  },
-  {
-    "objectID": "amcr/akce/akce.html#uzavřít-projekt",
-    "href": "amcr/akce/akce.html#uzavřít-projekt",
-    "title": "Správa akcí",
-    "section": "Uzavřít projekt",
-    "text": "Uzavřít projekt",
-    "crumbs": [
-      "AMČR",
-      "Správa akcí"
-    ]
-  },
-  {
-    "objectID": "amcr/akce/akce.html#vybrat-projekt",
-    "href": "amcr/akce/akce.html#vybrat-projekt",
-    "title": "Správa akcí",
-    "section": "Vybrat projekt",
-    "text": "Vybrat projekt",
-    "crumbs": [
-      "AMČR",
-      "Správa akcí"
-    ]
-  },
-  {
-    "objectID": "amcr/akce/drobne-akce.html",
-    "href": "amcr/akce/drobne-akce.html",
-    "title": "Akce drobného rozsahu",
+    "objectID": "amcr/akce/dj.html",
+    "href": "amcr/akce/dj.html",
+    "title": "Zápis dok. jednotek",
     "section": "",
-    "text": "Zpracování pozitivních archeologických výzkumů do podoby nálezové zprávy (NZ) se řídí Pravidly pro podání nálezové zprávy o terénním archeologickém výzkumu (viz stránky ARÚ Praha a Brno).\nV případě akcí drobnějšího rozsahu je v AMČR akceptován i dokument, který nemá podobu plnohodnotné NZ, ale je redukován např. do podoby Hlášení o archeologické akci atp. V některých případech může být záznam i zcela bez přiloženého dokumentu pouze s popisem ve formuláři v AMČR. I v těchto případech by měl přiložený dokument (nebo popis v AMČR) splňovat následující minimální požadavky.\nPokud byly zjištěné archeologické situace z relevantních důvodů dokumentovány jen v omezené míře (např. pouze fotograficky), mělo by toto být ze zápisu v AMČR nebo z přiloženého dokumentu patrné, aby při kontrole před archivací pracovníci archivu mohli rozlišit případy, kdy dokumentace z popsaných důvodů neexistuje, nebo kdy pouze není připojena. Např. při pořízení pouze fotografické dokumentace by tato měla být opatřena dostatečným popisem (orientace fotografie, popis vrstev, vyznačení hran objektů) a v případě situací, které nejsou z fotografie jasně čitelné, např. i skicou přímo do fotografie. Zásadou v podobných případech však vždy je, že samotná fotografie nikdy nenahrazuje popis. Připojený soubor by pak měl mít podobu uceleného dokumentu opatřeného titulní stranou (nemělo by se tedy jednat pouze o připojené fotografie atp.).\nStejně jako v případě plnohodnotné NZ musí být z těchto dokumentů možné rekonstruovat zjištěné situace v maximální možné míře. NZ musí dále korespondovat se zápisem komponent v kartě dokumentační jednotky a to až do úrovně kategorií získaných nálezů a vice versa.",
+    "text": "Při popisu archeologických akcí v AMČR nastávají situace, kdy je třeba vytvořit více než jednu dokumentační jednotku (DJ). V takových případech je třeba zvolit správný typ těchto DJ. Na výběr máme ze dvou možností. První z nich je situace, kdy první vytvořená DJ reprezentuje Celek akce a všechny další DJ jsou pak Částmi akce. Druhou je situace, kdy jsou všechny DJ u akce typu Sonda. Volba konkrétního typu, nebo typů DJ závisí na charakteru akce a způsobu jejího formálního a prostorového popisu.\nDokumentační jednotku Celek akce volíme když:\nDokumentační jednotku Celek akce a Část akce volíme když:\nDokumentační jednotku Sonda volíme když:",
     "crumbs": [
       "AMČR",
-      "Správa akcí",
-      "Akce drobného rozsahu"
+      "Tutoriály",
+      "Zápis dok. jednotek"
     ]
   },
   {
-    "objectID": "amcr/akce/drobne-akce.html#příklady-dobré-praxe",
-    "href": "amcr/akce/drobne-akce.html#příklady-dobré-praxe",
-    "title": "Akce drobného rozsahu",
+    "objectID": "amcr/akce/dj.html#příklady-dobré-praxe",
+    "href": "amcr/akce/dj.html#příklady-dobré-praxe",
+    "title": "Zápis dok. jednotek",
     "section": "Příklady dobré praxe",
-    "text": "Příklady dobré praxe\n\nNěkolik zahloubených objektů\nPři plošné skrývce malého rozsahu bylo zachyceno 5 zahloubených archeologických objektů. Objekty byly kresebně a fotograficky dokumentovány a geodeticky zaměřeny. Dokument připojený k akci v AMČR bude v takovém případě obsahovat:\n\npopis okolností archeologické akce;\nmetoda výzkumu – kolik cm bylo skryto, jak byly vybírány objekty, způsob dokumentace, popis metody zaměření;\ncelkový plán výzkumu;\ntabulku geodeticky zaměřených bodů;\nfotografickou dokumentaci vč. popisu fotografie a orientace, seznam fotografií (katalog);\nkresebnou dokumentaci zachycených objektů vč. všech formálních náležitostí, seznam výkresů;\npřehled movitých archeologických nálezů/vzorků ideálně formou tabulky, poznámku o jejich uložení, popř. skartaci;\nvyhodnocení projektu, datace prozkoumaných situací;\nodborné posudky (pokud byly provedeny nějaké analýzy).\n\n\n\nZachycena kulturní vrstva\nPři výkopu pro základové pasy rodinného domu byla na profilu výkopu zachycena kulturní vrstva, která byla z důvodů nepříznivých podmínek/BOZP dokumentována pouze fotograficky z hrany výkopu. V dokumentu připojeném k akci v AMČR bude v tomto případě:\n\npopis archeologické akce;\nmetoda výzkumu vč. jejího odůvodnění (proč není výkres);\npopis a lokalizace zachycené vrstvy (geodeticky zaměřená, zaznamenané do plánu stavby, skica celkové situace atp.);\nfotografie této vrstvy (rozhraní jednotlivých vrstev lze doplnit přímo do fotografie);\nvyhodnocení projektu, datace prozkoumaných situací;\nodborné posudky (pokud byly provedeny).\n\n\n\nStřepy bez archeologické situace\nPři výkopu pro inženýrské sítě byl při kontrole zeminy z výkopu nalezen soubor keramických střepů, které byly odebrány a zařazeny do sbírek nebo skartovány. Ve vlastním výkopu však nebyly zachyceny žádné archeologické objekty ani vrstvy. Zápis v AMČR bude v takovém případě obsahovat pouze popis archeologické akce s vyplněným popisem komponent podle nalezených střepů a jejich uložení v příslušné instituci, popř. poznámku o skartaci. V takovém případě není nutné připojovat do karty Dokumentace jakýkoliv dokument.",
+    "text": "Příklady dobré praxe\nPři popisu archeologických akcí v AMČR nastávají situace, kdy je třeba vytvořit více než jednu dokumentační jednotku (DJ). V takových případech je třeba zvolit správný typ těchto DJ. Na výběr máme ze dvou možností. První z nich je situace, kdy první vytvořená DJ reprezentuje Celek akce a všechny další DJ jsou pak Částmi akce. Druhou je situace, kdy jsou všechny DJ u akce typu Sonda. Volba konkrétního typu nebo typů DJ závisí na charakteru akce a způsobu jejího formálního a prostorového popisu.\n\nDlouhé liniové akce\nJedním z typických příkladů použití DJ typu Celek akce a Část akce jsou dlouhé liniové akce (např. inženýrské sítě), kdy v rámci této dlouhé linie, která je často ve většině svého rozsahu negativní, existuje jedno či více míst, na kterých byla pozitivní archeologická zjištění. V těchto případech je trasa výkopu zanesena do AMČR jako celek akce (dokumentační jednotka D01), který je negativní a polohy s pozitivním archeologickým zjištěním jsou pak vyznačeny jako část akce v rámci nadřazeného celku (D02 a D03). Může se jednat o bodové či liniové vymezení, které reflektuje situaci v terénu. K této části akce jsou pak navázány příslušné komponenty s jejich popisem. Zobrazení v mapovém okně a zápis v AMČR jsou patrné z ?@fig-dj-linie a ?@fig-dj-linie-z.\n\n\n\n\nSondy rozsáhlých liniových akcí\nJedním z typických příkladů použití dokumentačních jednotek typu Sonda jsou rozsáhlé linové akce (často se jedná o inženýrské sítě) v intravilánech obcí, kdy není možné celý rozsah akce vyznačit pomocí jediného PIAN tak, aby se jeho průběh v některých úsecích nevracel po stejné trase. V těchto případech je třeba akci rozdělit do dílčích dokumentačních jednotek, kdy rozsah každé DJ je možné vyznačit pomocí PIAN, který má podobu linie, jejíž trasa se nevrací po stejné trase. Celý rozsah akce je pak reprezentován dílčími DJ (D01 až D03), kdy tyto DJ jsou typu sonda. Jednotlivé line těchto DJ se pak samozřejmě vzájemně mohou křížit. Zobrazení v mapovém okně a zápis v AMČR jsou patrné z ?@fig-dj-linie2 a ?@fig-dj-linie2-z.\n\n\n\nNesprávný zápis liniové akce\nNesprávnou formou zápisu je v těchto případech situace, kdy je celý rozsah akce vyznačen pouze pomocí jediné dokumentační jednotky, jejíž PIAN se opakovaně vrací po stejné trase tak, aby vyznačil celý rozsah akce. Přestože aplikace umožňuje vyznačit takovýto PIAN, jedná se o neplatnou geometrii, která porušuje topologická pravidla, kdy se v rámci jedné linie nesmí její segmenty překrývat či křížit. Příklad nesprávného zakreslení PIAN ukazuje obr. ?@fig-dj-badlinie a ?@fig-dj-badlinie-z.\nVýhodou správného zápisu akcí podobného typu pomocí dílčích dokumentačních jednotek typu sonda je pak to, že je zde velká pravděpodobnost, že bude možné jejich PIAN využívat opakovaně i pro další akce. PIAN starších akcí již zapsaných v AMČR je možné využít za předpokladu, že jeho typ, rozsah a přesnost odpovídá nově zaznamenávané akci. Typickým příkladem jsou opět inženýrské sítě v intravilánech, kdy PIAN, který byl vytvořen např. při plynofikaci obce, bude možné využít i při akci při rekonstrukci kanalizace. Pokud byly pro původní akci vytvořeny dílčí PIAN, např. pro každou dotčenou ulici, tak je zde mnohem větší pravděpodobnost, že v některých ulicích bude probíhat i nová akce a půjde tak tyto PIAN opakovaně využít bez nutnosti je vytvářet nově. Pravděpodobnost, že by se dvě akce s komplikovaným průběhem PIAN zcela překrývaly, i pokud pomineme porušení topologických pravidel při vytváření liniových PIAN, je pak velice malá.\n\n\n\n\nVymezení pozitivní části akce\nVariantou zápisu více DJ u liniových akcí je pak situace, kdy se na prostorově omezených částech akce vyskytují pozitivní archeologické situace, přičemž ostatní části jsou negativní. V těchto případech postupujeme obdobně jako v případě příkladu z použití celku a části akce, tedy že jako pozitivní budou vyznačeny jen skutečně pozitivní místa na trase akce (D04), zatímco rozsah akce budu vyznačen jako negativní (D01 až D03). Všechny dokumentační jednotky budou však v tomto případě typu sonda. Zobrazení v mapovém okně a zápis v AMČR jsou patrné z ?@fig-dj-sonda a ?@fig-dj-sonda-z.\n\n\n\n\n\nPlošné odkryvy\nU akcí s rozsáhlými plošnými odkryvy je vhodné vymezit DJ pomocí polygonů (případně pomocí kombinace polygonů, linií a bodů), které reflektují situaci na jednotlivých částech zkoumané plochy. Jako DJ Celek akce evidujeme celou plochu zasaženou stavební činností. DJ Část akce pak slouží k vymezení menších částí plochy, na kterých byla prokázána přítomnost určité komponenty. Stejně jako u příkladu dlouhých liniových akcí platí, že části akce prostorově podléhají vymezenému celku.\nFiktivní investiční záměr výstavby halového komplexu na zelené louce. V rámci akce byla provedena celoplošná skrývka, kterou vedoucí akce evidoval jako DJ D01 – Celek akce (?@fig-dj-plocha). Ve skrytém materiálu byly napříč plochou nahodile dislokovány fragmenty novověké keramiky, které vedoucí výzkumu vyhodnotil jako sekundárně přemístěný odpad a evidoval je jako samostatnou komponentu K01. Ve východní části plochy byl zachycen okraj sídliště LnK. Dále byla v západní části plochy zachycena skupina hrobů únětické kultury. Zbytek plochy byl skryt na podloží a bylo možné jej z hlediska archeologie prohlásit za negativní. Plocha LnK sídliště byla vymezena DJ D02 Část akce s odpovídající komponentou K02 (?@fig-dj-plocha1). Analogicky tomu byla vymezena i DJ D03, s komponentou K03 (?@fig-dj-plocha2). Rovněž by bylo možné vymezit akci jednou DJ celek akce, která by obsahovala všechny zmíněné komponenty, čímž by ale došlo ke zkreslení celkové informace na zkoumané ploše. Zápis v AMČR pak ukazuje ?@fig-dj-plocha-z.\n\n\n\n\n\n\nSamostatné úseky\nVýstavba fiktivního úseku dálnice. Trasa úseku dálnice byla rozdělena na jednotlivé plochy, které byly v rámci NZ vyhodnocovány odděleně. Členění DJ bylo zvoleno tak, aby DJ Celek akce D01 odpovídal celé ploše terénního zásahu v rámci dotčeného úseku dálnice (?@fig-dj-dalnic). Části akce D02, D03, D04 pak odpovídají formálnímu rozdělení úseků tak, jak si je zvolila oprávněná organizace (?@fig-dj-dalnic1). Komponenty jsou navázány pouze na úseky, kde došlo k pozitivnímu zjištění, tedy na úsek vymezený DJ D03 s komponentami K01 a K02. Ostatní úseky, vymezené DJ D02 a D04, komponenty neobsahují, protože byly z archeologického hlediska negativní (?@fig-dj-dalnic-z).\n\n\n\n\n\nPlošné akce na nespojitých plochách\nU plošných akcí slouží vymezení dotčeného území DJ sonda k zanesení akcí, které probíhaly na několika nespojitých plochách. Dobrým příkladem mohou být například povrchové sběry, které lze dobře realizovat na zemědělsky využívané půdě, ale již nikoliv na komunikacích či loukách, které tyto polnosti oddělují.\nV rámci předběžné prospekce byly metodou povrchových sběrů prozkoumány tři prostorově nespojité polnosti severně od obce Kounice. Vzhledem k terénní konfiguraci byla každá z nich vyhodnocována samostatně, čemuž odpovídá i jejich vymezení DJ Sonda. Každé sondě byly přiřazeny komponenty, které odpovídají obsahu nálezového fondu. V tomto případě nelze použít DJ celek akce a část akce, neboť prostor mezi jednotlivými sondami nebylo vzhledem k přítomnosti místních komunikací možné zkoumat. Zobrazení v mapovém okně a zápis v AMČR jsou patrné z ?@fig-dj-nesp a ?@fig-dj-nesp-z.\n\n\n\n\nZávěr\nPřestože archeologické akce a jejich podoba v terénu je různá a možnosti zápisu v AMČR, kdy je možno zvolit buď DJ celek a část akce nebo jednotlivé sondy, nemusí vždy zcela přesně odpovídat specifické situaci v terénu, měl by být při zápisu v AMČR kladen především důraz na srozumitelnost zápisu, který co nejvíce odpovídá realizované akci.",
     "crumbs": [
       "AMČR",
-      "Správa akcí",
-      "Akce drobného rozsahu"
+      "Tutoriály",
+      "Zápis dok. jednotek"
     ]
   },
   {
-    "objectID": "amcr/projekty.html#přihlásit-projekt",
-    "href": "amcr/projekty.html#přihlásit-projekt",
-    "title": "Správa projektů",
-    "section": "Přihlásit projekt",
-    "text": "Přihlásit projekt",
-    "crumbs": [
-      "AMČR",
-      "Správa projektů"
-    ]
-  },
-  {
-    "objectID": "amcr/projekty.html#zahájit-terén",
-    "href": "amcr/projekty.html#zahájit-terén",
-    "title": "Správa projektů",
-    "section": "Zahájit terén",
-    "text": "Zahájit terén",
-    "crumbs": [
-      "AMČR",
-      "Správa projektů"
-    ]
-  },
-  {
-    "objectID": "amcr/projekty.html#ukončit-terén",
-    "href": "amcr/projekty.html#ukončit-terén",
-    "title": "Správa projektů",
-    "section": "Ukončit terén",
-    "text": "Ukončit terén",
-    "crumbs": [
-      "AMČR",
-      "Správa projektů"
-    ]
-  },
-  {
-    "objectID": "amcr/projekty.html#spravovat-akce",
-    "href": "amcr/projekty.html#spravovat-akce",
-    "title": "Správa projektů",
-    "section": "Spravovat akce",
-    "text": "Spravovat akce",
-    "crumbs": [
-      "AMČR",
-      "Správa projektů"
-    ]
-  },
-  {
-    "objectID": "amcr/projekty.html#uzavřít-projekt",
-    "href": "amcr/projekty.html#uzavřít-projekt",
-    "title": "Správa projektů",
-    "section": "Uzavřít projekt",
-    "text": "Uzavřít projekt",
-    "crumbs": [
-      "AMČR",
-      "Správa projektů"
-    ]
-  },
-  {
-    "objectID": "amcr/projekty.html#vybrat-projekt",
-    "href": "amcr/projekty.html#vybrat-projekt",
-    "title": "Správa projektů",
-    "section": "Vybrat projekt",
-    "text": "Vybrat projekt\n\n\nKarta Vybrat umožňuje filtrovat projekty na základě různých kritérií.",
-    "crumbs": [
-      "AMČR",
-      "Správa projektů"
-    ]
-  },
-  {
-    "objectID": "amcr/oznameni.html",
-    "href": "amcr/oznameni.html",
-    "title": "Oznámení záměru",
+    "objectID": "amcr/akce/adb.html",
+    "href": "amcr/akce/adb.html",
+    "title": "Zápis ADB",
     "section": "",
-    "text": "Oznámení o stavebním či jiném záměru proveďte prostřednictvím formuláře na stránce https://amcr.aiscr.cz/oznameni/.\nV případě potřeby nás prosím kontaktujte na emailech oznameni@arup.cas.cz (Čechy), nebo oznameni@arub.cz (Morava a Slezsko).",
+    "text": "Popis archeologických dokumentačních bodů (ADB) se řídí metodikou dostupnou zde. Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla. Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.",
     "crumbs": [
       "AMČR",
-      "Oznámení záměru"
+      "Tutoriály",
+      "Zápis ADB"
     ]
   },
   {
-    "objectID": "amcr/oznameni.html#videonávod",
-    "href": "amcr/oznameni.html#videonávod",
-    "title": "Oznámení záměru",
-    "section": "Videonávod",
-    "text": "Videonávod\nKrátký videonávod ukazuje, jak prostřednictvím formuláře úspěšně odeslat oznámení. Video nemá zvuk.",
+    "objectID": "amcr/akce/adb.html#popis-archeologického-dokumentačního-bodu",
+    "href": "amcr/akce/adb.html#popis-archeologického-dokumentačního-bodu",
+    "title": "Zápis ADB",
+    "section": "",
+    "text": "Popis archeologických dokumentačních bodů (ADB) se řídí metodikou dostupnou zde. Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla. Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.",
     "crumbs": [
       "AMČR",
-      "Oznámení záměru"
+      "Tutoriály",
+      "Zápis ADB"
     ]
   },
   {
-    "objectID": "amcr/oznameni.html#návod",
-    "href": "amcr/oznameni.html#návod",
-    "title": "Oznámení záměru",
-    "section": "Návod",
-    "text": "Návod\nPro úspěšné odeslání oznámení o stavebním či jiném záměru na území s archeologickými nálezy, tedy splnění povinností uložených § 22 odst. zákona č. 20/1987 Sb. o státní památkové péči, postupujte dle následujícího návodu.\n\nCo budete potřebovat\nPřed samotným vyplněním oznámení se ujistětě, že znáte následující detaily či máte k dispozici patřičné dokumenty:\n\nKontaktní údaje na oznamovatele.\nKonkrétní lokalizaci záměru (bod je nutné vybrat z mapy).\nČísla parcel, kterých se záměr bude dotýkat.\nPřibližné datum zahájení prací.\nPlánovou dokumentaci vymezující rozsah a míru terénního zásahu.\n\n\n\nPostup\n\nÚdaje o oznamovateli\nPrvní část formuláře slouží k vyplnění údajů o oznamovateli. Oznamovatelem nemusí být nutně osoba, která daný stavební či jiný záměr bude vykonávat, ale v případě kolonky Pověřená osoba oznamovatele by mělo by jít o někoho, s kým v případě potřeby oprávněná archeologická organizace dohode podmínky provedení archeologického výzkumu.\n\n\n\nCharakteristika záměru\nV charakteristice záměru je v první řadě nutné lokalizovat záměr v mapě. Mapové okno lze v případě potřeby zvětšit na celou obrazovku a levým kliknutím přiblížit na požadované místo (případně pomocí tlačítek +/- přiblížit a oddálit). Při dostatečnm přiblížení je levým kliknutím zvolen bod lokalizující oznamovaný záměr. Vybraný bod je zvýrazněn červeným špendlíkem a název katastrálního území je předvyplněn do patřičného pole ve formuláři. V mapě lze vyhledávat pomocí lupy dle názvů obcí, katastrálních území a dalších zeměpisných názvů. V případě, že záměr protíná více katastrálních území, další katastrální území lze vyplnit do patřičného pole.\n\nRozsah data zahájení prací je voleno z rozbalovacího kalendáře. Po prvním kliknutí na konkrétní den v kalendáři je zvolen začátek rozsahu zahájení záměru, druhým kliknutím zvolíte konec daného rozsahu. Tak je možné označit celý měsíc, kdy může k začátku prací na oznamovaném záměru dojít, případně i delší časové období.\n\n\n\nSouhlas s podmínkami o zpracování osobních údajů\nNezapomeňte potvrdit souhlas se zpracováním osobních údajů, bez něj nelze v oznámení záměr upokračovat na další krok, ve kterém bude nahrána projektová dokumentace.\n\n\nProjektová dokumentace",
+    "objectID": "amcr/akce/adb.html#použití-dj-typu-sonda-a-vyznačení-pian",
+    "href": "amcr/akce/adb.html#použití-dj-typu-sonda-a-vyznačení-pian",
+    "title": "Zápis ADB",
+    "section": "Použití DJ typu sonda a vyznačení PIAN",
+    "text": "Použití DJ typu sonda a vyznačení PIAN\nPro zápis ADB v AMČR je nutné používat dokumentační jednotky (DJ) typu Sonda. Označení Sonda je v tomto případě třeba brát jako arbitrární, které se vymezuje oproti použití DJ typů Celek/Část akce. Sonda v tomto případě může znamenat jak skutečnou jednotlivou sondu, tak i např. skupiny sond či řezů atp. (srov. heslář v poli Typ sondy), které je vhodné popisovat jako jeden celek. Tomu pak odpovídá i vyznačení PIAN v mapovém okně. Popis ADB je pouze nadstavbou standardního zápisu, a proto se ke každé DJ připojují zachycené komponenty, které mohou mít vliv na celkové rozdělení výzkumu do jednotlivých DJ.",
     "crumbs": [
       "AMČR",
-      "Oznámení záměru"
+      "Tutoriály",
+      "Zápis ADB"
+    ]
+  },
+  {
+    "objectID": "amcr/akce/adb.html#zápis-adb-v-rámci-amčr",
+    "href": "amcr/akce/adb.html#zápis-adb-v-rámci-amčr",
+    "title": "Zápis ADB",
+    "section": "Zápis ADB v rámci AMČR",
+    "text": "Zápis ADB v rámci AMČR\nPro zápis ADB v systému AMČR je třeba volit jako typ dokumentační jednotky možnost Sonda, ke které je po vytvoření PIAN možné připojovat ADB. Zápis ADB se aktivuje zaškrtávacím políčkem Zobrazit popis ADB (?@fig-adb-init).\n\nZaškrtnutím políčka Zobrazit popis ADB se zpřístupní pole pro jeho popis. Povinná pole jsou podbarvena stejně jako v jiných částech AMČR (?@fig-adb-pole).\n\nPo vyplnění popisných údajů je třeba záznam uložit, aby se zobrazila nabídka pro zápis výškových bodů, které lze k vytvořenému ADB připojovat pomocí tlačítka Přidat (?@fig-adb-bod).\n\nPodle zachycené situace je možné připojit odpovídající počet výškových bodů (?@fig-adb-uroven).",
+    "crumbs": [
+      "AMČR",
+      "Tutoriály",
+      "Zápis ADB"
+    ]
+  },
+  {
+    "objectID": "amcr/akce/adb.html#příklady-dobré-praxe",
+    "href": "amcr/akce/adb.html#příklady-dobré-praxe",
+    "title": "Zápis ADB",
+    "section": "Příklady dobré praxe",
+    "text": "Příklady dobré praxe\n\nOddělené sondy\nJako první příklad si uvedeme dvě oddělené sondy dokumentované při výstavbě inženýrských sítí. Pro každou ze sond byla vytvořena vlastní dokumentační jednotka typu sonda a v rámci jejího popisu byly zaznamenány také informace o ADB. Zápis v AMČR a vyznačení v mapě v tomto případě zobrazují ?@fig-adb-sonda1 a ?@fig-adb-sonda2.\n\n\n\n\nSíť sond\nVýzkum v rámci uzavřené parcely se sítí sond v interiéru domu a na dvoře domu. V rámci tohoto výzkumy byla ve sklepě domu a na jeho dvoře položena pravidelná síť sond, ve které probíhal výzkum. Vzhledem ke stejnému charakteru situace, která byla zachycena v sondách na dvoře není třeba zadávat do AMČR všechny dílčí sondy odděleně, ale je možné je zadat jako jedinou DJ typu Sonda (pokud to odpovídá charakteru nálezové situace). Stejně tak bychom zadali jako jednu DJ typu Sonda i všechny sondy ve sklepě domu, pokud by tomu charakter nálezové situace odpovídal. Zápis v AMČR a vyznačení PIAN pak zobrazují ?@fig-adb-sit1 a ?@fig-adb-sit2.",
+    "crumbs": [
+      "AMČR",
+      "Tutoriály",
+      "Zápis ADB"
+    ]
+  },
+  {
+    "objectID": "amcr/mapa.html",
+    "href": "amcr/mapa.html",
+    "title": "Mapové rozhraní webové AMČR",
+    "section": "",
+    "text": "Mapové rozhraní je v aplikaci obecně dostupné na několika místech:",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Mapové rozhraní"
+    ]
+  },
+  {
+    "objectID": "amcr/mapa.html#popis-mapového-rozhraní",
+    "href": "amcr/mapa.html#popis-mapového-rozhraní",
+    "title": "Mapové rozhraní webové AMČR",
+    "section": "Popis mapového rozhraní",
+    "text": "Popis mapového rozhraní\nV základním zobrazení se na mapě obvykle zobrazí heatmapa, která ukazuje hustotu pokrytí území České republiky prvky dané třídy (např. bodovými lokalizacemi projektů). Při přiblížení se heatmapa změní na shluky, které barevně a číslem udávají, kolik je v dané oblastni prvků. Při dalším přibližování jsou pak již viditelné jednotlivé prvky (body, linie, polygony).\n\nZákladní funkce\nTlačítka pro základní funkce mapy jsou u jejího levého horního okraje. Jde v pořadí odshora dolů o tlačítka sloužící k: \n\npřepnutí zobrazení mapy na celou obrazovku a zpět;\npřiblížení, resp. oddálení;\nvyhledávání v geografických názvech;\nnástroj pro měření vzdáleností;\nnástroj pro návrat k předchozímu zobrazení mapy;\npovolení či zakázání úprav současné vrstvy.\n\nVrstvy\nMapa nabízí několik podkladových vrstev, mezi kterými jde přepínat pomocí tlačítka vpravo nahoře, jsou to: \n\nČÚZK – Základní topografická mapa;\nČÚZK – Ortofotomapa;\nČÚZK – Stínovaný reliéf 5G;\nOpenStreetMap – šedá.\n\nDále lze podkladovou mapu překrýt následujícími vrstvami:\n\nČÚZK – Katastrální území;\nČÚZK – Katastrální mapa;\nNPÚ – vrstva s památkově chráněnými prvky;\na v neposlední řadě pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj. v závislosti na kontextu).\n\nVyhledávání v geografických jménech\nPomocí tlačítka lupy lze vyhledávat v různých geografických jménech, např. názvech obcí, katastrálních území aj. (databáze gaonames). Po výběru daného prvku se mapa přiblíží na jeho geografický střed (centroid). \nSymbologie a barevnost\nV mapě se lze setkat s prvky (body symbolizovanými ikonou pinu, liniemi, polygony) čtyř základních barev, ty mají následující význam: \n\nfialová – lokalizace z ostatních vrstev zvolených pomocí zaškrtávacího políčka v nabídce vrstev;\nžlutá – právě vybraná lokalizace či PIAN;\nčervená – nově vytvořená či upravená lokalizace;\nzelená – lokalizace související s daným záznamen, které však nejsou právě vybrány (např. v případě více dokumentačních jednotek, resp. PIANů u jedné akce).\n\nUvnitř pinu pak mohou být zobrazeny různé ikony pro jednotlivé základní kategorie, např. ikona pinu pro samostatné nálezy, ikona 3D pro 3D modely z Knihovny 3D aj.",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Mapové rozhraní"
+    ]
+  },
+  {
+    "objectID": "amcr/mapa.html#lokalizace-bodem",
+    "href": "amcr/mapa.html#lokalizace-bodem",
+    "title": "Mapové rozhraní webové AMČR",
+    "section": "Lokalizace bodem",
+    "text": "Lokalizace bodem\nV případě Projektů, Samostatných nálezů (AMČR-PAS) a dalších míst, kde lze v mapě upravovat či vkládat lokalizace pouze pomocí bodů je práce s ní přímočará. Levým kliknutním myši je při patřičném přiblížení bod vyznačen na mapě, případně přemístěn na nové umístění.",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Mapové rozhraní"
+    ]
+  },
+  {
+    "objectID": "amcr/mapa.html#lokalizace-pomocí-pian",
+    "href": "amcr/mapa.html#lokalizace-pomocí-pian",
+    "title": "Mapové rozhraní webové AMČR",
+    "section": "Lokalizace pomocí PIAN",
+    "text": "Lokalizace pomocí PIAN\nU Akcí, Samostatných akcí a Lokalit lze vytvářet plnohodnotné PIANy (prostorová identifikace archeologického nálezu). PIAN může být jak bod, tak linie či polygon. Pro jejich vyznačení v mapě slouží nástroje: \n\nPřidat bod – po kliknutí vloží bod;\nPřidat linii – kliknutím vloží nový uzel polylinie, kliknutím na poslední vložený uzel tvar potvrdí;\nPřidat polygon – kliknutím vloží uzel hrany polygonu, kliknutím na první vložený uzel tvar uzavře.\n\nNabídka pro vložení linií a polygonů obsahují možnosti daný prvek potvrdit (Dokončit), smazat poslední vložený bod (Krok zpět) a smazat celý nakreslený tvar (Storno). Tlačítko Editovat prvek umožňuje zapnou editaci již nakresleného tvaru a jeho úpravu pomocí přetaženích zvolených uzlů na nové pozice, přidání nových uzlů mezi dva existující (průhledně zobrazené uzly), případně smazání existujících uzlů (po kliknutí na tmavě zobrazené uzly).\nZakreslení polygonu: \nÚprava již existujícího polygonu: \nPohled na právě zakreslený polygon a další PIANy v jeho okolí (některé stále ve shlucích zvýrazněných barevnými kolečky s čísly): \n\nVideonávod\nTady bude video postupu, jak v mapě nakreslit polygonální či liniový PIAN :)",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Mapové rozhraní"
     ]
   },
   {
@@ -593,6 +536,7 @@
     "text": "Původně zveřejněno jako…",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro spolupracovníky"
     ]
@@ -605,6 +549,7 @@
     "text": "Úvod\nAMČR-PAS (Portál amatérských spolupracovníků a evidence samostatných nálezů) byl vytvořen pro podporu součinnosti dobrovolných spolupracovníků a oprávněných organizací při provádění archeologických výzkumů metodou povrchové prospekce, včetně využití detektorů kovů. Úkolem AMČR-PAS je vytvořit podmínky pro formalizaci a zároveň usnadnění této spolupráce při současném respektování platných zákonných norem čr.\nModul AMČR-PAS naleznete po přihlášení na https://amcr.aiscr.cz/.\nWebovou stránku amčr–pas pak zde http://www.archeologickamapa.cz/pas.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro spolupracovníky"
     ]
@@ -617,6 +562,7 @@
     "text": "Principy spolupráce\nModul AMČR-PAS je založen na spolupráci amatérských badatelů s archeology z organizací s oprávněním provádět archeologický výzkum. Prvním krokem je tedy nalézt v regionu, kde chcete svoji badatelskou činnost provozovat, organizaci s oprávněním provádět archeologický výzkum, kde bude archeolog takové spolupráci nakloněn a ochoten Vaši amatérskou badatelskou činnost zaštítit. Pokud dojde ke shodě na vzájemné spolupráci, vstupuje do celého procesu modul AMČR-PAS, který usnadní a zformalizuje většinu kroků amatérského výzkumu.\nVyhledávání archeologických nálezů pomocí detektoru kovů je jednou z metod archeologického výzkumu. Archeologický výzkum může být prováděn výhradně organizací k tomu oprávnenou a na území, které je vymezeno platnou dohodou dané organizace s av čr. Každý výzkum musí být registrován v Archeologické mapě České republiky (AMČR) ve formě projektu, který má svého vedoucího, který je pracovníkem dané oprávněné organizace.\nVeškeré archeologické nálezy a jejich nálezové okolnosti musí být evidovány. V ideálním případě by základní evidence měla proběhnout přímo v místě nálezu. V případě technických překážek (nedostupné internetové připojení, spolupracovník není vybaven chytrým telefonem apod.) by mělo k evidenci nálezu dojít bez zbytečných odkladů po návratu z terénu. Jelikož archeologické nálezy jsou učiněné v režimu archeologického výzkumu, je vyloučeno požadovat výplatu odměny podle § 23 památkového zákona.\nNutným předpokladem navázání spolupráce s oprávněnou organizací je účast na školení, jehož obsahem by měly být právní podmínky celého systému, metodika práce v terénu, dokumentace nálezů a způsob užívání AMČR-PAS.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro spolupracovníky"
     ]
@@ -629,6 +575,7 @@
     "text": "Modul AMČR-PAS\n\nRegistrace a přihlášení\n\n\n\n\n\n\n\n\nObr. 1: Dialog pro přihlášení\n\n\n\n\nPro přihlášení do aplikace slouží emailová adresa a heslo. Nutná je předchozí registrace.\nPovinnými položkami pro registraci jsou:\n\njméno\npříjmení\nplatná emailová adresa\norganizace – pro veřejnost obvykle [amatérský spolupracovník]\n\nNa uvedený email je automaticky odeslána ověřovací zpráva s odkazem pro potvrzení registrace. Po potvrzení je účet aktivován správcem systému. Aktivace účtů obvykle probíhá v běžné pracovní době.\n\n\n\n\nÚvodní obrazovka\n\n\n\n\n\n\n\n\nObr. 2: Výběr modulu AMČR\n\n\n\n\nModul AMČR-PAS je jednou ze součástí Archeologického informačního systému čr (ais cr), resp. Archeologické mapy čr (AMČR). Ve webové aplikaci je v současnosti dostupný modul AMČR-PAS a Knihovna 3D, která slouží pro evidenci 3D modelů a textur relevantních pro archeologii.\n\n\nSamotný modul AMČR-PAS se skládá z několika karet:\n\n\n\n\n\n\nObr. 3: Karty po přihlášení do AMČR-PAS\n\n\n\n\nZapsat: Zápis nového nálezu;\nMoje nálezy: Výčet nálezů, které jsem zaevidoval;\nVybrat: Výběr mých nálezů dle zadaných kritérií;\nSpolupráce: Správa spolupráce s archeology.\n\n\n\nSpolupráce\n\n\n\n\n\n\n\n\nObr. 4: Žádost o spolupráci\n\n\n\n\nNa kartě Spolupráce je nutné nejprve požádat archeologa o spolupráci. Tím vznikne vazba mezi archeologem a Vámi, jakožto spolupracovníkem. Pro navázání spolupráce je nutné znát email daného archeologa pod kterým je registrován v systému AMČR.\nPo potvrzení spolupráce archeolog vytvoří Projekt, pod kterým budou Vaše nálezy evidovány. Pro další postup je nutné, aby Vám archeolog sdělil číslo projektu, pod kterým budete své nálezy evidovat.\n\n\n\n\nZapsat\nKarta Zapsat slouží k zápisu samotných nálezů. Ten je možný jak přímo v terénu (aplikace spuštěná přímo v prohlížeči v mobilním telefonu), tak zpětně. V terénu doporučujeme provést následující kroky:\n\nzaměřit polohu nálezu,\nzapsat hloubku nálezu,\ndo pole Poznámka uvést údaje o kontextu nálezu.\n\n\nNálezové okolnosti\nPrvní sekcí, kterou je nutné vyplnit jsou Nálezové okolnosti. Zde je nutné vybrat projekt, v rámci kterého byl učiněn nález.\n\nVyberu ze seznamu relevantní číslo projektu (jedná se o jediný údaj bezpodmínečně nutný pro první uložení nálezu do systému).\nPřidám detailní popis lokalizace, např. formou parc. č., pomístního názvu (název trati, ulice, polohy aj.). Prosím dodržte následující formát zápisu: Poloha, (parc. č.)\nIdentifikuji nálezce (tlačítko + slouží k přidání chybějícího jména do hesláře). Pokud nechci své jméno u nálezu zveřejnit, lze zvolit anonym, anonym.\nVyplním datum nálezu.\nSpecifikuji nálezové okolnosti a hloubku nálezu.\n\n\n\n\n\n\n\n\n\nObr. 5: Zapsat nález\n\n\n\n\nPo prvním uložení změn ve formuláři dojde k přidělení identifikátoru nálezu, který je viditelný v horní části obrazovky. Pod tímto ID bude nález navždy evidován a je vhodné jej využívat např. při označování nálezů.\n\n\n\n\nLokalizace nálezu\n\n\n\n\n\n\n\n\nObr. 6: Mapové okno\n\n\n\n\nMapové okno slouží k přesné lokalizaci nálezu. Lze přepínat mezi různými mapovými podklady. Místo nálezu mohu určit několika způsoby.\n\nRučním zápisem geografických souřadnic. Akceptovány jsou souřadnice:\n\nwgs-84 uváděné v decimálních stupních, např. 50.0903260, 14.4090983\ns-jtsk uváděné v záporných hodnotách v metrech, např. -597268, -1161521.\n\nV případě práce v terénu s telefonem vybaveným GPS lokalizací pomocí tlačítka Současná poloha . Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.\nPřiblížením v mapě a vybráním přesného bodu kliknutím na mapový podklad.\n\n\n\n\n\nNález\n\n\n\n\n\n\n\n\nObr. 7: Okno nálezu\n\n\n\n\nV sekci Nález lze specifikovat dataci nálezu, typ předmětu atd. Vyplnění této části je částečně povinné (období, nález a materiál), informace však reviduje a doplní archeolog v další fázi zpracování.\n\n\n\n\nUložení\n\n\n\n\n\n\n\n\nObr. 8: Uložit\n\n\n\n\nJiž po vyplnění vazby na projekt lze rozepsaný nález kdykoliv uložit.\n\n\n\n\nNahrání fotografie\n\n\n\n\n\n\n\n\nObr. 9: Přidání fotografie\n\n\n\n\nPosledním klíčovým krokem po uložení celého záznamu je přiložit fotodokumentaci nálezové situace a předmětu, ideálně i s měřítkem. Akceptovány jsou fotografie ve formátu JPG, PNG, TIFF do maximální velikosti 100 MB. Není tedy třeba fotky komprimovat nebo zmenšovat. Pokud si nejste jistí, jak předměty správně dokumentovat, navštivte na webu AMČR-PAS sekci Návody.\n\n\n\n\nOdeslání záznamu\nPo vyplnění všech povinných údajů (pole označená červeným vykřičníkem ) a nahrání fotografie je možné záznam odeslat archeologovi pomocí tlačítka Odeslat. Až v tuto chvíli se nález zobrazí archeologovi, se kterým máte navázánu spolupráci a pod jehož číslem projektu byl nález zapsán.\nVe chvíli, kdy dojde k osobní schůzce s daným archeologem a jsou mu předány nálezy, archeolog potvrdí jejich převzetí, případně opraví informace o dataci, typu předmětu atd. Také určí, jak veřejně budou informace o daném nálezu přístupné (např. v případě vzácných nálezů či ohrožené lokality se může rozhodnout informace o poloze nálezu nezpřístupnit).\n\n\n\nMoje nálezy a Vybrat\n\n\n\n\n\n\nObr. 10: Moje nálezy\n\n\n\nKarta Moje nálezy nabízí výpis veškerých vašich nálezů. Toho využijete právě při uložení rozpracovaného záznamu v terénu s myšlenkou jeho dokončení, např. přidání detailnější fotky aj., později.\nKarta Vybrat pak nabízí multikriteriální vyhledávání ve vašich nálezech.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro spolupracovníky"
     ]
@@ -641,6 +588,7 @@
     "text": "Nález v Digitálním archivu AMČR\n\n\n\n\n\n\nObr. 11: Digitální archiv AMČR\n\n\n\nPo odeslání záznamu nálezu jej potvrdí osoba pověřená archivací detektorových nálezů na příslušném Archeologickém ústavu av čr. Následně je záznam zveřejněn v Digitálním archivu AMČR v kategorii Samostatné nálezy. Zde jsou zveřejněny všechny archivované nálezy evidované v modulu AMČR-PAS, jejich lokalizace však může být z důvodu ochrany archeologického dědictví zobecněna na okres, v němž byl daný nález evidován.\n\n\n\n\n\n\nObr. 12: Samostatné nálezy v Digitálním archivu AMČR",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro spolupracovníky"
     ]
@@ -650,9 +598,10 @@
     "href": "amcr/amcr-pas/amcr-pas.html",
     "title": "AMČR-PAS",
     "section": "",
-    "text": "Sekce k AMČR-PAS obsahuje následující části:\n\nČasto kladené otázky (FAQ) spolupracovníků\nČasto kladené otázky (FAQ) archeologů\nNávod pro spolupracovníky\nNávod pro archeology\nFotografická dokumentace nálezů",
+    "text": "Do portálu AMČR-PAS vstoupíte zde https://amcr.aiscr.cz/.\nHlavní stránku AMČR-PAS najdete zde https://amcr-info.aiscr.cz/pas/.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS"
     ]
   },
@@ -660,10 +609,11 @@
     "objectID": "amcr/amcr-pas/amcr-pas.html#obsah",
     "href": "amcr/amcr-pas/amcr-pas.html#obsah",
     "title": "AMČR-PAS",
-    "section": "",
-    "text": "Sekce k AMČR-PAS obsahuje následující části:\n\nČasto kladené otázky (FAQ) spolupracovníků\nČasto kladené otázky (FAQ) archeologů\nNávod pro spolupracovníky\nNávod pro archeology\nFotografická dokumentace nálezů",
+    "section": "Obsah",
+    "text": "Obsah\nSekce k AMČR-PAS obsahuje následující části:\n\nČasto kladené otázky (FAQ) spolupracovníků\nČasto kladené otázky (FAQ) archeologů\nNávod pro spolupracovníky\nNávod pro archeology\nFotografická dokumentace nálezů",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS"
     ]
   },
@@ -675,6 +625,7 @@
     "text": "Periodická školení\nArcheologické ústavy AV ČR v Praze a Brně provádějí periodická online školení k systému AMČR-PAS. Registrovat se lze na následujícím odkazu.\nŠkolení se zabývá dvěma oblastmi:\n\nmetodika spolupráce a její zákonný rámec, vč. základních pravidel působení hledače v terénu;\nfungování portálu AMČR-PAS a způsob jeho využití z pohledu uživatele.\n\nNásleduje vždy diskuse na základě pokládaných dotazů. Školení je určeno primárně pro širokou veřejnost, vítáni jsou však i odborní pracovníci v archeologii a památkové péči. Přesné datum školení bude stanoveno vždy v několikatýdenním předstihu na základě projeveného zájmu (obvykle ve čtvrtletních až pololetních cyklech). Před setkáním Vám na uvedený email zašleme další informace o tom, jak se k online setkání připojit.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS"
     ]
   },
@@ -686,6 +637,7 @@
     "text": "Odkazy\n\nOrganizace s oprávněním provádět archeologické výzkumy lze snadno vyhledat v Mapě archeologických organizací.\nArchivované nálezy lze prohlížet v Digitálním archivu AMČR.\nHeslář a časové vymezení jednotlivých období je k dispozici v nástroji PeriodO.\n\n\nPublikace a články související s AMČR-PAS\n\nSouhrnný článek kolektivu autorů AMČR-PAS vyšel v roce 2023 v časopise Internet Archaeology, viz https://doi.org/10.11141/ia.64.13.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS"
     ]
   },
@@ -697,6 +649,7 @@
     "text": "Vzorové dokumenty\n\n\n\n\nDokument\n\nFormát\nDatum aktualizace\nPopis dokumentu\n\n\n\n\nVzor dohody\n\nDOCX\n30. 3. 2021\nVzor dohody o spolupráci mezi oprávněnou organizací a amatérským spolupracovníkem.\n\n\nVzor protokolu\n\nDOCX\n30. 3. 2021\nVzor protokolu o proškolení spolupracovníka oprávněnou organizací.\n\n\nVzor projektu\n\nDOCX\n22. 3. 2021\nVzor projektové dokumentace pro přiložení k projektu typu průzkum v AMČR.\n\n\nVzor NZ\n\nDOCX\n13. 3. 2023\nVzor nálezové zprávy pro přiložení k projektu typu průzkum v AMČR.\n\n\nPříklad NZ\n\nPDF\n24. 5. 2023\nPříklad vypracované nálezové zprávy k projektu typu průzkum v AMČR.\n\n\nGrafická měřítka\n\nZIP\n–\nGrafická měřítka pro focení připravená pro tisk. Při tisku použijte nastavení velikosti stránky skutečná velikost, aby velikost měřítka odpovídala skutečnosti.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS"
     ]
   },
@@ -708,7 +661,7 @@
     "text": "Původně zveřejněno na Zenodo jako Chlup, T. (2021): AMČR-PAS Fotografická dokumentace nálezů. doi:10.5281/zenodo.4560101.\nFotografická dokumentace předmětů získaných povrchovou prospekcí slouží pro jejich evidenci a umožňuje uchovat informace o kontextu, ze kterého byly získány. Fotografování předmětů je proto třeba věnovat odpovídající pozornost. Následujících několik stránek si klade za cíl stručně vysvětlit, jaké fotografie má AMČR-PAS zájem shromažďovat a jak je pořídit i v improvizovaných podmínkách.\nAMČR-PAS přijímá fotografie ve formátu JPEG, PNG a TIFF do velikosti 100 MB. Obecně apelujeme na ukládání fotografií v co nejlepším rozlišení a kvalitě, za využití minimální komprese JPEG, případně využití komprese LZW TIFF.\nKe každému předmětu náleží dvojí typ fotografické dokumentace – fotografie z místa nálezu a fotografie předmětu samotného.",
     "crumbs": [
       "AMČR",
-      "AMČR-PAS",
+      "Tutoriály",
       "Fotografická dokumentace nálezů"
     ]
   },
@@ -720,7 +673,7 @@
     "text": "Fotografie z místa nálezu\nSlouží pro rekonstrukci nálezového kontextu. Na základě těchto fotografií by mělo být možné odpovědět na následující otázky.\n\nKde byl předmět nalezen? Fotka současně slouží i jako záloha prostorového zaměření.\nV jakém kontextu byl uložen? Jak hluboko byl předmět nalezen a jaké další artefakty byly v okolí?",
     "crumbs": [
       "AMČR",
-      "AMČR-PAS",
+      "Tutoriály",
       "Fotografická dokumentace nálezů"
     ]
   },
@@ -732,7 +685,7 @@
     "text": "Fotografie předmětu\nMusí podávat celkový obraz o dokumentovaném předmětu a musí splňovat základní kritéria dokumentační fotografie. Je na vzájemné dohodě mezi archeology a spolupracovníky, kdo zajistí finální dokumentační fotografii. Před vlastním focením je vhodné předmět očistit podle následujících pravidel.\n\nFragmenty keramiky\nLze opláchnout pod tekoucí vodou. Nenechávejte keramiku delší dobu máčet ve vodě ani ji nedrhněte, mohli byste setřít výzdobu, která je zásadní pro určení stáří a původu nálezů. Pokud je zřejmé, že keramická hmota není dobře vypálená, vyvarujte se mytí úplně.\n\n\nKamenné artefakty\nlze, stejně jako keramiku, umýt pod tekoucí vodou. Zejména u štípaných artefaktů se vyvarujte mechanického čištění, neboť na jejich povrchu mohou být stále přítomna organická pojiva a stopy po používání.\n\n\nKovové artefakty\nlze zbavit nečistot jejich ponořením do destilované vody. Zejména u této kategorie je nezbytné vyvarovat se použití jakýchkoliv jiných chemických činidel nebo hrubého mechanického čištění. Pro správný postup konzervace je nutné znát přesné chemické složení kovu, jeho pH atp., proto další kroky nechte vždy na odborníkovi!",
     "crumbs": [
       "AMČR",
-      "AMČR-PAS",
+      "Tutoriály",
       "Fotografická dokumentace nálezů"
     ]
   },
@@ -744,7 +697,7 @@
     "text": "Jak vytvořit dokumentační fotografii\nZákladem dokumentační fotografie je vhodně nastavené prostředí ve kterém fotografujeme. Pokud vytvoříme dobré světelné podmínky lze plnohodnotný dokumentační snímek pořídit i pomocí telefonu s minimem technických znalostí.\n\nPozadí\n\nNabízí se široká paleta možností od bílého papíru po profesionální fotostoly.\nObecně je vhodné volit matnější povrchy, protože nevytváří nežádoucí odlesky.\nPokud zamýšlíte v postprodukci odstranit pozadí, je vhodné předmět umístit dál od pozadí. Je vhodné, aby se barva pozadí lišila od barvy předmětu.\n\n\n\nFoťák vs telefon\nVolíme dle individuálních možností.\n\nFotoaparát umožní větší míru kontroly nad snímkem, ale vyžaduje větší znalosti.\nPokud fotíme telefonem, svěřujeme focení do rukou automatiky, která nemusí v horších světelných podmínkách fungovat optimálně.\n\n\n\nSvětlo\n\nZ důvodu rovnoměrného osvětlení předmětu je vhodné fotit na denním světle.\nČím menší je intenzita světla, tím delší expoziční časy bude nutné použít. Pak je lepší počkat na lepší světlo/použít stativ.\nHlavní světlo by mělo přicházet z levého horního rohu záběru (obecný usus v archeologické dokumentaci).\nVýrazné stíny a přepaly lze částečně vyrušit tím, že světelný proud odrazíme (od stropu/stěny), rozptýlíme (pauzovací papír/nízkogramážní tkaniny) nebo umístíme dál od předmětu.\nChceme-li stíny rozptýlit, kombinujeme více světelných zdrojů, např. stropní světlo a světlo lampy.\nChceme-li stíny eliminovat, je vhodné použít odraznou desku či jinou formu odrazné plochy.\nFotíme-li předměty s nevýraznými detaily (např. mince), je vhodné svítit jedním světlem pod menším úhlem. Zvýrazní se tak stíny a nevýrazné kontury se lépe vykreslí.\n\n\n\n\n\n\n\nObr. 1: Jednoduchý způsob jak vyrušit nežádoucí stíny pomocí plastové desky\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(a) Snímek před\n\n\n\n\n\n\n\n\n\n\n\n(b) Snímek po\n\n\n\n\n\n\n\nObr. 2: Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní lampa\n\n\n\n\n\nKompozice\n\nFotografovaný předmět se snažte umístit do středu záběru (minimální optická deformace, nejlepší výkon automatiky ostření).\nDelší osa předmětu by měla kopírovala delší rozměr záběru.\nS mírným odstupem přiložte svislé a vodorovné měřítko (ke stažení zde, při jeho tisku volte možnost skutečná velikost, na trhu jsou běžně k dostání i profesionální kriminalistická měřítka).\nPřepište identifikátor nálezu z AMČR-PAS na papír a přiložte na okraj záběru. Neklaďte předměty až k okraji záběru.\nSprávně komponovaný snímek není nutné ořezávat a otáčet.\n\n\n\n\n\n\n\nObr. 3: Příklad správně komponované dokumentační fotografie, zdroj světla je zde stolní lampa\n\n\n\n\n\nPostup focení\n\nPřipravte si fotopozadí, měřítko, foťák/telefon a papír s číslem nálezu.\nDbejte na systematičnost. Nepořádek v evidenci přináší velké množství problémů.\nPokud používáte jako zdroj denní světlo, počkejte si, až bude mírně pod mrakem, nebo foťte ve zlatou hodinku (v době, kdy je slunce nízko nad obzorem), pak nevznikají ostré stíny.\nPokud máte stativ použijte ho. Ulehčí Vám práci a eliminuje rozmazané fotky.\nSestavte si kompozici tak, aby zabírala celé pole hledáčku (pokud budete daleko, přicházíte o detail, pokud příliš blízko, bude kompozice natěsnaná nebo nekompletní).\nUžití měřítka je nutnost. Použití barevné kalibrační tabulky je zárukou věrohodného barevného podání fotografie.\nPokud předměty samovolně nestojí na rovné ploše, vytvořte pro ně lože z měkkého materiálu (polystyren, pěnové obalové materiály, suchý jemný písek). Předměty nikdy nezavěšujte, neohýbejte, nazapichujte atp.\nPořiďte kolmé/šikmé snímky všech stran předmětů a záběry zajímavých detailů (průvrty, lomy či traseologicky významné jevy).\nFotografie průběžně kontrolujte v náhledu. Rozmazané, tmavé a přesvětlené snímky rovnou mažte.\nDo AMČR-PAS nahrajte 2-3 finální fotografie.\n\n\n\n\n\n\n\nObr. 4: Základní pomůcky pro fotografování archeologických nálezů\n\n\n\n\n\nPostprodukce\nPostprodukce je soubor grafických úkonů, ke kterým přistupujeme pokud je třeba fotku dodatečně upravit.\n\nJednodušší úkony otáčení, ořez, úprava expozice atp. zvládnete s volně dostupnými nástroji (nástroj Fotky v základní sadě Windows, Windows prohlížeč fotografií, Aplikace Fotky v telefonu aj.)\nSložitější úpravy barev, odstranění pozadí fotografií, či úpravy ve vrstvách vyžadují již specializované aplikace.\nPokud je snímek špatně natočený, srovnejte jej a vhodně ořízněte.\nPři exportu fotografie volte vždy co nejvyšší kvalitu.\nPokud jste zběhlí v postprodukci, je vhodné všechny pohledy oříznout od pozadí a vysadit na jeden snímek s měřítkem.\nSnažte se o věrohodné podání předmětu, preferujte jednoduché úpravy.\n\n\n\n\n\n\n\n\nObr. 5: Příklad správně upraveného snímku ořízlého od pozadí a jednotlivých pohledů vsazených do jednoho obrázku",
     "crumbs": [
       "AMČR",
-      "AMČR-PAS",
+      "Tutoriály",
       "Fotografická dokumentace nálezů"
     ]
   },
@@ -756,7 +709,7 @@
     "text": "Nastavení fotoaparátu\nPokud vlastníte digitální zrcadlovku/bezzrcadlovku, setkáte se s celou škálou parametrů, které je třeba nastavit, aby snímek vyšel optimálně ostrý a dostatečně osvětlený. Níže jmenované parametry jsou pouze orientační a jedná se o velmi obecný exkurz do nastavení fotoaparátu. Ovládací rozhraní se u jednotlivých značek a modelů fotoaparátů velmi liší. Pro konkrétní nastavení doporučujeme nahlédnout do manuálu.\n\nPřednastavené režimy\nPoloprofesionální zrcadlovky disponují mnoha specializovanými režimy pro konkrétní situace. Pokud se vám nedaří nastavit foťák v manuálním režimu, zkuste režimy Makro či poloautomatický režim preference clony.\n\n\nVelikost (Resolution)\nVolte tu nejvyšší, kterou Vaše zařízení umožňuje.\n\n\nFormát (File type)\nDigitální fotoaparáty umožňují ukládat fotografie do formátů JPEG a RAW. Pokud nemáte zkušenosti s postprodukční úpravou fotografií, volte formát JPEG v co nejvyšší kvalitě (Fine/L). Pokud jste zběhlí v postprodukčních úpravách, volte formát RAW a fotografie exportujte do formátu TIFF (&lt;100 MB, komprese LZW).\n\n\nCitlivost (ISO)\nUdává citlivost obrazového snímače. Čím je hodnota ISO nižší, tím méně obrazového šumu (nežádoucího) vzniká na výsledné fotce, ale tím delší čas je potřebný ke správnému osvětlení snímače. Snažte se tedy držet ISO co nejnižší, např. 100-400, ale ne na úkor příliš dlouhého expozičního času.\n\n\nVyvážení bílé (WB)\nSlouží ke sjednocení barevného podání fotografie tak, aby souhlasil s vnímáním barev lidským okem. Ve většině případů lze ponechat na automatice. U focení s bleskem volte příslušný symbol. Případnou kalibraci lze bezztrátově provést při postprodukci.\n\n\nClona (f/…)\nClona je zařízení, které redukuje množství světla procházející objektivem a podílí se na výsledné hloubce ostrosti. S rostoucím clonovým číslem (f) roste hloubka ostrosti. Současně se ale redukuje množství procházejícího světla, což klade větší nároky na délku času, po který musí být snímač vystaven světelnému proudu. U archeologických nálezů je žádoucí vyšší hloubka ostrosti. Obecně doporučujeme vyšší clonová čísla (&gt;8).\n\n\nExpoziční čas\nČas, po který je senzor snímače vystaven světelnému proudu. Pro focení archeologických nálezů doporučujeme používat stativ a režim priority clony (A, Av), který potřebné výpočty provede za vás. V případě, že fotíme na bílém pozadí se může stát, že snímek bude potřeba ztmavit/zesvětlit funkcí kompenzace expozice (symbol +/-).\n\n\nOstření\nNastavení preferencí kam a jak má fotoaparát ostřit. Ve většině případů lze ponechat na automatice. Při špatných světelných podmínkách automatika selhává a je třeba zvolit manuální režim, který se ovládá ostřícím kroužkem na těle objektivu.\n\n\n\n\n\n\n\n\n\n\n\n(a) Clona f/3\n\n\n\n\n\n\n\n\n\n\n\n(b) Clona f/11\n\n\n\n\n\n\n\n\n\n\n\n(c) Clona f/32\n\n\n\n\n\n\n\nObr. 6: Příklady nastavení hloubky ostrosti",
     "crumbs": [
       "AMČR",
-      "AMČR-PAS",
+      "Tutoriály",
       "Fotografická dokumentace nálezů"
     ]
   },
@@ -805,51 +758,34 @@
   {
     "objectID": "amcr/amcr.html",
     "href": "amcr/amcr.html",
-    "title": "AMČR",
+    "title": "Uživatelská příručka AMČR",
     "section": "",
-    "text": "Oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy",
+    "text": "Návody ukazují základní pracovní postupy v aplikaci AMČR.\n\nFormulář oznámení – jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy\nSpráva Projektů v AMČR\n\nSpráva AMČR-PAS\nNávody k používání Portálu amatérských spolupracovníků a evidence samostatných nálezů (AMČR-PAS).\n\nÚvodní stránka nápovědy k AMČR-PAS se vzorovými dokumenty ke stažení aj.\nČasto kladené otázky (FAQ) spolupracovníků a archeologů\nNávod pro spolupracovníky a archeology",
     "crumbs": [
-      "AMČR"
+      "AMČR",
+      "Úvod"
     ]
   },
   {
-    "objectID": "amcr/amcr.html#formulář-oznámení",
-    "href": "amcr/amcr.html#formulář-oznámení",
-    "title": "AMČR",
+    "objectID": "amcr/amcr.html#návody",
+    "href": "amcr/amcr.html#návody",
+    "title": "Uživatelská příručka AMČR",
     "section": "",
-    "text": "Oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy",
+    "text": "Návody ukazují základní pracovní postupy v aplikaci AMČR.\n\nFormulář oznámení – jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy\nSpráva Projektů v AMČR\n\nSpráva AMČR-PAS\nNávody k používání Portálu amatérských spolupracovníků a evidence samostatných nálezů (AMČR-PAS).\n\nÚvodní stránka nápovědy k AMČR-PAS se vzorovými dokumenty ke stažení aj.\nČasto kladené otázky (FAQ) spolupracovníků a archeologů\nNávod pro spolupracovníky a archeology",
     "crumbs": [
-      "AMČR"
+      "AMČR",
+      "Úvod"
     ]
   },
   {
-    "objectID": "amcr/amcr.html#projekty",
-    "href": "amcr/amcr.html#projekty",
-    "title": "AMČR",
-    "section": "Projekty",
-    "text": "Projekty\n\nSpráva Projektů v AMČR",
+    "objectID": "amcr/amcr.html#tutoriály",
+    "href": "amcr/amcr.html#tutoriály",
+    "title": "Uživatelská příručka AMČR",
+    "section": "Tutoriály",
+    "text": "Tutoriály\nTutoriály dokumentaují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jendotku, nafotit drobný nález apod.\n\nZápis dokumentačních jednotek\n\nPokyny pro volbu a zápis správného typu dokumentačních jednotek\nNávod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace\n\n\n\nAMČR-PAS\n\nJak provádět fotografickou dokumentaci nálezů pro AMČR-PAS\nPostup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu",
     "crumbs": [
-      "AMČR"
-    ]
-  },
-  {
-    "objectID": "amcr/amcr.html#akce",
-    "href": "amcr/amcr.html#akce",
-    "title": "AMČR",
-    "section": "Akce",
-    "text": "Akce\n\nSpráva Akcí v AMČR\nPokyny pro volbu a zápis správného typu dokumentačních jednotek\nPostup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu\nNávod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace",
-    "crumbs": [
-      "AMČR"
-    ]
-  },
-  {
-    "objectID": "amcr/amcr.html#amčr-pas",
-    "href": "amcr/amcr.html#amčr-pas",
-    "title": "AMČR",
-    "section": "AMČR-PAS",
-    "text": "AMČR-PAS\nNávody k používání Portálu amatérských spolupracovníků a evidence samostatných nálezů (AMČR-PAS).\n\nÚvodní stránka nápovědy k AMČR-PAS se vzorovými dokumenty ke stažení aj.\nČasto kladené otázky (FAQ) spolupracovníků a archeologů\nNávod pro spolupracovníky a archeology\nNávod jak provádět fotografickou dokumentaci nálezů",
-    "crumbs": [
-      "AMČR"
+      "AMČR",
+      "Úvod"
     ]
   },
   {
@@ -860,6 +796,7 @@
     "text": "Proč bych měl spolupracovat s archeologem?\nArcheologický výzkum může provádět jen organizace k tomu oprávněná, tj. taková, která má povolení Ministerstva kultury České republiky a smlouvu s Akademií věd České republiky (seznam organizací). Neoprávněné provádění archeologického výzkumu je podle zákona přestupkem, za který lze uložit sankci až do výše 4 mil. Kč. Kromě tradičních, plošných výzkumů, je archeologickým výzkumem také např. povrchový sběr či detektorový průzkum. Movité archeologické nálezy nejsou předmětem soukromého vlastnictví, ale výhradně majetkem kraje, obce, nebo státu. Samostatné hledání a držba artefaktů je proto protiprávní činností. Naopak, kontrolovaná spolupráce v souladu s právními předpisy je přínosem jak pro amatéry, tak i pro archeology; zejména však poslouží k vhodnému nakládání s archeologickým dědictvím České republiky.\nArcheologie je vědní disciplína, která vyžaduje použití odborných metod, a to nejen na plošném výzkumu, ale také v rámci nedestruktivních či mírně destruktivních průzkumů. K archeologickým nálezům se vážou tzv. nálezové okolnosti, tedy informace o jejich původu, významu, účelu či důvodu uložení na konkrétním místě. Tyto informace jsou pro vědecké bádání naprosto nepostradatelné, ale hlavně také neobnovitelné. Po jejich zničení informace nenávratně mizí a kulturně-historická hodnota nálezu se snižuje. Oprávněná organizace své spolupracovníky náležitě zaškolí tak, aby k takovým ztrátám nedocházelo. Zároveň jasně vymezí, kde a za jakých podmínek je hledání přípustné.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -872,6 +809,7 @@
     "text": "Proč bych měl spolupracovat s archeologem?\nArcheologický výzkum může provádět jen organizace k tomu oprávněná, tj. taková, která má povolení Ministerstva kultury České republiky a smlouvu s Akademií věd České republiky (seznam organizací). Neoprávněné provádění archeologického výzkumu je podle zákona přestupkem, za který lze uložit sankci až do výše 4 mil. Kč. Kromě tradičních, plošných výzkumů, je archeologickým výzkumem také např. povrchový sběr či detektorový průzkum. Movité archeologické nálezy nejsou předmětem soukromého vlastnictví, ale výhradně majetkem kraje, obce, nebo státu. Samostatné hledání a držba artefaktů je proto protiprávní činností. Naopak, kontrolovaná spolupráce v souladu s právními předpisy je přínosem jak pro amatéry, tak i pro archeology; zejména však poslouží k vhodnému nakládání s archeologickým dědictvím České republiky.\nArcheologie je vědní disciplína, která vyžaduje použití odborných metod, a to nejen na plošném výzkumu, ale také v rámci nedestruktivních či mírně destruktivních průzkumů. K archeologickým nálezům se vážou tzv. nálezové okolnosti, tedy informace o jejich původu, významu, účelu či důvodu uložení na konkrétním místě. Tyto informace jsou pro vědecké bádání naprosto nepostradatelné, ale hlavně také neobnovitelné. Po jejich zničení informace nenávratně mizí a kulturně-historická hodnota nálezu se snižuje. Oprávněná organizace své spolupracovníky náležitě zaškolí tak, aby k takovým ztrátám nedocházelo. Zároveň jasně vymezí, kde a za jakých podmínek je hledání přípustné.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -884,6 +822,7 @@
     "text": "Jaký je účel AMČR-PAS?\nJe AMČR-PAS v souladu s platnými právními předpisy?\nArcheologická mapa ČR je oborovým nástrojem pro sběr, administraci a archivaci dat získaných terénními archeologickými výzkumy. Modul AMČR-PAS byl speciálně vytvořen pro evidenci dat, která pocházejí z detektorových průzkumů a povrchových sběrů prováděných oprávněnými archeologickými organizacemi a jejich oficiálními spolupracovníky z řad veřejnosti (tzv. občanský či dobrovolný spolupracovník). Z povahy věci není pochyb o legálnosti systému jako takového. AMČR-PAS slouží jako nástroj pro jednotný sběr a uchování dat pocházejících z archeologických průzkumů, na kterých se v rámci platných právních předpisů pod garancí archeologů podílejí amatéři.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -896,6 +835,7 @@
     "text": "Je používání AMČR-PAS povinné?\nProč bych měl používat AMČR-PAS?\nLegálně spolupracovat s archeologickými pracovišti na detektorových průzkumech lze výhradně v rámci platných právních předpisů, tedy pouze v rámci oprávněného archeologického výzkumu, a to bez ohledu na uplatnění AMČR-PAS. Jak bylo v předchozí otázce uvedeno, AMČR-PAS je především oborovým nástrojem, který byl vyvinut přímo na míru povrchovým průzkumům. Jeho výhodou pro odborné archeologické instituce je, že umožňuje průběžnou digitální komunikaci se spolupracovníky a také snadnější zpracování a vyhodnocování jimi získaných dat. Výhody samozřejmě nabízí i spolupracovníkům z řad veřejnost, kteří užíváním AMČR-PAS získají možnost dostávat k jednotlivým svým nálezům přehlednou a rychlou zpětnou vazbu. Mohou je kdykoliv zpětně dohledat a všechny zobrazit ve formě vlastní obrazové galerie v Digitálním archivu AMČR.\nZákladní podmínkou využívání AMČR-PAS spolupracovníky z řad veřejnosti je, že uživatel je legálním spolupracovníkem některé z organizací oprávněných k provádění archeologických výzkumů na daném území. S archeologickými pracovišti samozřejmě lze v současné době spolupracovat i bez používání AMČR-PAS a řada lidí tak již delší dobu činí. Nově vytvořený modul dosud ani všechny odborné organizace nemusí plně využívat. Předpokládáme, že se tento stav postupně změní a používání AMČR-PAS se v rámci oprávněných organizací stane standardem. Forma zapojení spolupracovníků do AMČR-PAS je plně v kompetenci jednotlivých organizací a je třeba vzájemné dohody v rámci komunikace s příslušnými odbornými pracovníky.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -908,6 +848,7 @@
     "text": "S kterým archeologem nebo organizací mám spolupracovat?\nKaždá oprávněná organizace má svoji územní působnost, ve které může provádět archeologické výzkumy. Jejich přehled lze najít na Mapě archeologických organizací. Pouze na tomto území může spolupracovat se zájemci z řad veřejnosti a pouze z tohoto území může získávat archeologické nálezy. Proto je vhodné vybírat a oslovovat s nabídkou spolupráce oprávněnou organizaci na základě územní působnosti. Zároveň je třeba mít na paměti, že ne všechna archeologická pracoviště jsou schopna podporu amatérským hledačům nabídnout (zejména z kapacitních a organizačních důvodů či kvůli svému specifickému zaměření). Ne všechny oprávněné organizace se na detektorové prospekce specializují a ne všechny dokážou movité archeologické nálezy adekvátně dlouhodobě spravovat. Obecně lze větší otevřenost vůči spolupracovníkům z řad veřejnosti předpokládat spíš u muzeí či jiných příspěvkových organizací, nebo u Archeologických ústavů AV ČR. Vaše spolupráce s oprávněnou organizací by měla být pravidelná, dlouhodobá a koordinovaná, proto při výběru zohledněte i dosažitelnost sídla organizace z Vašeho bydliště.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -920,6 +861,7 @@
     "text": "Co když se mnou archeolog nechce spolupracovat?\nJak již bylo řečeno, ne všechny odborné instituce disponují stejnými možnostmi a podmínkami pro spolupráci. Jejich možnosti se mohou také lišit např. dle aktuální vytíženosti. V takovém případě lze oslovit jinou oprávněnou organizaci v okolí. Prakticky v každém regionu je vždy více než jedna organizace, která je oprávněná archeologické výzkumy provádět.\nJe třeba mít na paměti, že ke vzniku vzájemné a dlouhodobé spolupráce je zapotřebí oboustranného zájmu a zejména pochopení pro oborová pravidla ze strany spolupracovníků. Jelikož mnoho hledačů provádí tuto činnost nelegálně, je důležité, aby panovala mezi spolupracovníkem a archeologem vzájemná důvěra a přesvědčení, že spolupráce bude probíhat v souladu se zákonem a nebude ohrožovat kulturní dědictví. Hledač by tak v zájmu zachování spolupráce měl dbát na dodržování všech stanovených pravidel.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -932,6 +874,7 @@
     "text": "Jakou formu bude mít naše spolupráce?\nCo by měla obsahovat dohoda o spolupráci mezi archeologem a amatérem?\nJakou by měla mít formu?\nSpolupráce by měla probíhat primárně na základě dohody o spolupráci. Pro dohodu je z důvodu transparentnosti důrazně doporučována písemná forma. Mezi náležitosti dohody patří: - Jednoznačná identifikace spolupracovníka (potvrzení o spolupráci je nepřenosné) - Stanovení územního a časového rozsahu spolupráce - Stanovení organizačních pravidel odevzdávání nálezů a komunikace archeologa a spolupracovníka - Kontaktní údaje spolupracovníka a archeologa (telefon, e-mail, atp.)\nVzor dohody o spolupráci lze najít zde: stáhnout",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -944,6 +887,7 @@
     "text": "Jak v praxi probíhá spolupráce a terénní průzkum?\nPo uzavření dohody je spolupracovník proškolen v metodách provádění průzkumu a ošetření nálezů. Tato pravidla musí spolupracovník pečlivě dodržovat. V rámci školení by měla též proběhnout komunikace o tom, na jakém území a jakými metodami spolupracovník může svou činnost vyvíjet. Současně může být spolupracovník proškolen též ve využívání modulu AMČR-PAS.\nPřed zahájením průzkumu musí spolupracovník informovat majitele pozemku o zájmu provést archeologický průzkum a dohodnout se s ním na podmínkách. Bez (alespoň ústní) dohody a souhlasu majitele pozemku nelze průzkum provést.\nVšechny artefakty, které spolupracovník najde, musí být předány archeologovi územně příslušné organizace. Ten vyhodnotí, které z nich spadají do kategorie archeologických nálezů. Archeologické nálezy jsou majetkem kraje, obce nebo státu. Všechny nálezy musí spolupracovník odevzdat na tom pracovišti, kde má uzavřenou dohodu a v rámci jehož projektu svou činnost vyvíjí.\nPokud při hledání narazíte na specifický materiál, jako jsou palné zbraně a střelivo vyrobené po r. 1890, případně lidské ostatky, průzkum okamžitě ukončete a kontaktujte odpovědného archeologa. V případě zbraní a střeliva kontaktujte též Policii ČR.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -956,6 +900,7 @@
     "text": "Jak se prokážu, že spolupracuji s archeologem?\nKaždý spolupracovník se musí na žádost majitele pozemku, Policie ČR či jiných oprávněných osob prokázat potvrzením o spolupráci. Potvrzení musí obsahovat prostorové vymezení oblasti průzkumu, základní identifikaci osoby (jméno příjmení, rok narození), pro kterou bylo potvrzení vydáno a dobu platnosti. Dále musí obsahovat přímý (ideálně neustále funkční) kontakt na odpovědného archeologa. Ohledně vydání potvrzení se informujte u oprávněné organizace. Mějte na paměti, že toto potvrzení spolu s průkazem totožnosti jsou jediný způsob jak na místě prokázat, že se nedopouštíte nelegální činnosti. Na co si musím dát pozor při zápisu nálezu do AMČR-PAS?\nNávod na zápis nálezu naleznete na adrese: https://doi.org/10.5281/zenodo.4114081\nNálezy do AMČR-PAS je ideální zapisovat hned na místě jejich učinění. V každém případě je nezbytné správně zaznamenat jejich polohové souřadnice, evidenční číslo a hloubku hned v terénu (ať již přímo do AMČR-PAS či na jiný datový nosič). Ostatní údaje lze do systému zapisovat i zpětně, nejlépe po návratu z prospekce.\nV případě, že se spolupracovník účastní více projektů, je nutné klást zvýšený důraz na správnou volbu projektu, pod který nález spadá. O správném zápisu rozhoduje odpovědný archeolog.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -968,6 +913,7 @@
     "text": "Co se stane s nálezy, které vložím do AMČR-PAS?\nData (zejména nálezy) vložená do AMČR-PAS jsou průběžně zveřejňována v Digitálním archivu AMČR, kde jsou informace o nálezech dostupné zejména vědecké obci, ale také za určitých podmínek široké veřejnosti. Obecně platí, že nálezy učiněné prostřednictvím detektorové prospekce jsou nedílnou součástí kulturního dědictví ČR a přístup k nim je základním lidským právem (čl. 34 a 35 Listiny základních práv a svobod). Právě to Digitální archiv AMČR umožňuje. Rozsah zveřejněných informací nicméně nastavuje archeolog, s nímž uživatel AMČR-PAS spolupracuje a který je zodpovědný za projekt, v jehož rámci spolupracovník svou činnost vykonává. Je plně v jeho kompetenci, aby některé informace (zejména místo nálezu) byly zpřístupněny pouze v takové podobě, která nemůže znamenat ohrožení dalších movitých či nemovitých archeologických památek, např. nelegálním vykrádáním.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -980,6 +926,7 @@
     "text": "Náleží mi za nálezy odměna?\nZákon č. 20/1987 Sb., o státní památkové péči, ve znění pozdějších předpisů, přiznává nárok na odměnu pouze v případě náhodného nálezu (§ 23). Tedy například v případě nálezu učiněného při provádění zahradních, nebo zemědělských prací.\nNárok na odměnu se nevztahuje na nález učiněný v průběhu aktivního hledání nálezů. V takovém případě se již jedná o archeologický výzkum. V případě že takový výzkum není oprávněný (prováděný archeologickou organizací, schválený a evidovaný v AMČR), jedná se naopak o spáchání přestupku (§ 39 odst. 2 písm. f) zákona o státní památkové péči). Místo odměny tak může být hledači uložena finanční sankce až do výše 4 mil. Kč a také sankce zabavení věci použité ke spáchání přestupku (např. detektor kovů).",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Spolupracovníci"
     ]
@@ -992,6 +939,7 @@
     "text": "Je AMČR-PAS v souladu s platnými právními předpisy?\nStejně jako další součásti AMČR, je i AMČR-PAS nástrojem pro sběr, administraci a archivaci dat z terénních archeologických výzkumů majících povahu detektorové prospekce a povrchových sběrů (tedy spadajících do kategorie “archeologický průzkum”) prováděných oprávněnými archeologickými organizacemi a jejich oficiálními spolupracovníky z řad veřejnosti (tzv. občanský či dobrovolný spolupracovník). Z povahy věci není pochyb o legálnosti systému jako takového. AMČR-PAS má sloužit jako nástroj pro jednotný sběr a uchování dat pocházejících z archeologických průzkumů (ať již hromadných či zejména individuálních), na kterých se v rámci platných právních předpisů pod garancí archeologů podílejí amatéři.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1004,6 +952,7 @@
     "text": "Je AMČR-PAS v souladu s platnými právními předpisy?\nStejně jako další součásti AMČR, je i AMČR-PAS nástrojem pro sběr, administraci a archivaci dat z terénních archeologických výzkumů majících povahu detektorové prospekce a povrchových sběrů (tedy spadajících do kategorie “archeologický průzkum”) prováděných oprávněnými archeologickými organizacemi a jejich oficiálními spolupracovníky z řad veřejnosti (tzv. občanský či dobrovolný spolupracovník). Z povahy věci není pochyb o legálnosti systému jako takového. AMČR-PAS má sloužit jako nástroj pro jednotný sběr a uchování dat pocházejících z archeologických průzkumů (ať již hromadných či zejména individuálních), na kterých se v rámci platných právních předpisů pod garancí archeologů podílejí amatéři.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1016,6 +965,7 @@
     "text": "Je využívání AMČR-PAS povinné?\nSnahou archeologických ústavů není nutit oprávněné organizace do spolupráce s amatéry nad rámec jejich běžné činnosti, dosavadních zvyklostí nebo aktuálně potřebné míry. Probíhá-li v oprávněné organizaci spolupráce s amatéry, která vede k nabytí movitých nálezů, je ovšem její povinností vést o těchto nálezech evidenci, včetně uchování všech na souvisejících a dostupných metadat. Výzkumy mohou být i nadále administrovány v rámci standardního postupu v AMČR – využívání AMČR-PAS je dobrovolné. AMČR-PAS však byl vytvořen na míru průzkumům prováděným v rámci individuální, ovšem do výzkumné činnosti oprávněných organizací zahrnuté aktivity spolupracovníků. Proto je pro evidence průzkumů vhodnější a usnadňuje plnění souvisejících povinností vůči ARÚ/ARÚB. AMČR-PAS nabízí funkcionality umožňující aktivní participaci amatérských spolupracovníků na tvorbě záznamů, a také jejich kontrolovatelnou míru zpřístupnění hledačské komunitě a široké veřejnosti. Tento aspekt lze vnímat také jako motivační nástroj k legální, odbornými požadavky moderované formě hledání. Čím více bude AMČR-PAS archeology používán, tím větší bude jeho přínos pro uchování informací, vědecký výzkum i prezentaci archeologie. Všechny povinnosti vyplývající z právních předpisů a dohod mezi oprávněnou organizací a AV ČR platí bez ohledu na zvolený typ evidence.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1028,6 +978,7 @@
     "text": "Co je to typ projektu “průzkum”?\nSlouží AMČR-PAS pro administraci záchranných nebo badatelských výzkumů?\nPo spuštění AMČR-PAS byl zavedena nový typ archeologického projektu “průzkum”, kdy podnětem není stavební nebo jiná destruktivní činnost, ale všeobecné a dlouhodobé ohrožení lokality či většího územního celku přirozenou degradací terénu, zemědělskou činností či nelegálními aktivitami hledačů. Při takovém povrchovém průzkumu je použito nedestruktivních nebo málo destruktivních metod výzkumu. Tyto prospekce mají povahu preventivní záchrany ohrožených movitých památek, vesměs již zbavených svého původního kontextu uložení. Pro tuto kategorii není potřeba žádat stanovisko ARÚ/ARÚB, tak jako je tomu u badatelských výzkumů, které mají proběhnout formou sond či plošných odkryvů; vyžaduje se pouze vložení základního shrnutí projektového záměru do AMČR (viz vzor).",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1040,6 +991,7 @@
     "text": "Podle jakého klíče je potřeba vytvářet a spravovat jednotlivé projekty?\nPro každou oprávněnou organizaci je doporučeno vytvoření dvou základních projektů na každý kalendářní rok. První by měl sloužit k evidenci výsledků průzkumů prováděných ve spolupráci s amatérskou veřejností v rámci předem vymezeného území (např. okres, výčet obcí v rozsahu působnosti OAO, jednotlivé katastry). Maximální přípustné území takového projektu jsou aktuálně platné hranice samosprávného celku kraj, projekt však může být vytvořen i na jednotlivé katastry či výčet více obcí. Nikdy však nesmí překročit hranice územního rozsahu působnosti OAO. Druhý projekt by měl sloužit k evidenci nálezů nejasného původu (viz otázka 5, druhý odstavec), a to v rozsahu působnosti OAO. Pro náhodné nálezy dle § 23 odst. 2 až 5 zákona č. 20/1987 Sb., o státní památkové péči, lze vytvořit samostatný projekt ad hoc. Další projekty lze vytvářet např. při cíleném dlouhodobém sledování konkrétní lokality či skupiny lokalit. Každý projekt umožňuje vést oddělenou evidenci nálezů, čehož lze při jejich správě využívat - dělení mezi projekty by mělo být logické.\nPočet vytvořených projektů není omezen, pro lepší organizaci tak lze vytvořit i více projektů dle potřeb oprávněné organizace.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1052,6 +1004,7 @@
     "text": "Nálezy jakého původu lze v AMČR-PAS administrovat?\nAMČR-PAS cílí na sběr a správu informací o archeologických nálezech pocházejících z ověřené spolupráce se zodpovědnými a zaškolenými spolupracovníky z řad hledačů, která může mít podobu organizované prospekce pod přímým dohledem archeologa, nebo se uskutečňuje v rámci individuální, avšak archeologem schválené a vedené činnosti hledače v rámci konkrétního přihlášeného projektu. Tyto projekty mohou být vymezeny velice obecně a zaštítit tak i širší působení jednotlivých hledačů, v souladu s působností oprávněné organizace vymezené dohodou s AV ČR. Územní rozsah a prováděné aktivity v rámci takového projektu nemohou překračovat územní působnost oprávněné organizace a jakékoliv jiné právně závazné limity vymezující jejich kompetence.\nAMČR-PAS neslouží k administraci zjevně nelegální činností nabytých nálezů. Primárním záměrem AMČR-PAS je evidence nálezů od hledačů s prokazatelnou vazbou na konkrétní oprávněnou organizaci.\nNálezy odevzdané oprávněné organizaci, které nepocházejí z území její působnosti nemohou být zapsány a musí být předány organizaci, která na místo nálezu oprávněním disponuje (tam pak zápis do projektu může být na základě odborného posouzení učiněn).\nV případě skutečně náhodného nálezu a postupu v souladu s § 23 odst. 2 až 5 zákona o státní památkové péči (č. 20/1987 Sb.), lze archeologický nález v AMČR-PAS zaznamenat.\nV AMČR-PAS nelze zaznamenat nálezy, které nebyly fyzicky předány oprávněné organizaci (např. jenom ukázány).",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1064,6 +1017,7 @@
     "text": "Jak řešit dohody s majiteli pozemků?\nProvedení archeologického výzkumu je mimo jiné podmíněno dohodou s vlastníkem (správcem/uživatelem) pozemku.\nJak mají oprávněné organizace přistupovat k této povinnosti při spolupráci s amatéry?\nNepochybně je technicky neproveditelné zajištění dohod zejména u hledačů, kteří pátrají na nových lokalitách a mají velký akční rádius. Existuje zároveň řada zemědělců, kteří hledače na pozemek pustí, ale nechtějí vyřizovat příslušné dokumenty.\nARÚ/ARÚB v současné době doporučuje, aby v dohodě uzavřené mezi hledačem a oprávněnou organizací bylo ustanovení, které spolupracovníka zavazuje při své činnosti plně dodržovat veškerá příslušná legislativní ustanovení a zároveň ho zplnomocňuje ke sjednání povolení ke vstupu na pozemek za účelem realizace činností, k nimž je oprávněn. Za případné škody způsobené třetí straně při jeho činnosti nese plnou odpovědnost (dohodu s vlastníkem pozemku není třeba uzavírat písemně).",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1076,6 +1030,7 @@
     "text": "Co AMČ-PAS a evidence ve sbírkotvorných institucích?\nJak bude řešena problematika vedení dvou až tří samostatných evidencí nálezů ve sbírkotvorných institucích?\nTomuto riziku lze čelit jen částečně. Data z AMČR aktuálně přebírá firma Musoft pro systém Museion. Pokud provede potřebné úpravy svého software, nálezy z AMČR-PAS bude možné zobrazovat a dále využívat v prostředí Museion (obdobně jako lze nyní stahovat údaje o archeologických akcích). Nástroje AIS CR (zejména https://api.aiscr.cz/) lze obdobným způsobem využít i v jiných informačních systémech. Konkrétní požadavky musí předložit uživatelé systémů vůči svým dodavatelům, ARÚ nabízí v tomto procesu potřebnou metodickou a technickou podporu.\nNa rozdíl od jiných databází je AMČR-PAS jedinou, která je zcela přístupná veřejnosti, je napojená na mapová rozhraní a zajišťuje plnění zákonných povinností. K vyšší pracovní zátěži při zpracování většího počtu nálezů nepochybně dojde, avšak evidenci odpovídající nárokům památkového zákona se ani v těchto případech nelze vyhýbat (zvýšenou pracovní zátěž představuje i zpracování evidence od hledačů nabytých nálezů formou standardní nálezové zprávy). ARÚ/ARÚB vynakládají veškeré úsilí, aby přesvědčili zřizovatele oprávněných organizací o nutném posílení personální kapacit dílčích pracovišť a cílené podpoře zavedení AMČR-PAS.\nPřírůstková čísla nebo jiné označení nálezů lze do PAS zadat jako evidenční číslo v části formuláře nazývané “Uložení”.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1088,6 +1043,7 @@
     "text": "Lze do AMČR-PAS zapisovat archeologické nálezy také zpětně?\nDo AMČR-PAS lze zapsat nálezy i zpětně. Zápis by měla provést oprávněná organizace, která nálezy spravuje. Pro zpětný zápis je vhodné vytvořit samostatný projekt či projekty.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1100,6 +1056,7 @@
     "text": "Jak má vypadata dohoda mezi OAO a spolupracovníkem?\nJakou formu bude mít spolupráce mezi archeologem a spolupracovníkem?\nCo by měla obsahovat dohoda o spolupráci?\nJakou by měla mít formu?\nSpolupráce by měla probíhat primárně na základě dohody o spolupráci. Pro dohodu je z důvodu transparentnosti a evidence důrazně doporučována písemná forma. Mezi náležitosti dohody patří: - Jednoznačná identifikace spolupracovníka (potvrzení o spolupráci je nepřenosné); - Stanovení územního a časového rozsahu spolupráce; - Stanovení organizačních pravidel odevzdávání nálezů komunikace archeologa a spolupracovníka; - Kontaktní údaje spolupracovníka a archeologa (telefon, e-mail, atp.)\nVzor dohody o spolupráci lze najít zde: stáhnout\nVzor protokolu o proškolení spolupracovníka lze najít zde: stáhnout\nVzorovou dohodu o spolupráci lze v případě odlišné praxe oprávněné organizace nahradit jinými nástroji pracovněprávních vztahů, jako jsou zejména Dohoda o provedení práce (DPP) nebo Dohoda o pracovní činnosti (DPČ). Takový postup se jeví z hlediska dlouhodobého budování okruhu spolupracovníků kolem oprávněné organizace vhodný zejména pro zkušené, dlouhodobě spolupracující a dostatečně prověřené zájemce. 10. Jak se budou amatérští spolupracovníci prokazovat?\nSpolupracovník musí být schopen se prokázat potvrzením (či průkazkou) o spolupráci. Potvrzení musí umožnit srozumitelně a lehce identifikovat, na jaké území bylo vydáno, komu bylo vydáno (není přenositelné), na jakou dobu bylo vydáno (doporučujeme 1 rok s možností prodloužení). Musí být na něm i přímý (ideálně neustále funkční) kontakt na vydávajícího, resp. na archeologa zodpovědného za provádění průzkumu. Doporučujeme do potvrzení vložit též identifikační číslo spolupracovníka podle AMČR-PAS, neboť jde o nezaměnitelný a kontrolovatelný údaj (např. U-001234).\nV současné době není jednotná forma potvrzení (či průkazky), vystaveného oprávněnou organizací, zaváděna. Pouze se požaduje, aby obsahovalo všechny výše uvedené údaje. V počáteční fázi budou sledovány názory a představy zástupců oprávněných organizací a jejich zřizovatelů, zejména krajů. Nelze vyloučit, že některé organizace či kraje mohou preferovat vlastní řešení, včetně snadno identifikovatelné vlastní grafické podoby. V případě zájmu není pro ARÚ/ARÚB problém jednotnou formu průkazky navrhnout a vyrobit, pokud o to jednotlivé organizace či regiony projeví zájem.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "FAQ Archeologové"
     ]
@@ -1112,6 +1069,7 @@
     "text": "Původně zveřejněno jako…",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro archeology"
     ]
@@ -1124,6 +1082,7 @@
     "text": "Úvod\nAMČR-PAS (Portál amatérských spolupracovníků a evidence samostatných nálezů) byl vytvořen pro podporu součinnosti dobrovolných spolupracovníků a oprávněných organizací při provádění archeologických výzkumů metodou povrchové prospekce, včetně využití detektorů kovů. Úkolem AMČR-PAS je vytvořit podmínky pro formalizaci a zároveň usnadnění této spolupráce při současném respektování platných zákonných norem čr.\nModul AMČR-PAS je založen na spolupráci amatérských badatelů s archeology z organizací s oprávněním provádět archeologický výzkum. Předpokladem je, že archeolog bude kontaktován potenciálním spolupracovníkem. S ním v modulu AMČR-PAS naváže a potvrdí spolupráci (návod viz níže). Po potvrzení spolupráce se daným spolupracovníkům otevře možnost registrovat nálezy pod předem dohodnutý projekt v AMČR. Jedním z prvních kroků je tedy založení projektu terénního průzkumu, které je nutné provést standardní cestou v deskotopovém klientu AMČR. Následující kroky pak již probíhají ve webovém rozhraní modulu AMČR-PAS.\nModul AMČR-PAS naleznete po přihlášení na https://amcr.aiscr.cz/.\nWebovou stránku AMČR-PAS pak zde http://www.archeologickamapa.cz/pas.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro archeology"
     ]
@@ -1136,6 +1095,7 @@
     "text": "Principy spolupráce\nVyhledávání archeologických nálezů detektorem kovů je jednou z metod archeologického výzkumu. Základní podmínkou pro fungování celého systému je dodržování platného zákona. Tomuto principu musí být podřízena veškerá technicko-organizační opatření při využívání AMČR-PAS. Archeologický výzkum může provádět výhradně organizace k tomu oprávněná a na území, které je vymezeno platnou dohodou s av čr. Výzkum musí být registrován v Archeologické mapě České republiky (AMČR) a má svého vedoucího, který je pracovníkem dané oprávněné organizace.\n\nRegistrace archeologického výzkumu\nArcheologické výzkumy jsou registrovány ve formě projektu v AMČR, a to vždy ještě před svým zahájením v terénu. Územní rozsah projektu je vymezen na základě potřeby a cílů, které má projekt splnit. Výzkum je možné vymezit různými způsoby: jak pro konkrétní dlouhodobě sledovanou lokalitu, tak jako projekt pro širší region (např. okres), při respektování zákonné působnosti oprávněné organizace. Doporučuje se, aby výzkumy s větším územním rozsahem nepřesahovaly z hlediska délky trvání jeden rok, naopak výzkumy zaměřené na jednu lokalitu mohou probíhat i několik sezón. Výzkumná strategie projektu a jeho základní principy by měly být konkretizovány a shrnuty v dokumentu přiloženém jako součást projektové dokumentace v (AMČR).\n\n\nVýzkum provádí oprávněná organizace\nOprávněná organizace realizující konkrétní projekt je zodpovědná za způsob jeho provedení a jeho organizaci. Pro jasné ukotvení vazby spolupracovníka na oprávněnou organizaci by s dobrovolným spolupracovníkem měla být uzavřena dohoda, která specifikuje podmínky účasti na prováděných výzkumech. Obsahem dohody by měly být zejména následující body: nastavení způsobu komunikace s vedoucím výzkumu, povinnost respektování metodických postupů při výzkumu (dokumentace nálezové situace, využití gps pro lokalizaci nálezu, nevyzvedávání nálezů z místa původního uložení např. depoty, hroby), oddělené uchovávání nálezů jednotlivě, v označených obalech, pravidla fotodokumentace, vyjednání vstupu na pozemky s vlastníky, správci či uživateli, odpovědnost za způsobené škody (apod.)\n\n\nKaždý výzkum má svého vedoucího\nVedoucí výzkumu musí být pracovníkem organizace s oprávněním provádět archeologický výzkum. Vedoucí výzkumu rozhoduje o aplikaci konkrétních metodických postupů s ohledem na sledovaný terén (např. orné plochy, louky, les). Může vymezit specifický okruh vyhledávaných artefaktů, např. s ohledem na typ sledované lokality. Vedoucí výzkumu musí být informován o aktuálním zapojení a pohybu dobrovolných spolupracovníků. Týká se to zejména situací, kdy vedoucí není přímo přítomen na místě. V těchto případech by měl být vedoucí informován spolupracovníkem (ideálně formou předem domluvené elektronické komunikace) před zahájením a po ukončení práce v terénu. Vedoucí výzkumu rozhoduje o výběru, zveřejnění a míře zpřístupnění nálezů v AMČR-PAS, resp. Digitálním archivu AMČR.\n\n\nBez nálezného\nJelikož archeologické nálezy evidované v AMČR-PAS jsou učiněné v režimu archeologického výzkumu, je vyloučeno požadovat výplatu odměny podle § 23 památkového zákona.\n\n\nEvidence nálezů\nVeškeré archeologické nálezy a jejich nálezové okolnosti musí být evidovány. V ideálním případě by základní evidence měla proběhnout přímo v místě nálezu. V případě technických překážek (nedostupné internetové připojení, spolupracovník není vybaven chytrým telefonem apod.) by mělo k evidenci nálezu dojít bez zbytečných odkladů po návratu z terénu.\n\n\nTeoretická a praktická příprava dobrovolných spolupracovníků\nVšichni uživatelé AMČR-PAS musí být proškoleni. Obsahem školení by měly být právní podmínky, metodika práce v terénu, dokumentace a způsob užívání AMČR-PAS.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro archeology"
     ]
@@ -1148,6 +1108,7 @@
     "text": "Projekt typu průzkum\nProjekty typu průzkum lze ve vztahu k době trvání vést dvojím způsobem:\n\nsběrné projekty, v rámci kterých evidujeme nálezy z větších územní celků (okres, katastr, apod.) Pro takto široce vymezené projekty platí, že doba jejich trvání nepřekračuje jeden rok;\nprojekty, v rámci kterých evidujeme nálezy z konkrétní lokality po delší dobu. Pro takové projekty pak platí omezení doby trvání na max. pět let. V tomto případě vhodně vyplňte pole lokalizace v projektu a do pole podnět uveďte informaci o očekávaném trvání projektu.\n\nOba typy projektů jsou vždy zakončeny nálezovou zprávou, viz dále.\n\nZaložení projektu v desktopové aplikaci AMČR\n\n\n\n\n\n\nObr. 1: Zapsat projekt\n\n\n\nProjekt založíme po přihlášení do aplikace AMČR kliknitím na kartu Projekty a Zapsat projekt\n\n\nZapsat projekt\n\n\n\n\n\n\nObr. 2: Projekt typu průzkum\n\n\n\n\nAby projekt mohl sloužit k zápisu samostatných nálezů, musí být zapsán jako průzkum. Položky, které nám nejsou při zápisu projektu známy můžeme proškrtnout (-).\nPo přidání obecné lokalizace v mapě projekt zapíšeme.\n\nPro prospekce realizované na velkém množství katastrů (např. celý okres) není nutné vymezovat zvlášť všechny dílčí katastry. V takovém případě vyberte z nabídky katastr okresního města (či okresních měst) a situaci vysvětlete v poli lokalizace.\n\n\nPřihlásit projekt\n\n\n\n\n\n\nObr. 3: Přihlásit projekt\n\n\n\n\nPo přihlášení projektu doplníme vedoucího projektu (ve většině případů sami sebe).\nAplikace nás vyzve k vyplnění nezbytných údajů a projekt přihlásíme.\nDo projektové dokumentace vložíme soubor s popisem projektu, jeho cílů, územního rozsahu, metodiky a způsobu organizace (vzor dokumentu ke stažení zde).\nPokud je projekt realizován na území s památkovou ochranou, doplníme název kulturní památky a její katalogové číslo dle Památkového katalogu NPÚ.\n\n\n\nZahájit projekt v terénu\n\n\n\n\n\n\nObr. 4: Zahájit projekt\n\n\n\n\nPosledním nezbytným krokem je přidat datum zahájení projektu.\nPak klikneme na Zahájit výzkum.\n\n\n\nČíslo projektu\n\n\n\n\n\n\nObr. 5: Číslo projektu\n\n\n\n\nProjekt se zobrazí spolupracovníkům v apliakci AMČR-PAS právě ve stavu zahájen v terénu.\n\nČíslo projektu lze pro usnadnění zkopírovat z automaticky generovaného výpisu.\nČíslo sdělíme spolupracovníkům, kteří mají k danému projektu přispívat.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro archeology"
     ]
@@ -1160,6 +1121,7 @@
     "text": "Webové rozhraní AMČR-PAS\n\nPřihlášení\n\n\n\n\n\n\n\n\nObr. 6: Dialog pro přihlášení\n\n\n\n\nPro přihlášení do aplikace slouží stejná emailová adresa a heslo jako do desktopové aplikace AMČR-PAS.\n\n\n\n\nÚvodní obrazovka\n\n\n\n\n\n\n\n\nObr. 7: Výběr modulu AMČR\n\n\n\n\nModul AMČR-PAS je jednou ze součástí Archeologického informačního systému čr (ais cr), resp. Archeologické mapy čr (AMČR). Ve webové aplikaci je v současnosti dostupný modul AMČR-PAS a Knihovna 3D, která slouží pro evidenci 3D modelů a textur relevantních pro archeologii.\n\n\nSamotný modul AMČR-PAS se skládá z několika karet:\n\n\n\n\n\n\nObr. 8: Karty po přihlášení do AMČR-PAS\n\n\n\n\nZapsat: Zápis nového nálezu;\nMoje nálezy: Výčet nálezů, evidovaných pro mou organizaci;\nVybrat: Výběr nálezů dle zadaných kritérií;\nSpolupráce: Správa spolupráce s amatérskými badateli;\nPotvrdit: Seznam nálezů evidovaných spolupracovníky čekajících na potvrzení.\n\n\n\nSpolupráce\nNa kartě Spolupráce se zobrazuje tabulka navázaných spolupracovníků. Po žádosti o spolupráci ze strany amatérského badatele budete vyzvání k jejímu potvrzení, to provedete právě v této části aplikace. Potvrzením spolupráce vznikne vazba mezi Vámi a spolupracujícím amatérem.\n\n\n\n\n\n\nObr. 9: Tabulka spoluprací\n\n\n\n\nDalší informace o spolupráci, manipulace s daným vztahem.\nInformace o tom, zda-li je daná spolupráce aktivní a je-li potvrzena.\n\n\n\n\n\n\n\n\n\nObr. 10: Potvrdit spolupráci\n\n\n\n\nPo potvrzení spolupráce, vytvoření projektu a sdělení jeho identifikátoru může spolupracovník pod tento projekt začít zapisovat nálezy.\n\n\n\n\nPotvrzení nálezu\nPo tom, co spolupracovník zapíše a potvrdí nález k odeslání, zobrazí se Vám tyto nálezy pod kartou Potvrdit ve formě přehledné tabulky.\n\n\n\n\n\n\nObr. 11: Tabulka nálezů\n\n\n\n\nÚpravu informací zadaných spolupracovníkem provedeme po kliknutí na ikonu .\nDíky nabídce vpravo nahoře můžeme (platí pro všechny tabulky v aplikaci):\n\npřepnout tabulku na kompaktní textové zobrazení\nzvolit sloupce, které budou zobrazeny\nstáhnout data ve formátech CSV, XML či JSON\n\n\n\n\nDetail potvrzení nálezu\n\nFotografie\n\n\n\n\n\n\nObr. 12: Tabulka přiložených fotografií\n\n\n\nPrvní zobrazenou sekcí je seznam přiložených fotografií, ty lze po kliknutí na ikonu  stáhnout. Rovněž je možné nadbytečné fotografie nálezu smazat, případně přidat další, např. po laboratorním zpracování. Upozorňujeme, že smazání fotografie ze systému je nevratné!\nFotografie musí splňovat archeologický dokumentační standard. Tím rozumějme kolmé a šikmé snímky předmětu tak, aby zachycovaly celkovou podobu předmětu. Je rovněž vhodné připojit i fotografie nálezových kontextů. Akceptovány jsou fotografie ve formátu JPG, PNG, TIFF do maximální velikosti 100 MB na jednu fotku (není tedy třeba je komprimovat či zmenšovat). Fotografie dokumentující předmět před nahráním ořízněte a natočte tak, aby osy měřítka a předmětu kopírovaly svislou a vodorovnou rovinu osy fotografie. Pro více informací o dobré praxi v dokumentaci drobných nálezů viz sekce Fotografická dokumentace nálezů.\n\n\nNálezové okolnosti\n\n\n\n\n\n\nObr. 13: Nálezové okolnosti\n\n\n\nV sekci Nálezové okolnosti najdeme:\n\nčíslo projektu,\njméno a příjmení nálezce (resp. autora záznamu),\nkatastrální území nálezu (automaticky vyplněno podle lokalizace v mapě),\ndetailnější popis lokalizace - např. formou parc. č. či pomístního názvu (ulice, trať, poloha). Prosím dodržte následující formát zápisu: Poloha, (parc. č.),\nidentifikaci nálezce - tu mohu z důvodu anonymizace hledače upravit na hodnotu anonym, anonym,\ndatum nálezu,\ndalší nálezové okolnosti.\n\n\n\nLokalizace nálezu\n\n\n\n\n\n\nObr. 14: Mapové okno\n\n\n\nMapové okno slouží k přesné lokalizaci nálezu. Lze přepínat mezi různými mapovými podklady.\nMísto nálezu je možné určit několika způsoby:\n\nZadáním geografických souřadnic. Akceptovány jsou souřadnice:\n\nwgs-84 uváděné v decimálních stupních, např. 50.0903260, 14.4090983,\ns-jtsk uváděné v záporných hodnotách v metrech, např. -597268, -1161521.\n\nV případě práce v terénu s telefonem s GPS lokalizací pomocí tlačítka Současná poloha . Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.\nPřiblížením v mapě a vybráním přesného bodu.\n\n\n\nNález\n\n\n\n\n\n\nObr. 15: Popis nálezu\n\n\n\nV sekci Nález je specifikována datace nálezu, typ předmětu atd. Vyplnění této části je pro amatérské spolupracovníky povinné, nicméně předpokládáme úpravu zadaných informací archeologem.\n\nPole Přesná datace slouží k bližší dataci nálezu nad rámec pole Období, může obsahovat století (např. u mincí) či plné znění konkrétního periodizačního systému (Lt C/D, Řím A0 atp).\n\n\n\nUložení\n\n\n\n\n\n\nObr. 16: Detaily uložení nálezu\n\n\n\nPoslední vyplňovanou sekcí jsou informace o uložení a předání nálezu. Rozepsaný formulář lze v jakémkoliv bodě práce uložit a vrátit se k němu později. Zde je nutné:\n\npotvrdit předání nálezu oprávněné organizaci,\nuvést Evidenční číslo přidělené danému nálezu. Tím není nutně inventární číslo, může jím být přírůstkové číslo či libovolný unikátní identifikátor, pod kterým bude možné daný nález ve sbírce kdykoli dohledat. Případně je možné pro evidenci využít unikátní identifikátor generovaný v AMČR-PAS, který se skládá z identifikátoru projektu a pořadového čísla nálezu v daném projektu. Pak do kolonky Evidenční číslo přidáme poznámku .\nnastavit Přístupnost, což je úroveň, na které bude zobrazena geografická poloha daného nálezu, automaticky je předvyplněna přístupnost archeolog, v odůvodněných případech lze přístupnost omezit na archiváře, případně informace zpřístupnit širšímu okruhu uživatelů (anonymní, registrovaní badatelé).\n\n\n\n\nMoje nálezy a Vybrat\n\n\n\n\n\n\nObr. 17: Karty aplikace Moje nálezy a Vybrat\n\n\n\nKarta Moje nálezy nabízí výpis nálezů evidovaných spolupracovníky mé organizace. Karta Vybrat pak nabízí multikriteriální vyhledávání v nálezech evidovaných v modulu AMČR-PAS. V obou případech lze záznamy libovolně filtrovat, řadit, případně exportovat do podporovaných formátů.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro archeology"
     ]
@@ -1172,6 +1134,7 @@
     "text": "Nález v Digitálním archivu AMČR\n\n\n\n\n\n\nObr. 18: Digitální archiv AMČR\n\n\n\nPo odeslání záznamu nálezu jej potvrdí osoba pověřená archivací detektorových nálezů na příslušném Archeologickém ústavu av čr. Následně je záznam zveřejněn v Digitálním archivu AMČR v kategorii Samostatné nálezy. Zde jsou zveřejněny všechny nálezy evidované v modulu AMČR-PAS, jejich lokalizace však může být z důvodu ochrany archeologického dědictví zobecněna na okres, v němž byl daný nález evidován. Ke zveřejnění nálezů dochází zpravidla do 48 hodin od archivace. Archivace a zveřejnění samostatných nálezů je nezávislá na archivaci daného projektu. Ve chvíli, kdy dojde k archivaci prvního nálezu, v Digitálním archivu jsou zveřejněna i základní metadata o souvisejícím projektu.\n\n\n\n\n\n\nObr. 19: Samostatné nálezy v Digitálním archivu AMČR",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro archeology"
     ]
@@ -1184,92 +1147,273 @@
     "text": "Archivace projektu typu průzkum\nPro posunutí projektu typu průzkum do stavu navržen k archivaci, kdy se spolupracujícím již nebude zobrazovat číslo projektu ve webovém rozhraní, tj. nebude možné pod projekt zapisovat nové nálezy, postupujte následovně:\n\nv desktopové aplikaci AMČR vyberte projekt;\nukončete projekt v terénu, případně upravte začátek a konec projektu v terénu tak, aby data odpovídala skutečnosti;\nvytvořte Akci, u té vyplňte nutné minimum údajů tak, aby ji bylo možno odeslat, případně povinná pole proškrtněte (-);\nvytvořte Dokumentační jednotku (Celek akce), ta je formální, aby bylo projekt možné uzavřít. Zaškrtněte pole Negativní zjištění v podsekci Popis dokumentační jednotky;\npřidejte PIAN, bod, který umístěte na okresní/krajské město apod., jde o formální krok;\nNahrajte k akci nálezovou zprávu podle zjednodušeného vzoru (vzor zde), pro inspiraci můžete využít následující příklad;\nnavrhněte projekt k archivaci.\n\nForma NZ k projektům typu průzkum je o poznání stručnější než v případě klasických nálezových zpráv, neboť o vyplnění komponent a jednotlivých položek se stará provázanost s nálezy v AMČR-PAS. Předpokládáme, že v návaznosti na typ projektu, počet nálezů atd. bude obsahovat jednotky stran. Administrace a zpřístupnění údajů z NZ budou probíhat v takovém režimu, aby nedošlo k úniku informací o ohrožených archeologických lokalitách. Pokud bude NZ takové informace obsahovat, může dojít k oddálení jejího zveřejnění až na dohodnutý termín. V takovém případě opatřete přiložený dokument komentářem nebo kontaktujte správce AMČR.",
     "crumbs": [
       "AMČR",
+      "Návody",
       "AMČR-PAS",
       "Návod pro archeology"
     ]
   },
   {
-    "objectID": "amcr/akce/adb.html",
-    "href": "amcr/akce/adb.html",
-    "title": "Zápis ADB",
+    "objectID": "amcr/oznameni.html",
+    "href": "amcr/oznameni.html",
+    "title": "Oznámení záměru",
     "section": "",
-    "text": "Popis archeologických dokumentačních bodů (ADB) se řídí metodikou dostupnou zde. Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla. Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.",
+    "text": "Oznámení o stavebním či jiném záměru proveďte prostřednictvím formuláře na stránce https://amcr.aiscr.cz/oznameni/.\nV případě potřeby nás prosím kontaktujte na emailech oznameni@arup.cas.cz (Čechy), nebo oznameni@arub.cz (Morava a Slezsko).\nZnění § 22 odst. zákona č. 20/1987 Sb. o státní památkové péči viz zde.",
     "crumbs": [
       "AMČR",
-      "Správa akcí",
-      "Zápis ADB"
+      "Návody",
+      "Oznámení záměru"
     ]
   },
   {
-    "objectID": "amcr/akce/adb.html#popis-archeologického-dokumentačního-bodu",
-    "href": "amcr/akce/adb.html#popis-archeologického-dokumentačního-bodu",
-    "title": "Zápis ADB",
+    "objectID": "amcr/oznameni.html#videonávod",
+    "href": "amcr/oznameni.html#videonávod",
+    "title": "Oznámení záměru",
+    "section": "Videonávod",
+    "text": "Videonávod\nKrátký videonávod ukazuje, jak prostřednictvím formuláře úspěšně odeslat oznámení. Video nemá zvuk.",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Oznámení záměru"
+    ]
+  },
+  {
+    "objectID": "amcr/oznameni.html#návod",
+    "href": "amcr/oznameni.html#návod",
+    "title": "Oznámení záměru",
+    "section": "Návod",
+    "text": "Návod\nPro úspěšné odeslání oznámení o stavebním či jiném záměru na území s archeologickými nálezy, tedy splnění povinností uložených § 22 odst. zákona č. 20/1987 Sb. o státní památkové péči, postupujte dle následujícího návodu.\n\nCo budete potřebovat\nPřed samotným vyplněním oznámení se ujistětě, že znáte následující detaily či máte k dispozici patřičné dokumenty:\n\nKontaktní údaje na oznamovatele.\nKonkrétní lokalizaci záměru (bod je nutné vybrat z mapy).\nČísla parcel, kterých se záměr bude dotýkat.\nPřibližné datum zahájení prací.\nPlánovou dokumentaci vymezující rozsah a míru terénního zásahu.\n\n\n\nPostup\n\nÚdaje o oznamovateli\nPrvní část formuláře slouží k vyplnění údajů o oznamovateli. Oznamovatelem nemusí být nutně osoba, která daný stavební či jiný záměr bude vykonávat, ale v případě kolonky Pověřená osoba oznamovatele by mělo by jít o někoho, s kým v případě potřeby oprávněná archeologická organizace dohode podmínky provedení archeologického výzkumu.\n\n\n\nCharakteristika záměru\nV charakteristice záměru je v první řadě nutné lokalizovat záměr v mapě. Mapové okno lze v případě potřeby zvětšit na celou obrazovku a levým kliknutím přiblížit na požadované místo (případně pomocí tlačítek +/- přiblížit a oddálit). Při dostatečnm přiblížení je levým kliknutím zvolen bod lokalizující oznamovaný záměr. Vybraný bod je zvýrazněn červeným špendlíkem a název katastrálního území je předvyplněn do patřičného pole ve formuláři. V mapě lze vyhledávat pomocí lupy dle názvů obcí, katastrálních území a dalších zeměpisných názvů. V případě, že záměr protíná více katastrálních území, další katastrální území lze vyplnit do patřičného pole.\n\nRozsah data zahájení prací je volen z rozbalovacího kalendáře. Po prvním kliknutí na konkrétní den v kalendáři je zvolen začátek rozsahu zahájení záměru, druhým kliknutím zvolíte konec daného rozsahu. Tak je možné označit celý měsíc, kdy může k začátku prací na oznamovaném záměru dojít, případně i delší časové období.\n\n\n\nSouhlas s podmínkami o zpracování osobních údajů\nNezapomeňte potvrdit souhlas se zpracováním osobních údajů, bez něj nelze v oznámení záměr upokračovat na další krok, ve kterém bude nahrána projektová dokumentace.\n\n\nProjektová dokumentace\nV následujícím kroku lze přiložit související dokumentaci upřesňující oznámení, zejména plánovou dokumentaci přesněji vymezující rozsah a míru terénních zásahů, případně dokumenty s bližším popisem záměru. V případě, že jeden dokument slouží jako podklad pro více oznámení, systém upozorní na to, že může jít o vložení duplicitního dokumentu, tj. že dokument už v systému existuje, to však není překážkou pro úspěšné odeslání oznámení.\n\n\nOdeslání oznámení\nPosledním krokem je odeslání oznámení, po kterém systém na zadaný email odešle jeho potvrzení.",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Oznámení záměru"
+    ]
+  },
+  {
+    "objectID": "amcr/projekty.html",
+    "href": "amcr/projekty.html",
+    "title": "Správa projektů",
     "section": "",
-    "text": "Popis archeologických dokumentačních bodů (ADB) se řídí metodikou dostupnou zde. Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla. Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.",
+    "text": "Projekt je základní evidenční jednotkou terénní činnosti badatelského nebo záchranného rázu. Jejich správa probíhá v AMČR v sekci Projekty. Zde je možné projekty zapisovat a k již existujícím projektům doplňovat informace a posouvat je jednotlivými procesními stavy.\nSprávu projektů mohou provádět pouze uživatelé s oprávněním Archeolog, tedy registrovaní archeologové z oprávněných organizací.",
     "crumbs": [
       "AMČR",
-      "Správa akcí",
-      "Zápis ADB"
+      "Návody",
+      "Správa projektů"
     ]
   },
   {
-    "objectID": "amcr/akce/adb.html#použití-dj-typu-sonda-a-vyznačení-pian",
-    "href": "amcr/akce/adb.html#použití-dj-typu-sonda-a-vyznačení-pian",
-    "title": "Zápis ADB",
-    "section": "Použití DJ typu sonda a vyznačení PIAN",
-    "text": "Použití DJ typu sonda a vyznačení PIAN\nPro zápis ADB v AMČR je nutné používat dokumentační jednotky (DJ) typu Sonda. Označení Sonda je v tomto případě třeba brát jako arbitrární, které se vymezuje oproti použití DJ typů Celek/Část akce. Sonda v tomto případě může znamenat jak skutečnou jednotlivou sondu, tak i např. skupiny sond či řezů atp. (srov. heslář v poli Typ sondy), které je vhodné popisovat jako jeden celek. Tomu pak odpovídá i vyznačení PIAN v mapovém okně. Popis ADB je pouze nadstavbou standardního zápisu, a proto se ke každé DJ připojují zachycené komponenty, které mohou mít vliv na celkové rozdělení výzkumu do jednotlivých DJ.",
+    "objectID": "amcr/projekty.html#videonávod",
+    "href": "amcr/projekty.html#videonávod",
+    "title": "Správa projektů",
+    "section": "Videonávod",
+    "text": "Videonávod\nTady bude videonávod, až bude hotový :)",
     "crumbs": [
       "AMČR",
-      "Správa akcí",
-      "Zápis ADB"
+      "Návody",
+      "Správa projektů"
     ]
   },
   {
-    "objectID": "amcr/akce/adb.html#zápis-adb-v-rámci-amčr",
-    "href": "amcr/akce/adb.html#zápis-adb-v-rámci-amčr",
-    "title": "Zápis ADB",
-    "section": "Zápis ADB v rámci AMČR",
-    "text": "Zápis ADB v rámci AMČR\nPro zápis ADB v systému AMČR je třeba volit jako typ dokumentační jednotky možnost Sonda, ke které je po vytvoření PIAN možné připojovat ADB. Zápis ADB se aktivuje zaškrtávacím políčkem Zobrazit popis ADB (?@fig-adb-init).\n\nZaškrtnutím políčka Zobrazit popis ADB se zpřístupní pole pro jeho popis. Povinná pole jsou podbarvena stejně jako v jiných částech AMČR (?@fig-adb-pole).\n\nPo vyplnění popisných údajů je třeba záznam uložit, aby se zobrazila nabídka pro zápis výškových bodů, které lze k vytvořenému ADB připojovat pomocí tlačítka Přidat (?@fig-adb-bod).\n\nPodle zachycené situace je možné připojit odpovídající počet výškových bodů (?@fig-adb-uroven).",
+    "objectID": "amcr/projekty.html#návod",
+    "href": "amcr/projekty.html#návod",
+    "title": "Správa projektů",
+    "section": "Návod",
+    "text": "Návod\n\n\n\n\nKlíčové procesní stavy projektů\n\nZápis projektu\nProjekt jako záznam v AMČR je zakládán zpravidla v okamžiku, kdy je některému z archeologických ústavů AV ČR či jiné oprávněné organizaci v intencích památkového či stavebního zákona oznámeno, že má dojít k terénnímu zásahu, který vyžaduje archeologický terénní zásah, nebo že již přímo došlo k porušení archeologických terénů. V této fázi je definován zejména osobou investora nebo oznamovatele, územním vymezením (slovním, administrativním a lokalizací v mapě), základní slovní charakteristikou předpokládaného terénního zásahu a předpokládaným zahájením terénních prací. V této fázi není tento tzv. Zapsaný projekt ještě přidělen žádné oprávněné organizaci k provedení archeologického výzkumu a je tedy všem uživatelům s oprávněním Archeolog přístupný k prohlédnutí, ale i k registraci pro provedení archeologického terénního výzkumu. Zvláštním typem projektu je projekt “badatelský”, který je vyvolán cíleným vědeckým záměrem, a nikoliv plánovaným terénním zásahem třetí strany. Druhým zvláštním typem projektu je projekt typu “průzkum”, který je opět vyvolán cíleným vědeckým záměrem a zpravidla jej definuje plánovaná dlouhodobost nebo velký územní rozsah, ale metodologicky jde o archeologický výzkum nedestruktivní nebo málo destruktivní, tedy s minimálním zásahem do terénu.\n\n\nPřihlášení projektu\nV okamžiku, kdy oprávněná organizace uzavře dohodu s investorem o provedení archeologického výzkumu, může její pověřený pracovník projekt přihlásit, tj. provést změnu jeho stavu na tzv. Přihlášený projekt. Tímto krokem se příslušná oprávněná organizace stává „správcem záznamu“ a doplňuje k němu další údaje v rámci vlastního projektu i v rámci k němu připojené projektové akce (údaje o odpovědných pracovnících, má možnost k záznamu připojit soubory, jako např. odborný záměr výzkumu, relevantní části stavební dokumentace či dohodu s investorem). V případě badatelských projektů se postupuje obdobným způsobem, z logiky věci však odpadá identifikace investora a naopak zde přibývá dokumentace nezbytná pro povolení badatelského výzkumu autoritami na poli archeologické památkové péče. Po přihlášení projektu je jeho editace možná pouze pro příslušnou oprávněnou organizaci případně pro administrátory systému. Přihlášené projekty v různých stavech rozpracování je možné vyhledat v sekci Naše projekty. Pro přihlášení projektu je třeba vyplnit povinné informace, konkrétně odpovědnou osobu přihlašované organizace a úroveň památkové ochrany území, na kterém je projekt lokalizován.\n\n\nZahájení terénu\nU projektů, u kterých dojde k zahájení terénní činnosti zaznamená pracovník oprávněné organizace neprodleně datum zahájení a převede tak projekt do stavu Zahájen v terénu, ve kterém zůstává až do ukončení terénních prací. Tento krok je zároveň podle “Dohody o využívání AMČR” považován za splnění povinnosti oprávněné archeologické organizace oznámit zahájení archeologické akce Archeologickému ústavu AV ČR.\n\n\nUkončení terénu\nPo ukončení terénní části projektu zaznamená odpovědný pracovník oprávněné organizace opět toto datum do systému a převede tak projekt do stavu Ukončen v terénu. Ukončením terénních prací začíná v AMČR běžet systémová lhůta pro podání informací o výsledcích výzkumu, která trvá 3 roky.\n\n\nSpráva akcí\nTerénní část archeologického výzkumu se realizuje formou archeologických akcí (v rámci projektu zpravidla jedné, ale může jich být i více), o nichž je po ukončení terénní části nutno v zákonné lhůtě podat nálezovou zprávu doplněnou o základní strukturovaný popis terénního výzkumu (Zprávu o archeologické akci).\n\n\nUzavření projektu\nV okamžiku, kdy jsou všechny odborné informace a související dokumenty prostřednictvím aplikace AMCR podány, uživatel projekt uzavře. Pracovníci ARÚP či ARÚB pak provedou věcnou i formální kontrolu předložených informací a dokumentů, na jejímž základě mohou hlášení o akci, nálezovou zprávu či celý záznam o projektu vrátit k dopracování, nebo prohlásí projekt a záznamy o jeho odborných výsledcích – archeologických akcích za archivovaný projekt a archivované akce. Poté dochází k jejich zveřejnění v systému AMČR pro další uživatele. Navržení ke zrušení Některé ze zapsaných či přihlášených projektů nemusí být realizovány, neboť stavebník může od realizace projektu odstoupit či změní jeho parametry tak, že archeologický zásah nadále není zapotřebí nebo z jiného důvodu není terénní výzkum proveden. V tom případě může každá oprávněná organizace navrhnout, s patřičným odůvodněním, zapsaný či přihlášený projekt ke zrušení, které provede příslušný administrátor z ARÚP či ARÚB. Stejným způsobem může oprávněná organizace upozornit na změnu provádějící oprávněné organizace u konkrétního projektu.",
     "crumbs": [
       "AMČR",
-      "Správa akcí",
-      "Zápis ADB"
+      "Návody",
+      "Správa projektů"
     ]
   },
   {
-    "objectID": "amcr/akce/adb.html#příklady-dobré-praxe",
-    "href": "amcr/akce/adb.html#příklady-dobré-praxe",
-    "title": "Zápis ADB",
+    "objectID": "amcr/projekty.html#zapsat-projekt",
+    "href": "amcr/projekty.html#zapsat-projekt",
+    "title": "Správa projektů",
+    "section": "Zapsat projekt",
+    "text": "Zapsat projekt",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa projektů"
+    ]
+  },
+  {
+    "objectID": "amcr/projekty.html#přihlásit-projekt",
+    "href": "amcr/projekty.html#přihlásit-projekt",
+    "title": "Správa projektů",
+    "section": "Přihlásit projekt",
+    "text": "Přihlásit projekt",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa projektů"
+    ]
+  },
+  {
+    "objectID": "amcr/projekty.html#zahájit-terén",
+    "href": "amcr/projekty.html#zahájit-terén",
+    "title": "Správa projektů",
+    "section": "Zahájit terén",
+    "text": "Zahájit terén",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa projektů"
+    ]
+  },
+  {
+    "objectID": "amcr/projekty.html#ukončit-terén",
+    "href": "amcr/projekty.html#ukončit-terén",
+    "title": "Správa projektů",
+    "section": "Ukončit terén",
+    "text": "Ukončit terén",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa projektů"
+    ]
+  },
+  {
+    "objectID": "amcr/projekty.html#spravovat-akce",
+    "href": "amcr/projekty.html#spravovat-akce",
+    "title": "Správa projektů",
+    "section": "Spravovat akce",
+    "text": "Spravovat akce",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa projektů"
+    ]
+  },
+  {
+    "objectID": "amcr/projekty.html#uzavřít-projekt",
+    "href": "amcr/projekty.html#uzavřít-projekt",
+    "title": "Správa projektů",
+    "section": "Uzavřít projekt",
+    "text": "Uzavřít projekt",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa projektů"
+    ]
+  },
+  {
+    "objectID": "amcr/projekty.html#vybrat-projekt",
+    "href": "amcr/projekty.html#vybrat-projekt",
+    "title": "Správa projektů",
+    "section": "Vybrat projekt",
+    "text": "Vybrat projekt\n\n\nKarta Vybrat umožňuje filtrovat projekty na základě různých kritérií.",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa projektů"
+    ]
+  },
+  {
+    "objectID": "amcr/akce/drobne-akce.html",
+    "href": "amcr/akce/drobne-akce.html",
+    "title": "Akce drobného rozsahu",
+    "section": "",
+    "text": "Zpracování pozitivních archeologických výzkumů do podoby nálezové zprávy (NZ) se řídí Pravidly pro podání nálezové zprávy o terénním archeologickém výzkumu (viz stránky ARÚ Praha a Brno).\nV případě akcí drobnějšího rozsahu je v AMČR akceptován i dokument, který nemá podobu plnohodnotné NZ, ale je redukován např. do podoby Hlášení o archeologické akci atp. V některých případech může být záznam i zcela bez přiloženého dokumentu pouze s popisem ve formuláři v AMČR. I v těchto případech by měl přiložený dokument (nebo popis v AMČR) splňovat následující minimální požadavky.\nPokud byly zjištěné archeologické situace z relevantních důvodů dokumentovány jen v omezené míře (např. pouze fotograficky), mělo by toto být ze zápisu v AMČR nebo z přiloženého dokumentu patrné, aby při kontrole před archivací pracovníci archivu mohli rozlišit případy, kdy dokumentace z popsaných důvodů neexistuje, nebo kdy pouze není připojena. Např. při pořízení pouze fotografické dokumentace by tato měla být opatřena dostatečným popisem (orientace fotografie, popis vrstev, vyznačení hran objektů) a v případě situací, které nejsou z fotografie jasně čitelné, např. i skicou přímo do fotografie. Zásadou v podobných případech však vždy je, že samotná fotografie nikdy nenahrazuje popis. Připojený soubor by pak měl mít podobu uceleného dokumentu opatřeného titulní stranou (nemělo by se tedy jednat pouze o připojené fotografie atp.).\nStejně jako v případě plnohodnotné NZ musí být z těchto dokumentů možné rekonstruovat zjištěné situace v maximální možné míře. NZ musí dále korespondovat se zápisem komponent v kartě dokumentační jednotky a to až do úrovně kategorií získaných nálezů a vice versa.",
+    "crumbs": [
+      "AMČR",
+      "Tutoriály",
+      "Akce drobného rozsahu"
+    ]
+  },
+  {
+    "objectID": "amcr/akce/drobne-akce.html#příklady-dobré-praxe",
+    "href": "amcr/akce/drobne-akce.html#příklady-dobré-praxe",
+    "title": "Akce drobného rozsahu",
     "section": "Příklady dobré praxe",
-    "text": "Příklady dobré praxe\n\nOddělené sondy\nJako první příklad si uvedeme dvě oddělené sondy dokumentované při výstavbě inženýrských sítí. Pro každou ze sond byla vytvořena vlastní dokumentační jednotka typu sonda a v rámci jejího popisu byly zaznamenány také informace o ADB. Zápis v AMČR a vyznačení v mapě v tomto případě zobrazují ?@fig-adb-sonda1 a ?@fig-adb-sonda2.\n\n\n\n\nSíť sond\nVýzkum v rámci uzavřené parcely se sítí sond v interiéru domu a na dvoře domu. V rámci tohoto výzkumy byla ve sklepě domu a na jeho dvoře položena pravidelná síť sond, ve které probíhal výzkum. Vzhledem ke stejnému charakteru situace, která byla zachycena v sondách na dvoře není třeba zadávat do AMČR všechny dílčí sondy odděleně, ale je možné je zadat jako jedinou DJ typu Sonda (pokud to odpovídá charakteru nálezové situace). Stejně tak bychom zadali jako jednu DJ typu Sonda i všechny sondy ve sklepě domu, pokud by tomu charakter nálezové situace odpovídal. Zápis v AMČR a vyznačení PIAN pak zobrazují ?@fig-adb-sit1 a ?@fig-adb-sit2.",
+    "text": "Příklady dobré praxe\n\nNěkolik zahloubených objektů\nPři plošné skrývce malého rozsahu bylo zachyceno 5 zahloubených archeologických objektů. Objekty byly kresebně a fotograficky dokumentovány a geodeticky zaměřeny. Dokument připojený k akci v AMČR bude v takovém případě obsahovat:\n\npopis okolností archeologické akce;\nmetoda výzkumu – kolik cm bylo skryto, jak byly vybírány objekty, způsob dokumentace, popis metody zaměření;\ncelkový plán výzkumu;\ntabulku geodeticky zaměřených bodů;\nfotografickou dokumentaci vč. popisu fotografie a orientace, seznam fotografií (katalog);\nkresebnou dokumentaci zachycených objektů vč. všech formálních náležitostí, seznam výkresů;\npřehled movitých archeologických nálezů/vzorků ideálně formou tabulky, poznámku o jejich uložení, popř. skartaci;\nvyhodnocení projektu, datace prozkoumaných situací;\nodborné posudky (pokud byly provedeny nějaké analýzy).\n\n\n\nZachycena kulturní vrstva\nPři výkopu pro základové pasy rodinného domu byla na profilu výkopu zachycena kulturní vrstva, která byla z důvodů nepříznivých podmínek/BOZP dokumentována pouze fotograficky z hrany výkopu. V dokumentu připojeném k akci v AMČR bude v tomto případě:\n\npopis archeologické akce;\nmetoda výzkumu vč. jejího odůvodnění (proč není výkres);\npopis a lokalizace zachycené vrstvy (geodeticky zaměřená, zaznamenané do plánu stavby, skica celkové situace atp.);\nfotografie této vrstvy (rozhraní jednotlivých vrstev lze doplnit přímo do fotografie);\nvyhodnocení projektu, datace prozkoumaných situací;\nodborné posudky (pokud byly provedeny).\n\n\n\nStřepy bez archeologické situace\nPři výkopu pro inženýrské sítě byl při kontrole zeminy z výkopu nalezen soubor keramických střepů, které byly odebrány a zařazeny do sbírek nebo skartovány. Ve vlastním výkopu však nebyly zachyceny žádné archeologické objekty ani vrstvy. Zápis v AMČR bude v takovém případě obsahovat pouze popis archeologické akce s vyplněným popisem komponent podle nalezených střepů a jejich uložení v příslušné instituci, popř. poznámku o skartaci. V takovém případě není nutné připojovat do karty Dokumentace jakýkoliv dokument.",
     "crumbs": [
       "AMČR",
-      "Správa akcí",
-      "Zápis ADB"
+      "Tutoriály",
+      "Akce drobného rozsahu"
     ]
   },
   {
-    "objectID": "amcr/akce/dj.html",
-    "href": "amcr/akce/dj.html",
-    "title": "Zápis dok. jednotek",
+    "objectID": "amcr/akce/akce.html#přihlásit-projekt",
+    "href": "amcr/akce/akce.html#přihlásit-projekt",
+    "title": "Správa akcí",
+    "section": "Přihlásit projekt",
+    "text": "Přihlásit projekt",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa akcí"
+    ]
+  },
+  {
+    "objectID": "amcr/akce/akce.html#zahájit-terén",
+    "href": "amcr/akce/akce.html#zahájit-terén",
+    "title": "Správa akcí",
+    "section": "Zahájit terén",
+    "text": "Zahájit terén",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa akcí"
+    ]
+  },
+  {
+    "objectID": "amcr/akce/akce.html#ukončit-terén",
+    "href": "amcr/akce/akce.html#ukončit-terén",
+    "title": "Správa akcí",
+    "section": "Ukončit terén",
+    "text": "Ukončit terén",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa akcí"
+    ]
+  },
+  {
+    "objectID": "amcr/akce/akce.html#spravovat-akce",
+    "href": "amcr/akce/akce.html#spravovat-akce",
+    "title": "Správa akcí",
+    "section": "Spravovat akce",
+    "text": "Spravovat akce",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa akcí"
+    ]
+  },
+  {
+    "objectID": "amcr/akce/akce.html#uzavřít-projekt",
+    "href": "amcr/akce/akce.html#uzavřít-projekt",
+    "title": "Správa akcí",
+    "section": "Uzavřít projekt",
+    "text": "Uzavřít projekt",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa akcí"
+    ]
+  },
+  {
+    "objectID": "amcr/akce/akce.html#vybrat-projekt",
+    "href": "amcr/akce/akce.html#vybrat-projekt",
+    "title": "Správa akcí",
+    "section": "Vybrat projekt",
+    "text": "Vybrat projekt",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa akcí"
+    ]
+  },
+  {
+    "objectID": "amcr/gui.html",
+    "href": "amcr/gui.html",
+    "title": "Webová aplikace",
     "section": "",
-    "text": "Při popisu archeologických akcí v AMČR nastávají situace, kdy je třeba vytvořit více než jednu dokumentační jednotku (DJ). V takových případech je třeba zvolit správný typ těchto DJ. Na výběr máme ze dvou možností. První z nich je situace, kdy první vytvořená DJ reprezentuje Celek akce a všechny další DJ jsou pak Částmi akce. Druhou je situace, kdy jsou všechny DJ u akce typu Sonda. Volba konkrétního typu, nebo typů DJ závisí na charakteru akce a způsobu jejího formálního a prostorového popisu.\nDokumentační jednotku Celek akce volíme když:\nDokumentační jednotku Celek akce a Část akce volíme když:\nDokumentační jednotku Sonda volíme když:",
+    "text": "Poznámka…",
     "crumbs": [
       "AMČR",
-      "Správa akcí",
-      "Zápis dok. jednotek"
-    ]
-  },
-  {
-    "objectID": "amcr/akce/dj.html#příklady-dobré-praxe",
-    "href": "amcr/akce/dj.html#příklady-dobré-praxe",
-    "title": "Zápis dok. jednotek",
-    "section": "Příklady dobré praxe",
-    "text": "Příklady dobré praxe\nPři popisu archeologických akcí v AMČR nastávají situace, kdy je třeba vytvořit více než jednu dokumentační jednotku (DJ). V takových případech je třeba zvolit správný typ těchto DJ. Na výběr máme ze dvou možností. První z nich je situace, kdy první vytvořená DJ reprezentuje Celek akce a všechny další DJ jsou pak Částmi akce. Druhou je situace, kdy jsou všechny DJ u akce typu Sonda. Volba konkrétního typu nebo typů DJ závisí na charakteru akce a způsobu jejího formálního a prostorového popisu.\n\nDlouhé liniové akce\nJedním z typických příkladů použití DJ typu Celek akce a Část akce jsou dlouhé liniové akce (např. inženýrské sítě), kdy v rámci této dlouhé linie, která je často ve většině svého rozsahu negativní, existuje jedno či více míst, na kterých byla pozitivní archeologická zjištění. V těchto případech je trasa výkopu zanesena do AMČR jako celek akce (dokumentační jednotka D01), který je negativní a polohy s pozitivním archeologickým zjištěním jsou pak vyznačeny jako část akce v rámci nadřazeného celku (D02 a D03). Může se jednat o bodové či liniové vymezení, které reflektuje situaci v terénu. K této části akce jsou pak navázány příslušné komponenty s jejich popisem. Zobrazení v mapovém okně a zápis v AMČR jsou patrné z ?@fig-dj-linie a ?@fig-dj-linie-z.\n\n\n\n\nSondy rozsáhlých liniových akcí\nJedním z typických příkladů použití dokumentačních jednotek typu Sonda jsou rozsáhlé linové akce (často se jedná o inženýrské sítě) v intravilánech obcí, kdy není možné celý rozsah akce vyznačit pomocí jediného PIAN tak, aby se jeho průběh v některých úsecích nevracel po stejné trase. V těchto případech je třeba akci rozdělit do dílčích dokumentačních jednotek, kdy rozsah každé DJ je možné vyznačit pomocí PIAN, který má podobu linie, jejíž trasa se nevrací po stejné trase. Celý rozsah akce je pak reprezentován dílčími DJ (D01 až D03), kdy tyto DJ jsou typu sonda. Jednotlivé line těchto DJ se pak samozřejmě vzájemně mohou křížit. Zobrazení v mapovém okně a zápis v AMČR jsou patrné z ?@fig-dj-linie2 a ?@fig-dj-linie2-z.\n\n\n\nNesprávný zápis liniové akce\nNesprávnou formou zápisu je v těchto případech situace, kdy je celý rozsah akce vyznačen pouze pomocí jediné dokumentační jednotky, jejíž PIAN se opakovaně vrací po stejné trase tak, aby vyznačil celý rozsah akce. Přestože aplikace umožňuje vyznačit takovýto PIAN, jedná se o neplatnou geometrii, která porušuje topologická pravidla, kdy se v rámci jedné linie nesmí její segmenty překrývat či křížit. Příklad nesprávného zakreslení PIAN ukazuje obr. ?@fig-dj-badlinie a ?@fig-dj-badlinie-z.\nVýhodou správného zápisu akcí podobného typu pomocí dílčích dokumentačních jednotek typu sonda je pak to, že je zde velká pravděpodobnost, že bude možné jejich PIAN využívat opakovaně i pro další akce. PIAN starších akcí již zapsaných v AMČR je možné využít za předpokladu, že jeho typ, rozsah a přesnost odpovídá nově zaznamenávané akci. Typickým příkladem jsou opět inženýrské sítě v intravilánech, kdy PIAN, který byl vytvořen např. při plynofikaci obce, bude možné využít i při akci při rekonstrukci kanalizace. Pokud byly pro původní akci vytvořeny dílčí PIAN, např. pro každou dotčenou ulici, tak je zde mnohem větší pravděpodobnost, že v některých ulicích bude probíhat i nová akce a půjde tak tyto PIAN opakovaně využít bez nutnosti je vytvářet nově. Pravděpodobnost, že by se dvě akce s komplikovaným průběhem PIAN zcela překrývaly, i pokud pomineme porušení topologických pravidel při vytváření liniových PIAN, je pak velice malá.\n\n\n\n\nVymezení pozitivní části akce\nVariantou zápisu více DJ u liniových akcí je pak situace, kdy se na prostorově omezených částech akce vyskytují pozitivní archeologické situace, přičemž ostatní části jsou negativní. V těchto případech postupujeme obdobně jako v případě příkladu z použití celku a části akce, tedy že jako pozitivní budou vyznačeny jen skutečně pozitivní místa na trase akce (D04), zatímco rozsah akce budu vyznačen jako negativní (D01 až D03). Všechny dokumentační jednotky budou však v tomto případě typu sonda. Zobrazení v mapovém okně a zápis v AMČR jsou patrné z ?@fig-dj-sonda a ?@fig-dj-sonda-z.\n\n\n\n\n\nPlošné odkryvy\nU akcí s rozsáhlými plošnými odkryvy je vhodné vymezit DJ pomocí polygonů (případně pomocí kombinace polygonů, linií a bodů), které reflektují situaci na jednotlivých částech zkoumané plochy. Jako DJ Celek akce evidujeme celou plochu zasaženou stavební činností. DJ Část akce pak slouží k vymezení menších částí plochy, na kterých byla prokázána přítomnost určité komponenty. Stejně jako u příkladu dlouhých liniových akcí platí, že části akce prostorově podléhají vymezenému celku.\nFiktivní investiční záměr výstavby halového komplexu na zelené louce. V rámci akce byla provedena celoplošná skrývka, kterou vedoucí akce evidoval jako DJ D01 – Celek akce (?@fig-dj-plocha). Ve skrytém materiálu byly napříč plochou nahodile dislokovány fragmenty novověké keramiky, které vedoucí výzkumu vyhodnotil jako sekundárně přemístěný odpad a evidoval je jako samostatnou komponentu K01. Ve východní části plochy byl zachycen okraj sídliště LnK. Dále byla v západní části plochy zachycena skupina hrobů únětické kultury. Zbytek plochy byl skryt na podloží a bylo možné jej z hlediska archeologie prohlásit za negativní. Plocha LnK sídliště byla vymezena DJ D02 Část akce s odpovídající komponentou K02 (?@fig-dj-plocha1). Analogicky tomu byla vymezena i DJ D03, s komponentou K03 (?@fig-dj-plocha2). Rovněž by bylo možné vymezit akci jednou DJ celek akce, která by obsahovala všechny zmíněné komponenty, čímž by ale došlo ke zkreslení celkové informace na zkoumané ploše. Zápis v AMČR pak ukazuje ?@fig-dj-plocha-z.\n\n\n\n\n\n\nSamostatné úseky\nVýstavba fiktivního úseku dálnice. Trasa úseku dálnice byla rozdělena na jednotlivé plochy, které byly v rámci NZ vyhodnocovány odděleně. Členění DJ bylo zvoleno tak, aby DJ Celek akce D01 odpovídal celé ploše terénního zásahu v rámci dotčeného úseku dálnice (?@fig-dj-dalnic). Části akce D02, D03, D04 pak odpovídají formálnímu rozdělení úseků tak, jak si je zvolila oprávněná organizace (?@fig-dj-dalnic1). Komponenty jsou navázány pouze na úseky, kde došlo k pozitivnímu zjištění, tedy na úsek vymezený DJ D03 s komponentami K01 a K02. Ostatní úseky, vymezené DJ D02 a D04, komponenty neobsahují, protože byly z archeologického hlediska negativní (?@fig-dj-dalnic-z).\n\n\n\n\n\nPlošné akce na nespojitých plochách\nU plošných akcí slouží vymezení dotčeného území DJ sonda k zanesení akcí, které probíhaly na několika nespojitých plochách. Dobrým příkladem mohou být například povrchové sběry, které lze dobře realizovat na zemědělsky využívané půdě, ale již nikoliv na komunikacích či loukách, které tyto polnosti oddělují.\nV rámci předběžné prospekce byly metodou povrchových sběrů prozkoumány tři prostorově nespojité polnosti severně od obce Kounice. Vzhledem k terénní konfiguraci byla každá z nich vyhodnocována samostatně, čemuž odpovídá i jejich vymezení DJ Sonda. Každé sondě byly přiřazeny komponenty, které odpovídají obsahu nálezového fondu. V tomto případě nelze použít DJ celek akce a část akce, neboť prostor mezi jednotlivými sondami nebylo vzhledem k přítomnosti místních komunikací možné zkoumat. Zobrazení v mapovém okně a zápis v AMČR jsou patrné z ?@fig-dj-nesp a ?@fig-dj-nesp-z.\n\n\n\n\nZávěr\nPřestože archeologické akce a jejich podoba v terénu je různá a možnosti zápisu v AMČR, kdy je možno zvolit buď DJ celek a část akce nebo jednotlivé sondy, nemusí vždy zcela přesně odpovídat specifické situaci v terénu, měl by být při zápisu v AMČR kladen především důraz na srozumitelnost zápisu, který co nejvíce odpovídá realizované akci.",
-    "crumbs": [
-      "AMČR",
-      "Správa akcí",
-      "Zápis dok. jednotek"
+      "Návody",
+      "Webová aplikace"
     ]
   },
   {
@@ -1585,7 +1729,7 @@
     "href": "index.html",
     "title": "Úvod",
     "section": "",
-    "text": "V této sekci je vysvětlena struktura dat, popsána architektura systému a\nshrnuty informace o používaných řízených slovnících, procesních pravidlech\na přístupnosti jednotlivých záznamů.\n \n          \n        \n      \n      \n    \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        \n        \n           \n            Sekce obsahuje širokou škálu návodů pro používání webové\naplikace AMČR od správy projektů, akcí a lokalit až po manuály\nKnihovny 3D či AMČR-PAS, včetně dobré praxe focení drobných nálezů atd.\n \n          \n        \n      \n      \n    \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        \n        \n           \n            Manuál představuje funkce Digitálního archivu AMČR, webové aplikace určené k\nprohlížení informací a dokumentů o archeologických výzkumech, lokalitách a nálezech.\n \n          \n        \n      \n      \n    \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        \n        \n           \n            Manuál popisuje API rozhraní, pomocí kterého lze získávat metadatové záznamy\nz databáze AMČR, a to pomocí protokolu OpenArchives Initiative Protocol\nfor Metadata Harvesting (OAI-PMH).\n \n          \n        \n      \n      \n    \n  \n\n\n\n\nŽádné nalezené výsledky\nUživatelská dokumentace AMČR je členěna do několika úrovní:",
+    "text": "O systému\n        \n           \n            V této sekci je vysvětlena struktura dat, popsána architektura systému a\nshrnuty informace o používaných řízených slovnících, procesních pravidlech\na přístupnosti jednotlivých záznamů.\n \n          \n        \n      \n      \n    \n  \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        \n        Dokumentace AMČR\n        \n           \n            Sekce obsahuje širokou škálu návodů pro používání webové\naplikace AMČR od správy projektů, akcí a lokalit až po manuály\nKnihovny 3D či AMČR-PAS, včetně dobré praxe focení drobných nálezů atd.\n \n          \n        \n      \n      \n    \n  \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        \n        Návod pro Digitální archiv AMČR\n        \n           \n            Manuál představuje funkce Digitálního archivu AMČR, webové aplikace určené k\nprohlížení informací a dokumentů o archeologických výzkumech, lokalitách a nálezech.\n \n          \n        \n      \n      \n    \n  \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        \n        Popis AMČR API\n        \n           \n            Manuál popisuje API rozhraní, pomocí kterého lze získávat metadatové záznamy\nz databáze AMČR, a to pomocí protokolu OpenArchives Initiative Protocol\nfor Metadata Harvesting (OAI-PMH).\n \n          \n        \n      \n      \n    \n  \n  \n\n\n\n\nŽádné nalezené výsledky\nUživatelská dokumentace AMČR je členěna do několika úrovní:",
     "crumbs": [
       "Úvod"
     ]

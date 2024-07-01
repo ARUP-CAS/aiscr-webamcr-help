@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dokumentace AMČR - AMČR</title>
+<title>Dokumentace AMČR - Uživatelská příručka AMČR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../amcr/oznameni.html" rel="next">
 <link href="../figs/cover.png" rel="icon" type="image/png">
 <script src="../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
@@ -102,9 +101,10 @@ cookieconsent.run({
 
 
 <link rel="stylesheet" href="../museo.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -169,7 +169,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/amcr.html">AMČR</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/amcr.html">Úvod</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -178,33 +178,22 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
-<p><a href="https://amcr-info.aiscr.cz/"><img src="../figs/logo-amcr-hor.png" class="img-fluid"></a></p>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
+<p><a href="../amcr/amcr.html"><img src="../figs/logo-amcr-hor.png" class="img-fluid"></a></p>
 </div></div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amcr/amcr.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">AMČR</span></a>
+ <span class="menu-text">Úvod</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../amcr/oznameni.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Oznámení záměru</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../amcr/projekty.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Správa projektů</span></a>
-  </div>
-</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../amcr/akce/akce.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Správa akcí</span></a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Návody</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -212,33 +201,35 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../amcr/akce/dj.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Zápis dok. jednotek</span></a>
+  <a href="../amcr/gui.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Webová aplikace</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../amcr/akce/drobne-akce.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Akce drobného rozsahu</span></a>
+  <a href="../amcr/oznameni.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Oznámení záměru</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../amcr/akce/adb.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Zápis ADB</span></a>
+  <a href="../amcr/projekty.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Správa projektů</span></a>
   </div>
 </li>
-      </ul>
+          <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Správa akcí</span></span>
   </li>
-        <li class="sidebar-item sidebar-item-section">
+          <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../amcr/amcr-pas/amcr-pas.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">AMČR-PAS</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Přepnout sekci">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amcr/amcr-pas/faq-spolupracovnici.html" class="sidebar-item-text sidebar-link">
@@ -263,10 +254,48 @@ cookieconsent.run({
  <span class="menu-text">Návod pro archeology</span></a>
   </div>
 </li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amcr/mapa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mapové rozhraní</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Tutoriály</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Přepnout sekci">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amcr/amcr-pas/foto.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Fotografická dokumentace nálezů</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amcr/akce/dj.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zápis dok. jednotek</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amcr/akce/drobne-akce.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Akce drobného rozsahu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../amcr/akce/adb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zápis ADB</span></a>
   </div>
 </li>
       </ul>
@@ -284,20 +313,22 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
     <h2 id="toc-title">Na této stránce…</h2>
    
   <ul>
-  <li><a href="#formulář-oznámení" id="toc-formulář-oznámení" class="nav-link active" data-scroll-target="#formulář-oznámení">Formulář oznámení</a></li>
-  <li><a href="#projekty" id="toc-projekty" class="nav-link" data-scroll-target="#projekty">Projekty</a></li>
-  <li><a href="#akce" id="toc-akce" class="nav-link" data-scroll-target="#akce">Akce</a></li>
+  <li><a href="#návody" id="toc-návody" class="nav-link active" data-scroll-target="#návody">Návody</a></li>
+  <li><a href="#tutoriály" id="toc-tutoriály" class="nav-link" data-scroll-target="#tutoriály">Tutoriály</a>
+  <ul>
+  <li><a href="#zápis-dokumentačních-jednotek" id="toc-zápis-dokumentačních-jednotek" class="nav-link" data-scroll-target="#zápis-dokumentačních-jednotek">Zápis dokumentačních jednotek</a></li>
   <li><a href="#amčr-pas" id="toc-amčr-pas" class="nav-link" data-scroll-target="#amčr-pas">AMČR-PAS</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/amcr/amcr.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/amcr/amcr.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AMČR</h1>
-<p class="subtitle lead">Uživatelská příručka</p>
+<h1 class="title">Uživatelská příručka AMČR</h1>
+<p class="subtitle lead">Úvod</p>
 </div>
 
 
@@ -314,38 +345,39 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </header>
 
 
-<section id="formulář-oznámení" class="level2">
-<h2 class="anchored" data-anchor-id="formulář-oznámení">Formulář oznámení</h2>
+<section id="návody" class="level2">
+<h2 class="anchored" data-anchor-id="návody">Návody</h2>
+<p><em>Návody</em> ukazují základní pracovní postupy v aplikaci AMČR.</p>
 <ul>
-<li><a href="../amcr/oznameni.html">Oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy</a></li>
-</ul>
-</section>
-<section id="projekty" class="level2">
-<h2 class="anchored" data-anchor-id="projekty">Projekty</h2>
-<ul>
+<li><a href="../amcr/oznameni.html">Formulář oznámení</a> – jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy</li>
 <li><a href="../amcr/projekty.html">Správa Projektů v AMČR</a></li>
 </ul>
-</section>
-<section id="akce" class="level2">
-<h2 class="anchored" data-anchor-id="akce">Akce</h2>
-<ul>
-<li>Správa Akcí v AMČR</li>
-<li><a href="../amcr/akce/dj.html">Pokyny pro volbu a zápis správného typu dokumentačních jednotek</a></li>
-<li><a href="../amcr/akce/drobne-akce.html">Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu</a></li>
-<li><a href="../amcr/akce/adb.html">Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace</a></li>
-</ul>
-<!-- ::: {#amcr .column-screen-inset-right}
-::: -->
-</section>
-<section id="amčr-pas" class="level2">
-<h2 class="anchored" data-anchor-id="amčr-pas">AMČR-PAS</h2>
-<p>Návody k používání <strong>Portálu amatérských spolupracovníků a evidence samostatných nálezů</strong> (<a href="https://amcr-info.aiscr.cz/pas">AMČR-PAS</a>).</p>
+<p><strong>Správa AMČR-PAS</strong><br>
+Návody k používání <em>Portálu amatérských spolupracovníků a evidence samostatných nálezů</em> (<a href="https://amcr-info.aiscr.cz/pas" class="external">AMČR-PAS</a>).</p>
 <ul>
 <li><a href="../amcr/amcr-pas/amcr-pas.html">Úvodní stránka nápovědy k AMČR-PAS</a> se vzorovými dokumenty ke stažení aj.</li>
 <li>Často kladené otázky (FAQ) <a href="../amcr/amcr-pas/faq-spolupracovnici.html">spolupracovníků</a> a <a href="../amcr/amcr-pas/faq-archeologove.html">archeologů</a></li>
 <li>Návod pro <a href="../amcr/amcr-pas/amater.html">spolupracovníky</a> a <a href="../amcr/amcr-pas/archeolog.html">archeology</a></li>
-<li>Návod jak provádět <a href="../amcr/amcr-pas/foto.html">fotografickou dokumentaci nálezů</a></li>
 </ul>
+</section>
+<section id="tutoriály" class="level2">
+<h2 class="anchored" data-anchor-id="tutoriály">Tutoriály</h2>
+<p><em>Tutoriály</em> dokumentaují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jendotku, nafotit drobný nález apod.</p>
+<section id="zápis-dokumentačních-jednotek" class="level4">
+<h4 class="anchored" data-anchor-id="zápis-dokumentačních-jednotek">Zápis dokumentačních jednotek</h4>
+<ul>
+<li><a href="../amcr/akce/dj.html">Pokyny pro volbu a zápis správného typu dokumentačních jednotek</a></li>
+<li><a href="../amcr/akce/adb.html">Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace</a></li>
+</ul>
+</section>
+<section id="amčr-pas" class="level4">
+<h4 class="anchored" data-anchor-id="amčr-pas">AMČR-PAS</h4>
+<ul>
+<li><p>Jak provádět <a href="../amcr/amcr-pas/foto.html">fotografickou dokumentaci nálezů</a> pro AMČR-PAS</p></li>
+<li><p><a href="../amcr/akce/drobne-akce.html">Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu</a></p></li>
+</ul>
+<!-- ::: {#amcr .column-screen-inset-right}
+::: -->
 <!-- ::: {#pas .column-screen-inset-right}
 ::: -->
 <!-- ## Knihovna 3D
@@ -364,6 +396,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 ::: -->
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -781,15 +814,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../amcr/oznameni.html" class="pagination-link" aria-label="Oznámení záměru">
-        <span class="nav-page-text">Oznámení záměru</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -798,7 +822,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
-</div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/amcr/amcr.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/amcr/amcr.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
