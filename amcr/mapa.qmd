@@ -21,7 +21,8 @@ Při dalším přibližování jsou pak již viditelné jednotlivé prvky (body,
 
 ![](figs/map-init.jpg){#fuu}
 
-**Základní funkce**  
+### Základní funkce
+
 Tlačítka pro základní funkce mapy jsou u jejího levého horního okraje.
 Jde v pořadí odshora dolů o tlačítka sloužící k:
 ![](figs/map-tools.png){.column-margin}
@@ -33,7 +34,8 @@ Jde v pořadí odshora dolů o tlačítka sloužící k:
 - nástroj pro návrat k předchozímu zobrazení mapy;
 - povolení či zakázání úprav současné vrstvy.
 
-**Vrstvy**  
+### Vrstvy
+
 Mapa nabízí několik podkladových vrstev, mezi kterými jde přepínat pomocí tlačítka vpravo nahoře, jsou to:
 ![](figs/map-layers.png){.column-margin}
 
@@ -49,12 +51,14 @@ Dále lze podkladovou mapu překrýt následujícími vrstvami:
 - NPÚ -- vrstva s památkově chráněnými prvky;
 - a v neposlední řadě pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj. v závislosti na kontextu).
 
-**Vyhledávání v geografických jménech**  
+### Vyhledávání v geografických jménech
+
 Pomocí tlačítka lupy lze vyhledávat v různých geografických jménech, např. názvech obcí, katastrálních území aj. (databáze gaonames).
 Po výběru daného prvku se mapa přiblíží na jeho geografický střed (centroid).
 ![](figs/map-geonames.png)
 
-**Symbologie a barevnost**  
+### Symbologie a barevnost
+
 V mapě se lze setkat s prvky (body symbolizovanými ikonou *pinu*, liniemi, polygony) čtyř základních barev, ty mají následující význam:
 ![](figs/map-pins.png){.column-margin}
 

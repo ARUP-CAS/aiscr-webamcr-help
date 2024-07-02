@@ -30,7 +30,8 @@ format-links: false
  - [Formulář oznámení](oznameni.qmd) -- jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy
  - [Správa Projektů v AMČR](projekty.qmd)
 
-**Správa AMČR-PAS**  
+### Správa AMČR-PAS
+
 Návody k používání *Portálu amatérských spolupracovníků a evidence samostatných nálezů* ([AMČR-PAS](https://amcr-info.aiscr.cz/pas){.external}). 
 
 - [Úvodní stránka nápovědy k AMČR-PAS](amcr-pas/amcr-pas.qmd) se vzorovými dokumenty ke stažení aj.
@@ -42,12 +43,12 @@ Návody k používání *Portálu amatérských spolupracovníků a evidence sam
 
 *Tutoriály* dokumentaují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jendotku, nafotit drobný nález apod.
 
-#### Zápis dokumentačních jednotek 
+### Zápis dokumentačních jednotek 
 
 - [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd)
 - [Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace](akce/adb.qmd)
 
-#### AMČR-PAS 
+### AMČR-PAS 
 
 - Jak provádět [fotografickou dokumentaci nálezů](amcr-pas/foto.qmd) pro AMČR-PAS
 
