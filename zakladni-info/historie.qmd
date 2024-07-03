@@ -2,6 +2,15 @@
 title: Historie
 ---
 
+::: {.callout-important}
+
+## Upozornění
+
+Následující stránka k 1. červenci 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
+Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
+
+:::
+
 ## Vznik systému a jeho autoři
 
 Struktura a funkcionality systému byly navrženy v rámci grantového projektu Archeologická mapa ČR. Systém pro sběr, správu a prezentaci dat (MK ČR – program NAKI, [DF12P01OVV003](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF12P01OVV003){.external}, 2012-2015) autorským týmem Archeologického ústavu AV ČR, Praha, v. v. i. (Martin Kuna, David Novák, Jan Hasil, Dana Křivánková).

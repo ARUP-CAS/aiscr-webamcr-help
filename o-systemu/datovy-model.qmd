@@ -4,6 +4,15 @@ format:
   html: default
 ---
 
+::: {.callout-important}
+
+## Upozornění
+
+Následující stránka k 1. červenci 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
+Zároveň mohou být některé odkazy, které stránka obsahuje, nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
+
+:::
+
 Aplikaci AMČR lze popsat jako provázaný systém několika segmentů (skupin tabulek, datových tříd a heslářů) vztahujících se k základním funkcím informačního systému.
 Některé segmenty jsou zcela integrovány (např. [komponenty](pojmy.qmd#komponenty) v [akcích](pojmy.qmd#akce)), jiné tvoří volněji připojené moduly na periferii systému ([MADB](pojmy.qmd#madb) aj.).
 

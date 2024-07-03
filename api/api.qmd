@@ -5,6 +5,15 @@ date: 2020-06-01
 date-format: D. M. YYYY
 ---
 
+::: {.callout-important}
+
+## Upozornění
+
+Následující stránka k 1. červenci 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
+Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
+
+:::
+
 API v současné době nabízí službu *AMCR Data Provider*, která poskytuje metadatové záznamy z databáze AMČR, a to pomocí protokolu *OpenArchives Initiative Protocol for Metadata Harvesting* ([OAI-PMH](http://www.openarchives.org/pmh/){.external}).
 
 Naše implementace protokolu OAI-PMH podporuje
@@ -321,4 +330,3 @@ Protokol OAI-PMH umožňuje filtrování pomocí datumu (`datestamp`), přiřaze
 Pro požadované filtrování se poté do requestu se slovesy `ListRecords` nebo `ListIndentifiers` přidává parametr `from` (od) a/nebo `until` (do).
 
 Dotaz: [https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr&from=2022-12-10&until=2022-12-20](https://api.aiscr.cz/dapro/oai?verb=ListIdentifiers&metadataPrefix=oai_amcr&from=2022-12-10&until=2022-12-20){.external}
-

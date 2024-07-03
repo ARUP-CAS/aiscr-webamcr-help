@@ -2,6 +2,15 @@
 title: "Základní informace"
 ---
 
+::: {.callout-important}
+
+## Upozornění
+
+Následující stránka k 1. červenci 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
+Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
+
+:::
+
 Informační systém **Archeologická mapa České republiky** ([AMČR](https://amcr-info.aiscr.cz/){.external}) integruje dvě základní oblasti správy archeologického dědictví ČR.
 Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva).
 Na druhé straně jde o budování souhrnného přehledu archeologického dědictví ČR, tedy o vytvoření *národní* databáze archeologického kulturního dědictví.
