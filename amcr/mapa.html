@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.52">
+<meta name="generator" content="quarto-1.5.53">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../amcr/amcr-pas/archeolog.html" rel="prev">
+<link href="../amcr/oznameni.html" rel="next">
+<link href="../amcr/gui.html" rel="prev">
 <link href="../figs/cover.png" rel="icon" type="image/png">
 <script src="../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
@@ -208,6 +209,12 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../amcr/mapa.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Mapové rozhraní</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../amcr/oznameni.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Oznámení záměru</span></a>
   </div>
@@ -257,12 +264,6 @@ cookieconsent.run({
 </li>
       </ul>
   </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../amcr/mapa.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Mapové rozhraní</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -344,7 +345,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 
     
     <div>
-    <div class="quarto-title-meta-heading">Publikováno</div>
+    <div class="quarto-title-meta-heading">Aktualizováno</div>
     <div class="quarto-title-meta-contents">
       <p class="date">1. července 2024</p>
     </div>
@@ -370,7 +371,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <section id="popis-mapového-rozhraní" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="popis-mapového-rozhraní">Popis mapového rozhraní</h2>
 <p>V základním zobrazení se na mapě obvykle zobrazí heatmapa, která ukazuje hustotu pokrytí území České republiky prvky dané třídy (např. bodovými lokalizacemi projektů). Při přiblížení se heatmapa změní na shluky, které barevně a číslem udávají, kolik je v dané oblastni prvků. Při dalším přibližování jsou pak již viditelné jednotlivé prvky (body, linie, polygony).</p>
-<p><img src="figs/map-init.jpg" id="fuu" class="img-fluid"></p>
+<p><img src="figs/map-init.jpg" class="img-fluid"></p>
 <section id="základní-funkce" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="základní-funkce">Základní funkce</h3>
 <div class="page-columns page-full"><p>Tlačítka pro základní funkce mapy jsou u jejího levého horního okraje. Jde v pořadí odshora dolů o tlačítka sloužící k: </p><div class="no-row-height column-margin column-container"><img src="figs/map-tools.png" class="img-fluid"></div></div>
@@ -397,7 +398,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <li>ČÚZK – Katastrální území;</li>
 <li>ČÚZK – Katastrální mapa;</li>
 <li>NPÚ – vrstva s památkově chráněnými prvky;</li>
-<li>a v neposlední řadě pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj. v závislosti na kontextu).</li>
+<li>a dále pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj., v závislosti na kontextu).</li>
 </ul>
 </section>
 <section id="vyhledávání-v-geografických-jménech" class="level3">
@@ -418,17 +419,17 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="lokalizace-bodem" class="level2">
 <h2 class="anchored" data-anchor-id="lokalizace-bodem">Lokalizace bodem</h2>
-<p>V případě Projektů, Samostatných nálezů (AMČR-PAS) a dalších míst, kde lze v mapě upravovat či vkládat lokalizace pouze pomocí bodů je práce s ní přímočará. Levým kliknutním myši je při patřičném přiblížení bod vyznačen na mapě, případně přemístěn na nové umístění. <img src="figs/map-proj.png" class="img-fluid"></p>
+<p>V případě lokalizace Projektů, samostatných nálezů (AMČR-PAS) a dalších míst, kde lze v mapě upravovat či vkládat lokalizace pouze pomocí bodů je práce s ní přímočará. Levým kliknutním myši je při patřičném přiblížení bod vyznačen na mapě, případně přemístěn na nové umístění. <img src="figs/map-proj.png" class="img-fluid"></p>
 </section>
 <section id="lokalizace-pomocí-pian" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="lokalizace-pomocí-pian">Lokalizace pomocí PIAN</h2>
 <div class="page-columns page-full"><p>U Akcí, Samostatných akcí a Lokalit lze vytvářet plnohodnotné <a href="o-systemu/pojmy.qmd/#pian">PIANy</a> (prostorová identifikace archeologického nálezu). PIAN může být jak bod, tak linie či polygon. Pro jejich vyznačení v mapě slouží nástroje: </p><div class="no-row-height column-margin column-container"><img src="figs/map-draw.png" class="img-fluid"></div></div>
 <ul>
-<li><em>Přidat bod</em> – po kliknutí vloží bod;</li>
-<li><em>Přidat linii</em> – kliknutím vloží nový uzel polylinie, kliknutím na poslední vložený uzel tvar potvrdí;</li>
-<li><em>Přidat polygon</em> – kliknutím vloží uzel hrany polygonu, kliknutím na první vložený uzel tvar uzavře.</li>
+<li><code>Přidat bod</code> – po kliknutí vloží bod;</li>
+<li><code>Přidat linii</code> – kliknutím vloží nový uzel polylinie, kliknutím na poslední vložený uzel tvar potvrdí;</li>
+<li><code>Přidat polygon</code> – kliknutím vloží uzel hrany polygonu, kliknutím na první vložený uzel tvar uzavře.</li>
 </ul>
-<p>Nabídka pro vložení linií a polygonů obsahují možnosti daný prvek potvrdit (<em>Dokončit</em>), smazat poslední vložený bod (<em>Krok zpět</em>) a smazat celý nakreslený tvar (<em>Storno</em>). Tlačítko <em>Editovat prvek</em> umožňuje zapnou editaci již nakresleného tvaru a jeho úpravu pomocí přetaženích zvolených uzlů na nové pozice, přidání nových uzlů mezi dva existující (průhledně zobrazené uzly), případně smazání existujících uzlů (po kliknutí na tmavě zobrazené uzly).</p>
+<p>Nabídka pro vložení linií a polygonů obsahují možnosti daný prvek potvrdit (<code>Dokončit</code>), smazat poslední vložený bod (<code>Krok zpět</code>) a smazat celý nakreslený tvar (<code>Storno</code>). Tlačítko <code>Editovat prvek</code> umožňuje zapnou editaci již nakresleného tvaru a jeho úpravu pomocí přetaženích zvolených uzlů na nové pozice, přidání nových uzlů mezi dva existující (průhledně zobrazené uzly), případně smazání existujících uzlů (po kliknutí na tmavě zobrazené uzly).</p>
 <p>Zakreslení polygonu: <img src="figs/map-poly1.png" class="img-fluid"></p>
 <p>Úprava již existujícího polygonu: <img src="figs/map-poly2.png" class="img-fluid"></p>
 <p>Pohled na právě zakreslený polygon a další PIANy v jeho okolí (některé stále ve shlucích zvýrazněných barevnými kolečky s čísly): <img src="figs/map-pian.png" class="img-fluid"></p>
@@ -868,18 +869,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../amcr/amcr-pas/archeolog.html" class="pagination-link" aria-label="Návod pro archeology">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Návod pro archeology</span>
+      <a href="../amcr/gui.html" class="pagination-link" aria-label="Webová aplikace">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Webová aplikace</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../amcr/oznameni.html" class="pagination-link" aria-label="Oznámení záměru">
+        <span class="nav-page-text">Oznámení záměru</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="about.qmd">Kontakty</a> | <a href="zakladni-info/licence.qmd">Licence</a> | <span id="open_preferences_center"><u>Cookies</u></span></p>
+<p><a href="../about.html">Kontakty</a> | <a href="../zakladni-info/licence.html">Licence</a> | <span id="open_preferences_center"><u>Cookies</u></span></p>
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
