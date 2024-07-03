@@ -81,6 +81,8 @@ website:
           contents: 
             - text: Webová aplikace
               href: amcr/gui.qmd
+            - text: Mapové rozhraní
+              href: amcr/mapa.qmd
             - text: Oznámení záměru
               href: amcr/oznameni.qmd
             - text: Správa projektů
@@ -94,8 +96,6 @@ website:
                 - amcr/amcr-pas/faq-archeologove.qmd
                 - amcr/amcr-pas/amater.qmd
                 - amcr/amcr-pas/archeolog.qmd
-            - text: Mapové rozhraní
-              href: amcr/mapa.qmd
         - text: ---
         - section: Tutoriály
           contents:
@@ -158,8 +158,8 @@ website:
   page-footer:
     background: light
     left: |
-      [Kontakty](about.qmd) | 
-      [Licence](zakladni-info/licence.qmd) | 
+      [Kontakty](/about.qmd) | 
+      [Licence](/zakladni-info/licence.qmd) | 
       [<u>Cookies</u>]{#open_preferences_center}
     center: |
       [![](/figs/logo-aiscr-hor.png){height=60}](https://aiscr.cz/)
@@ -215,3 +215,4 @@ lang: cs
 language:
   related-formats-title: "Stáhnout..."
   section-title-references: "Zdroje"
+  title-block-published: "Aktualizováno"

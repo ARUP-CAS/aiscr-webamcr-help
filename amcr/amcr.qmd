@@ -1,6 +1,6 @@
 ---
 title: "Uživatelská příručka AMČR"
-subtitle: "Úvod"
+subtitle: "Úvodní rozcestník"
 toc: true
 format-links: false
 # listing:
@@ -25,23 +25,18 @@ format-links: false
 
 ## Návody
 
-*Návody* ukazují základní pracovní postupy v aplikaci AMČR.
+*Návody* dokumentují základní pracovní postupy v aplikaci AMČR.
 
- - [Formulář oznámení](oznameni.qmd) -- jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy
- - [Správa Projektů v AMČR](projekty.qmd)
-
-### Správa AMČR-PAS
-
-Návody k používání *Portálu amatérských spolupracovníků a evidence samostatných nálezů* ([AMČR-PAS](https://amcr-info.aiscr.cz/pas){.external}). 
-
-- [Úvodní stránka nápovědy k AMČR-PAS](amcr-pas/amcr-pas.qmd) se vzorovými dokumenty ke stažení aj.
-- Často kladené otázky (FAQ) [spolupracovníků](amcr-pas/faq-spolupracovnici.qmd) a [archeologů](amcr-pas/faq-archeologove.qmd)
-- Návod pro [spolupracovníky](amcr-pas/amater.qmd) a [archeology](amcr-pas/archeolog.qmd)
+- Popis základního fungování a vzhledu [webové aplikace](gui.qmd).
+- Popis práce s [mapovým rozhraním](mapa.qmd).
+- [Formulář oznámení záměru](oznameni.qmd) -- jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy
+- [Správa projektů](projekty.qmd)
+- Úvodní stránka [dokumentace AMČR-PAS](amcr-pas/amcr-pas.qmd) (*Portál amatérských spolupracovníků a evidence samostatných nálezů*)
 
 
 ## Tutoriály 
 
-*Tutoriály* dokumentaují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jendotku, nafotit drobný nález apod.
+*Tutoriály* ukazují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jednotku, nafotit drobný nález apod.
 
 ### Zápis dokumentačních jednotek 
 
