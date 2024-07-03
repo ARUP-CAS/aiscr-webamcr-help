@@ -1,5 +1,8 @@
 /*-- scss:defaults --*/
 $amcr: #85150F !default;
+$da: #0d47a1;
+$mainfont: 'Alegreya Sans', sans-serif;
+$headerfont: 'museo300', monospace;
 
 // @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
@@ -23,20 +26,20 @@ main {
 
 h1, h2 {
   color: $amcr;
-  font-family: 'museo300', monospace;
+  font-family: $headerfont;
   font-weight: 300;
 }
 
 h3 {
   color: $amcr;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: $mainfont;
   font-weight: 600;
   font-size: 1.1em;
 }
 
 h4 {
   color: $amcr;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: $mainfont;
   font-weight: 500;
   font-style: italic;
   font-size: 1.1em;
@@ -46,10 +49,14 @@ strong, b {
   color: $amcr;
 }
 
+code {
+  color: $da;
+}
+
 /*-- navbar --*/
 .navbar-title {
   font-size: 84%;
-  font-family: 'museo300', monospace;
+  font-family: $headerfont;
   font-weight: 300;
 }
 
@@ -83,7 +90,7 @@ ul.navbar-nav > li > a:focus > span {
 
 /*-- sidebar --*/
 .sidebar-item {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: $mainfont;
   font-weight: 300;
 }
 
