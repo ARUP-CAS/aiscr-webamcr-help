@@ -19,7 +19,7 @@ V základním zobrazení se na mapě obvykle zobrazí heatmapa, která ukazuje h
 Při přiblížení se heatmapa změní na shluky, které barevně a číslem udávají, kolik je v dané oblastni prvků.
 Při dalším přibližování jsou pak již viditelné jednotlivé prvky (body, linie, polygony).
 
-![](figs/map-init.jpg){#fuu}
+![](figs/map-init.jpg)
 
 ### Základní funkce
 
@@ -49,7 +49,7 @@ Dále lze podkladovou mapu překrýt následujícími vrstvami:
 - ČÚZK -- Katastrální území;
 - ČÚZK -- Katastrální mapa;
 - NPÚ -- vrstva s památkově chráněnými prvky;
-- a v neposlední řadě pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj. v závislosti na kontextu).
+- a dále pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj., v závislosti na kontextu).
 
 ### Vyhledávání v geografických jménech
 
@@ -72,7 +72,7 @@ Uvnitř *pinu* pak mohou být zobrazeny různé *ikony* pro jednotlivé základn
 
 ## Lokalizace bodem
 
-V případě Projektů, Samostatných nálezů (AMČR-PAS) a dalších míst, kde lze v mapě upravovat či vkládat lokalizace pouze pomocí bodů je práce s ní přímočará.
+V případě lokalizace Projektů, samostatných nálezů (AMČR-PAS) a dalších míst, kde lze v mapě upravovat či vkládat lokalizace pouze pomocí bodů je práce s ní přímočará.
 Levým kliknutním myši je při patřičném přiblížení bod vyznačen na mapě, případně přemístěn na nové umístění.
 ![](figs/map-proj.png)
 
@@ -83,12 +83,12 @@ PIAN může být jak bod, tak linie či polygon.
 Pro jejich vyznačení v mapě slouží nástroje:
 ![](figs/map-draw.png){.column-margin}
 
-- *Přidat bod* -- po kliknutí vloží bod;
-- *Přidat linii* -- kliknutím vloží nový uzel polylinie, kliknutím na poslední vložený uzel tvar potvrdí;
-- *Přidat polygon* -- kliknutím vloží uzel hrany polygonu, kliknutím na první vložený uzel tvar uzavře.
+- `Přidat bod` -- po kliknutí vloží bod;
+- `Přidat linii` -- kliknutím vloží nový uzel polylinie, kliknutím na poslední vložený uzel tvar potvrdí;
+- `Přidat polygon` -- kliknutím vloží uzel hrany polygonu, kliknutím na první vložený uzel tvar uzavře.
 
-Nabídka pro vložení linií a polygonů obsahují možnosti daný prvek potvrdit (*Dokončit*), smazat poslední vložený bod (*Krok zpět*) a smazat celý nakreslený tvar (*Storno*).
-Tlačítko *Editovat prvek* umožňuje zapnou editaci již nakresleného tvaru a jeho úpravu pomocí přetaženích zvolených uzlů na nové pozice, přidání nových uzlů mezi dva existující (průhledně zobrazené uzly), případně smazání existujících uzlů (po kliknutí na tmavě zobrazené uzly).
+Nabídka pro vložení linií a polygonů obsahují možnosti daný prvek potvrdit (`Dokončit`), smazat poslední vložený bod (`Krok zpět`) a smazat celý nakreslený tvar (`Storno`).
+Tlačítko `Editovat prvek` umožňuje zapnou editaci již nakresleného tvaru a jeho úpravu pomocí přetaženích zvolených uzlů na nové pozice, přidání nových uzlů mezi dva existující (průhledně zobrazené uzly), případně smazání existujících uzlů (po kliknutí na tmavě zobrazené uzly).
 
 Zakreslení polygonu:
 ![](figs/map-poly1.png)
