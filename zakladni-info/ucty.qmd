@@ -1,3 +1,40 @@
 ---
 title: Uživatelské účty
+date: 2024-07-03
 ---
+
+::: {.callout-note}
+
+Registraci do AMČR můžete provést na následující stránce: [https://amcr.aiscr.cz/registrace/](https://amcr.aiscr.cz/registrace/){.external}.
+
+:::
+
+Registrace v systému AMČR je pro všechny uživatele zdarma.
+Při registraci je potřeba vyplnit následující údaje:
+
+- **Jméno**;
+- **Příjmení**;
+- **Email** -- každý účet je vázán na emailovou adresu;
+- *Telefon* -- nepovinný údaj;
+- **Organizace** -- z rozbalovací nabídky lze vybrat organizaci uživatele, uživatelé mimo archeologické organizace zpravidla vyberou možnost `[amatérský spolupracovník]` či `[neuvedeno]`;
+- **Heslo**.
+
+Po vyplnění a odeslání registračního formuláře pak dojde k ověření uvedené emailové adresy a následné aktivaci účtu správci systému z ARÚP/ARÚB.
+Po aktivaci účtu správci systému přijde na zadanou emailovovou adresu email s potvrzením.
+Následně je možné se přihlásit.
+
+::: {.callout-tip}
+
+Uživatelský účet AMČR je možné použít především na následujících místech:
+
+- webová aplikace AMČR -- [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external};
+- Digitální archiv AMČR -- [https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/){.external} a
+- AMČR API -- [https://api.aiscr.cz/](https://api.aiscr.cz/){.external}.
+
+:::
+
+### Uživatelské role 
+
+Uživatelské role jsou detailně popsány [zde](/o-systemu/role.qmd).
+Registrací v systému získává uživatel automaticky roli **Badatel** (**B**).
+Roli **Archeolog** (**C**) mohou získat uživatelé z [organizací s oprávněním provádět archeologický výzkum](/o-systemu/pojmy.qmd#oprávněná-archeologická-organizace) prostřednictvím doplnění dodatku ke smlouvě uzavřené s ARÚP/ARÚB.

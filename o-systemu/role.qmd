@@ -1,10 +1,11 @@
 ---
-title: Uživatelské role
+title: Uživatelské role a oprávnění
+date: 2024-07-03
 ---
 
 AMČR rozlišuje pět uživatelských rolí, jejichž nositelé se liší svými právy při práci s informačním systémem.
 Právo ke vstupu do informačního systému na elementární úrovni (**A** – **Anonym**) získává každý uživatel, který zavítá do AMČR, Digitálního archivu AMČR, či jiné aplikace AIS CR.
-Rozšířená uživatelská práva lze získat na základě [registrace](pracovni-postupy.qmd#registrace-uživatele) (role **B** – **Badatel**), vyšší oprávnění získá pracovník některé z [organizací oprávněných k provádění archeologických výzkumů](pojmy.qmd#oprávněná-archeologická-organizace) (**C** – **Archeolog**).
+Rozšířená uživatelská práva lze získat na základě registrace (role **B** – **Badatel**), vyšší oprávnění získá pracovník některé z [organizací oprávněných k provádění archeologických výzkumů](pojmy.qmd#oprávněná-archeologická-organizace) (**C** – **Archeolog**).
 Nejvyšší uživatelská práva potom mají pracovníci organizací provozujících informační systém AMČR, tedy ARÚP a ARÚB.
 Uživatel na úrovni **D** – **Archivář** provádí zejména formální a obsahovou kontrolu záznamů vkládanými uživateli úrovní B a C, správu systému pak provádí uživatel s oprávněním **E** – **Administrátor**.
 
@@ -16,12 +17,12 @@ Obecně platí, že všem uživatelům jsou zpřístupněna pro prohlížení v�
 Vytvářet nové záznamy a vkládat nové [dokumenty](pojmy.qmd#dokumenty) mohou jen [registrovaní uživatelé](pojmy.qmd#registrovaný-uživatel).
 Rozpracované záznamy jsou zpřístupňovány jen tomu uživateli, který jej edituje, a uživatelům s vyššími oprávněními (úroveň D a E).
 
-## Oprávnění jednotlivých uživatelských rolí
+### Oprávnění jednotlivých uživatelských rolí
 
 :::{.column-page-right}
 ```{r}
 #| label: tbl-role
-#| tbl-cap: "Seznam uživatelských rolí a oprávnění"
+# #| tbl-cap: "Seznam uživatelských rolí a oprávnění"
 
 read.csv("tabs/role.csv") |>
   knitr::kable()
