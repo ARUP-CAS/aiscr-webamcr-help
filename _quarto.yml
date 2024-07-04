@@ -89,6 +89,8 @@ website:
               href: amcr/projekty.qmd
             - text: Správa akcí
               href: amcr/akce.qmd
+            - text: Správa lokalit
+              href: amcr/lokality.qmd
             - section: AMČR-PAS
               href: amcr/amcr-pas/amcr-pas.qmd
               contents:
@@ -96,29 +98,29 @@ website:
                 - amcr/amcr-pas/faq-archeologove.qmd
                 - amcr/amcr-pas/amater.qmd
                 - amcr/amcr-pas/archeolog.qmd
+            - text: "Správa dokumentů"
+              href: amcr/dokumenty.qmd
+            - text: "Knihovna 3D"
+              href: amcr/knihovna3d.qmd
+            - text: "Správa externích zdrojů"
+              href: amcr/externi.qmd
         - text: ---
         - section: Tutoriály
           contents:
               - amcr/amcr-pas/foto.qmd
-              - amcr/akce/dj.qmd
               - amcr/akce/drobne-akce.qmd
+              - text: Zápis správného typu dokumentačních jednotek
+                href: amcr/akce/dj.qmd
               - amcr/akce/adb.qmd
-            # - text: "Knihovna 3D"
-            #   href: amcr/knihovna3d.qmd
-            # - section: "Správa lokalit"
-            #   contents:
-            #     - amcr/lokality/lokality.qmd
-            #     - section: "Letecká archeologie"
-            #       contents:
-            #         - amcr/lokality/plany.qmd
-            #         - amcr/lokality/vektorizace.qmd
-            # - text: "Správa dokumentů"
-            #   href: amcr/dokumenty.qmd
-            # - text: "Správa externích zdrojů"
-            #   href: amcr/externi.qmd
-            # - text: "Administrace systému"
-            #   href: amcr/admin.qmd
-
+              - text: Metodika tvorby plánů na základě šikmých leteckých snímků
+                href: https://doi.org/10.5281/zenodo.7925830
+                icon: box-arrow-up-right
+                target: _blank
+              - text: Postup vektorizace objektů na základě šikmých leteckých snímků
+                href: https://doi.org/10.5281/zenodo.7925795
+                icon: box-arrow-up-right
+                target: _blank
+            
     - id: manual-digiarchiv
       header: |
         [![](/figs/thumb_digiarchiv.png)](/digiarchiv/digiarchiv.qmd)  

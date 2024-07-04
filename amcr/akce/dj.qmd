@@ -1,6 +1,5 @@
 ---
-title: "Zápis dok. jednotek"
-subtitle: "Pokyny pro volbu a zápis správného typu dokumentačních jednotek"
+title: "Pokyny pro volbu a zápis správného typu dokumentačních jednotek"
 ---
 
 Při popisu archeologických [akcí](pojmy.qmd#akce) v AMČR nastávají situace, kdy je třeba vytvořit více než jednu [dokumentační jednotku](pojmy.qmd#dokumentační-jednotky) (DJ).
