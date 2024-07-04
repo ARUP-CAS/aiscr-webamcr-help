@@ -69,11 +69,11 @@
     ]
   },
   {
-    "objectID": "index.html#jak-citovat",
-    "href": "index.html#jak-citovat",
+    "objectID": "index.html#licence-a-jak-citovat",
+    "href": "index.html#licence-a-jak-citovat",
     "title": "Úvod",
-    "section": "Jak citovat",
-    "text": "Jak citovat\nVeškerý obsah těchto stránek podléhá licenci CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/){.external} (Creative Commons Uveďte původ–Neužívejte komerčně 4.0).\nPokud není uvedeno jinak, citujte dokumentaci jako:\n\nPajdla, P., Novák, D., Švejcar, O., Pavloň, T. 2024: Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/. [cit. RRRR-MM-DD]\n\nPřípadně viz soubor CITATION.cff. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku nápovědy k Digitálnímu archivu AMČR tedy citujte takto:\n\nŠvejcar, O., Pavloň, T. 2024: Digitální archiv AMČR: Uživatelský manuál. In: Pajdla, P., Novák, D. et al. Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html. [cit. RRRR-MM-DD]\n\nJak správně citovat data a dokumenty v AMČR se dočtete zde.",
+    "section": "Licence a jak citovat",
+    "text": "Licence a jak citovat\nVeškerý obsah těchto stránek podléhá licenci CC BY-NC 4.0 (Creative Commons Uveďte původ–Neužívejte komerčně 4.0).\nPokud není uvedeno jinak, citujte dokumentaci jako:\n\nPajdla, P., Novák, D., Švejcar, O., Pavloň, T. 2024: Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/. [cit. RRRR-MM-DD]\n\nPřípadně viz soubor CITATION.cff. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku nápovědy k Digitálnímu archivu AMČR tedy citujte takto:\n\nŠvejcar, O., Pavloň, T. 2024: Digitální archiv AMČR: Uživatelský manuál. In: Pajdla, P., Novák, D. et al. Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html. [cit. RRRR-MM-DD]\n\nJak správně citovat data a dokumenty v AMČR se dočtete zde.",
     "crumbs": [
       "Úvod"
     ]
