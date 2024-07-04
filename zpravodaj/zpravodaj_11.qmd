@@ -1,6 +1,6 @@
 ---
 title: Zpravodaj AMČR č. 11
-date: 2024-05-30
+date: 2024-07-XX
 ---
 
 Tohle je template pro připravovaný zpravodaj...
