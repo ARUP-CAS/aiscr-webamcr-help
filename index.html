@@ -6,6 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Petr Pajdla">
+<meta name="author" content="David Novák">
+<meta name="author" content="Ondřej Švejcar">
+<meta name="author" content="Tomáš Pavloň">
 
 <title>Úvod – Dokumentace AMČR</title>
 <style>
@@ -19,40 +23,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -333,6 +303,15 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autoři</div>
+    <div class="quarto-title-meta-contents">
+             <p>Petr Pajdla <a href="https://orcid.org/0000-0001-7050-9572" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>David Novák <a href="https://orcid.org/0000-0001-6592-6291" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Ondřej Švejcar </p>
+             <p>Tomáš Pavloň <a href="https://orcid.org/0009-0007-4387-6976" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
     
   
     
@@ -351,15 +330,6 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </header>
 
 
-<!-- ::: {.callout-important}
-
-## Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!
-
-Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR.
-
-Původní platnou nápovědu a dokumentaci AMČR najdete na stránkách [https://amcr-info.aiscr.cz/help](https://amcr-info.aiscr.cz/help).
-
-::: -->
 <div id="listing-soucasti" class="column-body quarto-listing quarto-listing-container-custom">
 
 <div class="list grid quarto-listing-cols-2" "="">
@@ -489,46 +459,55 @@ for Metadata Harvesting (OAI-PMH).
 </section>
 <section id="jak-citovat" class="level2">
 <h2 class="anchored" data-anchor-id="jak-citovat">Jak citovat</h2>
-<p>Citujte jako (…)</p>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Jak upravovat
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Pro úpravy stačí kliknout na <em>Edit this page</em> v pravo pod navigací. Odkaz vede do <a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/">GitHub</a> repozitáře přímo na daný dokument, který lze rovnou upravovat (mám-li dostatečná práva). Při <strong>commitu</strong> se spustí akce, která celou stránku aktalizuje a nasadí (při větším množství úprav je tedy rozumné upravovat lokálně a <strong>push</strong> používat jen při ukončení práce, je to sice cizí výpočetní síla a nic nás nestojí, ale nemusí běžet zbytečně).</p>
-<p>Návod ke Quarto je zde: <a href="https://quarto.org/" class="uri">https://quarto.org/</a>.</p>
-<p>Jednotlivé dokumenty jsou formátovány pomocí <a href="https://www.markdownguide.org/">markdownu</a>:</p>
-<ul>
-<li><strong>#</strong> Nadpis 1. úrovně.</li>
-<li><strong>##</strong> Nadpis 2. úrovně atd.</li>
-<li><strong>*</strong>Text<strong>*</strong> <em>kurzívou</em>.</li>
-<li><strong>**</strong>Text<strong>**</strong> <strong>tučně</strong>.</li>
-<li><strong>[</strong>Text odkazu<strong>](</strong>url<strong>)</strong> vytvoří <a href="https://www.aiscr.cz/">link</a>.</li>
-<li>Obrázek se vkládá obdobně: <strong>![</strong>Popisek obrázku<strong>](</strong>cesta fig/…<strong>)</strong>.</li>
-<li>Dvě mezery na konci řádku vytvoří nový odstavec, pro čitelnost je lepší vynechat celý řádek.</li>
-</ul>
-<section id="tabulky" class="level2">
-<h2 class="anchored" data-anchor-id="tabulky">Tabulky</h2>
-<p>Tabulky lze vkládat ručně jako text formátovaný v Markdownu, viz <a href="https://quarto.org/docs/authoring/tables.html" class="uri">https://quarto.org/docs/authoring/tables.html</a>. Druhou variantou je pak stavět tabulky automatizovaně z CSV souborů. CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými uvozovkami (“) vkládejte do složky <code>./tabs/</code>.</p>
-<p>Tabulku lze pak vložit tímhle kódem:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="in">#| label: tbl-role              # popisek pro křížové odkazy</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="in">#| tbl-cap: "Uživatelské role." # popisek tabulky zobrazený v textu</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="in">read.csv("tabs/table.csv") |&gt;   #  "table" nahradit za skutečný název tabulky</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="in">  knitr::kable()</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</div>
-</div>
-</div>
+<p>Pokud není uvedeno jinak, citujte dokumentaci jako:</p>
+<blockquote class="blockquote">
+<p>Pajdla, P., Novák, D., Švejcar, O., Pavloň, T. 2024: <em>Uživatelská dokumentace AMČR</em>. DOI: <a href="https://www.doi.org/10.5281/zenodo.8141634">10.5281/zenodo.8141634</a>. Stránka: <a href="https://amcr-help.aiscr.cz/">https://amcr-help.aiscr.cz/</a>. [cit. RRRR-MM-DD]</p>
+</blockquote>
+<p>Případně viz soubor <a href="CITATION.cff">CITATION.cff</a>. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku <a href="./digiarchiv/digiarchiv.html">nápovědy k Digitálnímu archivu AMČR</a> tedy citujte takto:</p>
+<blockquote class="blockquote">
+<p>Švejcar, O., Pavloň, T. 2024: Digitální archiv AMČR: Uživatelský manuál. In: Pajdla, P., Novák, D. et al.&nbsp;<em>Uživatelská dokumentace AMČR</em>. DOI: <a href="https://www.doi.org/10.5281/zenodo.8141634">10.5281/zenodo.8141634</a>. Stránka: <a href="https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html">https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html</a>. [cit. RRRR-MM-DD]</p>
+</blockquote>
+<p>Jak správně citovat <strong>data a dokumenty v AMČR</strong> se dočtete <a href="./digiarchiv/citace.html">zde</a>.</p>
+<!-- ::: {.callout-note  collapse="true"}
+
+# Jak upravovat
+
+Pro úpravy stačí kliknout na *Edit this page* v pravo pod navigací.
+Odkaz vede do [GitHub](https://github.com/ARUP-CAS/aiscr-webamcr-help/)
+repozitáře přímo na daný dokument, který lze rovnou upravovat (mám-li dostatečná práva).
+Při **commitu** se spustí akce, která celou stránku aktalizuje a nasadí
+(při větším množství úprav je tedy rozumné upravovat lokálně a **push** používat
+jen při ukončení práce, je to sice cizí výpočetní síla a nic nás nestojí, ale nemusí běžet zbytečně).
+
+Návod ke Quarto je zde: <https://quarto.org/>.
+
+Jednotlivé dokumenty jsou formátovány pomocí [markdownu](https://www.markdownguide.org/):
+
+- **\#** Nadpis 1. úrovně.
+- **\#\#** Nadpis 2. úrovně atd.
+- **\***Text**\*** *kurzívou*.
+- **\*\***Text**\*\*** **tučně**.
+- **\[**Text odkazu**\]\(**url**\)** vytvoří [link](https://www.aiscr.cz/).
+- Obrázek se vkládá obdobně: **\!\[**Popisek obrázku**\]\(**cesta fig/...**\)**.
+- Dvě mezery na konci řádku vytvoří nový odstavec, pro čitelnost je lepší vynechat celý řádek.
+
+## Tabulky
+
+Tabulky lze vkládat ručně jako text formátovaný v Markdownu, viz <https://quarto.org/docs/authoring/tables.html>.
+Druhou variantou je pak stavět tabulky automatizovaně z CSV souborů.
+CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými uvozovkami (")
+vkládejte do složky `./tabs/`.
+
+Tabulku lze pak vložit tímhle kódem:
+```vxafz
+#| label: tbl-role              # popisek pro křížové odkazy
+#| tbl-cap: "Uživatelské role." # popisek tabulky zobrazený v textu
+
+read.csv("tabs/table.csv") |>   #  "table" nahradit za skutečný název tabulky
+  knitr::kable()
+```
+
+::: -->
 
 
 

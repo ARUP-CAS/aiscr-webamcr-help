@@ -2,162 +2,166 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://amcr-help.aiscr.cz/zakladni-info/licence.html</loc>
-    <lastmod>2024-07-03T14:34:08.867Z</lastmod>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/zakladni-info/historie.html</loc>
-    <lastmod>2024-07-03T14:34:08.867Z</lastmod>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/api/api.html</loc>
-    <lastmod>2024-07-03T14:34:08.683Z</lastmod>
+    <lastmod>2024-07-04T09:36:17.857Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/zpravodaj/zpravodaj.html</loc>
-    <lastmod>2024-07-03T14:34:08.879Z</lastmod>
+    <lastmod>2024-07-04T09:36:18.053Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html</loc>
-    <lastmod>2024-07-03T14:34:08.695Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/architektura.html</loc>
-    <lastmod>2024-07-03T14:34:08.855Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/datovy-model.html</loc>
-    <lastmod>2024-07-03T14:34:08.855Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/o-systemu.html</loc>
-    <lastmod>2024-07-03T14:34:08.863Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/procesy.html</loc>
-    <lastmod>2024-07-03T14:34:08.863Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/akce/dj.html</loc>
-    <lastmod>2024-07-03T14:34:08.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/akce/adb.html</loc>
-    <lastmod>2024-07-03T14:34:08.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/dokumenty.html</loc>
-    <lastmod>2024-07-03T14:34:08.639Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/admin.html</loc>
-    <lastmod>2024-07-03T14:34:08.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/externi.html</loc>
-    <lastmod>2024-07-03T14:34:08.639Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/mapa.html</loc>
-    <lastmod>2024-07-03T14:34:08.683Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/amater.html</loc>
-    <lastmod>2024-07-03T14:34:08.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/amcr-pas.html</loc>
-    <lastmod>2024-07-03T14:34:08.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/foto.html</loc>
-    <lastmod>2024-07-03T14:34:08.639Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/lokality/plany.html</loc>
-    <lastmod>2024-07-03T14:34:08.683Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/lokality/lokality.html</loc>
-    <lastmod>2024-07-03T14:34:08.683Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/lokality/vektorizace.html</loc>
-    <lastmod>2024-07-03T14:34:08.683Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/amcr.html</loc>
-    <lastmod>2024-07-03T14:34:08.639Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/faq-spolupracovnici.html</loc>
-    <lastmod>2024-07-03T14:34:08.583Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/faq-archeologove.html</loc>
-    <lastmod>2024-07-03T14:34:08.583Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/archeolog.html</loc>
-    <lastmod>2024-07-03T14:34:08.575Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/oznameni.html</loc>
-    <lastmod>2024-07-03T14:34:08.683Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/projekty.html</loc>
-    <lastmod>2024-07-03T14:34:08.683Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/knihovna3d.html</loc>
-    <lastmod>2024-07-03T14:34:08.671Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/akce/drobne-akce.html</loc>
-    <lastmod>2024-07-03T14:34:08.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/akce/akce.html</loc>
-    <lastmod>2024-07-03T14:34:08.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/amcr/gui.html</loc>
-    <lastmod>2024-07-03T14:34:08.671Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/identifikatory.html</loc>
-    <lastmod>2024-07-03T14:34:08.863Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/role.html</loc>
-    <lastmod>2024-07-03T14:34:08.863Z</lastmod>
-  </url>
-  <url>
-    <loc>https://amcr-help.aiscr.cz/o-systemu/pojmy.html</loc>
-    <lastmod>2024-07-03T14:34:08.863Z</lastmod>
+    <lastmod>2024-07-04T09:36:17.869Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/o-systemu/heslare.html</loc>
-    <lastmod>2024-07-03T14:34:08.863Z</lastmod>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/pojmy.html</loc>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/role.html</loc>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/identifikatory.html</loc>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/gui.html</loc>
+    <lastmod>2024-07-04T09:36:17.845Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/akce/akce.html</loc>
+    <lastmod>2024-07-04T09:36:17.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/akce/drobne-akce.html</loc>
+    <lastmod>2024-07-04T09:36:17.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/knihovna3d.html</loc>
+    <lastmod>2024-07-04T09:36:17.845Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/projekty.html</loc>
+    <lastmod>2024-07-04T09:36:17.857Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/oznameni.html</loc>
+    <lastmod>2024-07-04T09:36:17.857Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/archeolog.html</loc>
+    <lastmod>2024-07-04T09:36:17.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/faq-archeologove.html</loc>
+    <lastmod>2024-07-04T09:36:17.757Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/faq-spolupracovnici.html</loc>
+    <lastmod>2024-07-04T09:36:17.757Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/amcr.html</loc>
+    <lastmod>2024-07-04T09:36:17.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/lokality/vektorizace.html</loc>
+    <lastmod>2024-07-04T09:36:17.857Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/lokality/lokality.html</loc>
+    <lastmod>2024-07-04T09:36:17.857Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/lokality/plany.html</loc>
+    <lastmod>2024-07-04T09:36:17.857Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/foto.html</loc>
+    <lastmod>2024-07-04T09:36:17.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/amcr-pas.html</loc>
+    <lastmod>2024-07-04T09:36:17.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/amcr-pas/amater.html</loc>
+    <lastmod>2024-07-04T09:36:17.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/mapa.html</loc>
+    <lastmod>2024-07-04T09:36:17.857Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/externi.html</loc>
+    <lastmod>2024-07-04T09:36:17.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/admin.html</loc>
+    <lastmod>2024-07-04T09:36:17.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/dokumenty.html</loc>
+    <lastmod>2024-07-04T09:36:17.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/akce/adb.html</loc>
+    <lastmod>2024-07-04T09:36:17.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/amcr/akce/dj.html</loc>
+    <lastmod>2024-07-04T09:36:17.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/procesy.html</loc>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/o-systemu.html</loc>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/datovy-model.html</loc>
+    <lastmod>2024-07-04T09:36:18.025Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/o-systemu/architektura.html</loc>
+    <lastmod>2024-07-04T09:36:18.025Z</lastmod>
+  </url>
+  <url>
+    <loc>https://amcr-help.aiscr.cz/digiarchiv/citace.html</loc>
+    <lastmod>2024-07-04T09:36:17.869Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/index.html</loc>
-    <lastmod>2024-07-03T14:34:08.855Z</lastmod>
+    <lastmod>2024-07-04T09:36:18.025Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/zpravodaj/zpravodaj_11.html</loc>
-    <lastmod>2024-07-03T14:34:08.879Z</lastmod>
+    <lastmod>2024-07-04T09:36:18.053Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/about.html</loc>
-    <lastmod>2024-07-03T14:34:08.571Z</lastmod>
+    <lastmod>2024-07-04T09:36:17.745Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/zakladni-info/ucty.html</loc>
-    <lastmod>2024-07-03T14:34:08.867Z</lastmod>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
   </url>
   <url>
     <loc>https://amcr-help.aiscr.cz/zakladni-info/zakladni-info.html</loc>
-    <lastmod>2024-07-03T14:34:08.867Z</lastmod>
+    <lastmod>2024-07-04T09:36:18.037Z</lastmod>
   </url>
 </urlset>
