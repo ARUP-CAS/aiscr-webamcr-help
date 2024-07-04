@@ -44,9 +44,9 @@ je páteřní součástí velké výzkumné infrastruktury [Archeologický infor
 - Stránky infrastruktury **AIS CR** s odkazy na další služby a součásti systému najdete zde: [**https://aiscr.cz/**](https://aiscr.cz/){.external}.
 
 
-## Jak citovat
+## Licence a jak citovat
 
-Veškerý obsah těchto stránek podléhá licenci CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/){.external} (Creative Commons Uveďte původ--Neužívejte komerčně 4.0). 
+Veškerý obsah těchto stránek podléhá licenci [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external} (Creative Commons Uveďte původ--Neužívejte komerčně 4.0). 
 
 Pokud není uvedeno jinak, citujte dokumentaci jako:
 
