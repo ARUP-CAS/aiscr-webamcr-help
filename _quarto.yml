@@ -87,8 +87,8 @@ website:
               href: amcr/oznameni.qmd
             - text: Správa projektů
               href: amcr/projekty.qmd
-            - section: Správa akcí
-              href: amcr/akce/akce.qmd
+            - text: Správa akcí
+              href: amcr/akce.qmd
             - section: AMČR-PAS
               href: amcr/amcr-pas/amcr-pas.qmd
               contents:
