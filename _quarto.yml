@@ -166,8 +166,9 @@ website:
       CC BY-NC 4.0
     center: |
       [![](/figs/logo-aiscr-hor.png){height=60}](https://aiscr.cz/)
-    right: |
-      Vytvořeno s &#9825; pomocí <a href="https://quarto.org/">Quarto</a>.
+    right: 
+      - text: Vytvořeno s &#9825; v Quarto.
+        href: https://www.quarto.org/
 
 format:
   html:
@@ -182,7 +183,6 @@ format:
     fontsize: 1.1em
     df-print: kable
     link-external-newwindow: true
-    # page-layout: full
     grid:
       sidebar-width: 250px
       body-width: 1000px
