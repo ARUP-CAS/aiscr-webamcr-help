@@ -53,6 +53,10 @@ code {
   color: $da;
 }
 
+.blockquote > p {
+  color: black !important;
+}
+
 /*-- navbar --*/
 .navbar-title {
   font-size: 84%;

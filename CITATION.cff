@@ -4,7 +4,7 @@
 cff-version: 1.2.0
 title: Uživatelská dokumentace AMČR
 message: >-
-  If you use this document, please cite it using the
+  If you use this software, please cite it using the
   metadata from this file.
 authors:
   - given-names: Petr
@@ -12,6 +12,17 @@ authors:
     email: pajdla@arub.cz
     affiliation: 'Institute of Archaeology, Czech Acad Sci, Brno'
     orcid: 'https://orcid.org/0000-0001-7050-9572'
+  - family-names: Novák
+    given-names: David
+    orcid: 'https://orcid.org/0000-0001-6592-6291'
+    affiliation: 'Institute of Archaeology, Czech Acad Sci, Prague'
+  - given-names: Ondřej
+    family-names: Švejcar
+    affiliation: 'Institute of Archaeology, Czech Acad Sci, Prague'
+  - given-names: Tomáš
+    family-names: Pavloň
+    orcid: 'https://orcid.org/0009-0007-4387-6976'
+    affiliation: 'Institute of Archaeology, Czech Acad Sci, Brno'
 identifiers:
   - type: doi
     value: 10.5281/zenodo.8141634

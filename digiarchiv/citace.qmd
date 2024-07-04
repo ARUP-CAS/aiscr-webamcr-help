@@ -1,0 +1,80 @@
+---
+title: Jak citovat data a dokumenty
+subtitle: Tutoriál ke správnému využívání dat AMČR
+date: 2024-07-04
+---
+
+::: callout-note
+
+Digitální archiv AMČR je dostupný na stránce [https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/){.external}.  
+Úvodní stránka AMČR API je k dispozici zde [https://api.aiscr.cz/](https://api.aiscr.cz/){.external}.
+
+:::
+
+Data dostupná v [Digitálním archivu AMČR](digiarchiv.qmd) jsou zveřejňována v souladu s politikou otevřeného přístupu k datům a se souhlasem držitelů autorských práv. 
+Využití dat podléhá (pokud není explicitně uvedeno jinak) licenci [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external} (Creative Commons Uveďte původ--Neužívejte komerčně 4.0), viz sekce [Licence](/zakladni-info/licence.qmd). 
+Data je proto možné využít pouze s uvedením autora a odkazu na text licence a to pouze pro nekomerční účely.
+
+Zdrojem podkladových map v aplikacích AMČR je [Geoportál ČÚZK](https://geoportal.cuzk.cz/){.external} a [OpenStreetMap](https://www.openstreetmap.org/){.external}. 
+Další využití těchto podkladů je možné pouze v souladu s podmínkami stanovovanými poskytovateli podkladů pro jednotlivé mapové služby.
+
+
+## Jak citovat záznamy a dokumenty AMČR
+
+Při citování obsahu AMČR je potřeba rozlišit mezi **samotnými dokumenty** a jejich obsahem (např. nálezovými zprávami, leteckými fotografiemi apod.) a **záznamy** o nich, tedy souvisejícími **metadaty**.
+
+### Citace záznamů
+
+Doporučenou formou **citace jednotlivého záznamu** v AMČR je:
+
+#### V textu	
+
+> (...) text (AMČR M-201400460A). Text...
+  
+#### V seznamu zdrojů
+
+V případě citace jednoho záznamu:
+
+> AMČR: *Záznam M-201400460A* [cit. RRRR-MM-DD]. Archeologická mapa České republiky. Dostupné z: [https://digiarchiv.aiscr.cz/id/M-201400460A](https://digiarchiv.aiscr.cz/id/M-201400460A)
+
+V Digitálním archivu AMČR při volbě tlačítka `Odkazy` a `Persistentí odkaz` (alterantivně při volbě `Vytisknout`) aplikace sama našeptává, jak záznam správně citovat:
+
+![](figs/cit-zaznam1.png)
+
+V případě citace zdrojů souhrnně:
+
+> AMČR: *Archeologická mapa České republiky.* [cit. RRRR-MM-DD]. Dostupné z: [https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/)
+
+
+### Citace obsahu dokumentů
+
+Doporučenou formou **citace obsahu dokumentu** (nikoliv záznamu o něm) je:
+
+#### V textu
+
+> (...) text (Svoboda 1894, 3). Text...
+
+#### V seznamu zdrojů
+
+Jako citace individuálního dokumentu:
+
+> Svoboda, B. 1894: *Dokument C-TX-198201171.* Archeologický ústav Praha. Dostupné z: [https://digiarchiv.aiscr.cz/id/C-TX-198201171](https://digiarchiv.aiscr.cz/id/C-TX-198201171)
+
+![](figs/cit-dok2.png){.column-margin}
+
+Stejně jako v předchozím případě (při volbě tlačítka `Odkazy` a možnosti `Persistentí odkaz` či `Vytisknout`) Digitální archiv AMČR sám napoví, jak dokument správně citovat. 
+Zároveň ve chvíli, kdy si dokument budete stahovat do počítače, zobrazí se vyskakovací okno s informací o licenci, které dokument podléhá a doporučené formě citace. 
+
+![](figs/cit-dok1.png)
+
+
+## Využívání dat AMČR
+
+Vzhledem k tomu, že Digitální archiv AMČR, ale i další nástroje patřící do infrastruktury [Archeologický informační systém ČR (AIS CR)](https://aiscr.cz/){.external}, poskytují data převážně v otevřeném režimu (Open Access), nemáme možnost sledovat využití těchto dat, ani to, jaké výstupy na jejich základě vznikají. 
+Jelikož jsme však tyto informace povinni ze zákona vykazovat, chtěli bychom Vás, uživatele služeb AIS CR, požádat o součinnost při vykazování vědeckých výstupů, při jejichž vzniku byla využita data z Digitálního archivu AMČR či dalších součástí AIS CR.
+
+Každý uživatel Digitálního archivu AMČR, jako nedílné součásti AIS CR, má proto povinnost:
+
+- v konkrétních výstupech vždy obvyklým způsobem uvést, že k jejich tvorbě byla využita infrastruktura AIS CR s odkazem na využitá data či konkrétní nástroj;
+- pokud zadává informace o výstupech do [Rejstříku informací o výsledcích -- RIV](https://www.isvavai.cz/riv){.external} (např. na pracovištích AV ČR prostřednictvím databáze ASEP) vybrat návaznost výsledku na infrastrukturu AIS CR v poli VVI (Velké výzkumné infrastruktury) z nabízeného číselníku projektů podpory velkých výzkumných infrastruktur;
+- dát nám laskavě vědět prostřednictvím tohoto formuláře ([https://www.aiscr.cz/vystupy](https://www.aiscr.cz/vystupy){.external}), že výstup byl publikován.

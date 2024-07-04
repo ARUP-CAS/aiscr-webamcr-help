@@ -2,6 +2,14 @@
 title: Úvod
 subtitle: Vítejte na stránkách uživatelské dokumentace AMČR!
 doi: 10.5281/zenodo.8141634
+author: 
+  - name: Petr Pajdla
+    orcid: 0000-0001-7050-9572
+  - name: David Novák
+    orcid: 0000-0001-6592-6291
+  - name: Ondřej Švejcar 
+  - name: Tomáš Pavloň
+    orcid: 0009-0007-4387-6976
 toc: true
 format-links: false
 listing:
@@ -9,16 +17,6 @@ listing:
     contents: soucasti.yml
     template: tiles.ejs
 ---
-
-<!-- ::: {.callout-important}
-
-## Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!
-
-Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR.
-
-Původní platnou nápovědu a dokumentaci AMČR najdete na stránkách [https://amcr-info.aiscr.cz/help](https://amcr-info.aiscr.cz/help).
-
-::: -->
 
 ::: {#soucasti .column-body}
 
@@ -46,14 +44,21 @@ je páteřní součástí velké výzkumné infrastruktury [Archeologický infor
 - Stránky infrastruktury **AIS CR** s odkazy na další služby a součásti systému najdete zde: [**https://aiscr.cz/**](https://aiscr.cz/){.external}.
 
 
-
 ## Jak citovat
 
-Citujte jako (...)
+Pokud není uvedeno jinak, citujte dokumentaci jako:
 
+> Pajdla, P., Novák, D., Švejcar, O., Pavloň, T. 2024: *Uživatelská dokumentace AMČR*. DOI: [10.5281/zenodo.8141634](https://www.doi.org/10.5281/zenodo.8141634). Stránka: [https://amcr-help.aiscr.cz/](https://amcr-help.aiscr.cz/). [cit. RRRR-MM-DD]
 
+Případně viz soubor [CITATION.cff](CITATION.cff). 
+Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací.
+Například stránku [nápovědy k Digitálnímu archivu AMČR](/digiarchiv/digiarchiv.qmd) tedy citujte takto:
 
-::: {.callout-note  collapse="true"}
+> Švejcar, O., Pavloň, T. 2024: Digitální archiv AMČR: Uživatelský manuál. In: Pajdla, P., Novák, D. et al. *Uživatelská dokumentace AMČR*. DOI: [10.5281/zenodo.8141634](https://www.doi.org/10.5281/zenodo.8141634). Stránka: [https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html](https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html). [cit. RRRR-MM-DD]
+
+Jak správně citovat **data a dokumenty v AMČR** se dočtete [zde](/digiarchiv/citace.qmd).      
+
+<!-- ::: {.callout-note  collapse="true"}
 
 # Jak upravovat
 
@@ -92,4 +97,4 @@ read.csv("tabs/table.csv") |>   #  "table" nahradit za skutečný název tabulky
   knitr::kable()
 ```
 
-:::
+::: -->
