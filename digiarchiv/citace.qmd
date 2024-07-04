@@ -14,6 +14,7 @@ Digitální archiv AMČR je dostupný na stránce [https://digiarchiv.aiscr.cz/]
 Data dostupná v [Digitálním archivu AMČR](digiarchiv.qmd) jsou zveřejňována v souladu s politikou otevřeného přístupu k datům a se souhlasem držitelů autorských práv. 
 Využití dat podléhá (pokud není explicitně uvedeno jinak) licenci [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external} (Creative Commons Uveďte původ--Neužívejte komerčně 4.0), viz sekce [Licence](/zakladni-info/licence.qmd). 
 Data je proto možné využít pouze s uvedením autora a odkazu na text licence a to pouze pro nekomerční účely.
+Toto ustanovení neomezuje využití AMČR na základě jiných smluvních ujednání či na základě zákonného titulu.
 
 Zdrojem podkladových map v aplikacích AMČR je [Geoportál ČÚZK](https://geoportal.cuzk.cz/){.external} a [OpenStreetMap](https://www.openstreetmap.org/){.external}. 
 Další využití těchto podkladů je možné pouze v souladu s podmínkami stanovovanými poskytovateli podkladů pro jednotlivé mapové služby.

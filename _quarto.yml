@@ -157,18 +157,17 @@ website:
         [![](/figs/logo-aiscr-hor.png)](/about.qmd)
       contents: 
         - about.qmd
-        - zakladni-info/licence.qmd
 
   page-footer:
     background: light
     left: |
       [Kontakty](/about.qmd) | 
-      [Licence](/zakladni-info/licence.qmd) | 
-      [<u>Cookies</u>]{#open_preferences_center}
+      [<u>Cookies</u>]{#open_preferences_center} |
+      CC BY-NC 4.0
     center: |
       [![](/figs/logo-aiscr-hor.png){height=60}](https://aiscr.cz/)
     right: |
-      Vytvořeno pomocí <a href="https://quarto.org/">Quarto</a>.
+      Vytvořeno s &#9825; pomocí <a href="https://quarto.org/">Quarto</a>.
 
 format:
   html:

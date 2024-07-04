@@ -46,6 +46,8 @@ je páteřní součástí velké výzkumné infrastruktury [Archeologický infor
 
 ## Jak citovat
 
+Veškerý obsah těchto stránek podléhá licenci CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/){.external} (Creative Commons Uveďte původ--Neužívejte komerčně 4.0). 
+
 Pokud není uvedeno jinak, citujte dokumentaci jako:
 
 > Pajdla, P., Novák, D., Švejcar, O., Pavloň, T. 2024: *Uživatelská dokumentace AMČR*. DOI: [10.5281/zenodo.8141634](https://www.doi.org/10.5281/zenodo.8141634). Stránka: [https://amcr-help.aiscr.cz/](https://amcr-help.aiscr.cz/). [cit. RRRR-MM-DD]
