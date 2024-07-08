@@ -44,7 +44,7 @@ Před samotným vyplněním oznámení se ujistětě, že znáte následující 
 #### Údaje o oznamovateli
 
 První část formuláře slouží k vyplnění údajů o oznamovateli. 
-Oznamovatelem nemusí být nutně osoba, která daný stavební či jiný záměr bude vykonávat, ale v případě kolonky **Pověřená osoba oznamovatele** by mělo by jít o někoho, s kým v případě potřeby oprávněná archeologická organizace dohode podmínky provedení archeologického výzkumu.
+Oznamovatelem nemusí být nutně osoba, která daný stavební či jiný záměr bude vykonávat, ale v případě kolonky **Pověřená osoba oznamovatele** by mělo by jít o někoho, s kým v případě potřeby oprávněná archeologická organizace dohodne podmínky provedení archeologického výzkumu.
 
 ![](figs/ozn-oznamovatel.png)
 

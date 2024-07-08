@@ -15,7 +15,7 @@ Manuál je platný pro verzi aplikace [v2.1.1](https://github.com/ARUP-CAS/aiscr
 
 Úvodní stránka [Digitálního archivu AMČR](https://digiarchiv.aiscr.cz/){.external} slouží jako rozcestník, kde uživatel nalezne základní informace o webu, sekci s aktualitami, a také ovládací prvky pro zobrazení dat a pro přihlášení registrovaného uživatele.
 
-![](figs/da-main.png){#fig-da-main}
+![](figs/da-main.png)
 
 V horní části stránky se nachází panel ovládacích prvků s tlačítky:
 
@@ -35,6 +35,14 @@ Při registraci je nutné vyplnit jméno a příjmení uživatele, kontaktní in
 Na následujícím odkazu Vám poskytujeme [informace o zpracování osobních údajů registrovaných uživatelů](http://www.archeologickamapa.cz/downloads/AIS_CR_Informace_os_udaje_uzivatele.pdf){.external}.
 
 ### Přístupnost záznamů
+
+::: {.callout-important}
+
+## Upozornění
+
+Digitální archiv AMČR obsahuje výhradně již **archivované záznamy a dokumenty** (viz [procesní stavy](/o-systemu/procesy.qmd)), tj. záznamy, které byly uzavřeny a prošly kontrolou pověřených [archivářů](/o-systemu/role.qmd) AMČR z Archeologických ústavů AV ČR v Praze a Brně.
+
+:::
 
 Každý záznam v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external} je označen v poli **přístupnost** odpovídající hodnotou podle toho, která skupina uživatelů může k datům přistupovat. Uživatelé vystupují v různých **uživatelských rolích**, podle přidělené úrovně oprávnění. Všichni uživatelé mají přístup k datům své úrovně a ke všem datům úrovní nižších. Neregistrovaní uživatelé vystupují s uživatelskou rolí **Anonym (A)** a mají přístup pouze k datům, která nejsou nijak chráněna. Všichni registrovaní uživatelé, kteří nespadají do kategorií s vyšším oprávněním, vystupují v uživatelské roli **Badatel (B)**. Archeologové, kteří jsou autorizovanými členy organizací oprávněných k archeologickému výzkumu, vystupují v uživatelské roli **Archeolog (C)**. V uživatelské roli **Archivář (D)** vystupují obvykle pracovníci Archeologických ústavů AV ČR.
 
@@ -73,7 +81,7 @@ Dokumenty se dále dělí na pět podtypů.
 Pro každý typ záznamu je uveden jejich počet v Digitálním archivu. 
 Kliknutím na položku přejdete na stránku s výsledky. 
 
-![](figs/da-tiles.png){#fig-da-tiles}
+![](figs/da-tiles.png)
 
 
 ## Stránka s výsledky
@@ -83,7 +91,8 @@ Filtry lze aplikovat na všechny typy záznamů průřezově, pokud jsou data pr
 Zvolený typ záznamu určuje, jaké výsledky se zobrazují. 
 I zde lze použít pole pro fulltextové vyhledávání či se přepnout do mapového okna (viz výše). 
 
-![](figs/da-results.png){#fig-da-results}
+![](figs/da-results.png)
+
 Na stránce s výsledky se po levé straně nachází **facety s filtry** pro přesnou specifikaci hledaných záznamů. 
 V horní části panelu jsou zobrazeny **typy záznamů** a v závorce uvedený počet výsledků podle zadaného dotazu (bez aplikace filtru se zobrazuje celkový počet záznamů daného typu). 
 Mezi typy záznamů lze libovolně přepínat a výsledky se zobrazí v okně výsledků v pravé části stránky.
@@ -94,11 +103,11 @@ Vybrané záznamy lze exportovat jako seznam pomocí tlačítka {{< fa download 
 Takto lze exportovat maximálně 1000 záznamů, které se zobrazí jako tabulka na samostatné stránce. 
 Záznamy je možné snadno pomocí nástrojů kopírovat/vložit přenést do tabulkového editoru (např. MS Excel, LibreOffice Spreadsheets apod.).
 
-![](figs/da-dl.png){#fig-da-dl}
+![](figs/da-dl.png)
 
 Počet zobrazených záznamů na stránce lze nastavit podle předvolených možností v rozsahu 5 až 100, lze přepínat mezi stránkami či se přepnout na konkrétní číslo stránky. Výsledky lze řadit podle zvolených parametrů. U každého ze záznamů je pak v pravém horním rohu uvedeno datum jeho poslední změny. 
 
-![](figs/da-arrange.png){#fig-da-arrange}
+![](figs/da-arrange.png)
 
  U jednotlivých výsledků lze vybrat z následujících voleb:
 
@@ -117,7 +126,7 @@ U každého ze zobrazených výsledků lze **Zobrazit detail {{< fa chevron-down
 V detailu záznamu nalezneme podrobnější popis a další doplňující údaje (metadata) ve strukturované podobě. 
 Pro přehlednost detailu záznamu lze jeho jednotlivé podčásti rozbalovat a skrývat vždy pomocí tučných nadpisů těchto podčástí.
 
-![](figs/da-detail.png){#fig-da-detail}
+![](figs/da-detail.png)
 
 U detailu projektu jsou u polí vázaných na řízené slovníky (hesláře) symboly filtrace **{{< fa filter >}}**. 
 Po kliknutí na takto označené pole se konkrétní zvolené heslo použije jako aktivní filtr (k použití filtrů viz níže).
@@ -128,7 +137,7 @@ Zároveň je zde možné zobrazit záznam ve formátu `XML` přes proklik do OAI
 
 Detail obsahuje též informace o **souvisejících záznamech**, jelikož jednotlivé typy záznamů jsou mezi sebou vzájemně provázány. Určitý dokument se tedy kupříkladu může vázat ke konkrétní lokalitě či akci. Tyto vazby fungují oběma směry a je tedy možné naopak u konkrétní akce zjistit, které dokumenty se k ní vážou. Přes identifikátor souvisejících záznamů se lze na tyto záznamy prokliknout a zjistit o nich podrobnosti. 
 
-![](figs/da-souvis.png){#fig-da-souvis}
+![](figs/da-souvis.png)
 
 U vyhledaných [dokumentů](https://digiarchiv.aiscr.cz/results?entity=dokument){.external}, [samostatných nálezů](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external} a v [Knihovně 3D](https://digiarchiv.aiscr.cz/results?entity=knihovna_3d){.external} lze **zobrazit náhled souvisejících souborů** (kliknutím na náhled v okně výsledků) a soubory si prohlédnout. 
 Každý záznam může mít i více než jeden související soubor, mezi nimiž jde přepínat v záhlaví prohlížečky. 
@@ -139,7 +148,7 @@ Přes ni je ale možné se na dokument prokliknout a následně jej stáhnout v 
 Možnost náhledu a stahování dokumentů závisí na uživatelské roli (viz výše). 
 Při stahování a dalším využití dat dbejte na dodržení licenčních podmínek a při citaci využívejte doporučený postup.
 
-![](figs/da-nz.png){#fig-da-nz}
+![](figs/da-nz.png)
 
 
 ### Persistentí stránka záznamu
@@ -152,7 +161,7 @@ Na tuto stránku se lze dostat vždy po kliknutí na symbol odkazu **{{< fa link
 Persistentní odkaz se nachází v ovládacích prvcích pod každým výsledkem či jeho popisem a u souvisejících záznamů po rozbalení nabídky **Zobrazit detail {{< fa chevron-down >}}**. 
 Na stránce persistentního odkazu je kromě samotného záznamu uvedeno znění persistentního odkazu a doporučená forma citace záznamu. Ze stránky persistentního odkazu je možné otevřít mapové okno a zobrazit polohu záznamu v mapě. 
 
-![](figs/da-pid.png){#fig-da-pid}
+![](figs/da-pid.png)
 
 
 ## Filtrace
@@ -163,7 +172,7 @@ Na stránce persistentního odkazu je kromě samotného záznamu uvedeno znění
 Pole **Filtrovat podle pole bez hesláře** slouží pro vyhledávání v polích, pro které nejsou nastaveny **řízené slovníky** (např. datum, poznámky, číselné údaje apod.). 
 Po zvolení pole, podle kterého chceme vyhledávat, je třeba vyplnit hledanou hodnotu či rozsah hodnot (např. hledané rozpětí data výzkumu). Pro aplikaci zadaného filtru slouží tlačítko **{{< fa filter >}} Aplikovat filtr**.
 
-![](figs/da-filtr1.png){#fig-da-filtr1 .column-margin width=280}
+![](figs/da-filtr1.png){.column-margin width=280}
 
 ### Filtrace podle polí s hesláři (facety)
 
@@ -175,24 +184,24 @@ Při vyhledávání není třeba zadat přesné znění hledaného hesla, ale v�
 Pro každou z možností je v závorce uveden počet odpovídajících záznamů za současného nastavení. 
 Hesla je možné řadit pomocí tlačítka **{{< fa sort-amount-down >}} Řadit dle** podle počtu záznamů, textu hesla či jeho pořadí v hesláři (např. u hesláře období).
 
-![](figs/da-filtr2.png){#fig-da-filtr2 .column-margin width=280}
+![](figs/da-filtr2.png){.column-margin width=280}
 
 Aktivní filtry vidíme v horní části panelu nad typy záznamů, kde lze jednotlivé filtry pomocí **{{< fa times >}}** křížku u dílčího filtru vypnout, případně zrušit všechny filtry pomocí křížku vpravo nahoře. Použité filtry lze libovolně kombinovat. Filtry lze aplikovat buď najednou výběrem z více filtrů, nebo lze další filtry, které se aplikují na již existující výsledky, přidávat. Stejně tak lze jednotlivé filtry i odebírat a výsledky se tomu dynamicky přizpůsobí.
 
-![](figs/da-filtr3.png){#fig-da-filtr3 .column-margin width=280}
+![](figs/da-filtr3.png){.column-margin width=280}
 
 Při přidávání filtrů a jejich parametrů systém automaticky přiřazuje mezi jednotlivá hesla v rámci téhož filtru logický operátor **OR**, tedy že výsledek **MŮŽE** obsahovat jeden z uvedených parametrů. 
 Pokud chceme použít jiný druh logického operátoru, je třeba kliknout na ikonu v záhlaví řádku. 
 Rozbalí se nám nabídka dalších možností, ve které lze zvolit též varianty, kdy záznam **MUSÍ** obsahovat daný parametr a kdy záznam **NESMÍ** obsahovat daný parametr (operátor **NOT**). 
 Mezi jednotlivými skupinami hesel (dílčími facetami; např. areál, katastr…) je vždy operátor **AND** (a zároveň).
 
-![](figs/da-filtr4.png){#fig-da-filtr4 .column-margin width=200}
+![](figs/da-filtr4.png){.column-margin width=200}
 
 Použití filtrů je možné nejen z pásu s jednotlivými facetami, ale je možné aplikovat filtry také volbou ve výpisu výsledků. 
 U hodnot použitelných pro filtraci je ikona pro aplikaci filtru **{{< fa filter >}}**. 
 Vybraný parametr se následně přidá mezi aktivní filtry s podmínkou **MUSÍ** obsahovat.
 
-![](figs/da-filtr5.png){#fig-da-filtr5}
+![](figs/da-filtr5.png)
 
 
 ## Zobrazení v mapě
@@ -209,42 +218,42 @@ Pro pohyb v mapě slouží myš a pro změnu měřítka tlačítka **{{< fa plus
 Při změně měřítka mapy se mění i počet zahrnutých výsledků, které jsou zobrazeny v panelu po levé straně – výsledky vždy odpovídají aktuálnímu náhledu mapy. 
 Mapu lze přiblížit též stiskem **SHIFT + levého tlačítka myši + tažením**; vyberete tak konkrétní oblast mapy pro přiblížení. 
 
-![](figs/da-map1.png){#fig-da-map1 .column-page-inset-right}
+![](figs/da-map1.png){.column-page-inset-right}
 
-V základním zobrazení mapového okna je distribuce a hustota všech dat na zobrazeném území vyjádřena teplotní mapou (barevný gradient). Výsledky v aktuálním náhledu jsou zobrazeny v panelu po levé straně (při posunu mapy či změně měřítka se jejich počet změní na aktuální náhled, který zahrnuje i prostor pod panelem s výsledky). 
+V základním zobrazení mapového okna je distribuce a hustota všech dat na zobrazeném území vyjádřena heat mapou (barevný gradient). Výsledky v aktuálním náhledu jsou zobrazeny v panelu po levé straně (při posunu mapy či změně měřítka se jejich počet změní na aktuální náhled, který zahrnuje i prostor pod panelem s výsledky). 
 
-![](figs/da-map2.png){#fig-da-map2 .column-page-inset-right}
+![](figs/da-map2.png){.column-page-inset-right}
 
-Po přiblížení se k mapě na úroveň, kdy se zobrazuje méně než 10 000, ale více než 500 záznamů, již nevidíte teplotní mapu, ale záznamy se shluknou do skupin (clusterů) podle jejich prostorového rozmístění a jejich počtu (barevně a velikostně odlišené shluky).
+Po přiblížení se k mapě na úroveň, kdy se zobrazuje méně než 10 000, ale více než 500 záznamů, již nevidíte heat mapu, ale záznamy se shluknou do skupin (clusterů) podle jejich prostorového rozmístění a jejich počtu (barevně a velikostně odlišené shluky).
 
-![](figs/da-map3.png){#fig-da-map3 .column-page-inset-right}
+![](figs/da-map3.png){.column-page-inset-right}
 
 Po dalším přiblížení nebo po kliknutí na vybraný shluk se shluk „rozpadne“ do jednotlivých záznamů. V tomto zobrazení již můžete vidět plné geometrie jednotlivých [PIAN](../../o-systemu/pojmy.qmd#/pian) (tedy body, linie a polygony). 
 Symboly **{{< fa map-marker-alt >}}** reprezentují jejich definiční body. 
 
-![](figs/da-map4.png){#fig-da-map4 .column-page-inset-right}
+![](figs/da-map4.png){.column-page-inset-right}
 
 Po kliknutí na záznam v seznamu výsledků se zobrazí podrobnosti ve stejném formátu, jako v běžném zobrazení záznamu na stránce s výsledky, a lokalizace záznamu v mapě se zvýrazní žlutě. 
 Se záznamem je možné pracovat obdobně jako na stránce s výsledky (tedy např. zobrazit detail, náhled dokumentu, získat persistentní odkaz atd.). 
 
-![](figs/da-map5.png){#fig-da-map5 .column-page-inset-right}
+![](figs/da-map5.png){.column-page-inset-right}
 
 Po kliknutí na symbol záznamu v mapě **{{< fa map-marker-alt >}}** se tento záznam (obvykle jednotka [PIAN](../../o-systemu/pojmy.qmd#/pian) použije jako parametr filtru a v okně výsledků se zobrazí pouze ty záznamy, které jsou s daným záznamem provázané (připojené záznamy lze vidět rovněž po najetí kurzorem na symbol záznamu jako tooltip). V některých případech, pokud je na prvek připojený jediný záznam, se zobrazí rovnou detail souvisejícího záznamu (např. pro samostatné nálezy a 3D modely).
 
-![](figs/da-map6.png){#fig-da-map6 .column-page-inset-right}
+![](figs/da-map6.png){.column-page-inset-right}
 
 Mimo použití filtrů lze vyhledávat také pomocí prostorového výběru, který lze aktivovat tlačítkem **{{< fa vector-square >}}**.
 
 Vybraná oblast se zobrazí jako aktivní filtr (souřadnice rohů zvoleného území) a v mapovém okně i na stránce s výsledky se zobrazí pouze ty záznamy, které odpovídají danému prostorovému výběru. 
 Po zavření mapového okna a návratu k zobrazení výsledků zůstávají všechny použité filtry nadále aktivní a s výsledky můžeme dále pracovat v tomto zobrazení. 
 
-![](figs/da-map7.png){#fig-da-map7 .column-page-inset-right}
+![](figs/da-map7.png){.column-page-inset-right}
 
 Po kliknutí na ikonu **{{< fa layer-group >}}** v pravém horním rohu mapového okna je možné změnit mapový podklad. 
 Na výběr je [ČÚZK - Základní mapa ČR](https://ags.cuzk.cz/ArcGIS/rest/services/zmwm/MapServer){.external}, [ČÚZK - Ortofotomapa](https://ags.cuzk.cz/ArcGIS/rest/services/ortofoto_wm/MapServer){.external} a [ČÚZK - Stínovaný reliéf 5G](https://ags.cuzk.cz/arcgis2/rest/services/dmr5g/ImageServer){.external} a dále [OpenStreetMap.](https://www.openstreetmap.org/){.external}.
 K těmto podkladovým mapám je dále možné jako poloprůhledný překryv doplnit mapu [ČÚZK - Katastrální území](http://services.cuzk.cz/wms/wms.asp?){.external} a [ČÚZK - Katastrální mapu](http://services.cuzk.cz/wms/wms.asp?){.external} (dostupné podle zvoleného měřítka - mapu je nutno dostatečně přiblížit).
 
-![](figs/da-map8.png){#fig-da-map8 .column-margin width=200}
+![](figs/da-map8.png){.column-margin width=200}
 
 Vybrané záznamy je možné pomocí tlačítka **{{< fa download >}} Exportovat seznam** exportovat a to ve formátech `GML`, `WKT` a `GeoJSON`, se kterými je možné dále pracovat např. v prostředí GIS (prostorové údaje v těchto formátech jsou uloženy v jednom z polí exportní tabulky; samostatně jsou vždy uváděny též souřadnice centroidu ve WGS-84). 
 Maximální počet exportovaných záznamů je omezen na 1000 řádků. 

@@ -16,7 +16,7 @@ Jednotlivé části AMČR jsou barevně odlišeny a daná barevnost je pak dodr�
 
 ![](figs/gui-init.png)
 
-Vlevo v horní liště aplikace jsou informace o přihlášeném uživateli, odpočet, za jak dlouho dojde k automatickému odhlášení, pod tlačítkem `Uživatel` vstup do správy uživatelského účtu, možnost odhlášení z aplikace a přepínání mezi jazykovými verzemi (anglická jazyková verze zatím není k dispozici).
+Vpravo v horní liště aplikace jsou informace o přihlášeném uživateli, odpočet, za jak dlouho dojde k automatickému odhlášení, pod tlačítkem `Uživatel` vstup do správy uživatelského účtu, možnost odhlášení z aplikace a přepínání mezi jazykovými verzemi (anglická jazyková verze zatím není k dispozici).
 
 ![](figs/gui-user.png)
 
@@ -42,7 +42,7 @@ V případě Projektů pak karty obsahují další přednastavené filtrace, kte
 
 ### Výběr a filtrace záznamů
 
-Karta `Vyber` obsahuje tabulku všech záznamů ve zvolené kategorii.
+Karta `Vybrat` obsahuje tabulku všech záznamů ve zvolené kategorii.
 Pomocí tlačítka `Filtr` je možné v záznamech pomocí široké škály kritérií filtrovat.
 Některá z polí filtrace obsahují rozbalovací nabídky s položkami heslářů, ve kterých lze zpravidla vybrat více než jednu možnost.
 Tabulku se seznamem záznamů lze pak pomocí tlačítka `Export výběru` v horní liště vpravo exportovat do souborů formátů *.csv*, *.json* a *.xlsx*. 

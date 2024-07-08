@@ -72,8 +72,9 @@ Uvnitř *pinu* pak mohou být zobrazeny různé *ikony* pro jednotlivé základn
 
 ## Lokalizace bodem
 
-V případě lokalizace Projektů, samostatných nálezů (AMČR-PAS) a dalších míst, kde lze v mapě upravovat či vkládat lokalizace pouze pomocí bodů je práce s ní přímočará.
+V případě lokalizace projektů, samostatných nálezů (AMČR-PAS) a dalších míst, kde lze v mapě upravovat či vkládat lokalizace pouze pomocí bodů je práce s ní přímočará.
 Levým kliknutním myši je při patřičném přiblížení bod vyznačen na mapě, případně přemístěn na nové umístění.
+V případě, že při kliknutí není zoom dostatečný, dojde k přiblížení mapy až do té míry, kdy je kliknutím možné bod umístit.
 ![](figs/map-proj.png)
 
 ## Lokalizace pomocí PIAN

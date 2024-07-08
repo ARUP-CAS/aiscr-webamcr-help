@@ -20,6 +20,15 @@ Při registraci je potřeba vyplnit následující údaje:
 - **Organizace** -- z rozbalovací nabídky lze vybrat organizaci uživatele, uživatelé mimo archeologické organizace zpravidla vyberou možnost `[amatérský spolupracovník]` či `[neuvedeno]`;
 - **Heslo**.
 
+::: {.callout-important}
+
+## Upozornění
+
+Pro registraci do AMČR je potřeba uvést **skutečné jméno a příjmení**.
+Zkratky, přezdívky apod. nejsou přípustné.
+
+:::
+
 Po vyplnění a odeslání registračního formuláře pak dojde k ověření uvedené emailové adresy a následné aktivaci účtu správci systému z ARÚP/ARÚB.
 Po aktivaci účtu správci systému přijde na zadanou emailovovou adresu email s potvrzením.
 Následně je možné se přihlásit.

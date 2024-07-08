@@ -132,7 +132,7 @@ Základní údaje o lokalitě:
   Obsah by se měl řídit metodikou definovanou správcem databáze.
   Pro odlišení stavu zpracování obvykle užíváme alfanumerické kódy.
 - `Pozn. zprac.` Umožňuje vložit poznámku ve vztahu ke zpracování záznamu.
-  Je vhodné poznámky co nejvíce standardizovat tak, aby byla náročnost jejich dalšího vyhodnocení byla co nejnižší.
+  Je vhodné poznámky co nejvíce standardizovat tak, aby náročnost jejich dalšího vyhodnocení byla co nejnižší.
   Není vhodné vkládat zbytné informace zřetelné z jiných částí záznamu.
   Údaj nebude součástí dat v AMČR (neplést s polem `Poznámka`).
 - `ID` Pracovní ID záznamu. Ve formuláři nelze editovat.
@@ -166,8 +166,7 @@ Základní údaje o lokalitě:
 
 #### Komponenty a nálezy
 
-V tabulce komponent uvádíme výčet všech chronologických a funkčních komponent přímo souvisejí-
-cích s lokalitou.
+V tabulce komponent uvádíme výčet všech chronologických a funkčních komponent přímo souvisejících s lokalitou.
 Vyplněna musí být vždy pole:
 
 - *Období* -- nejistotu lze vyjádřit užitím obecnějšího hesla, nebo uvedením otazníku do pole *jistota*; přesnější dataci lze uvést do pole `presna_datace`.
@@ -186,7 +185,7 @@ V budoucnu může dojít k rozšíření datového modelu AMČR tak, aby někter
 
 - `Kategorie` a `Jistota` Bližší **specifikace konkrétní kategorie lokality tak, jak je převážně charakterizována v literatuře, a jistota pravdivosti takové interpretace**.
   Obsažený heslář kategorie je specifický pro různé druhy lokalit podle toho, jaké kategorie považujeme za přípustné a které lokality již do evidence nepatří.
-  Je třeba rozlišovat mezi *pseudolokalitami* (případ, kdy je snos kamenů uváděný v literatuře jako mohylník) a chybně interpretovanou skutečnou lokalitou (případ, kdy lokality uváděná jako mohylník je ve skutečnosti zaniklá vesnice). V prvním případě bude v kategorii uveden *„mohylník“* s hodnotou *„pseudolokalita“* v poli jistota.
+  Je třeba rozlišovat mezi *pseudolokalitami* (případ, kdy je snos kamenů uváděný v literatuře jako mohylník) a chybně interpretovanou skutečnou lokalitou (případ, kdy lokalita uváděná jako mohylník je ve skutečnosti zaniklá vesnice). V prvním případě bude v kategorii uveden *„mohylník“* s hodnotou *„pseudolokalita“* v poli jistota.
   Ve druhém případě je třeba přiřadit záznamu kategorii *„jiný druh (vyřadit)“* a v poli jistota bude hodnota *„jisté“*.
   Kombinace polí kategorie a jistota by měla v důsledku postihnout důvěryhodnost interpretace lokality na základě syntézy aktuálních poznatků.
 - `Zachovalost` Aktuální stav dochování terénních reliktů.
@@ -248,7 +247,7 @@ Při evidenci lokalit v GIS dodržujeme následující pravidla:
   - Přirozený tvar reliéfu, hranice zástavby a průběh komunikací.
   - Parcelní členění a lomové body parcel.
 
-- Při vymezování lokalit zpravidla užíváme nejnovější publikované plány, snímky LLS, katastrální mapy a ortofoto mapy; tyto zdroje navzájem ověřujeme (zejména publikované starší plány mohou být velice nepřesné).
+- Při vymezování lokalit zpravidla užíváme nejnovější publikované plány, snímky LLS, katastrální mapy a ortofotomapy; tyto zdroje navzájem ověřujeme (zejména publikované starší plány mohou být velice nepřesné).
 - Polygonální vymezení by měla být dostatečně podrobná, bez nepřirozených zlomů, ostrých hran apod.
   Pokud vymezujeme více různých lokalit v sousedství, je vhodné uvažovat nad vymezením lokalit ve vzájemné souvislosti.
 - Prostorová vymezení „nemovitých“ lokalit (N) se mohou překrývat, prostorová vymezení „leteckých“ lokalit (L) se nikdy nepřekrývají.
