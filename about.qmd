@@ -24,7 +24,7 @@ repo-actions: false
 ---
 
 Archeologická mapa České republiky ([AMČR](https://amcr-info.aiscr.cz/){.external}) je součástí Archeologického informačního systému České republiky ([AIS CR](https://aiscr.cz/){.external}).  
-Infrastruktura je společně provozována Archeologickými ústavy Akademie věd České republiky v [Praze](https://arup.cas.cz){.external} a [Brně](https://arub.cz/){.external}.
+Infrastruktura je společně provozována Archeologickými ústavy Akademie věd České republiky v [Praze](https://www.arup.cas.cz){.external} a [Brně](https://www.arub.cz/){.external}.
 
 
 ## Kontakty
