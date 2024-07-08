@@ -86,10 +86,10 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -403,7 +403,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </div>
 <p>Webové rozhraní aplikace AMČR do vysoké míry kopíruje vzhled původního desktopového klienta. Na úvodní stránce po přihlášení se zobrazí <em>karty</em> pro jednotlivé části, které jsou přihlášenému uživateli dostupné dle jeho <a href="../o-systemu/role.html">uživatelské role</a>. Jednotlivé části AMČR jsou barevně odlišeny a daná barevnost je pak dodržena i při vstupu do konkrétní části, na první pohled je tedy zřejmé, kde se uživatel nachází.</p>
 <p><img src="figs/gui-init.png" class="img-fluid"></p>
-<p>Vlevo v horní liště aplikace jsou informace o přihlášeném uživateli, odpočet, za jak dlouho dojde k automatickému odhlášení, pod tlačítkem <code>Uživatel</code> vstup do správy uživatelského účtu, možnost odhlášení z aplikace a přepínání mezi jazykovými verzemi (anglická jazyková verze zatím není k dispozici).</p>
+<p>Vpravo v horní liště aplikace jsou informace o přihlášeném uživateli, odpočet, za jak dlouho dojde k automatickému odhlášení, pod tlačítkem <code>Uživatel</code> vstup do správy uživatelského účtu, možnost odhlášení z aplikace a přepínání mezi jazykovými verzemi (anglická jazyková verze zatím není k dispozici).</p>
 <p><img src="figs/gui-user.png" class="img-fluid"></p>
 <section id="správa-uživatelského-účtu" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="správa-uživatelského-účtu">Správa uživatelského účtu</h3>
@@ -423,7 +423,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="výběr-a-filtrace-záznamů" class="level3">
 <h3 class="anchored" data-anchor-id="výběr-a-filtrace-záznamů">Výběr a filtrace záznamů</h3>
-<p>Karta <code>Vyber</code> obsahuje tabulku všech záznamů ve zvolené kategorii. Pomocí tlačítka <code>Filtr</code> je možné v záznamech pomocí široké škály kritérií filtrovat. Některá z polí filtrace obsahují rozbalovací nabídky s položkami heslářů, ve kterých lze zpravidla vybrat více než jednu možnost. Tabulku se seznamem záznamů lze pak pomocí tlačítka <code>Export výběru</code> v horní liště vpravo exportovat do souborů formátů <em>.csv</em>, <em>.json</em> a <em>.xlsx</em>. Po kliknutí na identifikátor konkrétního záznamu v tabulce přejde aplikace na daný záznam. Výhodou práce v prohlížeči je možnost otevřít takových záznamů více na nových kartách (případně v nových oknech) prohlížeče a operativně se pak vrátit k seznamu s již vyfiltrovanými záznamy.</p>
+<p>Karta <code>Vybrat</code> obsahuje tabulku všech záznamů ve zvolené kategorii. Pomocí tlačítka <code>Filtr</code> je možné v záznamech pomocí široké škály kritérií filtrovat. Některá z polí filtrace obsahují rozbalovací nabídky s položkami heslářů, ve kterých lze zpravidla vybrat více než jednu možnost. Tabulku se seznamem záznamů lze pak pomocí tlačítka <code>Export výběru</code> v horní liště vpravo exportovat do souborů formátů <em>.csv</em>, <em>.json</em> a <em>.xlsx</em>. Po kliknutí na identifikátor konkrétního záznamu v tabulce přejde aplikace na daný záznam. Výhodou práce v prohlížeči je možnost otevřít takových záznamů více na nových kartách (případně v nových oknech) prohlížeče a operativně se pak vrátit k seznamu s již vyfiltrovanými záznamy.</p>
 <p><img src="figs/gui-filtr.png" class="img-fluid"></p>
 </section>
 <section id="detail-konkrétního-záznamu" class="level3">

@@ -121,10 +121,10 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -500,7 +500,7 @@ CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými
 vkládejte do složky `./tabs/`.
 
 Tabulku lze pak vložit tímhle kódem:
-```gloxy
+```vhwfb
 #| label: tbl-role              # popisek pro křížové odkazy
 #| tbl-cap: "Uživatelské role." # popisek tabulky zobrazený v textu
 

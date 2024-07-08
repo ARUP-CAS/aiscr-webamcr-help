@@ -87,10 +87,10 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -305,15 +305,7 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <section id="homepage" class="level2">
 <h2 class="anchored" data-anchor-id="homepage">Homepage</h2>
 <p>Úvodní stránka <a href="https://digiarchiv.aiscr.cz/" class="external">Digitálního archivu AMČR</a> slouží jako rozcestník, kde uživatel nalezne základní informace o webu, sekci s aktualitami, a také ovládací prvky pro zobrazení dat a pro přihlášení registrovaného uživatele.</p>
-<div id="fig-da-main" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-main-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-main.png" id="fig-da-main" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-main-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p><img src="figs/da-main.png" class="img-fluid"></p>
 <p>V horní části stránky se nachází panel ovládacích prvků s tlačítky:</p>
 <ul>
 <li><strong><i class="fa-solid fa-home" aria-label="home"></i> Home</strong> – návrat na hlavní stránku;</li>
@@ -330,6 +322,19 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </section>
 <section id="přístupnost-záznamů" class="level3">
 <h3 class="anchored" data-anchor-id="přístupnost-záznamů">Přístupnost záznamů</h3>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Upozornění
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Digitální archiv AMČR obsahuje výhradně již <strong>archivované záznamy a dokumenty</strong> (viz <a href="../o-systemu/procesy.html">procesní stavy</a>), tj. záznamy, které byly uzavřeny a prošly kontrolou pověřených <a href="../o-systemu/role.html">archivářů</a> AMČR z Archeologických ústavů AV ČR v Praze a Brně.</p>
+</div>
+</div>
 <p>Každý záznam v <a href="https://digiarchiv.aiscr.cz/" class="external">Digitálním archivu AMČR</a> je označen v poli <strong>přístupnost</strong> odpovídající hodnotou podle toho, která skupina uživatelů může k datům přistupovat. Uživatelé vystupují v různých <strong>uživatelských rolích</strong>, podle přidělené úrovně oprávnění. Všichni uživatelé mají přístup k datům své úrovně a ke všem datům úrovní nižších. Neregistrovaní uživatelé vystupují s uživatelskou rolí <strong>Anonym (A)</strong> a mají přístup pouze k datům, která nejsou nijak chráněna. Všichni registrovaní uživatelé, kteří nespadají do kategorií s vyšším oprávněním, vystupují v uživatelské roli <strong>Badatel (B)</strong>. Archeologové, kteří jsou autorizovanými členy organizací oprávněných k archeologickému výzkumu, vystupují v uživatelské roli <strong>Archeolog (C)</strong>. V uživatelské roli <strong>Archivář (D)</strong> vystupují obvykle pracovníci Archeologických ústavů AV ČR.</p>
 <p>Přístupnost jednotlivých typů záznamů ovlivňuje informace, které jsou viditelné pro uživatele s rozdílnými uživatelskými rolemi. Pro ty záznamy, které mají přístupnost vyšší, než kterou daný uživatel disponuje, se zobrazí jen některé informace. Oprávnění na úrovni archeolog (C) dovoluje prohlížet záznamy vlastní instituce i v případech, kdy ostatním archeologům nejsou přístupné.</p>
 <p>Omezená přístupnost pro jednotlivé typy záznamů znamená:</p>
@@ -352,41 +357,18 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <section id="typy-záznamů" class="level3">
 <h3 class="anchored" data-anchor-id="typy-záznamů">Typy záznamů</h3>
 <p>Záznamy v <a href="https://digiarchiv.aiscr.cz" class="external">Digitálním archivu AMČR</a> jsou rozděleny do šesti základních typů. Dokumenty se dále dělí na pět podtypů. Pro každý typ záznamu je uveden jejich počet v Digitálním archivu. Kliknutím na položku přejdete na stránku s výsledky.</p>
-<div id="fig-da-tiles" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-tiles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-tiles.png" id="fig-da-tiles" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-tiles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p><img src="figs/da-tiles.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="stránka-s-výsledky" class="level2">
 <h2 class="anchored" data-anchor-id="stránka-s-výsledky">Stránka s výsledky</h2>
 <p>Po zvolení typu záznamu nebo použití vyhledávání na úvodní stránce se uživatel dostane na stránku s výsledky, kde je možné záznamy zobrazit a filtrovat. Filtry lze aplikovat na všechny typy záznamů průřezově, pokud jsou data pro zvolené záznamy dostupná. Zvolený typ záznamu určuje, jaké výsledky se zobrazují. I zde lze použít pole pro fulltextové vyhledávání či se přepnout do mapového okna (viz výše).</p>
-<p><img src="figs/da-results.png" id="fig-da-results" class="img-fluid"> Na stránce s výsledky se po levé straně nachází <strong>facety s filtry</strong> pro přesnou specifikaci hledaných záznamů. V horní části panelu jsou zobrazeny <strong>typy záznamů</strong> a v závorce uvedený počet výsledků podle zadaného dotazu (bez aplikace filtru se zobrazuje celkový počet záznamů daného typu). Mezi typy záznamů lze libovolně přepínat a výsledky se zobrazí v okně výsledků v pravé části stránky.</p>
+<p><img src="figs/da-results.png" class="img-fluid"></p>
+<p>Na stránce s výsledky se po levé straně nachází <strong>facety s filtry</strong> pro přesnou specifikaci hledaných záznamů. V horní části panelu jsou zobrazeny <strong>typy záznamů</strong> a v závorce uvedený počet výsledků podle zadaného dotazu (bez aplikace filtru se zobrazuje celkový počet záznamů daného typu). Mezi typy záznamů lze libovolně přepínat a výsledky se zobrazí v okně výsledků v pravé části stránky.</p>
 <p>V záhlaví části s výsledky jsou umístěna ovládací tlačítka pro volbu způsobu jejich zobrazení. Výsledky lze zobrazit buď v <strong><i class="fa-solid fa-desktop" aria-label="desktop"></i> Plném zobrazení</strong> (titulek, náhled, popis), jako <strong><i class="fa-solid fa-th" aria-label="th"></i> Galerii</strong> (pouze náhledy), či v <strong><i class="fa-solid fa-align-justify" aria-label="align-justify"></i> Řádkovém zobrazení</strong> (pouze titulek). Vybrané záznamy lze exportovat jako seznam pomocí tlačítka <i class="fa-solid fa-download" aria-label="download"></i> <strong>Export</strong>. Takto lze exportovat maximálně 1000 záznamů, které se zobrazí jako tabulka na samostatné stránce. Záznamy je možné snadno pomocí nástrojů kopírovat/vložit přenést do tabulkového editoru (např. MS Excel, LibreOffice Spreadsheets apod.).</p>
-<div id="fig-da-dl" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-dl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-dl.png" id="fig-da-dl" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-dl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p><img src="figs/da-dl.png" class="img-fluid"></p>
 <p>Počet zobrazených záznamů na stránce lze nastavit podle předvolených možností v rozsahu 5 až 100, lze přepínat mezi stránkami či se přepnout na konkrétní číslo stránky. Výsledky lze řadit podle zvolených parametrů. U každého ze záznamů je pak v pravém horním rohu uvedeno datum jeho poslední změny.</p>
-<div id="fig-da-arrange" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-arrange-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-arrange.png" id="fig-da-arrange" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-arrange-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p><img src="figs/da-arrange.png" class="img-fluid"></p>
 <p>U jednotlivých výsledků lze vybrat z následujících voleb:</p>
 <ul>
 <li><strong><i class="fa-solid fa-map" aria-label="map"></i> Zobrazit na mapě</strong> – otevře mapové okno, pokud je to pro záznam relevantní.</li>
@@ -400,50 +382,18 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <section id="detail-záznamu" class="level3">
 <h3 class="anchored" data-anchor-id="detail-záznamu">Detail záznamu</h3>
 <p>U každého ze zobrazených výsledků lze <strong>Zobrazit detail <i class="fa-solid fa-chevron-down" aria-label="chevron-down"></i></strong> záznamu, který obsahuje podrobný popis výsledku a odkazy na související záznamy. V detailu záznamu nalezneme podrobnější popis a další doplňující údaje (metadata) ve strukturované podobě. Pro přehlednost detailu záznamu lze jeho jednotlivé podčásti rozbalovat a skrývat vždy pomocí tučných nadpisů těchto podčástí.</p>
-<div id="fig-da-detail" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-detail-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-detail.png" id="fig-da-detail" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-detail-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p><img src="figs/da-detail.png" class="img-fluid"></p>
 <p>U detailu projektu jsou u polí vázaných na řízené slovníky (hesláře) symboly filtrace <strong><i class="fa-solid fa-filter" aria-label="filter"></i></strong>. Po kliknutí na takto označené pole se konkrétní zvolené heslo použije jako aktivní filtr (k použití filtrů viz níže).</p>
 <p>Každý identifikátor v detailu záznamu je opatřen ikonou odkazu <strong><i class="fa-solid fa-link" aria-label="link"></i></strong>, která umožňuje zobrazit samostatnou stránku persistentního odkazu se souvisejícími daty. Tato stránka má svůj trvalý odkaz a každý takovýto záznam je proto možné snadno přímo citovat. Zároveň je zde možné zobrazit záznam ve formátu <code>XML</code> přes proklik do OAI-PMH API (samotné rozhraní APi naleznete <a href="https://api.aiscr.cz/" class="external">zde</a> a návod <a href="../api/api.html">zde</a>).</p>
 <p>Detail obsahuje též informace o <strong>souvisejících záznamech</strong>, jelikož jednotlivé typy záznamů jsou mezi sebou vzájemně provázány. Určitý dokument se tedy kupříkladu může vázat ke konkrétní lokalitě či akci. Tyto vazby fungují oběma směry a je tedy možné naopak u konkrétní akce zjistit, které dokumenty se k ní vážou. Přes identifikátor souvisejících záznamů se lze na tyto záznamy prokliknout a zjistit o nich podrobnosti.</p>
-<div id="fig-da-souvis" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-souvis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-souvis.png" id="fig-da-souvis" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-souvis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p><img src="figs/da-souvis.png" class="img-fluid"></p>
 <p>U vyhledaných <a href="https://digiarchiv.aiscr.cz/results?entity=dokument" class="external">dokumentů</a>, <a href="https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez" class="external">samostatných nálezů</a> a v <a href="https://digiarchiv.aiscr.cz/results?entity=knihovna_3d" class="external">Knihovně 3D</a> lze <strong>zobrazit náhled souvisejících souborů</strong> (kliknutím na náhled v okně výsledků) a soubory si prohlédnout. Každý záznam může mít i více než jeden související soubor, mezi nimiž jde přepínat v záhlaví prohlížečky. Soubory lze pomocí příslušného tlačítka stahovat <i class="fa-solid fa-download" aria-label="download"></i>. Generování náhledů souborů probíhá zpětně po jejich publikaci v Digitálním archivu. Pokud u souboru ještě není vygenerován jeho náhled, zobrazí se místo něj ikona souboru bez náhledu <i class="fa-solid fa-file" aria-label="file"></i>. Přes ni je ale možné se na dokument prokliknout a následně jej stáhnout v plné verzi. Možnost náhledu a stahování dokumentů závisí na uživatelské roli (viz výše). Při stahování a dalším využití dat dbejte na dodržení licenčních podmínek a při citaci využívejte doporučený postup.</p>
-<div id="fig-da-nz" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-nz-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-nz.png" id="fig-da-nz" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-nz-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p><img src="figs/da-nz.png" class="img-fluid"></p>
 </section>
 <section id="persistentí-stránka-záznamu" class="level3">
 <h3 class="anchored" data-anchor-id="persistentí-stránka-záznamu">Persistentí stránka záznamu</h3>
 <p>Pro každý záznam existuje jedinečný a stálý (persistentní) identifikátor. Ten společně se základní částí URL adresy (<code>https://digiarchiv.aiscr.cz/id/...</code>) tvoří persistentní odkaz. Pokud si uživatel uloží tento persistentní odkaz, může jej kdykoliv použít pro přístup ke konkrétnímu záznamu. Persistentní odkaz vede ke stránce, na které je vždy možné najít stejný záznam. Na tuto stránku se lze dostat vždy po kliknutí na symbol odkazu <strong><i class="fa-solid fa-link" aria-label="link"></i></strong> kdekoliv v rámci aplikace. Persistentní odkaz se nachází v ovládacích prvcích pod každým výsledkem či jeho popisem a u souvisejících záznamů po rozbalení nabídky <strong>Zobrazit detail <i class="fa-solid fa-chevron-down" aria-label="chevron-down"></i></strong>. Na stránce persistentního odkazu je kromě samotného záznamu uvedeno znění persistentního odkazu a doporučená forma citace záznamu. Ze stránky persistentního odkazu je možné otevřít mapové okno a zobrazit polohu záznamu v mapě.</p>
-<div id="fig-da-pid" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-pid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-pid.png" id="fig-da-pid" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-pid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p><img src="figs/da-pid.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="filtrace" class="level2 page-columns page-full">
@@ -451,59 +401,19 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <section id="filtrace-podle-polí-bez-heslářů" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="filtrace-podle-polí-bez-heslářů">Filtrace podle polí bez heslářů</h3>
 <p>Pole <strong>Filtrovat podle pole bez hesláře</strong> slouží pro vyhledávání v polích, pro které nejsou nastaveny <strong>řízené slovníky</strong> (např. datum, poznámky, číselné údaje apod.). Po zvolení pole, podle kterého chceme vyhledávat, je třeba vyplnit hledanou hodnotu či rozsah hodnot (např. hledané rozpětí data výzkumu). Pro aplikaci zadaného filtru slouží tlačítko <strong><i class="fa-solid fa-filter" aria-label="filter"></i> Aplikovat filtr</strong>.</p>
-
-<div class="no-row-height column-margin column-container"><div id="fig-da-filtr1" class="quarto-float quarto-figure quarto-figure-center anchored" width="280">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-filtr1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-filtr1.png" id="fig-da-filtr1" class="img-fluid figure-img" width="280">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-filtr1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div></div></section>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><img src="figs/da-filtr1.png" class="img-fluid" width="280"></div></div>
+</section>
 <section id="filtrace-podle-polí-s-hesláři-facety" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="filtrace-podle-polí-s-hesláři-facety">Filtrace podle polí s hesláři (facety)</h3>
 <p>V případě polí, které jsou vázány na řízené slovníky (hesláře) vybíráme hodnoty ve filtrech z nabízených možností. Ve filtrech je možné vyhledávat přímo konkrétní heslo v konkrétním hesláři, nebo je možné použít pole <strong>Vyhledej pojem v heslářových filtrech <i class="fa-solid fa-search" aria-label="search"></i></strong>.</p>
 <p>V tomto poli lze zadat hledaný výraz; následně se zobrazí pouze filtry obsahující hesla, které danému výrazu odpovídají. Při vyhledávání není třeba zadat přesné znění hledaného hesla, ale výsledkem budou všechna slova obsahující zadaný textový řetězec (tedy např. začátek, kořen či konec slova). Pro každou z možností je v závorce uveden počet odpovídajících záznamů za současného nastavení. Hesla je možné řadit pomocí tlačítka <strong><i class="fa-solid fa-sort-amount-down" aria-label="sort-amount-down"></i> Řadit dle</strong> podle počtu záznamů, textu hesla či jeho pořadí v hesláři (např. u hesláře období).</p>
-
-<div class="no-row-height column-margin column-container"><div id="fig-da-filtr2" class="quarto-float quarto-figure quarto-figure-center anchored" width="280">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-filtr2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-filtr2.png" id="fig-da-filtr2" class="img-fluid figure-img" width="280">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-filtr2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div></div><p>Aktivní filtry vidíme v horní části panelu nad typy záznamů, kde lze jednotlivé filtry pomocí <strong><i class="fa-solid fa-times" aria-label="times"></i></strong> křížku u dílčího filtru vypnout, případně zrušit všechny filtry pomocí křížku vpravo nahoře. Použité filtry lze libovolně kombinovat. Filtry lze aplikovat buď najednou výběrem z více filtrů, nebo lze další filtry, které se aplikují na již existující výsledky, přidávat. Stejně tak lze jednotlivé filtry i odebírat a výsledky se tomu dynamicky přizpůsobí.</p>
-
-<div class="no-row-height column-margin column-container"><div id="fig-da-filtr3" class="quarto-float quarto-figure quarto-figure-center anchored" width="280">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-filtr3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-filtr3.png" id="fig-da-filtr3" class="img-fluid figure-img" width="280">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-filtr3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div></div><p>Při přidávání filtrů a jejich parametrů systém automaticky přiřazuje mezi jednotlivá hesla v rámci téhož filtru logický operátor <strong>OR</strong>, tedy že výsledek <strong>MŮŽE</strong> obsahovat jeden z uvedených parametrů. Pokud chceme použít jiný druh logického operátoru, je třeba kliknout na ikonu v záhlaví řádku. Rozbalí se nám nabídka dalších možností, ve které lze zvolit též varianty, kdy záznam <strong>MUSÍ</strong> obsahovat daný parametr a kdy záznam <strong>NESMÍ</strong> obsahovat daný parametr (operátor <strong>NOT</strong>). Mezi jednotlivými skupinami hesel (dílčími facetami; např. areál, katastr…) je vždy operátor <strong>AND</strong> (a zároveň).</p>
-
-<div class="no-row-height column-margin column-container"><div id="fig-da-filtr4" class="quarto-float quarto-figure quarto-figure-center anchored" width="200">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-filtr4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-filtr4.png" id="fig-da-filtr4" class="img-fluid figure-img" width="200">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-filtr4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div></div><p>Použití filtrů je možné nejen z pásu s jednotlivými facetami, ale je možné aplikovat filtry také volbou ve výpisu výsledků. U hodnot použitelných pro filtraci je ikona pro aplikaci filtru <strong><i class="fa-solid fa-filter" aria-label="filter"></i></strong>. Vybraný parametr se následně přidá mezi aktivní filtry s podmínkou <strong>MUSÍ</strong> obsahovat.</p>
-<div id="fig-da-filtr5" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-filtr5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-filtr5.png" id="fig-da-filtr5" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-filtr5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><img src="figs/da-filtr2.png" class="img-fluid" width="280"></div></div>
+<p>Aktivní filtry vidíme v horní části panelu nad typy záznamů, kde lze jednotlivé filtry pomocí <strong><i class="fa-solid fa-times" aria-label="times"></i></strong> křížku u dílčího filtru vypnout, případně zrušit všechny filtry pomocí křížku vpravo nahoře. Použité filtry lze libovolně kombinovat. Filtry lze aplikovat buď najednou výběrem z více filtrů, nebo lze další filtry, které se aplikují na již existující výsledky, přidávat. Stejně tak lze jednotlivé filtry i odebírat a výsledky se tomu dynamicky přizpůsobí.</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><img src="figs/da-filtr3.png" class="img-fluid" width="280"></div></div>
+<p>Při přidávání filtrů a jejich parametrů systém automaticky přiřazuje mezi jednotlivá hesla v rámci téhož filtru logický operátor <strong>OR</strong>, tedy že výsledek <strong>MŮŽE</strong> obsahovat jeden z uvedených parametrů. Pokud chceme použít jiný druh logického operátoru, je třeba kliknout na ikonu v záhlaví řádku. Rozbalí se nám nabídka dalších možností, ve které lze zvolit též varianty, kdy záznam <strong>MUSÍ</strong> obsahovat daný parametr a kdy záznam <strong>NESMÍ</strong> obsahovat daný parametr (operátor <strong>NOT</strong>). Mezi jednotlivými skupinami hesel (dílčími facetami; např. areál, katastr…) je vždy operátor <strong>AND</strong> (a zároveň).</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><img src="figs/da-filtr4.png" class="img-fluid" width="200"></div></div>
+<p>Použití filtrů je možné nejen z pásu s jednotlivými facetami, ale je možné aplikovat filtry také volbou ve výpisu výsledků. U hodnot použitelných pro filtraci je ikona pro aplikaci filtru <strong><i class="fa-solid fa-filter" aria-label="filter"></i></strong>. Vybraný parametr se následně přidá mezi aktivní filtry s podmínkou <strong>MUSÍ</strong> obsahovat.</p>
+<p><img src="figs/da-filtr5.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="zobrazení-v-mapě" class="level2 page-columns page-full">
@@ -511,87 +421,23 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <p>Do mapového okna se lze dostat buď pomocí tlačítka <strong><i class="fa-solid fa-map" aria-label="map"></i> Otevřít mapu</strong> na horním panelu nebo pomocí tlačítka <strong><i class="fa-solid fa-map" aria-label="map"></i> Zobrazit na mapě</strong> u konkrétního záznamu.</p>
 <p>V mapovém okně máme po levé straně pomocí tlačítka <strong><i class="fa-solid fa-angle-right" aria-label="angle-right"></i>| Filtrace/Výsledky</strong> možnost vysunout panel, kde lze zobrazit výsledky a pracovat s filtry. Použití filtrů je totožné jako v zobrazení stránky s výsledky. Panel je možné pro větší přehlednost skrýt <strong>|<i class="fa-solid fa-angle-left" aria-label="angle-left"></i></strong>. Rovněž zde platí možnost použít fulltextové vyhledávání.</p>
 <p>Většinu zobrazení zabírá mapové okno se zobrazenými výsledky. Pro pohyb v mapě slouží myš a pro změnu měřítka tlačítka <strong><i class="fa-solid fa-plus" aria-label="plus"></i> <i class="fa-solid fa-slash" aria-label="slash"></i> <i class="fa-solid fa-minus" aria-label="minus"></i></strong> či kolečko myši. Při změně měřítka mapy se mění i počet zahrnutých výsledků, které jsou zobrazeny v panelu po levé straně – výsledky vždy odpovídají aktuálnímu náhledu mapy. Mapu lze přiblížit též stiskem <strong>SHIFT + levého tlačítka myši + tažením</strong>; vyberete tak konkrétní oblast mapy pro přiblížení.</p>
-<div id="fig-da-map1" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="quarto-float quarto-float-fig figure page-columns page-full">
-<div aria-describedby="fig-da-map1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="figs/da-map1.png" id="fig-da-map1" class="img-fluid figure-img column-page-inset-right">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-map1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
-<p>V základním zobrazení mapového okna je distribuce a hustota všech dat na zobrazeném území vyjádřena teplotní mapou (barevný gradient). Výsledky v aktuálním náhledu jsou zobrazeny v panelu po levé straně (při posunu mapy či změně měřítka se jejich počet změní na aktuální náhled, který zahrnuje i prostor pod panelem s výsledky).</p>
-<div id="fig-da-map2" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="quarto-float quarto-float-fig figure page-columns page-full">
-<div aria-describedby="fig-da-map2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="figs/da-map2.png" id="fig-da-map2" class="img-fluid figure-img column-page-inset-right">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-map2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
-<p>Po přiblížení se k mapě na úroveň, kdy se zobrazuje méně než 10 000, ale více než 500 záznamů, již nevidíte teplotní mapu, ale záznamy se shluknou do skupin (clusterů) podle jejich prostorového rozmístění a jejich počtu (barevně a velikostně odlišené shluky).</p>
-<div id="fig-da-map3" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="quarto-float quarto-float-fig figure page-columns page-full">
-<div aria-describedby="fig-da-map3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="figs/da-map3.png" id="fig-da-map3" class="img-fluid figure-img column-page-inset-right">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-map3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p class="page-columns page-full"><img src="figs/da-map1.png" class="column-page-inset-right img-fluid"></p>
+<p>V základním zobrazení mapového okna je distribuce a hustota všech dat na zobrazeném území vyjádřena heat mapou (barevný gradient). Výsledky v aktuálním náhledu jsou zobrazeny v panelu po levé straně (při posunu mapy či změně měřítka se jejich počet změní na aktuální náhled, který zahrnuje i prostor pod panelem s výsledky).</p>
+<p class="page-columns page-full"><img src="figs/da-map2.png" class="column-page-inset-right img-fluid"></p>
+<p>Po přiblížení se k mapě na úroveň, kdy se zobrazuje méně než 10 000, ale více než 500 záznamů, již nevidíte heat mapu, ale záznamy se shluknou do skupin (clusterů) podle jejich prostorového rozmístění a jejich počtu (barevně a velikostně odlišené shluky).</p>
+<p class="page-columns page-full"><img src="figs/da-map3.png" class="column-page-inset-right img-fluid"></p>
 <p>Po dalším přiblížení nebo po kliknutí na vybraný shluk se shluk „rozpadne“ do jednotlivých záznamů. V tomto zobrazení již můžete vidět plné geometrie jednotlivých <a href="../../o-systemu/pojmy.qmd#/pian">PIAN</a> (tedy body, linie a polygony). Symboly <strong><i class="fa-solid fa-map-marker-alt" aria-label="map-marker-alt"></i></strong> reprezentují jejich definiční body.</p>
-<div id="fig-da-map4" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="quarto-float quarto-float-fig figure page-columns page-full">
-<div aria-describedby="fig-da-map4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="figs/da-map4.png" id="fig-da-map4" class="img-fluid figure-img column-page-inset-right">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-map4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p class="page-columns page-full"><img src="figs/da-map4.png" class="column-page-inset-right img-fluid"></p>
 <p>Po kliknutí na záznam v seznamu výsledků se zobrazí podrobnosti ve stejném formátu, jako v běžném zobrazení záznamu na stránce s výsledky, a lokalizace záznamu v mapě se zvýrazní žlutě. Se záznamem je možné pracovat obdobně jako na stránce s výsledky (tedy např. zobrazit detail, náhled dokumentu, získat persistentní odkaz atd.).</p>
-<div id="fig-da-map5" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="quarto-float quarto-float-fig figure page-columns page-full">
-<div aria-describedby="fig-da-map5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="figs/da-map5.png" id="fig-da-map5" class="img-fluid figure-img column-page-inset-right">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-map5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p class="page-columns page-full"><img src="figs/da-map5.png" class="column-page-inset-right img-fluid"></p>
 <p>Po kliknutí na symbol záznamu v mapě <strong><i class="fa-solid fa-map-marker-alt" aria-label="map-marker-alt"></i></strong> se tento záznam (obvykle jednotka <a href="../../o-systemu/pojmy.qmd#/pian">PIAN</a> použije jako parametr filtru a v okně výsledků se zobrazí pouze ty záznamy, které jsou s daným záznamem provázané (připojené záznamy lze vidět rovněž po najetí kurzorem na symbol záznamu jako tooltip). V některých případech, pokud je na prvek připojený jediný záznam, se zobrazí rovnou detail souvisejícího záznamu (např. pro samostatné nálezy a 3D modely).</p>
-<div id="fig-da-map6" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="quarto-float quarto-float-fig figure page-columns page-full">
-<div aria-describedby="fig-da-map6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="figs/da-map6.png" id="fig-da-map6" class="img-fluid figure-img column-page-inset-right">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-map6-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p class="page-columns page-full"><img src="figs/da-map6.png" class="column-page-inset-right img-fluid"></p>
 <p>Mimo použití filtrů lze vyhledávat také pomocí prostorového výběru, který lze aktivovat tlačítkem <strong><i class="fa-solid fa-vector-square" aria-label="vector-square"></i></strong>.</p>
 <p>Vybraná oblast se zobrazí jako aktivní filtr (souřadnice rohů zvoleného území) a v mapovém okně i na stránce s výsledky se zobrazí pouze ty záznamy, které odpovídají danému prostorovému výběru. Po zavření mapového okna a návratu k zobrazení výsledků zůstávají všechny použité filtry nadále aktivní a s výsledky můžeme dále pracovat v tomto zobrazení.</p>
-<div id="fig-da-map7" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="quarto-float quarto-float-fig figure page-columns page-full">
-<div aria-describedby="fig-da-map7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="figs/da-map7.png" id="fig-da-map7" class="img-fluid figure-img column-page-inset-right">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-map7-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div>
+<p class="page-columns page-full"><img src="figs/da-map7.png" class="column-page-inset-right img-fluid"></p>
 <p>Po kliknutí na ikonu <strong><i class="fa-solid fa-layer-group" aria-label="layer-group"></i></strong> v pravém horním rohu mapového okna je možné změnit mapový podklad. Na výběr je <a href="https://ags.cuzk.cz/ArcGIS/rest/services/zmwm/MapServer" class="external">ČÚZK - Základní mapa ČR</a>, <a href="https://ags.cuzk.cz/ArcGIS/rest/services/ortofoto_wm/MapServer" class="external">ČÚZK - Ortofotomapa</a> a <a href="https://ags.cuzk.cz/arcgis2/rest/services/dmr5g/ImageServer" class="external">ČÚZK - Stínovaný reliéf 5G</a> a dále <a href="https://www.openstreetmap.org/" class="external">OpenStreetMap.</a>. K těmto podkladovým mapám je dále možné jako poloprůhledný překryv doplnit mapu <a href="http://services.cuzk.cz/wms/wms.asp?" class="external">ČÚZK - Katastrální území</a> a <a href="http://services.cuzk.cz/wms/wms.asp?" class="external">ČÚZK - Katastrální mapu</a> (dostupné podle zvoleného měřítka - mapu je nutno dostatečně přiblížit).</p>
-
-<div class="no-row-height column-margin column-container"><div id="fig-da-map8" class="quarto-float quarto-figure quarto-figure-center anchored" width="200">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-da-map8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/da-map8.png" id="fig-da-map8" class="img-fluid figure-img" width="200">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-da-map8-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-</figcaption>
-</figure>
-</div></div><p>Vybrané záznamy je možné pomocí tlačítka <strong><i class="fa-solid fa-download" aria-label="download"></i> Exportovat seznam</strong> exportovat a to ve formátech <code>GML</code>, <code>WKT</code> a <code>GeoJSON</code>, se kterými je možné dále pracovat např. v prostředí GIS (prostorové údaje v těchto formátech jsou uloženy v jednom z polí exportní tabulky; samostatně jsou vždy uváděny též souřadnice centroidu ve WGS-84). Maximální počet exportovaných záznamů je omezen na 1000 řádků.</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><img src="figs/da-map8.png" class="img-fluid" width="200"></div></div>
+<p>Vybrané záznamy je možné pomocí tlačítka <strong><i class="fa-solid fa-download" aria-label="download"></i> Exportovat seznam</strong> exportovat a to ve formátech <code>GML</code>, <code>WKT</code> a <code>GeoJSON</code>, se kterými je možné dále pracovat např. v prostředí GIS (prostorové údaje v těchto formátech jsou uloženy v jednom z polí exportní tabulky; samostatně jsou vždy uváděny též souřadnice centroidu ve WGS-84). Maximální počet exportovaných záznamů je omezen na 1000 řádků.</p>
 
 
 </section>

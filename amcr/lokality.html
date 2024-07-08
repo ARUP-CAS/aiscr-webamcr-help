@@ -109,10 +109,10 @@ gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -600,7 +600,7 @@ Obr.&nbsp;2: Formulář pro popis lokality
 <p>Základní údaje o lokalitě:</p>
 <ul>
 <li><p><code>Stav zprac.</code> Slouží k zachycení aktuálního stavu zpracování záznamu. Obsah by se měl řídit metodikou definovanou správcem databáze. Pro odlišení stavu zpracování obvykle užíváme alfanumerické kódy.</p></li>
-<li><p><code>Pozn. zprac.</code> Umožňuje vložit poznámku ve vztahu ke zpracování záznamu. Je vhodné poznámky co nejvíce standardizovat tak, aby byla náročnost jejich dalšího vyhodnocení byla co nejnižší. Není vhodné vkládat zbytné informace zřetelné z jiných částí záznamu. Údaj nebude součástí dat v AMČR (neplést s polem <code>Poznámka</code>).</p></li>
+<li><p><code>Pozn. zprac.</code> Umožňuje vložit poznámku ve vztahu ke zpracování záznamu. Je vhodné poznámky co nejvíce standardizovat tak, aby náročnost jejich dalšího vyhodnocení byla co nejnižší. Není vhodné vkládat zbytné informace zřetelné z jiných částí záznamu. Údaj nebude součástí dat v AMČR (neplést s polem <code>Poznámka</code>).</p></li>
 <li><p><code>ID</code> Pracovní ID záznamu. Ve formuláři nelze editovat.</p></li>
 <li><p><code>ident-cely</code> Skutečné ID lokality v AMČR, pokud již bylo přiděleno.</p></li>
 <li><p><code>AMCR</code> Pomocná informace o importu dat do AMČR.</p></li>
@@ -622,7 +622,7 @@ Obr.&nbsp;2: Formulář pro popis lokality
 </ul>
 <section id="komponenty-a-nálezy" class="level4">
 <h4 class="anchored" data-anchor-id="komponenty-a-nálezy">Komponenty a nálezy</h4>
-<p>V tabulce komponent uvádíme výčet všech chronologických a funkčních komponent přímo souvisejí- cích s lokalitou. Vyplněna musí být vždy pole:</p>
+<p>V tabulce komponent uvádíme výčet všech chronologických a funkčních komponent přímo souvisejících s lokalitou. Vyplněna musí být vždy pole:</p>
 <ul>
 <li><em>Období</em> – nejistotu lze vyjádřit užitím obecnějšího hesla, nebo uvedením otazníku do pole <em>jistota</em>; přesnější dataci lze uvést do pole <code>presna_datace</code>.</li>
 <li><em>Areál</em> – uvádíme areál skutečně související s danou komponentou; v rámci jedné lokality může být identifikováno více typů areálů v různých komponentách.</li>
@@ -634,7 +634,7 @@ Obr.&nbsp;2: Formulář pro popis lokality
 <h4 class="anchored" data-anchor-id="specifické-údaje-o-lokalitě">Specifické údaje o lokalitě</h4>
 <p>Tato část formuláře obsahuje data, která prozatím nejsou obsažena v datové struktuře AMČR, avšak jsou potřebná z evidenčního hlediska. V budoucnu může dojít k rozšíření datového modelu AMČR tak, aby některá základní pole byla v AMČR přímo zahrnuta (zejména jistota a zachovalost lokality).</p>
 <ul>
-<li><code>Kategorie</code> a <code>Jistota</code> Bližší <strong>specifikace konkrétní kategorie lokality tak, jak je převážně charakterizována v literatuře, a jistota pravdivosti takové interpretace</strong>. Obsažený heslář kategorie je specifický pro různé druhy lokalit podle toho, jaké kategorie považujeme za přípustné a které lokality již do evidence nepatří. Je třeba rozlišovat mezi <em>pseudolokalitami</em> (případ, kdy je snos kamenů uváděný v literatuře jako mohylník) a chybně interpretovanou skutečnou lokalitou (případ, kdy lokality uváděná jako mohylník je ve skutečnosti zaniklá vesnice). V prvním případě bude v kategorii uveden <em>„mohylník“</em> s hodnotou <em>„pseudolokalita“</em> v poli jistota. Ve druhém případě je třeba přiřadit záznamu kategorii <em>„jiný druh (vyřadit)“</em> a v poli jistota bude hodnota <em>„jisté“</em>. Kombinace polí kategorie a jistota by měla v důsledku postihnout důvěryhodnost interpretace lokality na základě syntézy aktuálních poznatků.</li>
+<li><code>Kategorie</code> a <code>Jistota</code> Bližší <strong>specifikace konkrétní kategorie lokality tak, jak je převážně charakterizována v literatuře, a jistota pravdivosti takové interpretace</strong>. Obsažený heslář kategorie je specifický pro různé druhy lokalit podle toho, jaké kategorie považujeme za přípustné a které lokality již do evidence nepatří. Je třeba rozlišovat mezi <em>pseudolokalitami</em> (případ, kdy je snos kamenů uváděný v literatuře jako mohylník) a chybně interpretovanou skutečnou lokalitou (případ, kdy lokalita uváděná jako mohylník je ve skutečnosti zaniklá vesnice). V prvním případě bude v kategorii uveden <em>„mohylník“</em> s hodnotou <em>„pseudolokalita“</em> v poli jistota. Ve druhém případě je třeba přiřadit záznamu kategorii <em>„jiný druh (vyřadit)“</em> a v poli jistota bude hodnota <em>„jisté“</em>. Kombinace polí kategorie a jistota by měla v důsledku postihnout důvěryhodnost interpretace lokality na základě syntézy aktuálních poznatků.</li>
 <li><code>Zachovalost</code> Aktuální stav dochování terénních reliktů.</li>
 <li><code>Celk. plán</code> Odkaz na zdroj nejlepšího celkového plánu lokality (citace, URL aj.).</li>
 <li><code>LiDAR</code> Je lokalita viditelná na LiDARovém snímku?</li>
@@ -690,7 +690,7 @@ Obr.&nbsp;3: Formulář pro popis dokumentů
 <li>Přirozený tvar reliéfu, hranice zástavby a průběh komunikací.</li>
 <li>Parcelní členění a lomové body parcel.</li>
 </ul></li>
-<li><p>Při vymezování lokalit zpravidla užíváme nejnovější publikované plány, snímky LLS, katastrální mapy a ortofoto mapy; tyto zdroje navzájem ověřujeme (zejména publikované starší plány mohou být velice nepřesné).</p></li>
+<li><p>Při vymezování lokalit zpravidla užíváme nejnovější publikované plány, snímky LLS, katastrální mapy a ortofotomapy; tyto zdroje navzájem ověřujeme (zejména publikované starší plány mohou být velice nepřesné).</p></li>
 <li><p>Polygonální vymezení by měla být dostatečně podrobná, bez nepřirozených zlomů, ostrých hran apod. Pokud vymezujeme více různých lokalit v sousedství, je vhodné uvažovat nad vymezením lokalit ve vzájemné souvislosti.</p></li>
 <li><p>Prostorová vymezení „nemovitých“ lokalit (N) se mohou překrývat, prostorová vymezení „leteckých“ lokalit (L) se nikdy nepřekrývají. Lokality typu „krajina“ (K) prostorově nevymezujeme, jsou definovány hranicemi katastru.</p></li>
 <li><p>Vymezení lokality v prostoru je vždy třeba chápat jako arbitrární. Hlavním cílem je lokality vhodně zachytit z evidenčního hlediska. Lokality prostorově vymezujeme diachronicky, v jejich maximálním rozsahu, odpovídajícím všem evidovaným komponentám.</p></li>
