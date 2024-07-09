@@ -46,14 +46,14 @@ Mapa nabízí několik podkladových vrstev, mezi kterými jde přepínat pomoc�
 
 Dále lze podkladovou mapu překrýt následujícími vrstvami:
 
-- ČÚZK -- Katastrální území;
-- ČÚZK -- Katastrální mapa;
-- NPÚ -- vrstva s památkově chráněnými prvky;
+- ČÚZK -- Katastrální území (mapa hranic jednotlivých katastrálních území);
+- ČÚZK -- Katastrální mapa (hranice parcel a jejich čísla);
+- NPÚ -- památková ochrana (vrstva s památkově chráněnými prvky);
 - a dále pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj., v závislosti na kontextu).
 
 ### Vyhledávání v geografických jménech
 
-Pomocí tlačítka lupy lze vyhledávat v různých geografických jménech, např. názvech obcí, katastrálních území aj. (databáze gaonames).
+Pomocí tlačítka lupy lze vyhledávat v různých geografických jménech, např. názvech obcí, katastrálních území aj. (databáze *geonames*).
 Po výběru daného prvku se mapa přiblíží na jeho geografický střed (centroid).
 ![](figs/map-geonames.png)
 
@@ -89,7 +89,7 @@ Pro jejich vyznačení v mapě slouží nástroje:
 - `Přidat polygon` -- kliknutím vloží uzel hrany polygonu, kliknutím na první vložený uzel tvar uzavře.
 
 Nabídka pro vložení linií a polygonů obsahují možnosti daný prvek potvrdit (`Dokončit`), smazat poslední vložený bod (`Krok zpět`) a smazat celý nakreslený tvar (`Storno`).
-Tlačítko `Editovat prvek` umožňuje zapnou editaci již nakresleného tvaru a jeho úpravu pomocí přetaženích zvolených uzlů na nové pozice, přidání nových uzlů mezi dva existující (průhledně zobrazené uzly), případně smazání existujících uzlů (po kliknutí na tmavě zobrazené uzly).
+Tlačítko `Editovat prvek` umožňuje zapnout editaci již nakresleného tvaru a jeho úpravu pomocí přetaženích zvolených uzlů na nové pozice, přidání nových uzlů mezi dva existující (průhledně zobrazené uzly), případně smazání existujících uzlů (po kliknutí na tmavě zobrazené uzly).
 
 Zakreslení polygonu:
 ![](figs/map-poly1.png)

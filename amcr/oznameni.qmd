@@ -67,13 +67,14 @@ Tak je možné označit celý měsíc, kdy může k začátku prací na oznamova
 
 #### Souhlas s podmínkami o zpracování osobních údajů
 
-Nezapomeňte potvrdit souhlas se zpracováním osobních údajů, bez něj nelze v oznámení záměr upokračovat na další krok, ve kterém bude nahrána projektová dokumentace. 
+Nezapomeňte potvrdit souhlas se zpracováním osobních údajů, bez něj nelze v oznámení záměru pokračovat na další krok, ve kterém bude nahrána projektová dokumentace. 
 
 #### Projektová dokumentace 
 
-V následujícím kroku lze přiložit související dokumentaci upřesňující oznámení, zejména plánovou dokumentaci přesněji vymezující rozsah a míru terénních zásahů, případně dokumenty s bližším popisem záměru.
+V následujícím kroku lze přiložit související dokumentaci v podobě jednoho nebo více souborů upřesňujících oznámení.
+Zejména jde o plánovou dokumentaci přesněji vymezující rozsah a míru terénních zásahů, případně dokumenty s bližším popisem záměru.
 V případě, že jeden dokument slouží jako podklad pro více oznámení, systém upozorní na to, že může jít o vložení duplicitního dokumentu, tj. že dokument už v systému existuje, to však není překážkou pro úspěšné odeslání oznámení.
 
 #### Odeslání oznámení 
 
-Posledním krokem je odeslání oznámení, po kterém systém na zadaný email odešle jeho potvrzení.
+Posledním krokem je odeslání oznámení, po kterém systém na zadaný email odešle potvrzení o splnění oznamovací povinnosti.

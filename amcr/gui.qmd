@@ -10,7 +10,7 @@ Do aplikace AMČR vstoupíte na adrese [https://amcr.aiscr.cz/](https://amcr.ais
 
 :::
 
-Webové rozhraní aplikace AMČR do vysoké míry kopíruje vzhled původního desktopového klienta.
+Webové rozhraní aplikace AMČR do vysoké míry kopíruje vzhled původního desktopového klienta provozovaného v letech 2017 až 2024.
 Na úvodní stránce po přihlášení se zobrazí *karty* pro jednotlivé části, které jsou přihlášenému uživateli dostupné dle jeho [uživatelské role](/o-systemu/role.qmd). 
 Jednotlivé části AMČR jsou barevně odlišeny a daná barevnost je pak dodržena i při vstupu do konkrétní části, na první pohled je tedy zřejmé, kde se uživatel nachází.
 
@@ -32,11 +32,11 @@ V případě projektů lze nově volit mezi emailovými notifikacemi na projekty
 Úvodní obrazovka každé z částí aplikace nabízí rozcestník, který zpravidla obsahuje následující karty (dle [uživatelské role](/o-systemu/role.qmd)):
 
 - `Zapsat` -- Umožňuje zápis nového záznamu dané kategorie.
-- `Vybrat` -- Nabízí výpis všech záznamů v dané kategorie a především jejich filtraci pomocí široké škály kritérií.
+- `Vybrat` -- Nabízí výpis všech záznamů v dané kategorii a především jejich filtraci pomocí široké škály kritérií.
 - `Moje záznamy` -- Přednastavená filtrace, která zobrazuje jen záznamy zapsané přihlášeným uživatelem.
 - `Naše záznamy` -- Přednastavená filtrace, která zobrazuje záznamy vytvořené všemi uživateli stejné organizace jako je organizace přihlášeného uživatele.
 
-V případě Projektů pak karty obsahují další přednastavené filtrace, které vedou k projektům v daných [procesních stavech](/o-systemu/procesy.qmd).
+V případě Projektů pak karty obsahují další přednastavené filtrace, které vedou k projektům v daných [procesních stavech](/o-systemu/procesy.qmd), které v danou chvíli může uživatel editovat, tj. nejčastěji k projektům uživatelovy organizace.
 
 ![](figs/gui-proj.png)
 
@@ -58,7 +58,7 @@ Pod ním se nachází pruh s jednotlivými [procesními stavy](/o-systemu/proces
 Aktuální procesní stav je vždy zvýrazněn barvou dle dané části AMČR a pod ukazateli procesních stavů, kterými již záznam prošel, je datum, kdy k poslední změně daného stavu došlo.
 V horní liště záznamu jsou pak tlačítka umožňující právě přechody mezi jednotlivými procesními stavy.
 Tato tlačítka závisí na kontextu a [roli](/o-systemu/role.qmd) přihlášeného uživatele.
-V nabídce `Další volby` lze zobrazit historii daného záznamu, přejít na daný záznam (došlo již k jeho archivaci) v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external} a [AMČR API](https://api.aiscr.cz/){.external} a případně stáhnout metadata daného záznamu ve formátu *.xml*.
+V nabídce `Další volby` lze zobrazit historii daného záznamu, přejít na daný záznam (jde-li o archivovaný záznam) v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external} a [AMČR API](https://api.aiscr.cz/){.external} a případně stáhnout metadata daného záznamu ve formátu *.xml*.
 
 Úpravy jednotlivých sekcí na stránce daného záznamu lze povolit pomocí ikony tužky {{< fa pen >}} v pravém horním rohu dané sekce.
 Po povolení úprav se zobrazí konkrétní upravovaná sekce daného záznamu, kdy pole ohraničená žlutě je v daném procesním stavu povinné vyplnit. 
@@ -67,7 +67,7 @@ Po povolení úprav se zobrazí konkrétní upravovaná sekce daného záznamu, 
 
 ### Přechody mezi procesními stavy
 
-Přechody mezi jednotlivými [procesními stavy](/o-systemu/procesy.qmd) záznamů se dějí ve vyskakovacích oknech, která se nad záznamem objeví při vyvolání přechodu pomocí patřičného tlačítka v horní liště záznamu.
+Přechody mezi jednotlivými [procesními stavy](/o-systemu/procesy.qmd) záznamů je třeba potvrdit ve vyskakovacích oknech, která se nad záznamem objeví při vyvolání přechodu pomocí patřičného tlačítka v horní liště záznamu.
 Pole ohraničená žlutou barvou je nutné pro potvrzení přechodu do nového procesního stavu vyplnit. 
 
 ![](figs/gui-prihlasit.png)
