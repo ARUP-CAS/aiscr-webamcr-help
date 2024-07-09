@@ -33,7 +33,7 @@ Dokumentační jednotku **Sonda** volíme když:
 
     Např. sektory pravidelné sítě povrchových sběrů popisované samostatně.
 
-![Schéma základních pravidel pro výběr správného typu *DJ*](/figs/dj-schema.png){#fig-dj-schema}
+![Schéma základních pravidel pro výběr správného typu *DJ*](figs/dj-schema.png){#fig-dj-schema}
 
 <!-- ![Vizualizace typických příkladů použití jednotlivých typů DJ](){#fig-dj-typy} -->
 
