@@ -12,7 +12,10 @@ Správu projektů mohou provádět pouze uživatelé s oprávněním [Archeolog]
 
 ## Videonávod
 
-Tady bude videonávod, až bude hotový :)
+Videonávod ukazuje celý proces, který se týká správy projektů a akcí od zápisu projektu po jeho uzavření.
+*Video nemá zvuk.*
+
+{{< video https://youtu.be/eJ_H6Tonj9Y?si=zyCa4qXBjETU_jkJ >}}
 
 ## Návod 
 
