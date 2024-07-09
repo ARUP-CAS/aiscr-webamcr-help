@@ -28,20 +28,20 @@ website:
       - text: Úvod
         href: index.qmd
       - text: O systému
-        href: o-systemu/o-systemu.qmd
+        href: o-systemu/index.qmd
       - text: AMČR
-        href: amcr/amcr.qmd
+        href: amcr/index.qmd
       - text: Digitální archiv AMČR
-        href: digiarchiv/digiarchiv.qmd
+        href: digiarchiv/index.qmd
       - text: AMČR API
-        href: api/api.qmd
+        href: api/index.qmd
       - text: Slovník pojmů
-        href: o-systemu/pojmy.qmd
+        href: slovnik/index.qmd
     right:
       - text: Zpravodaj
-        href: zpravodaj/zpravodaj.qmd
+        href: zpravodaj/index.qmd
       - text: Kontakty
-        href: about.qmd
+        href: about/index.qmd
 
   sidebar:
     - id: main
@@ -61,7 +61,7 @@ website:
 
     - id: o-systemu
       contents:
-        - o-systemu/o-systemu.qmd
+        - o-systemu/index.qmd
         - o-systemu/architektura.qmd
         - o-systemu/datovy-model.qmd
         - o-systemu/role.qmd
@@ -76,7 +76,7 @@ website:
         [![](/figs/logo-amcr-hor.png)](/amcr/amcr.qmd)
       contents:
         - text: Úvod
-          href: amcr/amcr.qmd
+          href: amcr/index.qmd
         - text: ---
         - section: Návody
           contents: 
@@ -93,7 +93,7 @@ website:
             - text: Správa lokalit
               href: amcr/lokality.qmd
             - section: AMČR-PAS
-              href: amcr/amcr-pas/amcr-pas.qmd
+              href: amcr/amcr-pas/index.qmd
               contents:
                 - amcr/amcr-pas/faq-spolupracovnici.qmd
                 - amcr/amcr-pas/faq-archeologove.qmd
@@ -109,10 +109,10 @@ website:
         - section: Tutoriály
           contents:
               - amcr/amcr-pas/foto.qmd
-              - amcr/akce/drobne-akce.qmd
+              - amcr/drobne-akce.qmd
               - text: Zápis správného typu dokumentačních jednotek
-                href: amcr/akce/dj.qmd
-              - amcr/akce/adb.qmd
+                href: amcr/dj.qmd
+              - amcr/adb.qmd
               - text: Metodika tvorby plánů na základě šikmých leteckých snímků
                 href: https://doi.org/10.5281/zenodo.7925830
                 icon: box-arrow-up-right
@@ -128,7 +128,7 @@ website:
       contents:
         - section: Návody
           contents:
-           - digiarchiv/digiarchiv.qmd
+           - digiarchiv/index.qmd
         - text: "---"
         - section: Tutoriály
           contents:
@@ -141,28 +141,28 @@ website:
       
     - id: manual-api
       contents:
-        - api/api.qmd
+        - api/index.qmd
 
     - id: pojmy
       contents:
-        - o-systemu/pojmy.qmd
+        - slovnik/index.qmd
         
     - id: zpravodaje 
       header: |
         [![](/figs/logo-amcr-hor.png)](/zpravodaj/zpravodaj.qmd)
       contents: 
-        - zpravodaj/zpravodaj.qmd
+        - zpravodaj/index.qmd
         
     - id: about
       header: |
         [![](/figs/logo-aiscr-hor.png)](/about.qmd)
       contents: 
-        - about.qmd
+        - about/index.qmd
 
   page-footer:
     background: light
     left: |
-      [Kontakty](/about.qmd) | 
+      [Kontakty](/about/index.qmd) | 
       [<u>Cookies</u>]{#open_preferences_center} |
       CC BY-NC 4.0
     center: |

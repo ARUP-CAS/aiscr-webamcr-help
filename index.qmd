@@ -24,13 +24,13 @@ listing:
 
 Uživatelská dokumentace AMČR je členěna do několika úrovní:
 
-- Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/zakladni-info.qmd) o celém systému, nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd).
-- V sekci [O systému](o-systemu/architektura.qmd) je rámcově popsán používaný datový model a struktura systému, řízené slovníky apod.;
+- Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/index.qmd) o celém systému, nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd).
+- V sekci [O systému](o-systemu/index.qmd) je rámcově popsán používaný datový model a struktura systému, řízené slovníky apod.;
 - Následují sekce pro jednotlivé součásti AMČR:
-  - [webovou aplikaci AMČR](amcr/amcr.qmd) jako hlavní rozhraní pro práci s daty AMČR;
-  - [Digitální archiv AMČR](digiarchiv/digiarchiv.qmd), který slouží k prohlížení a vyhledávání v AMČR; 
-  - a [API](api/api.qmd), které prostřednictvím protokolu OAI-PMH umožňuje hromadné sklízení dat AMČR.
-- Sekce [Zpravodaj](zpravodaj/zpravodaj.qmd) pak obsahuje jednotlivá vydání občasníku určeného uživatelům AMČR.
+  - [webovou aplikaci AMČR](amcr/index.qmd) jako hlavní rozhraní pro práci s daty AMČR;
+  - [Digitální archiv AMČR](digiarchiv/index.qmd), který slouží k prohlížení a vyhledávání v AMČR; 
+  - a [API](api/index.qmd), které prostřednictvím protokolu OAI-PMH umožňuje hromadné sklízení dat AMČR.
+- Sekce [Zpravodaj](zpravodaj/index.qmd) pak obsahuje jednotlivá vydání občasníku určeného uživatelům AMČR.
 
 
 ## Služby AIS CR
@@ -54,7 +54,7 @@ Pokud není uvedeno jinak, citujte dokumentaci jako:
 
 Případně viz soubor [CITATION.cff](CITATION.cff). 
 Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací.
-Například stránku [nápovědy k Digitálnímu archivu AMČR](/digiarchiv/digiarchiv.qmd) tedy citujte takto:
+Například stránku [nápovědy k Digitálnímu archivu AMČR](/digiarchiv/index.qmd) tedy citujte takto:
 
 > Švejcar, O., Pavloň, T. 2024: Digitální archiv AMČR: Uživatelský manuál. In: Pajdla, P., Novák, D. et al. *Uživatelská dokumentace AMČR*. DOI: [10.5281/zenodo.8141634](https://www.doi.org/10.5281/zenodo.8141634). Stránka: [https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html](https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html). [cit. RRRR-MM-DD]
 
