@@ -2,7 +2,6 @@
 title: "AMČR API"
 subtitle: "Uživatelská příručka"
 date: 2020-06-01
-date-format: D. M. YYYY
 ---
 
 ::: {.callout-important}

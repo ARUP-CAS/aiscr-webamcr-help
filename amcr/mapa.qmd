@@ -49,7 +49,7 @@ Dále lze podkladovou mapu překrýt následujícími vrstvami:
 - ČÚZK -- Katastrální území (mapa hranic jednotlivých katastrálních území);
 - ČÚZK -- Katastrální mapa (hranice parcel a jejich čísla);
 - NPÚ -- památková ochrana (vrstva s památkově chráněnými prvky);
-- a dále pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj.), v závislosti na kontextu.
+- a dále pak řadou geoprvků z databáze AMČR (PIANy, lokalizace projektů, lokalizace samostatných nálezů aj.), v závislosti na kontextu a modulu, ve kterém se uživatel právě nachází.
 
 ### Vyhledávání v geografických jménech
 
@@ -105,4 +105,4 @@ Pohled na právě zakreslený polygon a další PIANy v jeho okolí (některé s
 V sekci k zápisu dokumentační jednotky a tvorby PIAN videonávodu správy projektů a akcí je ukázána i základní práce s mapovým prostředím.
 *Video nemá zvuk.*
 
-{{< video https://youtu.be/eJ_H6Tonj9Y?si=DG3c9fxOuV2xCVid&t=533 >}}
+{{< video https://www.youtube.com/watch?v=eJ_H6Tonj9Y start="535" >}}

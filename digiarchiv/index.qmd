@@ -1,9 +1,6 @@
 ---
 title: Digitální archiv AMČR
 subtitle: Uživatelský manuál
-author: 
-  - name: Ondřej Švejcar
-  - name: Tomáš Pavloň
 ---
 
 ::: callout-note
