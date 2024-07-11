@@ -113,6 +113,7 @@ website:
               - text: Zápis správného typu dokumentačních jednotek
                 href: amcr/dj.qmd
               - amcr/adb.qmd
+              - href: amcr/lokality-metodika.qmd
               - text: Metodika tvorby plánů na základě šikmých leteckých snímků
                 href: https://doi.org/10.5281/zenodo.7925830
                 icon: box-arrow-up-right
