@@ -236,8 +236,16 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Stáhnout...</h2><ul><li><a href="architektura.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="architektura.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Na této stránce…</h2>
+   
+  <ul>
+  <li><a href="#desktopová-aplikace" id="toc-desktopová-aplikace" class="nav-link active" data-scroll-target="#desktopová-aplikace">Desktopová aplikace</a></li>
+  <li><a href="#serverová-aplikace" id="toc-serverová-aplikace" class="nav-link" data-scroll-target="#serverová-aplikace">Serverová aplikace</a></li>
+  <li><a href="#repozitář-dokumentace" id="toc-repozitář-dokumentace" class="nav-link" data-scroll-target="#repozitář-dokumentace">Repozitář dokumentace</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/o-systemu/architektura.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/o-systemu/architektura.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div><div class="quarto-alternate-formats"><h2>Stáhnout...</h2><ul><li><a href="architektura.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="architektura.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -260,8 +268,93 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </header>
 
 
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Upozornění
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Následující stránka k 1. červenci 2024 neprošla revizí a informace, které obsahuje, nejsou plně platné pro aktuálně spuštěné verze nástrojů AMČR. Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.</p>
+</div>
+</div>
+<p>Systém AMČR je koncipován ve standardní architektuře typu klient – server. Klientské rozhraní má podobu desktopové aplikace založené na platformě JAVA (verze 8 a vyšší), čímž je zabezpečena kompatibilita se systémy MS Windows 7 (a vyšší), Unix/Linux a OS X (Apple). Pro provoz klienta je vyžadováno alespoň 1 GB volného místa na pevném disku, 1,5 GB volné operační paměti RAM, procesor o taktu 1,5 GHz a dostatečně stabilní připojení k internetové síti. Stažení, instalace i spuštění klienta probíhá pomocí soboru ve formátu JNLP, odstranění instalace pomocí nabídek rozhraní JAVA. Pro ukládání dat klient užívá standardní nastavení cache platformy JAVA, do složky Users (platí pro MS Windows) jsou dále ukládány lokální kopie heslářů.</p>
+<p>Souborový server a databáze jsou denně zálohovány formou dump record, a ukládány na dva nezávislé servery v Praze a v Kutné Hoře. Jednou měsíčně probíhá záloha na offline páskové zálohovací zařízení a ročně je prováděna kompletní záloha systému. Zálohy jsou dlouhodobě evidovány, a to až po dobu 10 let (v případě ročních záloh). Server je plně virtualizován a zajištěn mechanismem pro přechod na záložní řešení v případě výpadku (tzv. failover).</p>
+<p>Informační systém se skládá ze tří základních komponent:</p>
+<pre><code>Desktopová aplikace - rozhraní pro běžného uživatele.
+Serverová aplikace - převážně slouží jako backend pro desktopovou aplikaci; minimální interakce s uživatelem.
+Depozitář dokumentace - obsluhuje nahrávání a stahování souborů.</code></pre>
+<p>Přihlášení do aplikace je možné buď jako anonymní uživatel, nebo jako registrovaný uživatel pomocí uživatelského jména a hesla.</p>
+<section id="desktopová-aplikace" class="level2">
+<h2 class="anchored" data-anchor-id="desktopová-aplikace">Desktopová aplikace</h2>
+<p>Desktopová aplikace zprostředkovává pro uživatele vytvoření, čtení, úpravu a mazání záznamů, a to díky vzdálenému volání procedur. Aplikace komunikuje se serverovou částí s pomocí protokolu XML-RPC, přičemž zastupuje roli klienta. Aplikace je vytvořena v jazyce Java SE 8 a ke zkompilování tedy vyžaduje Java SE Development Kit 8. Datová komunikace probíhá přes HTTP metodu POST. Na straně klienta jsou ukládány pouze dočasné informace (např. stažené soubory), aktuální verzi záznamu disponuje vždy serverová část.</p>
+<p>Grafické uživatelské rozhraní využívá knihovnu Swing. Základní podobu GUI (tzn. Look and Feel) definuje třída SynthLookAndFeel, která očekává jako vstup XML soubor, v němž jsou definována grafická pravidla pro jednotlivé komponenty. Grafická úprava aplikace je optimalizována na rozlišení 1366 × 768 pixelů.GUI aplikace je obecně částečně responsivní. Na základě aktuálního dostupného prostoru se nepřizpůsobuje šířka jednotlivých komponent, pouze případně jejich výška. Aplikaci je možno provozovat i s rozměry přesahujícími 1366 ×768 pixelů, skutečně využitelná plocha na šířku však nikdy nepřekročí 1 366 pixelů, s výjimkou map a tabulek, na výšku je naopak dostupná plocha plně využita.</p>
+<p>Aplikace včetně nezbytných knihoven je distribuována s pomocí technologie Java web start. Samotná spustitelná aplikace ve formátu JAR je včetně knihoven před samotnou distribucí digitálně podepsána. Spuštění aplikace na straně uživatele začíná stažením souboru ve formátu JNLP. Interní nástroj JRE porovná minimálně požadovanou verzi Java Runtime Environment a v případě nenalezení JRE 8 (přesněji JRE 1.8) zahlásí chybu. V opačném případě JRE podle obsahu JNLP souboru stáhne specifikované JAR soubory a provede spuštění hlavního JAR balíčku, tedy samotné desktopové aplikace.</p>
+<p>Vstupním bodem do aplikace je vždy přihlašovací okno. Autentizace je provedena na základě správné kombinace emailové adresy a hesla. Autorizace se řídí přidělenou uživatelskou rolí. Výjimku z výše uvedeného představuje tzv. “anonymní přístup”. Z technického pohledu jde o skutečnou anonymitu, nikoli pseudonymitu. K autentizaci anonymního přístupu není vyžadována znalost žádného tokenu. Autorizace zmíněného přístupu se řídí příslušnou rolí vytvořenou právě pro tento účel. V rámci anonymního přístupu je možno pouze čtení, není dovoleno záznamy vytvářet, upravovat ani mazat. Po úspěšné autentizaci aplikace ověří dostupnost nejaktuálnější verze heslářů na straně uživatele. Pokud je verze zastaralá nebo hesláře zcela chybí, proběhne stažení všech nezbytných heslářů. Po kontrole heslářů a jejich případném stažení je zavřeno okno sloužící k přihlášení a zobrazí se hlavní okno samotné aplikace.</p>
+<p>Desktopová aplikace nevyužívá žádný významnější framework třetí strany. Je vytvořena čistě v jazyce Java v kombinaci s knihovnou Swing, s řadou nástaveb pro usnadnění rutinních úkolů.</p>
+<p>Aplikace užívá těchto knihoven třetích stran:</p>
+<pre><code>GeoTools 12 - Balík nejrůznějších knihoven distribuovaný pod jedním názvem (tj. GeoTools). Slouží ke zpracování prostorových informací a zobrazení mapy.
+Pdf-renderer - K zobrazení PDF souborů.
+iText - K vytvoření PDF a RTF souborů.
+SwingX - Rozšíření knihovny Swing.
+Apache XML-RPC - K vytváření XML-RPC požadavků a zpracování odpovědí serveru.
+SLF4J - Logování desktopové aplikace.
+Java Advanced Imaging - Manipulace se soubory nesoucími obrazovou informaci.
+Apache Commons IO - Knihovna usnadňující implementaci I/O operací.
+Apache Commons Net - Implementace klientské strany řady internetových protokolů.</code></pre>
+<p>Systémové požadavky desktopové aplikace:</p>
+<pre><code>RAM: 1,5 GB volné paměti
+HDD: 1 GB volné paměti
+CPU: 1,5 Ghz
+Připojení do sítě Internet
+Operační systém: Windows XP a vyšší / UNIX / Linux. Operační systém musí disponovat nainstalovaným Java Runtime ver. 8 a vyšší</code></pre>
+</section>
+<section id="serverová-aplikace" class="level2">
+<h2 class="anchored" data-anchor-id="serverová-aplikace">Serverová aplikace</h2>
+<p>Serverovou část představuje webová aplikace vytvořená v jazyce PHP. Ke svému běhu vyžaduje alespoň PHP 5.6.6. K trvalé perzistenci dat slouží databázový server PostgreSQL, a to minimálně ve verzi 9.4.1. Řada dat má prostorovou povahu, a proto k uložení takového druhu informace je využíváno rozšíření PostGIS. To se instaluje přímo do konkrétní PostgreSQL databáze. Serverová část vyžaduje PostGIS minimálně ve verzi 2.1.4. Webová aplikace disponuje prvky CMS, protože je však ke správě dat (obsahu) výhradně využívána desktopová aplikace, je řada funkcí CMS potlačena. Webová aplikace obstarává dva hlavní pilíře funkcionality:</p>
+<pre><code>Pro uživatele s rolí administrátora nabízí webové rozhraní pro import a export dat.
+Zastává roli serveru v protokolu XML-RPC. Vykonává procedury volané klienty (jednotlivými instancemi desktopové aplikace).</code></pre>
+<p>Exportní nástroj dovoluje aktuálně uchovávané záznamy zapsat do CSV souboru (v definovaném formátu) a tento soubor následně nabídnout ke stažení. Importní nástroj na svém vstupu očekává CSV soubor (opět v definovaném formátu) obsahující záznamy, které mají být přeneseny do systému. Během importu je provedena základní (formální) kontrola dat, včetně ověření duplicity vůči již existujícím záznamům. Během importu není prováděna kontrola logické návaznosti jednotlivých záznamů.</p>
+<p>Serverová část je zapojená do protokolu XML-RPC. Před provedením procedury je ověřena identita uživatele. Následuje autorizace k zahájení zvolené procedury. Její dokončení je vždy potvrzeno desktopové aplikaci. Pokud klient žádá o zaslání některých dat, jsou tato data součástí odpovědi serveru.</p>
+<p>Server užívá těchto knihoven třetích stran:</p>
+<pre><code>XML_RPC - K zajištění XML-RPC komunikace.
+Tracy - K logování a odchytávání chyb.</code></pre>
+<p>Systémové požadavky na server:</p>
+<pre><code>RAM: 8GB
+HDD: 1TB
+CPU: 3GHz
+Debian GNU/Linux 8.0 (jessie)
+PHP 5.6.6
+PostgreSQL 9.4.1
+PostGIS 2.1.4</code></pre>
+</section>
+<section id="repozitář-dokumentace" class="level2">
+<h2 class="anchored" data-anchor-id="repozitář-dokumentace">Repozitář dokumentace</h2>
+<p>Depozitář dokumentace je samostatné oddělené řešení sloužící k nahrávání a stahování souborů. Zamýšlené použití je takové, že depozitář dokumentace fyzicky běží na odlišném serveru, než serverová aplikace. Je však možno depozitář dokumentace i serverovou aplikaci provozovat na stejném serveru. Pro lepší názornost však budeme předpokládat, že depozitář dokumentace běží na jiném umístění, než serverová aplikace.</p>
+<p>Princip fungování depozitáře dokumentace - nahrání nového souboru:</p>
+<pre><code>Desktopová aplikace kontaktuje serverovou aplikaci a v rámci XML-RPC volání ji oznámí požadavek na nahrání nového souboru
+Serverová aplikace ověří identitu uživatele a jeho oprávnění. V případě úspěchu kontaktuje depozitář dokumentace s žádostí o nahrání nového souboru. Serverová aplikace si uloží dočasné informace o požadavku na nahrání nového souboru.
+Depozitář dokumentace vygeneruje nové (náhodné) dočasné uživatelské jméno a heslo, které bude použito pro přenos souboru. Depozitář dále připraví v souborovém systému dočasnou složku pro nahrávaný soubor. Depozitář odesílá uživatelské jméno, heslo a a svoji adresu serverové aplikaci.
+Serverová aplikace přijme od depozitáře dokumentace informace potřebné k nahrání souboru a v rámci procedury zavolané klientem odpoví právě těmito informacemi.
+Desktopová aplikace v tuto chvíli disponuje adresou, uživatelským jménem a heslem. Přes protokol FTP se připojí k obdržené adrese (tj. depozitáři dokumentace) a provede autentizaci.
+Desktopová aplikace provede nahrání souboru. Dokončení nahrávání následně desktopová aplikace oznamuje serverové aplikaci.
+Serverová aplikace přepošle informaci o dokončení nahrávání depozitáři dokumentace.
+Depozitář dokumentace ověří kontrolní součet a v případě úspěchu přesune nahraný soubor z dočasné složky do trvalého umístění. Provedení těchto operací potvrdí depozitář dokumentace serverové části.
+Depozitář dokumentace odstraní dočasný uživatelský účet a dočasnou složku.
+Serverová aplikace si vyžádá o právě nahraném souboru další metainformace (např. velikost, finální název souboru) a uloží si tyto informace do tabulky v PostgreSQL databázi.
+Serverová aplikace oznámí desktopové aplikaci dokončení nahrání souboru.</code></pre>
+<p>Analogicky je provedena i operace stažení souboru.</p>
+<p>Depozitář dokumentace se skládá z několika hlavních součástí:</p>
+<pre><code>Pure-FTPd 1.0.30 (na serveru dále musí být deaktivované případné vsftpd)
+MySQL 5.1
+Java JRE 1.6 (od společnosti Oracle, ne OpenJDK)</code></pre>
+<p>Pure-FTPd je nakonfigurovaný tak, že dovoluje přihlášení jen těm uživatelským účtům, které jsou uvedeny v MySQL databázi. Java JRE 1.6 slouží ke spuštění obslužné aplikace. Ta obsluhuje část filesystému určeného pro ukládání souborů a komunikuje se serverovou aplikací. Jak vyplývá, obslužná aplikace je vytvořena v jazyce Java.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -709,7 +802,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
-<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/o-systemu/architektura.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/o-systemu/architektura.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/o-systemu/architektura.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/o-systemu/architektura.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

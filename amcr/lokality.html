@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Martin Kuna">
-<meta name="author" content="David Novák">
 
-<title>Zásady evidence – Dokumentace AMČR</title>
+<title>Správa lokalit – Dokumentace AMČR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -350,6 +328,12 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../amcr/lokality-metodika.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zásady evidence nemovitých archeologických památek (lokalit)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="https://doi.org/10.5281/zenodo.7925830" class="sidebar-item-text sidebar-link" target="_blank"><i class="bi bi-box-arrow-up-right" role="img">
 </i> 
  <span class="menu-text">Metodika tvorby plánů na základě šikmých leteckých snímků</span></a>
@@ -373,71 +357,29 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Na této stránce…</h2>
-   
-  <ul>
-  <li><a href="#pojem-lokalita" id="toc-pojem-lokalita" class="nav-link active" data-scroll-target="#pojem-lokalita">Pojem lokalita</a></li>
-  <li><a href="#principy-evidence-lokalit" id="toc-principy-evidence-lokalit" class="nav-link" data-scroll-target="#principy-evidence-lokalit">Principy evidence lokalit</a>
-  <ul>
-  <li><a href="#co-neděláme" id="toc-co-neděláme" class="nav-link" data-scroll-target="#co-neděláme">Co neděláme</a></li>
-  </ul></li>
-  <li><a href="#databáze-nemovitých-lokalit" id="toc-databáze-nemovitých-lokalit" class="nav-link" data-scroll-target="#databáze-nemovitých-lokalit">Databáze <em>nemovitých</em> lokalit</a>
-  <ul>
-  <li><a href="#zásady-evidence-nemovitých-lokalit-typ-n" id="toc-zásady-evidence-nemovitých-lokalit-typ-n" class="nav-link" data-scroll-target="#zásady-evidence-nemovitých-lokalit-typ-n">Zásady evidence <em>nemovitých</em> lokalit (typ <strong>N</strong>)</a></li>
-  <li><a href="#popis-lokalit-ve-formuláři" id="toc-popis-lokalit-ve-formuláři" class="nav-link" data-scroll-target="#popis-lokalit-ve-formuláři">Popis lokalit ve formuláři</a>
-  <ul class="collapse">
-  <li><a href="#komponenty-a-nálezy" id="toc-komponenty-a-nálezy" class="nav-link" data-scroll-target="#komponenty-a-nálezy">Komponenty a nálezy</a></li>
-  <li><a href="#specifické-údaje-o-lokalitě" id="toc-specifické-údaje-o-lokalitě" class="nav-link" data-scroll-target="#specifické-údaje-o-lokalitě">Specifické údaje o lokalitě</a></li>
-  <li><a href="#externí-zdroje" id="toc-externí-zdroje" class="nav-link" data-scroll-target="#externí-zdroje">Externí zdroje</a></li>
-  </ul></li>
-  <li><a href="#popis-dokumentů" id="toc-popis-dokumentů" class="nav-link" data-scroll-target="#popis-dokumentů">Popis dokumentů</a></li>
-  </ul></li>
-  <li><a href="#prostorové-vymezení-lokalit" id="toc-prostorové-vymezení-lokalit" class="nav-link" data-scroll-target="#prostorové-vymezení-lokalit">Prostorové vymezení lokalit</a></li>
-  <li><a href="#archiv-digitálních-podkladů" id="toc-archiv-digitálních-podkladů" class="nav-link" data-scroll-target="#archiv-digitálních-podkladů">Archiv digitálních podkladů</a>
-  <ul>
-  <li><a href="#ukázka-adresářové-struktury-pro-podklady-k-databázi-hradišť" id="toc-ukázka-adresářové-struktury-pro-podklady-k-databázi-hradišť" class="nav-link" data-scroll-target="#ukázka-adresářové-struktury-pro-podklady-k-databázi-hradišť">Ukázka adresářové struktury pro podklady k databázi hradišť:</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/amcr/lokality.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/amcr/lokality.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div><div class="quarto-alternate-formats"><h2>Stáhnout...</h2><ul><li><a href="lokality.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="lokality.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
-    </div>
+        
+    <div class="quarto-alternate-formats"><h2>Stáhnout...</h2><ul><li><a href="lokality.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="lokality.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/gui.html">Návody</a></li><li class="breadcrumb-item"><a href="../amcr/lokality.html">Správa lokalit</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Zásady evidence</h1>
-<p class="subtitle lead">Zásady evidence nemovitých archeologických památek (lokalit)</p>
+<h1 class="title">Správa lokalit</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autoři</div>
-    <div class="quarto-title-meta-contents">
-             <p>Martin Kuna <a href="https://orcid.org/0000-0001-9244-8387" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-             <p>David Novák <a href="https://orcid.org/0000-0001-6592-6291" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-          </div>
-  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Aktualizováno</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">21. 10. 2020</p>
+      <p class="date">1. července 2024</p>
     </div>
   </div>
   
     
-    <div>
-    <div class="quarto-title-meta-heading">Doi</div>
-    <div class="quarto-title-meta-contents">
-      <p class="doi">
-        <a href="https://doi.org/10.5281/zenodo.4113964">10.5281/zenodo.4113964</a>
-      </p>
-    </div>
-  </div>
   </div>
   
 
@@ -445,333 +387,23 @@ Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být pla
 </header>
 
 
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>Původně zveřejněno jako Kuna, M a Novák, D. <span class="citation" data-cites="kuna2020">(<a href="#ref-kuna2020" role="doc-biblioref">2020</a>)</span>: <em>Zásady evidence “nemovitých” lokalit v AMČR</em> na Zenodo pod DOI: <a href="http://doi.org/10.5281/zenodo.4113964" class="external">10.5281/zenodo.4113964</a></p>
+<div class="callout-title-container flex-fill">
+Upozornění
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Na obsahu této stránky právě pilně pracujeme, ale zatím tu nic není. Vraťte se prosím později, šance, že zde něco bude, není zcela mizivá.</p>
 </div>
-<section id="pojem-lokalita" class="level2">
-<h2 class="anchored" data-anchor-id="pojem-lokalita">Pojem lokalita</h2>
-<p>Jádrem AMČR jsou záznamy dvou typů: <a href="pojmy.qmd#akce">archeologické akce</a> a (archeologické) <a href="pojmy.qmd#lokality">lokality</a>.</p>
-<p><strong>Archeologická akce</strong> je soubor archeologických nálezů a pozorování odpovídající určitému místu (prostorovému vymezení), původci (osobě, organizaci), době provedení a použité metodě výzkumu.</p>
-<p><strong>Lokalita</strong> je soubor archeologických nálezů a pozorování odpovídající určitému místu (prostorovému vymezení), charakteristickému archeologickému projevu a předpokládané funkční souvislosti v minulosti.</p>
-<p><em>Lokalitou</em> v principu může být jakýkoli archeologický nález nebo skupina nálezů odpovídající výše uvedené definici (tedy i jeden střep). <strong>Mezi akcí a lokalitou není primární rozdíl v obecnosti nebo věcném obsahu, ale v organizaci informací (struktuře dat).</strong> Zatímco pro vymezení <em>akce</em> je rozhodující archeologická výzkumná aktivita, pro vymezení <em>lokality</em> forma archeologického záznamu (projevu). Mezi oběma kategoriemi jsou v principu vztahy N:N (které však systematicky neevidujeme – vyplývají z prostorového uspořádání). Reprezentaci akcí a lokalit v AMČR vyjadřuje <a href="#fig-lok-dj" class="quarto-xref">Obr.&nbsp;1</a>.</p>
-<div id="fig-lok-dj" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-lok-dj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/lok-dj.png" class="img-fluid figure-img">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lok-dj-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Obr.&nbsp;1: Dokumentační jednotka a komponenta vůči projektové akci, samostatné akci a lokalitě
-</figcaption>
-</figure>
-</div>
-<p>V praxi AMČR dbáme na to, aby principy evidence byly aplikovány účelně a jednotlivé kategorie záznamů se doplňovaly. Proto u každého nálezu a pozorování zvažujeme, zda ho budeme evidovat jako akci, lokalitu nebo obojí. Přitom dbáme na to, aby:</p>
-<ul>
-<li>nevznikaly redundantní informace;</li>
-<li>nedocházelo ke ztrátě informací a</li>
-<li>jednotky evidence byly aplikovány jen na soubory dat, pro které jsou vhodné.</li>
-</ul>
-<p>Pro pochopení obsahu pojmů akce a lokalita je důležité ještě podotknout, že existují i archeologické nálezy/pozorování, které nelze efektivně zachytit ani jedním z obou pojmů (např. síť zaniklých cest v krajině aj.); tento problém bude třeba v dohledné době řešit jiným způsobem (viz níže).</p>
-</section>
-<section id="principy-evidence-lokalit" class="level2">
-<h2 class="anchored" data-anchor-id="principy-evidence-lokalit">Principy evidence lokalit</h2>
-<ul>
-<li>Jako <em>lokalitu</em> evidujeme zejména soubory nálezů a pozorování, jejichž souvislost je dána specifickým krajinným prvkem (valy, mohyly, terénní konfigurace). Z podstaty věci proto jde často o informace získané nedestruktivním terénním průzkumem.</li>
-<li>Vytvoření <em>lokality</em> na základě destruktivního výzkumu nevylučujeme, pokud takový záznam o souboru informací představuje (ve srovnání se záznamy o jednotlivých akcích) novou kvalitu, spočívající zejména v definici určitého celku (např. ohrazeného areálu, jinak nezjistitelného).</li>
-<li>Pokud z takové <em>lokality</em> pocházejí movité nálezy, jejich soubory vždy primárně evidujeme jako <em>akce</em>, a to s maximálně přesným prostorovým a věcným vymezením. Naopak, pokud k tomu není zvláštní důvod, opakovaná nedestruktivní pozorování bez nálezů jako <em>akce</em> neevidujeme (jednotlivé snímky, návštěvy lokality apod.).</li>
-<li>Popis <a href="pojmy.qmd#komponenty">komponent</a> <em>lokality</em> chápeme jako pomocnou informaci, která může být částečně redundantní vzhledem k evidenci akcí. Jedním z úkolu do budoucna může být systematická aktualizace popisu komponent lokalit podle komponent akcí.</li>
-<li>Jsme si vědomi arbitrárnosti výběru a popisu komponent <em>lokality</em>. Za určitých okolností lze hradiště jako <em>lokalitu</em> zařadit do doby bronzové, i když pro to není žádná opora v movitých nálezech, nebo k této <em>lokalitě</em> přiřadit jako komponentu eneolitický depot, pokud jsme přesvědčeni, že opevnění v době bronzové navázalo na starší účel místa. Toto pojetí bude v budoucnu třeba rozpracovat s využitím aktuální teorie archeologie (zejména konceptu <em>assemblage</em>).</li>
-<li>Naproti tomu nálezy, které považujeme za nesouvisející a/nebo nálezy s odlišným archeologickým projevem, evidujeme jako různé <em>lokality</em>, i když jsou na stejném místě (typicky třeba hrad na hradišti).</li>
-<li><em>Lokality</em> mohou mít hierarchickou povahu (samostatně evidujeme např. celou zaniklou vesnici a zároveň i tvrz či kostel v ní zahrnutý). Takový postup je analyticky výhodný. V budoucnu bude dopracována metodika členění <em>lokalit</em> na části (např. hradiště &gt; akropole, předhradí) a evidence jejich podoby v různých obdobích (srov. různý rozsah hradiště Závist v pozdní době bronzové, v době halštatské a jako oppida). V principu existují dva postupy, z nichž jeden považuje za primární hledisko logickou prostorovou součást <em>lokality</em> a k ní přiřazuje období, druhý postup to činí naopak, tedy k danému chronologickému celku přiřazuje relevantní prostorové vymezení.</li>
-<li>Samostatné depoty a podobné druhy nálezů s movitým obsahem jsou systematicky evidovány jako <em>akce</em> (mají původce a dobu nálezu, i když je třeba neznáme), třebaže svým způsobem mají charakter <em>lokalit</em>. Mohou však vystupovat i jako komponenty dílčích <em>lokalit</em> (např. depot v rámci mohylníku); i v tomto bodě nás čeká dopracování metodiky.</li>
-</ul>
-<section id="co-neděláme" class="level4">
-<h4 class="anchored" data-anchor-id="co-neděláme">Co neděláme</h4>
-<ul>
-<li><p><em>Lokalitou</em> je i každý soubor komponent <em>akcí</em> vázaný k určitému místu (např. sídliště knovízské kultury). Tyto soubory v AMČR jako lokality přesto neevidujeme, protože jejich vymezení:</p>
-<ul>
-<li>se průběžně mění s přibýváním archeologických akcí a</li>
-<li>nepřináší žádnou novou informaci (za předpokladu řádně vedené evidence akcí).</li>
-</ul></li>
-<li><p>Jako <em>lokality</em> neevidujeme úseky krajiny s archeologickými nálezy, které nelze jednoznačně členit na místa (prostorově diskrétní, přiměřeně velké a rámcově ohraničené prostorové celky) a spojovat podle předpokládané souvislosti v minulosti. Z toho plyne důležitý závěr: ne všechny archeologické nálezy lze evidovat v pojmech <em>akcí</em> a <em>lokalit</em>; v budoucnu budeme muset uvažovat o dalších kategoriích, zejména pro evidenci výsledků dálkového průzkumu.</p></li>
-<li><p>O <em>lokalitách</em> neuvažujeme jako o jednotkách minulé reality. Jsou to celky pramenů, které se sice mohou některým aspektům minulosti blížit (předpoklad souvislosti), ale nemusejí.</p></li>
-</ul>
-</section>
-</section>
-<section id="databáze-nemovitých-lokalit" class="level2">
-<h2 class="anchored" data-anchor-id="databáze-nemovitých-lokalit">Databáze <em>nemovitých</em> lokalit</h2>
-<p>K dlouhodobé evidenci lokalit primárně slouží AMČR. <strong>Tam lokality evidujeme a vkládáme nikoli ad hoc jednotlivě, ale jako ucelené celky s jasným původem, způsobem výběru a metodikou sběru dat.</strong> Jednotlivé celky jsou z pravidla tvořeny lokalitami stejného charakteru (např. pravěká a raně středověká ohrazení; mohylová pohřebiště; jeskyně s lidskou aktivitou; polygony leteckého průzkumu), který je uveden jako základní <em>druh lokality</em>. Tento praktický (pragmatický) aspekt evidence lokalit je důležitý k pochopení našeho přístupu. Rozlišujeme tři <strong>typy lokalit</strong>:</p>
-<ul>
-<li><strong>L</strong> (<strong>letecké</strong>) – archeologické objekty a jejich shluky identifikované při dálkovém průzkumu – pro evidenci lokalit tohoto typu existuje samostatná metodika připravená pro projekt <em>Archeologie z nebe</em>, viz <span class="citation" data-cites="gojda2022">Gojda et al. (<a href="#ref-gojda2022" role="doc-biblioref">2022</a>)</span>;</li>
-<li><strong>N</strong> (<strong>nemovité</strong>) – lokality tvořené funkčně, chronologicky a prostorově ucelenými areály, které lze označit za dílčí nemovité památky uchované v dnešní krajině. Jde o (víceméně) arbitrární celky vzniklé za účelem evidence, které zpravidla minulou realitu odráží jen částečně, neboť postrádají vnitřní dynamiku a jednoznačnou interpretaci účelu;</li>
-<li><strong>K</strong> (<strong>krajina</strong>) – doplňková kategorie lokalit prostorově definovaných s přesností na katastrální území; slouží zejména k přiřazování prostorové informace dokumentaci, jejíž archeologická hodnota je nízká, nebo přesné prostorové vymezení popisovaného obsahu není možné.</li>
-</ul>
-<p>Těmto typům pak odpovídají dílčí <strong>druhy lokalit</strong>. Heslář druhů lokalit je otevřený k doplňování a druhy do něj budou přidávány tak, jak budou vznikat jednotlivé datové bloky lokalit (viz výše zmíněný <em>pragmatický</em> přístup k evidenci), viz <a href="#tbl-lok-typy" class="quarto-xref">Tab.&nbsp;1</a>.</p>
-<div id="tbl-lok-typy" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-lok-typy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tab.&nbsp;1: Typy a druhy lokalit
-</figcaption>
-<div aria-describedby="tbl-lok-typy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 14%">
-<col style="width: 33%">
-<col style="width: 35%">
-<col style="width: 15%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Typ lokality</th>
-<th>Druh obecný</th>
-<th>Druh konkrétní</th>
-<th>PIAN</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>L</strong> letecká</td>
-<td>polygon archeologického průzkumu</td>
-<td><ul>
-<li>polygon leteckého průzkumu</li>
-</ul></td>
-<td rowspan="3">Vlastní PIAN</td>
-</tr>
-<tr class="even">
-<td rowspan="2"><strong>N</strong> nemovitá</td>
-<td>přírodní útvar s lidskou aktivitou</td>
-<td><ul>
-<li>jeskyně/skalní prostor</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>zaniklý/historický areál</td>
-<td><ul>
-<li>mohylové pohřebiště</li>
-<li>pravěké/raně středověké ohrazení</li>
-<li>středověké/novověké sídlo elity</li>
-<li>těžěbní areál</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>K</strong> krajina</td>
-<td>krajina</td>
-<td><ul>
-<li>krajina</li>
-<li>památník/pomník</li>
-<li>muzeum/skanzen</li>
-</ul></td>
-<td>PIAN katastru</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-<section id="zásady-evidence-nemovitých-lokalit-typ-n" class="level4">
-<h4 class="anchored" data-anchor-id="zásady-evidence-nemovitých-lokalit-typ-n">Zásady evidence <em>nemovitých</em> lokalit (typ <strong>N</strong>)</h4>
-<ul>
-<li>Pro každý druh lokality existuje kromě autoritní evidence v AMČR také pomocná databáze, která slouží ke sběru dat a přípravě datových bloků k importu. Tato databáze má jednotnou formu odpovídající datové struktuře AMČR a je obvykle spravována zvlášť pro Čechy (působnost ARÚ Praha) a zvlášť pro Moravu a Slezsko (působnost ARÚ Brno). Údaje ukládané nad rámec datové struktury AMČR jsou prioritně vyčleněny do samostatné tabulky<code>LOKALITA_detaily</code>. Jakékoli zásahy do struktury databáze či heslářů jsou přípustné pouze po konzultaci se správcem databáze.</li>
-<li><strong>Hlavním účelem pomocné databáze je přiřadit každé lokalitě jednoznačné číselné označení (pracovní ID)</strong>, které lze používat při sběru dat a vyhodnocení, zda má být lokalita zařazena do finálního datového souboru v AMČR nebo nikoli. Do pomocné databáze jsou obvykle zapisovány všechny potenciální lokality sledovaného druhu. Dlouhodobým cílem je v AMČR podchytit všechny lokality ve sledovaných kategoriích. Při vstupu do AMČR každá lokalita získá svůj definitivní trvalý identifikátor, který lze používat k jejímu jednoznačnému označení (např. při citaci, při další evidenci apod.).</li>
-<li>Mezi evidovanými lokalitami se mohou nacházet i lokality nejisté, domnělé či pseudolokality tradované v literatuře. Jejich evidence je žádoucí nejen z metodických důvodů, kdy skutečnou povahu lokality můžeme často vyhodnotit až zpětně po čase a projití více zdrojů, ale také proto, aby se tradované chyby dále nešířily a mohly být výhledově v AMČR evidovány vč. relevantních argumentů.</li>
-<li>V pomocné databázi lze evidovat jednotlivé lokality, s nimi související bibliografii/zdroje a případně též archivní dokumenty, které je zachycují a mají být vloženy do AMČR (zejména fotky a plány). Tomu odpovídají tři samostatné formuláře (<code>Lokality_popis</code>, <code>Externi_zdroj_popis</code>, <code>Dokumenty_popis</code>).</li>
-<li>Přidání nové lokality se provádí vždy v přímo v tabulce <code>LOKALITA</code>, a to přidáním řádky s požadovaným pracovním ID. <strong>Pracovní ID záměrně není přidělováno automaticky</strong>, aby byla zachována plná kontrola nad volbou správného ID zvláště pro ty případy, kdy existuje více kopií databáze. Nová pracovní ID by měla být přidělována vždy po konzultaci s relevantním správcem databáze lokality na ARÚP/ARÚB, který stanoví <strong>rozsah přidělovaných čísel</strong>. Musí být zajištěno, že ID jsou přidělována jako unikátní pro každý jednotlivý druh lokalit v rámci Čech/Moravy a Slezska.</li>
-<li><strong>V názvu databáze je vhodné zachovat datum verze struktury databáze</strong> a nezaměňovat jej od data poslední změny jejího obsahu. Zároveň by z názvu měl být patrný druh lokalit, kterého se databáze dotýká (např. <code>lokality_200703_mohylniky_200710.accdb</code>). Databázi je vhodné pravidelně zálohovat a při vzniku více verzí s různými datovými bloky zajistit pravidelné sloučení do jedné harmonizované autoritní verze. Každá databáze by měla mít svého správce, který za její strukturu a správnost obsahu odpovídá. Obdobně je třeba postupovat při správě souvisejících prostorových dat v GIS.</li>
-</ul>
-</section>
-<section id="popis-lokalit-ve-formuláři" class="level3">
-<h3 class="anchored" data-anchor-id="popis-lokalit-ve-formuláři">Popis lokalit ve formuláři</h3>
-<div id="fig-lok-dtb" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-lok-dtb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/lok-dtb.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lok-dtb-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Obr.&nbsp;2: Formulář pro popis lokality
-</figcaption>
-</figure>
-</div>
-<p>Základní údaje o lokalitě:</p>
-<ul>
-<li><p><code>Stav zprac.</code> Slouží k zachycení aktuálního stavu zpracování záznamu. Obsah by se měl řídit metodikou definovanou správcem databáze. Pro odlišení stavu zpracování obvykle užíváme alfanumerické kódy.</p></li>
-<li><p><code>Pozn. zprac.</code> Umožňuje vložit poznámku ve vztahu ke zpracování záznamu. Je vhodné poznámky co nejvíce standardizovat tak, aby náročnost jejich dalšího vyhodnocení byla co nejnižší. Není vhodné vkládat zbytné informace zřetelné z jiných částí záznamu. Údaj nebude součástí dat v AMČR (neplést s polem <code>Poznámka</code>).</p></li>
-<li><p><code>ID</code> Pracovní ID záznamu. Ve formuláři nelze editovat.</p></li>
-<li><p><code>ident-cely</code> Skutečné ID lokality v AMČR, pokud již bylo přiděleno.</p></li>
-<li><p><code>AMCR</code> Pomocná informace o importu dat do AMČR.</p></li>
-<li><p><code>Uživ. označení</code> Zažité označení lokality užívané v jiných zdrojích. Uvádíme ve formátu: „označení (citace zdroje)“ (např. „A043 (Beneš et al.&nbsp;1999)“.</p></li>
-<li><p><code>Katastr</code> Katastr, na kterém se lokalita nachází. Uvádíme pouze hlavní katastr pro lepší orientaci. Skutečná příslušnost ke katastru či více katastrům bude před importem do AMČR ověřena podle vymezení lokality v GIS.</p></li>
-<li><p><code>PIAN AMČR</code> ID PIAN přiřazeného k lokalitě v AMČR.</p></li>
-<li><p><code>PIAN</code> Pracovní ID PIAN přiřazeného k lokalitě. Jedná se o pomocné pole – k jednoznačnému provázání databáze a GIS slouží vždy pracovní ID lokality, nikoli toto pole. Zpravidla vyplňuje správce databáze.</p></li>
-<li><p><code>Druh lokality</code> Z principu jednotný pro všechny záznamy v rámci jedné databáze.</p></li>
-<li><p><code>Název</code> Nejužívanější název lokality a jeho případné alternativy. Hlavním kritériem volby názvu je jednoznačnost, vyhledatelnost a soulad s užívanými názvy. Název by měl být rámcově konstruován podle následujících pravidel:</p>
-<ul>
-<li>Na prvním místě uvést <strong>název katastru či související obce</strong> zkrácený na základní tvar (např. „Bělá pod Bezdězem“ -&gt; „Bělá“); celý název katastru je uváděn samostatně v jiném poli. Název obce užíváme zejména v případech, kdy se na katastru nachází více samostatných obcí nebo pokud je užití názvu katastru z jiného důvodu nevhodné. V případě dvou běžně užívaných alternativ lze druhý uvést v závorce.</li>
-<li>Za pomlčkou uvést <strong>vlastní název lokality</strong> (typické pro hrady, zaniklé vsi, jeskyně apod.; např. „Újezd nad Lesy – Hol“) nebo <strong>pomístní jméno / název trati</strong> (typické pro mohylníky, hradiště apod.; např. „Březí – Velký les“).</li>
-<li>Pokud neexistuje jiné jednoznačné označení (pomístní či traťové jméno) nebo pokud se v jednom místě nachází více lokalit stejného druhu nebo pokud je takové označení v literatuře zavedeno, lze doplnit za název lokality <strong>číslovku</strong> (např. „Bělá 1“ či „Březí – Velký les 1“).</li>
-<li>Název uvést vždy <strong>bez označení kategorie lokality</strong> (např. „Valečov“, nikoli „Hrad Valečov“ nebo „Valečov – hrad“), kromě případů, kdy je označení přímou součástí obvyklého názvu (např. „Hradčany – Pražský hrad“).</li>
-<li>Pokud existují obecně užívané <strong>alternativní názvy</strong>, lze je uvést na příslušném místě do závorky (např.: „Bělá – Klokočský hrádek (Předhradí, Dřevolyzy)“). To platí i pro běžně užívané alternativní katastry a obce (např.: „Lhota (Dolní Břežany) – Závist“).</li>
-</ul></li>
-<li><p><code>Popis</code> Stručná charakteristika lokality, jejího umístění, podoby, stavu dochování, její stávající interpretace, význačných nálezů či výzkumů a zajímavostí s ní spojených. Popis by měl být tvořen konzistentně (tj. s údaji standardně řazenými a stejně podrobnými) v rámci daného druhu lokalit.</p></li>
-<li><p><code>Poznámka</code> Alternativní názvy neobsažené v poli název, informace evidenčního charakteru, poznámky k informacím uvedeným v ostatních polích (nejistoty, problémy s prostorovým vymezením) apod. Toto pole se stane součástí záznamu v AMČR (nezaměňovat s poznámkou ke zpracování!).</p></li>
-</ul>
-<section id="komponenty-a-nálezy" class="level4">
-<h4 class="anchored" data-anchor-id="komponenty-a-nálezy">Komponenty a nálezy</h4>
-<p>V tabulce komponent uvádíme výčet všech chronologických a funkčních komponent přímo souvisejících s lokalitou. Vyplněna musí být vždy pole:</p>
-<ul>
-<li><em>Období</em> – nejistotu lze vyjádřit užitím obecnějšího hesla, nebo uvedením otazníku do pole <em>jistota</em>; přesnější dataci lze uvést do pole <code>presna_datace</code>.</li>
-<li><em>Areál</em> – uvádíme areál skutečně související s danou komponentou; v rámci jedné lokality může být identifikováno více typů areálů v různých komponentách.</li>
-<li><em>Aktivity</em> – zaškrtnou v souladu se zvoleným areálem a převažující interpretací.</li>
-</ul>
-<p>Do pole poznámka lze uvést další informace a zajímavosti dotýkající se příslušné komponenty. Ke komponentě lze (po rozkliknutí pomocí <code>+</code>) uvést signifikantní objekty identifikované v jejím rámci (např. zachovalé příkopy a valy hradišť; mohylové náspy mohylníků vč. jejich počtů apod.). U komponenty zpravidla neuvádíme movité nálezy. Vždy preferujeme co nejlépe strukturovaný zápis před zápisem do poznámky komponenty.</p>
-</section>
-<section id="specifické-údaje-o-lokalitě" class="level4">
-<h4 class="anchored" data-anchor-id="specifické-údaje-o-lokalitě">Specifické údaje o lokalitě</h4>
-<p>Tato část formuláře obsahuje data, která prozatím nejsou obsažena v datové struktuře AMČR, avšak jsou potřebná z evidenčního hlediska. V budoucnu může dojít k rozšíření datového modelu AMČR tak, aby některá základní pole byla v AMČR přímo zahrnuta (zejména jistota a zachovalost lokality).</p>
-<ul>
-<li><code>Kategorie</code> a <code>Jistota</code> Bližší <strong>specifikace konkrétní kategorie lokality tak, jak je převážně charakterizována v literatuře, a jistota pravdivosti takové interpretace</strong>. Obsažený heslář kategorie je specifický pro různé druhy lokalit podle toho, jaké kategorie považujeme za přípustné a které lokality již do evidence nepatří. Je třeba rozlišovat mezi <em>pseudolokalitami</em> (případ, kdy je snos kamenů uváděný v literatuře jako mohylník) a chybně interpretovanou skutečnou lokalitou (případ, kdy lokalita uváděná jako mohylník je ve skutečnosti zaniklá vesnice). V prvním případě bude v kategorii uveden <em>„mohylník“</em> s hodnotou <em>„pseudolokalita“</em> v poli jistota. Ve druhém případě je třeba přiřadit záznamu kategorii <em>„jiný druh (vyřadit)“</em> a v poli jistota bude hodnota <em>„jisté“</em>. Kombinace polí kategorie a jistota by měla v důsledku postihnout důvěryhodnost interpretace lokality na základě syntézy aktuálních poznatků.</li>
-<li><code>Zachovalost</code> Aktuální stav dochování terénních reliktů.</li>
-<li><code>Celk. plán</code> Odkaz na zdroj nejlepšího celkového plánu lokality (citace, URL aj.).</li>
-<li><code>LiDAR</code> Je lokalita viditelná na LiDARovém snímku?</li>
-</ul>
-<p>Uvedená základní pole mohou být pro různé druhy lokalit doplněna o další, která jsou podstatná z hlediska budoucí evidence či výzkumu.</p>
-<p>V případě evidence <strong>mohylníků</strong> jde o pole:</p>
-<ul>
-<li><code>Max. poč. mohyl</code> Maximální počet mohyl historicky identifikovaných na mohylníku.</li>
-<li><code>Akt. poč. mohyl</code> Aktuální počet reliéfně zachovalých mohyl bez zřetelného narušení.</li>
-<li><code>% intaktních</code> Orientační podíl dosud intaktních mohyl z maximálního počtu.</li>
-<li><code>Výzkum ...</code> Byla lokalita destruktivně zkoumána v uvedeném období?</li>
-</ul>
-<p>V případě evidence <strong>hradišť</strong> jde o pole:</p>
-<ul>
-<li><code>Ohrazení</code> Bylo jednoznačně identifikováno ohrazení?</li>
-<li><code>Poč. linií</code> Kolik linií ohrazení se na lokalitě nachází?</li>
-<li><code>Stará zpráva</code> Je hradiště známo ze starší literatury/NZ?</li>
-<li><code>Výzkum</code> Proběhl na hradišti terénní výzkum, který jeho existenci potvrdil?</li>
-<li>Ev. další jednotlivá pomocná pole a vazby na evidence V. Salače a J. Marounka; tyto informace slouží pouze jako zdroj.</li>
-</ul>
-<p>V případě evidence sídel zatím žádná pole systematicky nepřidáváme.</p>
-</section>
-<section id="externí-zdroje" class="level4">
-<h4 class="anchored" data-anchor-id="externí-zdroje">Externí zdroje</h4>
-<p>Externí zdroje důležité pro popis lokality by měly být zaevidovány pomocí příslušného formuláře (vyplnit je třeba zejména autora, rok vzniku a název zdroje). Takto zapsané zdroje lze následně odkazovat pomocí tabulky ve spodní části formuláře lokality, a to včetně konkrétní paginace. Pro odkazování na externí databáze vložte databázi jako jeden ze zdrojů (právě jednou, nikoli pro každý odkaz zvlášť) a v paginaci odkazu uvádějte identifikátor konkrétního záznamu.</p>
-</section>
-</section>
-<section id="popis-dokumentů" class="level3">
-<h3 class="anchored" data-anchor-id="popis-dokumentů">Popis dokumentů</h3>
-<div id="fig-lok-dok" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-lok-dok-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/lok-dtb-doc.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lok-dok-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Obr.&nbsp;3: Formulář pro popis dokumentů
-</figcaption>
-</figure>
-</div>
-<p>Pro popis dokumentů souvisejících s lokalitami (resp. dokumentujících jednotlivé lokality) slouží samostatný formulář. Principy popisu dokumentů odpovídají zvyklostem v AMČR. Dokumenty lze pomocí databáze napojovat na konkrétní lokality obsažené v databázi.</p>
-<p>Pro použití formuláře je vhodné soubory dokumentů nahrát do podsložky <code>Soubory</code> ve stejném adresáři, ve kterém se nachází databáze, a názvy souborů hromadně vložit do pole <code>odkaz_txt</code> v tabulce <code>DOKUMENT</code>. Díky tomu bude možné jednotlivé soubory přímo z formuláře otvírat a v případě obrazových dokumentů bude viditelný jejich náhled. Databázi je nutné vždy přenášet vč. podsložky <code>Soubory</code>. V takovém případě bude bez ohledu na konkrétní umístění databáze zachována plná funkčnost odkazů a náhledů.</p>
-</section>
-</section>
-<section id="prostorové-vymezení-lokalit" class="level2">
-<h2 class="anchored" data-anchor-id="prostorové-vymezení-lokalit">Prostorové vymezení lokalit</h2>
-<p>Každé dílčí databázi by měla odpovídat jedna vrstva s prostorovým vymezením lokalit v GIS. V případě potřeby lze vytvořit vrstev více (např. bodová + polygonální), avšak je třeba dbát na persistenci a jednoznačnost vrstev i údajů v nich. Při evidenci lokalit v GIS dodržujeme následující pravidla:</p>
-<ul>
-<li><p>Každému záznamu v databázi by mělo odpovídat právě jedno prostorové vymezení, provázané se záznamem pomocí pracovního ID.</p></li>
-<li><p>Základem vymezení lokality je identifikace bodem s danou přesností (1 – jednotky metrů; 2 – desítky metrů; 3 – stovky metrů; 4 – na katastr). Bod umisťujeme do logického, nikoli geometrického středu lokality (např. akropole hradiště, jádro hradu, vrchol kopce s výšinným sídlištěm apod.).</p></li>
-<li><p>Ideálem je přesné polygonální vymezení lokality, avšak i bodové vymezení lokality je pro AMČR dostatečné a přípustné. Bodová vymezení lze při zachování ID PIAN kdykoli v budoucnu nahradit přesnějším polygonálním vymezením. Polygonální vymezení by mělo respektovat (v uvedeném pořadí):</p>
-<ul>
-<li>Skutečné archeologicky identifikované hranice lokality (destruktivně i nedestruktivně).</li>
-<li>Přirozený tvar reliéfu, hranice zástavby a průběh komunikací.</li>
-<li>Parcelní členění a lomové body parcel.</li>
-</ul></li>
-<li><p>Při vymezování lokalit zpravidla užíváme nejnovější publikované plány, snímky LLS, katastrální mapy a ortofotomapy; tyto zdroje navzájem ověřujeme (zejména publikované starší plány mohou být velice nepřesné).</p></li>
-<li><p>Polygonální vymezení by měla být dostatečně podrobná, bez nepřirozených zlomů, ostrých hran apod. Pokud vymezujeme více různých lokalit v sousedství, je vhodné uvažovat nad vymezením lokalit ve vzájemné souvislosti.</p></li>
-<li><p>Prostorová vymezení „nemovitých“ lokalit (N) se mohou překrývat, prostorová vymezení „leteckých“ lokalit (L) se nikdy nepřekrývají. Lokality typu „krajina“ (K) prostorově nevymezujeme, jsou definovány hranicemi katastru.</p></li>
-<li><p>Vymezení lokality v prostoru je vždy třeba chápat jako arbitrární. Hlavním cílem je lokality vhodně zachytit z evidenčního hlediska. Lokality prostorově vymezujeme diachronicky, v jejich maximálním rozsahu, odpovídajícím všem evidovaným komponentám.</p></li>
-</ul>
-<div id="fig-lok-gis1" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-lok-gis1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/lok-gis.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lok-gis1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Obr.&nbsp;4: Příklady vymezení lokality podle leteckého snímku
-</figcaption>
-</figure>
-</div>
-<div id="fig-lok-gis2" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-lok-gis2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/lok-gis2.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lok-gis2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Obr.&nbsp;5: Příklady nevhodného a správného vymezení lokality
-</figcaption>
-</figure>
-</div>
-<p>Prostorová vymezení lokalit je třeba chápat jako jednotky PIAN, tedy persistentní entity samy o sobě. Pokud je to možné, <strong>před importem do AMČR by mělo proběhnout ztotožnění PIAN relevantních akcí s PIAN lokalit</strong>. Jde zejména o sjednocení PIAN v případě akcí dotýkajících se celé lokality nebo akcí bez bližšího prostorového určení. Rozdíl mezi akcí a lokalitou z hlediska prostorového uspořádání je dobře patrný na obrázcích <a href="#fig-lok-pian1" class="quarto-xref">Obr.&nbsp;6</a> a <a href="#fig-lok-pian2" class="quarto-xref">Obr.&nbsp;7</a>. Akce může mít vazbu k více jednotkám PIAN, lokalita jen k jedné. Naopak PIAN může mít vazbu k více akcím nebo lokalitám.</p>
-<div id="fig-lok-pian1" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-lok-pian1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/lok-pian.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lok-pian1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Obr.&nbsp;6: Vztah akce/lokality a PIAN
-</figcaption>
-</figure>
-</div>
-<div id="fig-lok-pian2" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-lok-pian2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figs/lok-pian2.png" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lok-pian2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Obr.&nbsp;7: Vztah <strong>L</strong>/<strong>N</strong> lokalit a PIAN
-</figcaption>
-</figure>
-</div>
-<p>V budoucnu lze předpokládat, že bude třeba vymezovat též prostorový rozsah jednotlivých částí lokalit, např. na základě vnitřního členění, či chronologických komponent. V takovém případě bude rozšířena možnost přidělování PIAN lokalitám podobně jako u akcí.</p>
-</section>
-<section id="archiv-digitálních-podkladů" class="level2">
-<h2 class="anchored" data-anchor-id="archiv-digitálních-podkladů">Archiv digitálních podkladů</h2>
-<p>V průběhu tvorby databáze lokalit je vhodné průběžně vytvářet pracovní archiv souvisejících digitálních podkladů, jako jsou publikované články, odkazy na weby, plánová dokumentace apod. Tato data je vhodné strukturovat podle druhů lokalit a dále pomocí složek pojmenovaných podle pracovních ID lokalit. Souborné práce není nutné jednotlivě rozdělovat, nicméně může být výhodné připravit a vy- dělit z nich např. celkové plány. Tento archiv nevzniká za účelem vstupu do AMČR, ale pro usnadnění zpracování evidenční databáze ve všech fázích. Často jde totiž o iterativní proces a k dílčím zdrojům je třeba se opakovaně vracet.</p>
-<section id="ukázka-adresářové-struktury-pro-podklady-k-databázi-hradišť" class="level4">
-<h4 class="anchored" data-anchor-id="ukázka-adresářové-struktury-pro-podklady-k-databázi-hradišť">Ukázka adresářové struktury pro podklady k databázi hradišť:</h4>
-<pre><code>hra_0588_CN1000002_Sedlo_hradiste/
-  Benes_A_1980.pdf
-  Dubsky_1938_Pravek_Susicka.pdf
-  hra_0588_e2003_plan_Albrechtice.tif
-  hra_0588_JM16_Albrechtice_u_Susice_infotabule.jpg
-  hra_0588_JM17_Albrechtice_u_Susice_e2003.jpg
-  Kopelentova_2014.pdf
-  (...)
-hra_0589_CN9000145_Albrechtice_nad_Vltavou_hradiste/
-  (...)
-hra_0590_CN9000282_Andelka_hradiste/
-  (...)
-hra_0592_XXX_Babin_vysinne_sidliste/
-  (...)</code></pre>
-<p>Důležité je zejména číselné označení lokality, zde včetně prefixu označujícího konkrétní evidenční databázi; další údaje – ID z AMČR, název lokality – jsou nepovinné, avšak usnadňují orientaci.</p>
 
 
 
-</section>
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Zdroje</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-gojda2022" class="csl-entry" role="listitem">
-Gojda, Martin, David Novák, Martin Kuna, Pavel Vavřín, a Jarmila Bíšková. 2022. <em>Metodika Zpracování a Evidence Dat Leteckého Průzkumu v Archeologii</em>. <span>Praha</span>: <span>Archeologický ústav AV ČR, Praha</span>. <a href="https://amcr-info.aiscr.cz/downloads/METODIKA_B5_ebook.pdf">https://amcr-info.aiscr.cz/downloads/METODIKA_B5_ebook.pdf</a>.
-</div>
-<div id="ref-kuna2020" class="csl-entry" role="listitem">
-Kuna, Martin, a David Novák. 2020. <span>„Zásady evidence lokalit v AMČR"</span>, říjen. <a href="https://doi.org/10.5281/zenodo.4113964">https://doi.org/10.5281/zenodo.4113964</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1217,7 +849,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/amcr/lokality.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/amcr/lokality.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/amcr/lokality.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/amcr/lokality.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
