@@ -48,3 +48,7 @@ Uživatelský účet AMČR je možné použít především na následujících 
 Uživatelské role jsou detailně popsány [zde](/o-systemu/role.qmd).
 Registrací v systému získává uživatel automaticky roli **Badatel** (**B**).
 Roli **Archeolog** (**C**) mohou získat uživatelé z [organizací s oprávněním provádět archeologický výzkum](/o-systemu/pojmy.qmd#oprávněná-archeologická-organizace) prostřednictvím doplnění dodatku ke smlouvě uzavřené s ARÚP/ARÚB.
+
+V závislosti na získané uživatelské roli (oprávnění) nabízí systém AMČR uživatelům širokou škálu nástrojů a funkcionalit. 
+Obsah uživatelských rolí v zásadě odpovídá základním typům uživatelů a očekávaným způsobům práce s informačním systémem. 
+Vždy platí, že vyšší oprávnění v sobě zahrnuje i všechna práva a možnosti oprávnění nižších, toto lze samozřejmě předpokládat i o pracovních postupech, které jsou při práci využívány. 

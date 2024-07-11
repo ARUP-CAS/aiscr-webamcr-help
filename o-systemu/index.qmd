@@ -1,3 +1,20 @@
 ---
 title: O systému
 ---
+
+::: {.callout-important}
+
+## Upozornění
+
+Následující stránka k 1. červenci 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
+Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
+
+:::
+
+Informační systém Archeologická mapa České republiky (AMČR) integruje dvě základní oblasti správy archeologického dědictví ČR. Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby nálezové zprávy. Na druhé straně jde o budování souhrnného přehledu archeologického dědictví ČR, tedy o vytvoření „národní“ databáze archeologického kulturního dědictví. Oba úkoly spolu v mnoha ohledech souvisejí, a jejich spojení proto je pro uživatele výhodné: vzniká jím jednotný systém evidence klíčových informací využitelných v celé šíři archeologické terénní, památkové a v některých ohledech i muzejní práce.
+
+
+AMČR slučuje některé dosud nespojité datové báze a operace související s jejich plněním a správou. Jde o (1) administrativní evidenci plánovaných a probíhajících terénních archeologických výzkumů; (2) shromažďování informací o odborných výsledcích archeologických terénních aktivit (jak těch prošly administrativní evidencí zmíněnou výše, tak aktivit staršího data a jiných druhů); (3) systematické podchycení dalších archeologických památek v krajině, známých především z dlouhodobého povrchového a dálkového průzkumu a (4) správu repozitáře terénní dokumentace pro účely Archeologických ústavů AV ČR v Praze a Brně (ARÚP a ARÚB), případně dalších institucí, v rozsahu daném platnou legislativou.
+
+
+Cílem zavedení systému AMČR je zvýšení efektivity v oblasti shromažďování a šíření odborných informací, což je jedním z důležitých předpokladů dalšího rozvoje oboru, a to jak v ohledu teoretického výzkumu, tak památkové péče i komunikace se širší veřejností. Základním způsobem, jak tohoto cíle má být dosaženo, je vytvoření autoritních seznamů archeologických projektů, terénních akcí, dokumentů a dalších jednotek informačního systému. Evidence těchto jednotek pomocí jednotných a persistentních identifikátorů umožňuje spolehlivě identifikovat každý z prvků archeologického fondu a vytvářet mezi prvky účelné vazby (např. nález k akci, akce k dokumentu apod.).

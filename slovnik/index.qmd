@@ -6,13 +6,13 @@ title: Základní pojmy
 
 ## Upozornění
 
-Následující stránka k 1. červenci 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
+Následující stránka k 1. červenci 2024 neprošla úplnou revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
 Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
 
 :::
 
 Řídící jednotkou evidence terénních aktivit v ČR je (v návaznosti na Archeologickou databázi Čech) „archeologická akce“, tedy jeden terénní výzkum.
-Tento pojem byl v rámci AMČR integrován do dynamického modelu archeologického výzkumu jakožto způsobu tvorby odborných poznatků (viz @fig-schema).
+Tento pojem byl v rámci AMČR integrován do dynamického modelu archeologického výzkumu jakožto způsobu tvorby odborných poznatků (viz schéma).
 V tomto modelu prochází terénní archeologický výzkum postupně několika fázemi, z nichž v každé se pracuje se specifickými pojmy a kategoriemi.
 Těmito fázemi jsou formulace odborných cílů a územní plánování; vlastní terénní práce; funkční a chronologická analýza prozkoumaného archeologického kontextu a syntéza a interpretace získaných dat.
 Poté, co poznatky dospějí do fáze syntézy, mohou být kladeny nové výzkumné otázky a dochází k další iteraci poznávacího cyklu.
@@ -36,7 +36,7 @@ Pomocným, leč také důležitou informaci nesoucím údajem jsou
 7. prostorové jednotky ([PIAN](pojmy.qmd#pian)) a
 8. bibliografické záznamy chápané jako [externí zdroje](pojmy.qmd#externí-zdroje-bibliografie).
 
-![Schéma návaznosti fází archeologického poznávacího procesu](figs/cyklus.png){#fig-schema}
+![Schéma návaznosti fází archeologického poznávacího procesu](figs/cyklus.png)
 
 ## Projekty
 
