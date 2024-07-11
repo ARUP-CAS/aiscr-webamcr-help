@@ -4,11 +4,19 @@ title: Správa projektů
 date: 2024-07-01
 ---
 
-**Projekt** je základní evidenční jednotkou terénní činnosti badatelského nebo záchranného rázu. 
-Jejich správa probíhá v AMČR v sekci [Projekty](https://amcr.aiscr.cz/projekt/){.external}. 
+::: {.callout-important}
+
+## Upozornění
+
+Na obsahu této stránky právě pilně pracujeme, zatím je rozpracovaná a informace uvedené zde nemusí nutně dávat smysl.
+
+:::
+
+**Projekt** je základní evidenční jednotkou terénní činnosti badatelského nebo záchranného rázu, více viz [slovník pojmů](/slovnik/index.qmd#projekty). 
+Jejich správa probíhá v AMČR v modulu [Projekty](https://amcr.aiscr.cz/projekt/){.external}, který se zobrazuje jen uživatelům s úrovní *archeolog* a vyšší. 
 Zde je možné projekty zapisovat a k již existujícím projektům doplňovat informace a posouvat je jednotlivými procesními stavy.
 
-Správu projektů mohou provádět pouze uživatelé s oprávněním [Archeolog](/o-systemu/role.qmd), tedy registrovaní archeologové z [oprávněných organizací](/o-systemu/pojmy.qmd#oprávněná-archeologická-organizace).
+Správu projektů mohou provádět pouze uživatelé s oprávněním [Archeolog](/o-systemu/role.qmd), tedy registrovaní archeologové z [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace).
 
 ## Videonávod
 
