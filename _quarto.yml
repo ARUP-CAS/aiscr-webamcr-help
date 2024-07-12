@@ -22,7 +22,7 @@ website:
   navbar:
     background: dark
     search: true
-    pinned: false
+    pinned: true
     logo: figs/cover_g.png
     left:
       - text: Úvod
