@@ -54,10 +54,10 @@ website:
         - zakladni-info/zakladni-info.qmd
         - zakladni-info/ucty.qmd
         - zakladni-info/historie.qmd
-      footer: |
-        **{{< fa skull-crossbones >}}  Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!**  
-        Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR. 
-        Platná nápověda je [zde](https://amcr-info.aiscr.cz/help).
+      # footer: |
+      #   **{{< fa skull-crossbones >}}  Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!**  
+      #   Tyto stránky jsou ve výstavbě a informace, které obsahují, nemusí být platné pro aktuálně spuštěné verze nástrojů AMČR. 
+      #   Platná nápověda je [zde](https://amcr-info.aiscr.cz/help).
 
     - id: o-systemu
       contents:
@@ -109,11 +109,13 @@ website:
         - section: Tutoriály
           contents:
               - amcr/amcr-pas/foto.qmd
+              - text: Import PIAN z CSV  
+                href: amcr/pian-import.qmd
               - amcr/drobne-akce.qmd
               - text: Zápis správného typu dokumentačních jednotek
                 href: amcr/dj.qmd
               - amcr/adb.qmd
-              - href: amcr/lokality-metodika.qmd
+              - amcr/lokality-metodika.qmd
               - text: Metodika tvorby plánů na základě šikmých leteckých snímků
                 href: https://doi.org/10.5281/zenodo.7925830
                 icon: box-arrow-up-right
