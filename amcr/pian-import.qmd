@@ -1,6 +1,6 @@
 ---
 title: Import geometrie PIAN pomocí CSV souboru
-subtitle: fuubar 
+# subtitle: fuubar 
 author: 
   - name: Ondřej Švejcar
   - name: David Novák
@@ -78,7 +78,7 @@ Všechna textová pole v CSV vč. geometrií by měla být obalena oddělovače
 7. Připravený soubor uložte ve formátu CSV:
     i. `Soubor` -- `Uložit jako` -- `Text CSV (.csv)`;
     i. pokud vyskočí upozornění na kontrolu správného formátu, které nabízí možnost uložit jako ODF potvrdíme, že správně je CSV (`Použít formát Text CSV`);  
-    ![](figs/pian04.png){width="60%" fig-align="center"}  
+    ![](figs/pian04.png){width="60%" fig-align="center"}
     i. v následujícím dialogovém okně pro export nastavíme tyto parametry: 
         - Znaková sada: `Unicode (UTF-8)`;
         - Oddělovač pole: `,` (čárka);
@@ -120,7 +120,7 @@ Výsledný soubor může vypadat např. takto:
 
 2. Vrstvu exportujeme jako WKT:
     i. kliknout pravým tlačítkem na vrstvu v seznamu vrstev -- `Export` -- `Uložit prvky jako...`;  
-      ![](figs/pian09.png){width="100%" fig-align="center"}  
+      ![](figs/pian09.png){width="100%" fig-align="center"}
     i. v nastavení exportu zvolíme:
         - typ geometrie (GEOMETRY): `AS_WKT`;
         - oddělovač (SEPARATOR): `COMMA`;
