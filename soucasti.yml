@@ -25,6 +25,6 @@
   description: |
     Manuál popisuje API rozhraní, pomocí kterého lze získávat metadatové záznamy
     z databáze AMČR, a to pomocí protokolu OpenArchives Initiative Protocol
-    for Metadata Harvesting (OAI-PMH).
-  href: api/index.qmd
+    for Metadata Harvesting (OAI-PMH). Manuál k API je pouze v Anglickém jazyce.
+  href: https://api.aiscr.cz/
   image: figs/thumb_pin_bits.svg

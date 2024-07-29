@@ -24,13 +24,13 @@ listing:
 
 Uživatelská dokumentace AMČR je členěna do několika úrovní:
 
-- Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/index.qmd) o celém systému, nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd).
+- Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/zakladni-info.qmd) o celém systému, nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd).
 - V sekci [O systému](o-systemu/index.qmd) je rámcově popsán používaný datový model a struktura systému, řízené slovníky apod.;
 - Následují sekce pro jednotlivé součásti AMČR:
   - [webovou aplikaci AMČR](amcr/index.qmd) jako hlavní rozhraní pro práci s daty AMČR;
   - [Digitální archiv AMČR](digiarchiv/index.qmd), který slouží k prohlížení a vyhledávání v AMČR; 
-  - a [API](api/index.qmd), které prostřednictvím protokolu OAI-PMH umožňuje hromadné sklízení dat AMČR.
-- Sekce [Zpravodaj](zpravodaj/index.qmd) pak obsahuje jednotlivá vydání občasníku určeného uživatelům AMČR.
+  - [API](https://api.aiscr.cz/){.external}, které prostřednictvím protokolu OAI-PMH umožňuje hromadné sklízení dat AMČR, je pak popsáno na samostané stránce.
+- Sekce [Zpravodaj](zpravodaj/index.qmd) obsahuje jednotlivá vydání občasníku určeného uživatelům AMČR.
 
 
 ## Služby AIS CR
