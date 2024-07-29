@@ -113,10 +113,10 @@ website:
           contents:
               - text: Import PIAN z CSV  
                 href: amcr/pian-import.qmd
-              - text: Akce drobného rozsahu
-                href: amcr/drobne-akce.qmd
               - text: Zápis správného typu dokumentačních jednotek
                 href: amcr/dj.qmd
+              - text: Akce drobného rozsahu
+                href: amcr/drobne-akce.qmd
               - text: Zápis ADB 
                 href: amcr/adb.qmd
               - text: Fotografická dokumentace nálezů
