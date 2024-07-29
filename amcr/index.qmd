@@ -25,8 +25,8 @@ format-links: false
 ### Správa akcí, zápis dokumentačních jednotek a PIAN
 
 - Jak připravit [importní CSV s geometrií PIAN](pian-import.qmd) z QGIS, v textovém editoru a za pomoci online převodníku.
-<!-- - [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd). -->
-<!-- - Návod k zápisu [Archeologických dokumentačních bodů (ADB)](akce/adb.qmd) v rámci Pražské památkové rezervace. -->
+- Pokyny pro [volbu a zápis správného typu dokumentačních jednotek](dj.qmd).
+- Návod k zápisu [Archeologických dokumentačních bodů (ADB)](adb.qmd) v rámci Pražské památkové rezervace.
 - Postup pro zpracování nálezových zpráv z [archeologických akcí drobného rozsahu](drobne-akce.qmd).
 
 

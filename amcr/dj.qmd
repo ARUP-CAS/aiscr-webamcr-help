@@ -8,10 +8,11 @@ title: "Pokyny pro volbu a zápis správného typu dokumentačních jednotek"
 
 Následující stránka k 1. srpnu 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
 Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
+V neposlední řadě na této stránce zcela chybí screenshoty z nových verzí nástrojů.
 
 :::
 
-Při popisu archeologických [akcí](pojmy.qmd#akce) v AMČR nastávají situace, kdy je třeba vytvořit více než jednu [dokumentační jednotku](pojmy.qmd#dokumentační-jednotky) (DJ).
+Při popisu archeologických [akcí](/slovnik/index.qmd#akce) v AMČR nastávají situace, kdy je třeba vytvořit více než jednu [dokumentační jednotku](/slovnik/index.qmd#dokumentační-jednotky) (DJ).
 V takových případech je třeba zvolit správný typ těchto DJ.
 Na výběr máme ze dvou možností.
 První z nich je situace, kdy první vytvořená *DJ* reprezentuje **Celek akce** a všechny další *DJ* jsou pak **Částmi akce**.
@@ -20,11 +21,11 @@ Volba konkrétního typu, nebo typů *DJ* závisí na charakteru akce a způsobu
 
 Dokumentační jednotku **Celek akce** volíme když:
 
-- Celou akci lze jednotně popsat a vymezit ji právě jedním [PIAN](pojmy.qmd#pian) (bod, linie, polygon).
+- Celou akci lze jednotně popsat a vymezit ji právě jedním [PIAN](/slovnik/index.qmd#pian) (bod, linie, polygon).
 
 Dokumentační jednotku **Celek akce** a **Část akce** volíme když:
 
-- V rámci akce existuje jedna či více částí, které mají jiný popis (evidované [komponenty](pojmy.qmd#komponenty)) než celek akce a je vhodné vyčlenit pro ně vlastní PIAN.
+- V rámci akce existuje jedna či více částí, které mají jiný popis (evidované [komponenty](/slovnik/index.qmd#komponenty)) než celek akce a je vhodné vyčlenit pro ně vlastní PIAN.
 
     Např. prostorově omezená pozitivní komponenta v rámci negativního rozsáhlého celku (typické pro rozsáhlejší liniové akce často spojené s inženýrskými sítěmi, ale i pro rozsáhlejší plošné akce).
 
@@ -42,7 +43,7 @@ Dokumentační jednotku **Sonda** volíme když:
 
     Např. sektory pravidelné sítě povrchových sběrů popisované samostatně.
 
-![Schéma základních pravidel pro výběr správného typu *DJ*](figs/dj-schema.png){#fig-dj-schema}
+![Schéma základních pravidel pro výběr správného typu *DJ*](figs/dj-schema.png)
 
 <!-- ![Vizualizace typických příkladů použití jednotlivých typů DJ](){#fig-dj-typy} -->
 
@@ -61,7 +62,7 @@ Jedním z typických příkladů použití *DJ* typu **Celek akce** a **Část a
 V těchto případech je trasa výkopu zanesena do AMČR jako celek akce (dokumentační jednotka `D01`), který je negativní a polohy s pozitivním archeologickým zjištěním jsou pak vyznačeny jako část akce v rámci nadřazeného celku (`D02` a `D03`).
 Může se jednat o bodové či liniové vymezení, které reflektuje situaci v terénu.
 K této části akce jsou pak navázány příslušné komponenty s jejich popisem.
-Zobrazení v mapovém okně a zápis v AMČR jsou patrné z @fig-dj-linie a @fig-dj-linie-z.
+Zobrazení v mapovém okně a zápis v AMČR jsou patrné z následujících obrázků.
 
 <!-- ![Celek a Část akce -- zakreslení PIAN v mapovém okně](){#fig-dj-linie} -->
 
@@ -73,7 +74,7 @@ Jedním z typických příkladů použití dokumentačních jednotek typu **Sond
 V těchto případech je třeba akci rozdělit do dílčích dokumentačních jednotek, kdy rozsah každé *DJ* je možné vyznačit pomocí PIAN, který má podobu linie, jejíž trasa se nevrací po stejné trase.
 Celý rozsah akce je pak reprezentován dílčími *DJ* (`D01` až `D03`), kdy tyto *DJ* jsou typu sonda.
 Jednotlivé line těchto *DJ* se pak samozřejmě vzájemně mohou křížit.
-Zobrazení v mapovém okně a zápis v AMČR jsou patrné z @fig-dj-linie2 a @fig-dj-linie2-z.
+Zobrazení v mapovém okně a zápis v AMČR jsou patrné z následujících obrázků.
 
 <!-- ![Sondy -- zakreslení správného vymezení PIAN](){#fig-dj-linie2} -->
 
@@ -83,7 +84,7 @@ Zobrazení v mapovém okně a zápis v AMČR jsou patrné z @fig-dj-linie2 a @fi
 
 Nesprávnou formou zápisu je v těchto případech situace, kdy je celý rozsah akce vyznačen pouze pomocí jediné dokumentační jednotky, jejíž PIAN se opakovaně vrací po stejné trase tak, aby vyznačil celý rozsah akce.
 Přestože aplikace umožňuje vyznačit takovýto PIAN, jedná se o neplatnou geometrii, která porušuje topologická pravidla, kdy se v rámci jedné linie nesmí její segmenty překrývat či křížit.
-Příklad nesprávného zakreslení PIAN ukazuje obr. @fig-dj-badlinie a @fig-dj-badlinie-z.
+Příklad nesprávného zakreslení PIAN ukazují následujících obrázky.
 
 Výhodou správného zápisu akcí podobného typu pomocí dílčích dokumentačních jednotek typu sonda je pak to, že je zde velká pravděpodobnost, že bude možné jejich PIAN využívat opakovaně i pro další akce.
 PIAN starších akcí již zapsaných v AMČR je možné využít za předpokladu, že jeho typ, rozsah a přesnost odpovídá nově zaznamenávané akci.
@@ -100,7 +101,7 @@ Pravděpodobnost, že by se dvě akce s komplikovaným průběhem PIAN zcela př
 Variantou zápisu více *DJ* u liniových akcí je pak situace, kdy se na prostorově omezených částech akce vyskytují pozitivní archeologické situace, přičemž ostatní části jsou negativní.
 V těchto případech postupujeme obdobně jako v případě příkladu z použití [celku a části akce](dj.qmd#dlouhé-liniové-akce), tedy že jako pozitivní budou vyznačeny jen skutečně pozitivní místa na trase akce (`D04`), zatímco rozsah akce budu vyznačen jako negativní (`D01` až `D03`).
 Všechny dokumentační jednotky budou však v tomto případě typu sonda.
-Zobrazení v mapovém okně a zápis v AMČR jsou patrné z @fig-dj-sonda a @fig-dj-sonda-z.
+Zobrazení v mapovém okně a zápis v AMČR jsou patrné z následujících obrázků.
 
 <!-- ![Sondy -- zápis liniových PIAN s vymezením pozitivní části akce](){#fig-dj-sonda} -->
 
@@ -114,15 +115,15 @@ Jako *DJ* **Celek akce** evidujeme celou plochu zasaženou stavební činností.
 Stejně jako u příkladu [dlouhých liniových akcí](dj.qmd#dlouhé-liniové-akce) platí, že části akce prostorově podléhají vymezenému celku.
 
 Fiktivní investiční záměr výstavby halového komplexu na zelené louce.
-V rámci akce byla provedena celoplošná skrývka, kterou vedoucí akce evidoval jako *DJ* `D01` -- **Celek akce** (@fig-dj-plocha).
+V rámci akce byla provedena celoplošná skrývka, kterou vedoucí akce evidoval jako *DJ* `D01` -- **Celek akce**.
 Ve skrytém materiálu byly napříč plochou nahodile dislokovány fragmenty novověké keramiky, které vedoucí výzkumu vyhodnotil jako sekundárně přemístěný odpad a evidoval je jako samostatnou komponentu `K01`.
 Ve východní části plochy byl zachycen okraj sídliště LnK.
 Dále byla v západní části plochy zachycena skupina hrobů únětické kultury.
 Zbytek plochy byl skryt na podloží a bylo možné jej z hlediska archeologie prohlásit za negativní.
-Plocha LnK sídliště byla vymezena *DJ* `D02` **Část akce** s odpovídající komponentou `K02` (@fig-dj-plocha1).
-Analogicky tomu byla vymezena i *DJ* `D03`, s komponentou `K03` (@fig-dj-plocha2).
+Plocha LnK sídliště byla vymezena *DJ* `D02` **Část akce** s odpovídající komponentou `K02`.
+Analogicky tomu byla vymezena i *DJ* `D03`, s komponentou `K03`.
 Rovněž by bylo možné vymezit akci jednou *DJ* celek akce, která by obsahovala všechny zmíněné komponenty, čímž by ale došlo ke zkreslení celkové informace na zkoumané ploše.
-Zápis v AMČR pak ukazuje @fig-dj-plocha-z.
+Zápis v AMČR pak ukazuje následující obrázek.
 
 <!-- ![Celek a Část akce -- zakreslení plošného vymezení PIAN](){#fig-dj-plocha} -->
 
@@ -136,10 +137,10 @@ Zápis v AMČR pak ukazuje @fig-dj-plocha-z.
 
 Výstavba fiktivního úseku dálnice.
 Trasa úseku dálnice byla rozdělena na jednotlivé plochy, které byly v rámci NZ vyhodnocovány odděleně.
-Členění *DJ* bylo zvoleno tak, aby *DJ* **Celek akce** `D01` odpovídal celé ploše terénního zásahu v rámci dotčeného úseku dálnice (@fig-dj-dalnic).
-**Části akce** `D02`, `D03`, `D04` pak odpovídají formálnímu rozdělení úseků tak, jak si je zvolila oprávněná organizace (@fig-dj-dalnic1).
+Členění *DJ* bylo zvoleno tak, aby *DJ* **Celek akce** `D01` odpovídal celé ploše terénního zásahu v rámci dotčeného úseku dálnice.
+**Části akce** `D02`, `D03`, `D04` pak odpovídají formálnímu rozdělení úseků tak, jak si je zvolila oprávněná organizace.
 Komponenty jsou navázány pouze na úseky, kde došlo k pozitivnímu zjištění, tedy na úsek vymezený *DJ* `D03` s komponentami `K01` a `K02`.
-Ostatní úseky, vymezené *DJ* `D02` a `D04`, komponenty neobsahují, protože byly z archeologického hlediska negativní (@fig-dj-dalnic-z).
+Ostatní úseky, vymezené *DJ* `D02` a `D04`, komponenty neobsahují, protože byly z archeologického hlediska negativní.
 
 <!-- ![Celek a Část akce -- zakreslení plošného vymezení PIAN](){#fig-dj-dalnic} -->
 
@@ -157,7 +158,7 @@ V rámci předběžné prospekce byly metodou povrchových sběrů prozkoumány 
 Vzhledem k terénní konfiguraci byla každá z nich vyhodnocována samostatně, čemuž odpovídá i jejich vymezení *DJ* **Sonda**.
 Každé sondě byly přiřazeny komponenty, které odpovídají obsahu nálezového fondu.
 V tomto případě nelze použít *DJ* celek akce a část akce, neboť prostor mezi jednotlivými sondami nebylo vzhledem k přítomnosti místních komunikací možné zkoumat.
-Zobrazení v mapovém okně a zápis v AMČR jsou patrné z @fig-dj-nesp a @fig-dj-nesp-z.
+Zobrazení v mapovém okně a zápis v AMČR jsou patrné z následujících obrázků.
 
 <!-- ![Sondy -- plošné vymezení PIAN](){#fig-dj-nesp} -->
 
