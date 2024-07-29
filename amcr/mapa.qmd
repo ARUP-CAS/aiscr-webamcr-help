@@ -79,7 +79,7 @@ V případě, že při kliknutí není zoom dostatečný, dojde k přiblížení
 
 ## Lokalizace pomocí PIAN
 
-U Akcí, Samostatných akcí a Lokalit lze vytvářet plnohodnotné [PIANy](/slovnik/index.qmd/#pian) (prostorová identifikace archeologického nálezu).
+U Akcí, Samostatných akcí a Lokalit lze vytvářet plnohodnotné [PIANy](/slovnik/index.qmd#pian) (prostorová identifikace archeologického nálezu).
 PIAN může být jak bod, tak linie či polygon.
 Pro jejich vyznačení v mapě slouží nástroje:
 ![](figs/map-draw.png){.column-margin}
