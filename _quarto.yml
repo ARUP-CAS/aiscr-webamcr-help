@@ -7,7 +7,7 @@ website:
   title: "Dokumentace AMČR"
   favicon: figs/cover.png
   repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
-  repo-actions: [source, edit, issue]
+  # repo-actions: [source, edit, issue]
   page-navigation: true
   google-analytics:
     tracking-id: "G-S3BT2B2SPF"
@@ -34,7 +34,9 @@ website:
       - text: Digitální archiv AMČR
         href: digiarchiv/index.qmd
       - text: AMČR API
-        href: api/index.qmd
+        href: https://api.aiscr.cz
+        icon: box-arrow-up-right
+        target: _blank
       - text: Slovník pojmů
         href: slovnik/index.qmd
     right:
@@ -95,8 +97,8 @@ website:
             - section: AMČR-PAS
               href: amcr/amcr-pas/index.qmd
               contents:
-                - amcr/amcr-pas/faq-spolupracovnici.qmd
-                - amcr/amcr-pas/faq-archeologove.qmd
+                # - amcr/amcr-pas/faq-spolupracovnici.qmd
+                # - amcr/amcr-pas/faq-archeologove.qmd
                 - amcr/amcr-pas/amater.qmd
                 - amcr/amcr-pas/archeolog.qmd
             - text: "Správa dokumentů"
@@ -112,9 +114,9 @@ website:
               - text: Import PIAN z CSV  
                 href: amcr/pian-import.qmd
               - amcr/drobne-akce.qmd
-              - text: Zápis správného typu dokumentačních jednotek
-                href: amcr/dj.qmd
-              - amcr/adb.qmd
+              # - text: Zápis správného typu dokumentačních jednotek
+              #   href: amcr/dj.qmd
+              # - amcr/adb.qmd
               - amcr/lokality-metodika.qmd
               - text: Metodika tvorby plánů na základě šikmých leteckých snímků
                 href: https://doi.org/10.5281/zenodo.7925830
@@ -142,9 +144,9 @@ website:
               icon: box-arrow-up-right
               target: _blank
       
-    - id: manual-api
-      contents:
-        - api/index.qmd
+    # - id: manual-api
+    #   contents:
+    #     - api/index.qmd
 
     - id: pojmy
       contents:
@@ -191,12 +193,12 @@ format:
       sidebar-width: 250px
       body-width: 1000px
       margin-width: 300px
-  pdf:
-    documentclass: scrarticle
-    papersize: a4wide
-    lot: false
-    lof: false
-  docx: default
+  # pdf:
+  #   documentclass: scrarticle
+  #   papersize: a4wide
+  #   lot: false
+  #   lof: false
+  # docx: default
 
 execute:
   freeze: auto
