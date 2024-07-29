@@ -1,6 +1,6 @@
 ---
-title: "Zápis ADB"
-subtitle: "Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace"
+title: Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace
+# subtitle: 
 ---
 
 ::: {.callout-important}

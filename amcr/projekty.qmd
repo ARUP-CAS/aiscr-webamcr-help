@@ -1,22 +1,13 @@
 ---
 title: Správa projektů
 # subtitle: 
-date: 2024-07-01
+date: 2024-07-29
 ---
 
-::: {.callout-important}
-
-## Upozornění
-
-Na obsahu této stránky právě pilně pracujeme, zatím je rozpracovaná a informace uvedené zde nemusí nutně dávat smysl.
-
-:::
-
 **Projekt** je základní evidenční jednotkou terénní činnosti badatelského nebo záchranného rázu, více viz [slovník pojmů](/slovnik/index.qmd#projekty). 
-Jejich správa probíhá v AMČR v modulu [Projekty](https://amcr.aiscr.cz/projekt/){.external}, který se zobrazuje jen uživatelům s úrovní *archeolog* a vyšší. 
+Jejich správa probíhá v AMČR v modulu [Projekty](https://amcr.aiscr.cz/projekt/){.external}, který se zobrazuje jen uživatelům s úrovní oprávnění [archeolog](/o-systemu/role.qmd) a vyšší. 
 Zde je možné projekty zapisovat a k již existujícím projektům doplňovat informace a posouvat je jednotlivými procesními stavy.
-
-Správu projektů mohou provádět pouze uživatelé s oprávněním [Archeolog](/o-systemu/role.qmd), tedy registrovaní archeologové z [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace).
+Správu projektů mohou provádět pouze uživatelé s oprávněním [archeolog](/o-systemu/role.qmd), tedy registrovaní archeologové z [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace).
 
 ## Videonávod
 
@@ -25,60 +16,153 @@ Videonávod ukazuje celý proces, který se týká správy projektů a akcí od 
 
 {{< video https://youtu.be/eJ_H6Tonj9Y?si=zyCa4qXBjETU_jkJ >}}
 
-## Návod 
 
-::: {.column-page}
+## Klíčové procesní stavy projektů
+
+Konkrétní procesní stav každého projektu, spolu s datem, kdy ke změně v daném stavu došlo, je viditelný v záhlaví detailu projektu.
+Po kliknutí na časovou osu s bublinami procesních stavů se zobrazí detail historie daného projektu.
 
 ![](figs/proj-stavy.png)
 
-:::
+### Zápis projektu
 
-### Klíčové procesní stavy projektů
-
-#### Zápis projektu
 Projekt jako záznam v AMČR je zakládán zpravidla v okamžiku, kdy je některému z archeologických ústavů AV ČR či jiné oprávněné organizaci v intencích památkového či stavebního zákona oznámeno, že má dojít k terénnímu zásahu, který vyžaduje archeologický terénní zásah, nebo že již přímo došlo k porušení archeologických terénů. 
 V této fázi je definován zejména osobou investora nebo oznamovatele, územním vymezením (slovním, administrativním a lokalizací v mapě), základní slovní charakteristikou předpokládaného terénního zásahu a předpokládaným zahájením terénních prací. 
-V této fázi není tento tzv. Zapsaný projekt ještě přidělen žádné oprávněné organizaci k provedení archeologického výzkumu a je tedy všem uživatelům s oprávněním Archeolog přístupný k prohlédnutí, ale i k registraci pro provedení archeologického terénního výzkumu. 
-Zvláštním typem projektu je projekt “badatelský”, který je vyvolán cíleným vědeckým záměrem, a nikoliv plánovaným terénním zásahem třetí strany. 
-Druhým zvláštním typem projektu je projekt typu “průzkum”, který je opět vyvolán cíleným vědeckým záměrem a zpravidla jej definuje plánovaná dlouhodobost nebo velký územní rozsah, ale metodologicky jde o archeologický výzkum nedestruktivní nebo málo destruktivní, tedy s minimálním zásahem do terénu.
+V této fázi není tento tzv. **Zapsaný projekt** ještě přidělen žádné [oprávněné organizaci](/slovnik/index.qmd#oprávněná-archeologická-organizace) k provedení archeologického výzkumu a je tedy všem uživatelům s oprávněním *archeolog* přístupný k prohlédnutí, ale i k registraci pro provedení archeologického terénního výzkumu. 
+Zvláštním typem projektu je projekt **badatelský**, který je vyvolán cíleným vědeckým záměrem, a nikoliv plánovaným terénním zásahem třetí strany. 
+Druhým zvláštním typem projektu je projekt typu **průzkum**, který je opět vyvolán cíleným vědeckým záměrem a zpravidla jej definuje plánovaná dlouhodobost nebo velký územní rozsah, ale metodologicky jde o archeologický výzkum nedestruktivní nebo málo destruktivní, tedy s minimálním zásahem do terénu.
 
-#### Přihlášení projektu 
-V okamžiku, kdy oprávněná organizace uzavře dohodu s investorem o provedení archeologického výzkumu, může její pověřený pracovník projekt přihlásit, tj. provést změnu jeho stavu na tzv. Přihlášený projekt. Tímto krokem se příslušná oprávněná organizace stává „správcem záznamu“ a doplňuje k němu další údaje v rámci vlastního projektu i v rámci k němu připojené projektové akce (údaje o odpovědných pracovnících, má možnost k záznamu připojit soubory, jako např. odborný záměr výzkumu, relevantní části stavební dokumentace či dohodu s investorem).
+
+### Přihlášení projektu 
+
+V okamžiku, kdy oprávněná organizace uzavře dohodu s investorem o provedení archeologického výzkumu, může její pověřený pracovník projekt přihlásit, tj. provést změnu jeho stavu na tzv. **přihlášený projekt**. 
+Tímto krokem se příslušná oprávněná organizace stává správcem záznamu a doplňuje k němu další údaje v rámci vlastního projektu i v rámci k němu připojené projektové akce (údaje o odpovědných pracovnících, má možnost k záznamu připojit soubory, jako např. odborný záměr výzkumu, relevantní části stavební dokumentace či dohodu s investorem apod.)
 V případě badatelských projektů se postupuje obdobným způsobem, z logiky věci však odpadá identifikace investora a naopak zde přibývá dokumentace nezbytná pro povolení badatelského výzkumu autoritami na poli archeologické památkové péče.
-Po přihlášení projektu je jeho editace možná pouze pro příslušnou oprávněnou organizaci případně pro administrátory systému. Přihlášené projekty v různých stavech rozpracování je možné vyhledat v sekci Naše projekty.
+Po přihlášení projektu je jeho editace možná pouze pro příslušnou oprávněnou organizaci, případně pro administrátory systému. 
 Pro přihlášení projektu je třeba vyplnit povinné informace, konkrétně odpovědnou osobu přihlašované organizace a úroveň památkové ochrany území, na kterém je projekt lokalizován.
 
-#### Zahájení terénu
-U projektů, u kterých dojde k zahájení terénní činnosti zaznamená pracovník oprávněné organizace neprodleně datum zahájení a převede tak projekt do stavu Zahájen v terénu, ve kterém zůstává až do ukončení terénních prací. 
-Tento krok je zároveň podle “Dohody o využívání AMČR” považován za splnění povinnosti oprávněné archeologické organizace oznámit zahájení archeologické akce Archeologickému ústavu AV ČR.
 
-#### Ukončení terénu
-Po ukončení terénní části projektu zaznamená odpovědný pracovník oprávněné organizace opět toto datum do systému a převede tak projekt do stavu Ukončen v terénu. Ukončením terénních prací začíná v AMČR běžet systémová lhůta pro podání informací o výsledcích výzkumu, která trvá 3 roky.
+### Zahájení terénu
 
-#### Správa akcí
-Terénní část archeologického výzkumu se realizuje formou archeologických akcí (v rámci projektu zpravidla jedné, ale může jich být i více), o nichž je po ukončení terénní části nutno v zákonné lhůtě podat nálezovou zprávu doplněnou o základní strukturovaný popis terénního výzkumu (Zprávu o archeologické akci). 
-
-#### Uzavření projektu
-V okamžiku, kdy jsou všechny odborné informace a související dokumenty prostřednictvím aplikace AMCR podány, uživatel projekt uzavře. Pracovníci ARÚP či ARÚB pak provedou věcnou i formální kontrolu předložených informací a dokumentů, na jejímž základě mohou hlášení o akci, nálezovou zprávu či celý záznam o projektu vrátit k dopracování, nebo prohlásí projekt a záznamy o jeho odborných výsledcích – archeologických akcích za archivovaný projekt a archivované akce. Poté dochází k jejich zveřejnění v systému AMČR pro další uživatele.
-Navržení ke zrušení
-Některé ze zapsaných či přihlášených projektů nemusí být realizovány, neboť stavebník může od realizace projektu odstoupit či změní jeho parametry tak, že archeologický zásah nadále není zapotřebí nebo z jiného důvodu není terénní výzkum proveden. V tom případě může každá oprávněná organizace navrhnout, s patřičným odůvodněním, zapsaný či přihlášený projekt ke zrušení, které provede příslušný administrátor z ARÚP či ARÚB. Stejným způsobem může oprávněná organizace upozornit na změnu provádějící oprávněné organizace u konkrétního projektu.
+U projektů, u kterých dojde k zahájení terénní činnosti zaznamená pracovník oprávněné organizace neprodleně datum zahájení a převede tak projekt do stavu **zahájen v terénu**, ve kterém zůstává až do ukončení terénních prací. 
+Tento krok je zároveň podle *Dohody o využívání AMČR* považován za splnění povinnosti oprávněné archeologické organizace oznámit zahájení archeologické akce archeologickým ústavům AV ČR.
 
 
+### Ukončení terénu
 
-## Zapsat projekt
+Po ukončení terénní části projektu zaznamená odpovědný pracovník oprávněné organizace opět toto datum do systému a převede tak projekt do stavu **ukončen v terénu**. 
+Ukončením terénních prací začíná v AMČR běžet systémová lhůta pro podání informací o výsledcích výzkumu, která trvá 3 roky.
 
-## Přihlásit projekt
 
-## Zahájit terén
+### Správa akcí
 
-## Ukončit terén
+Terénní část archeologického výzkumu se realizuje formou archeologických akcí (v rámci projektu zpravidla jedné, ale může jich být i více), o nichž je po ukončení terénní části nutno ve smluvené lhůtě podat nálezovou zprávu doplněnou o základní strukturovaný popis terénního výzkumu ([Zprávu o archeologické akci](/slovnik/index.qmd#zpráva-o-archeologické-akci-ZAA)). 
 
-## Spravovat akce
 
-## Uzavřít projekt
+### Uzavření projektu
 
-## Vybrat projekt
+V okamžiku, kdy jsou všechny odborné informace a související dokumenty prostřednictvím aplikace AMČR podány, uživatel projekt uzavře. 
+Pracovníci ARÚP či ARÚB pak provedou věcnou i formální kontrolu předložených informací a dokumentů, na jejímž základě mohou hlášení o akci, nálezovou zprávu či celý záznam o projektu vrátit k dopracování, nebo prohlásí projekt a záznamy o jeho odborných výsledcích – archeologických akcích, za archivovaný projekt a archivované akce. 
+Poté dochází k jejich zveřejnění v systému AMČR pro další uživatele.
 
-![](./figs/proj-vybrat.png)
 
-- Karta **Vybrat** umožňuje filtrovat projekty na základě různých kritérií.
+### Navržení ke zrušení
+
+Některé ze zapsaných či přihlášených projektů nemusí být realizovány, neboť stavebník může od realizace projektu odstoupit či změní jeho parametry tak, že archeologický zásah nadále není zapotřebí nebo z jiného důvodu není terénní výzkum proveden. 
+V tom případě může každá oprávněná organizace navrhnout, s patřičným odůvodněním, zapsaný či přihlášený projekt ke zrušení, které provede příslušný administrátor z ARÚP či ARÚB. 
+Stejným způsobem může oprávněná organizace upozornit na změnu provádějící oprávněné organizace u konkrétního projektu.
+
+
+## Návod 
+
+Modul [Projekty](https://amcr.aiscr.cz/projekt/){.external} nabízí sadu karet, které vedou k výběru projektů v patřičných procesních stavech. 
+
+![](figs/proj-karty.png){width="90%" fig-align="center"}
+
+
+### Zapsat
+
+Karta umožňuje zápis nového projektu. 
+Katastrální území projektu (pole `Hlavní katastr*`) je vyplněno dle lokalizace projektu v mapě (pomocí bodu).
+Po zápisu projektu se zobrazí detailní náhled na projekt a projektu je přidělen unikátní identifikátor.
+Dále je možné projekt navrhnout ke zrušení, přihlásit apod.
+
+![](figs/proj-zapsat.png){width="90%" fig-align="center"}
+
+
+### Přihlásit
+
+Karta `Přihlásit` nabízí výběr všech projektů, které jsou pouze ve stavu **zapsaný** a jsou tedy volné pro přihlášení.
+Projekt přihlásíme v horní liště vpravo pomocí tlačítka `Přihlásit`.
+
+![](figs/proj-prihlasit1.png){width="40%" fig-align="center"}
+
+Posuny mezi jednotlivými stavy probíhají ve vyskakovacích oknech, kde pro postup do dalšího procesního stavu (tedy přihlášení projektu) musíme vyplnit pole podbarvená žlutě.  
+
+![](figs/proj-prihlasit2.png){width="80%" fig-align="center"}
+
+
+### Zahájit terén
+
+Karta `Zahájit terén` nabízí výběr všech projektů, které jsou ve stavu **přihlášený** (a byly přihlášeny mojí organizací) a je u nich možné zahájit terénní části projektu.
+Projekt zahájíme opět tlačítkem `Zahájit terén`.
+
+![](figs/proj-zahajit1.png){width="50%" fig-align="center"}
+
+Pro zahájení terénu je potřeba zadat datum zahájení terénních prací pomocí kalendáře.
+
+![](figs/proj-zahajit2.png){width="80%" fig-align="center"}
+
+
+### Ukončit terén
+
+Karta `Ukončit terén` nabízí výběr všech projektů mé organizace, které jsou ve stavu z*ahájen v terénu* a je u nich možné ukončit terénní části projektu.
+Projekt ukončíme obdobně jako v předchozím případě kliknutím na tlačítko `Ukončit terén` a zadáním data konce terénních prací výběrem z kalendáře.
+
+![](figs/proj-ukoncit.png){width="50%" fig-align="center"}
+
+
+### Spravovat akce
+
+Karta `Spravovat akce` nabízí výběr všech projektů mé organizace, které jsou ve stavu *zahájen v terénu* nebo *ukončen v terénu* a je u nich třeba doplnit informace o archeologické akci.
+
+Akci přidáme na kartě konkrétního projektu v sekci `Archeologické akce` pomocí ikony `+` vpravo (`Vložit další akci`).
+
+![](figs/proj-akce.png){width="90%" fig-align="center"}
+
+Jak **spravovat archeologické akce** je popsáno v návodu [**Správa akcí**](akce.qmd).
+
+
+### Uzavřít
+
+Karta `Uzavřít` nabízí výběr všech projektů mé organizace, které mají doplněné informace o archeologické akci a je možné je uzavřít.
+Pro úspěšné uzavření musí mít projekt připojenou alespoň jednu dostatečně vyplněnou archeologickou akci. 
+
+![](figs/proj-uzavrit.png){width="50%" fig-align="center"}
+
+Po uzavření projektu jej lze navrhnout k archivaci.
+Pro řádnou archivaci musí mít projekt archivované všechny připojené archeologické akce.
+
+![](figs/proj-archivovat.png){width="50%" fig-align="center"}
+
+
+### Naše projekty
+
+Karta `Naše projekty` slouží k výběru všech projektů, které jsou přihlášeny pod moji oprávněnou organizaci ve všech procesních stavech.
+
+
+### Vybrat
+
+Zde lze filtrovat projekty podle velkého množství volitelných parametrů, bez ohledu na jednotlivé procesní stavy nebo oprávněné organizace, které je mají přihlášeny.
+Projekty se pak zobrazují v tabulce, u které lze nastavit zobrazené sloupce a data stáhnout v několika formátech, viz obecný návod k chování [aplikačního rozhraní](gui.qmd#výběr-a-filtrace-záznamů).
+
+![](./figs/proj-vybrat.png){width="90%" fig-align="center"}
+
+<!-- ### Archivovat
+
+Tento přednastavený filtr je dostupný pouze archivářům a správcům systému pro výběr projektů, které jsou již uzavřené a jsou tak připraveny ke kontrole před archivací. 
+
+
+### Zrušit
+
+Tento přednastavený filtr je dostupný pouze archivářům a správcům systému pro výběr projektů, které jsou navrženy ke zrušení. -->

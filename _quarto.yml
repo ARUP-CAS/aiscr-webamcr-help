@@ -175,7 +175,7 @@ website:
       [<u>Cookies</u>]{#open_preferences_center} |
       CC BY-NC 4.0
     center: |
-      [![](/figs/logo-aiscr-hor.png){height=60}](https://aiscr.cz/)
+      [![](/figs/logo-aiscr-hor.png){height=60}](https://aiscr.cz/){.external}
     right: 
       - text: Vytvořeno s &#9825; v Quarto.
         href: https://www.quarto.org/
