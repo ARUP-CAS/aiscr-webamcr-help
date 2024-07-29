@@ -3,24 +3,6 @@ title: "Uživatelská příručka AMČR"
 subtitle: "Úvodní rozcestník"
 toc: true
 format-links: false
-# listing:
-#   - id: amcr
-#     sort-ui: false
-#     filter-ui: false
-#     template: ../tiles.ejs
-#     contents: 
-#       - "projekty.qmd"
-#       - "akce/*.qmd"
-      
-#   - id: pas
-#     template: ../tiles.ejs
-#     contents:
-#       - "amcr-pas/*.qmd"
-      
-#   - id: lok
-#     template: ../tiles.ejs
-#     contents:
-#       - "lokality.qmd"
 ---
 
 ## Návody
@@ -29,50 +11,32 @@ format-links: false
 
 - Popis základního fungování a vzhledu [webové aplikace](gui.qmd).
 - Popis práce s [mapovým rozhraním](mapa.qmd).
-- [Formulář oznámení záměru](oznameni.qmd) -- jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy
-- [Správa projektů](projekty.qmd)
-- Úvodní stránka [dokumentace AMČR-PAS](amcr-pas/amcr-pas.qmd) (*Portál amatérských spolupracovníků a evidence samostatných nálezů*)
+- [Formulář oznámení záměru](oznameni.qmd) -- jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy.
+- Správa modulů [projektů](projekty.qmd), [akcí](akce.qmd) a [lokalit](lokality.qmd).
+- Rozcestník [dokumentace AMČR-PAS](amcr-pas/amcr-pas.qmd) (*Portál amatérských spolupracovníků a evidence samostatných nálezů*).
+- Správa [dokumentů](dokumenty.qmd), [knihovny 3D](knihovna3d.qmd) a [externích zdrojů](externi.qmd).
 
 
 ## Tutoriály 
 
-*Tutoriály* ukazují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jednotku, nafotit drobný nález apod.
+*Tutoriály* ukazují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jednotku, nafotit drobný nález, připravit importní CSV soubor s geometrií PIAN apod.
 
-### Zápis dokumentačních jednotek 
 
-- [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd)
-- [Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace](akce/adb.qmd)
+### Správa akcí, zápis dokumentačních jednotek a PIAN
+
+- Jak připravit [importní CSV s geometrií PIAN](pian-import.qmd) z QGIS, v textovém editoru a za pomoci online převodníku.
+<!-- - [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd). -->
+<!-- - Návod k zápisu [Archeologických dokumentačních bodů (ADB)](akce/adb.qmd) v rámci Pražské památkové rezervace. -->
+- Postup pro zpracování nálezových zpráv z [archeologických akcí drobného rozsahu](drobne-akce.qmd).
+
 
 ### AMČR-PAS 
 
-- Jak provádět [fotografickou dokumentaci nálezů](amcr-pas/foto.qmd) pro AMČR-PAS
-
-- [Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu](akce/drobne-akce.qmd)
+- Jak provádět [fotografickou dokumentaci nálezů](amcr-pas/foto.qmd) [nejen] pro AMČR-PAS.
 
 
+### Lokality 
 
-
-<!-- ::: {#amcr .column-screen-inset-right}
-::: -->
-
-
-
-
-<!-- ::: {#pas .column-screen-inset-right}
-::: -->
-
-<!-- ## Knihovna 3D
-
-- [Správa Knihovny 3D](knihovna3d.qmd)
-
-## Lokality
-
-- [Zásady evidence nemovitých archeologických památek (lokalit)](lokality/lokality.qmd)
-
-### Letecká archeologie
-
-- [Metodika tvorby plánů archeologických objektů na základě šikmých leteckých snímků pro potřeby AMČR](lokality/plany.qmd)
-- [Postup vektorizace archeologických objektů na základě šikmých leteckých snímků pro potřeby AMČR](lokality/vektorizace.qmd) -->
-
-<!-- ::: {#lok .column-screen-inset-right}
-::: -->
+- [Zásady evidence nemovitých archeologických památek (lokalit)](lokality-metodika.qmd) v archivech archeologických ústavů.
+- Metodika tvorby plánů archeologických objektů na základě šikmých leteckých snímků ([Zenodo](https://doi.org/10.5281/zenodo.7925830){.external}).
+- Postup vektorizace archeologických objektů na základě šikmých leteckých snímků ([Zenodo](https://doi.org/10.5281/zenodo.7925795){.external}).
