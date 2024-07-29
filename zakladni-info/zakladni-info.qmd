@@ -6,7 +6,7 @@ title: "Základní informace"
 
 ## Upozornění
 
-Následující stránka k 1. červenci 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
+Následující stránka k 1. srpnu 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
 Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
 
 :::
