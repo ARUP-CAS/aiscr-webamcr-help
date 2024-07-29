@@ -138,7 +138,8 @@ cookieconsent.run({
 <span class="menu-text">Digitální archiv AMČR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../api/index.html"> 
+    <a class="nav-link" href="https://api.aiscr.cz" target="_blank"> <i class="bi bi-box-arrow-up-right" role="img">
+</i> 
 <span class="menu-text">AMČR API</span></a>
   </li>  
   <li class="nav-item">
@@ -243,18 +244,6 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../amcr/amcr-pas/faq-spolupracovnici.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAQ Spolupracovníci</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../amcr/amcr-pas/faq-archeologove.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAQ Archeologové</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../amcr/amcr-pas/amater.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Návod pro spolupracovníky</span></a>
   </div>
@@ -317,18 +306,6 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../amcr/dj.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Zápis správného typu dokumentačních jednotek</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../amcr/adb.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Zápis ADB</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../amcr/lokality-metodika.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Zásady evidence nemovitých archeologických památek (lokalit)</span></a>
   </div>
@@ -362,11 +339,12 @@ cookieconsent.run({
   <li><a href="#návody" id="toc-návody" class="nav-link active" data-scroll-target="#návody">Návody</a></li>
   <li><a href="#tutoriály" id="toc-tutoriály" class="nav-link" data-scroll-target="#tutoriály">Tutoriály</a>
   <ul>
-  <li><a href="#zápis-dokumentačních-jednotek" id="toc-zápis-dokumentačních-jednotek" class="nav-link" data-scroll-target="#zápis-dokumentačních-jednotek">Zápis dokumentačních jednotek</a></li>
+  <li><a href="#správa-akcí-zápis-dokumentačních-jednotek-a-pian" id="toc-správa-akcí-zápis-dokumentačních-jednotek-a-pian" class="nav-link" data-scroll-target="#správa-akcí-zápis-dokumentačních-jednotek-a-pian">Správa akcí, zápis dokumentačních jednotek a PIAN</a></li>
   <li><a href="#amčr-pas" id="toc-amčr-pas" class="nav-link" data-scroll-target="#amčr-pas">AMČR-PAS</a></li>
+  <li><a href="#lokality" id="toc-lokality" class="nav-link" data-scroll-target="#lokality">Lokality</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/amcr/index.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/amcr/index.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -397,45 +375,35 @@ cookieconsent.run({
 <ul>
 <li>Popis základního fungování a vzhledu <a href="../amcr/gui.html">webové aplikace</a>.</li>
 <li>Popis práce s <a href="../amcr/mapa.html">mapovým rozhraním</a>.</li>
-<li><a href="../amcr/oznameni.html">Formulář oznámení záměru</a> – jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy</li>
-<li><a href="../amcr/projekty.html">Správa projektů</a></li>
-<li>Úvodní stránka <a href="amcr-pas/amcr-pas.qmd">dokumentace AMČR-PAS</a> (<em>Portál amatérských spolupracovníků a evidence samostatných nálezů</em>)</li>
+<li><a href="../amcr/oznameni.html">Formulář oznámení záměru</a> – jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy.</li>
+<li>Správa modulů <a href="../amcr/projekty.html">projektů</a>, <a href="../amcr/akce.html">akcí</a> a <a href="../amcr/lokality.html">lokalit</a>.</li>
+<li>Rozcestník <a href="amcr-pas/amcr-pas.qmd">dokumentace AMČR-PAS</a> (<em>Portál amatérských spolupracovníků a evidence samostatných nálezů</em>).</li>
+<li>Správa <a href="../amcr/dokumenty.html">dokumentů</a>, <a href="../amcr/knihovna3d.html">knihovny 3D</a> a <a href="../amcr/externi.html">externích zdrojů</a>.</li>
 </ul>
 </section>
 <section id="tutoriály" class="level2">
 <h2 class="anchored" data-anchor-id="tutoriály">Tutoriály</h2>
-<p><em>Tutoriály</em> ukazují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jednotku, nafotit drobný nález apod.</p>
-<section id="zápis-dokumentačních-jednotek" class="level3">
-<h3 class="anchored" data-anchor-id="zápis-dokumentačních-jednotek">Zápis dokumentačních jednotek</h3>
+<p><em>Tutoriály</em> ukazují konkrétní postupy, jak dosáhnout určitého cíle, např. správně zapsat dokumentační jednotku, nafotit drobný nález, připravit importní CSV soubor s geometrií PIAN apod.</p>
+<section id="správa-akcí-zápis-dokumentačních-jednotek-a-pian" class="level3">
+<h3 class="anchored" data-anchor-id="správa-akcí-zápis-dokumentačních-jednotek-a-pian">Správa akcí, zápis dokumentačních jednotek a PIAN</h3>
 <ul>
-<li><a href="akce/dj.qmd">Pokyny pro volbu a zápis správného typu dokumentačních jednotek</a></li>
-<li><a href="akce/adb.qmd">Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace</a></li>
+<li>Jak připravit <a href="../amcr/pian-import.html">importní CSV s geometrií PIAN</a> z QGIS, v textovém editoru a za pomoci online převodníku. <!-- - [Pokyny pro volbu a zápis správného typu dokumentačních jednotek](akce/dj.qmd). --> <!-- - Návod k zápisu [Archeologických dokumentačních bodů (ADB)](akce/adb.qmd) v rámci Pražské památkové rezervace. --></li>
+<li>Postup pro zpracování nálezových zpráv z <a href="../amcr/drobne-akce.html">archeologických akcí drobného rozsahu</a>.</li>
 </ul>
 </section>
 <section id="amčr-pas" class="level3">
 <h3 class="anchored" data-anchor-id="amčr-pas">AMČR-PAS</h3>
 <ul>
-<li><p>Jak provádět <a href="../amcr/amcr-pas/foto.html">fotografickou dokumentaci nálezů</a> pro AMČR-PAS</p></li>
-<li><p><a href="akce/drobne-akce.qmd">Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu</a></p></li>
+<li>Jak provádět <a href="../amcr/amcr-pas/foto.html">fotografickou dokumentaci nálezů</a> [nejen] pro AMČR-PAS.</li>
 </ul>
-<!-- ::: {#amcr .column-screen-inset-right}
-::: -->
-<!-- ::: {#pas .column-screen-inset-right}
-::: -->
-<!-- ## Knihovna 3D
-
-- [Správa Knihovny 3D](knihovna3d.qmd)
-
-## Lokality
-
-- [Zásady evidence nemovitých archeologických památek (lokalit)](lokality/lokality.qmd)
-
-### Letecká archeologie
-
-- [Metodika tvorby plánů archeologických objektů na základě šikmých leteckých snímků pro potřeby AMČR](lokality/plany.qmd)
-- [Postup vektorizace archeologických objektů na základě šikmých leteckých snímků pro potřeby AMČR](lokality/vektorizace.qmd) -->
-<!-- ::: {#lok .column-screen-inset-right}
-::: -->
+</section>
+<section id="lokality" class="level3">
+<h3 class="anchored" data-anchor-id="lokality">Lokality</h3>
+<ul>
+<li><a href="../amcr/lokality-metodika.html">Zásady evidence nemovitých archeologických památek (lokalit)</a> v archivech archeologických ústavů.</li>
+<li>Metodika tvorby plánů archeologických objektů na základě šikmých leteckých snímků (<a href="https://doi.org/10.5281/zenodo.7925830" class="external">Zenodo</a>).</li>
+<li>Postup vektorizace archeologických objektů na základě šikmých leteckých snímků (<a href="https://doi.org/10.5281/zenodo.7925795" class="external">Zenodo</a>).</li>
+</ul>
 
 
 </section>
@@ -875,7 +843,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p><a href="https://aiscr.cz/"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/amcr/index.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/amcr/index.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
+</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
