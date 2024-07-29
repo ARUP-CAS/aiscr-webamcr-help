@@ -4,7 +4,9 @@ subtitle: Uživatelský manuál
 ---
 
 ::: callout-note
+
 Manuál je platný pro verzi aplikace [v2.1.1](https://github.com/ARUP-CAS/aiscr-digiarchiv-2/wiki/Changelog#v211){.external} a novější, viz [Changelog](https://github.com/ARUP-CAS/aiscr-digiarchiv-2/wiki/Changelog){.external}.
+
 :::
 
 
@@ -109,7 +111,7 @@ Počet zobrazených záznamů na stránce lze nastavit podle předvolených mož
  U jednotlivých výsledků lze vybrat z následujících voleb:
 
 - **{{< fa map >}} Zobrazit na mapě** -- otevře mapové okno, pokud je to pro záznam relevantní.
-- **{{< fa link >}} Odkazy** -- umožňuje získat permalink či odkaz na záznam v [OAI-PMH API](../api/api.qmd) (více viz dále).
+- **{{< fa link >}} Odkazy** -- umožňuje získat permalink či odkaz na záznam v [OAI-PMH API](https://api.aiscr.cz/){.external} (více viz dále).
 - **{{< fa book-open >}} BibTeX** -- vygeneruje bibliografický záznam v BibTeX, který vytvoří soubor s příponou .bib a který lze použít k tvorbě bibliografie v externích nástrojích (např. Zotero).
 - **{{< fa print >}} Vytisknout** -- umožňuje tisk detailu daného záznamu.
 - **{{< fa star >}} Uložit do oblíbených** -- označí záznam jako oblíbený (pouze pro přihlášené uživatele). Oblíbené záznamy je možné zobrazit pomocí totožného symbolu v záhlaví stránky s výsledky.
@@ -130,7 +132,7 @@ Po kliknutí na takto označené pole se konkrétní zvolené heslo použije jak
 
 Každý identifikátor v detailu záznamu je opatřen ikonou odkazu **{{< fa link >}}**, která umožňuje zobrazit samostatnou stránku persistentního odkazu se souvisejícími daty. 
 Tato stránka má svůj trvalý odkaz a každý takovýto záznam je proto možné snadno přímo citovat. 
-Zároveň je zde možné zobrazit záznam ve formátu `XML` přes proklik do OAI-PMH API (samotné rozhraní APi naleznete [zde](https://api.aiscr.cz/){.external} a návod [zde](../api/api.qmd)).
+Zároveň je zde možné zobrazit záznam ve formátu `XML` přes proklik do OAI-PMH API (samotné rozhraní API naleznete [zde](https://api.aiscr.cz/){.external}).
 
 Detail obsahuje též informace o **souvisejících záznamech**, jelikož jednotlivé typy záznamů jsou mezi sebou vzájemně provázány. Určitý dokument se tedy kupříkladu může vázat ke konkrétní lokalitě či akci. Tyto vazby fungují oběma směry a je tedy možné naopak u konkrétní akce zjistit, které dokumenty se k ní vážou. Přes identifikátor souvisejících záznamů se lze na tyto záznamy prokliknout a zjistit o nich podrobnosti. 
 
@@ -225,7 +227,7 @@ Po přiblížení se k mapě na úroveň, kdy se zobrazuje méně než 10 000, a
 
 ![](figs/da-map3.png){.column-page-inset-right}
 
-Po dalším přiblížení nebo po kliknutí na vybraný shluk se shluk „rozpadne“ do jednotlivých záznamů. V tomto zobrazení již můžete vidět plné geometrie jednotlivých [PIAN](../../o-systemu/pojmy.qmd#/pian) (tedy body, linie a polygony). 
+Po dalším přiblížení nebo po kliknutí na vybraný shluk se shluk „rozpadne“ do jednotlivých záznamů. V tomto zobrazení již můžete vidět plné geometrie jednotlivých [PIAN](/slovnik/index.qmd#/pian) (tedy body, linie a polygony). 
 Symboly **{{< fa map-marker-alt >}}** reprezentují jejich definiční body. 
 
 ![](figs/da-map4.png){.column-page-inset-right}
@@ -235,7 +237,7 @@ Se záznamem je možné pracovat obdobně jako na stránce s výsledky (tedy nap
 
 ![](figs/da-map5.png){.column-page-inset-right}
 
-Po kliknutí na symbol záznamu v mapě **{{< fa map-marker-alt >}}** se tento záznam (obvykle jednotka [PIAN](../../o-systemu/pojmy.qmd#/pian) použije jako parametr filtru a v okně výsledků se zobrazí pouze ty záznamy, které jsou s daným záznamem provázané (připojené záznamy lze vidět rovněž po najetí kurzorem na symbol záznamu jako tooltip). V některých případech, pokud je na prvek připojený jediný záznam, se zobrazí rovnou detail souvisejícího záznamu (např. pro samostatné nálezy a 3D modely).
+Po kliknutí na symbol záznamu v mapě **{{< fa map-marker-alt >}}** se tento záznam (obvykle jednotka [PIAN](/slovnik/index.qmd#/pian) použije jako parametr filtru a v okně výsledků se zobrazí pouze ty záznamy, které jsou s daným záznamem provázané (připojené záznamy lze vidět rovněž po najetí kurzorem na symbol záznamu jako tooltip). V některých případech, pokud je na prvek připojený jediný záznam, se zobrazí rovnou detail souvisejícího záznamu (např. pro samostatné nálezy a 3D modely).
 
 ![](figs/da-map6.png){.column-page-inset-right}
 

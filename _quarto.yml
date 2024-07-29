@@ -50,7 +50,7 @@ website:
       collapse-level: 2
       style: "floating"
       header: |
-        [![](/figs/logo-amcr-hor.png)](index.qmd)
+        [![](/figs/logo-amcr-hor.png)](/index.qmd)
       contents:
         - index.qmd
         - zakladni-info/zakladni-info.qmd
@@ -62,6 +62,8 @@ website:
       #   Platná nápověda je [zde](https://amcr-info.aiscr.cz/help).
 
     - id: o-systemu
+      header: |
+        [![](/figs/thumb_pin_wrench.png)](/o-systemu/index.qmd)
       contents:
         - o-systemu/index.qmd
         - o-systemu/architektura.qmd
@@ -70,12 +72,11 @@ website:
         - o-systemu/identifikatory.qmd
         - o-systemu/procesy.qmd
         - o-systemu/heslare.qmd
-      header: |
-        ![](/figs/thumb_pin_wrench.png)
+      
 
     - id: manual-amcr
       header: |
-        [![](/figs/logo-amcr-hor.png)](/amcr/amcr.qmd)
+        [![](/figs/logo-amcr-hor.png)](/amcr/index.qmd)
       contents:
         - text: Úvod
           href: amcr/index.qmd
@@ -129,7 +130,7 @@ website:
             
     - id: manual-digiarchiv
       header: |
-        [![](/figs/thumb_digiarchiv.png)](/digiarchiv/digiarchiv.qmd)  
+        [![](/figs/thumb_digiarchiv.png)](/digiarchiv/index.qmd)  
       contents:
         - section: Návody
           contents:
@@ -154,13 +155,13 @@ website:
         
     - id: zpravodaje 
       header: |
-        [![](/figs/logo-amcr-hor.png)](/zpravodaj/zpravodaj.qmd)
+        [![](/figs/logo-amcr-hor.png)](/zpravodaj/index.qmd)
       contents: 
         - zpravodaj/index.qmd
         
     - id: about
       header: |
-        [![](/figs/logo-aiscr-hor.png)](/about.qmd)
+        [![](/figs/logo-aiscr-hor.png)](/about/index.qmd)
       contents: 
         - about/index.qmd
 

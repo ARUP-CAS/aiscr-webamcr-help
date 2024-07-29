@@ -17,32 +17,32 @@ V tomto modelu prochází terénní archeologický výzkum postupně několika f
 Těmito fázemi jsou formulace odborných cílů a územní plánování; vlastní terénní práce; funkční a chronologická analýza prozkoumaného archeologického kontextu a syntéza a interpretace získaných dat.
 Poté, co poznatky dospějí do fáze syntézy, mohou být kladeny nové výzkumné otázky a dochází k další iteraci poznávacího cyklu.
 
-[Datový model](datovy-model.qmd) AMČR je nastaven tak, aby dovedl co nejvěrněji postihnout dynamický tok informací ve zmíněných fázích.
+[Datový model](/o-systemu/datovy-model.qmd) AMČR je nastaven tak, aby dovedl co nejvěrněji postihnout dynamický tok informací ve zmíněných fázích.
 Fázím poznávacího procesu odpovídají následující jednotky archeologické evidence:
 
-1. [projekty](pojmy.qmd#projekty) (plánování);
-2. [akce](pojmy.qmd#akce) a [lokality](pojmy.qmd#lokality) (terénní práce);
-3. [komponenty](pojmy.qmd#komponenty) (funkční a chronologická analýza) a
+1. [projekty](/slovnik/index.qmd#projekty) (plánování);
+2. [akce](/slovnik/index.qmd#akce) a [lokality](/slovnik/index.qmd#lokality) (terénní práce);
+3. [komponenty](/slovnik/index.qmd#komponenty) (funkční a chronologická analýza) a
 4. krajinné entity (syntéza).
 
 Kromě nich existují v AMČR ještě další čtyři důležité skupiny dat, které využívá pro bližší specifikaci podoby a obsahu předchozích kategorií.
 Jde především o repozitář a soubor metadat terénní dokumentace v repozitářích Archeologických ústavů AV ČR, tzv.
 
-5. [dokumenty](pojmy.qmd#dokumenty). Dále jde o
-6. [nálezy](pojmy.qmd#nálezy) z terénních výzkumů, kterými jsou jednotlivé komponenty blíže charakterizovány.
+5. [dokumenty](/slovnik/index.qmd#dokumenty). Dále jde o
+6. [nálezy](/slovnik/index.qmd#nálezy) z terénních výzkumů, kterými jsou jednotlivé komponenty blíže charakterizovány.
 
 Pomocným, leč také důležitou informaci nesoucím údajem jsou
 
-7. prostorové jednotky ([PIAN](pojmy.qmd#pian)) a
-8. bibliografické záznamy chápané jako [externí zdroje](pojmy.qmd#externí-zdroje-bibliografie).
+7. prostorové jednotky ([PIAN](/slovnik/index.qmd#pian)) a
+8. bibliografické záznamy chápané jako [externí zdroje](/slovnik/index.qmd#externí-zdroje-bibliografie).
 
 ![Schéma návaznosti fází archeologického poznávacího procesu](figs/cyklus.png)
 
 ## Projekty
 
 Evidenční jednotky terénní činnosti badatelského nebo záchranného rázu evidované již ve fázi přípravy nazýváme **projekty**.
-Pro vymezení projektu je rozhodující podnět k výzkumu a provádějící subjekt ([oprávněná organizace](pojmy.qmd#oprávněná-archeologická-organizace)), lokalizace a příp. [projektová dokumentace](pojmy.qmd#projektová-dokumentace).
-Na projekt zpravidla navazuje jedna či (méně často) více [terénních akcí](pojmy.qmd#akce).
+Pro vymezení projektu je rozhodující podnět k výzkumu a provádějící subjekt ([oprávněná organizace](/slovnik/index.qmd#oprávněná-archeologická-organizace)), lokalizace a příp. [projektová dokumentace](/slovnik/index.qmd#projektová-dokumentace).
+Na projekt zpravidla navazuje jedna či (méně často) více [terénních akcí](/slovnik/index.qmd#akce).
 
 Rozlišujeme tři typy projektů:
 
@@ -56,7 +56,7 @@ Archeologická akce je jakákoli logická, tj. prostorově a dobou provedení uc
 V zásadě může jít o terénní činnost libovolného časového a prostorového rozsahu; u velkých terénních výzkumů (např. výzkumů na liniových stavbách) je ovšem doporučováno evidovat terénní práce jako několik akcí, a to podle území katastrů.
 Důvodem je přehlednost dat a jejich snazší vyhledávání podle jména katastru, což je jedno z nejčastějších vyhledávacích kritérií.
 
-Akce je zpravidla pokračováním archeologického [projektu](pojmy.qmd#projekt); v takovém případě hovoříme o **projektové akci**.
+Akce je zpravidla pokračováním archeologického [projektu](/slovnik/index.qmd#projekt); v takovém případě hovoříme o **projektové akci**.
 V rámci projektu může proběhnout i několik (projektových) akcí, které se liší prostorovým vymezením, ale teoreticky třeba i sezónou výzkumu.
 
 Existují i případy akcí, které nesouvisejí s předem evidovaným projektem.
@@ -67,7 +67,7 @@ U těchto typů akcí není jejich předběžná a/nebo zpětná evidence jako p
 
 Specifickým případem terénního výzkumu je vizuální povrchový a letecký průzkum, při kterém bývají evidovány archeologické útvary, ale bez získání movitých nálezů.
 Při tomto typu terénní práce jsou zpravidla evidovány logické celky odpovídající určitému krajinnému prvku s potenciálním archeologickým významem (např. jeskyně, výšinná poloha) a/nebo specifickému, na povrchu viditelnému archeologickému projevu (příznaky na letecké fotografii, prostor vymezený valy apod.).
-Takovým celkům ([dokumentačním jednotkám](pojmy.qmd#dokumentační-jednotky)) říkáme **lokality**.
+Takovým celkům ([dokumentačním jednotkám](/slovnik/index.qmd#dokumentační-jednotky)) říkáme **lokality**.
 
 Smyslem zavedení kategorie lokality je:
 
@@ -77,31 +77,31 @@ Smyslem zavedení kategorie lokality je:
 
 ## Dokumentační jednotky
 
-Archeologické terénní [akce](pojmy.qmd#akce) členíme na prostorové celky, tzv. **dokumentační jednotky**.
+Archeologické terénní [akce](/slovnik/index.qmd#akce) členíme na prostorové celky, tzv. **dokumentační jednotky**.
 Za dokumentační jednotku lze považovat celý prostor akce, jeho část odpovídající určité skupině nálezů, příp. jeho část definovanou průběhem výzkumu (např. konkrétní sondu).
-[Akce](pojmy.qmd#akce) mohou mít jednu nebo více dokumentačních jednotek různých [typů](heslare.qmd#prostorové-vymezení), [lokalita](pojmy.qmd#lokality) má právě jednu.
+[Akce](/slovnik/index.qmd#akce) mohou mít jednu nebo více dokumentačních jednotek různých [typů](/o-systemu/heslare.qmd#prostorové-vymezení), [lokalita](/slovnik/index.qmd#lokality) má právě jednu.
 
 ![Dokumentační jednotka a komponenta vůči projektové akci, samostatné akci a lokalitě](figs/typy_akci.png){#fig-dj}
 
 ## Komponenty
 
-**Komponenta akce** je prostorovým, chronologickým a funkčním celkem nálezů z jedné [dokumentační jednotky](pojmy.qmd#dokumentační-jednotky) [akce](pojmy.qmd#akce), **komponenta lokality** je analogickou částí [lokality](pojmy.qmd#lokality), avšak definovaná jen typologicky na základě viditelných povrchových znaků nebo informace z jiných zdrojů.
-Jako **komponentu dokumentu** chápeme chronologický a funkční celek archeologické akce doložený výpovědí některého [dokumentu](pojmy.qmd#dokumenty).
+**Komponenta akce** je prostorovým, chronologickým a funkčním celkem nálezů z jedné [dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky) [akce](/slovnik/index.qmd#akce), **komponenta lokality** je analogickou částí [lokality](/slovnik/index.qmd#lokality), avšak definovaná jen typologicky na základě viditelných povrchových znaků nebo informace z jiných zdrojů.
+Jako **komponentu dokumentu** chápeme chronologický a funkční celek archeologické akce doložený výpovědí některého [dokumentu](/slovnik/index.qmd#dokumenty).
 
-Komponenty jsou určeny přiřazením k určitému [areálu](heslare.qmd#komponenty) aktivity [specifické funkční části sídelního areálu, cf. @neustupny1986] a [období](heslare.qmd#komponenty) (chronologicko-kulturnímu zařazení).
-Každé komponentě se dále přiřazuje i výčet [aktivit](heslare.qmd#komponenty), tedy druhů činností, které jsou v rámci komponenty přímo doloženy: např. v areálu „sídliště“ může být kromě aktivity „sídlištní“ (přiřazené automaticky) zachycena i aktivita „pohřební“ (např. pohřeb v sídlištní jámě), „výrobní“ (keramická pec), „deponování“ (depot keramických nádob) a „komunikace“ (cesta vedoucí sídlištěm).
+Komponenty jsou určeny přiřazením k určitému [areálu](/o-systemu/heslare.qmd#komponenty) aktivity [specifické funkční části sídelního areálu, cf. @neustupny1986] a [období](/o-systemu/heslare.qmd#komponenty) (chronologicko-kulturnímu zařazení).
+Každé komponentě se dále přiřazuje i výčet [aktivit](/o-systemu/heslare.qmd#komponenty), tedy druhů činností, které jsou v rámci komponenty přímo doloženy: např. v areálu „sídliště“ může být kromě aktivity „sídlištní“ (přiřazené automaticky) zachycena i aktivita „pohřební“ (např. pohřeb v sídlištní jámě), „výrobní“ (keramická pec), „deponování“ (depot keramických nádob) a „komunikace“ (cesta vedoucí sídlištěm).
 
 Komponenty jsou arbitrárně vymezenými jednotkami; rozhodujícím hlediskem při jejich vymezení je přehlednost a srozumitelnost záznamu o obsahu akce.
 Máme-li např. v rámci menší archeologické akce sídlištní nálezy dvou archeologických kultur, můžeme danou situaci popsat jako jednu dokumentační jednotku se dvěma komponentami.
 Je-li plocha výzkumu větší a nálezy jednotlivých kultur nejsou rozprostřeny po jejím celém rozsahu, je vhodnější vymezit v rámci akce jednu dokumentační jednotku typu „celek“ a doplnit ji dvěma komponentami menšího rozsahu (obě mohou společnou dokumentační jednotku, ale též rozdílnou).
 Pokud je na ploše výzkumu několik sond a rozhodneme-li se každou sondu chápat jako samostatnou dokumentační jednotku, bude počet komponent odpovídat počtu sond násobenému počtem archeologických období v nich zastoupených.
 
-Více viz také [Negativní zjištění](pojmy.qmd#ěnegativní-zjištění).
+Více viz také [Negativní zjištění](/slovnik/index.qmd#ěnegativní-zjištění).
 
 ## Nálezy
 
 V AMČR nepočítáme s podrobným a vyčerpávajícím popisem archeologických **nálezů** patřících jednotlivým komponentám, nálezy chápeme jen jako specifické vlastnosti komponent, které nám pomáhají charakterizovat pramenné východisko, podle něhož byla komponenta rozpoznána.
-Bližší popis nálezu je totiž v mnoha případech nezbytný pro pochopení, o jakou [akci](pojmy.qmd#akce)/[komponentu](pojmy.qmd#komponenty) šlo.
+Bližší popis nálezu je totiž v mnoha případech nezbytný pro pochopení, o jakou [akci](/slovnik/index.qmd#akce)/[komponentu](/slovnik/index.qmd#komponenty) šlo.
 Např. u komponenty „depot“ je nezbytné uvést, o jaký materiál a druh předmětů jde a někdy může být užitečné specifikovat dokonce čísla muzejní evidence.
 U velkých komponent je tomu jinak: nálezy stačí evidovat souhrnně a výběrově a uvést při tom jen ty položky, které komponentu nejlépe charakterizují; např. u rozsáhlého pravěkého sídliště uvedeme třeba jen údaje typu „desítky domů“, „stovky zahloubených jam“, příp. „pohřby v sídlištních jamách“ a další charakteristické příklady.
 
@@ -109,17 +109,17 @@ V rámci AMČR tedy nevzniká pro nálezy (na rozdíl od jiných datových tří
 
 ## PIAN
 
-Prostorové vymezení archeologických výzkumů je v AMČR zajišťováno povinným vztahem [dokumentačních jednotek](pojmy.qmd#dokumentační-jednotky) k některé z jednotek prostorové identifikace.
+Prostorové vymezení archeologických výzkumů je v AMČR zajišťováno povinným vztahem [dokumentačních jednotek](/slovnik/index.qmd#dokumentační-jednotky) k některé z jednotek prostorové identifikace.
 Tyto jednotky nazýváme PIAN (**Prostorová identifikace archeologických nálezů**).
 Pojetí prostorových vymezení archeologických akcí jako samostatných databázových objektů (tedy nikoliv jako vlastností záznamů o akcích) je jedním z nových prvků, které AMČR přinesla.
-Každá jednotka PIAN může mít vazby k většímu počtu [akcí](pojmy.qmd#akce) nebo [lokalit](pojmy.qmd#lokality) a v případě akcí to platí i naopak.
+Každá jednotka PIAN může mít vazby k většímu počtu [akcí](/slovnik/index.qmd#akce) nebo [lokalit](/slovnik/index.qmd#lokality) a v případě akcí to platí i naopak.
 
 ## Dokumenty
 
 **Dokumentem** rozumíme v AMČR prvek dokumentace terénního archeologického výzkumu uložený v archivech ARÚP a ARÚB.
-Obdobné informační zdroje v jiných institucích chápeme jako [externí zdroje](pojmy.qmd#externí-zdroje-bibliografie); na rozdíl od dokumentů totiž nemůžeme zajistit jejich podrobný metadatový popis ani fulltextovou verzi.
-Obsah dokumentů lze popsat prostřednictvím **komponent dokumentu** (analogicky ke [komponentám akcí](pojmy.qmd#komponenty)) a **nálezů dokumentu**.
-Takový popis má účel zejména u fotografií a plánů, jejichž obsah je pochopitelně vždy užší než obsah celé terénní [akce](pojmy.qmd#akce).
+Obdobné informační zdroje v jiných institucích chápeme jako [externí zdroje](/slovnik/index.qmd#externí-zdroje-bibliografie); na rozdíl od dokumentů totiž nemůžeme zajistit jejich podrobný metadatový popis ani fulltextovou verzi.
+Obsah dokumentů lze popsat prostřednictvím **komponent dokumentu** (analogicky ke [komponentám akcí](/slovnik/index.qmd#komponenty)) a **nálezů dokumentu**.
+Takový popis má účel zejména u fotografií a plánů, jejichž obsah je pochopitelně vždy užší než obsah celé terénní [akce](/slovnik/index.qmd#akce).
 Jde-li např. o fotografii hrobu ze starší doby bronzové, je chronologický a věcný údaj zachycen jako komponenta a nález (dokumentu), podle nichž lze fotografii vyhledat, aniž by bylo nutné probírat stovky jiných fotografií z daného výzkumu.
 Fyzickým ekvivalentem dokumentu je soubor, příp. několik souborů uložených v repozitářích digitálního archivu.
 Soubor má svůj vlastní metadatový popis týkající se jeho fyzických vlastností, data vzniku, migrace apod.
@@ -127,7 +127,7 @@ Soubor má svůj vlastní metadatový popis týkající se jeho fyzických vlast
 ## Externí zdroje (bibliografie)
 
 Bibliografický segment AMČR slouží k napojení záznamů o akcích na zdrojové informace v publikacích, odborných zprávách a šedé literatuře.
-Jako externí zdroje jsou chápány publikace, novinové články, nepublikované odborné zprávy a jiné informační zdroje, které nejsou uloženy v archivech ARÚP a ARÚB a nejsou tudíž zahrnuty mezi [dokumenty](pojmy.qmd#dokumenty).
+Jako externí zdroje jsou chápány publikace, novinové články, nepublikované odborné zprávy a jiné informační zdroje, které nejsou uloženy v archivech ARÚP a ARÚB a nejsou tudíž zahrnuty mezi [dokumenty](/slovnik/index.qmd#dokumenty).
 
 ## MADB
 
@@ -143,14 +143,14 @@ Databáze je specializovaným rozšířením AMČR a je zpřístupněna jako sou
 
 ### Archeologické dokumentační body (ADB)
 
-Datová třída Archeologický dokumentační bod (ADB) zahrnuje fakultativní rozšiřující popis dokumentační jednotky typu [Sonda](heslare.qmd#sondy-madb).
+Datová třída Archeologický dokumentační bod (ADB) zahrnuje fakultativní rozšiřující popis dokumentační jednotky typu [Sonda](/o-systemu/heslare.qmd#sondy-madb).
 Ten zahrnuje bližší identifikaci terénního zásahu (adresními údaji, parcelním číslem), základní charakteristiku terénního zásahu (typ sondy, podnět, počet stratigrafických jednotek) a údaje provazující záznam s primární dokumentací (autor a rok popisu, resp. revize, uživatelské označení sondy); součástí popisu ADB je též textové pole poznámky.
 
 ### Výškové body (VB)
 
 K záznamu ADB je v relaci 1:N vázána datová třída Výškový bod. Ta postihuje výškové úrovně povrchu a dna sondy, (sníženého) podloží a základních antropogenních horizontů (pravěk, středověk, novověk, industriál) a slouží tak k popisu vývoje historického nadloží v místě archeologického výzkumu.
 
-Další informace viz sekce [Datový model](datovy-model.qmd#popis-madb).
+Další informace viz sekce [Datový model](/o-systemu/datovy-model.qmd#popis-madb).
 
 ## Další pojmy {#sec-dalsipojmy}
 
@@ -189,19 +189,19 @@ Vznikala od r. 2009; od r. 2016 probíhá její postupná integrace do AMČR.
 Registr plánovaných terénních zásahů s možností provedení archeologického výzkumu.
 V r. 2009 zaveden v Čechách (ARÚP), v r. 2011 i na Moravě a ve Slezsku (ARÚB).
 IDAV sehrál klíčovou roli v evidenci archeologických terénních aktivit na území Česka.
-V r. 2017 byl nahrazen AMČR, přičemž záznamy tohoto typu jsou evidovány jako [projekty](pojmy.qmd#projekty).
+V r. 2017 byl nahrazen AMČR, přičemž záznamy tohoto typu jsou evidovány jako [projekty](/slovnik/index.qmd#projekty).
 
 ### Nálezová zpráva
 
-**Nálezovou zprávou** rozumíme dokument souhrnně popisující provedenou archeologickou [akci](pojmy.qmd#akce), s pevně určenými náležitostmi.
+**Nálezovou zprávou** rozumíme dokument souhrnně popisující provedenou archeologickou [akci](/slovnik/index.qmd#akce), s pevně určenými náležitostmi.
 Nálezová zpráva má za úkol plně postihnout podstatu výzkumu, srozumitelnou formou zpřístupnit terénní dokumentaci a nastínit základní interpretaci.
 Pokyny a doporučené postupy pro vypracování nálezové zprávy jsou dostupné jak na webu [ARÚP](https://www.arup.cas.cz/wp-content/uploads/2020/05/pravidla_NZ_obecna_191009.pdf){.external}, tak [ARÚB](https://www.arub.cz/archiv/chci-odevzdat-dokument/){.external}.
 
 ### Negativní zjištění
 
-**Negativním zjištěním** (též prázdnou komponentou) rozumíme poznatek, že v prostoru určité archeologické [akce](pojmy.qmd#akce) či [dokumentační jednotky](pojmy.qmd#dokumentační-jednotky) nebyly při aplikaci standardních archeologických metod zjištěny žádné archeologické nálezy.
+**Negativním zjištěním** (též prázdnou komponentou) rozumíme poznatek, že v prostoru určité archeologické [akce](/slovnik/index.qmd#akce) či [dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky) nebyly při aplikaci standardních archeologických metod zjištěny žádné archeologické nálezy.
 Popisu takových akcí je systematicky věnována pozornost od počátku 90. let, a to s přesvědčením, že pro řešení sídelně archeologických otázek jde o informace velmi důležité.
-Pro jednoduchost postupu se v AMČR údaj o negativním pozorování připojuje k dokumentační jednotce, ke které pak není nutno připojit žádnou jinou [komponentu](pojmy.qmd#komponenty).
+Pro jednoduchost postupu se v AMČR údaj o negativním pozorování připojuje k dokumentační jednotce, ke které pak není nutno připojit žádnou jinou [komponentu](/slovnik/index.qmd#komponenty).
 Připojit hodnotu *negativního zjištění* dokumentační jednotce *celku* akce a následně její plochu překrýt lokálními dokumentačními jednotkami s určitými komponentami je nejjednodušším způsobem jak popsat situaci, kdy velká plocha či dlouhá linie je převážně bez nálezů, ale na několika místech je negativní pozorování přerušeno výskytem nálezů.
 
 ### Oprávněná archeologická organizace
@@ -216,11 +216,11 @@ Zejména jde o popis odborných záměrů výzkumu, plánované vymezení apod.
 
 ### Registrovaný uživatel
 
-Za registrovaného uživatele je považován každý uživatel aplikace s aktivním uživatelským účtem, tedy na úrovni všech [oprávnění](role.qmd), kromě oprávnění Anonym.
+Za registrovaného uživatele je považován každý uživatel aplikace s aktivním uživatelským účtem, tedy na úrovni všech [oprávnění](/o-systemu/role.qmd), kromě oprávnění Anonym.
 
 ### Správce systému
 
-Správcem systému se rozumí uživatelé s [oprávněním](role.qmd) Archivář či Administrátor.
+Správcem systému se rozumí uživatelé s [oprávněním](/o-systemu/role.qmd) Archivář či Administrátor.
 Zpravidla jde o zaměstnance archivů ARÚP a ARÚB.
 Správce lze kontaktovat přes emailovou adresu [{{< fa regular envelope size=xs >}} info@amapa.cz](mailto:info@amapa.cz) nebo na adresách uvedených v [Kontaktech](#kontakty).
 
@@ -235,9 +235,9 @@ Tyto infrastruktury se mohou nacházet na jednom místě nebo mohou být *rozmí
 
 ### Záchranná akce (záchranný projekt)
 
-Archeologický výzkum realizovaný v souvislosti s plánovaným či probíhajícím [terénním zásahem](pojmy.qmd#terénní-zásah).
+Archeologický výzkum realizovaný v souvislosti s plánovaným či probíhajícím [terénním zásahem](/slovnik/index.qmd#terénní-zásah).
 
 ### Zpráva o archeologické akci (ZAA)
 
-Zpráva o archeologické akci (**ZAA**) označuje formulář pro metadatový popis archeologického výzkumu, používaný při sběru dat pro [Archeologickou databázi Čech](pojmy.qmd#archeologická-databáze-čech-adč).
+Zpráva o archeologické akci (**ZAA**) označuje formulář pro metadatový popis archeologického výzkumu, používaný při sběru dat pro [Archeologickou databázi Čech](/slovnik/index.qmd#archeologická-databáze-čech-adč).
 V rámci AMČR je jako ekvivalent ZAA označována tzv. Karta akce, resp. Karta samostatné akce.

@@ -21,9 +21,9 @@ Dvojstupňové hesláře obsahují hierarchicky uspořádaná hesla, z nichž ob
 Charakteru heslářů odpovídají typy výběrových seznamů v aplikaci. 
 Některé hesláře chápeme jako **systémové** -- nelze je editovat bez zásahu do zdrojového kódu, jelikož na nich přímo závisí chování aplikace a specifické funkce.
 
-Obsažená hesla vycházejí z hesel užívaných v ADČ [@kuna2006], SAS [@volfik2009] a formulářích [ZAA](pojmy.qmd#zpráva-o-archeologické-akci-zaa). 
+Obsažená hesla vycházejí z hesel užívaných v ADČ [@kuna2006], SAS [@volfik2009] a formulářích [ZAA](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa). 
 Systém odborných heslářů se opírá o standardní archeologickou terminologii a obsažena jsou taková hesla, u nichž lze předpokládat vyšší než výjimečné zastoupení na základě analýzy stávajících dat. 
-Aplikace obecně preferuje uzavřené hesláře, jejichž doplnění je možné pouze v důvodných případech po konzultaci se [správcem systému](pojmy.qmd#správce-systému). 
+Aplikace obecně preferuje uzavřené hesláře, jejichž doplnění je možné pouze v důvodných případech po konzultaci se [správcem systému](/slovnik/index.qmd#správce-systému). 
 Výjimku tvoří [heslář jmen](heslare.qmd#obecné-hesláře), u něhož lze předpokládat pravidelný nárůst počtu údajů a lze jej proto uživatelsky doplňovat.
 
 Hesláře AMČR vytvářejí svým obsahem základ jednotné oborové terminologie, který je aplikován pro popis všech archeologických výzkumů v ČR evidovaných archivy ARÚP a ARÚB. 

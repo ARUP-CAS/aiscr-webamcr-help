@@ -14,20 +14,20 @@ Zároveň mohou být některé odkazy, které stránka obsahuje, nefunkční, sc
 :::
 
 Aplikaci AMČR lze popsat jako provázaný systém několika segmentů (skupin tabulek, datových tříd a heslářů) vztahujících se k základním funkcím informačního systému.
-Některé segmenty jsou zcela integrovány (např. [komponenty](pojmy.qmd#komponenty) v [akcích](pojmy.qmd#akce)), jiné tvoří volněji připojené moduly na periferii systému ([MADB](pojmy.qmd#madb) aj.).
+Některé segmenty jsou zcela integrovány (např. [komponenty](/slovnik/index.qmd#komponenty) v [akcích](/slovnik/index.qmd#akce)), jiné tvoří volněji připojené moduly na periferii systému ([MADB](/slovnik/index.qmd#madb) aj.).
 
 Základními segmenty AMČR jsou:
 
 - [registr terénních zásahů](datovy-model.qmd#registr-projektů) (projektů);
-- [evidence archeologických akcí](datovy-model.qmd#evidence-archeologických-akcí) (v rámci registrovaných [projektů](pojmy.qmd#projekty) i mimo ně);
+- [evidence archeologických akcí](datovy-model.qmd#evidence-archeologických-akcí) (v rámci registrovaných [projektů](/slovnik/index.qmd#projekty) i mimo ně);
 - [evidence lokalit](datovy-model.qmd#evidence-lokalit);
-- [odborný popis akcí a lokalit](datovy-model.qmd#popis-akcí-a-lokalit), tedy popis jejich [komponent](pojmy.qmd#komponenty);
+- [odborný popis akcí a lokalit](datovy-model.qmd#popis-akcí-a-lokalit), tedy popis jejich [komponent](/slovnik/index.qmd#komponenty);
 - [digitální archiv a repozitář](datovy-model.qmd#digitální-archiv-a-repozitář) ARÚP a ARÚB;
 - [evidence leteckých snímků](datovy-model.qmd#evidence-leteckých-snímků);
 - [odborný popis obsahu dokumentů](datovy-model.qmd#popis-obsahu-dokumentů);
-- [evidence prostorových jednotek](datovy-model.qmd#evidence-pian) [PIAN](pojmy.qmd#pian);
-- [katalog bibliografických záznamů](datovy-model.qmd#katalog-externích-zdrojů) (tzv. [externích zdrojů](pojmy.qmd#externí-zdroje-bibliografie);
-- popis dokumentačních jednotek -- [archeologických dokumentačních bodů](datovy-model.qmd#popis-madb) ([MADB](pojmy.qmd#madb)).
+- [evidence prostorových jednotek](datovy-model.qmd#evidence-pian) [PIAN](/slovnik/index.qmd#pian);
+- [katalog bibliografických záznamů](datovy-model.qmd#katalog-externích-zdrojů) (tzv. [externích zdrojů](/slovnik/index.qmd#externí-zdroje-bibliografie);
+- popis dokumentačních jednotek -- [archeologických dokumentačních bodů](datovy-model.qmd#popis-madb) ([MADB](/slovnik/index.qmd#madb)).
 
 Systém je koncipován tak, že většina jeho prvků představuje **samostatné databázové objekty**.
 Např. prostorové vymezení archeologických akcí nebo bibliografický odkaz nejsou v AMČR zaznamenány jako *vlastnosti* záznamu o akci (které by bylo možno zachytit formálně různým zápisem), nýbrž jako vztah mezi objekty dvou samostatných datových tříd, které navazují vzájemné vazby, a to zpravidla typu 1:N nebo N:N.
@@ -43,48 +43,48 @@ Zároveň naplňuje potřeby autoritního značení jednotlivých záznamů pomo
 
 ## Registr projektů
 
-V registru terénních zásahů systém eviduje zejména administrativní údaje k archeologickým [projektům](pojmy.qmd#projekty).
-Datová třída **Projekty** obsahuje informace o podnětu k terénnímu zásahu, jeho lokalizaci (slovně a bodem v mapě – nejde ovšem o [PIAN](pojmy.qmd#pian)), stavebníkovi a předpokládaném datu zahájení.
+V registru terénních zásahů systém eviduje zejména administrativní údaje k archeologickým [projektům](/slovnik/index.qmd#projekty).
+Datová třída **Projekty** obsahuje informace o podnětu k terénnímu zásahu, jeho lokalizaci (slovně a bodem v mapě – nejde ovšem o [PIAN](/slovnik/index.qmd#pian)), stavebníkovi a předpokládaném datu zahájení.
 Během dalšího průběhu je záznam o projektu doplňován datem zahájení a ukončení terénních prací a archivace.
-K projektu je možno přidávat také dílčí dokumentaci, která má však pouze informativní charakter a není přímou součástí [Digitálního archivu AMČR](pojmy.qmd#digitální-archiv-amčr).
+K projektu je možno přidávat také dílčí dokumentaci, která má však pouze informativní charakter a není přímou součástí [Digitálního archivu AMČR](/slovnik/index.qmd#digitální-archiv-amčr).
 
 ## Evidence archeologických akcí
 
-Popis archeologické [akce](pojmy.qmd#akce) v AMČR víceméně odpovídá formuláři [Zpráva o archeologické akci](pojmy.qmd#zpráva-o-archeologické-akci-zaa), který je od 90. let užíván v praxi archivech ARÚP a ARÚB.
+Popis archeologické [akce](/slovnik/index.qmd#akce) v AMČR víceméně odpovídá formuláři [Zpráva o archeologické akci](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa), který je od 90. let užíván v praxi archivech ARÚP a ARÚB.
 Jeho obsahem jsou údaje o správní jednotce (katastru), okolnostech výzkumu (které vedly k jeho provedení, příp. vymezení), jeho průběhu (vedoucí, organizace, data provedení) a použitých metodách.
 Projektové akce jsou vždy provázány vztahem ke konkrétnímu projektu, u samostatných akcí tento vztah chybí.
-Pomocí [dokumentačních jednotek](pojmy.qmd#dokumentační-jednotky) jsou akce děleny na logické prostorové celky (části, sondy), které jsou dále popisovány pomocí [komponent](pojmy.qmd#komponenty), [nálezů](pojmy.qmd#nálezy) a jednotek [PIAN](pojmy.qmd#pian).
+Pomocí [dokumentačních jednotek](/slovnik/index.qmd#dokumentační-jednotky) jsou akce děleny na logické prostorové celky (části, sondy), které jsou dále popisovány pomocí [komponent](/slovnik/index.qmd#komponenty), [nálezů](/slovnik/index.qmd#nálezy) a jednotek [PIAN](/slovnik/index.qmd#pian).
 
 ![Formulář správa o archeologické akci (ZAA)](figs/zaa.png){#fig-zaa}
 
 ## Evidence lokalit
 
-Popisný systém [lokalit](pojmy.qmd#lokality) se podobá archeologickým [akcím](pojmy.qmd#akce), jeho struktura je však jednodušší. 
+Popisný systém [lokalit](/slovnik/index.qmd#lokality) se podobá archeologickým [akcím](/slovnik/index.qmd#akce), jeho struktura je však jednodušší. 
 Odpadají zde údaje týkající se okolností terénního výzkumu a data provedení; naproti tomu se uvádí jméno lokality (pokud existuje) a její [typ](heslare.qmd#lokality) (ve smyslu formální, *fenotypické* struktury – např. *příznaky letecké archeologie*, *mohylník*, *hrad* atd.). 
-Každé lokalitě odpovídá právě jedna [dokumentační jednotka](pojmy.qmd#dokumentační-jednotky), která ji vymezuje v prostoru vazbou na [PIAN](pojmy.qmd#pian) a umožňuje ji popsat na úrovni [komponent](pojmy.qmd#komponenty). 
-Movité [nálezy](pojmy.qmd#nálezy) **nejsou** pro lokality evidovány.
+Každé lokalitě odpovídá právě jedna [dokumentační jednotka](/slovnik/index.qmd#dokumentační-jednotky), která ji vymezuje v prostoru vazbou na [PIAN](/slovnik/index.qmd#pian) a umožňuje ji popsat na úrovni [komponent](/slovnik/index.qmd#komponenty). 
+Movité [nálezy](/slovnik/index.qmd#nálezy) **nejsou** pro lokality evidovány.
 
 ## Popis akcí a lokalit
 
 Analytický potenciál dat AMČR je dán deskriptivním systémem, který umožní data popisovat nejen po stránce administrativní, ale také obsahové. 
-Popis odborného obsahu je řešen pomocí datové třídy **Komponenty**, která je vázána na [dokumentační jednotky](pojmy.qmd#dokumentační-jednotky) [akcí](pojmy.qmd#akce) a [lokalit](pojmy.qmd#lokality). 
-[Komponenty](pojmy.qmd#komponenty) definujeme chronologickým zařazením ([heslář Období](heslare.qmd#komponenty)), významovým určením ([heslář Areál](heslare.qmd#komponenty)), zachycených minulých aktivit ([heslář Aktivity](heslare.qmd#komponenty)) a doplňujících popisných údajů.
+Popis odborného obsahu je řešen pomocí datové třídy **Komponenty**, která je vázána na [dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky) [akcí](/slovnik/index.qmd#akce) a [lokalit](/slovnik/index.qmd#lokality). 
+[Komponenty](/slovnik/index.qmd#komponenty) definujeme chronologickým zařazením ([heslář Období](heslare.qmd#komponenty)), významovým určením ([heslář Areál](heslare.qmd#komponenty)), zachycených minulých aktivit ([heslář Aktivity](heslare.qmd#komponenty)) a doplňujících popisných údajů.
 
 **Nálezy** tvoří samostatnou datovou třídu podřízenou komponentám, avšak nejde o autoritní údaje, ale pouze o rozšíření popisu komponenty. 
-[Nálezy](pojmy.qmd#nálezy) se dělí na *objekty* a *předměty*. 
+[Nálezy](/slovnik/index.qmd#nálezy) se dělí na *objekty* a *předměty*. 
 Ke každému typu náleží dvojstupňový heslář ([Kategorie](heslare.qmd#nálezy) a [Druh nálezu](heslare.qmd#nálezy)), jehož položky lze dále upřesnit pomocí specifikujících výrazů, orientačního kvantitativního údaje a poznámky. 
 V principu nejsou evidovány konkrétní nálezy (de facto ovšem někdy ano), ale pouze jejich druhy. 
 Z tohoto důvodu záznamy o nálezech nemají procesní stavy ani vlastní [identifikátory](identifikatory.qmd).
 
 ## Digitální archiv a repozitář
 
-Modul slouží k ukládání a popisu různých druhů [dokumentů](pojmy.qmd#dokumenty) produkovaných v rámci archeologických akcí od terénní dokumentace, po závěrečné zprávy a expertní posudky. 
+Modul slouží k ukládání a popisu různých druhů [dokumentů](/slovnik/index.qmd#dokumenty) produkovaných v rámci archeologických akcí od terénní dokumentace, po závěrečné zprávy a expertní posudky. 
 Ukládány a evidovány jsou textové dokumenty, digitální data, fotografie, plány a další [typy dokumentů](heslare.qmd#archiv-dokumentů). 
 Kategorizace dokumentů reflektuje toto dělení a respektuje praxi, která historicky vznikla v ARÚP během posledních desetiletí. 
 Rozlišováno je proto 15 *řad* dokumentů, každá s vlastní řadou [identifikátorů](identifikatory.qmd).
 
 Datová třída **Dokumenty** popisuje obsah informačního zdroje a fyzickou podobu analogového originálu (pokud existuje). 
-Popis dokumentů vychází ze systému, který vznikl po r. 2002 v rámci projektu [Digitálního archivu ARÚP](historie.qmd#zdroje-financování); v současné době je většina dokumentů již popsána. 
+Popis dokumentů vychází ze systému, který vznikl po r. 2002 v rámci projektu [Digitálního archivu ARÚP](/zakladni-info/historie.qmd#zdroje-financování); v současné době je většina dokumentů již popsána. 
 Větším problémem než sám popis ovšem představuje vytvoření vazeb mezi dokumenty a konkrétními akcemi či lokalitami; tento úkol byl dosud limitován absencí jejich autoritních seznamů.
 
 Popis dokumentů zahrnuje [typ dokumentu](heslare.qmd#archiv-dokumentů) (např. *nálezová zpráva*, *plán objektu*, *fotografie sondy*), autora dokumentu, [materiál originálu](heslare.qmd#archiv-dokumentů) (např. *černobílý negativ*, *digitální text*), datum vzniku a další údaje. 
@@ -99,7 +99,7 @@ Tabulka obsahuje popis fyzické podoby a historie vzniku (nikoliv obsahu) digit�
 ## Evidence leteckých snímků
 
 Pro potřeby evidence leteckých snímků je systém doplněn o dvojici datových tříd -- **Tvary** a **Lety**. 
-Ostatní popisné údaje jsou evidovány standardní formou v nativních datových třídách (zejména [Dokumenty](pojmy.qmd#dokumenty), [Lokality](pojmy.qmd#lokality), [Komponenty](pojmy.qmd#komponenty), [PIAN](pojmy.qmd#pian)). 
+Ostatní popisné údaje jsou evidovány standardní formou v nativních datových třídách (zejména [Dokumenty](/slovnik/index.qmd#dokumenty), [Lokality](/slovnik/index.qmd#lokality), [Komponenty](/slovnik/index.qmd#komponenty), [PIAN](/slovnik/index.qmd#pian)). 
 Datová třída [Tvary](heslare.qmd#letecké-snímky) obsahuje popis příznaků (vegetačních, půdních atd.) pozorovaných na leteckých fotografiích (např. *macula*, *ohrazení pravoúhlé malé* apod.). 
 Datová třída Lety shrnuje záznamy o terénních *akcích* v oblasti letecké fotografie (datum průzkumného letu, počasí, letiště, jméno pilota, jméno archeologa apod.).
 
@@ -107,16 +107,16 @@ Modul letecké snímky lze prohlížet v [Digitálním Archivu AMČR](https://di
 
 ## Popis obsahu dokumentů
 
-[Dokumenty](pojmy.qmd#dokumenty) podle obsahu dělíme na logické části, které lze vztahovat k dílčím archeologickým [akcím](pojmy.qmd#akce) či [lokalitám](pojmy.qmd#lokality).
-Tyto logické části nazýváme **Jednotkami dokumentu** (analogicky k [dokumentačním jednotkám](pojmy.qmd#dokumentační-jednotky) akcí). 
-Jednotky dokumentu mohou mít svůj vlastní odborný popis pomocí [komponent](pojmy.qmd#komponenty) a [nálezů](pojmy.qmd#nálezy) a zároveň zprostředkovávají vazbu mezi dokumentem a konkrétní archeologickou akcí či lokalitou.
+[Dokumenty](/slovnik/index.qmd#dokumenty) podle obsahu dělíme na logické části, které lze vztahovat k dílčím archeologickým [akcím](/slovnik/index.qmd#akce) či [lokalitám](/slovnik/index.qmd#lokality).
+Tyto logické části nazýváme **Jednotkami dokumentu** (analogicky k [dokumentačním jednotkám](/slovnik/index.qmd#dokumentační-jednotky) akcí). 
+Jednotky dokumentu mohou mít svůj vlastní odborný popis pomocí [komponent](/slovnik/index.qmd#komponenty) a [nálezů](/slovnik/index.qmd#nálezy) a zároveň zprostředkovávají vazbu mezi dokumentem a konkrétní archeologickou akcí či lokalitou.
 
 Odborný popis obsahu dokumentů má dvojí význam. 
-Za prvé, dokumenty (zejména [hlášení](pojmy.qmd#zpráva-o-archeologické-akci-zaa) a [nálezové zprávy](pojmy.qmd#nálezová-zpráva)) někdy obsahují informace o terénních výzkumech, které nejsou reportovány v záznamech archeologických akcí, nebo (a to je častější) není zatím mezi dokumentem a záznamem o akci nastavena vazba. 
+Za prvé, dokumenty (zejména [hlášení](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa) a [nálezové zprávy](/slovnik/index.qmd#nálezová-zpráva)) někdy obsahují informace o terénních výzkumech, které nejsou reportovány v záznamech archeologických akcí, nebo (a to je častější) není zatím mezi dokumentem a záznamem o akci nastavena vazba. 
 Pro tyto případy je v AMČR vytvořena datová třída **Neidentifikované akce** ve formě rozšiřujících informací o jednotce dokumentu. 
 Tyto záznamy simulují záznamy o terénních akcích, ale jakmile bude k jednotkám dokumentu vytvořena nebo nalezena příslušná akce či lokalita a dané informace budou na ni připojeny, virtuální *neidentifikovaná akce* zanikne.
 
-Za druhé, v případě dokumentů, které se nevztahují k akci jako celku (např. [nálezová zpráva](pojmy.qmd#nálezová-zpráva)), nýbrž jen k jejím dílčím částem (např. fotografie či plán objektu), je popis obsahu jednotlivých dokumentů nezbytný. 
+Za druhé, v případě dokumentů, které se nevztahují k akci jako celku (např. [nálezová zpráva](/slovnik/index.qmd#nálezová-zpráva)), nýbrž jen k jejím dílčím částem (např. fotografie či plán objektu), je popis obsahu jednotlivých dokumentů nezbytný. 
 Jde-li např. o fotografii hrobu starší doby bronzové, je chronologický a věcný údaj zachycen jako komponenta a nález (dokumentu), podle nichž lze fotografii vyhledat, aniž by bylo nutné probírat veškerou dokumentaci z daného výzkumu (jehož větší část může patřit zcela jinému [období](heslare.qmd#komponenty) a [areálům](heslare.qmd#komponenty)).
 
 Vazba mezi dokumentem a terénní akcí může být v principu tří typů:
@@ -125,7 +125,7 @@ Vazba mezi dokumentem a terénní akcí může být v principu tří typů:
 - V druhém případě jde o vztah záznamu akce k dokumentu, který z hlediska akce obsahuje jen sekundární informaci (např. údaj o dalších výzkumech na stejném místě, analogie k nálezům apod.).
 - Třetím případem je vztah akce k dokumentu uloženému mimo repozitáře ARÚP/ARÚB.
 
-Druhý a třetí typ vazby zařazujeme mezi *externí odkazy*, tedy vztahy mezi akcí a [bibliografickými záznamy](pojmy.qmd#externí-zdroje-bibliografie).
+Druhý a třetí typ vazby zařazujeme mezi *externí odkazy*, tedy vztahy mezi akcí a [bibliografickými záznamy](/slovnik/index.qmd#externí-zdroje-bibliografie).
 
 Validita vazby mezi dokumentem a konkrétní archeologickou akcí může být v tomto okamžiku nejasná, a to zejména v otázce rozlišení prvního a druhého typu vazby. 
 V průběhu revize dat sice byly tyto vazby revidovány, avšak revizi dosud nelze považovat za dokončenou. 
@@ -135,17 +135,17 @@ Pro systémové vyhledávací funkce však typ propojení nehraje roli.
 
 ## Evidence PIAN
 
-[PIAN](pojmy.qmd#pian) je prostorový útvar vymezující některou z dokumentačních jednotek archeologické [akce](pojmy.qmd#akce) či [lokality](pojmy.qmd#lokality). 
+[PIAN](/slovnik/index.qmd#pian) je prostorový útvar vymezující některou z dokumentačních jednotek archeologické [akce](/slovnik/index.qmd#akce) či [lokality](/slovnik/index.qmd#lokality). 
 Jednotky PIAN se liší [tvarem](heslare.qmd#prostorové-vymezení) (polygon, linie nebo bod) a [přesností](heslare.qmd#prostorové-vymezení) (stupně 1-4). 
 Stupně přesnosti odpovídají možné chybě do (1) *nižších* jednotek metrů, (2) desítek metrů, (3) stovek metrů, resp. možnosti lokalizovat nález pouze (4) jménem katastru. 
-Jednotka PIAN může mít vazby k většímu počtu [dokumentačních jednotek](pojmy.qmd#dokumentační-jednotky) (nezávisle na [typu](heslare.qmd#prostorové-vymezení)), neboť uživatel má možnost napojovat záznamy na již existující PIAN a zamezit tak vzniku redundantních údajů. 
+Jednotka PIAN může mít vazby k většímu počtu [dokumentačních jednotek](/slovnik/index.qmd#dokumentační-jednotky) (nezávisle na [typu](heslare.qmd#prostorové-vymezení)), neboť uživatel má možnost napojovat záznamy na již existující PIAN a zamezit tak vzniku redundantních údajů. 
 PIAN je v systému ukládán na dvou úrovních; jednak v rámci metadatového popisu [typu (tvaru)](heslare.qmd#prostorové-vymezení), [přesnosti](heslare.qmd#prostorové-vymezení) a autora vymezení jednotky, jednak na úrovni geometrie geografických prvků. 
 PIAN v přesnostech 1–3 jsou vymezovány uživatelem v mapě v aplikačním prostředí AMČR. 
 Jednotky PIAN s přesností 4 jsou vymezeny systémově (automaticky) na základě pravidelně aktualizované polygonové vrstvy [katastrálních území ČR](heslare.qmd#obecné-hesláře).
 
 Systém AMČR z důvodu integrace starších dat nepracuje pouze s heslářem aktuálních katastrálních území, ale jsou v něm zahrnuty také katastry staré, jež mohly administrativně zaniknout v důsledku slučování, přejmenování, dělení apod. 
-Vzhledem k tomu, že v oborové literatuře je jméno katastru užíváno jako jeden z definujících identifikačních znaků [akcí](pojmy.qmd#akce) a [lokalit](pojmy.qmd#lokality), nebylo možné provést prostý převod na současný stav, neboť by došlo k podstatné ztrátě informací. 
-Tzv. **staré katastry** tak sice nelze užívat při popisu [projektových akcí](pojmy.qmd#akce) (vznikají vždy nově), jejich užití je však možné v případě [samostatných akcí](pojmy.qmd#akce). 
+Vzhledem k tomu, že v oborové literatuře je jméno katastru užíváno jako jeden z definujících identifikačních znaků [akcí](/slovnik/index.qmd#akce) a [lokalit](/slovnik/index.qmd#lokality), nebylo možné provést prostý převod na současný stav, neboť by došlo k podstatné ztrátě informací. 
+Tzv. **staré katastry** tak sice nelze užívat při popisu [projektových akcí](/slovnik/index.qmd#akce) (vznikají vždy nově), jejich užití je však možné v případě [samostatných akcí](/slovnik/index.qmd#akce). 
 Za starý katastr považujeme takový, který (a) názvem neodpovídá žádnému z aktuálních katastrů, nebo (b) jeho definice v mapě ani rámcově neodpovídá stávajícímu vymezení.
 Takové katastry jsou v hesláři označeny pomocí symbolu * a jejich zobrazení záleží na uživatelské volbě. 
 Aktualizace hesláře katastrů a tím i označení starých katastrů probíhá zpravidla jednou ročně. 
@@ -156,17 +156,17 @@ Vyhledávací funkce umožňují tvořit dotazy jak na základě starých katast
 
 ## Katalog externích zdrojů
 
-[Bibliografie](pojmy.qmd#externí-zdroje-bibliografie) je v AMČR evidována pomocí datové třídy **Externí zdroje**, která obsahuje autoritní seznam bibliografických záznamů.
+[Bibliografie](/slovnik/index.qmd#externí-zdroje-bibliografie) je v AMČR evidována pomocí datové třídy **Externí zdroje**, která obsahuje autoritní seznam bibliografických záznamů.
 Pojem *externí zdroj* byl zaveden proto, že jde o informace uložené mimo [repozitář ARÚP/ARÚB](datovy-model.qmd#digitální-archiv-a-repozitář). 
 Mezi nimi nalezneme všechny typy publikací, šedé literatury a nepublikovaných zpráv. 
 Struktura popisu odpovídá oborovému citačnímu standardu <!--[@redakce1998]--> a je doplněna o identifikátor v knihovním systému ALEPH (pole sysno), užívaném Knihovnou ARÚP, díky čemuž je možná pravidelná aktualizace obsahu databáze, stejně jako snadné vyhledávání fyzických svazků v knihovně. 
-Externí zdroje jsou prostřednictvím **Externích odkazů** provázány s [akcemi](pojmy.qmd#akce) a [lokalitami](pojmy.qmd#lokality), přičemž je možné uvádět konkrétní stranový rozsah každého takového odkazu (paginaci). 
+Externí zdroje jsou prostřednictvím **Externích odkazů** provázány s [akcemi](/slovnik/index.qmd#akce) a [lokalitami](/slovnik/index.qmd#lokality), přičemž je možné uvádět konkrétní stranový rozsah každého takového odkazu (paginaci). 
 S ukládáním fulltextových souborů systém AMČR nepočítá, ale pomocí identifikátoru typu sysno umožňuje propojení na knihovnické systémy, které takové soubory obsahují, nebo v budoucnu obsahovat budou.
 
 ## Popis MADB
 
-Mapa archeologických dokumentačních bodů ([MADB](pojmy.qmd#madb)) je stejně jako [modul leteckých snímků](datovy-model.qmd#evidence-leteckých-snímků) plně integrován do AMČR. 
-Rozšiřuje systém v oblasti [dokumentačních jednotek](pojmy.qmd#dokumentační-jednotky), kde k dokumentačním jednotkám typu sonda připojuje další popis **Dokumentačních bodů** a **Výškových bodů**.
+Mapa archeologických dokumentačních bodů ([MADB](/slovnik/index.qmd#madb)) je stejně jako [modul leteckých snímků](datovy-model.qmd#evidence-leteckých-snímků) plně integrován do AMČR. 
+Rozšiřuje systém v oblasti [dokumentačních jednotek](/slovnik/index.qmd#dokumentační-jednotky), kde k dokumentačním jednotkám typu sonda připojuje další popis **Dokumentačních bodů** a **Výškových bodů**.
 
 Pro MADB je v rámci projektu *Integrovaný informační systém archeologických pramenů Prahy* implementováno speciální webové rozhraní, které umožňuje provázání údajů MADB s další evidencí, zejména pak s fondy [Národního památkového ústavu](https://npu.cz/){.external}. 
 Rozhraní je dostupné na webu [http://www.praha-archeologicka.cz/](http://www.praha-archeologicka.cz/){.external} a bylo uvedeno do provozu v roce 2017.

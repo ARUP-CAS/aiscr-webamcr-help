@@ -12,9 +12,9 @@ Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, scr
 
 :::
 
-Zpracování pozitivních archeologických výzkumů do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva) (NZ) se řídí *Pravidly pro podání nálezové zprávy o terénním archeologickém výzkumu* (viz stránky ARÚ [Praha](https://www.arup.cas.cz/wp-content/uploads/2020/05/pravidla_NZ_obecna_191009.pdf){.external} a [Brno](https://arub.cz/wp-content/uploads/Pravidla-pro-podani-nalezove-zpravy-o-terennim-archeologickem-vyzkumu_3_2020.pdf){.external}).
+Zpracování pozitivních archeologických výzkumů do podoby [nálezové zprávy](/slovnik/index.qmd#nálezová-zpráva) (NZ) se řídí *Pravidly pro podání nálezové zprávy o terénním archeologickém výzkumu* (viz stránky ARÚ [Praha](https://www.arup.cas.cz/wp-content/uploads/2020/05/pravidla_NZ_obecna_191009.pdf){.external} a [Brno](https://arub.cz/wp-content/uploads/Pravidla-pro-podani-nalezove-zpravy-o-terennim-archeologickem-vyzkumu_3_2020.pdf){.external}).
 
-V případě [akcí](pojmy.qmd#akce) drobnějšího rozsahu je v AMČR akceptován i dokument, který nemá podobu plnohodnotné NZ, ale je redukován např. do podoby *Hlášení o archeologické akci* atp.
+V případě [akcí](/slovnik/index.qmd#akce) drobnějšího rozsahu je v AMČR akceptován i dokument, který nemá podobu plnohodnotné NZ, ale je redukován např. do podoby *Hlášení o archeologické akci* atp.
 V některých případech může být záznam i zcela bez přiloženého dokumentu pouze s popisem ve formuláři v AMČR.
 I v těchto případech by měl přiložený dokument (nebo popis v AMČR) splňovat následující minimální požadavky.
 
@@ -30,7 +30,7 @@ Zásadou v podobných případech však vždy je, že samotná fotografie nikdy 
 Připojený soubor by pak měl mít podobu uceleného dokumentu opatřeného titulní stranou (nemělo by se tedy jednat pouze o připojené fotografie atp.).
 
 Stejně jako v případě plnohodnotné NZ musí být z těchto dokumentů možné **rekonstruovat zjištěné situace v maximální možné míře**.
-NZ musí dále korespondovat se zápisem [komponent](pojmy.qmd#komponenty) v kartě [dokumentační jednotky](pojmy.qmd#dokumentační-jednotky) a to až do úrovně kategorií získaných nálezů a vice versa.
+NZ musí dále korespondovat se zápisem [komponent](/slovnik/index.qmd#komponenty) v kartě [dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky) a to až do úrovně kategorií získaných nálezů a vice versa.
 
 ## Příklady dobré praxe
 

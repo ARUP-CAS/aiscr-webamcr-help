@@ -19,7 +19,7 @@ Původně zveřejněno jako Kuna, M a Novák, D. [-@kuna2020]: *Zásady evidence
 
 ## Pojem lokalita
 
-Jádrem AMČR jsou záznamy dvou typů: [archeologické akce](pojmy.qmd#akce) a (archeologické) [lokality](pojmy.qmd#lokality).
+Jádrem AMČR jsou záznamy dvou typů: [archeologické akce](/slovnik/index.qmd#akce) a (archeologické) [lokality](/slovnik/index.qmd#lokality).
 
 **Archeologická akce** je soubor archeologických nálezů a pozorování odpovídající určitému místu (prostorovému vymezení), původci (osobě, organizaci), době provedení a použité metodě výzkumu.
 
@@ -46,7 +46,7 @@ Pro pochopení obsahu pojmů akce a lokalita je důležité ještě podotknout, 
 - Jako *lokalitu* evidujeme zejména soubory nálezů a pozorování, jejichž souvislost je dána specifickým krajinným prvkem (valy, mohyly, terénní konfigurace). Z podstaty věci proto jde často o informace získané nedestruktivním terénním průzkumem.
 - Vytvoření *lokality* na základě destruktivního výzkumu nevylučujeme, pokud takový záznam o souboru informací představuje (ve srovnání se záznamy o jednotlivých akcích) novou kvalitu, spočívající zejména v definici určitého celku (např. ohrazeného areálu, jinak nezjistitelného).
 - Pokud z takové *lokality* pocházejí movité nálezy, jejich soubory vždy primárně evidujeme jako *akce*, a to s maximálně přesným prostorovým a věcným vymezením. Naopak, pokud k tomu není zvláštní důvod, opakovaná nedestruktivní pozorování bez nálezů jako *akce* neevidujeme (jednotlivé snímky, návštěvy lokality apod.).
-- Popis [komponent](pojmy.qmd#komponenty) *lokality* chápeme jako pomocnou informaci, která může být částečně redundantní vzhledem k evidenci akcí. Jedním z úkolu do budoucna může být systematická aktualizace popisu komponent lokalit podle komponent akcí.
+- Popis [komponent](/slovnik/index.qmd#komponenty) *lokality* chápeme jako pomocnou informaci, která může být částečně redundantní vzhledem k evidenci akcí. Jedním z úkolu do budoucna může být systematická aktualizace popisu komponent lokalit podle komponent akcí.
 - Jsme si vědomi arbitrárnosti výběru a popisu komponent *lokality*. Za určitých okolností lze hradiště jako *lokalitu* zařadit do doby bronzové, i když pro to není žádná opora v movitých nálezech, nebo k této *lokalitě* přiřadit jako komponentu eneolitický depot, pokud jsme přesvědčeni, že opevnění v době bronzové navázalo na starší účel místa. Toto pojetí bude v budoucnu třeba rozpracovat s využitím aktuální teorie archeologie (zejména konceptu *assemblage*).
 - Naproti tomu nálezy, které považujeme za nesouvisející a/nebo nálezy s odlišným archeologickým projevem, evidujeme jako různé *lokality*, i když jsou na stejném místě (typicky třeba hrad na hradišti).
 - *Lokality* mohou mít hierarchickou povahu (samostatně evidujeme např. celou zaniklou vesnici a zároveň i tvrz či kostel v ní zahrnutý). Takový postup je analyticky výhodný. V budoucnu bude dopracována metodika členění *lokalit* na části (např. hradiště > akropole, předhradí) a evidence jejich podoby v různých obdobích (srov. různý rozsah hradiště Závist v pozdní době bronzové, v době halštatské a jako oppida). V principu existují dva postupy, z nichž jeden považuje za primární hledisko logickou prostorovou součást *lokality* a k ní přiřazuje období, druhý postup to činí naopak, tedy k danému chronologickému celku přiřazuje relevantní prostorové vymezení.

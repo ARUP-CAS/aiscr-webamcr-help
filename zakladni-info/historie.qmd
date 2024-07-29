@@ -26,7 +26,7 @@ Systém AMČR představuje klíčovou část archeologické výzkumné infrastru
 Její vznik a rozvoj lze popsat jako tři etapy postupné tvorby a integrace datových bází, z nichž třetí etapa byla zahájena v roce 2016.
 Dané etapy lze stručně charakterizovat takto:
 
-1. **1990--2011**: Vznik a samostatné budování základních evidenčních databází, tj. [Archeologické databáze Čech](pojmy.qmd#archeologická-databáze-čech-adč) (od r. 1990), Digitálního archivu ARÚP (od r. 2002), [Internetové databáze archeologických výzkumů](pojmy.qmd#internetová-databáze-archeologických-výzkumů-idav) (od r. 2008) a [Digitálního archivu a evidence archeologických výzkumů na Moravě a ve Slezsku](pojmy.qmd#digitální-archiv-a-evidence-archeologických-výzkumů-moravy-a-slezska-daeav), od r. 2009).
+1. **1990--2011**: Vznik a samostatné budování základních evidenčních databází, tj. [Archeologické databáze Čech](/slovnik/index.qmd#archeologická-databáze-čech-adč) (od r. 1990), Digitálního archivu ARÚP (od r. 2002), [Internetové databáze archeologických výzkumů](/slovnik/index.qmd#internetová-databáze-archeologických-výzkumů-idav) (od r. 2008) a [Digitálního archivu a evidence archeologických výzkumů na Moravě a ve Slezsku](/slovnik/index.qmd#digitální-archiv-a-evidence-archeologických-výzkumů-moravy-a-slezska-daeav), od r. 2009).
 
 2. **2012--2015**: Integrace základních informačních zdrojů do komplexního systému Archeologická mapa ČR sjednocujícího oborový agendový systém s národní databází archeologického dědictví.
 
@@ -42,7 +42,7 @@ Z účelové podpory lze zmínit následující grantové projekty:
 
 - **Riziko archeologického výzkumu**  
   GA AV ČR, [IBS8002001](https://www.isvavai.cz/cep?ss=detail&n=0&h=IBS8002001){.external}, 2000-2003.  
-  V projektu byla zahájena revize prostorových údajů [Archeologické databáze Čech](pojmy.qmd#archeologická-databáze-čech-adč) a rozpracovány obecné principy tvorby a správy prostorových dat.  
+  V projektu byla zahájena revize prostorových údajů [Archeologické databáze Čech](/slovnik/index.qmd#archeologická-databáze-čech-adč) a rozpracovány obecné principy tvorby a správy prostorových dat.  
   Archeologický ústav AV ČR, Praha, v. v. i., odpovědný řešitel: M. Kuna.
 
 - **Sídelní prostor pravěkých Čech**  

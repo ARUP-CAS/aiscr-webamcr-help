@@ -140,7 +140,7 @@ max. pět let. V tomto případě vhodně vyplňte pole *lokalizace* v
 projektu a do pole *podnět* uveďte informaci o očekávaném trvání
 projektu.
 
-Oba typy projektů jsou vždy zakončeny nálezovou zprávou, viz [dále](pas-archeolog.qmd#archivace-projektu-typu-průzkum).
+Oba typy projektů jsou vždy zakončeny nálezovou zprávou, viz [dále](archeolog.qmd#archivace-projektu-typu-průzkum).
 
 ### Založení projektu v desktopové aplikaci AMČR
 
@@ -297,7 +297,7 @@ maximální velikosti 100 MB na jednu fotku (není tedy třeba je
 komprimovat či zmenšovat). Fotografie dokumentující předmět před
 nahráním ořízněte a natočte tak, aby osy měřítka a předmětu kopírovaly
 svislou a vodorovnou rovinu osy fotografie. Pro více informací o dobré
-praxi v dokumentaci drobných nálezů viz sekce [Fotografická dokumentace nálezů](pas-foto.qmd).
+praxi v dokumentaci drobných nálezů viz sekce [Fotografická dokumentace nálezů](foto.qmd).
 
 #### Nálezové okolnosti
 

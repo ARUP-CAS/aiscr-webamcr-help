@@ -11,18 +11,18 @@ Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, scr
 
 :::
 
-Základním cílem AMČR je vytvořit jednotný a trvale udržitelný systém evidence terénních archeologických [akcí](pojmy.qmd#akce), jejich výsledků a s nimi souvisejících informačních zdrojů.
+Základním cílem AMČR je vytvořit jednotný a trvale udržitelný systém evidence terénních archeologických [akcí](/slovnik/index.qmd#akce), jejich výsledků a s nimi souvisejících informačních zdrojů.
 Nezbytnou součástí systému jsou proto autoritní seznamy položek v jednotlivých datových třídách, v nichž každý záznam získává jedinečný a persistentní identifikátor, přidělovaný jak nově přibývajícím položkám, tak dodatečně importovaným starším datům.
 
-Základem systému identifikátorů AMČR je identifikátor [projektu](pojmy.qmd#projekty) nebo samostatné [akce](pojmy.qmd#akce).
+Základem systému identifikátorů AMČR je identifikátor [projektu](/slovnik/index.qmd#projekty) nebo samostatné [akce](/slovnik/index.qmd#akce).
 Tento identifikátor by měl provázet terénní výzkum ve všech jeho fázích a být spojujícím článkem, který jednoznačně propojuje odborné databáze, administrativu terénních výzkumů, příslušné dokumenty, publikace a potenciálně i nálezy v muzejních sbírkách.
 Identifikátory mají logickou podobu a do jisté míry i srozumitelnou formu: z identifikátoru lze např. vyčíst, ke kterému regionu patří (**Čechy/Morava – C/M**) a o jakou datovou třídu či část datové třídy jde.
-Tam, kde to bylo možné, byly zachovány starší identifikátory, které již mohou kolovat v literatuře (např. čísla projektů v [systému IDAV](pojmy.qmd#internetová-databáze-archeologických-výzkumů-idav), čísla fotografií archivu ARÚP, stará čísla jednací atd.), byť někdy v poněkud pozměněném formátu.
+Tam, kde to bylo možné, byly zachovány starší identifikátory, které již mohou kolovat v literatuře (např. čísla projektů v [systému IDAV](/slovnik/index.qmd#internetová-databáze-archeologických-výzkumů-idav), čísla fotografií archivu ARÚP, stará čísla jednací atd.), byť někdy v poněkud pozměněném formátu.
 
 Systém rozlišuje identifikátory **definitivní** a **provizorní**.
 Přidělení definitivního identifikátoru je závislé na [procesním stavu](procesy.qmd), ve kterém se aktuálně záznam nachází.
 Díky tomu zbytečně nevznikají v [řadách](heslare.qmd#archiv-dokumentů) identifikátorů mezery, způsobené odstraňováním invalidních záznamů a přírůstek identifikátorů je tak regulován.
-Definitivní identifikátory jsou akcím přidělovány po odeslání uživatelem ke kontrole, projektům po zápisu a [lokalitám](pojmy.qmd#lokality), [dokumentům](pojmy.qmd#dokumenty), [bibliografii](pojmy.qmd#externí-zdroje-bibliografie) a [PIAN](pojmy.qmd#pian) při archivaci.
+Definitivní identifikátory jsou akcím přidělovány po odeslání uživatelem ke kontrole, projektům po zápisu a [lokalitám](/slovnik/index.qmd#lokality), [dokumentům](/slovnik/index.qmd#dokumenty), [bibliografii](/slovnik/index.qmd#externí-zdroje-bibliografie) a [PIAN](/slovnik/index.qmd#pian) při archivaci.
 Veškeré záznamy je také možno do systému dávkově naimportovat s již definitivním identifikátorem.
 Provizorní identifikátory jsou před potvrzením a převodem do definitivní podoby označeny prefixem *X-*.
 

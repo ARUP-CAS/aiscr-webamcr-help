@@ -14,8 +14,8 @@ Hlavní stránku AMČR-PAS najdete zde [**https://amcr-info.aiscr.cz/pas/**](htt
 
 Sekce k AMČR-PAS obsahuje následující části:
 
-- [Často kladené otázky (FAQ) spolupracovníků](faq-spolupracovnici.qmd)
-- [Často kladené otázky (FAQ) archeologů](faq-archeologove.qmd)
+# - [Často kladené otázky (FAQ) spolupracovníků](faq-spolupracovnici.qmd)
+# - [Často kladené otázky (FAQ) archeologů](faq-archeologove.qmd)
 - [Návod pro spolupracovníky](amater.qmd)
 - [Návod pro archeology](archeolog.qmd)
 - [Fotografická dokumentace nálezů](foto.qmd)

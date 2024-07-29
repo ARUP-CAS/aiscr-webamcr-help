@@ -13,7 +13,7 @@ format-links: false
 - Popis práce s [mapovým rozhraním](mapa.qmd).
 - [Formulář oznámení záměru](oznameni.qmd) -- jak odeslat oznámení o stavebním či jiném záměru prováděném na území s archeologickými nálezy.
 - Správa modulů [projektů](projekty.qmd), [akcí](akce.qmd) a [lokalit](lokality.qmd).
-- Rozcestník [dokumentace AMČR-PAS](amcr-pas/amcr-pas.qmd) (*Portál amatérských spolupracovníků a evidence samostatných nálezů*).
+- Rozcestník [dokumentace AMČR-PAS](amcr-pas/index.qmd) (*Portál amatérských spolupracovníků a evidence samostatných nálezů*).
 - Správa [dokumentů](dokumenty.qmd), [knihovny 3D](knihovna3d.qmd) a [externích zdrojů](externi.qmd).
 
 

@@ -12,10 +12,10 @@ Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, scr
 :::
 
 Informační systém **Archeologická mapa České republiky** ([AMČR](https://amcr-info.aiscr.cz/){.external}) integruje dvě základní oblasti správy archeologického dědictví ČR.
-Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby [nálezové zprávy](pojmy.qmd#nálezová-zpráva).
+Na jedné straně jde o oborový agendový systém, který má zajistit průběžnou administrativní evidenci připravovaných i probíhajících terénních výzkumů a umožnit tak efektivní kontrolu jejich kvality a následného zpracování do podoby [nálezové zprávy](/slovnik/index.qmd#nálezová-zpráva).
 Na druhé straně jde o budování souhrnného přehledu archeologického dědictví ČR, tedy o vytvoření *národní* databáze archeologického kulturního dědictví.
 Oba úkoly spolu v mnoha ohledech souvisejí, a jejich spojení proto je pro uživatele výhodné: vzniká jím jednotný systém evidence klíčových informací využitelných v celé šíři archeologické terénní, památkové a v některých ohledech i muzejní práce.
-AMČR je součástí [velké výzkumné infrastruktury](pojmy.qmd#výzkumné-infrastruktury) **Archeologický informační systém České Republiky** ([AIS CR](https://aiscr.cz/){.external}).
+AMČR je součástí [velké výzkumné infrastruktury](/slovnik/index.qmd#výzkumné-infrastruktury) **Archeologický informační systém České Republiky** ([AIS CR](https://aiscr.cz/){.external}).
 
 AMČR slučuje některé dosud nespojité datové báze a operace související s jejich plněním a správou.
 Jde o:
@@ -27,7 +27,7 @@ Jde o:
 
 Cílem zavedení systému AMČR je zvýšení efektivity v oblasti shromažďování a šíření odborných informací, což je jedním z důležitých předpokladů dalšího rozvoje oboru, a to jak v ohledu teoretického výzkumu, tak památkové péče i komunikace se širší veřejností.
 Základním způsobem, jak tohoto cíle má být dosaženo, je vytvoření autoritních seznamů archeologických projektů, terénních akcí, dokumentů a dalších jednotek informačního systému.
-Evidence těchto jednotek pomocí jednotných a [persistentních identifikátorů](identifikatory.qmd) umožňuje spolehlivě identifikovat každý z prvků [archeologického fondu](pojmy.qmd#archeologický-fond) a vytvářet mezi prvky účelné vazby (např. nález k akci, akce k dokumentu apod.)
+Evidence těchto jednotek pomocí jednotných a [persistentních identifikátorů](/o-systemu/identifikatory.qmd) umožňuje spolehlivě identifikovat každý z prvků [archeologického fondu](/slovnik/index.qmd#archeologický-fond) a vytvářet mezi prvky účelné vazby (např. nález k akci, akce k dokumentu apod.)
 
 AMČR je systémem pro evidenci archeologických výzkumů a nálezů v České republice. 
 Program si může každý uživatel zdarma nainstalovat na svém počítači a pokud je registrován, může také vkládat záznamy o vlastních archeologických průzkumech a výzkumech. 
