@@ -5,23 +5,29 @@ subtitle: Portál amatérských spolupracovníků a evidence samostatných nále
 
 ::: {.callout-note}
 
-Do portálu AMČR-PAS vstoupíte zde [**https://amcr.aiscr.cz/**](https://amcr.aiscr.cz/){.external}.  
-Hlavní stránku AMČR-PAS najdete zde [**https://amcr-info.aiscr.cz/pas/**](https://amcr-info.aiscr.cz/pas/){.external}.
+## Odkazy
+
+Do portálu AMČR-PAS vstoupíte zde [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.  
+Hlavní stránku AMČR-PAS najdete zde [https://amcr-info.aiscr.cz/pas/](https://amcr-info.aiscr.cz/pas/){.external}.  
+Organizace s oprávněním provádět archeologické výzkumy lze snadno vyhledat v [Mapě archeologických organizací](https://oao.aiscr.cz/){.external}.  
+Archivované nálezy lze prohlížet v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external}.  
+Heslář a časové vymezení jednotlivých období je k dispozici v nástroji [PeriodO](http://n2t.net/ark:/99152/p0wctqt){.external}.  
 
 :::
 
+::: {.callout-important}
+
 ## Obsah
 
-Sekce k AMČR-PAS obsahuje následující části:
+Sekce k AMČR-PAS obsahuje:
 
-# - [Často kladené otázky (FAQ) spolupracovníků](faq-spolupracovnici.qmd)
-# - [Často kladené otázky (FAQ) archeologů](faq-archeologove.qmd)
-- [Návod pro spolupracovníky](amater.qmd)
-- [Návod pro archeology](archeolog.qmd)
-- [Fotografická dokumentace nálezů](foto.qmd)
+- [Návod pro spolupracovníky](amater.qmd) určený každému, kdo chce spolupracovat a zaznamenávat své nálezy prostřednictvím systému AMČR-PAS.
+- [Návod pro archeology](archeolog.qmd), kde je popsána správa AMČR-PAS pro archeology garantující spolupráci.
+- Tutoriál, jak správně provádět [fotografickou dokumentaci nálezů](foto.qmd) (nejen) pro potřeby AMČR-PAS.
 
+:::
 
-## Periodická školení 
+<!-- ## Periodická školení 
 
 Archeologické ústavy AV ČR v Praze a Brně provádějí periodická online školení k systému AMČR-PAS. Registrovat se lze na následujícím [odkazu](https://forms.gle/Hkoygb6GgTueC7HeA){.external}.
 
@@ -30,19 +36,7 @@ Archeologické ústavy AV ČR v Praze a Brně provádějí periodická online š
 1. metodika spolupráce a její zákonný rámec, vč. základních pravidel působení hledače v terénu; 
 2. fungování portálu AMČR-PAS a způsob jeho využití z pohledu uživatele. 
 
-Následuje vždy diskuse na základě pokládaných dotazů. Školení je určeno primárně pro širokou veřejnost, vítáni jsou však i odborní pracovníci v archeologii a památkové péči. Přesné datum školení bude stanoveno vždy v několikatýdenním předstihu na základě projeveného zájmu (obvykle ve čtvrtletních až pololetních cyklech). Před setkáním Vám na uvedený email zašleme další informace o tom, jak se k online setkání připojit.
-
-
-## Odkazy 
-
-- Organizace s oprávněním provádět archeologické výzkumy lze snadno vyhledat v [Mapě archeologických organizací](https://oao.aiscr.cz/){.external}.
-- Archivované nálezy lze prohlížet v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external}.
-- Heslář a časové vymezení jednotlivých období je k dispozici v nástroji [PeriodO](http://n2t.net/ark:/99152/p0wctqt){.external}.
-
-### Publikace a články související s AMČR-PAS 
-
-- Souhrnný článek kolektivu autorů AMČR-PAS vyšel v roce 2023 v časopise *Internet Archaeology*, viz [https://doi.org/10.11141/ia.64.13](https://doi.org/10.11141/ia.64.13){.external}.
-
+Následuje vždy diskuse na základě pokládaných dotazů. Školení je určeno primárně pro širokou veřejnost, vítáni jsou však i odborní pracovníci v archeologii a památkové péči. Přesné datum školení bude stanoveno vždy v několikatýdenním předstihu na základě projeveného zájmu (obvykle ve čtvrtletních až pololetních cyklech). Před setkáním Vám na uvedený email zašleme další informace o tom, jak se k online setkání připojit. -->
 
 ## Vzorové dokumenty 
 
@@ -58,3 +52,19 @@ Následuje vždy diskuse na základě pokládaných dotazů. Školení je určen
 | [Grafická měřítka](AMCR-PAS_meritka.zip) | [{{< fa file-download >}}](AMCR-PAS_meritka.zip) | ZIP | -- | Grafická měřítka pro focení připravená pro tisk. Při tisku použijte nastavení velikosti stránky *skutečná velikost*, aby velikost měřítka odpovídala skutečnosti. |
 
 :::
+
+
+## Materiály související s AMČR-PAS 
+
+### Publikace
+
+- Souhrnný článek kolektivu autorů AMČR-PAS publikovaný v roce 2023 v *Internet Archaeology*, viz [https://doi.org/10.11141/ia.64.13](https://doi.org/10.11141/ia.64.13){.external}.
+- Rozhovor o spuštění AMČR-PAS s D. Novákem publikovaný v *Detektor revue* 2021/2 ([Academia.edu](https://www.academia.edu/46580582/Jak_neztr%C3%A1cet_historii_How_not_to_Lose_History){.external}).
+- Rozhovor o detektoringu s B. Komoróczym publikovaný v *Detektor revue* 2021/1 ([Academia.edu](https://www.academia.edu/45093423/Poj%C4%8Fme_historii_objevovat_spole%C4%8Dn%C4%9B){.external}).
+
+
+### Deset zásad zodpovědného hledání s detektory kovů
+
+Jaké jsou zásady zodpovědného hledání s detektory kovů se dozvíte v následujícím [videu](https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9){.external} a [dokumentu {{< fa file-download >}}](https://amcr-info.aiscr.cz/_nove/downloads/Zodpovedne_hledani.pdf).
+
+{{< video https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9 >}}
