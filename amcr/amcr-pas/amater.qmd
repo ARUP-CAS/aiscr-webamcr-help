@@ -41,7 +41,7 @@ Původně zveřejněno na Zenodo pod DOI: [10.5281/zenodo.4114081](https://zenod
 AMČR-PAS (*Portál amatérských spolupracovníků a evidence samostatných nálezů*) byl vytvořen pro podporu součinnosti dobrovolných
 spolupracovníků a [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace) při provádění archeologických
 výzkumů metodou povrchové prospekce, včetně využití detektorů kovů.
-Úkolem AMČR-PAS je vytvořit podmínky pro formalizaci a
+Úkolem AMČR-PAS je vytvořit podmínky pro transparentnost, formalizaci a
 zároveň usnadnění této spolupráce při současném respektování platných
 zákonných norem ČR.
 
@@ -67,7 +67,7 @@ Organizace oprávněné provádět archeologické výzkumy lze vyhledávat v apl
 
 Vyhledávání archeologických nálezů pomocí detektoru kovů je jednou z
 metod archeologického výzkumu. Archeologický výzkum může být prováděn
-výhradně organizací k tomu oprávnenou a na území, které je vymezeno
+výhradně organizací k tomu oprávněnou a na území, které je vymezeno
 platnou dohodou dané organizace s AV ČR. Každý výzkum musí
 být registrován v *Archeologické mapě České republiky*
 (AMČR) ve formě projektu, který má svého vedoucího, který
@@ -216,6 +216,7 @@ fotodokumentaci nálezové situace a předmětu, ideálně i s měřítkem.
 Akceptovány jsou fotografie ve formátu JPG, PNG, TIFF do maximální
 velikosti 100 MB. Není tedy třeba fotky komprimovat nebo zmenšovat.
 Pokud si nejste jistí, jak předměty správně dokumentovat, postupujte dle našeho [tutoriálu pro fotografickou dokumentaci nálezů](foto.qmd).
+Nahrané fotografie přechází do vlastnictví správce a nadále jsou chráněny licencí [Creative Commons Attribution Noncommercial 4.0 Int. (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/){.external}.
 
 Fotografie lze přiložit pomocí tlačítka `Nahrát soubory` v horní liště karty pro sekci `Fotografie`.
 
