@@ -26,7 +26,7 @@
     "href": "zakladni-info/historie.html#vznik-systému-a-jeho-autoři",
     "title": "Historie",
     "section": "Vznik systému a jeho autoři",
-    "text": "Vznik systému a jeho autoři\nStruktura a funkcionality systému byly navrženy v rámci grantového projektu Archeologická mapa ČR. Systém pro sběr, správu a prezentaci dat (MK ČR – program NAKI, DF12P01OVV003, 2012-2015) autorským týmem Archeologického ústavu AV ČR, Praha, v. v. i. (Martin Kuna, David Novák, Jan Hasil, Dana Křivánková).\nTechnické řešení systému AMČR provedla podle návrhu ARÚP firma SmartGIS, s.r.o.. V současné době systém spravuje Huld s. r. o. (dříve Space Systems Czech, s.r.o.)\nAMČR je součástí Archeologického informačního systému ČR zapsaného od roku 2016 do Cestovní mapy velkých výzkumných infrastruktur ČR, který budování infrastruktury v rámci stejnojmenného výzkumného projektu podporuje. Doplňkovou podporu získává infrastruktura i v rámci programu Strategie AV21 Akademie věd ČR a dalších projektů.",
+    "text": "Vznik systému a jeho autoři\nStruktura a funkcionality systému byly navrženy v rámci grantového projektu Archeologická mapa ČR. Systém pro sběr, správu a prezentaci dat (MK ČR – program NAKI, DF12P01OVV003, 2012-2015) autorským týmem Archeologického ústavu AV ČR, Praha, v. v. i. (Martin Kuna, David Novák, Jan Hasil, Dana Křivánková).\nTechnické řešení systému AMČR provedla podle návrhu ARÚP firma SmartGIS, s.r.o.. V současné době systém spravuje Huld s. r. o. (dříve Space Systems Czech, s.r.o.)\nAMČR je součástí Archeologického informačního systému ČR zapsaného od roku 2016 do Cestovní mapy velkých výzkumných infrastruktur ČR, který budování infrastruktury v rámci stejnojmenného výzkumného projektu podporuje. Doplňkovou podporu získává infrastruktura i v rámci programu Strategie AV21 Akademie věd ČR a dalších projektů.\n\nHistorie archivu a vznik infrastruktury\nNásledující video stručně představuje historii archivů archeologických ústavů a vznik infrastruktury AIS CR. Video obsahuje screenshoty z původní desktopové verze aplikace AMČR.",
     "crumbs": [
       "Úvod",
       "Historie"
@@ -67,16 +67,6 @@
     "title": "Úvod",
     "section": "",
     "text": "O systému\n        \n           \n            V této sekci je vysvětlena struktura dat, popsána architektura systému a\nshrnuty informace o používaných řízených slovnících, procesních pravidlech\na přístupnosti jednotlivých záznamů.\n \n          \n        \n      \n      \n    \n  \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        \n        Dokumentace AMČR\n        \n           \n            Sekce obsahuje širokou škálu návodů pro používání webové\naplikace AMČR od správy projektů, akcí a lokalit až po manuály\nKnihovny 3D či AMČR-PAS, včetně dobré praxe focení drobných nálezů atd.\n \n          \n        \n      \n      \n    \n  \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        \n        Návod pro Digitální archiv AMČR\n        \n           \n            Manuál představuje funkce Digitálního archivu AMČR, webové aplikace určené k\nprohlížení informací a dokumentů o archeologických výzkumech, lokalitách a nálezech.\n \n          \n        \n      \n      \n    \n  \n  \n\n  \n    \n      \n        \n          \n        \n      \n      \n        \n        Popis AMČR API\n        \n           \n            Manuál popisuje API rozhraní, pomocí kterého lze získávat metadatové záznamy\nz databáze AMČR, a to pomocí protokolu OpenArchives Initiative Protocol\nfor Metadata Harvesting (OAI-PMH). Manuál k API je pouze v Anglickém jazyce.\n \n          \n        \n      \n      \n    \n  \n  \n\n\n\n\nŽádné nalezené výsledky\nUživatelská dokumentace AMČR je členěna do několika úrovní:",
-    "crumbs": [
-      "Úvod"
-    ]
-  },
-  {
-    "objectID": "index.html#služby-ais-cr",
-    "href": "index.html#služby-ais-cr",
-    "title": "Úvod",
-    "section": "Služby AIS CR",
-    "text": "Služby AIS CR\nArcheologická mapa České republiky (AMČR) je páteřní součástí velké výzkumné infrastruktury Archeologický informační systém České republiky (AIS CR).\n\nÚvodní stránku k AMČR najdete na odkaze https://amcr-info.aiscr.cz.\nDo webové aplikace AMČR vstoupíte zde https://amcr.aiscr.cz/.\nDigitální archiv AMČR najdete na odkaze https://digiarchiv.aiscr.cz/.\nStránky infrastruktury AIS CR s odkazy na další služby a součásti systému najdete zde: https://aiscr.cz/.",
     "crumbs": [
       "Úvod"
     ]
@@ -324,43 +314,7 @@
     "href": "amcr/amcr-pas/index.html",
     "title": "AMČR-PAS",
     "section": "",
-    "text": "Do portálu AMČR-PAS vstoupíte zde https://amcr.aiscr.cz/.\nHlavní stránku AMČR-PAS najdete zde https://amcr-info.aiscr.cz/pas/.",
-    "crumbs": [
-      "AMČR",
-      "Návody",
-      "AMČR-PAS"
-    ]
-  },
-  {
-    "objectID": "amcr/amcr-pas/index.html#obsah",
-    "href": "amcr/amcr-pas/index.html#obsah",
-    "title": "AMČR-PAS",
-    "section": "Obsah",
-    "text": "Obsah\nSekce k AMČR-PAS obsahuje následující části:",
-    "crumbs": [
-      "AMČR",
-      "Návody",
-      "AMČR-PAS"
-    ]
-  },
-  {
-    "objectID": "amcr/amcr-pas/index.html#periodická-školení",
-    "href": "amcr/amcr-pas/index.html#periodická-školení",
-    "title": "AMČR-PAS",
-    "section": "Periodická školení",
-    "text": "Periodická školení\nArcheologické ústavy AV ČR v Praze a Brně provádějí periodická online školení k systému AMČR-PAS. Registrovat se lze na následujícím odkazu.\nŠkolení se zabývá dvěma oblastmi:\n\nmetodika spolupráce a její zákonný rámec, vč. základních pravidel působení hledače v terénu;\nfungování portálu AMČR-PAS a způsob jeho využití z pohledu uživatele.\n\nNásleduje vždy diskuse na základě pokládaných dotazů. Školení je určeno primárně pro širokou veřejnost, vítáni jsou však i odborní pracovníci v archeologii a památkové péči. Přesné datum školení bude stanoveno vždy v několikatýdenním předstihu na základě projeveného zájmu (obvykle ve čtvrtletních až pololetních cyklech). Před setkáním Vám na uvedený email zašleme další informace o tom, jak se k online setkání připojit.",
-    "crumbs": [
-      "AMČR",
-      "Návody",
-      "AMČR-PAS"
-    ]
-  },
-  {
-    "objectID": "amcr/amcr-pas/index.html#odkazy",
-    "href": "amcr/amcr-pas/index.html#odkazy",
-    "title": "AMČR-PAS",
-    "section": "Odkazy",
-    "text": "Odkazy\n\nOrganizace s oprávněním provádět archeologické výzkumy lze snadno vyhledat v Mapě archeologických organizací.\nArchivované nálezy lze prohlížet v Digitálním archivu AMČR.\nHeslář a časové vymezení jednotlivých období je k dispozici v nástroji PeriodO.\n\n\nPublikace a články související s AMČR-PAS\n\nSouhrnný článek kolektivu autorů AMČR-PAS vyšel v roce 2023 v časopise Internet Archaeology, viz https://doi.org/10.11141/ia.64.13.",
+    "text": "Odkazy\n\n\n\nDo portálu AMČR-PAS vstoupíte zde https://amcr.aiscr.cz/.\nHlavní stránku AMČR-PAS najdete zde https://amcr-info.aiscr.cz/pas/.\nOrganizace s oprávněním provádět archeologické výzkumy lze snadno vyhledat v Mapě archeologických organizací.\nArchivované nálezy lze prohlížet v Digitálním archivu AMČR.\nHeslář a časové vymezení jednotlivých období je k dispozici v nástroji PeriodO.",
     "crumbs": [
       "AMČR",
       "Návody",
@@ -380,11 +334,23 @@
     ]
   },
   {
+    "objectID": "amcr/amcr-pas/index.html#materiály-související-s-amčr-pas",
+    "href": "amcr/amcr-pas/index.html#materiály-související-s-amčr-pas",
+    "title": "AMČR-PAS",
+    "section": "Materiály související s AMČR-PAS",
+    "text": "Materiály související s AMČR-PAS\n\nPublikace\n\nSouhrnný článek kolektivu autorů AMČR-PAS publikovaný v roce 2023 v Internet Archaeology, viz https://doi.org/10.11141/ia.64.13.\nRozhovor o spuštění AMČR-PAS s D. Novákem publikovaný v Detektor revue 2021/2 (Academia.edu).\nRozhovor o detektoringu s B. Komoróczym publikovaný v Detektor revue 2021/1 (Academia.edu).\n\n\n\nDeset zásad zodpovědného hledání s detektory kovů\nJaké jsou zásady zodpovědného hledání s detektory kovů se dozvíte v následujícím videu a dokumentu .",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "AMČR-PAS"
+    ]
+  },
+  {
     "objectID": "amcr/amcr-pas/amater.html",
     "href": "amcr/amcr-pas/amater.html",
     "title": "Návod pro spolupracovníky",
     "section": "",
-    "text": "Původně zveřejněno jako…",
+    "text": "Původně zveřejněno na Zenodo pod DOI: 10.5281/zenodo.4114081.",
     "crumbs": [
       "AMČR",
       "Návody",
@@ -397,7 +363,7 @@
     "href": "amcr/amcr-pas/amater.html#úvod",
     "title": "Návod pro spolupracovníky",
     "section": "Úvod",
-    "text": "Úvod\nAMČR-PAS (Portál amatérských spolupracovníků a evidence samostatných nálezů) byl vytvořen pro podporu součinnosti dobrovolných spolupracovníků a oprávněných organizací při provádění archeologických výzkumů metodou povrchové prospekce, včetně využití detektorů kovů. Úkolem AMČR-PAS je vytvořit podmínky pro formalizaci a zároveň usnadnění této spolupráce při současném respektování platných zákonných norem čr.\nModul AMČR-PAS naleznete po přihlášení na https://amcr.aiscr.cz/.\nWebovou stránku amčr–pas pak zde http://www.archeologickamapa.cz/pas.",
+    "text": "Úvod\nAMČR-PAS (Portál amatérských spolupracovníků a evidence samostatných nálezů) byl vytvořen pro podporu součinnosti dobrovolných spolupracovníků a oprávněných organizací při provádění archeologických výzkumů metodou povrchové prospekce, včetně využití detektorů kovů. Úkolem AMČR-PAS je vytvořit podmínky pro formalizaci a zároveň usnadnění této spolupráce při současném respektování platných zákonných norem ČR.",
     "crumbs": [
       "AMČR",
       "Návody",
@@ -410,7 +376,7 @@
     "href": "amcr/amcr-pas/amater.html#principy-spolupráce",
     "title": "Návod pro spolupracovníky",
     "section": "Principy spolupráce",
-    "text": "Principy spolupráce\nModul AMČR-PAS je založen na spolupráci amatérských badatelů s archeology z organizací s oprávněním provádět archeologický výzkum. Prvním krokem je tedy nalézt v regionu, kde chcete svoji badatelskou činnost provozovat, organizaci s oprávněním provádět archeologický výzkum, kde bude archeolog takové spolupráci nakloněn a ochoten Vaši amatérskou badatelskou činnost zaštítit. Pokud dojde ke shodě na vzájemné spolupráci, vstupuje do celého procesu modul AMČR-PAS, který usnadní a zformalizuje většinu kroků amatérského výzkumu.\nVyhledávání archeologických nálezů pomocí detektoru kovů je jednou z metod archeologického výzkumu. Archeologický výzkum může být prováděn výhradně organizací k tomu oprávnenou a na území, které je vymezeno platnou dohodou dané organizace s av čr. Každý výzkum musí být registrován v Archeologické mapě České republiky (AMČR) ve formě projektu, který má svého vedoucího, který je pracovníkem dané oprávněné organizace.\nVeškeré archeologické nálezy a jejich nálezové okolnosti musí být evidovány. V ideálním případě by základní evidence měla proběhnout přímo v místě nálezu. V případě technických překážek (nedostupné internetové připojení, spolupracovník není vybaven chytrým telefonem apod.) by mělo k evidenci nálezu dojít bez zbytečných odkladů po návratu z terénu. Jelikož archeologické nálezy jsou učiněné v režimu archeologického výzkumu, je vyloučeno požadovat výplatu odměny podle § 23 památkového zákona.\nNutným předpokladem navázání spolupráce s oprávněnou organizací je účast na školení, jehož obsahem by měly být právní podmínky celého systému, metodika práce v terénu, dokumentace nálezů a způsob užívání AMČR-PAS.",
+    "text": "Principy spolupráce\nModul AMČR-PAS je založen na spolupráci amatérských badatelů s archeology z organizací s oprávněním provádět archeologický výzkum. Prvním krokem je tedy nalézt v regionu, kde chcete svoji badatelskou činnost provozovat, organizaci s oprávněním provádět archeologický výzkum, kde bude archeolog takové spolupráci nakloněn a ochoten Vaši amatérskou badatelskou činnost zaštítit. Pokud dojde ke shodě na vzájemné spolupráci, vstupuje do celého procesu modul AMČR-PAS, který usnadní a zformalizuje většinu kroků amatérského výzkumu.\n\n\n\n\n\n\nOrganizace oprávněné provádět archeologické výzkumy lze vyhledávat v aplikaci Mapa archeologických organizací.\n\n\n\nVyhledávání archeologických nálezů pomocí detektoru kovů je jednou z metod archeologického výzkumu. Archeologický výzkum může být prováděn výhradně organizací k tomu oprávnenou a na území, které je vymezeno platnou dohodou dané organizace s AV ČR. Každý výzkum musí být registrován v Archeologické mapě České republiky (AMČR) ve formě projektu, který má svého vedoucího, který je pracovníkem dané oprávněné organizace.\nVeškeré archeologické nálezy a jejich nálezové okolnosti musí být evidovány. V ideálním případě by základní evidence měla proběhnout přímo v místě nálezu. V případě technických překážek (nedostupné internetové připojení, spolupracovník není vybaven chytrým telefonem apod.) by mělo k evidenci nálezu dojít bez zbytečných odkladů po návratu z terénu. Jelikož archeologické nálezy jsou učiněné v režimu archeologického výzkumu, je vyloučeno požadovat výplatu odměny podle § 23 památkového zákona.\nNutným předpokladem navázání spolupráce s oprávněnou organizací je účast na školení, jehož obsahem by měly být právní podmínky celého systému, metodika práce v terénu, dokumentace nálezů a způsob užívání AMČR-PAS.",
     "crumbs": [
       "AMČR",
       "Návody",
@@ -423,7 +389,7 @@
     "href": "amcr/amcr-pas/amater.html#modul-amčr-pas",
     "title": "Návod pro spolupracovníky",
     "section": "Modul AMČR-PAS",
-    "text": "Modul AMČR-PAS\n\nRegistrace a přihlášení\n\n\n\n\n\n\n\n\nObr. 1: Dialog pro přihlášení\n\n\n\n\nPro přihlášení do aplikace slouží emailová adresa a heslo. Nutná je předchozí registrace.\nPovinnými položkami pro registraci jsou:\n\njméno\npříjmení\nplatná emailová adresa\norganizace – pro veřejnost obvykle [amatérský spolupracovník]\n\nNa uvedený email je automaticky odeslána ověřovací zpráva s odkazem pro potvrzení registrace. Po potvrzení je účet aktivován správcem systému. Aktivace účtů obvykle probíhá v běžné pracovní době.\n\n\n\n\nÚvodní obrazovka\n\n\n\n\n\n\n\n\nObr. 2: Výběr modulu AMČR\n\n\n\n\nModul AMČR-PAS je jednou ze součástí Archeologického informačního systému čr (ais cr), resp. Archeologické mapy čr (AMČR). Ve webové aplikaci je v současnosti dostupný modul AMČR-PAS a Knihovna 3D, která slouží pro evidenci 3D modelů a textur relevantních pro archeologii.\n\n\nSamotný modul AMČR-PAS se skládá z několika karet:\n\n\n\n\n\n\nObr. 3: Karty po přihlášení do AMČR-PAS\n\n\n\n\nZapsat: Zápis nového nálezu;\nMoje nálezy: Výčet nálezů, které jsem zaevidoval;\nVybrat: Výběr mých nálezů dle zadaných kritérií;\nSpolupráce: Správa spolupráce s archeology.\n\n\n\nSpolupráce\n\n\n\n\n\n\n\n\nObr. 4: Žádost o spolupráci\n\n\n\n\nNa kartě Spolupráce je nutné nejprve požádat archeologa o spolupráci. Tím vznikne vazba mezi archeologem a Vámi, jakožto spolupracovníkem. Pro navázání spolupráce je nutné znát email daného archeologa pod kterým je registrován v systému AMČR.\nPo potvrzení spolupráce archeolog vytvoří Projekt, pod kterým budou Vaše nálezy evidovány. Pro další postup je nutné, aby Vám archeolog sdělil číslo projektu, pod kterým budete své nálezy evidovat.\n\n\n\n\nZapsat\nKarta Zapsat slouží k zápisu samotných nálezů. Ten je možný jak přímo v terénu (aplikace spuštěná přímo v prohlížeči v mobilním telefonu), tak zpětně. V terénu doporučujeme provést následující kroky:\n\nzaměřit polohu nálezu,\nzapsat hloubku nálezu,\ndo pole Poznámka uvést údaje o kontextu nálezu.\n\n\nNálezové okolnosti\nPrvní sekcí, kterou je nutné vyplnit jsou Nálezové okolnosti. Zde je nutné vybrat projekt, v rámci kterého byl učiněn nález.\n\nVyberu ze seznamu relevantní číslo projektu (jedná se o jediný údaj bezpodmínečně nutný pro první uložení nálezu do systému).\nPřidám detailní popis lokalizace, např. formou parc. č., pomístního názvu (název trati, ulice, polohy aj.). Prosím dodržte následující formát zápisu: Poloha, (parc. č.)\nIdentifikuji nálezce (tlačítko + slouží k přidání chybějícího jména do hesláře). Pokud nechci své jméno u nálezu zveřejnit, lze zvolit anonym, anonym.\nVyplním datum nálezu.\nSpecifikuji nálezové okolnosti a hloubku nálezu.\n\n\n\n\n\n\n\n\n\nObr. 5: Zapsat nález\n\n\n\n\nPo prvním uložení změn ve formuláři dojde k přidělení identifikátoru nálezu, který je viditelný v horní části obrazovky. Pod tímto ID bude nález navždy evidován a je vhodné jej využívat např. při označování nálezů.\n\n\n\n\nLokalizace nálezu\n\n\n\n\n\n\n\n\nObr. 6: Mapové okno\n\n\n\n\nMapové okno slouží k přesné lokalizaci nálezu. Lze přepínat mezi různými mapovými podklady. Místo nálezu mohu určit několika způsoby.\n\nRučním zápisem geografických souřadnic. Akceptovány jsou souřadnice:\n\nwgs-84 uváděné v decimálních stupních, např. 50.0903260, 14.4090983\ns-jtsk uváděné v záporných hodnotách v metrech, např. -597268, -1161521.\n\nV případě práce v terénu s telefonem vybaveným GPS lokalizací pomocí tlačítka Současná poloha . Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.\nPřiblížením v mapě a vybráním přesného bodu kliknutím na mapový podklad.\n\n\n\n\n\nNález\n\n\n\n\n\n\n\n\nObr. 7: Okno nálezu\n\n\n\n\nV sekci Nález lze specifikovat dataci nálezu, typ předmětu atd. Vyplnění této části je částečně povinné (období, nález a materiál), informace však reviduje a doplní archeolog v další fázi zpracování.\n\n\n\n\nUložení\n\n\n\n\n\n\n\n\nObr. 8: Uložit\n\n\n\n\nJiž po vyplnění vazby na projekt lze rozepsaný nález kdykoliv uložit.\n\n\n\n\nNahrání fotografie\n\n\n\n\n\n\n\n\nObr. 9: Přidání fotografie\n\n\n\n\nPosledním klíčovým krokem po uložení celého záznamu je přiložit fotodokumentaci nálezové situace a předmětu, ideálně i s měřítkem. Akceptovány jsou fotografie ve formátu JPG, PNG, TIFF do maximální velikosti 100 MB. Není tedy třeba fotky komprimovat nebo zmenšovat. Pokud si nejste jistí, jak předměty správně dokumentovat, navštivte na webu AMČR-PAS sekci Návody.\n\n\n\n\nOdeslání záznamu\nPo vyplnění všech povinných údajů (pole označená červeným vykřičníkem ) a nahrání fotografie je možné záznam odeslat archeologovi pomocí tlačítka Odeslat. Až v tuto chvíli se nález zobrazí archeologovi, se kterým máte navázánu spolupráci a pod jehož číslem projektu byl nález zapsán.\nVe chvíli, kdy dojde k osobní schůzce s daným archeologem a jsou mu předány nálezy, archeolog potvrdí jejich převzetí, případně opraví informace o dataci, typu předmětu atd. Také určí, jak veřejně budou informace o daném nálezu přístupné (např. v případě vzácných nálezů či ohrožené lokality se může rozhodnout informace o poloze nálezu nezpřístupnit).\n\n\n\nMoje nálezy a Vybrat\n\n\n\n\n\n\nObr. 10: Moje nálezy\n\n\n\nKarta Moje nálezy nabízí výpis veškerých vašich nálezů. Toho využijete právě při uložení rozpracovaného záznamu v terénu s myšlenkou jeho dokončení, např. přidání detailnější fotky aj., později.\nKarta Vybrat pak nabízí multikriteriální vyhledávání ve vašich nálezech.",
+    "text": "Modul AMČR-PAS\n\nRegistrace a přihlášení\n\n\n\n\nPro přihlášení do aplikace slouží emailová adresa a heslo. Nutná je předchozí registrace.\nPovinnými položkami pro registraci jsou:\n\njméno;\npříjmení;\nplatná emailová adresa;\norganizace – pro veřejnost obvykle [amatérský spolupracovník].\n\nNa uvedený email je automaticky odeslána ověřovací zpráva s odkazem pro potvrzení registrace. Po potvrzení je účet aktivován správcem systému. Aktivace účtů obvykle probíhá v běžné pracovní době.\nVíce viz sekce Uživatelské účty.\n\n\n\n\nÚvodní obrazovka\nModul AMČR-PAS je jednou ze součástí Archeologického informačního systému ČR (AIS ČR), resp. Archeologické mapy ČR (AMČR).\n\n\n\n\n\nSamotný modul AMČR-PAS se skládá z několika karet:\n\n\n\n\n\n\nSpolupráce: správa spolupráce s archeology;\nZapsat: zápis nového nálezu;\nVybrat: výběr mých nálezů dle zadaných kritérií;\nMoje záznamy: výčet nálezů, které jsem zaevidoval.\n\n\n\nSpolupráce\n\n\n\n\n\n\n\n\nNa kartě Spolupráce je nutné nejprve požádat archeologa o spolupráci. Tím vznikne vazba mezi archeologem a Vámi, jakožto spolupracovníkem. Pro navázání spolupráce je nutné znát email daného archeologa pod kterým je registrován v systému AMČR.\nPo potvrzení spolupráce archeolog vytvoří Projekt, pod kterým budou Vaše nálezy evidovány. Pro další postup je nutné, aby Vám archeolog sdělil číslo projektu, pod kterým budete své nálezy evidovat.\n\n\n\n\nZapsat\nKarta Zapsat slouží k zápisu samotných nálezů. Ten je možný jak přímo v terénu (aplikace spuštěná přímo v prohlížeči v mobilním telefonu), tak zpětně. V terénu doporučujeme provést následující kroky:\n\nzaměřit polohu nálezu,\nzapsat hloubku nálezu,\ndo pole Poznámka / bližší popis uvést údaje o kontextu nálezu.\n\nPro prvotní zápis nového nálezu musím ze seznamu vybrat relevantní číslo projektu (jedná se o jediný údaj bezpodmínečně nutný pro první uložení nálezu do systému).\n\n\n\n\n\nPo uložení nálezu do systému je pro nález vygenerován unikátní identifikátor odvozený od čísla souvisejícího projektu a nález je ve stavu Rozepsaný, viz časová osa stavů v záhlaví záznamu.\n\n\n\n\n\nDetaly nálezu mohu upravit po kliknutí na ikonu tužky (Upravit) v záhlaví karty dané sekce. Je nutné zadat následující údaje:\n\nIdentifikuji nálezce (tlačítko + slouží k přidání chybějícího jména do hesláře). Pokud nechci své jméno u nálezu zveřejnit, lze zvolit anonym.\nZ kalendáře vyberu datum nálezu.\nSpecifikuji nálezové okolnosti a hloubku nálezu.\nUrčím přesnou lokalizaci místa nálezu. Místo nálezu mohu určit několika způsoby:\n\nRučním zápisem geografických souřadnic. Akceptovány jsou souřadnice:\n\nWGS-84 uváděné v decimálních stupních, např. 50.0903260, 14.4090983\nS-JTSK uváděné v záporných hodnotách v metrech, např. -597268, -1161521.\n\nV případě práce v terénu s telefonem vybaveným GPS lokalizací pomocí tlačítka Současná poloha . Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.\nPřiblížením v mapě a vybráním přesného bodu kliknutím na mapový podklad.\n\nPřidám detailní popis lokalizace, např. formou parc. č., pomístního názvu (název trati, ulice, polohy aj.). Prosím dodržte následující formát zápisu: Poloha, (parc. č.)\n\n\n\n\n\n\n\nJiž po prvním uložení změn ve formuláři dojde k přidělení identifikátoru nálezu, který je viditelný v horní části obrazovky. Pod tímto ID bude nález navždy evidován a je vhodné jej využívat např. při označování nálezů v sáčcích atp.\n\n\n\n\nPopis nálezu\nV části Popis nálezu lze specifikovat dataci nálezu, typ předmětu atd. Vyplnění této části je částečně povinné (období, nález a materiál), informace však reviduje a doplní archeolog v další fázi zpracování.\n\n\nPřidání fotografie\nKlíčovým krokem po uložení celého záznamu je přiložit fotodokumentaci nálezové situace a předmětu, ideálně i s měřítkem. Akceptovány jsou fotografie ve formátu JPG, PNG, TIFF do maximální velikosti 100 MB. Není tedy třeba fotky komprimovat nebo zmenšovat. Pokud si nejste jistí, jak předměty správně dokumentovat, postupujte dle našeho tutoriálu pro fotografickou dokumentaci nálezů.\nFotografie lze přiložit pomocí tlačítka Nahrát soubory v horní liště karty pro sekci Fotografie.\n\n\n\n\n\n\n\nOdeslání záznamu\nPo vyplnění všech povinných údajů (pole označená žlutým ohraničením) a nahrání fotografie je možné záznam odeslat archeologovi pomocí tlačítka Odeslat. V tuto chvíli se nález odešle archeologovi, se kterým máte navázánu spolupráci a pod jehož číslem projektu byl nález zapsán.\n\n\n\n\n\nVe chvíli, kdy dojde k osobní schůzce s daným archeologem a jsou mu předány nálezy, archeolog potvrdí jejich převzetí, případně opraví informace o dataci, typu předmětu atd. Také určí, jak veřejně budou informace o daném nálezu přístupné (např. v případě vzácných nálezů či ohrožené lokality se může rozhodnout informace o poloze nálezu nezpřístupnit).\n\n\n\nMoje zázany a Vybrat\nKarta Moje záznamy nabízí výpis veškerých vašich nálezů. Toho využijete při uložení rozpracovaného záznamu v terénu s myšlenkou jeho dokončení, např. přidání detailnější fotky aj., později.\nKarta Vybrat pak nabízí multikriteriální vyhledávání ve vašich a všech archivovaných nálezech.",
     "crumbs": [
       "AMČR",
       "Návody",
@@ -436,7 +402,7 @@
     "href": "amcr/amcr-pas/amater.html#nález-v-digitálním-archivu-amčr",
     "title": "Návod pro spolupracovníky",
     "section": "Nález v Digitálním archivu AMČR",
-    "text": "Nález v Digitálním archivu AMČR\n\n\n\n\n\n\nObr. 11: Digitální archiv AMČR\n\n\n\nPo odeslání záznamu nálezu jej potvrdí osoba pověřená archivací detektorových nálezů na příslušném Archeologickém ústavu av čr. Následně je záznam zveřejněn v Digitálním archivu AMČR v kategorii Samostatné nálezy. Zde jsou zveřejněny všechny archivované nálezy evidované v modulu AMČR-PAS, jejich lokalizace však může být z důvodu ochrany archeologického dědictví zobecněna na okres, v němž byl daný nález evidován.\n\n\n\n\n\n\nObr. 12: Samostatné nálezy v Digitálním archivu AMČR",
+    "text": "Nález v Digitálním archivu AMČR\n\n\n\n\n\nPo odeslání záznamu nálezu jej potvrdí osoba pověřená archivací detektorových nálezů na příslušném Archeologickém ústavu av čr. Následně je záznam zveřejněn v Digitálním archivu AMČR v kategorii Samostatné nálezy. Zde jsou zveřejněny všechny archivované nálezy evidované v modulu AMČR-PAS, jejich lokalizace však může být z důvodu ochrany archeologického dědictví zobecněna na okres, v němž byl daný nález evidován.",
     "crumbs": [
       "AMČR",
       "Návody",
@@ -1465,6 +1431,17 @@
     ]
   },
   {
+    "objectID": "amcr/index.html#školení",
+    "href": "amcr/index.html#školení",
+    "title": "Uživatelská příručka AMČR",
+    "section": "Školení",
+    "text": "Školení\nZáznam online školení k webové aplikaci AMČR lze shlédnout zde.",
+    "crumbs": [
+      "AMČR",
+      "Úvod"
+    ]
+  },
+  {
     "objectID": "amcr/externi.html",
     "href": "amcr/externi.html",
     "title": "Správa externích zdrojů",
@@ -1547,12 +1524,12 @@
   {
     "objectID": "zpravodaj/index.html",
     "href": "zpravodaj/index.html",
-    "title": "Zpravodaje AMČR",
+    "title": "Zpravodaj AMČR",
     "section": "",
-    "text": "Zpravodaje AMČR jsou občasníkem určeným uživatelům AMČR a obsahují informace o novinkách v systému AMČR, dostupnosti nově importovaných datových sad, užitečných funkcionalitách apod.\n\n\n\n\n\n\n   \n     \n     \n       Seřadit podle\n       Výchozí\n         \n          Datum - Nejstarší\n        \n         \n          Datum - Nejnovější\n        \n     \n  \n\n\n\n\n\nDatum\n\n\nNázev\n\n\n\n\n\n\nInvalid Date\n\n\nZpravodaj AMČR č. 11\n\n\n\n\n3. 8. 2023\n\n\nZpravodaj AMČR č. 10 [.pdf]\n\n\n\n\n17. 5. 2022\n\n\nZpravodaj AMČR č. 9 [.pdf]\n\n\n\n\n10. 5. 2021\n\n\nZpravodaj AMČR č. 8 [.pdf]\n\n\n\n\n29. 3. 2021\n\n\nZpravodaj AMČR č. 7 [.pdf]\n\n\n\n\n6. 2. 2019\n\n\nZpravodaj AMČR č. 6 [.pdf]\n\n\n\n\n28. 11. 2018\n\n\nZpravodaj AMČR č. 5 [.pdf]\n\n\n\n\n22. 8. 2018\n\n\nZpravodaj AMČR č. 4 [.pdf]\n\n\n\n\n29. 3. 2018\n\n\nZpravodaj AMČR č. 3 [.pdf]\n\n\n\n\n3. 11. 2017\n\n\nZpravodaj AMČR č. 2 [.pdf]\n\n\n\n\n1. 6. 2017\n\n\nZpravodaj AMČR č. 1 [.pdf]\n\n\n\n\n\nŽádné nalezené výsledky",
+    "text": "Zpravodaj AMČR je občasníkem určeným uživatelům AMČR, který zpravidla obsahuje informace o novinkách v systému AMČR, dostupnosti nově importovaných datových sad, užitečných funkcionalitách apod.\n\n\n\n\n\n\n   \n     \n     \n       Seřadit podle\n       Výchozí\n         \n          Datum - Nejstarší\n        \n         \n          Datum - Nejnovější\n        \n     \n  \n\n\n\n\n\nDatum\n\n\nNázev\n\n\n\n\n\n\nInvalid Date\n\n\nZpravodaj AMČR č. 11\n\n\n\n\n3. 8. 2023\n\n\nZpravodaj AMČR č. 10 [.pdf]\n\n\n\n\n17. 5. 2022\n\n\nZpravodaj AMČR č. 9 [.pdf]\n\n\n\n\n10. 5. 2021\n\n\nZpravodaj AMČR č. 8 [.pdf]\n\n\n\n\n29. 3. 2021\n\n\nZpravodaj AMČR č. 7 [.pdf]\n\n\n\n\n6. 2. 2019\n\n\nZpravodaj AMČR č. 6 [.pdf]\n\n\n\n\n28. 11. 2018\n\n\nZpravodaj AMČR č. 5 [.pdf]\n\n\n\n\n22. 8. 2018\n\n\nZpravodaj AMČR č. 4 [.pdf]\n\n\n\n\n29. 3. 2018\n\n\nZpravodaj AMČR č. 3 [.pdf]\n\n\n\n\n3. 11. 2017\n\n\nZpravodaj AMČR č. 2 [.pdf]\n\n\n\n\n1. 6. 2017\n\n\nZpravodaj AMČR č. 1 [.pdf]\n\n\n\n\n\nŽádné nalezené výsledky",
     "crumbs": [
       "Zpravodaj",
-      "Zpravodaje AMČR"
+      "Zpravodaj AMČR"
     ]
   },
   {
