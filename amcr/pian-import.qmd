@@ -3,7 +3,6 @@ title: Import geometrie PIAN pomocí CSV souboru
 # subtitle: fuubar 
 author: 
   - name: Ondřej Švejcar
-  - name: David Novák
 date: 2024-07-28
 ---
 

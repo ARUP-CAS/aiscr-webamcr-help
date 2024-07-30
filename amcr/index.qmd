@@ -40,3 +40,10 @@ format-links: false
 - [Zásady evidence nemovitých archeologických památek (lokalit)](lokality-metodika.qmd) v archivech archeologických ústavů.
 - Metodika tvorby plánů archeologických objektů na základě šikmých leteckých snímků ([Zenodo](https://doi.org/10.5281/zenodo.7925830){.external}).
 - Postup vektorizace archeologických objektů na základě šikmých leteckých snímků ([Zenodo](https://doi.org/10.5281/zenodo.7925795){.external}).
+
+
+## Školení
+
+Záznam online školení k webové aplikaci AMČR lze shlédnout [zde](https://youtu.be/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b){.external}.
+
+{{< video https://youtu.be/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b >}}

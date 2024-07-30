@@ -1,5 +1,5 @@
 ---
-title: Zpravodaje AMČR
+title: Zpravodaj AMČR
 format:
   html: default
 listing:
@@ -43,4 +43,4 @@ listing:
 repo-actions: false
 ---
 
-Zpravodaje AMČR jsou občasníkem určeným uživatelům AMČR a obsahují informace o novinkách v systému AMČR, dostupnosti nově importovaných datových sad, užitečných funkcionalitách apod.
+Zpravodaj AMČR je občasníkem určeným uživatelům AMČR, který zpravidla obsahuje informace o novinkách v systému AMČR, dostupnosti nově importovaných datových sad, užitečných funkcionalitách apod.

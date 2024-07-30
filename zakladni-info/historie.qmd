@@ -20,6 +20,15 @@ Technické řešení systému AMČR provedla podle návrhu ARÚP firma [SmartGIS
 AMČR je součástí [Archeologického informačního systému ČR](https://www.aiscr.cz/){.external} zapsaného od roku 2016 do [Cestovní mapy velkých výzkumných infrastruktur ČR](https://www.vyzkumne-infrastruktury.cz/cestovni-mapa-velkych-vyzkumnych-infrastruktur-cr/){.external}, který budování infrastruktury v rámci stejnojmenného výzkumného projektu podporuje.
 Doplňkovou podporu získává infrastruktura i v rámci programu [Strategie AV21](https://strategie.avcr.cz/){.external} [Akademie věd ČR](https://www.avcr.cz/){.external} a dalších projektů.
 
+
+### Historie archivu a vznik infrastruktury
+
+Následující [video](https://youtu.be/LWorbWbewrQ?si=6nQQrWsOBKBpy-ti){.external} stručně představuje historii archivů archeologických ústavů a vznik infrastruktury AIS CR.
+*Video obsahuje screenshoty z původní desktopové verze aplikace AMČR.*
+
+{{< video https://youtu.be/LWorbWbewrQ?si=6nQQrWsOBKBpy-ti >}}
+
+
 ## Dosavadní vývoj infrastruktury
 
 Systém AMČR představuje klíčovou část archeologické výzkumné infrastruktury v ČR.
