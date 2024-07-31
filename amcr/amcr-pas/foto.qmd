@@ -6,7 +6,6 @@ author:
     orcid: "0000-0003-3179-992X"
 doi: "10.5281/zenodo.4560101"
 date: 2021-03-31
-date-format: D. M. YYYY
 format:
   html: default
 ---

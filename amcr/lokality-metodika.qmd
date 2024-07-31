@@ -1,6 +1,6 @@
 ---
 title: Zásady evidence nemovitých archeologických památek (lokalit)
-subtitle: Metodický 
+# subtitle: Metodický 
 author:
   - name: Martin Kuna
     orcid: 0000-0001-9244-8387

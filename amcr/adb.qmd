@@ -8,9 +8,13 @@ author:
 date: 2024-07-31
 ---
 
-## Popis ADB
+::: {.callout-note}
 
-Popis archeologických dokumentačních bodů ([ADB](/slovnik/index.qmd#madb)) se řídí metodikou dostupnou [zde](http://www.praha-archeologicka.cz/files/databaze-madb.pdf){.external}.
+Více o ADB se dozvíte na portálu [Praha archeologická](https://praha.aiscr.cz/){.external}.
+
+:::
+
+Popis archeologických dokumentačních bodů ([ADB](/slovnik/index.qmd#madb)) se řídí metodikou dostupnou [zde](https://praha.aiscr.cz/files/databaze-madb.pdf){.external}.
 Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují.
 Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla.
 Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět.

@@ -1,6 +1,8 @@
 ---
 title: "Akce drobného rozsahu"
 subtitle: "Postup pro zpracování nálezových zpráv z archeologických akcí drobného rozsahu"
+author:
+  - name: Ondřej Švejcar
 ---
 
 ::: {.callout-important}
