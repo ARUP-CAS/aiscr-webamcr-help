@@ -203,7 +203,7 @@ window.Quarto = {
 <span class="menu-text">Digitální archiv AMČR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://api.aiscr.cz" target="_blank"> <i class="bi bi-box-arrow-up-right" role="img">
+    <a class="nav-link" href="https://ARUP-CAS.github.io/aiscr-api-home" target="_blank"> <i class="bi bi-box-arrow-up-right" role="img">
 </i> 
 <span class="menu-text">AMČR API</span></a>
   </li>  
@@ -467,9 +467,9 @@ Služby AIS CR
 <blockquote class="blockquote">
 <p>Pajdla, P., Novák, D., Švejcar, O., Pavloň, T. 2024: <em>Uživatelská dokumentace AMČR</em>. DOI: <a href="https://www.doi.org/10.5281/zenodo.8141634">10.5281/zenodo.8141634</a>. Stránka: <a href="https://amcr-help.aiscr.cz/">https://amcr-help.aiscr.cz/</a>. [cit. RRRR-MM-DD]</p>
 </blockquote>
-<p>Případně viz soubor <a href="CITATION.cff">CITATION.cff</a>. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku <a href="./digiarchiv/index.html">nápovědy k Digitálnímu archivu AMČR</a> tedy citujte takto:</p>
+<p>Případně viz soubor <a href="CITATION.cff">CITATION.cff</a>. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku <a href="./amcr/pian-import.html">tutoriálu k Import geometrie PIAN pomocí CSV souboru</a> tedy citujte takto:</p>
 <blockquote class="blockquote">
-<p>Švejcar, O., Pavloň, T. 2024: Digitální archiv AMČR: Uživatelský manuál. In: Pajdla, P., Novák, D. et al.&nbsp;<em>Uživatelská dokumentace AMČR</em>. DOI: <a href="https://www.doi.org/10.5281/zenodo.8141634">10.5281/zenodo.8141634</a>. Stránka: <a href="https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html">https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html</a>. [cit. RRRR-MM-DD]</p>
+<p>Švejcar, O. 2024: Import geometrie PIAN pomocí CSV souboru. In: Pajdla, P., Novák, D. et al.&nbsp;<em>Uživatelská dokumentace AMČR</em>. DOI: <a href="https://www.doi.org/10.5281/zenodo.8141634">10.5281/zenodo.8141634</a>. Stránka: <a href="https://amcr-help.aiscr.cz/amcr/pian-import.html">https://amcr-help.aiscr.cz/amcr/pian-import.html</a>. [cit. RRRR-MM-DD]</p>
 </blockquote>
 <p>Jak správně citovat <strong>data a dokumenty v AMČR</strong> se dočtete <a href="./digiarchiv/citace.html">zde</a>.</p>
 <!-- ::: {.callout-note  collapse="true"}
@@ -503,7 +503,7 @@ CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými
 vkládejte do složky `./tabs/`.
 
 Tabulku lze pak vložit tímhle kódem:
-```vgvig
+```bujqj
 #| label: tbl-role              # popisek pro křížové odkazy
 #| tbl-cap: "Uživatelské role." # popisek tabulky zobrazený v textu
 
@@ -956,20 +956,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="./about/index.html">Kontakty</a> | <span id="open_preferences_center"><u>Cookies</u></span> | CC BY-NC 4.0</p>
+<p><a href="./about/index.html" class="fttext">Kontakty</a> | <u id="open_preferences_center" class="fttext">Cookies</u> | <span class="fttext">CC BY-NC 4.0</span></p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="https://aiscr.cz/" class="external"><img src="./figs/logo-aiscr-hor.png" height="60"></a></p>
+<p><a href="https://www.aiscr.cz/" target="_blank"><img src="./figs/logo-aiscr-hor.png" height="60"></a></p>
 </div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
-    <a class="nav-link" href="https://www.quarto.org/">
-<p>Vytvořeno s ♡ v Quarto.</p>
-</a>
-  </li>  
-</ul>
-    </div>
+<p>Vytvořeno s ♡ v <a href="https://www.quarto.org/" target="_blank">Quarto</a>.</p>
+</div>
   </div>
 </footer>
 

@@ -76,7 +76,7 @@
     "href": "index.html#licence-a-jak-citovat",
     "title": "Úvod",
     "section": "Licence a jak citovat",
-    "text": "Licence a jak citovat\nVeškerý obsah těchto stránek podléhá licenci CC BY-NC 4.0 (Creative Commons Uveďte původ–Neužívejte komerčně 4.0).\nPokud není uvedeno jinak, citujte dokumentaci jako:\n\nPajdla, P., Novák, D., Švejcar, O., Pavloň, T. 2024: Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/. [cit. RRRR-MM-DD]\n\nPřípadně viz soubor CITATION.cff. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku nápovědy k Digitálnímu archivu AMČR tedy citujte takto:\n\nŠvejcar, O., Pavloň, T. 2024: Digitální archiv AMČR: Uživatelský manuál. In: Pajdla, P., Novák, D. et al. Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/digiarchiv/digiarchiv.html. [cit. RRRR-MM-DD]\n\nJak správně citovat data a dokumenty v AMČR se dočtete zde.",
+    "text": "Licence a jak citovat\nVeškerý obsah těchto stránek podléhá licenci CC BY-NC 4.0 (Creative Commons Uveďte původ–Neužívejte komerčně 4.0).\nPokud není uvedeno jinak, citujte dokumentaci jako:\n\nPajdla, P., Novák, D., Švejcar, O., Pavloň, T. 2024: Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/. [cit. RRRR-MM-DD]\n\nPřípadně viz soubor CITATION.cff. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku tutoriálu k Import geometrie PIAN pomocí CSV souboru tedy citujte takto:\n\nŠvejcar, O. 2024: Import geometrie PIAN pomocí CSV souboru. In: Pajdla, P., Novák, D. et al. Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/amcr/pian-import.html. [cit. RRRR-MM-DD]\n\nJak správně citovat data a dokumenty v AMČR se dočtete zde.",
     "crumbs": [
       "Úvod"
     ]
@@ -618,7 +618,7 @@
     "href": "digiarchiv/citace.html",
     "title": "Jak citovat data a dokumenty",
     "section": "",
-    "text": "Digitální archiv AMČR je dostupný na stránce https://digiarchiv.aiscr.cz/.\nÚvodní stránka AMČR API je k dispozici zde https://api.aiscr.cz/.\nData dostupná v Digitálním archivu AMČR jsou zveřejňována v souladu s politikou otevřeného přístupu k datům a se souhlasem držitelů autorských práv. Využití dat podléhá (pokud není explicitně uvedeno jinak) licenci CC BY-NC 4.0 (Creative Commons Uveďte původ–Neužívejte komerčně 4.0), viz sekce Licence. Data je proto možné využít pouze s uvedením autora a odkazu na text licence a to pouze pro nekomerční účely. Toto ustanovení neomezuje využití AMČR na základě jiných smluvních ujednání či na základě zákonného titulu.\nZdrojem podkladových map v aplikacích AMČR je Geoportál ČÚZK a OpenStreetMap. Další využití těchto podkladů je možné pouze v souladu s podmínkami stanovovanými poskytovateli podkladů pro jednotlivé mapové služby.",
+    "text": "Digitální archiv AMČR je dostupný na stránce https://digiarchiv.aiscr.cz/.\nÚvodní stránka AMČR API je k dispozici zde https://api.aiscr.cz/.\nData dostupná v AIS CR, potažmo v Digitálním archivu AMČR jsou zveřejňována v souladu s politikou otevřeného přístupu k datům a se souhlasem držitelů autorských práv. Využití dat podléhá (pokud není explicitně uvedeno jinak) licenci CC BY-NC 4.0 (Creative Commons Uveďte původ–Neužívejte komerčně 4.0), viz sekce Licence. Data je proto možné využít pouze s uvedením autora a odkazu na text licence a to pouze pro nekomerční účely. Toto ustanovení neomezuje využití AMČR na základě jiných smluvních ujednání či na základě zákonného titulu.\nZdrojem podkladových map v aplikacích AMČR je Geoportál ČÚZK a OpenStreetMap. Další využití těchto podkladů je možné pouze v souladu s podmínkami stanovovanými poskytovateli podkladů pro jednotlivé mapové služby.",
     "crumbs": [
       "Digitální archiv AMČR",
       "Tutoriály",
@@ -1215,7 +1215,7 @@
     "href": "amcr/amcr-pas/archeolog.html",
     "title": "Návod pro archeology",
     "section": "",
-    "text": "Původně zveřejněno jako…",
+    "text": "Upozornění\n\n\n\nNásledující stránka k 1. srpnu 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR. Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.",
     "crumbs": [
       "AMČR",
       "Návody",
@@ -1306,19 +1306,7 @@
     "href": "amcr/adb.html",
     "title": "Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace",
     "section": "",
-    "text": "Popis archeologických dokumentačních bodů (ADB) se řídí metodikou dostupnou zde. Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla. Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.",
-    "crumbs": [
-      "AMČR",
-      "Tutoriály",
-      "Zápis ADB"
-    ]
-  },
-  {
-    "objectID": "amcr/adb.html#popis-adb",
-    "href": "amcr/adb.html#popis-adb",
-    "title": "Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace",
-    "section": "",
-    "text": "Popis archeologických dokumentačních bodů (ADB) se řídí metodikou dostupnou zde. Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla. Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.",
+    "text": "Více o ADB se dozvíte na portálu Praha archeologická.\nPopis archeologických dokumentačních bodů (ADB) se řídí metodikou dostupnou zde. Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla. Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.",
     "crumbs": [
       "AMČR",
       "Tutoriály",
