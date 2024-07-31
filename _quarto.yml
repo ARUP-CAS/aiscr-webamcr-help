@@ -34,7 +34,7 @@ website:
       - text: Digitální archiv AMČR
         href: digiarchiv/index.qmd
       - text: AMČR API
-        href: https://api.aiscr.cz
+        href: https://ARUP-CAS.github.io/aiscr-api-home
         icon: box-arrow-up-right
         target: _blank
       - text: Slovník pojmů
@@ -171,14 +171,13 @@ website:
   page-footer:
     background: light
     left: |
-      [Kontakty](/about/index.qmd) | 
-      [<u>Cookies</u>]{#open_preferences_center} |
-      CC BY-NC 4.0
-    center: |
-      [![](/figs/logo-aiscr-hor.png){height=60}](https://aiscr.cz/){.external}
-    right: 
-      - text: Vytvořeno s &#9825; v Quarto.
-        href: https://www.quarto.org/
+      <a href="/about/index.qmd" class="fttext">Kontakty</a> | 
+      <u id="open_preferences_center" class="fttext">Cookies</u> | 
+      <span class="fttext">CC BY-NC 4.0</span>
+    center: |        
+      <a href="https://www.aiscr.cz/" target=_blank><img src="/figs/logo-aiscr-hor.png" height="60"></a>
+    right: |
+      Vytvořeno s &#9825; v <a href="https://www.quarto.org/" target=_blank>Quarto</a>.
 
 format:
   html:
