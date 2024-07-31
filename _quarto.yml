@@ -113,7 +113,7 @@ website:
           contents:
               - text: Import PIAN z CSV  
                 href: amcr/pian-import.qmd
-              - text: Zápis správného typu dokumentačních jednotek
+              - text: Zápis správného typu DJ
                 href: amcr/dj.qmd
               - text: Akce drobného rozsahu
                 href: amcr/drobne-akce.qmd

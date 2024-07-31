@@ -1,25 +1,21 @@
 ---
 title: Návod k zápisu Archeologických dokumentačních bodů (ADB) v rámci Pražské památkové rezervace
 # subtitle: 
+author:
+  - name: Ondřej Švejcar
+  - name: Tomáš Pavloň
+    orcid: 0009-0007-4387-6976
+date: 2024-07-31
 ---
 
-::: {.callout-important}
-
-## Upozornění
-
-Následující stránka k 1. srpnu 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
-Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
-V neposlední řadě na této stránce zcela chybí screenshoty z nových verzí nástrojů.
-
-:::
-
-## Popis archeologického dokumentačního bodu
+## Popis ADB
 
 Popis archeologických dokumentačních bodů ([ADB](/slovnik/index.qmd#madb)) se řídí metodikou dostupnou [zde](http://www.praha-archeologicka.cz/files/databaze-madb.pdf){.external}.
 Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují.
 Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla.
 Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět.
 Součást popisu ADB představují též výškové informace v podobě výškových bodů (VB; v systému Balt po vyrovnání – Bpv), konkrétně niveleta podloží, základních stratigraficko-chronologických celků a současného povrchu.
+
 
 ## Použití DJ typu sonda a vyznačení PIAN
 
@@ -29,25 +25,24 @@ Sonda v tomto případě může znamenat jak skutečnou jednotlivou sondu, tak i
 Tomu pak odpovídá i vyznačení [PIAN](/slovnik/index.qmd#pian) v mapovém okně.
 Popis ADB je pouze nadstavbou standardního zápisu, a proto se ke každé *DJ* připojují zachycené [komponenty](/slovnik/index.qmd#komponenty), které mohou mít vliv na celkové rozdělení výzkumu do jednotlivých *DJ*.
 
+
 ## Zápis ADB v rámci AMČR
 
-Pro zápis ADB v systému AMČR je třeba volit jako typ dokumentační jednotky možnost **Sonda**, ke které je po vytvoření PIAN možné připojovat ADB.
-Zápis ADB se aktivuje zaškrtávacím políčkem *Zobrazit popis ADB*.
+Pro zápis ADB v systému AMČR je třeba volit jako typ dokumentační jednotky možnost `Sonda`, ke které je po vytvoření PIAN možné připojovat ADB.
+Zápis ADB se aktivuje kliknutím na tlačítko `ADB vytvořit`.
 
-<!-- ![Nastavení dokumentační jednotky pro možnost zápisu ADB](){#fig-adb-init} -->
+![Nastavení dokumentační jednotky pro možnost zápisu ADB](figs/adb1.jpg)
 
-Zaškrtnutím políčka *Zobrazit popis ADB* se zpřístupní pole pro jeho popis.
-Povinná pole jsou podbarvena stejně jako v jiných částech AMČR.
+Kliknutím na ADB vytvořit se zpřístupní karta sekce pro jeho popis. 
+Povinná pole jsou označena hvězdičkou, stejně jako v jiných částech AMČR
 
-<!-- ![Aktivovaná pole pro zápis ADB](){#fig-adb-pole} -->
+![Karta sekce pro zápis ADB](figs/adb2.jpg)
 
-Po vyplnění popisných údajů je třeba záznam uložit, aby se zobrazila nabídka pro zápis výškových bodů, které lze k vytvořenému ADB připojovat pomocí tlačítka *Přidat*.
-
-<!-- ![Připojení výškového bodu k ADB](){#fig-adb-bod} -->
-
+Po vyplnění popisných údajů je třeba záznam uložit (tlačítko `Uložit změny`), aby se zobrazila nabídka pro zápis výškových bodů.
 Podle zachycené situace je možné připojit odpovídající počet výškových bodů.
 
-<!-- ![Připojené výškové body se zaznamenanými úrovněmi](){#fig-adb-uroven} -->
+![Připojení výškových bodů k ADB](figs/adb3.jpg)
+
 
 ## Příklady dobré praxe
 
@@ -57,9 +52,10 @@ Jako první příklad si uvedeme dvě oddělené sondy dokumentované při výst
 Pro každou ze sond byla vytvořena vlastní dokumentační jednotka typu sonda a v rámci jejího popisu byly zaznamenány také informace o ADB.
 Zápis v AMČR a vyznačení v mapě v tomto případě zobrazují následující obrázky.
 
-<!-- ![Příklad zápisu v AMČR pro situaci dvou zkoumaných sond s připojenými ADB](){#fig-adb-sonda1} -->
+![Příklad zápisu v AMČR pro situaci dvou zkoumaných sond v mapovém okně s připojenými ADB](figs/adb4.jpg)
 
-<!-- ![Vyznačení obou sond v mapovém okně AMČR](){#fig-adb-sonda2} -->
+![Detail zápisu výškových bodů u jedné ze sond](figs/adb5.jpg)
+
 
 ### Síť sond
 
@@ -69,6 +65,6 @@ Vzhledem ke stejnému charakteru situace, která byla zachycena v sondách na dv
 Stejně tak bychom zadali jako jednu *DJ* typu **Sonda** i všechny sondy ve sklepě domu, pokud by tomu charakter nálezové situace odpovídal.
 Zápis v AMČR a vyznačení PIAN pak zobrazují následující obrázky.
 
-<!-- ![Příklad zápisu skupiny sond s připojenými ADB](){#fig-adb-sit1} -->
+![Příklad zápisu skupiny sond v mapovém okně s připojenými ADB](figs/adb6.jpg)
 
-<!-- ![Vyznačení PIAN pro dvě skupiny sond v mapovém okně AMČR](){#fig-adb-sit2} -->
+![Detail zápisu výškových bodů u jedné ze sond](figs/adb7.jpg)

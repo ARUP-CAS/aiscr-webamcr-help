@@ -26,8 +26,8 @@ format-links: false
 
 - Jak připravit [importní CSV s geometrií PIAN](pian-import.qmd) z QGIS, v textovém editoru a za pomoci online převodníku.
 - Pokyny pro [volbu a zápis správného typu dokumentačních jednotek](dj.qmd).
-- Návod k zápisu [Archeologických dokumentačních bodů (ADB)](adb.qmd) v rámci Pražské památkové rezervace.
 - Postup pro zpracování nálezových zpráv z [archeologických akcí drobného rozsahu](drobne-akce.qmd).
+- Návod k zápisu [Archeologických dokumentačních bodů (ADB)](adb.qmd) v rámci Pražské památkové rezervace.
 
 
 ### AMČR-PAS 
