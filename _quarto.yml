@@ -37,9 +37,9 @@ website:
         href: https://ARUP-CAS.github.io/aiscr-api-home
         icon: box-arrow-up-right
         target: _blank
+    right:
       - text: Slovník pojmů
         href: slovnik/index.qmd
-    right:
       - text: Zpravodaj
         href: zpravodaj/index.qmd
       - text: Kontakty
