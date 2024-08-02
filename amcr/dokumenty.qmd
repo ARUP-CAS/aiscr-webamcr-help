@@ -2,11 +2,75 @@
 title: Správa dokumentů
 ---
 
-::: {.callout-important}
+::: {.callout-note}
 
-## Upozornění
-
-Na obsahu této stránky právě pilně pracujeme, ale zatím tu nic není. 
-Vraťte se prosím později, šance, že zde něco bude, není zcela mizivá.
+K prohlížení dokumentů uložených v AMČR slouží primárně služba [Digitální archiv AMČR](https://digiarchiv.aiscr.cz/){.external}.
 
 :::
+
+Modul [Dokumenty](https://amcr.aiscr.cz/dokument/){.external} slouží pro správu dokumentů, které jsou v systému uloženy (mimo dokumentů v [Knihovně 3D](knihovna3d.qmd)).
+[Dokumenty](/slovnik/index.qmd#dokumenty) do AMČR nejčastěji připojujeme jako součásti projektových akcí, tedy nálezové zprávy apod., většina operací s dokumenty tedy probíhá v rámci správy projektů, resp. akcí, či na ně přímo navazuje. 
+
+
+## Videonávod
+
+Videonávod ukazuje celý proces, který se týká správy projektů a akcí od zápisu projektu po jeho uzavření. 
+*Video nemá zvuk.*
+
+Pro modul `Dokumenty` je relevantní především část [Připojení dokumentu](https://youtu.be/eJ_H6Tonj9Y?si=Wtj6JSRXHYKNRjqS&t=857){.external}.
+
+{{< video https://youtu.be/eJ_H6Tonj9Y?si=zyCa4qXBjETU_jkJ  start="857" >}}
+
+
+## Návod 
+ 
+### Správa záznamů
+
+Správa všech dokumentů (mimo záznamů v [Knihovně 3D](knihovna3d.qmd)) v AMČR probíhá v modulu `Dokumenty`. 
+Zde je možné přidávat nové záznamy či prohlížet a editovat záznamy již existující.
+Přímo z modulu je možné také stahovat dokumenty na lokální úložiště, ale primárně pro tuto aktivitu doporučujeme použít aplikaci [Digitální archiv AMČR](https://digiarchiv.aiscr.cz/){.external}.
+
+![](figs/dok01.png){width="60%" fig-align="center"}
+
+ 
+### Zápis dokumentu
+
+Při volbě karty `Zapsat` v modulu `Dokumenty` je jako první potřeba vybrat na vyskakovacím okně region, ke kterému se dokument váže (Čechy -- v identifikátoru prefix `C`, Morava a Slezsko -- v identifikátoru pak prefix `M`). 
+
+![](figs/dok02.png){width="72%" fig-align="center"}
+
+Zápisem v modulu `Dokumenty` vzniká záznam, který obsahuje informace o vloženém dokumentu. 
+Dokud je dokument ve stavu *zapsaný*, je mu přidělen pouze dočasný identifikátor začínající prefixem `X`. 
+Do zápisu dokumentu lze vstoupit buď přímo přes modul `Dokumenty` a kartu `Zapsat`, nebo je tato možnost přístupná i při připojování dokumentů k jiným typům záznamů (např. v modulech `Projekty`, `Samostatné akce` nebo `Lokality`).
+ 
+![](figs/dok03.png){width="90%" fig-align="center"} 
+
+
+#### Popis dokumentu
+
+Po vytvoření dokumentu v je možné vyplnit jeho metadatový popis. 
+Ten obsahuje informace o dokumentu. 
+Při zápisu je potřeba vyplnit povinné údaje označené hvězdičkou (`*`) a při posunu do dalších stavů je třeba doplnit pole žlutě zvýrazněná, stejně jako ve zbytku aplikace.
+ 
+ 
+### Připojení souboru
+
+Ke každému záznamu o dokumentu lze připojit jeden či více souborů, které tvoří obsah dokumentu v sekci `Soubory` pomocí tlačítka `Nahrát soubory` v liště sekce vpravo nahoře.
+U nahrávaných souborů probíhá kontrola, zda obsahově identický soubor v úložišti již neexistuje, případná chybová hláška může uživatele varovat, že omylem připojuje totožný soubor. 
+Připojit stejný soubor k více záznamům ale nemusí být vždy nutně špatně, takže jde pouze o upozornění, ale aplikace v tom uživateli nezabrání.
+
+Náhled připojeného souboru se pak zobrazí na stránce detailu celého souboru, kde jsou i základní akce, které lze se souborem provést, jako nahrazení, smazání apod. 
+
+![](figs/dok04.png){width="90%" fig-align="center"}
+
+
+### Části dokumentu
+
+Ke každému záznamu o dokumentu je možné připojit i jeho části, které umožňují k dokumentu připojit komponentu, akci, lokalitu či projekt podle toho, k čemu se dokument vztahuje. 
+V případě, že je k dokumentu přiřazována komponenta, která v systému nevystupuje jako samostatný druh záznamu, je možné k ní, stejně jako např. u komponent u archeologických akcí, připojovat objekty a předměty, které komponentu charakterizují.
+
+
+### Vyhledávání
+
+Podobně jako v jiných modulech i zde je možné vyhledávat pomocí přednastavených filtrů. 
+Stejně jako např. u samostatných akcí mají i dokumenty pouze třístupňové schéma procesních stavů a přednastavené volby jsou zde tedy k dispozici pro varianty výběru podle vlastníka záznamu.
