@@ -76,7 +76,7 @@
     "href": "index.html#licence-a-jak-citovat",
     "title": "Úvod",
     "section": "Licence a jak citovat",
-    "text": "Licence a jak citovat\nVeškerý obsah těchto stránek podléhá licenci CC BY-NC 4.0 (Creative Commons Uveďte původ–Neužívejte komerčně 4.0).\nPokud není uvedeno jinak, citujte dokumentaci jako:\n\nAMČR 2024: Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/. [cit. RRRR-MM-DD]\n\nPřípadně viz soubor CITATION.cff. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku tutoriálu k Import geometrie PIAN pomocí CSV souboru tedy citujte takto:\n\nŠvejcar, O. 2024: Import geometrie PIAN pomocí CSV souboru. In: Pajdla, P., Novák, D. et al. Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/amcr/pian-import.html. [cit. RRRR-MM-DD]\n\nJak správně citovat data a dokumenty v AMČR se dočtete zde.",
+    "text": "Licence a jak citovat\nVeškerý obsah těchto stránek podléhá licenci CC BY-NC 4.0 (Creative Commons Uveďte původ–Neužívejte komerčně 4.0).\nPokud není uvedeno jinak, citujte dokumentaci jako:\n\nAMČR: Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/. [cit. RRRR-MM-DD]\n\nPřípadně viz soubor CITATION.cff. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku tutoriálu k Import geometrie PIAN pomocí CSV souboru tedy citujte takto:\n\nŠvejcar, O. 2024: Import geometrie PIAN pomocí CSV souboru. In: AMČR Uživatelská dokumentace AMČR. DOI: 10.5281/zenodo.8141634. Stránka: https://amcr-help.aiscr.cz/amcr/pian-import.html. [cit. RRRR-MM-DD]\n\nJak správně citovat data a dokumenty v AMČR se dočtete zde.",
     "crumbs": [
       "Úvod"
     ]
@@ -1143,7 +1143,31 @@
     "href": "amcr/dokumenty.html",
     "title": "Správa dokumentů",
     "section": "",
-    "text": "Upozornění\n\n\n\nNa obsahu této stránky právě pilně pracujeme, ale zatím tu nic není. Vraťte se prosím později, šance, že zde něco bude, není zcela mizivá.",
+    "text": "K prohlížení dokumentů uložených v AMČR slouží primárně služba Digitální archiv AMČR.\nModul Dokumenty slouží pro správu dokumentů, které jsou v systému uloženy (mimo dokumentů v Knihovně 3D). Dokumenty do AMČR nejčastěji připojujeme jako součásti projektových akcí, tedy nálezové zprávy apod., většina operací s dokumenty tedy probíhá v rámci správy projektů, resp. akcí, či na ně přímo navazuje.",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa dokumentů"
+    ]
+  },
+  {
+    "objectID": "amcr/dokumenty.html#videonávod",
+    "href": "amcr/dokumenty.html#videonávod",
+    "title": "Správa dokumentů",
+    "section": "Videonávod",
+    "text": "Videonávod\nVideonávod ukazuje celý proces, který se týká správy projektů a akcí od zápisu projektu po jeho uzavření. Video nemá zvuk.\nPro modul Dokumenty je relevantní především část Připojení dokumentu.",
+    "crumbs": [
+      "AMČR",
+      "Návody",
+      "Správa dokumentů"
+    ]
+  },
+  {
+    "objectID": "amcr/dokumenty.html#návod",
+    "href": "amcr/dokumenty.html#návod",
+    "title": "Správa dokumentů",
+    "section": "Návod",
+    "text": "Návod\n\nSpráva záznamů\nSpráva všech dokumentů (mimo záznamů v Knihovně 3D) v AMČR probíhá v modulu Dokumenty. Zde je možné přidávat nové záznamy či prohlížet a editovat záznamy již existující. Přímo z modulu je možné také stahovat dokumenty na lokální úložiště, ale primárně pro tuto aktivitu doporučujeme použít aplikaci Digitální archiv AMČR.\n\n\n\n\n\n\n\nZápis dokumentu\nPři volbě karty Zapsat v modulu Dokumenty je jako první potřeba vybrat na vyskakovacím okně region, ke kterému se dokument váže (Čechy – v identifikátoru prefix C, Morava a Slezsko – v identifikátoru pak prefix M).\n\n\n\n\n\nZápisem v modulu Dokumenty vzniká záznam, který obsahuje informace o vloženém dokumentu. Dokud je dokument ve stavu zapsaný, je mu přidělen pouze dočasný identifikátor začínající prefixem X. Do zápisu dokumentu lze vstoupit buď přímo přes modul Dokumenty a kartu Zapsat, nebo je tato možnost přístupná i při připojování dokumentů k jiným typům záznamů (např. v modulech Projekty, Samostatné akce nebo Lokality).\n\n\n\n\n\n\nPopis dokumentu\nPo vytvoření dokumentu v je možné vyplnit jeho metadatový popis. Ten obsahuje informace o dokumentu. Při zápisu je potřeba vyplnit povinné údaje označené hvězdičkou (*) a při posunu do dalších stavů je třeba doplnit pole žlutě zvýrazněná, stejně jako ve zbytku aplikace.\n\n\n\nPřipojení souboru\nKe každému záznamu o dokumentu lze připojit jeden či více souborů, které tvoří obsah dokumentu v sekci Soubory pomocí tlačítka Nahrát soubory v liště sekce vpravo nahoře. U nahrávaných souborů probíhá kontrola, zda obsahově identický soubor v úložišti již neexistuje, případná chybová hláška může uživatele varovat, že omylem připojuje totožný soubor. Připojit stejný soubor k více záznamům ale nemusí být vždy nutně špatně, takže jde pouze o upozornění, ale aplikace v tom uživateli nezabrání.\nNáhled připojeného souboru se pak zobrazí na stránce detailu celého souboru, kde jsou i základní akce, které lze se souborem provést, jako nahrazení, smazání apod.\n\n\n\n\n\n\n\nČásti dokumentu\nKe každému záznamu o dokumentu je možné připojit i jeho části, které umožňují k dokumentu připojit komponentu, akci, lokalitu či projekt podle toho, k čemu se dokument vztahuje. V případě, že je k dokumentu přiřazována komponenta, která v systému nevystupuje jako samostatný druh záznamu, je možné k ní, stejně jako např. u komponent u archeologických akcí, připojovat objekty a předměty, které komponentu charakterizují.\n\n\nVyhledávání\nPodobně jako v jiných modulech i zde je možné vyhledávat pomocí přednastavených filtrů. Stejně jako např. u samostatných akcí mají i dokumenty pouze třístupňové schéma procesních stavů a přednastavené volby jsou zde tedy k dispozici pro varianty výběru podle vlastníka záznamu.",
     "crumbs": [
       "AMČR",
       "Návody",
