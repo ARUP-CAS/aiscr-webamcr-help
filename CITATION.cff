@@ -5,7 +5,8 @@ cff-version: 1.2.0
 title: Uživatelská dokumentace AMČR
 message: >-
   If you use this software, please cite it using the
-  metadata from this file.
+  metadata from this file or generic citation:
+  AMČR: AMCR user documentation. DOI: 10.5281/zenodo.8141634. Website: https://amcr-help.aiscr.cz/. [cit. YYYY-MM-DD].
 authors:
   - given-names: Petr
     family-names: Pajdla
