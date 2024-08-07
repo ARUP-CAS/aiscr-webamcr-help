@@ -297,7 +297,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Aktualizováno</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">5. srpna 2024</p>
+      <p class="date">7. srpna 2024</p>
     </div>
   </div>
   
@@ -422,18 +422,15 @@ for Metadata Harvesting (OAI-PMH). Manuál k API je pouze v Anglickém jazyce.
 Žádné nalezené výsledky
 </div>
 </div>
-<p>Uživatelská dokumentace AMČR je členěna do několika úrovní:</p>
-<ul>
-<li>Na <a href="./index.html">úvodní stránce</a> najdete <a href="./zakladni-info/zakladni-info.html">základní informace</a> o celém systému, nápovědu k <a href="./zakladni-info/ucty.html">uživatelským účtům</a> a stručný souhrn <a href="./zakladni-info/historie.html">historie</a>.</li>
-<li>V sekci <a href="./o-systemu/index.html">O systému</a> je rámcově popsán používaný datový model a struktura systému, řízené slovníky apod.;</li>
-<li>Následují sekce pro jednotlivé součásti AMČR:
-<ul>
-<li><a href="./amcr/index.html">webovou aplikaci AMČR</a> jako hlavní rozhraní pro práci s daty AMČR;</li>
-<li><a href="./digiarchiv/index.html">Digitální archiv AMČR</a>, který slouží k prohlížení a vyhledávání v AMČR;</li>
-<li><a href="https://api.aiscr.cz/" class="external">API</a>, které prostřednictvím protokolu OAI-PMH umožňuje hromadné sklízení dat AMČR, je pak popsáno na samostané stránce.</li>
-</ul></li>
-<li>Sekce <a href="./zpravodaj/index.html">Zpravodaj</a> obsahuje jednotlivá vydání občasníku určeného uživatelům AMČR.</li>
-</ul>
+<!-- Uživatelská dokumentace AMČR je členěna do několika úrovní:
+
+- Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/zakladni-info.qmd) o celém systému, nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd).
+- V sekci [O systému](o-systemu/index.qmd) je rámcově popsán používaný datový model a struktura systému, řízené slovníky apod.;
+- Následují sekce pro jednotlivé součásti AMČR:
+  - [webovou aplikaci AMČR](amcr/index.qmd) jako hlavní rozhraní pro práci s daty AMČR;
+  - [Digitální archiv AMČR](digiarchiv/index.qmd), který slouží k prohlížení a vyhledávání v AMČR; 
+  - [API](https://api.aiscr.cz/){.external}, které prostřednictvím protokolu OAI-PMH umožňuje hromadné sklízení dat AMČR, je pak popsáno na samostané stránce.
+- Sekce [Zpravodaj](zpravodaj/index.qmd) obsahuje jednotlivá vydání občasníku určeného uživatelům AMČR. -->
 <div class="callout callout-style-simple callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -451,6 +448,19 @@ Služby AIS CR
 <li><strong>Digitální archiv AMČR</strong> najdete na odkaze <a href="https://digiarchiv.aiscr.cz/" class="external">https://digiarchiv.aiscr.cz/</a>.</li>
 <li>Stránky infrastruktury <strong>AIS CR</strong> s odkazy na další služby a součásti systému najdete zde: <a href="https://aiscr.cz/" class="external">https://aiscr.cz/</a>.</li>
 </ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tréninková verze AMČR
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Na adrese <a href="https://amcr-tr.aiscr.cz/" class="external">https://amcr-tr.aiscr.cz/</a> naleznete tréninkovou verzi aplikace, kde si můžete jednotlivé pracovní procesy, fungování aplikace apod. vyzkoušet nanečisto a nebát se, že přijdete o skutečná data. Přihlásíte se do ní pomocí stejného účtu, jako do běžné (provozní) verze AMČR. Veškerá data, která zde naleznete, jsou kopií dat ze skutečné AMČR, jen jsou zde některé osobní údaje či jinak senzitivní data anonymizovaná a nejsou zde soubory.</p>
 </div>
 </div>
 <section id="licence-a-jak-citovat" class="level2">
@@ -496,7 +506,7 @@ CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými
 vkládejte do složky `./tabs/`.
 
 Tabulku lze pak vložit tímhle kódem:
-```fduzs
+```frzqe
 #| label: tbl-role              # popisek pro křížové odkazy
 #| tbl-cap: "Uživatelské role." # popisek tabulky zobrazený v textu
 
