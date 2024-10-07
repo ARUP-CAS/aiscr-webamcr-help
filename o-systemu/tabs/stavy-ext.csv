@@ -1,0 +1,4 @@
+"Stav","Název","Vysvětlivka","Provádí"
+"EZ1","Zapsaný ","Bibliografický záznam (externí zdroj) byl založen, avšak u záznamu nebyly doplněny všechny údaje a záznam nebyl dosud předán k dalšímu zpracování. Identifikátor záznamu je pouze dočasný.","Archeolog/Badatel"
+"EZ2","Odeslaný","Bibliografický záznam (externí zdroj) byl odeslán ke kontrole správci systému a obsahuje všechny potřebné údaje. Záznam je opatřen trvalým identifikátorem.","Archeolog/Badatel"
+"EZ3","Potvrzený ","Bibliografický záznam (externí zdroj) byl po kontrole všech údajů správcem systému potvrzen. Záznamy v tomto stavu jsou viditelné v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external}.","Archivář"

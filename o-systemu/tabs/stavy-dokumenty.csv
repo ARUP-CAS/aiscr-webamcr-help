@@ -1,4 +1,4 @@
 "Stav","Název","Vysvětlivka","Provádí"
-"D1","Nerevidovaný ","Dokument byl do systému vložen dávkově pomocí importu a věcný obsah záznamu čeká na kontrolu. Nerevidované dokumenty jsou viditelné ve Vyhledávání a jsou opatřeny definitivním identifikátorem.","Administrátor"
-"D2","Zapsaný ","Dokument byl založen, avšak na Kartě dokumentu nebyly doplněny všechny údaje a dokument nebyl dosud zveřejněn. Identifikátor dokumentu je pouze dočasný.","Badatel"
-"D3","Archivovaný","Dokument byl po kontrole všech údajů správcem systému archivován. Dokumenty v tomto stavu jsou viditelné ve Vyhledávání a opatřeny definitivním identifikátorem.","Archivář"
+"D1","Zapsaný ","Dokument byl založen, avšak nebyly doplněny všechny údaje a dokument nebyl dosud předán k dalšímu zpracování. Identifikátor dokumentu je pouze dočasný.","Archeolog/Badatel"
+"D2","Odeslaný","Dokument byl odeslán ke kontrole správci systému a obsahuje všechny potřebné údaje a připojený soubor/soubory. Záznam je opatřen trvalým identifikátorem.","Archeolog/Badatel"
+"D3","Archivovaný","Dokument byl po kontrole všech údajů správcem systému archivován. Dokumenty v tomto stavu jsou viditelné v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external}.","Archivář"

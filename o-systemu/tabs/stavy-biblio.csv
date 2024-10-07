@@ -1,4 +1,0 @@
-"Stav","Název","Vysvětlivka","Provádí"
-"B1","Nerevidovaný záznam","Bibliografický záznam (externí zdroj) byl do systému vložen dávkově pomocí importu a věcný obsah záznamu čeká na kontrolu. Nerevidované záznamy jsou viditelné ve Vyhledávání a jsou opatřeny definitivním identifikátorem.","Administrátor"
-"B2","Zapsaný ","Bibliografický záznam (externí zdroj) byl založen, avšak na Kartě bibliografického záznamu nebyly doplněny všechny údaje a záznam nebyl dosud zveřejněn. Identifikátor záznamu je pouze dočasný.","Badatel"
-"B3","Potvrzený ","Bibliografický záznam (externí zdroj) byl po kontrole všech údajů správcem systému potvrzen. Záznamy v tomto stavu jsou viditelné ve Vyhledávání a opatřeny definitivním identifikátorem.","Archivář"

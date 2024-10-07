@@ -2,94 +2,112 @@
 title: Procesní pravidla a stavy
 ---
 
-::: {.callout-important}
+Jedním z hlavních poslání AMČR je zabezpečit nutnou agendu a evidenci archeologických [akcí](/slovnik/index.qmd#akce) prováděných na území ČR. 
+V aplikaci proto nejsou obsažena pouze data, která lze považovat za archivní, ale také rozpracované záznamy, které postihují právě probíhající, případně nedávno realizované výzkumy. 
+Pro sběr a užívání dat v AMČR platí tzv. procesní pravidla, která říkají, jaký [typ uživatele](role.qmd) může se záznamem nakládat, v jaký okamžik vkládá informace či dokumenty a jakého cíle má být dosaženo.
 
-## Upozornění
+Pro označení fáze zpracování záznamů slouží tzv. **procesní stavy**, které jsou přidělovány všem záznamům v základních datových třídách ([Projekty](/slovnik/index.qmd#projekty), [Akce](/slovnik/index.qmd#akce) -- samostatné i projektové, [Lokality](/slovnik/index.qmd#lokality), Samostané nálezy/PAS, Knihovna 3D, [Dokumenty](/slovnik/index.qmd#dokumenty), [Externí zdroje](/slovnik/index.qmd#externí-zdroje-bibliografie), [PIAN](/slovnik/index.qmd#pian)). 
+Procesní stav určuje, kdo může daný záznam zobrazit, kdo jej může editovat, jaké funkce jsou pro práci se záznamem dostupné a zároveň jaké kroky je třeba učinit pro plnou archivaci záznamu. 
+Každému ze stavů také odpovídá určitý okruh informací a dat, která je v daném okamžiku možno (či nutno) vložit, a určitá práva a povinnosti konkrétních uživatelů.
 
-Následující stránka k 1. srpnu 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
-Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
+Přechod od jednoho procesního stavu k druhému je řízen interakcemi systému, uživatele a archiváře. 
+Systém eviduje datum přechodu záznamu z jednoho stavu do druhého a uživatele, který změnu provedl. 
+V případě zpětného posunu stavů (k dispozici archivářům; např. „vrácení zprávy o akci k dopracování“) se eviduje i historie změn a důvody, které k nim vedly.
 
-:::
-
-Jedním z hlavních poslání AMČR je zabezpečit nutnou agendu a evidenci archeologických [akcí](/slovnik/index.qmd#akce) prováděných na území ČR.
-V aplikaci proto nejsou obsažena pouze data, která lze považovat za archivní, ale také rozpracované záznamy, které postihují právě probíhající, případně nedávno realizované výzkumy.
-Pro sběr a užívání dat v AMČR platí tzv. procesní pravidla, která říkají, jaký [typ uživatele](role.qmd) spravuje danou datovou třídu, v jaký okamžik vkládá data a jakého cíle má být dosaženo.
-
-Pro označení fáze zpracování záznamů slouží tzv. **procesní stavy**, které jsou přidělovány všem záznamům v základních datových třídách ([Projekty](/slovnik/index.qmd#projekty), [Akce](/slovnik/index.qmd#akce), [Lokality](/slovnik/index.qmd#lokality), [Dokumenty](/slovnik/index.qmd#dokumenty), [Bibliografie](/slovnik/index.qmd#externí-zdroje-bibliografie), [PIAN](/slovnik/index.qmd#pian)).
-Procesní stav určuje, kdo může daný záznam zobrazit, kdo jej může editovat, jaké funkce jsou pro práci se záznamem dostupné a zároveň jaké kroky je třeba učinit pro plnou archivaci záznamu.
-Každému ze stavů také odpovídá určitý okruh dat, která je v daném okamžiku možno (či nutno) vložit, a určitá práva a povinnosti konkrétních uživatelů.
-
-Procesním stavem rozumíme dílčí fázi archeologické (terénní) aktivity, což lze na obecnější rovině chápat jako specifickou fázi vzniku archeologické informace.
-Např. každý projekt musí být nejprve zapsán do systému (stav P1), a to s některými povinnými popisnými údaji.
-Zapsaný projekt si může některá z oprávněných organizací rezervovat k provedení výzkumu (P2), přičemž doplňuje některé údaje a zároveň dočasně omezuje dostupnost jiných pro ostatní uživatele (např. osobní údaje týkající se stavebníka).
-Daná [oprávněná organizace](/slovnik/index.qmd#oprávněná-archeologická-organizace) nyní získává povinnost zahájit a oznámit terénní práce (P3), informovat o jejich ukončení (P4) a v zákonné lhůtě podat závěrečnou informaci spolu s [nálezovou zprávou](/slovnik/index.qmd#nálezová-zpráva) (P6).
-Poté archivář rozhoduje, zda podané podklady je třeba vrátit k doplnění/přepracování (P7), nebo je možno je uznat za dostatečné a archivovat (P8).
-
-Podobným způsobem probíhá i životní cyklus [akcí](/slovnik/index.qmd#akce), který má různé varianty, a to podle typu akce (projektová akce/samostatná akce).
-Projektové akce procházejí pouze stavy A1-A2-A6-A7-A8, protože podávat závěrečnou informaci o výsledcích výzkumu bez předepsané nálezové zprávy není povoleno.
-U samostatných akcí, převážně starých výzkumů, kde zhotovení úplné nálezové zprávy je už málo pravděpodobné, je tato praxe povolena a jejich životní cyklus se tedy skládá ze všech uvedených kroků.
-V poněkud jednodušší podobě se procesní stavy vyskytují i u záznamů dalších datových tříd.
-
-Přechod od jednoho procesního stavu k druhému je řízen interakcemi systému, uživatele a archiváře.
-Systém eviduje datum přechodu jednotky z jednoho stavu do druhého a uživatele, který přechod provedl.
-V případě stavů, které mohou být nabývány opakovaně (např. „vrácení zprávy o akci k dopracování“) se eviduje i historie změn a důvody, které k nim vedly.
-
-![Návaznost procesních stavů projektů a akcí](figs/stavy_schema.png){#fig-stavy}
 
 ## Procesní stavy projektů
 
+![Schéma přechodů mezi jednotlivými procesními stavy projektů](figs/procstavy-proj.svg)
+
+Procesním stavem projektu rozumíme dílčí fázi archeologické (terénní) aktivity, resp. specifickou fázi vzniku archeologické informace. 
+Každý projekt musí být nejprve zapsán do systému (stav P1), a to s povinnými popisnými údaji. 
+Zapsaný projekt si může některá z [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace) rezervovat k provedení výzkumu (P2), přičemž doplňuje další potřebné údaje a zároveň dočasně omezuje dostupnost jiných pro ostatní uživatele (např. osobní údaje týkající se stavebníka). 
+Daná oprávněná organizace nyní získává povinnost zahájit a oznámit terénní práce (P3), informovat o jejich ukončení (P4) a v zákonné lhůtě podat závěrečnou informaci spolu s [nálezovou zprávou](/slovnik/index.qmd#nálezová-zpráva) (P5). 
+Poté archivář rozhoduje, zda podané podklady je třeba vrátit k doplnění/přepracování (vrátit do P4), nebo je možno je uznat za dostatečné a archivovat (P6).
+Speciálním procesním stavem projektu je stav P0. 
+Do tohoto stavu se projekt dostává po oznámení pomocí webového formuláře [*Oznámení o stavebním či jiném záměru*](https://amcr.aiscr.cz/oznameni){.external}.
+Následně dochází ke kontrole a případnému doplnění údajů pracovníky Referátů archeologické památkové péče archeologických ústavů (ARÚ) a poté je projekt posunut do stavu P1. 
+Projekty lze před jejich zahájením v odůvodněných případech navrhovat ke zrušení (P7) a po potvrzení pracovníky ARÚ jsou považovány za zrušené (P8) nebo vráceny zpět k možnému přihlášení jinou organizací.
+
 ```{r}
-#| label: tbl-stavy-projekty
 #| tbl-cap: "Procesní stavy projektů"
 
 read.csv("tabs/stavy-projekty.csv") |>
   knitr::kable()
 ```
 
+
 ## Procesní stavy akcí
 
+![Schéma přechodů mezi jednotlivými procesními stavy akcí (projektových i samostatných)](figs/procstavy-akce.svg)
+
+Životní cyklus projektových i samostatných [akcí](/slovnik/index.qmd#akce) má, na rozdíl od projektů, jen 3 stupně. 
+Po zápisu se akce dostává do stavu AZ1, kdy lze k záznamu postupně doplnit veškeré informace a přikládat relevantní dokumenty. 
+Poté je možné akci odeslat ke kontrole archivářům systému (AZ2). 
+V případě, že jsou uvedené informace a přiložené dokumenty dostatečné, je akce archivována (AZ 3). 
+V případě nedostatků je vrácena do stavu AZ1.
+
+Obdobným schématem procesních stavů jako Akce pak probíhá životní cyklus i dalších datových tříd: Lokality, Samostatné nálezy, Knihovna 3D, Dokumenty a Externí zdroje, viz níže.
+
 ```{r}
-#| label: tbl-stavy-akce
 #| tbl-cap: "Procesní stavy akcí"
 
 read.csv("tabs/stavy-akce.csv") |>
   knitr::kable()
 ```
 
+
 ## Procesní stavy lokalit
 
 ```{r}
-#| label: tbl-stavy-lokality
 #| tbl-cap: "Procesní stavy lokalit"
 
 read.csv("tabs/stavy-lokality.csv") |>
   knitr::kable()
 ```
 
+
+## Procesní stavy samostatných nálezů
+
+![Schéma přechodů mezi jednotlivými procesními stavy samostatných nálezů](figs/procstavy-pas.svg)
+
+Čtyřstupňové schéma procesních stavů najdeme u samostatných nálezů.
+Od třístupňového schématu platného pro většinu ostatních datových tříd se liší ve stavu SN3, kdy archeolog potvrzuje nález zapsaný a odeslaný spolupracovníkem, kontroluje a koriguje informace, které o nálezu spolupracovník uvedl a potrvzuje jeho převzetí do sbírky. 
+Až v následujícím stavu SN4 dochází ke kontrole nálezu archiváři ARÚ a jeho archivaci, případně k vrácení archeologovi k doplnění.
+
+```{r}
+#| tbl-cap: "Procesní stavy samostatných nálezů (AMČR-PAS)"
+
+read.csv("tabs/stavy-pas.csv") |>
+  knitr::kable()
+```
+
+
 ## Procesní stavy dokumentů
 
 ```{r}
-#| label: tbl-stavy-dokumenty
 #| tbl-cap: "Procesní stavy dokumentů"
 
 read.csv("tabs/stavy-dokumenty.csv") |>
   knitr::kable()
 ```
 
+
 ## Procesní stavy externích zdrojů
 
 ```{r}
-#| label: tbl-stavy-biblio
 #| tbl-cap: "Procesní stavy externích zdrojů"
 
-read.csv("tabs/stavy-biblio.csv") |>
+read.csv("tabs/stavy-ext.csv") |>
   knitr::kable()
 ```
 
+
 ## Procesní stavy jednotek PIAN
 
+Jako jediná kategorie s dvojstupňovým schématem procesních stavů stojí PIAN, které se pohybují pouze ve stavech potvrzený/nepotvrzený.
+
 ```{r}
-#| label: tbl-stavy-pian
 #| tbl-cap: "Procesní stavy jednotek PIAN"
 
 read.csv("tabs/stavy-pian.csv") |>
