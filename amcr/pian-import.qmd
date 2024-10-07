@@ -1,10 +1,23 @@
 ---
-title: Import geometrie PIAN pomocí CSV souboru
+title: Import geometrie PIAN
 # subtitle: fuubar 
 author: 
   - name: Ondřej Švejcar
 date: 2024-07-28
 ---
+
+::: {.callout-note}
+
+## Možnosti přípravy CSV souboru pro import geometrie PIAN do AMČR
+
+- Z QGIS:
+  - [Pomocí QGIS pluginu Pian Exporter](pian-import.qmd#qgis-plugin-pian-exporter);
+  - [Exportem z QGIS](pian-import.qmd#export-csv-z-qgis).
+- [Ze shapefilu (SHP) pomocí online převodníku](pian-import.qmd#online-převodník-shp-na-csv).
+- [Manuálně v textovém editoru](pian-import.qmd#vytvoření-csv-v-textovém-editoru).
+
+
+:::
 
 ## Definice formátu souboru pro import
 
@@ -38,9 +51,7 @@ Všechna textová pole v CSV vč. geometrií by měla být obalena oddělovače
 :::
 
 
-## Vytvoření CSV souboru
-
-### Pomocí online převodníku SHP na CSV 
+## Online převodník SHP na CSV 
 
 ::: {.callout-tip}
 
@@ -84,9 +95,11 @@ Všechna textová pole v CSV vč. geometrií by měla být obalena oddělovače
         - Oddělovač řetězců: `"` (horní uvozovky);
     i. volbu potvrdíme tlačítkem `OK`.  
     ![](figs/pian05.png){width="60%" fig-align="center"}
+    
+8. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr).
 
 
-### Vytvoření CSV v textovém editoru
+## Vytvoření CSV v textovém editoru
 
 Alternativním postupem vytvoření CSV souboru je jeho vytvoření v textovém editoru (např. Poznámkový blok, WordPad, Notepad++ atp.).
 Viz vzorový CSV soubor.
@@ -110,8 +123,43 @@ Výsledný soubor může vypadat např. takto:
 
 ![](figs/pian07.png){width="60%" fig-align="center"}
 
+5. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr).
 
-### Export CSV z QGIS
+
+## QGIS plugin Pian Exporter
+
+Uživatelé QGIS mohou využít volně dostupný plugin **Pian Exporter** vytvořený Markem Lečbychem.
+Plugin umožňuje rychle a efektivně exportovat prostorová data z vybrané vrstvy do CSV, který je bez nutnosti další úpravy možné importovat do webové aplikace AMČR.
+
+### Instalace pluginu
+
+1. V aplikaci QGIS použijte nástroj manažera pluginů.
+
+![](figs/pian-plugins.jpg){width="66%" fig-align="center"}
+
+2. Vyhledejte **Pian Exporter** (například zadáním klíčových slov *PIAN* nebo *AMČR*) a potvrďte jeho instalaci.
+
+![](figs/pian-install.jpg){width="60%" fig-align="center"}
+
+V aplikaci QGIS se plugin zobrazí v podobě ikony ![](figs/pian-icon.png){width="2%"}
+
+### Export dat
+
+::: {.callout-tip}
+
+## Předpoklady
+
+- [ ] Připravená vrstva bodů, linií nebo polygonů. 
+
+:::
+
+1. V aplikaci QGIS klikněte na ikonu **Pian Exporter**.
+2. Vyberte z rolovací nabídky vrstvu, kterou chcete exportovat.
+3. Zadejte název a vyberte místo uložení výsledného souboru.
+4. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr).
+
+
+## Export CSV z QGIS
 
 1. V [QGIS](https://www.qgis.org/){.external} si otevřeme vektorovou vrstvu, která obsahuje jednu či více geometrií jako podklad pro PIAN (souřadnicový systém WGS 84 -- EPSG:4326 nebo S-JTSK / Krovak East North -- EPSG: 5514).
 
@@ -149,6 +197,8 @@ Výsledný soubor může vypadat např. takto:
 6. Výsledek uložíme jako soubor CSV
 
 ![](figs/pian14.png){width="60%" fig-align="center"}
+
+7. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr).
 
 
 ## Import souboru CSV do AMČR
