@@ -111,7 +111,7 @@ website:
         - text: ---
         - section: Tutoriály
           contents:
-              - text: Import PIAN z CSV  
+              - text: Import geometrie PIAN 
                 href: amcr/pian-import.qmd
               - text: Zápis správného typu DJ
                 href: amcr/dj.qmd
@@ -205,7 +205,7 @@ format:
   # docx: default
 
 execute:
-  freeze: auto
+  freeze: false
   echo: false
 
 crossref:

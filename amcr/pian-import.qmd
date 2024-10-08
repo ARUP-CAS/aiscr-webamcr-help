@@ -3,6 +3,7 @@ title: Import geometrie PIAN
 # subtitle: fuubar 
 author: 
   - name: Ondřej Švejcar
+  - name: Tomáš Pavloň
 date: 2024-07-28
 ---
 
@@ -10,12 +11,14 @@ date: 2024-07-28
 
 ## Možnosti přípravy CSV souboru pro import geometrie PIAN do AMČR
 
-- Z QGIS:
-  - [Pomocí QGIS pluginu Pian Exporter](pian-import.qmd#qgis-plugin-pian-exporter);
-  - [Exportem z QGIS](pian-import.qmd#export-csv-z-qgis).
+#### Preferované způsoby:
+- [Pomocí AMČR GIS konvertoru SHP na WKT](pian-import.qmd#amčr-gis-konvertor) -- doporučená cesta v případě práce v ArcGIS.
+- [Pomocí QGIS pluginu Pian Exporter](pian-import.qmd#qgis-plugin-pian-exporter) -- doporučená cesta v případě práce v QGIS.
+
+#### Další možnosti:
+- [Exportem z QGIS](pian-import.qmd#export-csv-z-qgis).
 - [Ze shapefilu (SHP) pomocí online převodníku](pian-import.qmd#online-převodník-shp-na-csv).
 - [Manuálně v textovém editoru](pian-import.qmd#vytvoření-csv-v-textovém-editoru).
-
 
 :::
 
@@ -51,79 +54,40 @@ Všechna textová pole v CSV vč. geometrií by měla být obalena oddělovače
 :::
 
 
-## Online převodník SHP na CSV 
+## AMČR GIS konvertor
+
+::: {.callout-important}
+
+**AMČR GIS konvertor** najdete na stránce [**https://amcr-convert.aiscr.cz/**](https://amcr-convert.aiscr.cz/){.external}.
+
+:::
 
 ::: {.callout-tip}
 
 ## Předpoklady
 
-- [ ] Soubor ve formátu SHP obsahující geometrii/geometrie jako podklad pro vytvoření PIAN. 
-- [ ] Souřadnicové systémy jsou WGS 84 (EPSG: 4326) a S-JTSK / Krovak East North (EPSG: 5514).
+- [ ] Soubor obsahující geometrii/geometrie jako podklad pro vytvoření PIAN ve formátu SHP. 
+- [ ] Podporované souřadnicové systémy jsou **WGS 84** (EPSG: 4326) a **S-JTSK/Krovak East North** (EPSG: 5514).
 
 :::
 
-1. Otevřete online převodník [https://www.km4city.org/wkt/](https://www.km4city.org/wkt/){.external}.
-2. Tlačítkem `Procházet`/`Browse` vyberte soubor s koncovkou .shp z připraveného shapefilu (SHP).
-3. Do pole `Label` zvolte název výstupu. 
-4. Stiskněte tlačítko `Upload` pro nahrání souboru do převodníku.
+### Upload souborů
 
-![](figs/pian01.png){width="80%" fig-align="center"}
+Pomocí tlačítka `Procházet` vyberte soubory shapefilu, které budou použity pro převod (shapefile je multisouborový formát, který je tvořen více dílčími soubory). 
+Jako povinné je třeba zvolit soubory *.shp* (obsahuje vlastní zakreslené geometrie pro vytvoření PIAN) a *.dbf* (obsahuje atributy jednotlivých zakreslených prvků). 
+Doporučené je připojit i soubory *.prj* (obsahuje informace o souřadnicovém systému a projekci) a *.cpg* (obsahuje informace o kódování pro správnou identifikaci znaků)
 
-5. Na následující obrazovce uvidíte převedené geometrie:
-    i. v poli `name` jsou uvedené názvy jednotlivých geometrií (PIAN) podle toho, jak byly pojmenované ve zdrojovém SHP;
-    i. v poli `WKT` je pak geometrie PIAN ve formátu WKT;
-    i. po výběru geometrie zaškrtávacím políčkem je možné konkrétní geometrii/PIAN zobrazit na mapě pro ověření výběru (funguje pouze pro data v souřadnicovém systému WGS-84).
+### Informace o shapefilu
 
-![](figs/pian02.png){width="80%" fig-align="center"}
+1. Konvertor po vybrání souborů ověří jejich správnost a příslušnost k jednomu shapefilu.
+2. Pokud není připojen soubor *.prj*, je třeba v poli `EPSG` zvolit souřadnicový systém, ve kterém data jsou. Upozorňujeme, že volba souřadnicového systému **neslouží** pro převod mezi jednotlivými systémy!
+3. Pokud vstupní soubor obsahuje pole s popisem jednotlivých prvků (např. číslo sondy, pojmenování plochy atp.), lze toto pole zvolit v poli `Název`. Pokud pole s popisem neexistuje, nebo není zvoleno, jsou jednotlivým prvkům přiděleny automatické popisky (*Prvek_1*, *Prvek_2* atd.)
+4. Načtená data vidíte v tabulce níže. Zde vidíte popis jednotlivých prvků v poli `Label`. Popis lze v tomto poli editovat (ať již je generován automaticky nebo je jeho zdrojem pole s popisem ze vstupního souboru). Ve sloupci `EPSG` vidíte zvolený nebo načtený souřadnicový systém. Ve sloupci `Export` lze pak výběrem zvolit, které prvky ze vstupního shapefilu se mají exportovat.
 
-6. Přípravu cílového CSV souboru lze provést např. v tabulkovém editoru [Libre Office Calc](https://cs.libreoffice.org/download/download/){.external}:
-    i. otevřít nový soubor;
-    i. do prvního řádku vložit názvy polí podle definice na začátku tohoto návodu (`label`, `epsg`, `geometry`);
-        - do pole `label` zkopírujeme či přepíšeme název zvolené geometrie/geometrií (např. plocha 1, sonda 1 atp.), případně je možné zkopírovat celou tabulku z převodníku a následně upravit názvy polí a přidat sloupec `epsg`;
-        - do pole `epsg` zapíšeme kód souřadnicového systému (4326 nebo 5514);
-        - do pole `geometry` zkopírujeme souřadnice WKT z totožného pole v převodníku.
+### Export dat
 
-![](figs/pian03.png)
-
-7. Připravený soubor uložte ve formátu CSV:
-    i. `Soubor` -- `Uložit jako` -- `Text CSV (.csv)`;
-    i. pokud vyskočí upozornění na kontrolu správného formátu, které nabízí možnost uložit jako ODF potvrdíme, že správně je CSV (`Použít formát Text CSV`);  
-    ![](figs/pian04.png){width="60%" fig-align="center"}
-    i. v následujícím dialogovém okně pro export nastavíme tyto parametry: 
-        - Znaková sada: `Unicode (UTF-8)`;
-        - Oddělovač pole: `,` (čárka);
-        - Oddělovač řetězců: `"` (horní uvozovky);
-    i. volbu potvrdíme tlačítkem `OK`.  
-    ![](figs/pian05.png){width="60%" fig-align="center"}
-    
-8. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr).
-
-
-## Vytvoření CSV v textovém editoru
-
-Alternativním postupem vytvoření CSV souboru je jeho vytvoření v textovém editoru (např. Poznámkový blok, WordPad, Notepad++ atp.).
-Viz vzorový CSV soubor.
- 
-1. Otevřete textový editor (ukázka je v Poznámkovém bloku, ale stejně funguje i v ostatních zmíněných programech).
-2. Na první řádek vložte názvy polí oddělené čárkou podle definice výše:
-    - `"label","epsg","geometry"`.
-3. Na druhý  řádek (případně na další řádky podle počtu geometrií k importu) vložte hodnoty pro tato pole opět oddělená čárkou.
-
-Výsledný soubor může vypadat např. takto:
-
-```{.r .code-overflow-wrap filename="PIAN_1.csv" }
-"label","epsg","geometry"
-"plocha_1","4326","POLYGON ((14.076704183062645 50.11115525776103, 14.076893350212458 50.111165965335545, 14.076900488595527 50.11129088703842, 14.077332360768025 50.111273041080835, 14.077318084002115 50.11114455018662, 14.077478697619995 50.11113384261205, 14.07746799004542 50.1109054143555, 14.07756078902463 50.110901845163994, 14.07754651225872 50.1108268921422, 14.077471559236983 50.11070910882239, 14.077350206725612 50.11061274065173, 14.077260976937964 50.11060560226866, 14.076507877529536 50.110623448226306, 14.076515015912605 50.11106245878182, 14.076704183062645 50.111069597164885, 14.076704183062645 50.11115525776103))"
-```
-
-![](figs/pian06.png){width="80%" fig-align="center"}
-
-4. Připravený soubor uložte ve formátu CSV. 
-    - Při ukládání textového dokumentu v operačním systému Windows je třeba ručně dopsat k názvu souboru jako jeho koncovku .csv.
-
-![](figs/pian07.png){width="60%" fig-align="center"}
-
-5. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr).
+1. V části `Export dat` vidíte náhled převedených dat. Tlačítkem `Stáhnout CSV` si můžete stáhnout hotový CSV soubor připravený pro import geometrie PIAN do AMČR. Převedená data lze také jen zkopírovat (ručně nebo pomocí tlačítka `Kopírovat do schránky`) pro vytvoření CSV souboru ručně, nebo pro práci s daty jiným způsobem.
+2. Pokud takto zpracováváte více souborů stejného typu, lze se pomocí tlačítka `Vyčistit a nahrát další` přepnout rovnou do výběru nových souborů. Tlačítkem `Vyčistit` se pak vrátíte na výchozí obrazovku.
 
 
 ## QGIS plugin Pian Exporter
@@ -199,6 +163,81 @@ V aplikaci QGIS se plugin zobrazí v podobě ikony ![](figs/pian-icon.png){width
 ![](figs/pian14.png){width="60%" fig-align="center"}
 
 7. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr).
+
+
+## Online převodník SHP na CSV 
+
+::: {.callout-tip}
+
+## Předpoklady
+
+- [ ] Soubor ve formátu SHP obsahující geometrii/geometrie jako podklad pro vytvoření PIAN. 
+- [ ] Souřadnicové systémy jsou WGS 84 (EPSG: 4326) a S-JTSK / Krovak East North (EPSG: 5514).
+
+:::
+
+1. Otevřete online převodník [https://www.km4city.org/wkt/](https://www.km4city.org/wkt/){.external}.
+2. Tlačítkem `Procházet`/`Browse` vyberte soubor s koncovkou .shp z připraveného shapefilu (SHP).
+3. Do pole `Label` zvolte název výstupu. 
+4. Stiskněte tlačítko `Upload` pro nahrání souboru do převodníku.
+
+![](figs/pian01.png){width="80%" fig-align="center"}
+
+5. Na následující obrazovce uvidíte převedené geometrie:
+    i. v poli `name` jsou uvedené názvy jednotlivých geometrií (PIAN) podle toho, jak byly pojmenované ve zdrojovém SHP;
+    i. v poli `WKT` je pak geometrie PIAN ve formátu WKT;
+    i. po výběru geometrie zaškrtávacím políčkem je možné konkrétní geometrii/PIAN zobrazit na mapě pro ověření výběru (funguje pouze pro data v souřadnicovém systému WGS-84).
+
+![](figs/pian02.png){width="80%" fig-align="center"}
+
+6. Přípravu cílového CSV souboru lze provést např. v tabulkovém editoru [Libre Office Calc](https://cs.libreoffice.org/download/download/){.external}:
+    i. otevřít nový soubor;
+    i. do prvního řádku vložit názvy polí podle definice na začátku tohoto návodu (`label`, `epsg`, `geometry`);
+        - do pole `label` zkopírujeme či přepíšeme název zvolené geometrie/geometrií (např. plocha 1, sonda 1 atp.), případně je možné zkopírovat celou tabulku z převodníku a následně upravit názvy polí a přidat sloupec `epsg`;
+        - do pole `epsg` zapíšeme kód souřadnicového systému (4326 nebo 5514);
+        - do pole `geometry` zkopírujeme souřadnice WKT z totožného pole v převodníku.
+
+![](figs/pian03.png)
+
+7. Připravený soubor uložte ve formátu CSV:
+    i. `Soubor` -- `Uložit jako` -- `Text CSV (.csv)`;
+    i. pokud vyskočí upozornění na kontrolu správného formátu, které nabízí možnost uložit jako ODF potvrdíme, že správně je CSV (`Použít formát Text CSV`);  
+    ![](figs/pian04.png){width="60%" fig-align="center"}
+    i. v následujícím dialogovém okně pro export nastavíme tyto parametry: 
+        - Znaková sada: `Unicode (UTF-8)`;
+        - Oddělovač pole: `,` (čárka);
+        - Oddělovač řetězců: `"` (horní uvozovky);
+    i. volbu potvrdíme tlačítkem `OK`.  
+    ![](figs/pian05.png){width="60%" fig-align="center"}
+    
+8. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr).
+
+
+## Vytvoření CSV v textovém editoru
+
+Alternativním postupem vytvoření CSV souboru je jeho vytvoření v textovém editoru (např. Poznámkový blok, WordPad, Notepad++ atp.).
+Viz vzorový CSV soubor.
+ 
+1. Otevřete textový editor (ukázka je v Poznámkovém bloku, ale stejně funguje i v ostatních zmíněných programech).
+2. Na první řádek vložte názvy polí oddělené čárkou podle definice výše:
+    - `"label","epsg","geometry"`.
+3. Na druhý  řádek (případně na další řádky podle počtu geometrií k importu) vložte hodnoty pro tato pole opět oddělená čárkou.
+
+Výsledný soubor může vypadat např. takto:
+
+```{.r .code-overflow-wrap filename="PIAN_1.csv" }
+"label","epsg","geometry"
+"plocha_1","4326","POLYGON ((14.076704183062645 50.11115525776103, 14.076893350212458 50.111165965335545, 14.076900488595527 50.11129088703842, 14.077332360768025 50.111273041080835, 14.077318084002115 50.11114455018662, 14.077478697619995 50.11113384261205, 14.07746799004542 50.1109054143555, 14.07756078902463 50.110901845163994, 14.07754651225872 50.1108268921422, 14.077471559236983 50.11070910882239, 14.077350206725612 50.11061274065173, 14.077260976937964 50.11060560226866, 14.076507877529536 50.110623448226306, 14.076515015912605 50.11106245878182, 14.076704183062645 50.111069597164885, 14.076704183062645 50.11115525776103))"
+```
+
+![](figs/pian06.png){width="80%" fig-align="center"}
+
+4. Připravený soubor uložte ve formátu CSV. 
+    - Při ukládání textového dokumentu v operačním systému Windows je třeba ručně dopsat k názvu souboru jako jeho koncovku .csv.
+
+![](figs/pian07.png){width="60%" fig-align="center"}
+
+5. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr).
 
 
 ## Import souboru CSV do AMČR
