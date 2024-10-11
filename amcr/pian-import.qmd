@@ -94,6 +94,7 @@ Doporučené je připojit i soubory *.prj* (obsahuje informace o souřadnicovém
 
 Uživatelé QGIS mohou využít volně dostupný plugin **Pian Exporter** vytvořený Markem Lečbychem.
 Plugin umožňuje rychle a efektivně exportovat prostorová data z vybrané vrstvy do CSV, který je bez nutnosti další úpravy možné importovat do webové aplikace AMČR.
+V knihovně QGIS pluginů najdete Pian Exporter [zde](https://plugins.qgis.org/plugins/pian_exporter/#plugin-about){.external}.
 
 ### Instalace pluginu
 
