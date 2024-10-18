@@ -1,16 +1,13 @@
 ---
 title: Zpravodaj AMČR č. 11
-date: 2024-10-11
-author: 
-  - name: Onřej Švejcar
-  - name: Tomáš Pavloň
+date: 2024-10-18
 ---
 
 > Vážení uživatelé AMČR,
 >
 > přinášíme Vám zpravodaj AMČR č. 11, který je spjat zejména se spuštěním nové webové aplikace AMČR, ale přináší i další novinky z [Archeologického informačního systému České republiky (AIS CR)](https://www.aiscr.cz/){.external}.
 >
-> Váš AIS CR *tým*...
+> Váš *tým* AIS CR...
 
 
 ## Spuštění nové AMČR
@@ -22,6 +19,8 @@ Formuláře pro jednotlivé moduly jsou však přizpůsobeny webovému prostřed
 
 Webovou aplikaci naleznete na stránce [**https://amcr.aiscr.cz/**](https://amcr.aiscr.cz/){.external}.
 
+![Úvodní stránka s kartami jednotlivých modulů webové AMČR](figs/11/amcr.png){width="100%" fig-align="center"}
+
 K nové aplikaci vznikla webová stránka s popisem jejího fungování, nápovědou a obecnou dokumentací ([https://amcr-help.aiscr.cz/](https://amcr-help.aiscr.cz/)), kde naleznete užitečné informace o podobě a fungování celého systému i s užitečnými [uživatelskými tutoriály](https://amcr-help.aiscr.cz/amcr/#tutoriály)). 
 K dispozici je rovněž [záznam z uživatelského školení práce s aplikací](https://amcr-help.aiscr.cz/amcr/#školení), dostupný případně i na našem [YouTube kanále](https://youtu.be/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b){.external}.
 
@@ -30,13 +29,22 @@ V nové AMČR naleznete data ve stejném stavu, v jakém byla v okamžiku odstá
 V nové AMČR je zapracována řada vylepšení, která, jak doufáme, Vám zpříjemní a zefektivní práci v systému. 
 Mezi novými vylepšeními lze zmínit zejména nové mapové prostředí, které umožňuje plnohodnotnější práci s prostorovými daty (viz [nápověda zde](https://amcr-help.aiscr.cz/amcr/mapa.html)). 
 V mapě lze pracovat např. s novými mapovými podklady, které mj. umožňují snadné získání informací o projektech a akcích, které již v AMČR existují. 
-S prostorovými daty u Vašich záznamů souvisí také automatické vyplňování hlavního katastru při zápisu projektů (včetně oznamovacího formuláře) a také automatické aktualizace katastrů u akcí podle rozsahu připojených PIAN. 
-Rozšířené možnosti máte také ve správě Vašich uživatelských účtů, kde můžete nastavit jednak zasílání e-mailových notifikací při změnách procesních stavů Vašich záznamů a také můžete podrobněji nastavit tyto notifikace pro nově zapsané projekty, kdy nyní můžete nastavení zpřesnit až na úroveň jednotlivých katastrů. 
+Rozšířené možnosti máte také ve správě Vašich uživatelských účtů, kde můžete nastavit jednak zasílání e-mailových notifikací při změnách procesních stavů Vašich záznamů a také můžete, pokud jste archeolog, podrobněji nastavit tyto notifikace pro nově zapsané projekty, kdy nyní můžete nastavení zpřesnit až na úroveň jednotlivých katastrů. 
 Práce ve webovém prostředí umožňuje plně využívat jeho výhod, kdy je možné např. otevřít několik záznamů v různých oknech/kartách pro jejich porovnání atp. 
 Aplikace má také přímou vazbu s [Digitálním archivem AMČR](https://digiarchiv.aiscr.cz/){.external} (viz níže) a záznamy z jedné aplikace je tedy možné zobrazit v aplikaci druhé, případně je možné zobrazit záznamy také v API.
 
 V případě jakýchkoliv dotazů se na nás můžete obracet na e-mailech [amcr@arup.cas.cz](mailto:amcr@arup.cas.cz) a [amcr@arub.cz](mailto:amcr@arub.cz). 
 Také Vás prosíme o spolupráci při hlášení chybového, nestandardního či jinak podezřelého chování aplikace, abychom mohli co nejdříve zachytit případné chyby a nedocházelo např. k poškození v systému již obsažených dat.
+
+Na vývoji aplikace nadále usilovně pracujeme tak, abychom zohlednili jak vaše připomínky, tak přinášeli nové funkce a řešili chyby. 
+Informace o nových verzích průběžně budou zveřejňovány na úvodní stránce s [přihlášením do systému](https://amcr.aiscr.cz/accounts/login/){.external}, kde jsou případné významnější změny zmíněny. V poslední době je to např.:
+
+- možnost v mapách vyhledávat podle parcel, katastrálních území, adres a dalších údajů podobně, jak jste zvyklí ze služeb Geoportálu ČÚZK;
+- prodloužená viditlenost údajů o oznamovateli projektu pro archeology na 30 dní po přihlášení jinou organizací;
+- možnost snadno požádat o skryté údaje o oznamovateli přes menu u projektu;
+- doplnění indikace aktivity pro všechna tlačítka uložení a odesílání záznamu.
+
+Další větší doplnění a změny, jako například textové výpisy záznamů, plánujeme nasadit do konce letošního roku.
 
 
 ## Import geometrie PIAN
@@ -47,7 +55,7 @@ S tím souvisí i dvě nové možnosti přípravy importních CSV souborů pro i
 ### GIS konvertor
 
 Nově byl spuštěn online **GIS konvertor** který slouží jako nástroj pro přípravu vstupních souborů pro import PIAN. 
-Pomocí tohoto nástroje můžete převést soubory SHP (Shapefile) nebo XXX do formátu WKT (Well-known text). 
+Pomocí tohoto nástroje můžete převést soubory SHP (Shapefile) do formátu WKT (Well-known text). 
 Po převodu si můžete stáhnout soubor ve formátu CSV, který lze přímo použít jako vstup při importu PIAN do AMČR. 
 Podrobnější návod pro práci s konvertorem najdete v [nápovědě](/amcr/pian-import.qmd#amčr-gis-konvertor).
 
@@ -72,18 +80,20 @@ Videonávod pro práci s oznamovacím formulářem naleznete v [nápovědě zde]
 
 Nový formulář naleznete na stránce [**https://amcr.aiscr.cz/oznameni**](https://amcr.aiscr.cz/oznameni){.external}.
 
+![Nová podoba formuláře *Oznámení o stavebním či jiném záměru*](figs/11/ozn.png){width="80%" fig-align="center"}
+
 
 ## Digitální archiv a API
 
-Byla spuštěna nová podoba [Digitálního archivu AMČR](https://digiarchiv.aiscr.cz/){.external}, která obsahuje některá vylepšení pro usnadnění práce s daty, která jsou zde obsažena. 
+Souběžně s AMČR byla spuštěna i nová verze [Digitálního archivu AMČR](https://digiarchiv.aiscr.cz/){.external}, která obsahuje některá vylepšení pro usnadnění práce s daty. 
 Došlo především ke změnám v backendu fungování Digitálního archivu a AMČR, díky čemuž má Digitální archiv rychlejší a plynulejší chod. 
 Data z AMČR jsou v něm nově díky změnám v jejich indexaci k dispozici prakticky ihned po jejich archivaci. 
-Také je nově možné zobrazovat data z Digitálního archivu ve webové aplikaci AMČR a naopak. 
-Zároveň došlo k dílčím změnám v obsahu a struktuře zobrazovaných dat, což přispělo k větší přehlednosti zobrazovaných výsledků.
+Také je nově možné snadno pomocí tlačítka přecházet z Digitálního archivu do webové aplikace AMČR a naopak. 
+Zároveň došlo k dílčím změnám v obsahu a struktuře zobrazovaných dat, což přispělo k větší přehlednosti výsledků.
 
-V souvislosti s novou podobou Digitálního archivu byla spuštěna i nová podoba AMČR API, které umožňuje strojové čtení dat obsažených v systému. 
+Pod Digitální archiv bylo integrováno i původně samostatné AMČR API, které umožňuje strojové čtení dat obsažených v systému. 
 Podrobnosti o fungování API naleznete na adrese [https://api.aiscr.cz/](https://api.aiscr.cz/){.external}.
-Dokumentace pro API je vedena již kompletně v anglickém jazyce.
+Dokumentace pro API je vedena kompletně v anglickém jazyce.
 
 
 ## Nové datové celky v Digitálním archivu AMČR
@@ -105,17 +115,25 @@ Díky prostorovému vymezení pak můžete snadno vidět, zda a kde na lokalitě
 
 ### Plány z leteckých snímků 
 
-Už delší dobu můžete v Digitálním archivu AMČR studovat bohatý soubor [leteckých snímků z celé České republiky](https://digiarchiv.aiscr.cz/results?kategorie_dokumentu=lfoto&entity=dokument){.external}. Správně *přečíst* obsah leteckých snímků však někdy může být oříšek, natož pak korektně ukotvit viditelné archeologické objekty v terénu.
+Už delší dobu můžete v Digitálním archivu AMČR studovat bohatý soubor [leteckých snímků z celé České republiky](https://digiarchiv.aiscr.cz/results?dokument_kategorie_dokumentu=lfoto&entity=dokument){.external}. Správně *přečíst* obsah leteckých snímků však někdy může být oříšek, natož pak korektně ukotvit viditelné archeologické objekty v terénu.
 Po několika letech práce týmu AIS CR i externích spolupracovníků bylo podle [jednotné metodiky](https://doi.org/10.5281/zenodo.7925795){.external} na základě leteckých snímků přesně lokalizováno, vektorizováno a metadatově popsáno celkem 43400 archeologických objektů přiřazených 341 lokalitám na území Čech. 
 Z nich bylo vytvořeno 893 plánů v jednotném měřítku 1 : 2000 (pokud se na plán lokalita nevešla, poskytujeme také přehledový plán celé lokality). 
 Na základě vektorizace byla upravena také vymezení lokalit pomocí PIAN. 
 Přesnou metodiku tvorby plánů lze prostudovat [zde](https://doi.org/10.5281/zenodo.7925830){.external}.
-Plány jsou nyní nově dostupné v [Digitálním archivu spolu s napojením na související lokality](https://digiarchiv.aiscr.cz/results?entity=dokument&page=0&sort=datestamp%20desc&f_rada=DY:or&f_autor=Baier,%20Ond%C5%99ej:or){.external}. 
+Plány jsou nyní nově dostupné v [Digitálním archivu spolu s napojením na související lokality](https://digiarchiv.aiscr.cz/results?entity=dokument&page=0&sort=datestamp%20desc&f_rada=HES-000875:or&f_autor=Baier,%20Ond%C5%99ej:or){.external}. 
 Celý dataset ve vektorové podobě bude v budoucnu zveřejněn formou webové GIS služby, prozatím jsou jeho dílčí části dostupné na vyžádání v archivu ARÚ.
+
+![Letecký snímek lokality, Gojda, Martin 2001: Dokument [C-LD-000000105](https://digiarchiv.aiscr.cz/id/C-LD-000000105){.external}](figs/11/CLD000000105.jpg){width="80%" fig-align="center"}
+
+![Plán objektů viditelných na leteckém snímku, Baier, Ondřej -- Dyčka, Michal -- Gojda, Martin 2024: Dokument [C-DY-100000539](https://digiarchiv.aiscr.cz/id/C-DY-100000539){.external}](figs/11/CDY100000539.png){width="80%" fig-align="center"}
+
 
 ### Dokumenty
 
-Z nově dostupných digitalizovaných fondů archivu ARÚB jde o první ochutnávku z rozsáhlého fondu fotoarchivu, konkrétně terénní fotografie výzkumu při stavbě [Novomlýnských nádrží z Pavlova](https://digiarchiv.aiscr.cz/results?entity=dokument&page=2&ident_cely=M-FT-900144*:or){.external}, fond [nálezových zpráv ÚAPP Brno z let 1993 až 2012](https://digiarchiv.aiscr.cz/results?dokument_kategorie_dokumentu=texty&entity=dokument&f_typ_dokumentu=HES-001075:or&page=0&f_organizace=ORG-000078:or){.external} v celkovém počtu přes 1 tisíc dokumentů, první etapa digitalizace nejstarších dokumentů zachycujících informace z Moravy a Slezska, takzvaná [*Moravika* a *Silesiaka*](https://digiarchiv.aiscr.cz/results?entity=dokument&page=0&sort=datestamp%20desc&q=%22Moravika%22){.external}, která byla zachráněna před zničením povodní pražského archivu v roce 2002 nebo unikátní rukopisné výkopové deníky [Karla Jaroslava Mašky z archivu osobních fondů](https://digiarchiv.aiscr.cz/results?entity=dokument&page=0&sort=datestamp%20desc&q=%22Osobn%C3%AD%20fond%20P027%20Ma%C5%A1ka%22){.external}.
+Z nově dostupných digitalizovaných fondů archivu ARÚB jde o první ochutnávku z rozsáhlého fondu fotoarchivu, konkrétně terénní fotografie výzkumu při stavbě [Novomlýnských nádrží z Pavlova](https://digiarchiv.aiscr.cz/results?q=M-FT-900144*){.external}.
+Z textových dokumentů pak fond [nálezových zpráv ÚAPP Brno z let 1993 až 2012](https://digiarchiv.aiscr.cz/results?dokument_kategorie_dokumentu=texty&entity=dokument&f_typ_dokumentu=HES-001075:or&page=0&f_organizace=ORG-000078:or){.external} v celkovém počtu přes 1 tisíc dokumentů, první etapu digitalizace takzvaných [*Moravik* a *Silesiak*](https://digiarchiv.aiscr.cz/results?entity=dokument&page=0&sort=datestamp%20desc&q=%22Moravika%22){.external}, tedy nejstarších dokumentů zachycujících informace z Moravy a Slezska, které byly zachráněny před zničením povodní pražského archivu v roce 2002 a následně předány do archivu brněnského ústavu, nebo unikátní rukopisné výkopové deníky [Karla Jaroslava Mašky z archivu osobních fondů](https://digiarchiv.aiscr.cz/results?entity=dokument&page=0&sort=datestamp%20desc&q=%22Osobn%C3%AD%20fond%20P027%20Ma%C5%A1ka%22){.external}.
+
+![Stránka z deníku XIV, Maška, K. J. 1884: Dokument [M-TX-202410014](https://digiarchiv.aiscr.cz/id/M-TX-202410014){.external}](figs/11/maska.png){width="60%" fig-align="center"}
 
 ### Externí zdroje & bibliografické záznamy
 
