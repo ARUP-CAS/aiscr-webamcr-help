@@ -1,5 +1,6 @@
 ---
 title: Procesní pravidla a stavy
+date: 2024-10-18
 ---
 
 Jedním z hlavních poslání AMČR je zabezpečit nutnou agendu a evidenci archeologických [akcí](/slovnik/index.qmd#akce) prováděných na území ČR. 
