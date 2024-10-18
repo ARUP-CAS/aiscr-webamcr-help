@@ -1,7 +1,8 @@
 ---
 title: "Uživatelská příručka AMČR"
 subtitle: "Úvodní rozcestník"
-toc: true
+toc: false
+date: 2024-10-18
 format-links: false
 ---
 
