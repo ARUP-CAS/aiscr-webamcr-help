@@ -1,6 +1,6 @@
 ---
 title: Zpravodaj AMČR č. 11
-date: 2024-10-18
+date: 2024-10-22
 ---
 
 > Vážení uživatelé AMČR,
@@ -21,8 +21,10 @@ Webovou aplikaci naleznete na stránce [**https://amcr.aiscr.cz/**](https://amcr
 
 ![Úvodní stránka s kartami jednotlivých modulů webové AMČR](figs/11/amcr.png){width="100%" fig-align="center"}
 
-K nové aplikaci vznikla webová stránka s popisem jejího fungování, nápovědou a obecnou dokumentací ([https://amcr-help.aiscr.cz/](https://amcr-help.aiscr.cz/)), kde naleznete užitečné informace o podobě a fungování celého systému i s užitečnými [uživatelskými tutoriály](https://amcr-help.aiscr.cz/amcr/#tutoriály)). 
-K dispozici je rovněž [záznam z uživatelského školení práce s aplikací](https://amcr-help.aiscr.cz/amcr/#školení), dostupný případně i na našem [YouTube kanále](https://youtu.be/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b){.external}.
+K nové aplikaci vznikla webová stránka s popisem jejího fungování, nápovědou a obecnou dokumentací ([https://amcr-help.aiscr.cz/](https://amcr-help.aiscr.cz/)), kde naleznete informace o podobě a fungování celého systému i s užitečnými [uživatelskými tutoriály](https://amcr-help.aiscr.cz/amcr/#tutoriály). 
+K dispozici je rovněž [záznam z uživatelského školení práce s aplikací](https://amcr-help.aiscr.cz/amcr/#školení), dostupný na našem [YouTube kanále](https://youtu.be/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b){.external}.
+
+{{< video https://youtu.be/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b >}}
 
 V nové AMČR naleznete data ve stejném stavu, v jakém byla v okamžiku odstávky desktopového klienta a nemusíte mít tedy obavy, že by došlo k jejich ztrátě a museli byste něco zadávat znovu. Stejně tak došlo i k přenosu Vašich uživatelských účtů a do systému se tedy dostanete se stejnými přihlašovacími údaji, na které jste zvyklí.
 
