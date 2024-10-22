@@ -75,6 +75,7 @@ website:
       
 
     - id: manual-amcr
+      collapse-level: 1
       header: |
         [![](/figs/logo-amcr-hor.png)](/amcr/index.qmd)
       contents:
@@ -111,7 +112,7 @@ website:
         - text: ---
         - section: Tutoriály
           contents:
-              - text: Import PIAN z CSV  
+              - text: Import geometrie PIAN 
                 href: amcr/pian-import.qmd
               - text: Zápis správného typu DJ
                 href: amcr/dj.qmd
@@ -183,6 +184,8 @@ website:
 format:
   html:
     toc: true
+    toc-depth: 3
+    toc-location: left
     theme:
       - spacelab
       - theme.scss
@@ -205,7 +208,7 @@ format:
   # docx: default
 
 execute:
-  freeze: auto
+  freeze: false
   echo: false
 
 crossref:

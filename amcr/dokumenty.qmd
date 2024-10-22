@@ -1,5 +1,6 @@
 ---
 title: Správa dokumentů
+date: 2024-07-01
 ---
 
 ::: {.callout-note}

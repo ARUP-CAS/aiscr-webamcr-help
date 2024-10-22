@@ -1,0 +1,5 @@
+"Stav","Název","Vysvětlivka","Provádí"
+"SN1","Rozepsaný","Samostatný nález byl založen, avšak u záznamu nebyly doplněny všechny údaje a záznam nebyl dosud předán k dalšímu zpracování. Záznam je od počátku opatřen trvalým identifikátorem.","Archeolog/Badatel"
+"SN2","Odeslaný","Samostatný nález byl odeslán k potvrzení spolupracujícímu archeologovi. Záznam obsahuje všechny potřebné údaje.","Archeolog/Badatel"
+"SN3","Potvrzený ","U samostatného nálezu bylo spolupracujícím archeologem potvrzeno předání oprávněné organizaci. Záznam obsahuje všechny potřebné údaje a je připraven k archivaci.","Archeolog"
+"SN4","Archivovaný","Záznam byl zkontrolován správcem systému a je viditelný v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external}.","Archivář"
