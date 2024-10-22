@@ -2,13 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ondřej Švejcar">
+<meta name="author" content="Tomáš Pavloň">
 
-<title>Import geometrie PIAN pomocí CSV souboru – Dokumentace AMČR</title>
+<title>Import geometrie PIAN – Dokumentace AMČR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -203,7 +204,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/pian-import.html">Tutoriály</a></li><li class="breadcrumb-item"><a href="../amcr/pian-import.html">Import PIAN z CSV</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/pian-import.html">Tutoriály</a></li><li class="breadcrumb-item"><a href="../amcr/pian-import.html">Import geometrie PIAN</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -226,13 +227,13 @@ cookieconsent.run({
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Návody</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Přepnout sekci">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Přepnout sekci">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amcr/gui.html" class="sidebar-item-text sidebar-link">
@@ -325,7 +326,7 @@ cookieconsent.run({
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../amcr/pian-import.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Import PIAN z CSV</span></a>
+ <span class="menu-text">Import geometrie PIAN</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -376,31 +377,35 @@ cookieconsent.run({
   </li>
     </ul>
     </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Na této stránce…</h2>
    
   <ul>
-  <li><a href="#definice-formátu-souboru-pro-import" id="toc-definice-formátu-souboru-pro-import" class="nav-link active" data-scroll-target="#definice-formátu-souboru-pro-import">Definice formátu souboru pro import</a></li>
-  <li><a href="#vytvoření-csv-souboru" id="toc-vytvoření-csv-souboru" class="nav-link" data-scroll-target="#vytvoření-csv-souboru">Vytvoření CSV souboru</a>
-  <ul>
-  <li><a href="#pomocí-online-převodníku-shp-na-csv" id="toc-pomocí-online-převodníku-shp-na-csv" class="nav-link" data-scroll-target="#pomocí-online-převodníku-shp-na-csv">Pomocí online převodníku SHP na CSV</a></li>
-  <li><a href="#vytvoření-csv-v-textovém-editoru" id="toc-vytvoření-csv-v-textovém-editoru" class="nav-link" data-scroll-target="#vytvoření-csv-v-textovém-editoru">Vytvoření CSV v textovém editoru</a></li>
-  <li><a href="#export-csv-z-qgis" id="toc-export-csv-z-qgis" class="nav-link" data-scroll-target="#export-csv-z-qgis">Export CSV z QGIS</a></li>
+  <li><a href="#úvod" id="toc-úvod" class="nav-link active" data-scroll-target="#úvod">Úvod</a>
+  <ul class="collapse">
+  <li><a href="#definice-formátu-souboru-pro-import" id="toc-definice-formátu-souboru-pro-import" class="nav-link" data-scroll-target="#definice-formátu-souboru-pro-import">Definice formátu souboru pro import</a></li>
   </ul></li>
-  <li><a href="#import-souboru-csv-do-amčr" id="toc-import-souboru-csv-do-amčr" class="nav-link" data-scroll-target="#import-souboru-csv-do-amčr">Import souboru CSV do AMČR</a></li>
+  <li><a href="#příprava-importního-csv" id="toc-příprava-importního-csv" class="nav-link" data-scroll-target="#příprava-importního-csv">Příprava importního CSV</a>
+  <ul class="collapse">
+  <li><a href="#amčr-gis-konvertor" id="toc-amčr-gis-konvertor" class="nav-link" data-scroll-target="#amčr-gis-konvertor">AMČR GIS konvertor</a></li>
+  <li><a href="#qgis-plugin-pian-exporter" id="toc-qgis-plugin-pian-exporter" class="nav-link" data-scroll-target="#qgis-plugin-pian-exporter">QGIS plugin Pian Exporter</a></li>
+  <li><a href="#manuální-export-csv-z-qgis" id="toc-manuální-export-csv-z-qgis" class="nav-link" data-scroll-target="#manuální-export-csv-z-qgis">Manuální export CSV z QGIS</a></li>
+  <li><a href="#vytvoření-csv-v-textovém-editoru" id="toc-vytvoření-csv-v-textovém-editoru" class="nav-link" data-scroll-target="#vytvoření-csv-v-textovém-editoru">Vytvoření CSV v textovém editoru</a></li>
+  </ul></li>
+  <li><a href="#import-do-amčr" id="toc-import-do-amčr" class="nav-link" data-scroll-target="#import-do-amčr">Import do AMČR</a></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/pian-import.html">Tutoriály</a></li><li class="breadcrumb-item"><a href="../amcr/pian-import.html">Import PIAN z CSV</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../amcr/pian-import.html">Tutoriály</a></li><li class="breadcrumb-item"><a href="../amcr/pian-import.html">Import geometrie PIAN</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Import geometrie PIAN pomocí CSV souboru</h1>
+<h1 class="title">Import geometrie PIAN</h1>
 </div>
 
 
@@ -408,16 +413,17 @@ cookieconsent.run({
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-heading">Autoři</div>
     <div class="quarto-title-meta-contents">
              <p>Ondřej Švejcar </p>
+             <p>Tomáš Pavloň </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Aktualizováno</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">28. července 2024</p>
+      <p class="date">18. října 2024</p>
     </div>
   </div>
   
@@ -429,9 +435,38 @@ cookieconsent.run({
 </header>
 
 
-<section id="definice-formátu-souboru-pro-import" class="level2">
-<h2 class="anchored" data-anchor-id="definice-formátu-souboru-pro-import">Definice formátu souboru pro import</h2>
-<p>Cílem níže popsaných postupů je vytvořit tabulku ve formátu CSV (Comma Separated Values, .csv), pomocí které lze importovat geometrie PIAN do AMČR. CSV soubor musí mít následující parametry:</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Možnosti přípravy CSV souboru pro import geometrie PIAN do AMČR
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<section id="preferované-způsoby" class="level4">
+<h4 class="anchored" data-anchor-id="preferované-způsoby">Preferované způsoby:</h4>
+<ul>
+<li><a href="../amcr/pian-import.html#amčr-gis-konvertor">Pomocí AMČR GIS konvertoru SHP na WKT</a> – doporučená cesta v případě práce v ArcGIS.</li>
+<li><a href="../amcr/pian-import.html#qgis-plugin-pian-exporter">Pomocí QGIS pluginu Pian Exporter</a> – doporučená cesta v případě práce v QGIS.</li>
+</ul>
+</section>
+<section id="další-možnosti" class="level4">
+<h4 class="anchored" data-anchor-id="další-možnosti">Další možnosti:</h4>
+<ul>
+<li><a href="../amcr/pian-import.html#mauální-export-csv-z-qgis">Manuálním exportem z QGIS</a>.</li>
+<li><a href="../amcr/pian-import.html#vytvoření-csv-v-textovém-editoru">Manuálně v textovém editoru</a>.</li>
+</ul>
+</section>
+</div>
+</div>
+<section id="úvod" class="level2">
+<h2 class="anchored" data-anchor-id="úvod">Úvod</h2>
+<p>Cílem níže popsaných postupů je vytvořit tabulku ve formátu CSV (Comma Separated Values, .csv), pomocí které lze importovat geometrie PIAN do AMČR.</p>
+<section id="definice-formátu-souboru-pro-import" class="level3">
+<h3 class="anchored" data-anchor-id="definice-formátu-souboru-pro-import">Definice formátu souboru pro import</h3>
+<p>CSV soubor musí mít následující parametry:</p>
 <ul>
 <li>Základní formát (obvykle jde o výchozí nastavení pro <a href="https://www.rfc-editor.org/rfc/rfc4180" class="external">CSV</a>):
 <ul>
@@ -451,133 +486,88 @@ cookieconsent.run({
 </ul></li>
 </ul></li>
 </ul>
-<p>Při nahrávání CSV souborů systém akceptuje i složené geometrie (<code>MULTIPOINT</code>, <code>MULTILINESTRING</code>, <code>MULTIPOLYGON</code>), ale je <strong>primárně určen pro validní jednoduché geometrie</strong>. Při použití multi* prvků dojde při importu k&nbsp;rozdělení na jednotlivé jednoduché geometrie, protože PIAN nikdy nemůže být ve formátu složené geometrie. Doporučujeme proto tyto typy geometrií nepoužívat, mohou však vznikat např. při vytvoření shapefile přes ESRI ArcGIS, přestože obsahem prvku je jednoduchá geometrie. V&nbsp;takovém případě bude obsah do AMČR importován správně.</p>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Poznámka
-</div>
-</div>
-<div class="callout-body-container callout-body">
 <p>Všechna textová pole v&nbsp;CSV vč. geometrií by měla být obalena oddělovačem textu (<code>"</code>), a to zejména kvůli správnému čtení čárky jako oddělovače údajů v&nbsp;rámci geometrií.</p>
-</div>
-</div>
+<p>Při nahrávání CSV souborů systém akceptuje i složené geometrie (<code>MULTIPOINT</code>, <code>MULTILINESTRING</code>, <code>MULTIPOLYGON</code>), ale je <strong>primárně určen pro validní jednoduché geometrie</strong>. Při použití multi* prvků dojde při importu k&nbsp;rozdělení na jednotlivé jednoduché geometrie, protože PIAN nikdy nemůže být ve formátu složené geometrie. Doporučujeme proto tyto typy geometrií nepoužívat, mohou však vznikat např. při vytvoření shapefile přes ESRI ArcGIS, přestože obsahem prvku je jednoduchá geometrie. V&nbsp;takovém případě bude obsah do AMČR importován správně.</p>
 </section>
-<section id="vytvoření-csv-souboru" class="level2">
-<h2 class="anchored" data-anchor-id="vytvoření-csv-souboru">Vytvoření CSV souboru</h2>
-<section id="pomocí-online-převodníku-shp-na-csv" class="level3">
-<h3 class="anchored" data-anchor-id="pomocí-online-převodníku-shp-na-csv">Pomocí online převodníku SHP na CSV</h3>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
+</section>
+<section id="příprava-importního-csv" class="level2">
+<h2 class="anchored" data-anchor-id="příprava-importního-csv">Příprava importního CSV</h2>
+<p>Předpokladem všech způsobů přípravy importu je:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">existence souboru/vrstvy obsahující geometrii/geometrie (body, linie nebo polygony);</label></li>
+<li><label><input type="checkbox">souřadnicové systémy jsou <strong>WGS 84</strong> (EPSG: 4326) nebo <strong>S-JTSK/Krovak East North</strong> (EPSG: 5514).</label></li>
+</ul>
+<hr>
+<section id="amčr-gis-konvertor" class="level3">
+<h3 class="anchored" data-anchor-id="amčr-gis-konvertor">AMČR GIS konvertor</h3>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-title-container flex-fill">
-Předpoklady
+<div class="callout-body-container">
+<p><strong>AMČR GIS konvertor</strong> najdete na stránce <a href="https://amcr-convert.aiscr.cz/" class="external"><strong>https://amcr-convert.aiscr.cz/</strong></a>.</p>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<ul class="task-list">
-<li><label><input type="checkbox">Soubor ve formátu SHP obsahující geometrii/geometrie jako podklad pro vytvoření PIAN.</label></li>
-<li><label><input type="checkbox">Souřadnicové systémy jsou WGS 84 (EPSG: 4326) a S-JTSK / Krovak East North (EPSG: 5514).</label></li>
-</ul>
 </div>
-</div>
+<section id="upload-souborů" class="level4">
+<h4 class="anchored" data-anchor-id="upload-souborů">Upload souborů</h4>
+<p>Pomocí tlačítka <code>Procházet</code> vyberte soubory shapefilu, které budou použity pro převod (shapefile je multisouborový formát, který je tvořen více dílčími soubory). Jako povinné je třeba zvolit soubory <em>.shp</em> (obsahuje vlastní zakreslené geometrie pro vytvoření PIAN) a <em>.dbf</em> (obsahuje atributy jednotlivých zakreslených prvků). Doporučené je připojit i soubory <em>.prj</em> (obsahuje informace o souřadnicovém systému a projekci) a <em>.cpg</em> (obsahuje informace o kódování pro správnou identifikaci znaků)</p>
+</section>
+<section id="informace-o-shapefilu" class="level4">
+<h4 class="anchored" data-anchor-id="informace-o-shapefilu">Informace o shapefilu</h4>
 <ol type="1">
-<li>Otevřete online převodník <a href="https://www.km4city.org/wkt/" class="external">https://www.km4city.org/wkt/</a>.</li>
-<li>Tlačítkem <code>Procházet</code>/<code>Browse</code> vyberte soubor s&nbsp;koncovkou .shp z&nbsp;připraveného shapefilu (SHP).</li>
-<li>Do pole <code>Label</code> zvolte název výstupu.</li>
-<li>Stiskněte tlačítko <code>Upload</code> pro nahrání souboru do převodníku.</li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figs/pian01.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
-</figure>
-</div>
-<ol start="5" type="1">
-<li>Na následující obrazovce uvidíte převedené geometrie:
-<ol type="i">
-<li>v&nbsp;poli <code>name</code> jsou uvedené názvy jednotlivých geometrií (PIAN) podle toho, jak byly pojmenované ve zdrojovém SHP;</li>
-<li>v&nbsp;poli <code>WKT</code> je pak geometrie PIAN ve formátu WKT;</li>
-<li>po výběru geometrie zaškrtávacím políčkem je možné konkrétní geometrii/PIAN zobrazit na mapě pro ověření výběru (funguje pouze pro data v souřadnicovém systému WGS-84).</li>
-</ol></li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figs/pian02.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
-</figure>
-</div>
-<ol start="6" type="1">
-<li>Přípravu cílového CSV souboru lze provést např. v&nbsp;tabulkovém editoru <a href="https://cs.libreoffice.org/download/download/" class="external">Libre Office Calc</a>:
-<ol type="i">
-<li>otevřít nový soubor;</li>
-<li>do prvního řádku vložit názvy polí podle definice na začátku tohoto návodu (<code>label</code>, <code>epsg</code>, <code>geometry</code>);
-<ul>
-<li>do pole <code>label</code> zkopírujeme či přepíšeme název zvolené geometrie/geometrií (např. plocha 1, sonda 1 atp.), případně je možné zkopírovat celou tabulku z&nbsp;převodníku a následně upravit názvy polí a přidat sloupec <code>epsg</code>;</li>
-<li>do pole <code>epsg</code> zapíšeme kód souřadnicového systému (4326 nebo 5514);</li>
-<li>do pole <code>geometry</code> zkopírujeme souřadnice WKT z&nbsp;totožného pole v&nbsp;převodníku.</li>
-</ul></li>
-</ol></li>
-</ol>
-<p><img src="figs/pian03.png" class="img-fluid"></p>
-<ol start="7" type="1">
-<li>Připravený soubor uložte ve formátu CSV:
-<ol type="i">
-<li><code>Soubor</code> – <code>Uložit jako</code> – <code>Text CSV (.csv)</code>;</li>
-<li>pokud vyskočí upozornění na kontrolu správného formátu, které nabízí možnost uložit jako ODF potvrdíme, že správně je CSV (<code>Použít formát Text CSV</code>);<br>
-<img src="figs/pian04.png" class="img-fluid quarto-figure quarto-figure-center" style="width:60.0%"></li>
-<li>v následujícím dialogovém okně pro export nastavíme tyto parametry:
-<ul>
-<li>Znaková sada: <code>Unicode (UTF-8)</code>;</li>
-<li>Oddělovač pole: <code>,</code> (čárka);</li>
-<li>Oddělovač řetězců: <code>"</code> (horní uvozovky);</li>
-</ul></li>
-<li>volbu potvrdíme tlačítkem <code>OK</code>.<br>
-<img src="figs/pian05.png" class="img-fluid quarto-figure quarto-figure-center" style="width:60.0%"></li>
-</ol></li>
+<li>Konvertor po vybrání souborů ověří jejich správnost a příslušnost k jednomu shapefilu.</li>
+<li>Pokud není připojen soubor <em>.prj</em>, je třeba v poli <code>EPSG</code> zvolit souřadnicový systém, ve kterém data jsou. Upozorňujeme, že volba souřadnicového systému <strong>neslouží</strong> pro převod mezi jednotlivými systémy!</li>
+<li>Pokud vstupní soubor obsahuje pole s popisem jednotlivých prvků (např. číslo sondy, pojmenování plochy atp.), lze toto pole zvolit v poli <code>Název</code>. Pokud pole s popisem neexistuje, nebo není zvoleno, jsou jednotlivým prvkům přiděleny automatické popisky (<em>Prvek_1</em>, <em>Prvek_2</em> atd.)</li>
+<li>Načtená data vidíte v tabulce níže. Zde vidíte popis jednotlivých prvků v poli <code>Label</code>. Popis lze v tomto poli editovat (ať již je generován automaticky nebo je jeho zdrojem pole s popisem ze vstupního souboru). Ve sloupci <code>EPSG</code> vidíte zvolený nebo načtený souřadnicový systém. Ve sloupci <code>Export</code> lze pak výběrem zvolit, které prvky ze vstupního shapefilu se mají exportovat.</li>
 </ol>
 </section>
-<section id="vytvoření-csv-v-textovém-editoru" class="level3">
-<h3 class="anchored" data-anchor-id="vytvoření-csv-v-textovém-editoru">Vytvoření CSV v textovém editoru</h3>
-<p>Alternativním postupem vytvoření CSV souboru je jeho vytvoření v&nbsp;textovém editoru (např. Poznámkový blok, WordPad, Notepad++ atp.). Viz vzorový CSV soubor.</p>
+<section id="export-dat" class="level4">
+<h4 class="anchored" data-anchor-id="export-dat">Export dat</h4>
 <ol type="1">
-<li>Otevřete textový editor (ukázka je v&nbsp;Poznámkovém bloku, ale stejně funguje i v&nbsp;ostatních zmíněných programech).</li>
-<li>Na první řádek vložte názvy polí oddělené čárkou podle definice výše:
-<ul>
-<li><code>"label","epsg","geometry"</code>.</li>
-</ul></li>
-<li>Na druhý řádek (případně na další řádky podle počtu geometrií k&nbsp;importu) vložte hodnoty pro tato pole opět oddělená čárkou.</li>
+<li>V části <code>Export dat</code> vidíte náhled převedených dat. Tlačítkem <code>Stáhnout CSV</code> si můžete stáhnout hotový CSV soubor připravený pro import geometrie PIAN do AMČR. Převedená data lze také jen zkopírovat (ručně nebo pomocí tlačítka <code>Kopírovat do schránky</code>) pro vytvoření CSV souboru ručně, nebo pro práci s daty jiným způsobem.</li>
+<li>Pokud takto zpracováváte více souborů stejného typu, lze se pomocí tlačítka <code>Vyčistit a nahrát další</code> přepnout rovnou do výběru nových souborů. Tlačítkem <code>Vyčistit</code> se pak vrátíte na výchozí obrazovku.</li>
 </ol>
-<p>Výsledný soubor může vypadat např. takto:</p>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>PIAN_1.csv</strong></pre>
-</div>
-<div class="sourceCode" id="cb1" data-filename="PIAN_1.csv"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="st">"label"</span>,<span class="st">"epsg"</span>,<span class="st">"geometry"</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="st">"plocha_1"</span>,<span class="st">"4326"</span>,<span class="st">"POLYGON ((14.076704183062645 50.11115525776103, 14.076893350212458 50.111165965335545, 14.076900488595527 50.11129088703842, 14.077332360768025 50.111273041080835, 14.077318084002115 50.11114455018662, 14.077478697619995 50.11113384261205, 14.07746799004542 50.1109054143555, 14.07756078902463 50.110901845163994, 14.07754651225872 50.1108268921422, 14.077471559236983 50.11070910882239, 14.077350206725612 50.11061274065173, 14.077260976937964 50.11060560226866, 14.076507877529536 50.110623448226306, 14.076515015912605 50.11106245878182, 14.076704183062645 50.111069597164885, 14.076704183062645 50.11115525776103))"</span></span></code><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figs/pian06.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
-</figure>
-</div>
-<ol start="4" type="1">
-<li>Připravený soubor uložte ve formátu CSV.
-<ul>
-<li>Při ukládání textového dokumentu v operačním systému Windows je třeba ručně dopsat k&nbsp;názvu souboru jako jeho koncovku .csv.</li>
-</ul></li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figs/pian07.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
-</figure>
-</div>
+<hr>
 </section>
-<section id="export-csv-z-qgis" class="level3">
-<h3 class="anchored" data-anchor-id="export-csv-z-qgis">Export CSV z QGIS</h3>
+</section>
+<section id="qgis-plugin-pian-exporter" class="level3">
+<h3 class="anchored" data-anchor-id="qgis-plugin-pian-exporter">QGIS plugin Pian Exporter</h3>
+<p>Uživatelé QGIS mohou využít volně dostupný plugin <strong>Pian Exporter</strong> vytvořený Markem Lečbychem. Plugin umožňuje rychle a efektivně exportovat prostorová data z vybrané vrstvy do CSV, který je bez nutnosti další úpravy možné importovat do webové aplikace AMČR. V knihovně QGIS pluginů najdete Pian Exporter <a href="https://plugins.qgis.org/plugins/pian_exporter/#plugin-about" class="external">zde</a>.</p>
+<section id="instalace-pluginu" class="level4">
+<h4 class="anchored" data-anchor-id="instalace-pluginu">Instalace pluginu</h4>
+<ol type="1">
+<li>V aplikaci QGIS použijte nástroj manažera pluginů.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/pian-plugins.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:66.0%"></p>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Vyhledejte <strong>Pian Exporter</strong> (například zadáním klíčových slov <em>PIAN</em> nebo <em>AMČR</em>) a potvrďte jeho instalaci.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/pian-install.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+<p>V aplikaci QGIS se plugin zobrazí v podobě ikony <img src="figs/pian-icon.png" class="img-fluid" style="width:2.0%"></p>
+</section>
+<section id="export-dat-1" class="level4">
+<h4 class="anchored" data-anchor-id="export-dat-1">Export dat</h4>
+<ol type="1">
+<li>V aplikaci QGIS klikněte na ikonu <strong>Pian Exporter</strong>.</li>
+<li>Vyberte z rolovací nabídky vrstvu, kterou chcete exportovat.</li>
+<li>Zadejte název a vyberte místo uložení výsledného souboru.</li>
+<li>Importujte výsledný soubor CSV do AMČR, viz <a href="../amcr/pian-import.html#import-souboru-csv-do-amčr">postup</a>.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="manuální-export-csv-z-qgis" class="level3">
+<h3 class="anchored" data-anchor-id="manuální-export-csv-z-qgis">Manuální export CSV z QGIS</h3>
 <ol type="1">
 <li>V&nbsp;<a href="https://www.qgis.org/" class="external">QGIS</a> si otevřeme vektorovou vrstvu, která obsahuje jednu či více geometrií jako podklad pro PIAN (souřadnicový systém WGS 84 – EPSG:4326 nebo S-JTSK / Krovak East North – EPSG: 5514).</li>
 </ol>
@@ -646,10 +636,66 @@ Předpoklady
 <p><img src="figs/pian14.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
 </figure>
 </div>
+<ol start="7" type="1">
+<li>Importujte výsledný soubor CSV do AMČR, viz <a href="../amcr/pian-import.html#import-souboru-csv-do-amčr">postup</a>.</li>
+</ol>
+<hr>
+</section>
+<section id="vytvoření-csv-v-textovém-editoru" class="level3">
+<h3 class="anchored" data-anchor-id="vytvoření-csv-v-textovém-editoru">Vytvoření CSV v textovém editoru</h3>
+<p>Alternativním postupem přípravy importního CSV souboru je jeho vytvoření v&nbsp;textovém editoru (např. Poznámkový blok, WordPad, Notepad++ atp.). Viz vzorový CSV soubor.</p>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Upozornění
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Úprava CSV v&nbsp;MS Excel není vhodná. Pokud CSV soubor ukládáme v&nbsp;Excelu (stačí i otevření a uložení původně validního souboru), tak program automaticky doplní další uvozovky k&nbsp;polím s&nbsp;textovými řetězci (např. <code>““POLYGON““</code>) což způsobí nečitelnost souboru – lze ověřit např. při zobrazení v&nbsp;Notepad++ (nebo jiném textovém editoru – např. i v&nbsp;poznámkovém bloku) a zde i nadbytečné uvozovky odmazat.</p>
+</div>
+</div>
+<ol type="1">
+<li>Otevřete textový editor (ukázka je v&nbsp;Poznámkovém bloku, ale stejně funguje i v&nbsp;ostatních zmíněných programech).</li>
+<li>Na první řádek vložte názvy polí oddělené čárkou podle definice výše:
+<ul>
+<li><code>"label","epsg","geometry"</code>.</li>
+</ul></li>
+<li>Na druhý řádek (případně na další řádky podle počtu geometrií k&nbsp;importu) vložte hodnoty pro tato pole opět oddělená čárkou.</li>
+</ol>
+<p>Výsledný soubor může vypadat např. takto:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>PIAN_1.csv</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="PIAN_1.csv"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="st">"label"</span>,<span class="st">"epsg"</span>,<span class="st">"geometry"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="st">"plocha_1"</span>,<span class="st">"4326"</span>,<span class="st">"POLYGON ((14.076704183062645 50.11115525776103, 14.076893350212458 50.111165965335545, 14.076900488595527 50.11129088703842, 14.077332360768025 50.111273041080835, 14.077318084002115 50.11114455018662, 14.077478697619995 50.11113384261205, 14.07746799004542 50.1109054143555, 14.07756078902463 50.110901845163994, 14.07754651225872 50.1108268921422, 14.077471559236983 50.11070910882239, 14.077350206725612 50.11061274065173, 14.077260976937964 50.11060560226866, 14.076507877529536 50.110623448226306, 14.076515015912605 50.11106245878182, 14.076704183062645 50.111069597164885, 14.076704183062645 50.11115525776103))"</span></span></code><button title="Zkopírovat do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/pian06.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>Připravený soubor uložte ve formátu CSV.
+<ul>
+<li>Při ukládání textového dokumentu v operačním systému Windows je třeba ručně dopsat k&nbsp;názvu souboru jako jeho koncovku .csv.</li>
+</ul></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/pian07.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
+</figure>
+</div>
+<ol start="5" type="1">
+<li>Importujte výsledný soubor CSV do AMČR, viz <a href="../amcr/pian-import.html#import-souboru-csv-do-amčr">postup</a>.</li>
+</ol>
 </section>
 </section>
-<section id="import-souboru-csv-do-amčr" class="level2">
-<h2 class="anchored" data-anchor-id="import-souboru-csv-do-amčr">Import souboru CSV do AMČR</h2>
+<section id="import-do-amčr" class="level2">
+<h2 class="anchored" data-anchor-id="import-do-amčr">Import do AMČR</h2>
 <ol type="1">
 <li>V&nbsp;AMČR u vybrané dokumentační jednotky (DJ) zvolíme tlačítkem <code>Další volby</code> (<code>+</code>) možnost <code>PIAN – importovat</code>.</li>
 </ol>
@@ -682,19 +728,52 @@ Předpoklady
 <p><img src="figs/pian18.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%"></p>
 </figure>
 </div>
-<div class="callout callout-style-simple callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Upozornění
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Úprava CSV v&nbsp;MS Excel není vhodná. Pokud CSV soubor ukládáme v&nbsp;Excelu (stačí i otevření a uložení původně validního souboru), tak program automaticky doplní další uvozovky k&nbsp;polím s&nbsp;textovými řetězci (např. <code>““POLYGON““</code>) což způsobí nečitelnost souboru – lze ověřit např. při zobrazení v&nbsp;Notepad++ (nebo jiném textovém editoru – např. i v&nbsp;poznámkovém bloku) a zde i nadbytečné uvozovky odmazat.</p>
-</div>
-</div>
+<!-- ## Online převodník SHP na CSV 
+
+::: {.callout-tip}
+
+## Předpoklady
+
+- [ ] Soubor ve formátu SHP obsahující geometrii/geometrie jako podklad pro vytvoření PIAN. 
+- [ ] Souřadnicové systémy jsou WGS 84 (EPSG: 4326) a S-JTSK / Krovak East North (EPSG: 5514).
+
+:::
+
+1. Otevřete online převodník [https://www.km4city.org/wkt/](https://www.km4city.org/wkt/){.external}.
+2. Tlačítkem `Procházet`/`Browse` vyberte soubor s koncovkou .shp z připraveného shapefilu (SHP).
+3. Do pole `Label` zvolte název výstupu. 
+4. Stiskněte tlačítko `Upload` pro nahrání souboru do převodníku.
+
+![](figs/pian01.png){width="80%" fig-align="center"}
+
+5. Na následující obrazovce uvidíte převedené geometrie:
+    i. v poli `name` jsou uvedené názvy jednotlivých geometrií (PIAN) podle toho, jak byly pojmenované ve zdrojovém SHP;
+    i. v poli `WKT` je pak geometrie PIAN ve formátu WKT;
+    i. po výběru geometrie zaškrtávacím políčkem je možné konkrétní geometrii/PIAN zobrazit na mapě pro ověření výběru (funguje pouze pro data v souřadnicovém systému WGS-84).
+
+![](figs/pian02.png){width="80%" fig-align="center"}
+
+6. Přípravu cílového CSV souboru lze provést např. v tabulkovém editoru [Libre Office Calc](https://cs.libreoffice.org/download/download/){.external}:
+    i. otevřít nový soubor;
+    i. do prvního řádku vložit názvy polí podle definice na začátku tohoto návodu (`label`, `epsg`, `geometry`);
+        - do pole `label` zkopírujeme či přepíšeme název zvolené geometrie/geometrií (např. plocha 1, sonda 1 atp.), případně je možné zkopírovat celou tabulku z převodníku a následně upravit názvy polí a přidat sloupec `epsg`;
+        - do pole `epsg` zapíšeme kód souřadnicového systému (4326 nebo 5514);
+        - do pole `geometry` zkopírujeme souřadnice WKT z totožného pole v převodníku.
+
+![](figs/pian03.png)
+
+7. Připravený soubor uložte ve formátu CSV:
+    i. `Soubor` -- `Uložit jako` -- `Text CSV (.csv)`;
+    i. pokud vyskočí upozornění na kontrolu správného formátu, které nabízí možnost uložit jako ODF potvrdíme, že správně je CSV (`Použít formát Text CSV`);  
+    ![](figs/pian04.png){width="60%" fig-align="center"}
+    i. v následujícím dialogovém okně pro export nastavíme tyto parametry: 
+        - Znaková sada: `Unicode (UTF-8)`;
+        - Oddělovač pole: `,` (čárka);
+        - Oddělovač řetězců: `"` (horní uvozovky);
+    i. volbu potvrdíme tlačítkem `OK`.  
+    ![](figs/pian05.png){width="60%" fig-align="center"}
+    
+8. Importujte výsledný soubor CSV do AMČR, viz [postup](pian-import.qmd#import-souboru-csv-do-amčr). -->
 
 
 </section>

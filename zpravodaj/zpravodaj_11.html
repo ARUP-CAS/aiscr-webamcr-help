@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -101,7 +101,7 @@ cookieconsent.run({
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -166,9 +166,32 @@ cookieconsent.run({
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Na této stránce…</h2>
+   
+  <ul>
+  <li><a href="#spuštění-nové-amčr" id="toc-spuštění-nové-amčr" class="nav-link active" data-scroll-target="#spuštění-nové-amčr">Spuštění nové AMČR</a></li>
+  <li><a href="#import-geometrie-pian" id="toc-import-geometrie-pian" class="nav-link" data-scroll-target="#import-geometrie-pian">Import geometrie PIAN</a>
+  <ul class="collapse">
+  <li><a href="#gis-konvertor" id="toc-gis-konvertor" class="nav-link" data-scroll-target="#gis-konvertor">GIS konvertor</a></li>
+  <li><a href="#qgis-plugin" id="toc-qgis-plugin" class="nav-link" data-scroll-target="#qgis-plugin">QGIS Plugin</a></li>
+  </ul></li>
+  <li><a href="#oznámení-o-stavebním-či-jiném-záměru" id="toc-oznámení-o-stavebním-či-jiném-záměru" class="nav-link" data-scroll-target="#oznámení-o-stavebním-či-jiném-záměru">Oznámení o stavebním či jiném záměru</a></li>
+  <li><a href="#digitální-archiv-a-api" id="toc-digitální-archiv-a-api" class="nav-link" data-scroll-target="#digitální-archiv-a-api">Digitální archiv a API</a></li>
+  <li><a href="#nové-datové-celky-v-digitálním-archivu-amčr" id="toc-nové-datové-celky-v-digitálním-archivu-amčr" class="nav-link" data-scroll-target="#nové-datové-celky-v-digitálním-archivu-amčr">Nové datové celky v Digitálním archivu AMČR</a>
+  <ul class="collapse">
+  <li><a href="#lokality" id="toc-lokality" class="nav-link" data-scroll-target="#lokality">Lokality</a></li>
+  <li><a href="#plány-z-leteckých-snímků" id="toc-plány-z-leteckých-snímků" class="nav-link" data-scroll-target="#plány-z-leteckých-snímků">Plány z leteckých snímků</a></li>
+  <li><a href="#dokumenty" id="toc-dokumenty" class="nav-link" data-scroll-target="#dokumenty">Dokumenty</a></li>
+  <li><a href="#externí-zdroje-bibliografické-záznamy" id="toc-externí-zdroje-bibliografické-záznamy" class="nav-link" data-scroll-target="#externí-zdroje-bibliografické-záznamy">Externí zdroje &amp; bibliografické záznamy</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -186,7 +209,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Aktualizováno</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
+      <p class="date">22. října 2024</p>
     </div>
   </div>
   
@@ -198,9 +221,112 @@ cookieconsent.run({
 </header>
 
 
-<p>Tohle je template pro připravovaný zpravodaj…</p>
+<blockquote class="blockquote">
+<p>Vážení uživatelé AMČR,</p>
+<p>přinášíme Vám zpravodaj AMČR č. 11, který je spjat zejména se spuštěním nové webové aplikace AMČR, ale přináší i další novinky z <a href="https://www.aiscr.cz/" class="external">Archeologického informačního systému České republiky (AIS CR)</a>.</p>
+<p>Váš <em>tým</em> AIS CR…</p>
+</blockquote>
+<section id="spuštění-nové-amčr" class="level2">
+<h2 class="anchored" data-anchor-id="spuštění-nové-amčr">Spuštění nové AMČR</h2>
+<p>Dne 4. 8. 2024 byla spuštěna nová podoba <a href="https://amcr-info.aiscr.cz/" class="external">Archeologické mapy České republiky (AMČR)</a>, která přesouvá práci plně do webového prostředí. Starý desktopový klient byl 12. 7. 2024 odstaven a již nebude nadále přístupný. Nová AMČR si v maximální možné míře zachovává rozdělení do jednotlivých modulů, na které jste byli zvyklí z desktopového klienta, aby byla orientace v novém prostředí co nejsnazší. Formuláře pro jednotlivé moduly jsou však přizpůsobeny webovému prostředí.</p>
+<p>Webovou aplikaci naleznete na stránce <a href="https://amcr.aiscr.cz/" class="external"><strong>https://amcr.aiscr.cz/</strong></a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/11/amcr.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Úvodní stránka s kartami jednotlivých modulů webové AMČR</figcaption>
+</figure>
+</div>
+<p>K nové aplikaci vznikla webová stránka s popisem jejího fungování, nápovědou a obecnou dokumentací (<a href="https://amcr-help.aiscr.cz/">https://amcr-help.aiscr.cz/</a>), kde naleznete informace o podobě a fungování celého systému i s užitečnými <a href="https://amcr-help.aiscr.cz/amcr/#tutoriály">uživatelskými tutoriály</a>. K dispozici je rovněž <a href="https://amcr-help.aiscr.cz/amcr/#školení">záznam z uživatelského školení práce s aplikací</a>, dostupný na našem <a href="https://youtu.be/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b" class="external">YouTube kanále</a>.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>V nové AMČR naleznete data ve stejném stavu, v jakém byla v okamžiku odstávky desktopového klienta a nemusíte mít tedy obavy, že by došlo k jejich ztrátě a museli byste něco zadávat znovu. Stejně tak došlo i k přenosu Vašich uživatelských účtů a do systému se tedy dostanete se stejnými přihlašovacími údaji, na které jste zvyklí.</p>
+<p>V nové AMČR je zapracována řada vylepšení, která, jak doufáme, Vám zpříjemní a zefektivní práci v systému. Mezi novými vylepšeními lze zmínit zejména nové mapové prostředí, které umožňuje plnohodnotnější práci s prostorovými daty (viz <a href="https://amcr-help.aiscr.cz/amcr/mapa.html">nápověda zde</a>). V mapě lze pracovat např. s novými mapovými podklady, které mj. umožňují snadné získání informací o projektech a akcích, které již v AMČR existují. Rozšířené možnosti máte také ve správě Vašich uživatelských účtů, kde můžete nastavit jednak zasílání e-mailových notifikací při změnách procesních stavů Vašich záznamů a také můžete, pokud jste archeolog, podrobněji nastavit tyto notifikace pro nově zapsané projekty, kdy nyní můžete nastavení zpřesnit až na úroveň jednotlivých katastrů. Práce ve webovém prostředí umožňuje plně využívat jeho výhod, kdy je možné např. otevřít několik záznamů v různých oknech/kartách pro jejich porovnání atp. Aplikace má také přímou vazbu s <a href="https://digiarchiv.aiscr.cz/" class="external">Digitálním archivem AMČR</a> (viz níže) a záznamy z jedné aplikace je tedy možné zobrazit v aplikaci druhé, případně je možné zobrazit záznamy také v API.</p>
+<p>V případě jakýchkoliv dotazů se na nás můžete obracet na e-mailech <a href="mailto:amcr@arup.cas.cz">amcr@arup.cas.cz</a> a <a href="mailto:amcr@arub.cz">amcr@arub.cz</a>. Také Vás prosíme o spolupráci při hlášení chybového, nestandardního či jinak podezřelého chování aplikace, abychom mohli co nejdříve zachytit případné chyby a nedocházelo např. k poškození v systému již obsažených dat.</p>
+<p>Na vývoji aplikace nadále usilovně pracujeme tak, abychom zohlednili jak vaše připomínky, tak přinášeli nové funkce a řešili chyby. Informace o nových verzích průběžně budou zveřejňovány na úvodní stránce s <a href="https://amcr.aiscr.cz/accounts/login/" class="external">přihlášením do systému</a>, kde jsou případné významnější změny zmíněny. V poslední době je to např.:</p>
+<ul>
+<li>možnost v mapách vyhledávat podle parcel, katastrálních území, adres a dalších údajů podobně, jak jste zvyklí ze služeb Geoportálu ČÚZK;</li>
+<li>prodloužená viditlenost údajů o oznamovateli projektu pro archeology na 30 dní po přihlášení jinou organizací;</li>
+<li>možnost snadno požádat o skryté údaje o oznamovateli přes menu u projektu;</li>
+<li>doplnění indikace aktivity pro všechna tlačítka uložení a odesílání záznamu.</li>
+</ul>
+<p>Další větší doplnění a změny, jako například textové výpisy záznamů, plánujeme nasadit do konce letošního roku.</p>
+</section>
+<section id="import-geometrie-pian" class="level2">
+<h2 class="anchored" data-anchor-id="import-geometrie-pian">Import geometrie PIAN</h2>
+<p>Další novinkou při práci s mapou a dokumentačními jednotkami je možnost importovat do AMČR připravené geometrie PIAN, které lze v případě potřeby v mapě dále upravovat (viz <a href="https://amcr-help.aiscr.cz/amcr/pian-import.html">návod zde</a>). S tím souvisí i dvě nové možnosti přípravy importních CSV souborů pro import geometrií PIAN.</p>
+<section id="gis-konvertor" class="level3">
+<h3 class="anchored" data-anchor-id="gis-konvertor">GIS konvertor</h3>
+<p>Nově byl spuštěn online <strong>GIS konvertor</strong> který slouží jako nástroj pro přípravu vstupních souborů pro import PIAN. Pomocí tohoto nástroje můžete převést soubory SHP (Shapefile) do formátu WKT (Well-known text). Po převodu si můžete stáhnout soubor ve formátu CSV, který lze přímo použít jako vstup při importu PIAN do AMČR. Podrobnější návod pro práci s konvertorem najdete v <a href="../amcr/pian-import.html#amčr-gis-konvertor">nápovědě</a>.</p>
+<p>Konvertor najdete na adrese <a href="https://amcr-convert.aiscr.cz/" class="external">https://amcr-convert.aiscr.cz/</a>.</p>
+</section>
+<section id="qgis-plugin" class="level3">
+<h3 class="anchored" data-anchor-id="qgis-plugin">QGIS Plugin</h3>
+<p>Zároveň Marek Lečbych vytvořil volně dostupný QGIS plugin <strong>Pian Exporter</strong>. Plugin umožňuje rychle a efektivně exportovat prostorová data z vybrané vrstvy do CSV, který je bez nutnosti další úpravy možné importovat do AMČR. Návod k instalaci a použití najdete v <a href="../amcr/pian-import.html#qgis-plugin-pian-exporter">nápovědě</a>.</p>
+<p>V knihovně QGIS pluginů najdete Pian Exporter <a href="https://plugins.qgis.org/plugins/pian_exporter/#plugin-about" class="external">zde</a>.</p>
+</section>
+</section>
+<section id="oznámení-o-stavebním-či-jiném-záměru" class="level2">
+<h2 class="anchored" data-anchor-id="oznámení-o-stavebním-či-jiném-záměru">Oznámení o stavebním či jiném záměru</h2>
+<p>Spolu s novou AMČR byl spuštěn rovněž i nový webový formulář <em>Oznámení o stavebním či jiném záměru</em>. Nový formulář zachovává stejné principy jako jeho původní verze. Nejvýraznější změnou je zadávání přesné lokalizace stavebního záměru v mapovém okně, podle kterého bude automaticky doplněno katastrální území. Změny jsou také v nahrávání projektové dokumentace (nové prostředí, kontrola duplicitních dokumentů) a v úvodním textu s informacemi pro oznamovatele. Videonávod pro práci s oznamovacím formulářem naleznete v <a href="https://amcr-help.aiscr.cz/amcr/oznameni.html">nápovědě zde</a>.</p>
+<p>Nový formulář naleznete na stránce <a href="https://amcr.aiscr.cz/oznameni" class="external"><strong>https://amcr.aiscr.cz/oznameni</strong></a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/11/ozn.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Nová podoba formuláře <em>Oznámení o stavebním či jiném záměru</em></figcaption>
+</figure>
+</div>
+</section>
+<section id="digitální-archiv-a-api" class="level2">
+<h2 class="anchored" data-anchor-id="digitální-archiv-a-api">Digitální archiv a API</h2>
+<p>Souběžně s AMČR byla spuštěna i nová verze <a href="https://digiarchiv.aiscr.cz/" class="external">Digitálního archivu AMČR</a>, která obsahuje některá vylepšení pro usnadnění práce s daty. Došlo především ke změnám v backendu fungování Digitálního archivu a AMČR, díky čemuž má Digitální archiv rychlejší a plynulejší chod. Data z AMČR jsou v něm nově díky změnám v jejich indexaci k dispozici prakticky ihned po jejich archivaci. Také je nově možné snadno pomocí tlačítka přecházet z Digitálního archivu do webové aplikace AMČR a naopak. Zároveň došlo k dílčím změnám v obsahu a struktuře zobrazovaných dat, což přispělo k větší přehlednosti výsledků.</p>
+<p>Pod Digitální archiv bylo integrováno i původně samostatné AMČR API, které umožňuje strojové čtení dat obsažených v systému. Podrobnosti o fungování API naleznete na adrese <a href="https://api.aiscr.cz/" class="external">https://api.aiscr.cz/</a>. Dokumentace pro API je vedena kompletně v anglickém jazyce.</p>
+</section>
+<section id="nové-datové-celky-v-digitálním-archivu-amčr" class="level2">
+<h2 class="anchored" data-anchor-id="nové-datové-celky-v-digitálním-archivu-amčr">Nové datové celky v Digitálním archivu AMČR</h2>
+<section id="lokality" class="level3">
+<h3 class="anchored" data-anchor-id="lokality">Lokality</h3>
+<p>V Digitálním archivu naleznete nové datové sady, které rozšiřují datovou základnu, kterou máte k dispozici. Významného rozšíření doznala zejména kategorie <strong>Lokalit</strong>, kde přibylo cca 5 tisíc nových záznamů z oblasti Čech v těchto kategoriích:</p>
+<ul>
+<li><a href="https://digiarchiv.aiscr.cz/results?entity=lokalita&amp;page=0&amp;f_druh_lokality=HES-001434:or" class="external">středověká a raně novověká vrchnostenská sídla</a> – přes tři tisíce věrohodně lokalizovaných hradů, tvrzí, zámků a dalších středověkých a raně novověkých vrchnostenských sídel;</li>
+<li><a href="https://digiarchiv.aiscr.cz/results?entity=lokalita&amp;page=0&amp;f_druh_lokality=HES-001438:or" class="external">hospodářské dvory</a> – téměř devět stovek lokalit identifikovaných převážně v souvislosti s vrchnostenskými sídly na základě terénních průzkumů a starých mapových děl (zejména mapy Stabilního katastru), případně na základě leteckého snímkování;</li>
+<li><a href="https://digiarchiv.aiscr.cz/results?entity=lokalita&amp;page=0&amp;q=v%C3%BD%C5%A1inn%C3%A9&amp;f_druh_lokality=HES-001435:or" class="external">výšinná sídliště</a> – 170 výšinných sídlišť evidovaných v souvislosti s tvorbou evidence ohrazení, u kterých ohrazení dosud nebylo věrohodně potvrzeno, avšak byla ponechána jako součást samostatné evidence;</li>
+<li><a href="https://digiarchiv.aiscr.cz/results?entity=lokalita&amp;page=0&amp;q=zanik*&amp;f_druh_lokality=HES-001435:or" class="external">zaniklé středověké a novověké vesnice</a> – přes 400 zcela či z velké části zaniklých sídelních jednotek, převážně vesnic z období středověku a novověku, evidovaných ve Státním archeologickém seznamu a ve spolupráci s Národním památkovým ústavem podrobených revizi prostorového vymezení;</li>
+<li>stovky lokalit dalších typů zachycených leteckým snímkováním prováděným systematicky v posledních třiceti letech Martinem Gojdou.</li>
+</ul>
+<p>Lokality jsou již nyní přímo provázány s existujícími leteckými snímky a terénními fotografiemi. Tyto doplňující materiály budou stejně jako evidované lokality dále přibývat a budovaná znalostní báze se bude dále rozšiřovat. Díky prostorovému vymezení pak můžete snadno vidět, zda a kde na lokalitě evidujeme archeologický výzkum, ke kterému může existovat další dokumentace.</p>
+</section>
+<section id="plány-z-leteckých-snímků" class="level3">
+<h3 class="anchored" data-anchor-id="plány-z-leteckých-snímků">Plány z leteckých snímků</h3>
+<p>Už delší dobu můžete v Digitálním archivu AMČR studovat bohatý soubor <a href="https://digiarchiv.aiscr.cz/results?dokument_kategorie_dokumentu=lfoto&amp;entity=dokument" class="external">leteckých snímků z celé České republiky</a>. Správně <em>přečíst</em> obsah leteckých snímků však někdy může být oříšek, natož pak korektně ukotvit viditelné archeologické objekty v terénu. Po několika letech práce týmu AIS CR i externích spolupracovníků bylo podle <a href="https://doi.org/10.5281/zenodo.7925795" class="external">jednotné metodiky</a> na základě leteckých snímků přesně lokalizováno, vektorizováno a metadatově popsáno celkem 43400 archeologických objektů přiřazených 341 lokalitám na území Čech. Z nich bylo vytvořeno 893 plánů v jednotném měřítku 1 : 2000 (pokud se na plán lokalita nevešla, poskytujeme také přehledový plán celé lokality). Na základě vektorizace byla upravena také vymezení lokalit pomocí PIAN. Přesnou metodiku tvorby plánů lze prostudovat <a href="https://doi.org/10.5281/zenodo.7925830" class="external">zde</a>. Plány jsou nyní nově dostupné v <a href="https://digiarchiv.aiscr.cz/results?entity=dokument&amp;page=0&amp;sort=datestamp%20desc&amp;f_rada=HES-000875:or&amp;f_autor=Baier,%20Ond%C5%99ej:or" class="external">Digitálním archivu spolu s napojením na související lokality</a>. Celý dataset ve vektorové podobě bude v budoucnu zveřejněn formou webové GIS služby, prozatím jsou jeho dílčí části dostupné na vyžádání v archivu ARÚ.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/11/CLD000000105.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Letecký snímek lokality, Gojda, Martin 2001: Dokument <a href="https://digiarchiv.aiscr.cz/id/C-LD-000000105" class="external">C-LD-000000105</a></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/11/CDY100000539.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Plán objektů viditelných na leteckém snímku, Baier, Ondřej – Dyčka, Michal – Gojda, Martin 2024: Dokument <a href="https://digiarchiv.aiscr.cz/id/C-DY-100000539" class="external">C-DY-100000539</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="dokumenty" class="level3">
+<h3 class="anchored" data-anchor-id="dokumenty">Dokumenty</h3>
+<p>Z nově dostupných digitalizovaných fondů archivu ARÚB jde o první ochutnávku z rozsáhlého fondu fotoarchivu, konkrétně terénní fotografie výzkumu při stavbě <a href="https://digiarchiv.aiscr.cz/results?q=M-FT-900144*" class="external">Novomlýnských nádrží z Pavlova</a>. Z textových dokumentů pak fond <a href="https://digiarchiv.aiscr.cz/results?dokument_kategorie_dokumentu=texty&amp;entity=dokument&amp;f_typ_dokumentu=HES-001075:or&amp;page=0&amp;f_organizace=ORG-000078:or" class="external">nálezových zpráv ÚAPP Brno z let 1993 až 2012</a> v celkovém počtu přes 1 tisíc dokumentů, první etapu digitalizace takzvaných <a href="https://digiarchiv.aiscr.cz/results?entity=dokument&amp;page=0&amp;sort=datestamp%20desc&amp;q=%22Moravika%22" class="external"><em>Moravik</em> a <em>Silesiak</em></a>, tedy nejstarších dokumentů zachycujících informace z Moravy a Slezska, které byly zachráněny před zničením povodní pražského archivu v roce 2002 a následně předány do archivu brněnského ústavu, nebo unikátní rukopisné výkopové deníky <a href="https://digiarchiv.aiscr.cz/results?entity=dokument&amp;page=0&amp;sort=datestamp%20desc&amp;q=%22Osobn%C3%AD%20fond%20P027%20Ma%C5%A1ka%22" class="external">Karla Jaroslava Mašky z archivu osobních fondů</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/11/maska.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Stránka z deníku XIV, Maška, K. J. 1884: Dokument <a href="https://digiarchiv.aiscr.cz/id/M-TX-202410014" class="external">M-TX-202410014</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="externí-zdroje-bibliografické-záznamy" class="level3">
+<h3 class="anchored" data-anchor-id="externí-zdroje-bibliografické-záznamy">Externí zdroje &amp; bibliografické záznamy</h3>
+<p>V AMČR a v Digitálním archivu nově také přibyla data revidovaných bibliografických záznamů (externích zdrojů). Celkem se jedná o cca 10 tisíc položek, které mají dohromady cca 130 tisíc vazeb s dalšími relevantními záznamy (např. akcemi či lokalitami) a které jsou také dále k dispozici pro další použití. Vzhledem k náročnosti revize, kterou prošlo přes 100 tisíc záznamů z původního souboru <em>Literatura</em>, budeme vděční za zpětnou vazbu v případech, kdy odkaz na bibliografii je nesprávný nebo neúplný.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

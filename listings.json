@@ -1,12 +1,12 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
     "listing": "/zpravodaj/index.html",
     "items": [
       "/zpravodaj/zpravodaj_11.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]
