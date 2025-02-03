@@ -1,0 +1,16 @@
+---
+title: Zpravodaj AMČR č. 12
+date: 2025-02-03
+---
+
+> Vážení uživatelé AMČR,
+>
+> přinášíme Vám zpravodaj AMČR č. 12, který je spjat zejména se ..., ale přináší i další novinky z [Archeologického informačního systému České republiky (AIS CR)](https://www.aiscr.cz/){.external}.
+>
+> Váš *tým* AIS CR...
+
+## Veřejná správa a archeologie v digitální době
+
+V rámci akce [Týden pro digitální Česko 2024](https://digitalnicesko.gov.cz/){.external} jsme uspořádali webinář na téma ochrany archeologického dědictví a změnách v zákoně o památkové péči, které přichází v platnost v lednu 2025.
+
+{{< video https://youtu.be/iliWCsnJdT4?si=m8QaP3IqOppH9zZd >}}
