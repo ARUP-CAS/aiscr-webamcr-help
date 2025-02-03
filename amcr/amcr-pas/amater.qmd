@@ -89,13 +89,7 @@ AMČR-PAS.
 
 ### Registrace a přihlášení
 
-:::: {.columns}
 
-::: {.column width="40%"}
-![](figs/pas-login.png){width="80%"}
-:::
-
-::: {.column width="60%"}
 Pro přihlášení do [aplikace](https://amcr.aiscr.cz/){.external} slouží emailová
 adresa a heslo. Nutná je předchozí [registrace](https://backend.aiscr.cz/registrace/0/){.external}.
 
@@ -110,18 +104,12 @@ Na uvedený email je automaticky odeslána ověřovací zpráva s odkazem pro po
 Aktivace účtů obvykle probíhá v běžné pracovní době.
 
 Více viz sekce [Uživatelské účty](/zakladni-info/ucty.qmd).
-:::
-
-::::
 
 
 ### Úvodní obrazovka
 
 Modul AMČR-PAS je jednou ze součástí [Archeologického informačního systému ČR (AIS ČR)](https://www.aiscr.cz/){.external}, resp.
 [Archeologické mapy ČR (AMČR)](https://amcr-info.aiscr.cz/){.external}.
-
-![](figs/pas-main.png){fig-align="center" width="98%"}
-
 Samotný modul AMČR-PAS se skládá z několika karet:
 
 ![](figs/pas-b-main.png){fig-align="center" width="60%"}
