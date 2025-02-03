@@ -27,6 +27,13 @@ Sekce k AMČR-PAS obsahuje:
 
 :::
 
+
+## Záznam ze školení
+
+Záznam z periodického školení *Portálu amatérských spolupracovníků a evidence samostatných nálezů Archeologické mapy ČR* pro širokou veřejnost, které se konalo dne 4. 12. 2024. 
+
+{{< video https://youtu.be/vtNeLAm1XLQ?si=lsYhovTNwFn-bYIp >}}
+
 <!-- ## Periodická školení 
 
 Archeologické ústavy AV ČR v Praze a Brně provádějí periodická online školení k systému AMČR-PAS. Registrovat se lze na následujícím [odkazu](https://forms.gle/Hkoygb6GgTueC7HeA){.external}.

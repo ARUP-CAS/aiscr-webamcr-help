@@ -4,26 +4,36 @@ subtitle: "Návod jak fotografovat archeologické nálezy pro evidenci v AMČR-P
 author:
   - name: "Tomáš Chlup"
     orcid: "0000-0003-3179-992X"
-doi: "10.5281/zenodo.4560101"
-date: 2021-03-31
+# doi: "10.5281/zenodo.4560101"
+date: 2025-02-03
 format:
   html: default
 ---
 
 ::: {.callout-note}
 
-Původně zveřejněno na Zenodo jako Chlup, T. [-@chlup2021]: AMČR-PAS Fotografická dokumentace nálezů. doi:[10.5281/zenodo.4560101](https://doi.org/10.5281/zenodo.4560100){.external}.
+Původně zveřejněno jako:  
+Chlup T. 2021: *AMČR-PAS Fotografická dokumentace nálezů.* Zenodo. doi:[10.5281/zenodo.4560101](https://doi.org/10.5281/zenodo.4560100){.external}.
 
 :::
 
-Fotografická dokumentace předmětů získaných povrchovou prospekcí slouží pro jejich evidenci a umožňuje uchovat informace o kontextu, ze kterého byly získány.
+Fotografická dokumentace předmětů získaných povrchovou prospekcí slouží pro jejich evidenci a umožňuje uchovat informace o jejich podobě stejně jako o kontextu, ze kterého byly získány.
 Fotografování předmětů je proto třeba věnovat odpovídající pozornost.
-Následujících několik stránek si klade za cíl stručně vysvětlit, jaké fotografie má AMČR-PAS zájem shromažďovat a jak je pořídit i v improvizovaných podmínkách.
+Následující text si klade za cíl stručně vysvětlit, jaké fotografie má AMČR-PAS zájem shromažďovat, v jakých formátech a jak je pořídit v profesionálních i improvizovaných podmínkách.
 
 AMČR-PAS přijímá fotografie ve formátu JPEG, PNG a TIFF do velikosti 100 MB.
+V případě formátů HEIC/HEIF převádíme fotky do formátu TIFF a ukládáme sloučené vrstvy s LZW kompresí.
 Obecně apelujeme na ukládání fotografií v co nejlepším rozlišení a kvalitě, za využití minimální komprese JPEG, případně využití komprese LZW TIFF.
+Vyvarujte se změn v hustotě obrazových bodů nebo redukcí rozměrů.
 
-Ke každému předmětu náleží dvojí typ fotografické dokumentace -- fotografie z místa nálezu a fotografie předmětu samotného.
+Ke každému předmětu náleží dvojí typ fotografické dokumentace -- **fotografie z místa nálezu** a **fotografie předmětu samotného**.
+
+## Instruktážní video
+
+V krátkém videu se dozvíte, jak fotit různé typy nálezů, jak nastavit světlo a poradit si s odlesky i nevhodnými stíny a mnoho dalšího.
+
+{{< video https://www.youtube.com/watch?v=5E8eLfy_rjI >}}
+
 
 ## Fotografie z místa nálezu
 
@@ -31,7 +41,7 @@ Slouží pro rekonstrukci nálezového kontextu.
 Na základě těchto fotografií by mělo být možné odpovědět na následující otázky.
 
 1. Kde byl předmět nalezen? Fotka současně slouží i jako záloha prostorového zaměření.
-2. V jakém kontextu byl uložen? Jak hluboko byl předmět nalezen a jaké další artefakty byly v okolí?
+2. V jakém kontextu byl předmět uložen? Jak hluboko byl předmět nalezen a jaké další artefakty se v okolí nacházely?
 
 ## Fotografie předmětu
 
@@ -44,6 +54,7 @@ Před vlastním focením je vhodné předmět očistit podle následujících pr
 Lze opláchnout pod tekoucí vodou.
 Nenechávejte keramiku delší dobu máčet ve vodě ani ji nedrhněte, mohli byste setřít výzdobu, která je zásadní pro určení stáří a původu nálezů.
 Pokud je zřejmé, že keramická hmota není dobře vypálená, vyvarujte se mytí úplně.
+V případě, že jde o větší fragmenty či celé nádoby nemyjte keramiku vůbec ani nepreparujte obsah nádoby.
 
 #### Kamenné artefakty
 
@@ -66,6 +77,7 @@ Pokud vytvoříme dobré světelné podmínky lze plnohodnotný dokumentační s
 - Nabízí se široká paleta možností od bílého papíru po profesionální fotostoly.
 - Obecně je vhodné volit matnější povrchy, protože nevytváří nežádoucí odlesky.
 - Pokud zamýšlíte v postprodukci odstranit pozadí, je vhodné předmět umístit dál od pozadí. Je vhodné, aby se barva pozadí lišila od barvy předmětu.
+- V hobby obchodech jsou běžně k dostání plexiska v opálové barvě. Vzhledem k jejich vlastnostem (váha, cena, odolnost, propustnost světla) je lze např. umístit mezi dva stoly a vytvoři tak v podstatě plnohodnotný fotostůl za zlomek ceny.
 
 ### Foťák *vs* telefon
 
@@ -114,7 +126,7 @@ Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní 
 2. Pokud používáte jako zdroj denní světlo, počkejte si, až bude mírně pod mrakem, nebo foťte ve [zlatou hodinku](https://cs.wikipedia.org/wiki/Zlat%C3%A1_hodina){.external} (v době, kdy je slunce nízko nad obzorem), pak nevznikají ostré stíny.
 3. Pokud máte stativ použijte ho. Ulehčí Vám práci a eliminuje rozmazané fotky.
 4. Sestavte si kompozici tak, aby zabírala celé pole hledáčku (pokud budete daleko, přicházíte o detail, pokud příliš blízko, bude kompozice natěsnaná nebo nekompletní).
-5. Užití měřítka je nutnost. Použití barevné kalibrační tabulky je zárukou věrohodného barevného podání fotografie.
+5. Použití měřítka je nutnost. Použití barevné kalibrační tabulky je zárukou věrohodného barevného podání fotografie.
 6. Pokud předměty samovolně nestojí na rovné ploše, vytvořte pro ně lože z měkkého materiálu (polystyren, pěnové obalové materiály, suchý jemný písek). Předměty nikdy nezavěšujte, neohýbejte, nazapichujte atp.
 7. Pořiďte kolmé/šikmé snímky všech stran předmětů a záběry zajímavých detailů (průvrty, lomy či traseologicky významné jevy).
 8. Fotografie průběžně kontrolujte v náhledu. Rozmazané, tmavé a přesvětlené snímky rovnou mažte.

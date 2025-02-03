@@ -1,31 +1,39 @@
 ---
 title: Návod pro spolupracovníky
 subtitle: Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky
-author:
-  - name: Petr Pajdla
-    orcid: 0000-0001-7050-9572
-  - name: David Novák
-    orcid: 0000-0001-6592-6291
-  - name: Jan Mařík
-    orcid: 0009-0007-7398-9365
-  - name: Róbert Antal
-    orcid: 0009-0004-4482-2257
-  - name: Balázs Komoróczy
-    orcid: 0000-0002-0576-7230
-  - name: Olga Lečbychová
-    orcid: 0000-0001-5123-1261
-  - name: Tomáš Chlup
-    orcid: 0000-0003-3179-992X
-date: 2024-07-30
+# author:
+# - name: Petr Pajdla
+#   orcid: 0000-0001-7050-9572
+# - name: David Novák
+#   orcid: 0000-0001-6592-6291
+# - name: Jan Mařík
+#   orcid: 0009-0007-7398-9365
+# - name: Róbert Antal
+#   orcid: 0009-0004-4482-2257
+# - name: Balázs Komoróczy
+#   orcid: 0000-0002-0576-7230
+# - name: Olga Lečbychová
+#   orcid: 0000-0001-5123-1261
+# - name: Tomáš Chlup
+#   orcid: 0000-0003-3179-992X
+date: 2025-02-03
 # doi: 10.5281/zenodo.4114081
 # image: ../../figs/thumb_pin.png
 ---
 
 ::: {.callout-note}
 
-Původně zveřejněno na Zenodo pod DOI: [10.5281/zenodo.4114081](https://zenodo.org/doi/10.5281/zenodo.4114081){.external}.
+Původně zveřejněno jako:\
+Pajdla P., Novák D., Mařík J., Antal R., Komoróczy B., Lečbychová O. a Chlup T. 2021: *AMČR-PAS Základní principy používání a návod pro spolupracovníky.* Zenodo. doi:[10.5281/zenodo.4114081](https://zenodo.org/doi/10.5281/zenodo.4114081){.external}.
 
 :::
+
+AMČR-PAS (*Portál amatérských spolupracovníků a evidence samostatných nálezů*) byl vytvořen pro podporu součinnosti dobrovolných
+spolupracovníků a [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace) při provádění archeologických
+výzkumů metodou povrchové prospekce, včetně využití detektorů kovů.
+Úkolem AMČR-PAS je vytvořit podmínky pro transparentnost, formalizaci a
+zároveň usnadnění této spolupráce při současném respektování platných
+zákonných norem ČR.
 
 ::: {.callout-important}
 
@@ -35,16 +43,6 @@ Původně zveřejněno na Zenodo pod DOI: [10.5281/zenodo.4114081](https://zenod
 **Webovou stránku AMČR-PAS** pak zde [http://www.archeologickamapa.cz/pas](http://www.archeologickamapa.cz/pas){.external}.
 
 :::
-
-## Úvod
-
-AMČR-PAS (*Portál amatérských spolupracovníků a evidence samostatných nálezů*) byl vytvořen pro podporu součinnosti dobrovolných
-spolupracovníků a [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace) při provádění archeologických
-výzkumů metodou povrchové prospekce, včetně využití detektorů kovů.
-Úkolem AMČR-PAS je vytvořit podmínky pro transparentnost, formalizaci a
-zároveň usnadnění této spolupráce při současném respektování platných
-zákonných norem ČR.
-
 
 
 ## Principy spolupráce
