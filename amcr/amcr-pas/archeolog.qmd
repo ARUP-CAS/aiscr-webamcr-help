@@ -141,8 +141,7 @@ Všechny typy projektů jsou vždy zakončeny nálezovou zprávou, viz [dále](a
 
 ![Správa projektů](figs/pas-a_amcr.png){width="100%"}
 
-Projekt založíme po přihlášení do aplikace AMČR kliknitím
-na kartu `Projekty` a `Zapsat`.
+Projekt založíme po přihlášení do aplikace AMČR kliknutím na kartu `Projekty` a `Zapsat`.
 Základní postup správy projektů typu průzkum se v zásadě neliší od správy běžných typů projektů, viz návod [zde](/amcr/projekty.qmd).
 
 ### Zapsat projekt
@@ -162,7 +161,7 @@ vysvětlete v poli lokalizace.
 
 ![Projekt přihlásíme v pravém horním rohu okna](figs/pas-a_proj_prihlasit.png){width="40%"}
 
-![Dilogové okno pro přihlášení projektu](figs/pas-a_proj_prihlasit2.png){width="100%"}
+![Dialogové okno pro přihlášení projektu](figs/pas-a_proj_prihlasit2.png){width="100%"}
 
 1.  Pro přihlášení projektu doplníme vedoucího projektu (ve většině
     případů sami sebe).
@@ -174,7 +173,7 @@ vysvětlete v poli lokalizace.
 4.  Pokud je projekt realizován na území s památkovou ochranou, doplníme
     název kulturní památky a její katalogové číslo dle [Památkového katalogu NPÚ](https://www.pamatkovykatalog.cz/){.external}.
     
-![Sekce pro připojení projektpvé dokumentace](figs/pas-a_proj_dok.png){width="80%"}
+![Sekce pro připojení projektové dokumentace](figs/pas-a_proj_dok.png){width="80%"}
 
 ### Zahájit projekt v terénu
 
@@ -188,7 +187,7 @@ vysvětlete v poli lokalizace.
 
 ![Číslo projektu](figs/pas-a_proj_akce.png){width="100%"}
 
-Projekt se zobrazí spolupracovníkům v apliakci AMČR-PAS právě ve stavu `zahájen v terénu`.
+Projekt se zobrazí spolupracovníkům v aplikaci AMČR-PAS právě ve stavu `zahájen v terénu`.
 
 - Číslo projektu lze pro usnadnění zkopírovat.
 - Číslo sdělíme spolupracovníkům, kteří mají k danému projektu přispívat.
@@ -277,7 +276,7 @@ V sekci `Detail` najdeme:
     -  materiál atd.
 
 Vyplnění této části je pro amatérské spolupracovníky většinou povinné, nicméně předpokládáme úpravu zadaných informací archeologem.
-Úpravu zadaných údajů provedeme po kliknutí na ikonu **tužky** v pravéh horním roku dané sekce.
+Úpravu zadaných údajů provedeme po kliknutí na ikonu **tužky** v pravém horním roku dané sekce.
 
 ![Upravit záznam](figs/pas-a_zapis_upravit.png){width="30%"}
 
@@ -354,7 +353,7 @@ souvisejícím projektu.
 ![Ukončení projektu v terénu](figs/pas-a-ukoncit.png){width="60%"}
 
 Pro posunutí projektu typu průzkum do stavu *navržen k archivaci*, kdy
-se spolupracujícím již nebude zobrazovat číslo projektu ve webovém
+se spolupracovníkům již nebude zobrazovat číslo projektu ve webovém
 rozhraní, tj. nebude možné pod projekt zapisovat nové nálezy, postupujte
 následovně:
 
