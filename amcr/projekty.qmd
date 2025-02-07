@@ -32,6 +32,17 @@ V této fázi není tento tzv. **Zapsaný projekt** ještě přidělen žádné 
 Zvláštním typem projektu je projekt **badatelský**, který je vyvolán cíleným vědeckým záměrem, a nikoliv plánovaným terénním zásahem třetí strany. 
 Druhým zvláštním typem projektu je projekt typu **průzkum**, který je opět vyvolán cíleným vědeckým záměrem a zpravidla jej definuje plánovaná dlouhodobost nebo velký územní rozsah, ale metodologicky jde o archeologický výzkum nedestruktivní nebo málo destruktivní, tedy s minimálním zásahem do terénu.
 
+::: {.callout-important}
+
+## Badatelské výzkumy a projekty typu průzkum
+
+- Pokyny pro **badatelské výzkumy** najdete na webových stránkách ústavů:
+    - [Archeologický ústav AV ČR, Brno](https://www.arub.cz/badatelske-archeologicke-vyzkumy/badatelske-archeologicke-vyzkumy/){.external}
+    - [Archeologický ústav AV ČR, Praha](https://www.arup.cas.cz/veda-vyzkum/terenni-vyzkumy/badatelske-archeologicke-vyzkumy/){.external}
+- Pokyny pro **projekty typu průzkum** viz sekce k [AMČR-PAS](amcr-pas/archeolog.qmd).
+
+:::
+
 
 ### Přihlášení projektu 
 

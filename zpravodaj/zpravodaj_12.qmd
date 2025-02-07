@@ -14,3 +14,25 @@ date: 2025-02-03
 V rámci akce [Týden pro digitální Česko 2024](https://digitalnicesko.gov.cz/){.external} jsme uspořádali webinář na téma ochrany archeologického dědictví a změnách v zákoně o památkové péči, které přichází v platnost v lednu 2025.
 
 {{< video https://youtu.be/iliWCsnJdT4?si=m8QaP3IqOppH9zZd >}}
+
+
+## Pokyny pro badatelské výzkumy
+
+Nedávno jsme Vás informovali o novinkách a dílčích změnách ve vztahu k badatelským archeologickým výzkumům a průzkumům, zde je ještě jednou připomínáme. Jelikož došlo v této oblasti v posledních letech k několika změnám v administraci a evidenci (např. z důvodu spuštění AMČR-PAS), připravily Archeologické ústavy a AIS CR přehledné informace k správnému administrativnímu postupu při realizaci těchto projektů.
+
+Tyto informace již nyní naleznete na stránkách obou ústavů:
+
+- [Archeologický ústav AV ČR, Brno](https://www.arub.cz/badatelske-archeologicke-vyzkumy/badatelske-archeologicke-vyzkumy/){.external}
+- [Archeologický ústav AV ČR, Praha](https://www.arup.cas.cz/veda-vyzkum/terenni-vyzkumy/badatelske-archeologicke-vyzkumy/){.external}
+
+Pokyny jsou platné od svého zveřejnění a prosíme o dodržování uvedeného postupu při žádostech o nové badatelské výzkumy. Součástí pokynů je také aktualizovaný formulář pro žádost o vyjádření Archeologického ústavu a odkaz na již dříve zveřejněný vzor projektu průzkumu.
+
+Základní proces zůstává stejný, mění se pouze některé jeho detaily:
+
+- U žádostí o vyjádření budou Archeologické ústavy požadovat uvedení **ID projektu v AMČR**, který musí být vytvořen a přihlášen před podáním žádosti.
+- Do projektu v AMČR bude oprávněnou archeologickou organizací vždy nahrána **projektová dokumentace** a předávána Archeologickému ústavu výhradně touto formou.
+- Vyplněný formulář žádosti budou Archeologické ústavy přijímat **pouze prostřednictvím datové schránky**.
+- Archeologické ústavy své vyjádření standardně odešlou oprávněné organizaci, následně jej ale také nahrají do příslušného projektu AMČR, a to do 30 dnů od obdržení žádosti.
+- Projektová dokumentace bude evidována také po uzavření projektu, a to z důvodu zachování informací a transparentnosti při provádění archeologických výzkumů. Projektová dokumentace ale zásadně nebude volně přístupná (zejm. z důvodu ochrany osobních údajů, probíhajícího výzkumu apod.)
+
+Pro projekty **typu průzkum** připomínáme, že tyto jsou realizovány zásadně mimo památkově chráněná území. V případě, že chce oprávněná organizace realizovat tento druh činnosti na chráněném území, musí splnit všechny náležitosti schvalování standardního badatelského archeologického výzkumu.
