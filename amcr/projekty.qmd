@@ -9,6 +9,19 @@ Jejich správa probíhá v AMČR v modulu [Projekty](https://amcr.aiscr.cz/proje
 Zde je možné projekty zapisovat a k již existujícím projektům doplňovat informace a posouvat je jednotlivými procesními stavy.
 Správu projektů mohou provádět pouze uživatelé s oprávněním [archeolog](/o-systemu/role.qmd), tedy registrovaní archeologové z [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace).
 
+::: {.callout-tip}
+
+## Kdy zapisovat *Projekt* a kdy *Samostatnou akci*?
+
+`Projekty` představují *administrativní* část záznamu o archeologické akci. 
+**Vytváření projektů pro akce starší 5 let je tedy nadbytečné**. 
+Zvažte prosím, zda je skutečně nutné projekty pro takové akce zpětně vytvářet.
+
+Pro retrospektivní zápis akcí (starších 5 let) doporučujeme zápis v modulu `Samostatné akce` kde odpadá nutnost vyplňovat administrativní metadata.
+Při retrospektivním zápisu akcí mladších 5 let zvažte, zda je relevantní vyplňovat skutečné kontaktní údaje na oznamovatele, zejména jeho e-mail. Po zápisu systém automaticky rozesílá potvrzení o zapsání projektu a zpětně mohou takové e-maily u oznamovatele vyvolat zmatek. V případech, kdy již není žádoucí, aby oznamovatel takový e-mail z AMČR dostal, doporučujeme pole proškrtnout (-).
+
+:::
+
 ## Videonávod
 
 Videonávod ukazuje celý proces, který se týká správy projektů a akcí od zápisu projektu po jeho uzavření.

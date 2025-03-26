@@ -8,6 +8,16 @@ Správa projektových akcí probíhá v rámci projektů, ke kterým jsou tyto a
 Správa samostatných akcí pak v modulu `Samostatné akce`.
 Obsah a rozložení formulářů jsou u obou typů akcí téměř totožné a liší se pouze v několika specifických ohledech (u samostatné akce chybí odkaz na nadřazený projekt, je třeba samostatně vybrat katastr v poli `Hlavní katastr`, protože se sem nemůže propsat z lokalizace projektu apod.)
 
+::: {.callout-tip}
+
+## *Akce* a *Samostatná akce*
+
+- Jako `Akce` označujeme archeologické akce, které jsou součástí `Projektu`, který je jejich nadřazenou evidenční jednotkou sloužící k administraci procesu archeologického výzkumu.
+- `Samostatné akce` jsou akce, u kterých evidence administrativních informací (kontakt na investora apod.) zaznamenaných prostřednictvím `Projektu` nedává smysl. Jde tedy primárně o způsob retrospektivního zápisu akcí.
+- Jako `Samostatné akce` doporučujeme zapisovat **akce starší 5 let**, to je doba, po které jsme stejně nuceni část administrativních údajů (osobní údaje apod.) ze systému odstranit.
+
+:::
+
 
 ## Videonávod
 
