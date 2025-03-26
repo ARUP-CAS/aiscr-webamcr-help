@@ -1,36 +1,46 @@
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
 
-cff-version: 1.2.0
+cff-version: 1.0.3
 title: Uživatelská dokumentace AMČR
 message: >-
   If you use this software, please cite it using the
-  metadata from this file or generic citation:
-  AMČR: AMCR user documentation. DOI: 10.5281/zenodo.8141634. Website: https://amcr-help.aiscr.cz/. [cit. YYYY-MM-DD].
+  metadata from this file.
+type: software
 authors:
   - given-names: Petr
     family-names: Pajdla
     email: pajdla@arub.cz
-    affiliation: 'Czech Academy of Sciences, Institute of Archaeology, Brno'
+    affiliation: >-
+      Czech Academy of Sciences, Institute of Archaeology,
+      Brno
     orcid: 'https://orcid.org/0000-0001-7050-9572'
   - family-names: Novák
     given-names: David
     orcid: 'https://orcid.org/0000-0001-6592-6291'
-    affiliation: 'Czech Academy of Sciences, Institute of Archaeology, Prague'
+    affiliation: >-
+      Czech Academy of Sciences, Institute of Archaeology,
+      Prague
   - given-names: Ondřej
     family-names: Švejcar
     orcid: 'https://orcid.org/0009-0006-3764-9454'
-    affiliation: 'Czech Academy of Sciences, Institute of Archaeology, Prague'
+    affiliation: >-
+      Czech Academy of Sciences, Institute of Archaeology,
+      Prague
   - given-names: Tomáš
     family-names: Pavloň
     orcid: 'https://orcid.org/0009-0007-4387-6976'
-    affiliation: 'Czech Academy of Sciences, Institute of Archaeology, Brno'
+    affiliation: >-
+      Czech Academy of Sciences, Institute of Archaeology,
+      Brno
 identifiers:
   - type: doi
     value: 10.5281/zenodo.8141634
 repository-code: 'https://github.com/ARUP-CAS/aiscr-webamcr-help/'
-url: 'https://arup-cas.github.io/aiscr-webamcr-help/'
-abstract: "Documentation and help for AMCR web application (https://github.com/ARUP-CAS/aiscr-webamcr)."
+url: 'https://amcr-help.aiscr.cz/'
+abstract: >-
+  User documentation and help for AMCR web application
+  (<https://github.com/ARUP-CAS/aiscr-webamcr>).
 license: CC-BY-NC-4.0
-date-released: 2023-07-13
-type: dataset
+version: v1.0.2
+date-released: '2025-03-26'
