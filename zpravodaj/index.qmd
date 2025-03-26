@@ -36,7 +36,7 @@ listing:
       path: "docs/AMCR_info_01.pdf"
       date: "2017-06-01"
   type: table
-  fields: [date, title] 
+  fields: [date, title, description] 
   filter-ui: false
   sort-ui: [date]
   sort: "date desc"

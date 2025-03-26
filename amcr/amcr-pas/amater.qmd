@@ -1,42 +1,32 @@
 ---
 title: Návod pro spolupracovníky
 subtitle: Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky
-author:
-  - name: Petr Pajdla
-    orcid: 0000-0001-7050-9572
-  - name: David Novák
-    orcid: 0000-0001-6592-6291
-  - name: Jan Mařík
-    orcid: 0009-0007-7398-9365
-  - name: Róbert Antal
-    orcid: 0009-0004-4482-2257
-  - name: Balázs Komoróczy
-    orcid: 0000-0002-0576-7230
-  - name: Olga Lečbychová
-    orcid: 0000-0001-5123-1261
-  - name: Tomáš Chlup
-    orcid: 0000-0003-3179-992X
-date: 2024-07-30
+# author:
+# - name: Petr Pajdla
+#   orcid: 0000-0001-7050-9572
+# - name: David Novák
+#   orcid: 0000-0001-6592-6291
+# - name: Jan Mařík
+#   orcid: 0009-0007-7398-9365
+# - name: Róbert Antal
+#   orcid: 0009-0004-4482-2257
+# - name: Balázs Komoróczy
+#   orcid: 0000-0002-0576-7230
+# - name: Olga Lečbychová
+#   orcid: 0000-0001-5123-1261
+# - name: Tomáš Chlup
+#   orcid: 0000-0003-3179-992X
+date: 2025-02-07
 # doi: 10.5281/zenodo.4114081
 # image: ../../figs/thumb_pin.png
 ---
 
 ::: {.callout-note}
 
-Původně zveřejněno na Zenodo pod DOI: [10.5281/zenodo.4114081](https://zenodo.org/doi/10.5281/zenodo.4114081){.external}.
+Původně zveřejněno jako:\
+Pajdla P., Novák D., Mařík J., Antal R., Komoróczy B., Lečbychová O. a Chlup T. 2021: *AMČR-PAS Základní principy používání a návod pro spolupracovníky.* Zenodo. doi:[10.5281/zenodo.4114081](https://zenodo.org/doi/10.5281/zenodo.4114081){.external}.
 
 :::
-
-::: {.callout-important}
-
-## Odkazy
-
-**Modul AMČR-PAS** naleznete po přihlášení na [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.  
-**Webovou stránku AMČR-PAS** pak zde [http://www.archeologickamapa.cz/pas](http://www.archeologickamapa.cz/pas){.external}.
-
-:::
-
-## Úvod
 
 AMČR-PAS (*Portál amatérských spolupracovníků a evidence samostatných nálezů*) byl vytvořen pro podporu součinnosti dobrovolných
 spolupracovníků a [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace) při provádění archeologických
@@ -44,6 +34,35 @@ výzkumů metodou povrchové prospekce, včetně využití detektorů kovů.
 Úkolem AMČR-PAS je vytvořit podmínky pro transparentnost, formalizaci a
 zároveň usnadnění této spolupráce při současném respektování platných
 zákonných norem ČR.
+
+::: {.callout-important}
+
+## Odkazy
+
+Modul AMČR-PAS naleznete po přihlášení na [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.  
+Webovou stránku AMČR-PAS pak zde [http://www.archeologickamapa.cz/pas](http://www.archeologickamapa.cz/pas){.external}.
+
+:::
+
+
+## Záznam ze školení
+
+Záznam z periodického školení *Portálu amatérských spolupracovníků a evidence samostatných nálezů Archeologické mapy ČR* pro širokou veřejnost, které se konalo dne 4. 12. 2024. Prezentace je dostupná [zde](https://doi.org/10.5281/zenodo.14277133){.external}.
+
+{{< video https://youtu.be/vtNeLAm1XLQ?si=lsYhovTNwFn-bYIp >}}
+
+
+## Postup ve zkratce
+
+- [ ] V [Mapě archeologických organizací](https://oao.aiscr.cz/){.external} najdu organizaci, která působí v mém okolí nebo na území, které mne zajímá.
+- [ ] Kontaktuji archeologa*žku dané organizace a domluvím se na principech spolupráce.
+- [ ] Registruji se v [AMČR](https://amcr.aiscr.cz/accounts/register){.external}.
+- [ ] Projdu proškolením od archeologa*žky, s organizací uzavřu dohodu o spolupráci.
+- [ ] V modulu [Samostatné nálezy](https://amcr.aiscr.cz/pas/spoluprace/vyber?sort=organizace_vedouci&sort=spolupracovnik){.external} navážu s archeologem*žkou spolupráci. 
+- [ ] Archeolog*žka mi sdělí, pod které čísla projektů mohu zapisovat nálezy.
+- [ ] Primárně v terénu, ale případně i zpětně z domu v AMČR zapisuji nálezy.
+- [ ] Dbám na kvalitní fotografie nálezů (včetně fotografie kontextu nálezu), viz [Fotografická dokumentace nálezů](foto.qmd).
+- [ ] Nálezy předám archeologovi*žce.
 
 
 
@@ -87,17 +106,20 @@ na školení, jehož obsahem by měly být právní podmínky celého systému,
 metodika práce v terénu, dokumentace nálezů a způsob užívání
 AMČR-PAS.
 
+::: {.column-margin}
+[![](figs/desatero.png)](https://amcr-info.aiscr.cz/downloads/Zodpovedne_hledani.pdf)
+:::
+
+Zásady zodpovědného hledání s detektory kovů jsou popsány v následujícím [videu](https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9){.external} a [dokumentu {{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/Zodpovedne_hledani.pdf).
+
+{{< video https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9 >}}
+
+
 ## Modul AMČR-PAS
 
 ### Registrace a přihlášení
 
-:::: {.columns}
 
-::: {.column width="40%"}
-![](figs/pas-login.png){width="80%"}
-:::
-
-::: {.column width="60%"}
 Pro přihlášení do [aplikace](https://amcr.aiscr.cz/){.external} slouží emailová
 adresa a heslo. Nutná je předchozí [registrace](https://backend.aiscr.cz/registrace/0/){.external}.
 
@@ -112,18 +134,12 @@ Na uvedený email je automaticky odeslána ověřovací zpráva s odkazem pro po
 Aktivace účtů obvykle probíhá v běžné pracovní době.
 
 Více viz sekce [Uživatelské účty](/zakladni-info/ucty.qmd).
-:::
-
-::::
 
 
 ### Úvodní obrazovka
 
 Modul AMČR-PAS je jednou ze součástí [Archeologického informačního systému ČR (AIS ČR)](https://www.aiscr.cz/){.external}, resp.
 [Archeologické mapy ČR (AMČR)](https://amcr-info.aiscr.cz/){.external}.
-
-![](figs/pas-main.png){fig-align="center" width="98%"}
-
 Samotný modul AMČR-PAS se skládá z několika karet:
 
 ![](figs/pas-b-main.png){fig-align="center" width="60%"}
@@ -216,7 +232,9 @@ fotodokumentaci nálezové situace a předmětu, ideálně i s měřítkem.
 Akceptovány jsou fotografie ve formátu JPG, PNG, TIFF do maximální
 velikosti 100 MB. Není tedy třeba fotky komprimovat nebo zmenšovat.
 Pokud si nejste jistí, jak předměty správně dokumentovat, postupujte dle našeho [tutoriálu pro fotografickou dokumentaci nálezů](foto.qmd).
-Nahrané fotografie přechází do vlastnictví správce a nadále jsou chráněny licencí [Creative Commons Attribution Noncommercial 4.0 Int. (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/){.external}.
+Nahrané fotografie přechází do vlastnictví správce a nadále jsou chráněny licencí [Creative Commons Attribution Non-commercial 4.0 Int. (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/){.external}.
+
+Fotografie musí splňovat archeologický dokumentační standard. Tím rozumějme kolmé a šikmé snímky předmětu tak, aby zachycovaly celkovou podobu předmětu. Je rovněž vhodné připojit i fotografie nálezových kontextů. Fotografie dokumentující předmět před nahráním ořízněte a natočte tak, aby osy měřítka a předmětu kopírovaly svislou a vodorovnou rovinu osy fotografie. 
 
 Fotografie lze přiložit pomocí tlačítka `Nahrát soubory` v horní liště karty pro sekci `Fotografie`.
 

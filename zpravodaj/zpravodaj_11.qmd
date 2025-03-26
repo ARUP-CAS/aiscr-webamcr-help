@@ -1,5 +1,7 @@
 ---
 title: Zpravodaj AMČR č. 11
+description: Webová verze AMČR, import geometrie PIAN a další
+# categories: [webová AMČR, Digitální archiv, geometrie PIAN, API, importy]
 date: 2024-10-22
 ---
 

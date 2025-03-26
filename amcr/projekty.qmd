@@ -9,6 +9,19 @@ Jejich správa probíhá v AMČR v modulu [Projekty](https://amcr.aiscr.cz/proje
 Zde je možné projekty zapisovat a k již existujícím projektům doplňovat informace a posouvat je jednotlivými procesními stavy.
 Správu projektů mohou provádět pouze uživatelé s oprávněním [archeolog](/o-systemu/role.qmd), tedy registrovaní archeologové z [oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace).
 
+::: {.callout-tip}
+
+## Kdy zapisovat *Projekt* a kdy *Samostatnou akci*?
+
+`Projekty` představují *administrativní* část záznamu o archeologické akci. 
+**Vytváření projektů pro akce starší 5 let je tedy nadbytečné**. 
+Zvažte prosím, zda je skutečně nutné projekty pro takové akce zpětně vytvářet.
+
+Pro retrospektivní zápis akcí (starších 5 let) doporučujeme zápis v modulu `Samostatné akce` kde odpadá nutnost vyplňovat administrativní metadata.
+Při retrospektivním zápisu akcí mladších 5 let zvažte, zda je relevantní vyplňovat skutečné kontaktní údaje na oznamovatele, zejména jeho e-mail. Po zápisu systém automaticky rozesílá potvrzení o zapsání projektu a zpětně mohou takové e-maily u oznamovatele vyvolat zmatek. V případech, kdy již není žádoucí, aby oznamovatel takový e-mail z AMČR dostal, doporučujeme pole proškrtnout (-).
+
+:::
+
 ## Videonávod
 
 Videonávod ukazuje celý proces, který se týká správy projektů a akcí od zápisu projektu po jeho uzavření.
@@ -31,6 +44,17 @@ V této fázi je definován zejména osobou investora nebo oznamovatele, územn�
 V této fázi není tento tzv. **Zapsaný projekt** ještě přidělen žádné [oprávněné organizaci](/slovnik/index.qmd#oprávněná-archeologická-organizace) k provedení archeologického výzkumu a je tedy všem uživatelům s oprávněním *archeolog* přístupný k prohlédnutí, ale i k registraci pro provedení archeologického terénního výzkumu. 
 Zvláštním typem projektu je projekt **badatelský**, který je vyvolán cíleným vědeckým záměrem, a nikoliv plánovaným terénním zásahem třetí strany. 
 Druhým zvláštním typem projektu je projekt typu **průzkum**, který je opět vyvolán cíleným vědeckým záměrem a zpravidla jej definuje plánovaná dlouhodobost nebo velký územní rozsah, ale metodologicky jde o archeologický výzkum nedestruktivní nebo málo destruktivní, tedy s minimálním zásahem do terénu.
+
+::: {.callout-important}
+
+## Badatelské výzkumy a projekty typu průzkum
+
+- Pokyny pro **badatelské výzkumy** najdete na webových stránkách ústavů:
+    - [Archeologický ústav AV ČR, Brno](https://www.arub.cz/badatelske-archeologicke-vyzkumy/badatelske-archeologicke-vyzkumy/){.external}
+    - [Archeologický ústav AV ČR, Praha](https://www.arup.cas.cz/veda-vyzkum/terenni-vyzkumy/badatelske-archeologicke-vyzkumy/){.external}
+- Pokyny pro **projekty typu průzkum** viz sekce k [AMČR-PAS](amcr-pas/archeolog.qmd).
+
+:::
 
 
 ### Přihlášení projektu 

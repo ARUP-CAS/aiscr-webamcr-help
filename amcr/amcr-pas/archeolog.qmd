@@ -1,63 +1,51 @@
 ---
 title: "Návod pro archeology"
 subtitle: "Pokyny pro archeology k vytváření a správě projektů typu průzkum a samostatných nálezů v AMČR-PAS"
-author:
-  - name: Petr Pajdla
-    orcid: 0000-0001-7050-9572
-  - name: Tomáš Chlup
-    orcid: 0000-0003-3179-992X
-  - name: David Novák
-    orcid: 0000-0001-6592-6291
-  - name: Róbert Antal
-    orcid: 0009-0004-4482-2257
-  - name: Jan Mařík
-    orcid: 0009-0007-7398-9365
-  - name: Balázs Komoróczy
-    orcid: 0000-0002-0576-7230
-  - name: Olga Lečbychová
-    orcid: 0000-0001-5123-1261
-date: 2023-06-27
-doi: 10.5281/zenodo.4114128
+# author:
+#   - name: Petr Pajdla
+#     orcid: 0000-0001-7050-9572
+#   - name: Tomáš Chlup
+#     orcid: 0000-0003-3179-992X
+#   - name: David Novák
+#     orcid: 0000-0001-6592-6291
+#   - name: Róbert Antal
+#     orcid: 0009-0004-4482-2257
+#   - name: Jan Mařík
+#     orcid: 0009-0007-7398-9365
+#   - name: Balázs Komoróczy
+#     orcid: 0000-0002-0576-7230
+#   - name: Olga Lečbychová
+#     orcid: 0000-0001-5123-1261
+date: 2025-02-03
+# doi: 10.5281/zenodo.4114128
 ---
 
-::: {.callout-important}
+::: {.callout-note}
 
-## Upozornění
-
-Následující stránka k 1. srpnu 2024 neprošla revizí a informace, které obsahuje, nemusí být plně platné pro aktuálně spuštěné verze nástrojů AMČR.
-Zároveň mohou být některé odkazy, které stránka obsahuje nefunkční, screenshoty ze zastaralých verzí nástrojů apod.  
+Původně zveřejněno jako:\
+Pajdla P., Chlup T., Novák D., Mařík J., Komoróczy B., Lečbychová O. a Antal R. 2021: *AMČR-PAS Základní principy používání a návod pro archeology.* Zenodo. doi:[10.5281/zenodo.4114128](https://doi.org/10.5281/zenodo.4114128){.external}.
 
 :::
 
-<!-- ::: {.callout-note}
 
-Původně zveřejněno jako...
+**AMČR-PAS** (**Portál amatérských spolupracovníků a evidence samostatných nálezů**) byl vytvořen pro podporu součinnosti dobrovolných spolupracovníků a oprávněných organizací při provádění archeologických výzkumů metodou povrchové prospekce, včetně využití detektorů kovů.
+Úkolem AMČR-PAS je vytvořit podmínky pro transparentnost, formalizaci, a zároveň usnadnění této spolupráce při současném respektování platných zákonných norem ČR.
 
-::: -->
+Modul AMČR-PAS je založen na spolupráci amatérských badatelů s archeology z organizací s oprávněním provádět archeologický výzkum. 
+Předpokladem je, že archeolog bude kontaktován potenciálním spolupracovníkem. 
+S ním v modulu AMČR-PAS naváže a potvrdí spolupráci (návod viz níže). 
+Po potvrzení spolupráce se daným spolupracovníkům otevře možnost registrovat nálezy pod předem dohodnutý [projekt](/slovnik#projekty) v AMČR. 
+Celý proces managementu projektů typu průzkum i potvrzování samostatných nálezů probíhá plně ve webové aplikaci AMČR.
 
-## Úvod
+::: {.callout-note}
 
-AMČR-PAS (Portál amatérských spolupracovníků a evidence
-samostatných nálezů) byl vytvořen pro podporu součinnosti dobrovolných
-spolupracovníků a oprávněných organizací při provádění archeologických
-výzkumů metodou povrchové prospekce, včetně využití detektorů kovů.
-Úkolem AMČR-PAS je vytvořit podmínky pro formalizaci a
-zároveň usnadnění této spolupráce při současném respektování platných
-zákonných norem [čr]{.smallcaps}.
+## Odkazy
 
-Modul AMČR-PAS je založen na spolupráci amatérských
-badatelů s archeology z organizací s oprávněním provádět archeologický
-výzkum. Předpokladem je, že archeolog bude kontaktován potenciálním
-spolupracovníkem. S ním v modulu AMČR-PAS naváže a potvrdí
-`spolupráci` (návod viz níže). Po potvrzení spolupráce se daným
-spolupracovníkům otevře možnost registrovat nálezy pod předem dohodnutý
-`projekt` v AMČR. Jedním z prvních kroků je tedy založení
-projektu terénního průzkumu, které je nutné provést standardní cestou v
-deskotopovém klientu AMČR. Následující kroky pak již
-probíhají ve webovém rozhraní modulu AMČR-PAS.
+Do **AMČR** se přihlásíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.\
+**Webovou stránku AMČR-PAS** pak naleznete zde [http://www.archeologickamapa.cz/pas](http://www.archeologickamapa.cz/pas){.external}.\
 
-**Modul AMČR-PAS** naleznete po přihlášení na [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.\
-**Webovou stránku AMČR-PAS** pak zde [http://www.archeologickamapa.cz/pas](http://www.archeologickamapa.cz/pas){.external}.
+:::
+
 
 ## Principy spolupráce
 
@@ -73,17 +61,11 @@ vedoucího, který je pracovníkem dané oprávněné organizace.
 
 ### Registrace archeologického výzkumu
 
-Archeologické výzkumy jsou registrovány ve formě projektu v
-AMČR, a to vždy ještě před svým zahájením v terénu. Územní
-rozsah projektu je vymezen na základě potřeby a cílů, které má projekt
-splnit. Výzkum je možné vymezit různými způsoby: jak pro konkrétní
-dlouhodobě sledovanou lokalitu, tak jako projekt pro širší region (např.
-okres), při respektování zákonné působnosti oprávněné organizace.
-Doporučuje se, aby výzkumy s větším územním rozsahem nepřesahovaly z
-hlediska délky trvání jeden rok, naopak výzkumy zaměřené na jednu
-lokalitu mohou probíhat i několik sezón. Výzkumná strategie projektu a
-jeho základní principy by měly být konkretizovány a shrnuty v dokumentu
-přiloženém jako součást projektové dokumentace v (AMČR).
+Archeologické výzkumy jsou registrovány ve formě projektu v AMČR, a to vždy ještě před svým zahájením v terénu. 
+Územní rozsah projektu je vymezen na základě potřeby a cílů, které má projekt splnit. 
+Výzkum je možné vymezit různými způsoby: jak pro konkrétní dlouhodobě sledovanou lokalitu, tak jako projekt pro širší region (např. okres), při respektování zákonné působnosti oprávněné organizace.
+Doporučuje se, aby výzkumy s větším územním rozsahem nepřesahovaly z hlediska délky trvání jeden rok, naopak výzkumy zaměřené na kontinuální prospekci jedné lokality mohou probíhat i několik sezón (až pět let). 
+Výzkumná strategie projektu a jeho základní principy by měly být konkretizovány a shrnuty v dokumentu přiloženém jako součást projektové dokumentace v (AMČR).
 
 ### Výzkum provádí oprávněná organizace
 
@@ -141,30 +123,34 @@ Projekty typu **průzkum** lze ve vztahu k době trvání vést dvojím
 způsobem:
 
 - **sběrné projekty**, v rámci kterých evidujeme nálezy z větších
-územní celků (okres, katastr, apod.) Pro takto široce vymezené
+územní celků (okres, katastr, apod.), pro takto široce vymezené
 projekty platí, že doba jejich trvání nepřekračuje jeden rok;
 - projekty, v rámci kterých evidujeme nálezy z **konkrétní lokality**
-po delší dobu. Pro takové projekty pak platí omezení doby trvání na
-max. pět let. V tomto případě vhodně vyplňte pole *lokalizace* v
+po delší dobu, pro takové projekty pak platí omezení doby trvání na
+max. pět let, v tomto případě vhodně vyplňte pole *lokalizace* v
 projektu a do pole *podnět* uveďte informaci o očekávaném trvání
 projektu.
+- třetí kategorií projektů typu průzkum jsou **projekty pro retrospektivní zápis**, 
+určené na zpětný zápis nálezů, které se do sbírky instituce dostaly před vznikem AMČR-PAS, 
+případně před tím, než organizace začala AMČR-PAS systematicky používat.
 
-Oba typy projektů jsou vždy zakončeny nálezovou zprávou, viz [dále](archeolog.qmd#archivace-projektu-typu-průzkum).
+Všechny typy projektů jsou vždy zakončeny nálezovou zprávou, viz [dále](archeolog.qmd#archivace-projektu-typu-průzkum).
 
-### Založení projektu v desktopové aplikaci AMČR
 
-![Zapsat projekt](figs/pas-a_amcr.png){#fig-pas-zapsatproj width="80%"}
+## Správa projektů
 
-Projekt založíme po přihlášení do aplikace AMČR kliknitím
-na kartu `Projekty` a `Zapsat projekt`
+![Správa projektů](figs/pas-a_amcr.png){width="100%"}
+
+Projekt založíme po přihlášení do aplikace AMČR kliknutím na kartu `Projekty` a `Zapsat`.
+Základní postup správy projektů typu průzkum se v zásadě neliší od správy běžných typů projektů, viz návod [zde](/amcr/projekty.qmd).
 
 ### Zapsat projekt
 
-![Projekt typu průzkum](figs/pas-a_proj_zapsat.png){#fig-pas-pruzkum width="80%"}
+![Zápis projektu typu průzkum](figs/pas-a_proj_zapsat.png){width="60%"}
 
 1. Aby projekt mohl sloužit k zápisu samostatných nálezů, musí být zapsán jako **průzkum**.
    Položky, které nám nejsou při zápisu projektu známy můžeme proškrtnout (-).
-1.  Po přidání obecné lokalizace v mapě projekt zapíšeme.
+1.  Po přidání obecné lokalizace v mapě a doplnění povinných polí projekt zapíšeme.
 
 Pro prospekce realizované na velkém množství katastrů (např. celý okres)
 není nutné vymezovat zvlášť všechny dílčí katastry. V takovém případě
@@ -173,9 +159,11 @@ vysvětlete v poli lokalizace.
 
 ### Přihlásit projekt
 
-![Přihlásit projekt](figs/pas-a_proj_prihlasit.png){#fig-pas-prihlasitproj width="80%"}
+![Projekt přihlásíme v pravém horním rohu okna](figs/pas-a_proj_prihlasit.png){width="40%"}
 
-1.  Po přihlášení projektu doplníme vedoucího projektu (ve většině
+![Dialogové okno pro přihlášení projektu](figs/pas-a_proj_prihlasit2.png){width="100%"}
+
+1.  Pro přihlášení projektu doplníme vedoucího projektu (ve většině
     případů sami sebe).
 2.  Aplikace nás vyzve k vyplnění nezbytných údajů a projekt přihlásíme.
 3.  Do projektové dokumentace vložíme soubor s popisem projektu, jeho
@@ -184,67 +172,39 @@ vysvětlete v poli lokalizace.
     [zde](http://www.archeologickamapa.cz/downloads/vzor_PAS_projekt.docx){.external}).
 4.  Pokud je projekt realizován na území s památkovou ochranou, doplníme
     název kulturní památky a její katalogové číslo dle [Památkového katalogu NPÚ](https://www.pamatkovykatalog.cz/){.external}.
+    
+![Sekce pro připojení projektové dokumentace](figs/pas-a_proj_dok.png){width="80%"}
 
 ### Zahájit projekt v terénu
 
-![Zahájit projekt](figs/pas-a_proj_zahajit.png){#fig-pas-zahajitproj width="80%"}
+![Projekt zahájíme v terénu v pravém horním rohu okna](figs/pas-a_proj_zahajit.png){width="60%"}
 
-1.  Posledním nezbytným krokem je přidat datum zahájení projektu.
-2.  Pak klikneme na **Zahájit výzkum**.
+2.  Klikneme na **Zahájit terén**.
+1.  Posledním nezbytným krokem pro zahájení projektu v terénu je přidat datum zahájení.
+
 
 ### Číslo projektu
 
-![Číslo projektu](figs/pas-a_proj_akce.png){#fig-pas-cisloproj width="80%"}
+![Číslo projektu](figs/pas-a_proj_akce.png){width="100%"}
 
-1. Projekt se zobrazí spolupracovníkům v apliakci AMČR-PAS právě ve stavu `zahájen v terénu`.
+Projekt se zobrazí spolupracovníkům v aplikaci AMČR-PAS právě ve stavu `zahájen v terénu`.
 
-   - Číslo projektu lze pro usnadnění zkopírovat z automaticky generovaného výpisu.
-   - Číslo sdělíme spolupracovníkům, kteří mají k danému projektu přispívat.
+- Číslo projektu lze pro usnadnění zkopírovat.
+- Číslo sdělíme spolupracovníkům, kteří mají k danému projektu přispívat.
 
-## Webové rozhraní AMČR-PAS
 
-### Přihlášení
+## Správa nálezů
 
-:::: {.columns}
-
-::: {.column width="40%"}
-![Dialog pro přihlášení](figs/pas-login.png){#fig-pas-login width="80%"}
-:::
-
-::: {.column width="60%"}
-Pro přihlášení do [aplikace](https://amcr.aiscr.cz/){.external} slouží stejná emailová
-adresa a heslo jako do desktopové aplikace AMČR-PAS.
-:::
-
-::::
-
-### Úvodní obrazovka
-
-:::: {.columns}
-
-::: {.column width="40%"}
-![Výběr modulu AMČR](figs/pas-main.png){#fig-pas-main width="80%"}
-:::
-
-::: {.column width="60%"}
-Modul AMČR-PAS je jednou ze součástí Archeologického
-informačního systému [čr]{.smallcaps} ([ais cr]{.smallcaps}), resp.
-Archeologické mapy [čr]{.smallcaps} (AMČR). Ve webové
-aplikaci je v současnosti dostupný modul AMČR-PAS a
-Knihovna 3D, která slouží pro evidenci 3D modelů a textur relevantních
-pro archeologii.
-:::
-
-::::
 
 Samotný modul AMČR-PAS se skládá z několika karet:
 
-![Karty po přihlášení do AMČR-PAS](figs/pas-a_main.png){#fig-pas-karty width="80%"}
+![Správa samostatných nálezů v AMČR-PAS](figs/pas-a_main.png){width="80%"}
 
-- **Zapsat**: Zápis nového nálezu;
-- **Moje nálezy**: Výčet nálezů, evidovaných pro mou organizaci;
-- **Vybrat**: Výběr nálezů dle zadaných kritérií;
 - **Spolupráce**: Správa spolupráce s amatérskými badateli;
+- **Zapsat**: Zápis nového nálezu;
+- **Vybrat**: Výběr nálezů dle zadaných kritérií;
+- **Moje záznamy**: Výčet nálezů, evidovaných mnou;
+- **Naše záznamy**: Výčet nálezů, evidovaných pro mou organizaci;
 - **Potvrdit**: Seznam nálezů evidovaných spolupracovníky čekajících na potvrzení.
 
 ### Spolupráce
@@ -254,49 +214,36 @@ Po žádosti o spolupráci ze strany amatérského badatele budete vyzvání k
 jejímu potvrzení, to provedete právě v této části aplikace. Potvrzením
 spolupráce vznikne vazba mezi Vámi a spolupracujícím amatérem.
 
-![Tabulka spoluprací](figs/pas-a_spoluprace_tabulka.png){#fig-pas-spolupracetab width="90%"}
-
-1.  Další informace o spolupráci, manipulace s daným vztahem.
-2.  Informace o tom, zda-li je daná spolupráce `aktivní` a je-li `potvrzena`.
-
-:::: {.columns}
-
-::: {.column width="50%"}
-![Potvrdit spolupráci](figs/pas-a_spoluprace_potvrdit.png){#fig-pas-spolupracepotvr width="90%"}
-:::
-
-::: {.column width="50%"}
 Po potvrzení spolupráce, vytvoření projektu a sdělení jeho
 identifikátoru může spolupracovník pod tento projekt začít zapisovat
 nálezy.
-:::
 
-::::
 
 ### Potvrzení nálezu
 
 Po tom, co spolupracovník zapíše a potvrdí nález k odeslání, zobrazí se
 Vám tyto nálezy pod kartou `Potvrdit` ve formě přehledné tabulky.
 
-![Tabulka nálezů](figs/pas-a_potvrdit_tabulka.png){#fig-pas-nalezytab width="90%"}
+![Tabulka nálezů](figs/pas-a_potvrdit_tabulka.png){width="90%"}
 
-1. Úpravu informací zadaných spolupracovníkem provedeme po kliknutí na ikonu {{< fa external-link-alt >}}.
+1. Úpravu informací zadaných spolupracovníkem provedeme po kliknutí na identifikátor nálezu.
 2. Díky nabídce vpravo nahoře můžeme *(platí pro všechny tabulky v aplikaci)*:
 
     - přepnout tabulku na kompaktní textové zobrazení
     - zvolit sloupce, které budou zobrazeny
-    - stáhnout data ve formátech `CSV`, `XML` či `JSON`
+    - stáhnout data ve formátech `CSV`, `JSON` či `XLSX`.
 
 ### Detail potvrzení nálezu
 
 #### Fotografie
 
-![Tabulka přiložených fotografií](figs/pas-a_zapis_foto.png){#fig-pas-fototab width="90%"}
+![Tabulka přiložených fotografií](figs/pas-a_zapis_foto.png){width="90%"}
 
 První zobrazenou sekcí je seznam přiložených fotografií, ty lze po
 kliknutí na ikonu {{< fa save >}} stáhnout. Rovněž je
 možné nadbytečné fotografie nálezu smazat, případně přidat další, např.
-po laboratorním zpracování. **Upozorňujeme, že smazání fotografie ze systému je nevratné!**
+po laboratorním zpracování, případně již nahrané fotografie nahradit.
+**Upozorňujeme, že smazání fotografie ze systému je nevratné!**
 
 Fotografie musí splňovat archeologický dokumentační standard. Tím
 rozumějme kolmé a šikmé snímky předmětu tak, aby zachycovaly celkovou
@@ -310,21 +257,31 @@ praxi v dokumentaci drobných nálezů viz sekce [Fotografická dokumentace nál
 
 #### Nálezové okolnosti
 
-![Nálezové okolnosti](figs/pas-a_zapis_okolnosti.png){#fig-pas-aokolnosti width="80%"}
+![Detail záznamu](figs/pas-a_zapis_okolnosti.png){width="80%"}
 
-V sekci `Nálezové okolnosti` najdeme:
+V sekci `Detail` najdeme:
 
 -   číslo projektu,
--   jméno a příjmení nálezce (resp. autora záznamu),
+-   jméno a příjmení nálezce (resp. autora záznamu), tu mohu z důvodu anonymizace hledače upravit na hodnotu `anonym, anonym`,
 -   katastrální území nálezu (automaticky vyplněno podle lokalizace v mapě),
 -   detailnější popis lokalizace - např. formou parc. č. či pomístního názvu (ulice, trať, poloha). Prosím dodržte následující formát zápisu: *Poloha, (parc. č.)*,
--   identifikaci nálezce - tu mohu z důvodu anonymizace hledače upravit na hodnotu `anonym, anonym`,
 -   datum nálezu,
--   další nálezové okolnosti.
+-   další nálezové okolnosti,
+-   vlastní popis nálezu:
+    -  datace nálezu do určitého období, 
+    -  pole `Přesná datace` slouží k bližší dataci nálezu nad rámec pole
+        `Období`, může obsahovat století (např. u mincí) či plné znění
+        konkrétního periodizačního systému (*Lt C/D, Řím A0* atp).
+    -  typ nalezeného předmětu,
+    -  materiál atd.
+
+Vyplnění této části je pro amatérské spolupracovníky většinou povinné, nicméně předpokládáme úpravu zadaných informací archeologem.
+Úpravu zadaných údajů provedeme po kliknutí na ikonu **tužky** v pravém horním roku dané sekce.
+
+![Upravit záznam](figs/pas-a_zapis_upravit.png){width="30%"}
+
 
 #### Lokalizace nálezu
-
-![Mapové okno](figs/pas-a_zapis_mapa.png){#fig-pas-amapa width="80%"}
 
 Mapové okno slouží k přesné lokalizaci nálezu. Lze přepínat mezi různými
 mapovými podklady.
@@ -341,21 +298,10 @@ Místo nálezu je možné určit několika způsoby:
     Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.
 -   Přiblížením v mapě a vybráním přesného bodu.
 
-#### Nález
-
-![Popis nálezu](figs/pas-a_zapis_nalez.png){#fig-pas-apopis width="80%"}
-
-V sekci `Nález` je specifikována datace nálezu, typ předmětu atd.
-Vyplnění této části je pro amatérské spolupracovníky povinné, nicméně
-předpokládáme úpravu zadaných informací archeologem.
-
--   Pole `Přesná datace` slouží k bližší dataci nálezu nad rámec pole
-    `Období`, může obsahovat století (např. u mincí) či plné znění
-    konkrétního periodizačního systému (*Lt C/D, Řím A0* atp).
 
 #### Uložení
 
-![Detaily uložení nálezu](figs/pas-a_zapis_ulozeni.png){#fig-pas-ulozeninal width="80%"}
+![Detaily uložení nálezu](figs/pas-a_zapis_ulozeni.png){width="80%"}
 
 Poslední vyplňovanou sekcí jsou informace o uložení a předání nálezu.
 Rozepsaný formulář lze v jakémkoliv bodě práce uložit a vrátit se k němu
@@ -375,11 +321,9 @@ později. Zde je nutné:
     omezit na `archiváře`, případně informace zpřístupnit širšímu okruhu
     uživatelů (anonymní, registrovaní badatelé).
 
-### Moje nálezy a Vybrat
+### Moje nálezy, Naše nálezy a Vybrat
 
-![Karty aplikace Moje nálezy a Vybrat](figs/pas-a_moje.png){#fig-pas-amojenal width="80%"}
-
-Karta `Moje nálezy` nabízí výpis nálezů evidovaných spolupracovníky mé
+Karty `Moje nálezy` a `Naše nálezy` nabízí výpis nálezů evidovaných spolupracovníky mé
 organizace. Karta `Vybrat` pak nabízí multikriteriální vyhledávání v
 nálezech evidovaných v modulu AMČR-PAS. V obou případech
 lze záznamy libovolně filtrovat, řadit, případně exportovat do
@@ -387,7 +331,7 @@ podporovaných formátů.
 
 ## Nález v Digitálním archivu AMČR
 
-![Digitální archiv AMČR](figs/pas-digiarchiv1.png){#fig-pas-ada1 width="80%"}
+![Digitální archiv AMČR](figs/pas-digiarchiv1.png){width="80%"}
 
 Po **odeslání záznamu nálezu** jej potvrdí osoba pověřená archivací
 detektorových nálezů na příslušném Archeologickém ústavu [av
@@ -402,30 +346,23 @@ archivaci daného projektu. Ve chvíli, kdy dojde k archivaci prvního
 nálezu, v Digitálním archivu jsou zveřejněna i základní metadata o
 souvisejícím projektu.
 
-![Samostatné nálezy v Digitálním archivu AMČR](figs/pas-digiarchiv2.png){#fig-pas-ada2 width="80%"}
+![Samostatné nálezy v Digitálním archivu AMČR](figs/pas-digiarchiv2.png){width="80%"}
 
 ## Archivace projektu typu průzkum
 
+![Ukončení projektu v terénu](figs/pas-a-ukoncit.png){width="60%"}
+
 Pro posunutí projektu typu průzkum do stavu *navržen k archivaci*, kdy
-se spolupracujícím již nebude zobrazovat číslo projektu ve webovém
+se spolupracovníkům již nebude zobrazovat číslo projektu ve webovém
 rozhraní, tj. nebude možné pod projekt zapisovat nové nálezy, postupujte
 následovně:
 
-1.  v desktopové aplikaci AMČR vyberte projekt;
-2.  ukončete projekt v terénu, případně upravte začátek a konec projektu
-    v terénu tak, aby data odpovídala skutečnosti;
-3.  vytvořte *Akci*, u té vyplňte nutné minimum údajů tak, aby ji bylo
-    možno odeslat, případně povinná pole proškrtněte (-);
-4.  vytvořte *Dokumentační jednotku (Celek akce)*, ta je formální, aby
-    bylo projekt možné uzavřít. Zaškrtněte pole *Negativní zjištění* v
-    podsekci *Popis dokumentační jednotky*;
-5.  přidejte *PIAN*, bod, který umístěte na okresní/krajské město apod.,
-    jde o formální krok;
-6.  Nahrajte k akci nálezovou zprávu podle zjednodušeného vzoru (vzor
+1. **ukončete projekt v terénu**, případně upravte začátek a konec projektu v terénu tak, aby data odpovídala skutečnosti, následně projekt uzavřete;
+6.  nahrajte k projektu **nálezovou zprávu** podle zjednodušeného vzoru (vzor
     [zde](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_vzor_NZ.docx){.external}),
     pro inspiraci můžete využít následující
     [příklad](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_NZ_priklad.pdf){.external};
-7.  navrhněte projekt k archivaci.
+7.  navrhněte **projekt k archivaci**.
 
 Forma NZ k projektům typu průzkum je o poznání stručnější než v případě
 klasických nálezových zpráv, neboť o vyplnění komponent a jednotlivých
