@@ -27,7 +27,7 @@
         },
     ],
 
-    "license": "cc-by-nc-4.0",
+    "license": "CC-BY-NC-4.0",
 
     "title": "Uživatelská dokumentace AMČR",
     
@@ -46,7 +46,7 @@
             "scheme": "url",
             "identifier": "https://amcr-help.aiscr.cz",
             "relation": "isSourceOf",
-            "resource_type": "publication"
+            "resource_type": "other"
         }
     ],
 
