@@ -2,13 +2,13 @@
 title: Zpravodaj AMČR č. 12
 description: Persistentní identifikátory, chybová hlášení, novela zákona č. 20/1987 Sb. aj.
 # categories: [webová AMČR, Digitální archiv, persistentní identifikátory, chybová hlášení, citace, badatelské výzkumy, legislativa]
-date: 2025-03-25
+date: 2025-03-26
 toc-depth: 2
 ---
 
 > Vážení uživatelé AMČR,
 >
-> přinášíme Vám zpravodaj AMČR č. 12, který je spjat zejména s nasazením nové *minor* verze AMČR, ve které implementujeme (nejen) přidělování persistentních identifikátorů DOI, IGSN a dalších. Dále zpravodaj přináší informace o chybových hláškách, které Vám AMČR může vracet, ale i jiné novinky z [Archeologického informačního systému České republiky (AIS CR)](https://www.aiscr.cz/){.external}.
+> přinášíme Vám zpravodaj AMČR č. 12, který je spjat zejména s nasazením nové verze AMČR, ve které implementujeme (nejen) přidělování persistentních identifikátorů DOI, IGSN a dalších, ale i řadu dílčích změn pro usnadnění Vaší práce. Dále zpravodaj obsahuje informace o chybových hláškách AMČR, se kterými se můžete setkat, ale i jiné novinky z [Archeologického informačního systému České republiky (AIS CR)](https://www.aiscr.cz/){.external}.
 >
 > Váš *tým* AIS CR...
 
@@ -34,7 +34,7 @@ Výpis pak obsahuje aktivní hyperlinky odkazující na navázané záznamy.
 Více o FAIR datech v archeologii se můžete dozvědět v příručce *ZÁSADY zajištení FAIRové správy a využitelnosti dat* <https://doi.org/10.5281/zenodo.3946099>]{.aside}
 AMČR dosud užívala pouze interní systém identifikátorů, které sice lze považovat za trvalé, nicméně nenaplňují parametry persistentních identifikátorů (PID). 
 Nově jsou všem **dokumentům** při jejich archivaci přidělovány identifikátory [**DOI** (*Digital Object Identifier*)](https://www.doi.org/){.external}, odvozené z interního identifikátoru. 
-Obdobně je pak všem **nálezům v AMČR-PAS** a **lokalitám** v momentě archivace přidělen identifikátor [**IGSN** (*International Generic Sample Number*)](https://ev.igsn.org/){.external}, což je specifický identifikátor pro fyzické entity odvozený z DOI. 
+Obdobně je pak všem **nálezům v AMČR-PAS** a **lokalitám** v momentě archivace přidělen identifikátor [**IGSN** (*International Generic Sample Number*)](https://support.datacite.org/docs/igsn-ids){.external}, což je specifický identifikátor pro fyzické entity odvozený z DOI. 
 
 Uživatel si pak ve správě svého účtu může provázat svůj účet s [**ORCID** (*Open Researcher and Contributor ID*)](https://orcid.org/){.external} pro jednoznačnou identifikaci. 
 ORCID byly spolu s [Wikidata ID](https://www.wikidata.org/wiki/Wikidata:Identifiers){.external} doplněny též do hesláře osob. 
@@ -46,7 +46,7 @@ Všechny tyto identifikátory zajistí lepší citovatelnost dat v AMČR a jejic
 ### Nová potvrzení o oznámení a zrušení projektu
 
 AMČR již řadu let automaticky generuje a odesílá oznamovatelům potvzení o splnění jejich oznamovací povinnosti. 
-Toto potvrzení dostalo novou, přehlednější podobu a jeho obsah byl doplněn o poučení o zákonných povinností a možnostech oznamovatele souvisejících s realizací archeologického výzkumu. 
+Toto potvrzení dostalo novou, přehlednější podobu a jeho obsah byl doplněn o poučení o zákonných povinnostech a možnostech oznamovatele souvisejících s realizací archeologického výzkumu. 
 Toto potvrzení je nově možné v důvodných případech pomocí volby v příslušných krocích správy projektu cíleně neodeslat (např. evidence neoznámených záměrů). 
 Zcela nově pak bylo doplněno obdobné potvrzení odesílané při zrušení projektu, které je rovněž přiloženo k emailu pro oznamovatele. 
 Jeho cílem je zvýšit právní jistotu a zlepšit komunikaci s oznamovateli záměrů.
@@ -69,6 +69,10 @@ Nově je díky optimalizaci procesu možné tuto hranici cíleně překročit, a
 V mapě při editaci PIAN přibyl nový nástroj pro úpravu polohy lomového bodu editované geometrie zadáním konkrétních souřadnic. 
 Lze tak zadávat velmi přesnou polohu a tvar PIAN i bez nutnosti data importovat, pokud to z nějakých důvodů není možné či účelné.
 
+![](figs/12/coords1.png)
+
+![](figs/12/coords2.png)
+
 ### Nové metadatové schéma
 
 Vzhledem ke změnám v datové struktuře byla provedena aktualizace metadatového schématu užívaného k ukládání metadat v repozitáři a jejich poskytování prostřednictvím protokolu OAI-PMH. 
@@ -85,7 +89,7 @@ Po odhlášení uživatele si také aplikace zapamatuje, kde jste skončili, a d
 
 - Optimalizace chování aplikace při nahrávání souborů -- vše je nyní srozumitelnější a soubory lze po nahrání snadno odstranit, dokud proces nedokončíte.
 - U každého záznamu přibyla ikona pro zkopírování odkazu na daný záznam v AMČR (jeho PID, tj. DOI nebo IGSN naopak vždy vede na stránku v [Digitálním archivu](https://digiarchiv.aiscr.cz/){.external}).
-- Pole s výběrovými seznamy jsou nyní vždy opticky odlišitelná od běžných textových polí a seznamy s možností výběru více položek obsahují možnosti `Vybrat` vše a `Zrušit výběr`.
+- Pole s výběrovými seznamy jsou nyní vždy opticky odlišitelná od běžných textových polí a seznamy s možností výběru více položek obsahují možnosti `Vybrat vše` a `Zrušit výběr`.
 - Základní topografická mapa je nově dostupná též ve stupních šedi.
 - Do AMČR-PAS lze nově souřadnice zadávat také ve formátu stupně, minuty a vteřiny. Stačí přepnout příslušnou volbu v menu se souřadnicovými systémy.
 - Optimalizace rychlosti načítání dat, celkové odezvy aplikace, opravy chyb a drobná vylepšení.
