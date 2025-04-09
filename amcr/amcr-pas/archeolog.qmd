@@ -42,7 +42,7 @@ Celý proces managementu projektů typu průzkum i potvrzování samostatných n
 ## Odkazy
 
 Do **AMČR** se přihlásíte zde: [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.\
-**Webovou stránku AMČR-PAS** pak naleznete zde [http://www.archeologickamapa.cz/pas](http://www.archeologickamapa.cz/pas){.external}.\
+**Webovou stránku AMČR-PAS** pak naleznete zde [https://amcr-info.aiscr.cz/pas/](https://amcr-info.aiscr.cz/pas/){.external}.\
 
 :::
 
@@ -169,7 +169,7 @@ vysvětlete v poli lokalizace.
 3.  Do projektové dokumentace vložíme soubor s popisem projektu, jeho
     cílů, územního rozsahu, metodiky a způsobu organizace (vzor
     dokumentu ke stažení
-    [zde](http://www.archeologickamapa.cz/downloads/vzor_PAS_projekt.docx){.external}).
+    [zde](https://amcr-info.aiscr.cz/downloads/vzor_PAS_projekt.docx){.external}).
 4.  Pokud je projekt realizován na území s památkovou ochranou, doplníme
     název kulturní památky a její katalogové číslo dle [Památkového katalogu NPÚ](https://www.pamatkovykatalog.cz/){.external}.
     
