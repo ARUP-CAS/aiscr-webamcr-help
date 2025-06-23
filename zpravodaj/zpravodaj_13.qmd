@@ -1,0 +1,86 @@
+---
+title: Zpravodaj AMČR č. 13
+description: Novela zákona č. 20/1987 Sb. a odesílání oznámení krajům
+# categories: [webová AMČR, Digitální archiv, persistentní identifikátory, chybová hlášení, citace, badatelské výzkumy, legislativa]
+date: 2025-06-23
+toc-depth: 2
+---
+
+> Vážení uživatelé AMČR,
+>
+> přinášíme Vám zpravodaj **AMČR č. 13**, který pojednává o novelizaci památkového zákona, zejména pak o povinnosti odesílat oznámení o zahájení archeologického výzkumu krajům prostřednictvím AMČR.
+>
+> Váš *tým* AIS CR...
+
+## Novelizace památkového zákona a odesílání oznámení krajům prostřednictvím AMČR
+
+Informační systém *Archeologická mapa České republiky* ([AMČR](https://www.aiscr.cz/){.external}) dlouhodobě slouží oprávněným archeologickým organizacím ([OAO](https://oao.aiscr.cz/){.external}) k plnění povinnosti oznámit *Archeologickému ústavu* zahájení archeologických výzkumů ve smyslu **§21 odst. 4** [**zákona č. 20/1987 Sb., o státní památkové péči**](https://www.zakonyprolidi.cz/cs/1987-20){.external} (dále jen zákon). 
+K **1. 1. 2025** vešla v účinnost novelizace zákona, která přináší řadu změn, zaměřených na plnění povinností OAO. 
+Zásadní změnou je zákonné ukotvení možnosti zajištění kontroly nad nakládáním s archeologickými nálezy pro jejich vlastníky, zejména samosprávné kraje, a to již od zahájení terénního výzkumu. 
+Na základě §23a odst. 3 zákona jsou nově ty OAO, které nejsou příspěvkovou organizací nebo organizační složkou obce, státní příspěvkovou organizací nebo organizační složkou státu (tj. většina OAO), **povinny toto oznámení učinit rovněž vůči kraji, ve kterém výzkum probíhá**.
+
+Zástupci *Archeologických ústavů AV ČR* v tomto ohledu vedli delší dobu jednání na úrovni *Asociace krajů České republiky* tak, aby bylo možné bez zavádění duplicitní agendy novou oznamovací povinnost zprostředkovat skrze AMČR a zajistit jednotnost, úplnost a transparentnost evidence bez zbytečných vícenákladů. 
+Při návrhu jsme se opírali o skutečnost, že stejným způsobem je dlouhodobě ošetřeno i zprostředkování zákonného oznámení o výzkumu na kulturních památkách vůči [*Národnímu památkovému ústavu*](https://www.npu.cz/){.external}. 
+Výhodou je, že AMČR slouží též jako digitální repozitář dokumentace výzkumů, veškeré údaje z ní jsou dostupné ve strojově čitelném formátu skrze [API služby](https://arup-cas.github.io/aiscr-api-home/oai-pmh/){.external} a relevantní údaje jsou po ukončení a archivaci projektů veřejně dostupné v rámci [Digitálního archivu AMČR](https://digiarchiv.aiscr.cz/){.external}. 
+Veškerá data v systému jsou bezpečně zálohovaná, verzovaná a zanechávají dostatečnou auditní stopu.
+
+Asociace krajů se tento návrh rozhodla podpořit a uvést do praxe jako doporučený postup, který by měl být postupně realizován v jednotlivých krajích. 
+Vznikla tak šablona nařízení kraje vydávaných podle §23a odst. 4 zákona, která bude využívána jako základní model pro nastavení povinností OAO. 
+V praxi se jedná o následující postup:
+
+1. Kraj **nařízením stanoví**, že dotčené OAO na jeho území mohou plnit oznamovací povinnost podle zákona prostřednictvím AMČR. 
+    Následně s *Archeologickým ústavem* v Praze či Brně (podle územní příslušnosti) uzavře kraj **dohodu o užívání AMČR** podle jednotné šablony. 
+    Dohoda upravuje zejména otázky ochrany osobních údajů, autorizovaného přístupu do systému a oficiálních zasílacích adres.
+    
+2. Při provádění oznámení o zahájení a ukončení archeologického výzkumu v AMČR bude mít každá OAO možnost zároveň odeslat oznámení kraji. 
+    Činí tak vždy prostřednictvím ověřeného uživatele, obvykle odpovědného odborného pracovníka (uživatel s oprávněním archeolog). 
+    Za tímto účelem byl nově upraven **dialog ohlášení zahájení a ukončení projektu** v AMČR do následující podoby:  
+    ![](figs/13/zahajit.png){width=80% fig-align="center"}  
+    Aby byl dialog aktivní, musí projekt alespoň jedním z dotčených a evidovaných katastrů zasahovat na území kraje, kde již bylo vydáno příslušné nařízení a uzavřena z něj vyplývající dohoda. 
+    Toto vyhodnocení provádí AMČR automaticky. 
+    Pokud je projektem zasaženo více krajů vyhodnocení a odeslání oznámení proběhne pro všechny z nich.
+    
+3. Oznámení pro kraj vždy obsahuje **jednoznačný identifikátor** archeologického výzkumu v AMČR (ID projektu) a dostupné věcné i lokalizační údaje o archeologickém výzkumu evidované v AMČR ke dni oznámení. 
+    Oznámení bude automaticky **odesláno na krajem definovaný email**, v kopii bude směřováno uživateli, který oznámení odeslal, a jeho adresa bude nastavena jako výchozí pro odpověď.
+
+3. Další případnou komunikaci kraj povede přímo se subjektem, který oznámil zahájení výzkumu, a to již mimo systém AMČR. 
+    Zároveň má **kraj možnost prostřednictvím svých zaměstnanců přistupovat do AMČR** a prohlížet záznamy o projektech.
+
+Jako pilotní příklad naplnění tohoto postupu lze uvést Pardubický kraj, kde bylo [vydáno příslušné nařízení kraje (č. 1/2025)](https://sbirkapp.gov.cz/detail/SPPE2SWORSKRGXKG){.external}, s účinností k 31. 5. 2025. 
+Aktuálně probíhá uzavření potřebné dohody mezi krajem a Archeologickým ústavem, na jehož základě bude možné pravděpodobně od července 2025 využívat AMČR pro plnění oznamovací povinnosti. 
+Další kraje se budou do systému připojovat tak, jak budou vydávána příslušná nařízení a uzavírány odvislé dohody.
+
+Zvolené řešení je pro veškeré OAO i kraje dostupné bezplatně a může být vždy zajištěno **bezprostředně po vydání nařízení a uzavření příslušné smlouvy**. 
+Jeho zásadní výhodou je plná návaznost na existující praxi a dlouhodobě funkční systém evidence. 
+Krajům je v této souvislosti zároveň v náhledovém režimu zajištěn přímý přístup do systému AMČR, kde budou mít pracovníci kraje možnost prohlížet evidované projekty, kontrolovat plnění oznamovací povinnosti a sledovat stav provádění jednotlivých archeologických výzkumů (projektů), či stav jejich přípravy.
+
+Řešení **nevylučuje separátní oznámení prováděná mimo systém AMČR**. 
+V případech, kdy kraj podporuje oznamování skrze AMČR, je na rozhodnutí uživatele, zda tuto možnost využije. 
+Zdůrazňujeme však, že **vzhledem k zákonné povinnosti vyplývající z §21 odst. 4 zákona se nelze vyhýbat samotnému oznámení o zahájení výzkumu Archeologickému ústavu**, které probíhá zpravidla prostřednictvím AMČR. 
+Opomenutí této povinnosti je přestupkem podle zákona, za který lze uložit zákonnou sankci a může též vést k řízení o odebrání licence.
+
+Pro výzkumy v krajích, které dosud nevydaly příslušné nařízení, případně se rozhodly situaci řešit jiným způsobem, je třeba postupovat odpovídajícím způsobem mimo rámec AMČR.
+
+
+### Veřejná správa a archeologie v digitální době
+
+V souvislosti s výše uvedeným ještě připomínáme webinář, na který jsme upozorňovali již v minulém *Zpravodaji*.
+Konal se v rámci akce [Týden pro digitální Česko 2024](https://digitalnicesko.gov.cz/){.external} a kolegové **Róbert Antal** a **Ondřej Švejcar** se věnovali tématu ochrany archeologického dědictví a výše zmíněným změnám v zákoně o státní památkové péči.
+Záznam webináře naleznete na našem [YouTube kanále](https://www.youtube.com/@aiscr253){.external}.
+
+{{< video https://youtu.be/iliWCsnJdT4?si=m8QaP3IqOppH9zZd >}}
+
+
+## Nastavení zasílání Zpravodaje a využití ORCID
+
+*Zpravodaj AMČR* jsme dosud zasílali všem aktivním registrovaným uživatelům. 
+Abychom Vám usnadnili možnost nás informovat o tom, že o zasílání Zpravodaje nemáte zájem, nově stačí v [nastavení uživatelského účtu](https://amcr.aiscr.cz/uzivatel/edit/){.external} vypnout možnost *“Chci zasílat Zpravodaj AMČR s novinkami”*. 
+V takovém případě Vám tento *Zpravodaj* přestaneme zasílat a budeme Vás kontaktovat pouze v případě oznámení technického a organizačního rázu v souvislosti s provozem systému AMČR.
+
+V konfiguraci uživatele je možné nově též doplnit svůj identifikátor [ORCID](https://orcid.org/){.external}, abychom Vás mohli lépe a jednoznačně ztotožnit a využít tento údaj při další správě údajů v AMČR. 
+Prozatím jde pouze o neformální přičlenění Vašeho účtu k záznamu ORCID, které pro nás má informativní hodnotu. 
+Do budoucna bude zajištěno přímé propojení se systém ORCID tak, aby bylo možné provést autorizované propojení mezi účtem v AMČR a službou ORCID.
+
+![](figs/13/orcid.png){width=80% fig-align="center"}
+
+![](figs/13/uziv.png){width=100% fig-align="center"}
