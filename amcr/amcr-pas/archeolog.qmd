@@ -16,7 +16,7 @@ subtitle: "Pokyny pro archeology k vytváření a správě projektů typu průzk
 #     orcid: 0000-0002-0576-7230
 #   - name: Olga Lečbychová
 #     orcid: 0000-0001-5123-1261
-date: 2025-02-03
+date: 2025-06-23
 # doi: 10.5281/zenodo.4114128
 ---
 
@@ -350,19 +350,27 @@ souvisejícím projektu.
 
 ## Archivace projektu typu průzkum
 
-![Ukončení projektu v terénu](figs/pas-a-ukoncit.png){width="60%"}
+Postup pro uzavření projektu:
 
-Pro posunutí projektu typu průzkum do stavu *navržen k archivaci*, kdy
-se spolupracovníkům již nebude zobrazovat číslo projektu ve webovém
-rozhraní, tj. nebude možné pod projekt zapisovat nové nálezy, postupujte
-následovně:
-
-1. **ukončete projekt v terénu**, případně upravte začátek a konec projektu v terénu tak, aby data odpovídala skutečnosti, následně projekt uzavřete;
-6.  nahrajte k projektu **nálezovou zprávu** podle zjednodušeného vzoru (vzor
+1. **ukončete projekt v terénu**, případně upravte začátek a konec projektu v terénu tak, aby data odpovídala skutečnosti, v tomto stavu již do projektu nebude možné zapisovat nové nálezy, nicméně lze editovat nálezy stávající;
+6. nahrajte k projektu **nálezovou zprávu** podle zjednodušeného vzoru (vzor
     [zde](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_vzor_NZ.docx){.external}),
     pro inspiraci můžete využít následující
     [příklad](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_NZ_priklad.pdf){.external};
-7.  navrhněte **projekt k archivaci**.
+7. **projekt uzavřete**, po tomto kroku již nebude možné projekt ani navázané nálezy editovat, proto před uzavřením dokončete úpravy všech nálezů;
+7. archivář projekt zkontroluje a posune do stavu **archivovaný**.
+
+![Ukončení projektu v terénu](figs/pas-a-ukoncit.png){width="60%"}
+
+::: {.callout-important}
+
+## Stavy projektu typu průzkum
+
+- Ve stavu projektu **ukončený v terénu** se spolupracovníkům již nebude zobrazovat číslo projektu ve webovém
+rozhraní, tj. **nebude možné pod projekt zapisovat nové nálezy**, již existující nálezy však bude možné stále editovat.
+- Ve stavu **uzavřený** již **nebude možné editovat nálezy** navázané na projekt.
+
+:::
 
 Forma NZ k projektům typu průzkum je o poznání stručnější než v případě
 klasických nálezových zpráv, neboť o vyplnění komponent a jednotlivých

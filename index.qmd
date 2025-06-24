@@ -10,7 +10,7 @@ doi: 10.5281/zenodo.8141634
 #   - name: Ondřej Švejcar 
 #   - name: Tomáš Pavloň
 #     orcid: 0009-0007-4387-6976
-date: today
+date: 2025-03-26
 toc: false
 format-links: false
 listing:
