@@ -1,14 +1,15 @@
 ---
 title: Zpravodaj AMČR č. 13
-description: Novela zákona č. 20/1987 Sb. a odesílání oznámení krajům
+description: Novela památkového zákona, odesílání oznámení krajům a novinky v nastavení uživ. účtu
 # categories: [webová AMČR, Digitální archiv, persistentní identifikátory, chybová hlášení, citace, badatelské výzkumy, legislativa]
-date: 2025-06-23
+date: 2025-06-24
 toc-depth: 2
 ---
 
 > Vážení uživatelé AMČR,
 >
-> přinášíme Vám zpravodaj **AMČR č. 13**, který pojednává o novelizaci památkového zákona, zejména pak o povinnosti odesílat oznámení o zahájení archeologického výzkumu krajům prostřednictvím AMČR.
+> přinášíme Vám zpravodaj **AMČR č. 13**, který pojednává o novelizaci památkového zákona, zejména pak o možnostech plnění povinnosti odesílat oznámení o zahájení archeologického výzkumu krajům. 
+> Dále se krátce zmiňujeme o některých novinkách ve správě účtu, včetně možnosti zvolit si, zda chcete zasílat tento *Zpravodaj*.
 >
 > Váš *tým* AIS CR...
 
@@ -24,7 +25,7 @@ Při návrhu jsme se opírali o skutečnost, že stejným způsobem je dlouhodob
 Výhodou je, že AMČR slouží též jako digitální repozitář dokumentace výzkumů, veškeré údaje z ní jsou dostupné ve strojově čitelném formátu skrze [API služby](https://arup-cas.github.io/aiscr-api-home/oai-pmh/){.external} a relevantní údaje jsou po ukončení a archivaci projektů veřejně dostupné v rámci [Digitálního archivu AMČR](https://digiarchiv.aiscr.cz/){.external}. 
 Veškerá data v systému jsou bezpečně zálohovaná, verzovaná a zanechávají dostatečnou auditní stopu.
 
-Asociace krajů se tento návrh rozhodla podpořit a uvést do praxe jako doporučený postup, který by měl být postupně realizován v jednotlivých krajích. 
+*Asociace krajů* se tento návrh rozhodla podpořit a uvést do praxe jako doporučený postup, který by měl být postupně realizován v jednotlivých krajích. 
 Vznikla tak šablona nařízení kraje vydávaných podle §23a odst. 4 zákona, která bude využívána jako základní model pro nastavení povinností OAO. 
 V praxi se jedná o následující postup:
 
@@ -33,7 +34,7 @@ V praxi se jedná o následující postup:
     Dohoda upravuje zejména otázky ochrany osobních údajů, autorizovaného přístupu do systému a oficiálních zasílacích adres.
     
 2. Při provádění oznámení o zahájení a ukončení archeologického výzkumu v AMČR bude mít každá OAO možnost zároveň odeslat oznámení kraji. 
-    Činí tak vždy prostřednictvím ověřeného uživatele, obvykle odpovědného odborného pracovníka (uživatel s oprávněním archeolog). 
+    Činí tak vždy prostřednictvím ověřeného uživatele, obvykle odpovědného odborného pracovníka (uživatel s oprávněním *archeolog*). 
     Za tímto účelem byl nově upraven **dialog ohlášení zahájení a ukončení projektu** v AMČR do následující podoby:  
     ![](figs/13/zahajit.png){width=80% fig-align="center"}  
     Aby byl dialog aktivní, musí projekt alespoň jedním z dotčených a evidovaných katastrů zasahovat na území kraje, kde již bylo vydáno příslušné nařízení a uzavřena z něj vyplývající dohoda. 
@@ -46,8 +47,8 @@ V praxi se jedná o následující postup:
 3. Další případnou komunikaci kraj povede přímo se subjektem, který oznámil zahájení výzkumu, a to již mimo systém AMČR. 
     Zároveň má **kraj možnost prostřednictvím svých zaměstnanců přistupovat do AMČR** a prohlížet záznamy o projektech.
 
-Jako pilotní příklad naplnění tohoto postupu lze uvést Pardubický kraj, kde bylo [vydáno příslušné nařízení kraje (č. 1/2025)](https://sbirkapp.gov.cz/detail/SPPE2SWORSKRGXKG){.external}, s účinností k 31. 5. 2025. 
-Aktuálně probíhá uzavření potřebné dohody mezi krajem a Archeologickým ústavem, na jehož základě bude možné pravděpodobně od července 2025 využívat AMČR pro plnění oznamovací povinnosti. 
+Jako pilotní příklad naplnění tohoto postupu lze uvést Pardubický kraj, kde bylo [vydáno příslušné nařízení kraje (č. 1/2025)](https://sbirkapp.gov.cz/detail/SPPE2SWORSKRGXKG){.external}, s účinností k 31.&nbsp;5.&nbsp;2025. 
+Aktuálně probíhá uzavření potřebné dohody mezi krajem a *Archeologickým ústavem*, na jehož základě bude možné pravděpodobně od července 2025 využívat AMČR pro plnění oznamovací povinnosti. 
 Další kraje se budou do systému připojovat tak, jak budou vydávána příslušná nařízení a uzavírány odvislé dohody.
 
 Zvolené řešení je pro veškeré OAO i kraje dostupné bezplatně a může být vždy zajištěno **bezprostředně po vydání nařízení a uzavření příslušné smlouvy**. 
@@ -57,7 +58,7 @@ Krajům je v této souvislosti zároveň v náhledovém režimu zajištěn pří
 Řešení **nevylučuje separátní oznámení prováděná mimo systém AMČR**. 
 V případech, kdy kraj podporuje oznamování skrze AMČR, je na rozhodnutí uživatele, zda tuto možnost využije. 
 Zdůrazňujeme však, že **vzhledem k zákonné povinnosti vyplývající z §21 odst. 4 zákona se nelze vyhýbat samotnému oznámení o zahájení výzkumu Archeologickému ústavu**, které probíhá zpravidla prostřednictvím AMČR. 
-Opomenutí této povinnosti je přestupkem podle zákona, za který lze uložit zákonnou sankci a může též vést k řízení o odebrání licence.
+Opomenutí této povinnosti je přestupkem podle zákona, za který lze uložit zákonnou sankci a při opakovaném porušování může vést až k řízení o odebrání licence.
 
 Pro výzkumy v krajích, které dosud nevydaly příslušné nařízení, případně se rozhodly situaci řešit jiným způsobem, je třeba postupovat odpovídajícím způsobem mimo rámec AMČR.
 
