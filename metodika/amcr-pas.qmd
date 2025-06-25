@@ -1,0 +1,109 @@
+---
+title: Metodický výklad AMČR-PAS v kontextu zákona č. 20/1987 Sb., o státní památkové péči
+# subtitle: Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky
+date: 2021-03-31
+---
+
+Cílené vyhledávání předmětů, které již neslouží svému původnímu účelu a mohou nést nepsané
+informace o minulém lidském světě, naplňuje definici archeologického výzkumu.1 Vyhledávání může
+nabývat řady forem, od povrchového sběru po průzkumy využívajících různé druhy detekčních zařízení.
+Provádění archeologických výzkumů vždy podléhá regulaci podle zákona č. 20/1987 Sb., o státní
+památkové péči.
+
+AMČR-PAS slouží k evidenci málo destruktivních archeologických výzkumů prováděných extenzivně na
+velkých plochách, a to zejména za účasti laické veřejnosti, tzv. amatérských spolupracovníků
+oprávněných archeologických organizací.
+
+AMČR-PAS respektuje závazky vyplývající z Evropské úmluvy o ochraně archeologického dědictví
+č. 99/2000 Sb.m.s., která v čl. 3 odst. 3 zavazuje Českou republiku „učinit používání detektorů kovů a
+jakýchkoli jiných detekčních zařízení nebo postupů archeologického výzkumu předmětem specifického
+předchozího oprávnění, kdykoli s tím počítá vnitřní právní úprava státu“. Je třeba konstatovat, že
+důvodů pro užití detektoru může být více, např. pyrotechnický průzkum, vyhledávání inženýrských sítí
+či hledání ztracených předmětů. Ve většině těchto případů nepředstavuje použití detekčního zařízení
+zvláštní hrozbu pro archeologické dědictví. Případy náhodných nálezů při těchto činnostech jsou
+adekvátně upraveny zákonem v §23.
+
+Tento dokument popisuje vztah AMČR-PAS k jednotlivým ustanovením zákona č. 20/1987 Sb. a slouží
+jako metodický výklad ze strany Archeologických ústavů AV ČR.
+
+
+## Užívané pojmy
+
+### Průzkum 
+
+Průzkum je zaveden jako nový typ archeologického výzkumu vedle záchranného a badatelského
+výzkumu. Z hlediska ustanovení zákona č. 20/1987 Sb. se na průzkum pohlíží jako na archeologický
+výzkum a při jeho provádění je třeba dodržovat všechny náležitosti stanovené zákonem pro
+archeologický výzkum. Při průzkumu jsou používány nedestruktivní nebo málo destruktivních metody
+archeologického výzkumu (zejména průzkum detektory kovů a povrchové sběry). Průzkum je určen pro
+lokality či větší územní celky dlouhodobě ohrožené přirozenou degradací terénu, zemědělskou činností
+či nelegálními aktivitami hledačů. Průzkum je určen pro preventivní záchranu ohrožených movitých
+památek, vesměs již zbavených svého původního kontextu uložení. Provádění průzkumu není vhodné
+pro území prohlášená za kulturní památku, národní kulturní památku, památkovou rezervaci nebo
+památkovou zónu. Na těchto územích se doporučuje postupovat v režimu badatelského výzkumu tak,
+jak je upraven v dohodách o rozsahu a podmínkách provádění archeologických výzkumů uzavřených
+mezi oprávněnou organizací a Akademií věd ČR.
+
+
+### Amatérský spolupracovník
+
+Amatérský spolupracovník je osobou, která v zájmu výzkumu, poznávání a ochrany archeologického
+dědictví spolupracuje s oprávněnou organizací. Pro spolupracovníka není požadováno formální
+vzdělání v oboru archeologie. Spolupracovník může být v závislosti na úrovni odborných znalostí a
+schopností pověřován při provádění průzkumu samostatnými úkoly. Konkrétní formu a rozsah těchto
+úkolů stanovuje vedoucí archeologického výzkumu. Jedná se zejména o vyhledávání, vyzvedávání a
+dokumentaci archeologických nálezů zbavených svého původního kontextu uložení. Rozsah a způsob
+spolupráce je upraven dohodou mezi spolupracovníkem a oprávněnou organizací. Tato dohoda je
+uzavírána podle ustanovení § 1724 a násl. zákona č. 89/2012 Sb., občanský zákoník, ve znění pozdějších
+předpisů. Podmínky činnosti spolupracovníka mohou být upraveny i v rámci pracovněprávního
+vztahu.
+
+
+### Vedoucí výzkumu
+
+Vedoucí výzkumu je osoba s odbornou kvalifikací archeologa, která je oprávněnou organizací pověřena
+vedením archeologického výzkumu. Stanovuje metodiku výzkumu a uděluje pokyny osobám, které se
+na výzkumu podílejí.
+
+
+## Výklad ve vztahu k ustanovením zákona č. 20/1987 Sb., o státní památkové péči
+
+### §21
+
+Veškeré činnosti prováděné v rámci AMČR-PAS probíhají v režimu archeologického výzkumu, který
+provádí oprávněná organizace. Zahájení každého výzkumu oznamuje oprávněná organizace
+prostřednictvím Archeologické mapy České republiky (dále jen AMČR) Archeologickému ústavu a
+podává mu též zprávu o jeho výsledcích ve formě nálezové zprávy.4
+Prvním krokem při evidenci je vytvoření projektu v AMČR v kategorii „průzkum“. Každý průzkum je
+evidován pod unikátním číslem přiděleným automaticky v AMČR. Za provádění průzkumu odpovídá
+oprávněná organizace, která stanoví metodický postup i časové a prostorové vymezení průzkumu. Pro
+každý průzkum musí být vypracována projektová dokumentace podle jednotného vzoru. Ta je uložena
+v AMČR jako součást projektu.
+
+
+### §22
+
+Při provádění průzkumu je odpovědností oprávněné organizace zajistit uzavření dohody s vlastníkem
+(správcem, uživatelem) nemovitosti, na které bude průzkum prováděn. Je zcela v kompetenci
+oprávněné organizace rozhodnout, koho vyjednáním dohody pověří a jakou formu (ústní, písemná)
+bude dohoda mít.
+
+### §23
+
+Archeologické nálezy získané při průzkumu jsou podle §23a vlastnictvím kraje, státu nebo obce.
+Jednotlivé archeologické nálezy jsou proto od momentu nálezu evidovány. Při zápisu do AMČR-PAS je
+každému nálezu přiděleno unikátní přírůstkové číslo, které se skládá z čísla projektu a pořadového čísla
+nálezu (např. C-202100001-N00001).
+V případech, kdy dojde k nálezu za nepřítomnosti vedoucího výzkumu, je spolupracovník povinen nález
+předat vedoucímu výzkumu bez zbytečných odkladů, nejpozději však při pravidelné schůzce podle
+dohody uzavřené mezi spolupracovníkem a oprávněnou organizací. O dalším nakládání s movitými
+nálezy (postup další evidence, selekce) rozhoduje oprávněná organizace.
+Na movité nálezy získané v rámci průzkumu se nevztahuje ustanovení podle §23 odst. 4, a proto
+nálezce nemá právo na vyplacení odměny.
+
+### §24
+
+Přestože metody aplikované při průzkumu počítají s minimálními destruktivními zásahy, je třeba
+respektovat práva a oprávněné zájmy vlastníků (správců, uživatelů) nemovitostí, popřípadě jiného
+majetku, a případným škodám předcházet. Je rovněž třeba počítat s možností, že vlastník (správce,
+uživatel) může vůči oprávněné organizaci uplatnit své nároky za majetkovou újmu.

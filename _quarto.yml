@@ -40,6 +40,8 @@ website:
     right:
       - text: Slovník pojmů
         href: slovnik/index.qmd
+      - text: Metodiky
+        href: metodika/index.qmd
       - text: Zpravodaj
         href: zpravodaj/index.qmd
       - text: Kontakty
@@ -156,6 +158,15 @@ website:
     - id: pojmy
       contents:
         - slovnik/index.qmd
+        
+    - id: metodika 
+      header: |
+        [![](/figs/logo-amcr-hor.png)](/metodika/index.qmd)
+      contents: 
+        - text: Úvod
+          href: metodika/index.qmd
+        - text: Metodický výklad AMČR-PAS v kontextu zákona o památkové péči
+          href: metodika/amcr-pas.qmd
         
     - id: zpravodaje 
       header: |

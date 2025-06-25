@@ -1,0 +1,8 @@
+---
+title: Metodické pokyny a výklady
+format:
+  html: default
+repo-actions: false
+---
+
+Sekce obsahuje metodické výklady k AMČR.
