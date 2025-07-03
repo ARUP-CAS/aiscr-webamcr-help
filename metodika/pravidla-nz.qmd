@@ -1,0 +1,162 @@
+---
+title: Pravidla pro podání nálezové zprávy o terénním archeologickém výzkumu
+# subtitle: 
+date: 2020-03-04
+format: 
+  html: default
+  pdf: default
+---
+
+### Základní pojmy
+
+**Nálezová zpráva** je dokument obsahující základní popis a výsledky terénního archeologického výzkumu. 
+Jejím cílem je umožnit myšlenkovou rekonstrukci prozkoumaného archeologického kontextu v jeho rysech podstatných pro vědecký výzkum, tj. zachytit relevantní vztahy mezi nemovitými a movitými nálezy, stratigrafickými jednotkami a dalšími prvky archeologického kontextu. 
+Nálezová zpráva se skládá z výběru terénní dokumentace a dalších informací a sama je součástí terénní dokumentace. 
+Její obsah a struktura jsou dány touto směrnicí.
+
+**Archiv terénní dokumentace** je soubor nálezových zpráv a další terénní dokumentace, utříděný a popsaný metadaty tak, aby umožnil širší badatelské využití dokumentů nad rámec nálezové zprávy.
+Jeho obsah je dán *„dobrou praxí“* v oboru archeologie. 
+Archivem se též rozumí pracoviště, které je správou souboru pověřeno.
+
+**Digitální repozitář** je soubor digitálních a digitalizovaných dokumentů z archeologického výzkumu vznikající v jakékoli jeho fázi. 
+Je udržovaný trvale jako záloha digitálních dat a badatelský zdroj pro interní potřebu organizace bez podrobného popisu dokumentů.
+
+**Terénní dokumentace** jsou dokumenty bezprostředně související s terénním archeologickým výzkumem a popisující prozkoumaný archeologický kontext slovem, kresbou, fotografií, digitálním objektem nebo souborem popisných atributů.
+Předepsaný a/nebo doporučený obsah výše uvedených souborů terénní dokumentace je blíže stanoven v kapitole [Terénní dokumentace](pravidla-nz.qmd#terenni-dokumentace).
+
+
+### Části nálezové zprávy
+
+Nálezová zpráva o archeologickém výzkumu (dále NZ) se skládá z těchto částí:
+
+- **identifikátor** příslušného projektu nebo samostatné archeologické akce v informačním systému [Archeologická mapa České republiky (**AMČR**)](https://amcr-info.aiscr.cz){.external};
+- stručný strukturovaný záznam o příčinách, průběhu a výsledcích výzkumu jako podklad pro databázi výsledků archeologických výzkumů (tzv. [Zpráva/Záznam o archeologické akci](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa), dále **ZAA**);
+- prostorová identifikace výzkumu jeho přiřazením k existující jednotce (jednotkám) [**PIAN**](/slovnik/index.qmd#pian) (prostorová identifikace archeologických nálezů) nebo vytvořením nové jednotky (nových jednotek) PIAN;
+- **textová část**, zahrnující slovní popis příčin, průběhu a výsledků výzkumu podle kapitoly [Textová část NZ](pravidla-nz.qmd#textova-cast-nz) níže;
+- **terénní dokumentace** (plány, fotografie, data aj.) podle kapitoly [Terénní dokumentace](pravidla-nz.qmd#terenni-dokumentace) níže;
+- **seznamy** všech jednotek prozkoumaného archeologického kontextu a všech částí vytvořeného archeologického fondu (movitých nálezů, vzorků, dokumentace aj.) podle kapitoly [Seznamy](pravidla-nz.qmd#seznamy) níže;
+- **expertní posudky, konzervační zprávy** (byly-li vypracovány k datu podání NZ);
+- další **přílohy**, pokud byly vypracovány, jako např. projekt archeologického výzkumu, zápisy z komisí, závazné stanovisko příslušného výkonného orgánu památkové péče v případě výzkumu na území kulturní památky nebo národní kulturní památky apod.
+
+V případech, kdy nedošlo k zásahu do archeologických situací, odběru vzorků a přemístění movitých nálezů z jejich původního uložení a kdy s ohledem na celkový charakter a rozsah zjištění není podrobný popis nutný, může být NZ podána pouze v rozsahu ZAA.
+
+Všechny prostorové souřadnice uváděné v rámci NZ a jejích příloh jsou uváděny v jednom zvoleném souřadném systému, a to **S-JTSK** (EPSG:5514), **WGS-84** (decimální stupně, EPSG:4326) nebo **WGS84 /UTM zóna 33N** (EPSG:32633). 
+Všechny výškopisné souřadnice jsou uváděny ve výškovém systému **Bpv** (baltský po vyrovnání).
+
+
+### Způsob odevzdání NZ
+
+- [ZAA se podává záznamem v informačním systému AMČR](/amcr/akce.qmd) a v jeho rámci se vytváří či připojuje jednotka (jednotky) PIAN.
+- [Ostatní části NZ se podávají rovněž prostřednictvím AMČR](/amcr/dokumenty.qmd), a to v podobě jednoho souboru **PDF** rozčleněného do kapitol odpovídajících výše uvedeným částem. V případech, kdy velikost souboru PDF přesahuje **100 MB**, musí být soubor podávajícím pracovníkem (autorem) rozdělen do více dílů (souborů).
+- Obsah ZAA musí být věcně shodný s obsahem ostatních částí NZ, zejména musí postihovat všechny zastoupené komponenty a základní popis archeologické akce; v opačném případě bude ZAA (záznam) vrácena autorovi k doplnění.
+- V případě, že je NZ neúplná nebo vykazuje jiné nedostatky, bude prostřednictvím AMČR vrácena autorovi k dopracování.
+
+
+### Textová část NZ
+
+Textová část NZ svým rozsahem zohledňuje metodu a rozsah výzkumu a počet či význam zjištěných archeologických nálezů. 
+Zpravidla obsahuje údaje podle následující osnovy:
+
+1. **Titulní strana a evidenční list** se souhrnem základních informací o projektu/akci
+    - podoba titulní strany a evidenčního listu je specifikována ve vzoru na konci tohoto dokumentu;
+    - jako podklad evidenčního listu lze použít výpis vyplněného formuláře z AMČR, který se vygeneruje pomocí tlačítka „Výpis“ u patřičného záznamu o projektu/akci.
+    
+2. **Podnět a okolnosti terénního výzkumu**
+    a) podnět k provedení výzkumu, časový a organizační průběh terénních prací a okolnosti jejich realizace, příp. komplikace;
+    b) dodavatelé subdodávek, např. firmy provádějící geodetické zaměření, speciální průzkum, odběr a vyhodnocení ekofaktů, servisní (kopáčské a technické) práce;
+    c) odborní koreferenti výzkumu;
+    d) časové vymezení a organizační zajištění následného („mimoterénního“, laboratorního) ošetření, zpracování a vyhodnocení archeologického fondu.
+    
+3. **Geografický a sídelní kontext naleziště**
+    a) lokalizace výzkumu názvem trati, ulice, parcelním číslem apod.;
+    b) prostorová identifikace místa a rozsahu výzkumu uvedením prostorových souřadnic;
+    c) stručný popis prostředí nálezu, tj. krajinný ráz, geologická a geomorfologická situace, půdní pokryv apod.
+
+4. **Historie naleziště a jeho bezprostředního okolí**
+    a) údaje o předchozích výzkumech na lokalitě, příp. předchozích sezónách výzkumu;
+    a) význam lokality z hlediska dosud známých poznatků.
+
+5. **Cíle a metoda výzkumu**
+    a) vědecké cíle archeologického výzkumu a jeho strategie;
+    a) popis nadloží, způsobu skrývek a metody odkryvu;
+    a) metody výzkumu a jejich zdůvodnění ve vztahu ke stanoveným cílům; v případě vzorkování plochy (kdy záchranný výzkum není proveden na celém území dotčeném stavbou) je třeba výběr vzorku zdůvodnit;
+    a) přehled systému dokumentace a evidence movitých a nemovitých archeologických nálezů, hesláře použité k popisu terénních situací;
+    a) výčet druhů odebíraných vzorků artefaktů, ekofaktů a přírodních faktů, příp. výčet na místě provedených speciálních odborných analýz; zdůvodnění jejich výběru, rozsahu a množství.
+
+6. **Popis terénní situace**
+    a) charakteristika archeologických sond, jejich rozsah a způsob rozvržení;
+    a) popis stratigrafických jednotek či jiných analytických částí archeologického kontextu s odkazy na dokumentaci, popis podloží;
+    a) popis vyšších jednotek archeologických nálezů (struktur, objektů, komplexů) a jejich datování (s odkazem na konkrétní nálezy) a předběžná interpretace;
+    a) model chronologicko-vývojových horizontů s vývojovým diagramem (tzv. Harrisovou maticí), pokud jeho vytvoření terénní analýza umožňovala a pokud byl tento přístup pro daný typ archeologického kontextu relevantní.
+
+7. **Zhodnocení výsledků výzkumu**
+    a) stručné shrnutí poznatků, zhodnocení míry, v jaké výzkum odpověděl na řešené vědecké otázky a nastínění nových otázek, které výzkum otevřel;
+    a) výčet funkčně chronologických komponent a základní interpretace zachyceného archeologického kontextu ve smyslu intenzity zachycených aktivit, jejich kontinuity a souvisejících událostí;
+    a) stručný přehled mimořádných nálezů;
+    a) shrnutí závěrů koreferentů a odborných komisí s odkazy na zápisy z jednání;
+    a) návrh dalšího postupu výzkumu (u zjišťovacích výzkumů);
+    a) vyhodnocení prostoru lokality z hlediska budoucí archeologické památkové péče a návrh režimu budoucí ochrany;
+    a) sdělení, zda a v jakém rozsahu zůstaly i po ukončení výzkumu zachovány archeologické nálezové situace a zda i nadále lze místo výzkumu považovat za území s archeologickými nálezy;
+    a) odkazy na dosavadní publikace výsledků výzkumu a uvedení jiných forem dosavadního zpřístupnění výsledků výzkumu veřejnosti;
+    a) místo, kde jsou aktuálně uloženy movité archeologické nálezy, příp. sbírkotvorná instituce, do které mají být předány.
+
+8. **Použité prameny a literatura**
+
+
+### Terénní dokumentace
+
+Do **archivu terénní dokumentace** se ukládá:
+
+- nálezová zpráva;
+- výběr jakékoli další analogové a digitální dokumentace, který vedoucí výzkumu/autor NZ považuje za relevantní a užitečný z hlediska budoucího badatelského využití a s jeho přijetím souhlasí odpovědný pracovník archivu. 
+    Předávající zajišťuje odpovídající utřídění a popis dokumentů.
+    
+Součástí **nálezové zprávy** jsou:
+
+- výřez ze Základní mapy ČR v měřítku 1: 10 000 nebo katastrální mapy s vyznačením místa výzkumu;
+- celkový plán výzkumu s rozložením sond, objektů, stratigrafických jednotek, řezů atd. v přiměřeném měřítku;
+- dílčí půdorysné plány a řezy, zpravidla v měřítku 1:10 až 1:100, s popisem stratigrafických jednotek (objektů, vrstev, stavebních konstrukcí apod.);
+- fotografie terénních situací s vyloučením variant, tj. ve výběru zahrnujícím pro každou relevantní část terénního výzkumu jen jeden, nevhodnější snímek. Snímky jsou doprovozeny popisem zahrnujícím označením fotografovaného objektu, jméno autora a rok pořízení snímku;
+- výběrová obrazová dokumentace movitých nálezů a dalších částí terénní dokumentace, pokud to autor považuje za přínosné, s odpovídajícím popisem;
+- popis způsobu uložení a zpřístupnění ostatní terénní dokumentace, která není součástí NZ.
+
+**Terénní dokumentace** vkládaná do nálezové zprávy musí splňovat tyto podmínky:
+
+- plány vkládané do nálezové zprávy jsou revidovanou, příp. upravenou verzí původní terénní dokumentace, může (ale nemusí) jít i čistopisy připravované pro publikaci;
+- popis celkových i dílčích plánů je úplný a čitelný;
+- na celkovém plánu jsou vyznačeny úseky dokumentovaných řezů a nejméně dva body s uvedením prostorových souřadnic;
+- na každém plánu je uvedeno jeho měřítko; 
+- na půdorysných plánech orientace k severu a nejméně dva body s uvedením prostorových souřadnic, úseky dokumentovaných řezů a jejich koncové body s popisem a nivelační body s uvedením nadmořské výšky;
+- na řezech je uvedeno označení vrstev, koncové body řezů s označením a rovina s uvedenou nadmořskou výškou;
+- na kolmých snímcích a fotoplánech je uvedeno měřítko a vyznačeny vlícovací body s připojeným seznamem jejich prostorových souřadnic a nadmořské výšky;
+- fotografie obsahují označení (identifikátor) fotografovaného objektu a měřítko; 
+- na jednu stranu NZ ve formátu A4 mohou být vloženy maximálně 4 fotografie (tj. delší strana snímku nesmí být menší než 13 cm), optimální rozlišení fotografií v NZ je 200 dpi.
+
+Veškeré dokumenty vzniklé v souvislosti s archeologickým výzkumem, které nejsou součástí NZ, ale jejich uchování je žádoucí (např. originály snímků, terénní záznamy, kresebné podklady, originály plánů, deník výzkumu, evidence docházky, geodetická a jiná analytická data apod.), musí být dlouhodobě bezpečně uloženy v digitálním repozitáři v důvěryhodném dlouhodobém úložišti a veřejně přístupné. 
+Popis způsobu uložení a zpřístupnění těchto dokumentů je nedílnou součástí NZ.
+
+
+### Seznamy
+
+Seznamy archeologických situací a objektů archeologického fondu zahrnují:
+
+- **seznam sond** *(pokud není součástí textové části NZ)*;
+- **seznam statigrafických jednotek**, komplexů, objektů *(pokud není součástí textové části NZ)*;
+- **seznam geodeticky zaměřených bodů** s popisem;
+- **seznam movitých nálezů** (tzv. přírůstkový seznam –- seznam sáčků) s uvedením obsahu (druhu nálezů), kvantifikací (počet kusů, příp. celková hmotnost), datem odběru a veškerými údaji zachycujícími vztah nálezů k stratigrafickým jednotkám a dalším částem archeologického fondu;
+- **seznam v terénu odebraných vzorků** ekofaktů a přírodních faktů;
+- **seznam vzorků odebraných z nálezů v laboratoři** ke speciálním analýzám;
+- **seznam plánů, fotoplánů, kolmých snímků, fotografií** a dalších dokumentů zahrnutých v NZ jako obrazové přílohy s odpovídajícím popisem. Seznamy se vytvářejí i tehdy, je-li popis doumentace uveden v popiskách příloh;
+- **seznam fotografií** s odpovídajícím popisem.
+
+
+### Osobní údaje
+
+Součástí NZ **nesmí být osobní údaje oznamovatele**, stavebníka ani jiných osob dotčených archeologickým výzkumem, vyjma nezbytných bibliografických údajů a údajů souvisejících s odborným obsahem NZ a prováděním archeologického výzkumu či zpracování jeho výsledků (např. jména autorů, spolupracovníků, expertů, členů výzkumného týmu apod.)
+
+----
+
+### Dokumenty ke stažení
+
+Vzor titulní strany a evidenčního listu nálezové zprávy ([PDF 125 kB {{< fa file-download >}}](docs/NZ_vzor_titulni_strana_evidencni_list.pdf))  
+Vzor nálezové zprávy pro projekty typu průzkum ([DOCX 35,6 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx))
