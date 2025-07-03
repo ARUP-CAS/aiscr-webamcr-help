@@ -1,0 +1,81 @@
+---
+title: Badatelské archeologické výzkumy
+# subtitle: Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky
+date: 2025-01-04
+---
+
+
+Do kategorie badatelských archeologických výzkumů patří všechny archeologické výzkumy, které nebyly vyvolány stavebním či jiným záměrem dle ust. § 22 odst. 2 [zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}, ve znění pozdějších předpisů. 
+Dle dohod mezi Akademií věd ČR a [oprávněnými archeologickými organizacemi](https://oao.aiscr.cz/){.external}, jsou tyto organizace povinné požádat Archeologické ústavy o vyjádření k záměru provést badatelský archeologický výzkum. 
+Archeologické ústavy pro potřeby evidence rozlišují projekty třech typů, a to *záchranné* a *badatelské* *projekty* a málo destruktivní *průzkumy*.
+
+Oprávněná organizace je povinna podat žádost o vyjádření Archeologickému ústavu ke všem *badatelským projektům*, a dále k *průzkumům* dotýkajícím se památkově chráněných území a objektů (viz §21 odst. 4, zák. 20/1987). 
+V případě výzkumu na [památkově chráněném území či objektu](https://pamatkovykatalog.cz/){.external} je **povinností žadatele si zajistit stanovisko Národního památkového ústavu** (NPÚ), které slouží jako jeden z podkladů pro stanovisko Archeologického ústavu. 
+Jeho případné vystavení probíhá v předstihu před podáním žádosti, podle vlastních pravidel NPÚ.
+
+Základním předpokladem realizace badatelského výzkumu v souladu s platnými pravidly je jeho evidence v informačním systému Archeologická mapa České republiky ([AMČR](https://amcr.aiscr.cz/){.external}). 
+Veškerá projektová dokumentace badatelského projektu (vč. samotné žádosti) musí být evidována prostřednictvím AMČR jako příloha záznamu o *projektu*. 
+Prostřednictvím AMČR je pak v další fázi realizace plněna **povinnost oznámit Archeologickému ústavu zahájení výzkumu a podat mu zprávu o jeho výsledcích**. 
+V případě výzkumu na památkově chráněném území či objektu plní editací *projektu* v AMČR oprávněná archeologická organizace uvedené zákonné **povinnosti také vůči Národnímu památkovému ústavu**.
+
+*Projekt* typu *průzkum* slouží primárně k evidenci samostatných nálezů z povrchových sběrů a detektorových prospekcí v modulu [AMČR-PAS](https://amcr-info.aiscr.cz/pas){.external}. 
+**V případě, že by měl být projekt průzkumu prováděn na památkově chráněných územích a objektech, jedná se vždy o badatelský projekt, tj. vyžaduje předchozí schválení.**
+
+V případě plně nedestruktivních výzkumů je evidence v AMČR doporučována pro odborné a archivační účely, a to buď formou *samostatné akce* nebo jiným vhodným způsobem. 
+**Evidence je však povinná ve všech případech, kdy dochází k vyzvedávání archeologických nálezů.**
+
+::: {.callout-important}
+
+## Upozornění
+
+Hlavním kritériem pro posouzení žádostí jsou potřeby ochrany a poznání archeologického dědictví ve smyslu [Maltské úmluvy](https://www.zakonyprolidi.cz/ms/2000-99){.external} a památkového zákona. 
+Další okolnosti, zejména podmínky poskytovatelů prostředků na provedení výzkumu nejsou považovány za rozhodující.
+
+:::
+
+### Postup před zahájením badatelského archeologického výzkumu
+
+1. **Oprávněná archeologická organizace [zapíše](/amcr/projekty.qmd#zapsat) projekt příslušného typu do AMČR** a nahraje do sekce *projektová dokumentace* v detailu *projektu* příslušné přílohy. 
+    Do podnětu projektu uvádějte snadno srozumitelnou definici předmětu a zamýšlené formy výzkumu.
+      
+      - V případě *badatelského projektu* (rozuměj badatelský archeologický výzkum, příp. průzkum na památkově chráněném území či objektu) se jedná o [žádost o vyjádření](docs/BAV_stanovisko.docx) včetně vyžadovaných příloh. 
+          Oprávněná archeologická organizacenásledně zašle žádost příslušnému Archeologickému ústavu datovou schránkou (pro oblast Čech: **[fxcng6z](https://www.mojedatovaschranka.cz/sds/detail?dbid=fxcng6z){.external}**; pro oblast Moravy a Slezska vč. Kraje Vysočina: **[xnjf5zy](https://www.mojedatovaschranka.cz/sds/detail?dbid=xnjf5zy){.external}**), kdy v žádosti bude uvedeno číslo příslušného projektu z AMČR. 
+          *(Další postup viz bod 2. níže)*.
+      - V případě průzkumu mimo památkově chráněné území či objekt se jedná o vyplněný formulář [Projekt průzkumu](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx).
+          *(Další postup viz bod 3. níže.)*
+      - V případě nedostatků bude oprávněná archeologická organizace požádaná o jejich nápravu.
+      
+2. **Archeologický ústav do 30 dnů vypracuje vyjádření** k záměru *badatelského projektu*, nahraje ho do AMČR k odpovídajícímu *projektu* do sekce *projektová dokumentace*, a o této skutečnosti informuje oprávněnou archeologickou organizaciprostřednictvím datové schránky. 
+    Organizace dále postupuje v souladu s podmínkami stanovenými ve vyjádření.
+
+3. **Oprávněná archeologická organizace může začít s realizací archeologického výzkumu.**
+
+4. O přesném datu zahájení projektu [informuje](/amcr/projekty.qmd#zahajit-teren) oprávněná organizace Archeologický ústav (a NPÚ) prostřednictvím AMČR.
+
+
+### Postup po ukončení badatelského archeologického výzkumu
+
+1. **Oprávněná organizace oznámí** Archeologickému ústavu (a NPÚ) **ukončení výzkumu** převedením *projektu* v AMČR do stavu [ukončen v terénu](/amcr/projekty.qmd#ukoncit-teren). 
+    Tímto momentem začíná běžet lhůta pro odevzdání nálezové zprávy dle příslušné dohody mezi oprávněnou archeologickou organizací a Akademií věd ČR. 
+    **Není-li lhůta pro odevzdání nálezové zprávy upravena jinak, činí 3 roky.** 
+    Nesplnění této povinnosti může být důvodem pro vydání zamítavého stanoviska při povolování budoucích výzkumů.
+
+2. **Organizace [zapíše do AMČR](/amcr/akce.qmd) záznam o archeologické akci k příslušnému projektu.** 
+    V případě plně nedestruktivních či velmi málo destruktivních výzkumů bez předběžné evidence ve formě projektu oprávněná organizace vytvoří samostatnou akci. 
+    Ex-post evidence omezeně destruktivních akcí je **povinná zejména v případech, kdy došlo k neplánovanému vyzvednutí archeologických nálezů**. 
+    Doporučujeme ji však provádět vždy z archivních důvodů a pro potřeby správy a ochrany archeologického dědictví.
+
+3. **Oprávněná archeologická organizace vypracuje nálezovou zprávu** v souladu s [Pravidly pro podání nálezové zprávy z terénního archeologického výzkumu](pravidla-nz.qmd), resp. její [zkrácenou verzi](/amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx) v případě projektů *průzkumu*. 
+
+4. Společně s nálezovou zprávou bude archivována také původní projektová dokumentace, a to do zvláštního dokumentu, jehož metadata budou veřejně dostupná v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external}.
+    Zpracování a uložení projektové dokumentace zabezpečí Archeologický ústav. 
+    Projektová dokumentace bude třetím osobám poskytována pouze na vyžádání v odůvodněných případech.
+
+::: {.callout-note}
+
+## Dokumenty ke stažení
+
+Žádost o stanovisko Archeologického ústavu AV ČR k realizaci archeologického výzkumu ([DOCX 20.65 kB {{< fa file-download >}}](docs/BAV_stanovisko.docx))  
+Vzor projektové dokumentace pro projekty typu průzkum ([DOCX 13.65 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx))
+
+:::
