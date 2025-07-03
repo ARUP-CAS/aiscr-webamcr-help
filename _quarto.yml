@@ -167,14 +167,10 @@ website:
           href: metodika/amcr-pas.qmd
         - text: Pravidla pro podání nálezové zprávy
           href: metodika/pravidla-nz.qmd
-<<<<<<< HEAD
 
     - id: pojmy
       contents:
         - slovnik/index.qmd        
-=======
-        
->>>>>>> 8803a97f9f6fe72619d89491a7419c413c192997
         
     - id: zpravodaje 
       header: |
