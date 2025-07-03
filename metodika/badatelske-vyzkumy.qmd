@@ -1,9 +1,11 @@
 ---
 title: Badatelské archeologické výzkumy
-# subtitle: Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky
+# subtitle: 
 date: 2025-01-04
+format: 
+  html: default
+  pdf: default
 ---
-
 
 Do kategorie badatelských archeologických výzkumů patří všechny archeologické výzkumy, které nebyly vyvolány stavebním či jiným záměrem dle ust. § 22 odst. 2 [zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}, ve znění pozdějších předpisů. 
 Dle dohod mezi Akademií věd ČR a [oprávněnými archeologickými organizacemi](https://oao.aiscr.cz/){.external}, jsou tyto organizace povinné požádat Archeologické ústavy o vyjádření k záměru provést badatelský archeologický výzkum. 
@@ -71,11 +73,9 @@ Další okolnosti, zejména podmínky poskytovatelů prostředků na provedení 
     Zpracování a uložení projektové dokumentace zabezpečí Archeologický ústav. 
     Projektová dokumentace bude třetím osobám poskytována pouze na vyžádání v odůvodněných případech.
 
-::: {.callout-note}
+----
 
-## Dokumenty ke stažení
+### Dokumenty ke stažení
 
 Žádost o stanovisko Archeologického ústavu AV ČR k realizaci archeologického výzkumu ([DOCX 20.65 kB {{< fa file-download >}}](docs/BAV_stanovisko.docx))  
 Vzor projektové dokumentace pro projekty typu průzkum ([DOCX 13.65 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx))
-
-:::

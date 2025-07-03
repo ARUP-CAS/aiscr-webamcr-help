@@ -1,7 +1,10 @@
 ---
 title: Metodický výklad AMČR-PAS v kontextu zákona č. 20/1987 Sb., o státní památkové péči
-# subtitle: Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky
+# subtitle: 
 date: 2021-03-31
+format: 
+  html: default
+  pdf: default
 ---
 
 Cílené vyhledávání předmětů, které již neslouží svému původnímu účelu a mohou nést nepsané
@@ -27,9 +30,9 @@ Tento dokument popisuje vztah AMČR-PAS k jednotlivým ustanovením zákona č. 
 jako metodický výklad ze strany Archeologických ústavů AV ČR.
 
 
-## Užívané pojmy
+### Užívané pojmy
 
-### Průzkum 
+#### Průzkum 
 
 Průzkum je zaveden jako nový typ archeologického výzkumu vedle záchranného a badatelského
 výzkumu. Z hlediska ustanovení zákona č. 20/1987 Sb. se na průzkum pohlíží jako na archeologický
@@ -45,7 +48,7 @@ jak je upraven v dohodách o rozsahu a podmínkách provádění archeologickýc
 mezi oprávněnou organizací a Akademií věd ČR.
 
 
-### Amatérský spolupracovník
+#### Amatérský spolupracovník
 
 Amatérský spolupracovník je osobou, která v zájmu výzkumu, poznávání a ochrany archeologického
 dědictví spolupracuje s oprávněnou organizací. Pro spolupracovníka není požadováno formální
@@ -59,7 +62,7 @@ předpisů. Podmínky činnosti spolupracovníka mohou být upraveny i v rámci 
 vztahu.
 
 
-### Vedoucí výzkumu
+#### Vedoucí výzkumu
 
 Vedoucí výzkumu je osoba s odbornou kvalifikací archeologa, která je oprávněnou organizací pověřena
 vedením archeologického výzkumu. Stanovuje metodiku výzkumu a uděluje pokyny osobám, které se

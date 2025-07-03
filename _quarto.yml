@@ -38,10 +38,10 @@ website:
         icon: box-arrow-up-right
         target: _blank
     right:
-      - text: Slovník pojmů
-        href: slovnik/index.qmd
       - text: Metodiky
         href: metodika/index.qmd
+      - text: Slovník pojmů
+        href: slovnik/index.qmd
       - text: Zpravodaj
         href: zpravodaj/index.qmd
       - text: Kontakty
@@ -50,7 +50,7 @@ website:
   sidebar:
     - id: main
       collapse-level: 2
-      style: "floating"
+      style: docked
       header: |
         [![](/figs/logo-amcr-hor.png)](/index.qmd)
       contents:
@@ -154,19 +154,23 @@ website:
     # - id: manual-api
     #   contents:
     #     - api/index.qmd
-
-    - id: pojmy
-      contents:
-        - slovnik/index.qmd
-        
+    
     - id: metodika 
       header: |
         [![](/figs/logo-amcr-hor.png)](/metodika/index.qmd)
       contents: 
         - text: Úvod
           href: metodika/index.qmd
-        - text: Metodický výklad AMČR-PAS v kontextu zákona o památkové péči
+        - text: Badatelské výzkumy
+          href: metodika/badatelske-vyzkumy.qmd
+        - text: AMČR-PAS v kontextu památkového zákona
           href: metodika/amcr-pas.qmd
+        - text: Pravidla pro podání nálezové zprávy
+          href: metodika/pravidla-nz.qmd
+
+    - id: pojmy
+      contents:
+        - slovnik/index.qmd        
         
     - id: zpravodaje 
       header: |
@@ -198,10 +202,12 @@ format:
     toc-depth: 3
     toc-location: left
     theme:
-      - spacelab
-      - theme.scss
+      light: 
+        - spacelab
+        # - cosmo
+        - theme.scss
     css:
-      - museo.css
+      # - museo.css
       - styles.css
     mainfont: "Alegreya Sans"
     fontsize: 1.1em
