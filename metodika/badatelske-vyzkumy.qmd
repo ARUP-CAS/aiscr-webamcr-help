@@ -1,7 +1,10 @@
 ---
 title: Badatelské archeologické výzkumy
-# subtitle: Základní principy spolupráce a pokyny pro používání AMČR-PAS amatérskými spolupracovníky
+# subtitle: 
 date: 2025-01-04
+format: 
+  html: default
+  pdf: default
 ---
 
 
@@ -71,11 +74,9 @@ Další okolnosti, zejména podmínky poskytovatelů prostředků na provedení 
     Zpracování a uložení projektové dokumentace zabezpečí Archeologický ústav. 
     Projektová dokumentace bude třetím osobám poskytována pouze na vyžádání v odůvodněných případech.
 
-::: {.callout-note}
+----
 
-## Dokumenty ke stažení
+### Dokumenty ke stažení
 
 Žádost o stanovisko Archeologického ústavu AV ČR k realizaci archeologického výzkumu ([DOCX 20.65 kB {{< fa file-download >}}](docs/BAV_stanovisko.docx))  
 Vzor projektové dokumentace pro projekty typu průzkum ([DOCX 13.65 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx))
-
-:::

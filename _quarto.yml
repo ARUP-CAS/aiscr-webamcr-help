@@ -165,8 +165,13 @@ website:
       contents: 
         - text: Úvod
           href: metodika/index.qmd
-        - text: Metodický výklad AMČR-PAS v kontextu zákona o památkové péči
+        - text: Badatelské výzkumy
+          href: metodika/badatelske-vyzkumy.qmd
+        - text: AMČR-PAS v kontextu památkového zákona
           href: metodika/amcr-pas.qmd
+        - text: Pravidla pro podání nálezové zprávy
+          href: metodika/pravidla-nz.qmd
+        
         
     - id: zpravodaje 
       header: |
@@ -198,10 +203,12 @@ format:
     toc-depth: 3
     toc-location: left
     theme:
-      - spacelab
-      - theme.scss
+      light: 
+        - spacelab
+        # - cosmo
+        - theme.scss
     css:
-      - museo.css
+      # - museo.css
       - styles.css
     mainfont: "Alegreya Sans"
     fontsize: 1.1em
