@@ -1,7 +1,9 @@
 ---
 title: Badatelské archeologické výzkumy
 # subtitle: 
-date: 2025-01-04
+# date: 2025-01-04
+date: 2025-07-08
+description: Verze v1.0, platná od 4. 1. 2025
 format: 
   html: default
   pdf: default
