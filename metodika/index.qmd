@@ -1,6 +1,7 @@
 ---
 title: Metodické pokyny a výklady
 subtitle: Dokumenty nastavující základní metodické přístupy aplikované v AMČR
+date: 2025-07-08
 format:
   html: default
 repo-actions: false
@@ -12,5 +13,6 @@ Sekce **Metodické pokyny a výklady** obsahuje dokumenty nastavující základn
 ### Obsah 
 
 - Pravidla pro [badatelské archeologické výzkumy](badatelske-vyzkumy.qmd)
+- Metodické doporučení pro [administraci projektů v AMČR](administrace-proj.qmd)
 - Metodický [výklad AMČR-PAS](amcr-pas.qmd) v kontextu zákona č. 20/1987 Sb., o státní památkové péči
 - [Pravidla pro podání nálezové zprávy](pravidla-nz.qmd) o terénním archeologickém výzkumu

@@ -161,11 +161,13 @@ website:
       contents: 
         - text: Úvod
           href: metodika/index.qmd
+        - text: Administrace projektů
+          href: metodika/administrace-proj.qmd
         - text: Badatelské výzkumy
           href: metodika/badatelske-vyzkumy.qmd
         - text: AMČR-PAS v kontextu památkového zákona
           href: metodika/amcr-pas.qmd
-        - text: Pravidla pro podání nálezové zprávy
+        - text: Pravidla pro podání NZ
           href: metodika/pravidla-nz.qmd
 
     - id: pojmy

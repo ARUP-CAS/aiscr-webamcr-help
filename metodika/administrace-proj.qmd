@@ -1,0 +1,84 @@
+---
+title: Metodické doporučení pro administraci projektů v AMČR
+subtitle: V kontextu zákona č. 20/1987 Sb., o státní památkové péči, ve znění pozdějších předpisů
+date: 2025-07-08
+description: Verze v1.0, platná od XXXX
+format: 
+  html: default
+  pdf: default
+---
+
+Archeologická mapa České republiky (dále jen [AMČR](https://amcr.aiscr.cz){.external}) je základním oborovým nástrojem archeologické památkové péče. 
+AMČR plní dva hlavní účely – uchovat informace o archeologickém dědictví České republiky a umožnit subjektům archeologické památkové péče plnit zákonné povinnosti jednoduchým, transparentním a efektivním způsobem. 
+Plnění těchto povinností, které vyplývají primárně ze [zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}, ve znění pozdějších předpisů (dále jen PamZ) a příslušných Dohod o rozsahu a podmínkách provádění archeologických výzkumů (dále jen Dohoda), je integrálním předpokladem ochrany archeologického dědictví České republiky. 
+
+Užívání AMČR je vázáno na uzavření písemné Dohody o využívání Archeologické mapy ČR. 
+Tato dohoda specifikuje vztah AMČR k PamZ a zákonným povinnostem. 
+Bez uzavření dohody nelze AMČR užívat pro plnění povinností stanovených zákonem, nebo na základě zákona. 
+Dohoda slouží také k vyjasnění povinností při správě osobních údajů.
+
+AMČR tedy v dílčích úkonech reflektuje povinnosti vázané na jednotlivá zákonná ustanovení a Dohodu. 
+Dle logické souslednosti se jedná o (podrobněji viz dále):
+
+1. 
+    a. Povinnost [oznámit Archeologickému ústavu stavební či jiný záměr](https://portal.gov.cz/sluzby-vs/oznameni-o-provadeni-stavebni-cinnosti-na-uzemi-s-archeologickymi-nalezy-S12844){.external} na území s archeologickými nálezy, kterým by mohlo být ohroženo provádění archeologických výzkumů (§ 22 odst. 2 PamZ).
+    b. Povinnosti požádat Archeologický ústav o stanovisko k realizaci archeologického výzkumu, který nebyl vyvolán stavební či jinou činností (vyplývá z Dohod; blíže viz [informace k badatelským archeologickým výzkumům](badatelske-vyzkumy.qmd)).
+2. Povinnost umožnit[^1] provedení záchranného archeologického výzkumu ([§ 22 odst. 2 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}). 
+3. Povinnost [oznámit Archeologickému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S12785){.external} (a [Národnímu památkovému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S12786){.external}[^2]) zahájení archeologického výzkumu ([§ 21 odst. 4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}).
+4. Povinnost některých oprávněných archeologických organizací oznamovat zahájení výzkumu kraji ([§ 23a odst. 3 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p23){.external} a jednotlivá krajská nařízení).
+5. Povinnost [odevzdat Archeologickému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S15815){.external} (a [Národnímu památkovému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S15824){.external}[^2]) zprávu o výsledcích archeologického výzkumu (dále jen nálezová zpráva) ([§ 21 odst. 4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}).
+
+[^1]: Úkon *Přihlášení projektu* deklaruje směrem ke stavebníkovi zájem OAO provést ZAV a tedy aktivuje povinnost stavebníka umožnit jeho provedení.
+[^2]: Jde-li o archeologické výzkumy na území prohlášeném za kulturní památku, národní kulturní památku, památkovou rezervaci nebo památkovou zónu.
+
+Důležitým výsledkem používání AMČR je kromě plnění zákonných povinností také transparentní komunikace mezi oznamovateli a oprávněnými archeologickými organizacemi (dále jen OAO). 
+Jelikož AMČR napomáhá plnění povinností v oblasti veřejné správy, je žádoucí, aby oznamovatelé obdrželi relevantní odpověď na svá podání. 
+Tou odpovědí je v první řadě potvrzení o splnění oznamovací povinnosti, neméně důležitá je pak ale také informace, zda oznamovatel v konkrétním případě má nebo nemá očekávat realizaci záchranného archeologického výzkumu (dále jen ZAV). 
+Jak bude uvedeno níže, tuto informaci oznamovatel obdrží na základě přihlášení OAO k projektu, nebo na základě jeho zrušení.
+
+Pro zabezpečení transparentní komunikace s oznamovateli je proto nevyhnutelná koordinace Archeologických ústavů a OAO při administraci projektů.
+
+Archeologické ústavy proto doporučují dodržování následujících zásad práce s AMČR:
+
+1. **V případě, že OAO zapisuje projekt samostatně, zvážit, zda má být investorovi odesláno potvrzení o splnění oznamovací povinnosti** (např. dle toho, zda plní povinnost za stavebníka, nebo eviduje neoznámený záměr).
+2. **Přihlašovat ze strany OAO všechny projekty, které je zájem realizovat, a to ještě před uzavřením dohody o ZAV nebo v přímé návaznosti na tuto dohodu**, a to v koordinaci s odpovídající Regionální archeologickou komisí. Tím je zajištěna transparentnost komunikace s oznamovatelem a dalšími dotčenými stranami.
+3. **V případě, že OAO neuzavře dohodu se stavebníkem, požádat prostřednictvím AMČR o odhlášení projektu.** Na tomto základě Archeologický ústav projekt převede zpět mezi zapsané, případně *přehlásí* na jinou, realizující OAO.
+4. **Zadávat datum zahájení výzkumu v souladu se zákonem a příslušnou Dohodou o podmínkách a rozsahu provádění archeologických výzkumů**, tj. nejpozději do 10 dnů od zahájení terénních prací. Zadáním ex-post při zpracování výzkumu dochází k porušení povinnosti stanovené v [§ 21 odst. 4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}, za což OAO hrozí podle [§ 35 odst. 2 písm. f)](https://www.zakonyprolidi.cz/cs/1987-20#p35){.external} sankce a při opakovaném porušování též odebrání oprávnění.
+5. **Zadávat datum ukončení výzkumu dle skutečnosti, v přímé návaznosti na reálné ukončení terénní části výzkumu ze strany OAO.** 
+6. **Odevzdávat nálezové zprávy ve lhůtě tří let od ukončení terénní části** a se všemi požadovanými náležitostmi podle [oficiálních pokynů](pravidla-nz.qmd).
+
+Archeologické ústavy průběžně kontrolují odevzdané nálezové zprávy a po odstranění případných nedostatků ze strany OAO je archivují (nálezová zpráva může být považována za skutečně odevzdanou pouze při splnění základních požadavků). 
+Archeologické ústavy také ruší projekty, u kterých nebude realizovaný ZAV, a to buď na návrh OAO, nebo samostatně tak, aby byli oznamovatelé včas informováni, že v rámci jejich záměru nebude ZAV realizován.
+
+## Vznik projektu
+
+### Oznámení a schválení záměru
+
+### Zápis projektu
+
+
+## Přihlášení projektu oprávněnou archeologickou organizací
+
+## Zahájení výzkumu v terénu
+
+## Ukončení výzkumu v terénu
+
+## Uzavření projektu
+
+## Archivace projektu
+
+## Rušení projektů
+
+### Duplicitní oznámení
+
+### Oznamovatel neumožnil provedení záchranného archeologického výzkumu
+
+### V oznámení byly uvedeny nesprávné údaje
+
+### Provedení záchranného archeologického výzkumu není vyžadováno
+
+### Oznámený záměr nebude realizován
+
+## Význam administrace projektů v AMČR
+
+### Kontrola plnění zákonných povinností ze strany úřadů
