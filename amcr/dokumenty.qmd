@@ -1,6 +1,6 @@
 ---
 title: Správa dokumentů
-date: 2024-07-01
+date: 2025-08-06
 ---
 
 ::: {.callout-note}
@@ -64,6 +64,17 @@ Náhled připojeného souboru se pak zobrazí na stránce detailu celého soubor
 
 ![](figs/dok04.png){width="90%" fig-align="center"}
 
+#### Formáty souborů
+
+```{r}
+#| tbl-cap: "Přijímané formáty souborů"
+cnames <- c("", "Formát", "Archivní formát", "Vhodné pro", "Doporučení", "Poznámka")
+
+read.csv("tabs/fileformats.csv", tryLogical = FALSE) |> 
+  dplyr::mutate(archival = dplyr::if_else(archival == TRUE, "&#x2714;", "&#x2718;"),
+                format = paste0("**", format, "**")) |>
+  knitr::kable(align = "ccclll", col.names = cnames)
+```
 
 ### Části dokumentu
 
