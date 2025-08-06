@@ -2,7 +2,7 @@
 title: Metodický výklad AMČR-PAS v kontextu zákona č. 20/1987 Sb., o státní památkové péči
 # subtitle: 
 # date: 2021-03-31
-date: 2025-07-08
+date: 2025-08-06
 description: Verze v1.0, platná od 31. 3. 2021
 format: 
   html: default
