@@ -49,6 +49,8 @@ Další okolnosti, zejména podmínky poskytovatelů prostředků na provedení 
           *(Další postup viz bod 3. níže.)*
       - V případě nedostatků bude oprávněná archeologická organizace požádaná o jejich nápravu.
       
+      ![Projektová dokumentace](figs/proj-dokumentace.jpg)
+      
 2. **Archeologický ústav do 30 dnů vypracuje vyjádření** k záměru *badatelského projektu*, nahraje ho do AMČR k odpovídajícímu *projektu* do sekce *projektová dokumentace*, a o této skutečnosti informuje oprávněnou archeologickou organizaciprostřednictvím datové schránky. 
     Organizace dále postupuje v souladu s podmínkami stanovenými ve vyjádření.
 

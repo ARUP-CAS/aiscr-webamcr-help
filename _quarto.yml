@@ -7,7 +7,7 @@ website:
   title: "Dokumentace AMČR"
   favicon: figs/cover.png
   repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
-  # repo-actions: [source, edit, issue]
+  repo-actions: [source, edit, issue]
   page-navigation: true
   google-analytics:
     tracking-id: "G-S3BT2B2SPF"

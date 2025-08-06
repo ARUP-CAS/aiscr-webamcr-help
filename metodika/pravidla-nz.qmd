@@ -49,7 +49,8 @@ Všechny výškopisné souřadnice jsou uváděny ve výškovém systému **Bpv*
 ### Způsob odevzdání NZ
 
 - [ZAA se podává záznamem v informačním systému AMČR](/amcr/akce.qmd) a v jeho rámci se vytváří či připojuje jednotka (jednotky) PIAN.
-- [Ostatní části NZ se podávají rovněž prostřednictvím AMČR](/amcr/dokumenty.qmd), a to v podobě jednoho souboru **PDF** rozčleněného do kapitol odpovídajících výše uvedeným částem. V případech, kdy velikost souboru PDF přesahuje **100 MB**, musí být soubor podávajícím pracovníkem (autorem) rozdělen do více dílů (souborů).
+- [Ostatní části NZ se podávají rovněž prostřednictvím AMČR](/amcr/dokumenty.qmd), a to v podobě jednoho souboru **PDF** rozčleněného do kapitol odpovídajících výše uvedeným částem. V případech, kdy velikost souboru PDF přesahuje **250 MB**, musí být soubor podávajícím pracovníkem (autorem) rozdělen do více dílů (souborů).
+- V případě, že je to vhodné s ohledem na opětovné využití dat, je žádoucí odevzdat *Terénní dokumentaci* a *Seznamy* v podobě jednotlivých oddělených souborů v jiných datových formátech dle [seznamu aktuálně akceptovaných formátů](/amcr/dokumenty.qmd#formáty-souborů) a podmínek jejich přijetí pro archivaci.
 - Obsah ZAA musí být věcně shodný s obsahem ostatních částí NZ, zejména musí postihovat všechny zastoupené komponenty a základní popis archeologické akce; v opačném případě bude ZAA (záznam) vrácena autorovi k doplnění.
 - V případě, že je NZ neúplná nebo vykazuje jiné nedostatky, bude prostřednictvím AMČR vrácena autorovi k dopracování.
 
@@ -137,6 +138,7 @@ Součástí **nálezové zprávy** jsou:
 Veškeré dokumenty vzniklé v souvislosti s archeologickým výzkumem, které nejsou součástí NZ, ale jejich uchování je žádoucí (např. originály snímků, terénní záznamy, kresebné podklady, originály plánů, deník výzkumu, evidence docházky, geodetická a jiná analytická data apod.), musí být dlouhodobě bezpečně uloženy v digitálním repozitáři v důvěryhodném dlouhodobém úložišti a veřejně přístupné. 
 Popis způsobu uložení a zpřístupnění těchto dokumentů je nedílnou součástí NZ.
 
+V případě, že je to vhodné s ohledem na opětovné využití dat, je žádoucí odevzdat *Terénní dokumentaci* v podobě jednotlivých oddělených souborů v jiných datových formátech dle [seznamu aktuálně akceptovaných formátů](/amcr/dokumenty.qmd#formáty-souborů) a podmínek jejich přijetí pro archivaci.
 
 ### Seznamy
 
@@ -151,6 +153,7 @@ Seznamy archeologických situací a objektů archeologického fondu zahrnují:
 - **seznam plánů, fotoplánů, kolmých snímků, fotografií** a dalších dokumentů zahrnutých v NZ jako obrazové přílohy s odpovídajícím popisem. Seznamy se vytvářejí i tehdy, je-li popis doumentace uveden v popiskách příloh;
 - **seznam fotografií** s odpovídajícím popisem.
 
+V případě, že je to vhodné s ohledem na opětovné využití dat, je žádoucí odevzdat *Seznamy* v podobě jednotlivých oddělených souborů v jiných datových formátech dle [seznamu aktuálně akceptovaných formátů](/amcr/dokumenty.qmd#formáty-souborů) a podmínek jejich přijetí pro archivaci.
 
 ### Osobní údaje
 

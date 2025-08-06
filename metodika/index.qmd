@@ -12,7 +12,7 @@ Sekce **Metodické pokyny a výklady** obsahuje dokumenty nastavující základn
 
 ### Obsah 
 
-- Pravidla pro [badatelské archeologické výzkumy](badatelske-vyzkumy.qmd)
 - Metodické doporučení pro [administraci projektů v AMČR](administrace-proj.qmd)
+- Pravidla pro [badatelské archeologické výzkumy](badatelske-vyzkumy.qmd)
 - Metodický [výklad AMČR-PAS](amcr-pas.qmd) v kontextu zákona č. 20/1987 Sb., o státní památkové péči
 - [Pravidla pro podání nálezové zprávy](pravidla-nz.qmd) o terénním archeologickém výzkumu
