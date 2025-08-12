@@ -3,7 +3,7 @@ title: Pravidla pro podání nálezové zprávy o terénním archeologickém vý
 # subtitle: 
 # date: 2020-03-04
 date: 2025-08-06
-description: Verze v1.0, platná od 4. 3. 2020
+description: Verze v1, platná od 4. 3. 2020
 format: 
   html: default
   pdf: default
