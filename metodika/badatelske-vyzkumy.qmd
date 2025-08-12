@@ -2,8 +2,8 @@
 title: Badatelské archeologické výzkumy
 # subtitle: 
 # date: 2025-01-04
-date: 2025-08-06
-description: Verze v1.0, platná od 4. 1. 2025
+date: 2025-08-12
+description: Verze v1, platná od 4. 1. 2025
 format: 
   html: default
   pdf: default
@@ -14,7 +14,7 @@ Dle dohod mezi Akademií věd ČR a [oprávněnými archeologickými organizacem
 Archeologické ústavy pro potřeby evidence rozlišují projekty třech typů, a to *záchranné* a *badatelské* *projekty* a málo destruktivní *průzkumy*.
 
 Oprávněná organizace je povinna podat žádost o vyjádření Archeologickému ústavu ke všem *badatelským projektům*, a dále k *průzkumům* dotýkajícím se památkově chráněných území a objektů (viz §21 odst. 4, zák. 20/1987). 
-V případě výzkumu na [památkově chráněném území či objektu](https://pamatkovykatalog.cz/){.external} je **povinností žadatele si zajistit stanovisko Národního památkového ústavu** (NPÚ), které slouží jako jeden z podkladů pro stanovisko Archeologického ústavu. 
+V případě výzkumu na [památkově chráněném území či objektu](https://pamatkovykatalog.cz/){.external} je **povinností žadatele si zajistit stanovisko Národního památkového ústavu** (NPÚ), které slouží jako jeden z podkladů pro vyjádření Archeologického ústavu. 
 Jeho případné vystavení probíhá v předstihu před podáním žádosti, podle vlastních pravidel NPÚ.
 
 Základním předpokladem realizace badatelského výzkumu v souladu s platnými pravidly je jeho evidence v informačním systému Archeologická mapa České republiky ([AMČR](https://amcr.aiscr.cz/){.external}). 
@@ -42,7 +42,7 @@ Další okolnosti, zejména podmínky poskytovatelů prostředků na provedení 
 1. **Oprávněná archeologická organizace [zapíše](/amcr/projekty.qmd#zapsat) projekt příslušného typu do AMČR** a nahraje do sekce *projektová dokumentace* v detailu *projektu* příslušné přílohy. 
     Do podnětu projektu uvádějte snadno srozumitelnou definici předmětu a zamýšlené formy výzkumu.
       
-      - V případě *badatelského projektu* (rozuměj badatelský archeologický výzkum, příp. průzkum na památkově chráněném území či objektu) se jedná o [žádost o vyjádření](docs/BAV_stanovisko.docx) včetně vyžadovaných příloh. 
+      - V případě *badatelského projektu* (rozuměj badatelský archeologický výzkum, příp. průzkum na památkově chráněném území či objektu) se jedná o [žádost o vyjádření](docs/BAV_vyjadreni.docx) včetně vyžadovaných příloh. 
           Oprávněná archeologická organizacenásledně zašle žádost příslušnému Archeologickému ústavu datovou schránkou (pro oblast Čech: **[fxcng6z](https://www.mojedatovaschranka.cz/sds/detail?dbid=fxcng6z){.external}**; pro oblast Moravy a Slezska vč. Kraje Vysočina: **[xnjf5zy](https://www.mojedatovaschranka.cz/sds/detail?dbid=xnjf5zy){.external}**), kdy v žádosti bude uvedeno číslo příslušného projektu z AMČR. 
           *(Další postup viz bod 2. níže)*.
       - V případě průzkumu mimo památkově chráněné území či objekt se jedná o vyplněný formulář [Projekt průzkumu](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx).
@@ -64,7 +64,7 @@ Další okolnosti, zejména podmínky poskytovatelů prostředků na provedení 
 1. **Oprávněná organizace oznámí** Archeologickému ústavu (a NPÚ) **ukončení výzkumu** převedením *projektu* v AMČR do stavu [ukončen v terénu](/amcr/projekty.qmd#ukoncit-teren). 
     Tímto momentem začíná běžet lhůta pro odevzdání nálezové zprávy dle příslušné dohody mezi oprávněnou archeologickou organizací a Akademií věd ČR. 
     **Není-li lhůta pro odevzdání nálezové zprávy upravena jinak, činí 3 roky.** 
-    Nesplnění této povinnosti může být důvodem pro vydání zamítavého stanoviska při povolování budoucích výzkumů.
+    Nesplnění této povinnosti může být důvodem pro vydání zamítavého vyjádření při povolování budoucích výzkumů.
 
 2. **Organizace [zapíše do AMČR](/amcr/akce.qmd) záznam o archeologické akci k příslušnému projektu.** 
     V případě plně nedestruktivních či velmi málo destruktivních výzkumů bez předběžné evidence ve formě projektu oprávněná organizace vytvoří samostatnou akci. 
@@ -81,5 +81,5 @@ Další okolnosti, zejména podmínky poskytovatelů prostředků na provedení 
 
 ### Dokumenty ke stažení
 
-Žádost o stanovisko Archeologického ústavu AV ČR k realizaci archeologického výzkumu ([DOCX 20.65 kB {{< fa file-download >}}](docs/BAV_stanovisko.docx))  
+Žádost o vyjádření Archeologického ústavu AV ČR k realizaci archeologického výzkumu ([DOCX 20.65 kB {{< fa file-download >}}](docs/BAV_vyjadreni.docx))  
 Vzor projektové dokumentace pro projekty typu průzkum ([DOCX 13.65 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx))
