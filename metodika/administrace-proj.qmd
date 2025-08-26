@@ -1,11 +1,11 @@
 ---
 title: Metodické doporučení pro administraci projektů v AMČR
 subtitle: V kontextu zákona č. 20/1987 Sb., o státní památkové péči, ve znění pozdějších předpisů
-date: 2025-08-12
-author: 
-  - name: Róbert Antal
-    orcid: 0009-0004-4482-2257
-description: Verze v1, platná od 12. 8. 2025
+date: 2025-08-26
+# author: 
+#   - name: Róbert Antal
+#     orcid: 0009-0004-4482-2257
+description: Verze v1, platná od 26. 8. 2025
 format: 
   html: default
   pdf: default
@@ -60,7 +60,7 @@ Archeologické ústavy také ruší projekty, u kterých nebude realizovaný ZAV
 
 [PamZ v ust. § 22 odst. 2](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external} stanovuje, že
 
-> *„má-li se provádět stavební činnost na území s archeologickými nálezy, jsou stavebníci již od doby přípravy záměru podle stavebního zákona, odstranění stavby nebo odstranění terénní úpravy povinni tento záměr oznámit Archeologickému ústavu (…) Obdobně se postupuje, má-li se na takovém území provádět jiná činnost, kterou by mohlo být ohroženo provádění archeologických výzkumů.“*
+> *„Má-li se provádět stavební činnost na území s archeologickými nálezy, jsou stavebníci již od doby přípravy záměru podle stavebního zákona, odstranění stavby nebo odstranění terénní úpravy povinni tento záměr oznámit Archeologickému ústavu (…) Obdobně se postupuje, má-li se na takovém území provádět jiná činnost, kterou by mohlo být ohroženo provádění archeologických výzkumů.“*
 
 Preferovaným a dnes již většinově využívaným způsobem splnění oznamovací povinnosti je **[online formulář v AMČR](https://amcr.aiscr.cz/oznameni/){.external}**, jehož vyplněním oznamovatel zadává záměr přímo do systému jako záznam o projektu (procesní [stav P0](/o-systemu/procesy.qmd#procesní-stavy-projektů)). 
 Takto oznámené záměry kontrolují pracovníci Referátů archeologické památkové péče obou Archeologických ústavu AV ČR (dále jen RAPP). 
@@ -157,9 +157,10 @@ Tato náležitost sama o sobě není vázána na zákonné povinnosti, je ale z�
 
 ## Uzavření projektu
 
-Uzavření projektu ([stav P5](/o-systemu/procesy.qmd#procesní-stavy-projektů)) je nutné provést do **3 let** od data ukončení terénní části výzkumu, které OAO u konkrétního projektu uvedla. 
+Uzavření projektu ([stav P5](/o-systemu/procesy.qmd#procesní-stavy-projektů)) je nutné provést do 3 let od data ukončení terénní části výzkumu, které OAO u konkrétního projektu uvedla. 
+Před převedením projektu do stavu *Uzavřený* je nutno k příslušné *Akci* projektu odevzdat (nahrát) nálezovou zprávu (NZ). 
 V důvodných případech lze Archeologické ústavy písemně požádat o odklad termínu odevzdání. 
-O blížícím se termínu odevzdání je uživatel, který projekt přihlásil, informován 90 dní předem a dále je automaticky informován o případném nedodržení termínu.
+O blížícím se termínu odevzdání NZ je uživatel, který projekt přihlásil, informován 90 dní předem a dále je automaticky informován o případném nedodržení termínu.
 
 Pro uzavření projektu je nutné ze strany OAO v rámci projektu vytvořit [archeologickou akci](/amcr/akce.qmd) (nebo i více akcí) a v jejím rámci vyplnit části s detaily o provedeném výzkumu, konkrétní prostorovou lokalizaci a zjištěné archeologické komponenty. 
 V případě, že došlo k pozitivnímu archeologickému zjištění, je také nutné nahrát k akci nálezovou zprávu dle [Pravidel pro podání nálezové zprávy o terénním archeologickém výzkumu](pravidla-nz.qmd). 

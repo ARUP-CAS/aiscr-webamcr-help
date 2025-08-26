@@ -1,7 +1,7 @@
 ---
 title: Metodické pokyny a výklady
 subtitle: Dokumenty nastavující základní metodické přístupy aplikované v AMČR
-date: 2025-07-08
+date: 2025-08-26
 format:
   html: default
 repo-actions: false
