@@ -1,63 +1,8 @@
 ---
-title: Uživatelské účty
+title: Informace o zpracování osobních údajů registrovaných uživatelů 
+description: Platné od 29. 4. 2021
 date: 2025-08-26
-# date: 2024-07-03
 ---
-
-::: {.callout-note}
-
-Registraci do AMČR můžete provést na následující stránce: [https://amcr.aiscr.cz/accounts/register/](https://amcr.aiscr.cz/registrace/){.external}.
-
-:::
-
-Registrace v systému AMČR je pro všechny uživatele zdarma.
-Při registraci je potřeba vyplnit následující údaje:
-![](figs/registrace.png){.column-margin}
-
-- **Jméno**;
-- **Příjmení**;
-- **Email** -- každý účet je vázán na emailovou adresu;
-- *Telefon* -- nepovinný údaj;
-- **Organizace** -- z rozbalovací nabídky lze vybrat organizaci uživatele, uživatelé mimo archeologické organizace zpravidla vyberou možnost `[amatérský spolupracovník]` či `[neuvedeno]`;
-- **Heslo**.
-
-::: {.callout-important}
-
-## Upozornění
-
-Pro registraci do AMČR je potřeba uvést **skutečné jméno a příjmení**.
-Zkratky, přezdívky apod. nejsou přípustné.
-
-:::
-
-Po vyplnění a odeslání registračního formuláře pak dojde k ověření uvedené emailové adresy a následné aktivaci účtu správci systému z ARÚP/ARÚB.
-Po aktivaci účtu správci systému přijde na zadanou emailovovou adresu email s potvrzením.
-Následně je možné se přihlásit.
-
-Registrací v AMČR souhlasíte se [zpracováním Vašich osobních údajů](osobni-udaje.qmd).
-
-::: {.callout-tip}
-
-Uživatelský účet AMČR je možné použít především na následujících místech:
-
-- webová aplikace AMČR -- [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external};
-- Digitální archiv AMČR -- [https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/){.external} a
-- AMČR API -- [https://api.aiscr.cz/](https://api.aiscr.cz/){.external}.
-
-:::
-
-## Uživatelské role 
-
-Uživatelské role jsou detailně popsány [zde](/o-systemu/role.qmd).
-Registrací v systému získává uživatel automaticky roli **Badatel** (**B**).
-Roli **Archeolog** (**C**) mohou získat uživatelé z [organizací s oprávněním provádět archeologický výzkum](/slovnik/index.qmd#oprávněná-archeologická-organizace) prostřednictvím doplnění dodatku ke smlouvě uzavřené s ARÚP/ARÚB.
-
-V závislosti na získané uživatelské roli (oprávnění) nabízí systém AMČR uživatelům širokou škálu nástrojů a funkcionalit. 
-Obsah uživatelských rolí v zásadě odpovídá základním typům uživatelů a očekávaným způsobům práce s informačním systémem. 
-Vždy platí, že vyšší oprávnění v sobě zahrnuje i všechna práva a možnosti oprávnění nižších, toto lze samozřejmě předpokládat i o pracovních postupech, které jsou při práci využívány. 
-
-
-<!-- ## Informace o zpracování osobních údajů registrovaných uživatelů 
 
 ::: {.callout-note}
 
@@ -71,14 +16,14 @@ Prosím, věnujte pozornost následujícímu textu, jehož prostřednictvím Vá
 
 ### Úvodní informace
 
-Jakékoliv nakládání s osobními údaji se řídí platnými právními předpisy, zejména nařízením Evropského parlamentu a Rady č. 2016/679 ze dne 27. 4. 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů a o zrušení směrnice 95/46/ES (dále jen „obecné nařízení o ochraně osobních údajů“) a zákonem č. 110/2019 Sb., o zpracování osobních údajů (dále jen „zákon“). 
+Jakékoliv nakládání s osobními údaji se řídí platnými právními předpisy, zejména nařízením Evropského parlamentu a Rady č. 2016/679 ze dne 27. 4. 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů a o zrušení směrnice 95/46/ES (dále jen *„obecné nařízení o ochraně osobních údajů“*) a zákonem č. 110/2019 Sb., o zpracování osobních údajů (dále jen *„zákon“*). 
 V souladu s ustanovením čl. 13 a následující obecného nařízení o ochraně osobních údajů Vám jako tzv. subjektům údajů poskytujeme následující informace. 
 Tento text je veřejný a slouží k Vašemu řádnému informování o rozsahu, účelu, době zpracování osobních údajů a k poučení o Vašich právech v souvislosti s jejich ochranou.
 
 
 ### Kdo je správcem osobních údajů
 
-Společnými správci osobních údajů jsou Archeologický ústav AV ČR, Praha, v.v.i., IČ 67985912, se sídlem Letenská 4, 118 01 Praha 1 a Archeologický ústav AV ČR, Brno, v.v.i., IČ 68081758, se sídlem Čechyňská 363/19, 602 00 Brno (dále jen „Správce“ či „Archeologický ústav“).
+Společnými správci osobních údajů jsou Archeologický ústav AV ČR, Praha, v.v.i., IČ 67985912, se sídlem Letenská 4, 118 01 Praha 1 a Archeologický ústav AV ČR, Brno, v.v.i., IČ 68081758, se sídlem Čechyňská 363/19, 602 00 Brno (dále jen *„Správce“* či *„Archeologický ústav“*).
 
 
 ### Co jsou osobní údaje
@@ -119,9 +64,9 @@ V případě, že do Archeologického informačního systému ČR vložíte o vl
 
 Vaše osobní údaje, a to v rozsahu jméno a příjmení uvedené u Vámi vloženého záznamu, předáváme do:
 
-- zemí Evropské Unie za účelem agregace dat v infrastrukturách ARIADNE a EUROPEANA;
-- zemí Evropské Unie, případně třetích zemí, za účelem přidělení persistentního identifikátoru prostřednictvím organizace DataCite;
-- zemí Evropské Unie prostřednictvím agregace dat prostřednictvím národní implementace iniciativy EOSC.
+- zemí Evropské Unie za účelem agregace dat v infrastrukturách [ARIADNE](https://www.ariadne-research-infrastructure.eu/){.external} a [Europeana](https://www.europeana.eu/){.external};
+- zemí Evropské Unie, případně třetích zemí, za účelem přidělení persistentního identifikátoru prostřednictvím organizace [DataCite](https://datacite.org/){.external};
+- zemí Evropské Unie prostřednictvím agregace dat prostřednictvím národní implementace iniciativy [EOSC](https://www.eosc.cz/){.external}.
 
 Vyjma výše uvedeného nepředáváme a nemáme v úmyslu předat Vaše osobní údaje do třetí země nebo mezinárodní organizaci.
 
@@ -138,4 +83,4 @@ Vyjma výše uvedeného nepředáváme a nemáme v úmyslu předat Vaše osobní
 
 V případě, že byste se domnívali, že *Správce* provádí zpracování Vašich osobních údajů v rozporu s ochrannou Vašeho soukromého a osobního života nebo s příslušnými právními předpisy, zejména jsou-li osobní údaje nepřesné s ohledem na účel jejich zpracování, můžete vznést námitku proti zpracování Vašich osobních údajů.
 
-Pokud se *subjekt* údajů domnívá, že došlo k porušení právních předpisů v souvislosti s ochranou jeho osobních údajů, má právo podat stížnost u Úřadu pro ochranu osobních údajů. -->
+Pokud se *subjekt* údajů domnívá, že došlo k porušení právních předpisů v souvislosti s ochranou jeho osobních údajů, má právo podat stížnost u Úřadu pro ochranu osobních údajů.

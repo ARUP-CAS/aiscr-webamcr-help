@@ -57,6 +57,8 @@ website:
         - index.qmd
         - zakladni-info/zakladni-info.qmd
         - zakladni-info/ucty.qmd
+        - text: Zpracování osobních údajů
+          href: zakladni-info/osobni-udaje.qmd
         - zakladni-info/historie.qmd
       # footer: |
       #   **{{< fa skull-crossbones >}}  Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!**  
