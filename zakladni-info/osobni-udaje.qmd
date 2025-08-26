@@ -47,7 +47,8 @@ Informujeme Vás, že Vaše osobní údaje jsou zpracovávány v rozsahu Vámi v
 - telefonní číslo,
 - e-mail,
 - heslo,
-- IP adresa.
+- IP adresa,
+- identifikátor ORCID.
 
 ### Doba zpracování osobních údajů
 
@@ -60,7 +61,9 @@ Osobní údaje *subjektu* údajů jsou zpracovávány automatizovaně v elektron
 
 Pokud si budete přát, aby Vás kontaktoval určitý odborný pracovník správce, tak za tímto účelem budou danému odbornému pracovníkovi předány osobní údaje nezbytné pro Vaše kontaktování, a to v rozsahu jméno, příjmení, e-mail, telefon.
 
-V případě, že do Archeologického informačního systému ČR vložíte o vlastní vůli Váš vlastní záznam, budou u takového záznamu uvedeny Vaše osobní údaje, a to v rozsahu jméno a příjmení.
+Vaše osobní údaje nepředáváme a nemáme v úmyslu předat do třetí země nebo mezinárodní organizaci.
+
+<!-- V případě, že do Archeologického informačního systému ČR vložíte o vlastní vůli Váš vlastní záznam, budou u takového záznamu uvedeny Vaše osobní údaje, a to v rozsahu jméno a příjmení.
 
 Vaše osobní údaje, a to v rozsahu jméno a příjmení uvedené u Vámi vloženého záznamu, předáváme do:
 
@@ -68,7 +71,7 @@ Vaše osobní údaje, a to v rozsahu jméno a příjmení uvedené u Vámi vlož
 - zemí Evropské Unie, případně třetích zemí, za účelem přidělení persistentního identifikátoru prostřednictvím organizace [DataCite](https://datacite.org/){.external};
 - zemí Evropské Unie prostřednictvím agregace dat prostřednictvím národní implementace iniciativy [EOSC](https://www.eosc.cz/){.external}.
 
-Vyjma výše uvedeného nepředáváme a nemáme v úmyslu předat Vaše osobní údaje do třetí země nebo mezinárodní organizaci.
+Vyjma výše uvedeného nepředáváme a nemáme v úmyslu předat Vaše osobní údaje do třetí země nebo mezinárodní organizaci. -->
 
 
 ### Poučení o právech subjektů údajů
