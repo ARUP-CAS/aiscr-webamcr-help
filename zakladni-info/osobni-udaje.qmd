@@ -8,15 +8,25 @@ date: 2025-08-26
 
 Prosím, věnujte pozornost následujícímu textu, jehož prostřednictvím Vám poskytujeme informace o zpracování Vašich osobních údajů a o právech souvisejících s Vaším využíváním služeb [Archeologického informačního systému České republiky](https://www.aiscr.cz/){.external}, který je provozován: 
 
-- **Archeologickým ústavem AV ČR, Praha**, v.v.i., IČ 67985912, se sídlem Letenská 4, 118 01 Praha 1 ([https://www.arup.cas.cz](https://www.arup.cas.cz){.external}) a 
-- **Archeologickým ústavem AV ČR, Brno**, v.v.i., IČ 68081758, se sídlem Čechyňská 363/19, 602 00 Brno ([https://www.arub.cz](https://www.arub.cz){.external}).
+- **Archeologickým ústavem AV ČR, Praha, v.v.i.**, IČ 67985912, se sídlem Letenská 4, 118 01 Praha 1 ([https://www.arup.cas.cz](https://www.arup.cas.cz){.external}) a 
+- **Archeologickým ústavem AV ČR, Brno, v.v.i.**, IČ 68081758, se sídlem Čechyňská 363/19, 602 00 Brno ([https://www.arub.cz](https://www.arub.cz){.external}).
+
+:::
+
+::: {.callout-tip}
+
+## Zpracování základních osobních údajů při evidenci archeologických výzkumů a odborné bibliografie
+
+Zpracování vybraných osobních údajů je prováděno jako nezbytné pro splnění úkolů ve veřejném zájmu nebo při výkonu veřejné moci, kterými je pověřen *Správce* (Archeologické ústavy AV ČR) v souvislosti s naplňováním [zákona 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}. 
+Zpracování probíhá formou udržování [slovníku osob](/o-systemu/heslare.qmd) (jméno, příjmení, rodné příjmení, rok narození, ORCID ID, Wikidata ID) užívaného při identifikaci osob odborně odpovědných za archeologické výzkumy a při identifikaci autorství související dokumentace a publikací. 
+Ke zpracování osobních údajů za tímto účelem dochází z veřejných zdrojů a na základě údajů poskytnutých jednotlivými uživateli.
 
 :::
 
 
 ### Úvodní informace
 
-Jakékoliv nakládání s osobními údaji se řídí platnými právními předpisy, zejména nařízením Evropského parlamentu a Rady č. 2016/679 ze dne 27. 4. 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů a o zrušení směrnice 95/46/ES (dále jen *„obecné nařízení o ochraně osobních údajů“*) a zákonem č. 110/2019 Sb., o zpracování osobních údajů (dále jen *„zákon“*). 
+Jakékoliv nakládání s osobními údaji se řídí platnými právními předpisy, zejména [nařízením Evropského parlamentu a Rady č. 2016/679 ze dne 27. 4. 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů a o zrušení směrnice 95/46/ES](https://eur-lex.europa.eu/legal-content/CS/ALL/?uri=CELEX:02016R0679-20160504){.external} (dále jen *„obecné nařízení o ochraně osobních údajů“*) a [zákonem č. 110/2019 Sb., o zpracování osobních údajů](https://www.zakonyprolidi.cz/cs/2019-110){.external} (dále jen *„zákon“*). 
 V souladu s ustanovením čl. 13 a následující obecného nařízení o ochraně osobních údajů Vám jako tzv. subjektům údajů poskytujeme následující informace. 
 Tento text je veřejný a slouží k Vašemu řádnému informování o rozsahu, účelu, době zpracování osobních údajů a k poučení o Vašich právech v souvislosti s jejich ochranou.
 
@@ -88,3 +98,12 @@ Vyjma výše uvedeného nepředáváme a nemáme v úmyslu předat Vaše osobní
 V případě, že byste se domnívali, že *Správce* provádí zpracování Vašich osobních údajů v rozporu s ochrannou Vašeho soukromého a osobního života nebo s příslušnými právními předpisy, zejména jsou-li osobní údaje nepřesné s ohledem na účel jejich zpracování, můžete vznést námitku proti zpracování Vašich osobních údajů.
 
 Pokud se *subjekt* údajů domnívá, že došlo k porušení právních předpisů v souvislosti s ochranou jeho osobních údajů, má právo podat stížnost u Úřadu pro ochranu osobních údajů.
+
+::: {.callout-note}
+
+## Zpracování osobních údajů oznamovatelů terénních zásahů
+
+Zpracování osobních údajů poskytnutých při oznamování terénních zásahů ve smyslu [§ 22 odst. 2 zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}, je upraveno samostatně. 
+Více informací viz [https://amcr.aiscr.cz/oznameni/](https://amcr.aiscr.cz/oznameni/){.external}
+
+:::
