@@ -40,7 +40,7 @@ zákonných norem ČR.
 ## Odkazy
 
 Modul AMČR-PAS naleznete po přihlášení na [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.  
-Webovou stránku AMČR-PAS pak zde [http://www.archeologickamapa.cz/pas](http://www.archeologickamapa.cz/pas){.external}.
+Webovou stránku AMČR-PAS pak zde [https://amcr-info.aiscr.cz/pas](https://amcr-info.aiscr.cz/pas){.external}.
 
 :::
 
@@ -56,7 +56,7 @@ Záznam z periodického školení *Portálu amatérských spolupracovníků a ev
 
 - [ ] V [Mapě archeologických organizací](https://oao.aiscr.cz/){.external} najdu organizaci, která působí v mém okolí nebo na území, které mne zajímá.
 - [ ] Kontaktuji archeologa*žku dané organizace a domluvím se na principech spolupráce.
-- [ ] Registruji se v [AMČR](https://amcr.aiscr.cz/accounts/register){.external}.
+- [ ] Registruji se v [AMČR](https://amcr.aiscr.cz/accounts/register/){.external}.
 - [ ] Projdu proškolením od archeologa*žky, s organizací uzavřu dohodu o spolupráci.
 - [ ] V modulu [Samostatné nálezy](https://amcr.aiscr.cz/pas/spoluprace/vyber?sort=organizace_vedouci&sort=spolupracovnik){.external} navážu s archeologem*žkou spolupráci. 
 - [ ] Archeolog*žka mi sdělí, pod které čísla projektů mohu zapisovat nálezy.
@@ -120,8 +120,8 @@ Zásady zodpovědného hledání s detektory kovů jsou popsány v následujíc�
 ### Registrace a přihlášení
 
 
-Pro přihlášení do [aplikace](https://amcr.aiscr.cz/){.external} slouží emailová
-adresa a heslo. Nutná je předchozí [registrace](https://backend.aiscr.cz/registrace/0/){.external}.
+Pro přihlášení do [aplikace](https://amcr.aiscr.cz/){.external} slouží emailová adresa a heslo. 
+Nutná je předchozí [registrace](https://amcr.aiscr.cz/accounts/register/){.external}.
 
 Povinnými položkami pro registraci jsou:
 

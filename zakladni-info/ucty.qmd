@@ -6,7 +6,7 @@ date: 2025-08-26
 
 ::: {.callout-note}
 
-Registraci do AMČR můžete provést na následující stránce: [https://amcr.aiscr.cz/accounts/register/](https://amcr.aiscr.cz/registrace/){.external}.
+Registraci do AMČR můžete provést na následující stránce: [https://amcr.aiscr.cz/accounts/register/](https://amcr.aiscr.cz/accounts/register/){.external}.
 
 :::
 

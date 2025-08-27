@@ -11,7 +11,7 @@ format:
   pdf: default
 ---
 
-Archeologická mapa České republiky (dále jen [AMČR](https://amcr.aiscr.cz){.external}) je základním oborovým nástrojem archeologické památkové péče. 
+Archeologická mapa České republiky (dále jen [AMČR](https://amcr.aiscr.cz/){.external}) je základním oborovým nástrojem archeologické památkové péče. 
 AMČR plní dva hlavní účely – uchovat informace o archeologickém dědictví České republiky a umožnit subjektům archeologické památkové péče plnit zákonné povinnosti jednoduchým, transparentním a efektivním způsobem. 
 Plnění těchto povinností, které vyplývají primárně ze [zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}, ve znění pozdějších předpisů (dále jen PamZ) a příslušných Dohod o rozsahu a podmínkách provádění archeologických výzkumů (dále jen Dohoda), je integrálním předpokladem ochrany archeologického dědictví České republiky. 
 

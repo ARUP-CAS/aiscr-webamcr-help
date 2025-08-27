@@ -83,7 +83,7 @@ V seznamu dokumentačních jednotek lze pomocí ikony terčíku vlevo od dokumen
 
 Zvláštní součástí dokumentační jednotky může být tzv. archeologický dokumentační bod (ADB), který je součástí DJ v rámci **Pražské památkové rezervace**. 
 Pro zápis ADB je třeba použít DJ typu *Sonda*. 
-Popis ADB se řídí metodikou dostupnou na portálu [Praha archeologická](http://www.praha-archeologicka.cz/files/databaze-madb.pdf){.external}, případně [tutoriálem pro zápis ADB v AMČR](adb.qmd). 
+Popis ADB se řídí metodikou dostupnou na portálu [Praha archeologická](https://praha.aiscr.cz/files/databaze-madb.pdf){.external}, případně [tutoriálem pro zápis ADB v AMČR](adb.qmd). 
 Ke každému ADB jsou připojeny popisné údaje, které jej blíže specifikují. 
 Popis zahrnuje adresní údaje, identifikaci parcelním číslem a interní identifikátor organizace, která výzkum prováděla. 
 Dále je udán autor a rok odborného popisu, druh zásahu a jeho podnět. 
@@ -137,7 +137,7 @@ Správa dokumentů je popsána v [samostatném návodu](dokumenty.qmd).
 
 ### Externí zdroje 
 
-K archeologické akci je v relevantních případech možné připojit také [externí zdroj](/slovnik/index.qmd##externí-zdroje-bibliografie) informací, např. publikovanou literaturu atp., viz návod ke správě [externích zdrojů](externi.qmd).
+K archeologické akci je v relevantních případech možné připojit také [externí zdroj](/slovnik/index.qmd#externí-zdroje-bibliografie) informací, např. publikovanou literaturu atp., viz návod ke správě [externích zdrojů](externi.qmd).
 
 ![](figs/akce-ext.png){width="90%" fig-align="center"}
 

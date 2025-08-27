@@ -28,11 +28,11 @@ V horní části stránky se nachází panel ovládacích prvků s tlačítky:
 
 ### Uživatelské účty
 
-**Registrovaní uživatelé** se mohou přihlásit svým uživatelským jménem a heslem; údaje jsou shodné jako při užití aplikace [AMČR](https://amcr.aiscr.cz/){.external}. Neregistrovaní uživatelé se mohou registrovat kliknutím na možnost [Registrovat uživatele](https://backend.aiscr.cz/registrace/0/){.external}, která otevře stránku s registračním formulářem.
+**Registrovaní uživatelé** se mohou přihlásit svým uživatelským jménem a heslem; údaje jsou shodné jako při užití aplikace [AMČR](https://amcr.aiscr.cz/){.external}. Neregistrovaní uživatelé se mohou registrovat kliknutím na možnost [Registrovat uživatele](https://amcr.aiscr.cz/accounts/register/){.external}, která otevře stránku s registračním formulářem.
 
 Při registraci je nutné vyplnit jméno a příjmení uživatele, kontaktní informace, případně organizaci pod kterou uživatel náleží. Uživatel nemusí spadat pod žádnou organizaci a může vystupovat např. jako samostatný badatel či neuvádět příslušnost k organizaci. Při registraci uživatel také nastaví heslo pro přihlášení do systému. Všichni uživatelé vystupují v AMČR/Digitálním archivu pod svými skutečnými jmény, a je tedy třeba zadat jejich plné znění, a to včetně diakritiky (nikoliv např. přezdívku). Následně nový uživatel obdrží na uvedený e-mail ověřovací zprávu, ve které je třeba kliknout na zaslaný odkaz, a ověřit tak správnost registrace. Tímto vzniká uživatelský účet, který je z počátku neaktivní. Systém poté automaticky kontaktujte správce systému, který po kontrole údajů účet aktivuje a přidělí mu uživatelskou roli (děje se tak obvykle v běžné pracovní době). Po aktivaci obdrží uživatel informační e-mail a následně se může přihlásit.
 
-Na následujícím odkazu Vám poskytujeme [informace o zpracování osobních údajů registrovaných uživatelů](http://www.archeologickamapa.cz/downloads/AIS_CR_Informace_os_udaje_uzivatele.pdf){.external}.
+Informace o zpracování osobních údajů registrovaných uživatelů naleznete [zde](/zakladni-info/osobni-udaje.qmd).
 
 ### Přístupnost záznamů
 
@@ -76,7 +76,7 @@ Práce v mapovém okně je podrobněji popsána níže.
 
 ### Typy záznamů
 
-Záznamy v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz){.external} jsou rozděleny do šesti základních typů. 
+Záznamy v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external} jsou rozděleny do šesti základních typů. 
 Dokumenty se dále dělí na pět podtypů. 
 Pro každý typ záznamu je uveden jejich počet v Digitálním archivu. 
 Kliknutím na položku přejdete na stránku s výsledky. 
@@ -250,8 +250,8 @@ Po zavření mapového okna a návratu k zobrazení výsledků zůstávají vše
 ![](figs/da-map7.png){.column-page-inset-right}
 
 Po kliknutí na ikonu **{{< fa layer-group >}}** v pravém horním rohu mapového okna je možné změnit mapový podklad. 
-Na výběr je [ČÚZK - Základní mapa ČR](https://ags.cuzk.cz/ArcGIS/rest/services/zmwm/MapServer){.external}, [ČÚZK - Ortofotomapa](https://ags.cuzk.cz/ArcGIS/rest/services/ortofoto_wm/MapServer){.external} a [ČÚZK - Stínovaný reliéf 5G](https://ags.cuzk.cz/arcgis2/rest/services/dmr5g/ImageServer){.external} a dále [OpenStreetMap.](https://www.openstreetmap.org/){.external}.
-K těmto podkladovým mapám je dále možné jako poloprůhledný překryv doplnit mapu [ČÚZK - Katastrální území](http://services.cuzk.cz/wms/wms.asp?){.external} a [ČÚZK - Katastrální mapu](http://services.cuzk.cz/wms/wms.asp?){.external} (dostupné podle zvoleného měřítka - mapu je nutno dostatečně přiblížit).
+Na výběr je ČÚZK – Základní mapa ČR, ČÚZK – Ortofotomapa a ČÚZK – Stínovaný reliéf 5G a dále [OpenStreetMap](https://www.openstreetmap.org/){.external}.
+K těmto podkladovým mapám je dále možné jako poloprůhledný překryv doplnit mapu ČÚZK – Katastrální území a ČÚZK – Katastrální mapu (dostupné podle zvoleného měřítka - mapu je nutno dostatečně přiblížit).
 
 ![](figs/da-map8.png){.column-margin width=200}
 

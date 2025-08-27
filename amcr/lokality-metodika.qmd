@@ -22,7 +22,7 @@ Zároveň mohou být některé odkazy, které stránka obsahuje, nefunkční, sc
 
 ::: callout-note
 
-Původně zveřejněno jako Kuna, M a Novák, D. [-@kuna2020]: *Zásady evidence "nemovitých" lokalit v AMČR* na Zenodo pod DOI: [10.5281/zenodo.4113964](http://doi.org/10.5281/zenodo.4113964){.external}
+Původně zveřejněno jako Kuna, M a Novák, D. [-@kuna2020]: *Zásady evidence "nemovitých" lokalit v AMČR* na Zenodo pod DOI: [10.5281/zenodo.4113964](https://doi.org/10.5281/zenodo.4113964){.external}
 
 :::
 

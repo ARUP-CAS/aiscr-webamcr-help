@@ -31,7 +31,7 @@ Předepsaný a/nebo doporučený obsah výše uvedených souborů terénní doku
 
 Nálezová zpráva o archeologickém výzkumu (dále NZ) se skládá z těchto částí:
 
-- **identifikátor** příslušného projektu nebo samostatné archeologické akce v informačním systému [Archeologická mapa České republiky (**AMČR**)](https://amcr-info.aiscr.cz){.external};
+- **identifikátor** příslušného projektu nebo samostatné archeologické akce v informačním systému [Archeologická mapa České republiky (**AMČR**)](https://amcr-info.aiscr.cz/){.external};
 - stručný strukturovaný záznam o příčinách, průběhu a výsledcích výzkumu jako podklad pro databázi výsledků archeologických výzkumů (tzv. [Zpráva/Záznam o archeologické akci](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa), dále **ZAA**);
 - prostorová identifikace výzkumu jeho přiřazením k existující jednotce (jednotkám) [**PIAN**](/slovnik/index.qmd#pian) (prostorová identifikace archeologických nálezů) nebo vytvořením nové jednotky (nových jednotek) PIAN;
 - **textová část**, zahrnující slovní popis příčin, průběhu a výsledků výzkumu podle kapitoly [Textová část NZ](pravidla-nz.qmd#textova-cast-nz) níže;
