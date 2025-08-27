@@ -1,0 +1,727 @@
+./404.qmd:8:[**úvodní stránku**](index.qmd)
+./about/index.qmd:30:[AMČR](https://amcr-info.aiscr.cz/){.external}
+./about/index.qmd:30:[AIS CR](https://aiscr.cz/){.external}
+./about/index.qmd:31:[Praze](https://www.arup.cas.cz/){.external}
+./about/index.qmd:31:[Brně](https://www.arub.cz/){.external}
+./about/index.qmd:39:[https://www.arup.cas.cz/](https://www.arup.cas.cz/){.external}
+./about/index.qmd:40:[{{< fa regular envelope size=xs >}} amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
+./about/index.qmd:45:[https://www.arub.cz/](https://www.arub.cz/){.external}
+./about/index.qmd:46:[{{< fa regular envelope size=xs >}} amcr@arub.cz](mailto:amcr@arub.cz)
+./amcr/adb.qmd:13:[Praha archeologická](https://praha.aiscr.cz/){.external}
+./amcr/adb.qmd:17:[ADB](/slovnik/index.qmd#madb)
+./amcr/adb.qmd:17:[zde](https://praha.aiscr.cz/files/databaze-madb.pdf){.external}
+./amcr/adb.qmd:26:[dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky)
+./amcr/adb.qmd:28:[heslář](/o-systemu/heslare.qmd#sondy-madb)
+./amcr/adb.qmd:29:[PIAN](/slovnik/index.qmd#pian)
+./amcr/adb.qmd:30:[komponenty](/slovnik/index.qmd#komponenty)
+./amcr/adb.qmd:38:[Nastavení dokumentační jednotky pro možnost zápisu ADB](figs/adb1.jpg)
+./amcr/adb.qmd:43:[Karta sekce pro zápis ADB](figs/adb2.jpg)
+./amcr/adb.qmd:48:[Připojení výškových bodů k ADB](figs/adb3.jpg)
+./amcr/adb.qmd:59:[Příklad zápisu v AMČR pro situaci dvou zkoumaných sond v mapovém okně s připojenými ADB](figs/adb4.jpg)
+./amcr/adb.qmd:61:[Detail zápisu výškových bodů u jedné ze sond](figs/adb5.jpg)
+./amcr/adb.qmd:72:[Příklad zápisu skupiny sond v mapovém okně s připojenými ADB](figs/adb6.jpg)
+./amcr/adb.qmd:74:[Detail zápisu výškových bodů u jedné ze sond](figs/adb7.jpg)
+./amcr/akce.qmd:6:[Archeologické akce](/slovnik/index.qmd#akce)
+./amcr/akce.qmd:29:[Zápis projektové akce](https://youtu.be/eJ_H6Tonj9Y?si=aeZmuTLFFbhqYaRp&t=386){.external}
+./amcr/akce.qmd:30:[Zápis dokumentační jednotky a tvorba PIAN](https://youtu.be/eJ_H6Tonj9Y?si=vMDrI8yy9IyAefA-&t=532){.external}
+./amcr/akce.qmd:31:[Zápis komponenty a nálezu](https://youtu.be/eJ_H6Tonj9Y?si=Ytbf87xemk41Xhvh&t=714){.external}
+./amcr/akce.qmd:32:[Připojení dokumentu](https://youtu.be/eJ_H6Tonj9Y?si=Wtj6JSRXHYKNRjqS&t=857){.external}
+./amcr/akce.qmd:33:[Odeslání akce a uzavření projektu](https://youtu.be/eJ_H6Tonj9Y?si=i_pKW4XM4M4-fOhl&t=1007){.external}
+./amcr/akce.qmd:42:[projektů](projekty.qmd#archeologické-akce)
+./amcr/akce.qmd:54:[dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky)
+./amcr/akce.qmd:57:[PIANy](/slovnik/index.qmd#pian)
+./amcr/akce.qmd:57:[komponenty](/slovnik/index.qmd#komponenty)
+./amcr/akce.qmd:58:[tutoriál](dj.qmd)
+./amcr/akce.qmd:86:[Praha archeologická](https://praha.aiscr.cz/files/databaze-madb.pdf){.external}
+./amcr/akce.qmd:86:[tutoriálem pro zápis ADB v AMČR](adb.qmd)
+./amcr/akce.qmd:97:[PIAN](/slovnik/index.qmd#pian)
+./amcr/akce.qmd:100:[návod k mapovému prostředí](mapa.qmd)
+./amcr/akce.qmd:101:[návod k vytvoření importního souboru CSV](pian-import.qmd)
+./amcr/akce.qmd:115:[samostatném textu](pian-import.qmd)
+./amcr/akce.qmd:132:[dokumenty](/slovnik/index.qmd#dokumenty)
+./amcr/akce.qmd:133:[nálezová zpráva](/slovnik/index.qmd#nálezová-zpráva)
+./amcr/akce.qmd:133:[hlášení/ZAA](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa)
+./amcr/akce.qmd:134:[samostatném návodu](dokumenty.qmd)
+./amcr/akce.qmd:140:[externí zdroj](/slovnik/index.qmd#externí-zdroje-bibliografie)
+./amcr/akce.qmd:140:[externích zdrojů](externi.qmd)
+./amcr/amcr-pas/amater.qmd:27:[10.5281/zenodo.4114081](https://zenodo.org/doi/10.5281/zenodo.4114081){.external}
+./amcr/amcr-pas/amater.qmd:32:[oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace)
+./amcr/amcr-pas/amater.qmd:42:[https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}
+./amcr/amcr-pas/amater.qmd:43:[https://amcr-info.aiscr.cz/pas](https://amcr-info.aiscr.cz/pas){.external}
+./amcr/amcr-pas/amater.qmd:50:[zde](https://doi.org/10.5281/zenodo.14277133){.external}
+./amcr/amcr-pas/amater.qmd:57:[Mapě archeologických organizací](https://oao.aiscr.cz/){.external}
+./amcr/amcr-pas/amater.qmd:59:[AMČR](https://amcr.aiscr.cz/accounts/register/){.external}
+./amcr/amcr-pas/amater.qmd:61:[Samostatné nálezy](https://amcr.aiscr.cz/pas/spoluprace/vyber?sort=organizace_vedouci&sort=spolupracovnik){.external}
+./amcr/amcr-pas/amater.qmd:64:[Fotografická dokumentace nálezů](foto.qmd)
+./amcr/amcr-pas/amater.qmd:83:[Mapa archeologických organizací](https://oao.aiscr.cz/){.external}
+./amcr/amcr-pas/amater.qmd:110:[![](figs/desatero.png)
+./amcr/amcr-pas/amater.qmd:113:[videu](https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9){.external}
+./amcr/amcr-pas/amater.qmd:113:[dokumentu {{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/Zodpovedne_hledani.pdf)
+./amcr/amcr-pas/amater.qmd:123:[aplikace](https://amcr.aiscr.cz/){.external}
+./amcr/amcr-pas/amater.qmd:124:[registrace](https://amcr.aiscr.cz/accounts/register/){.external}
+./amcr/amcr-pas/amater.qmd:136:[Uživatelské účty](/zakladni-info/ucty.qmd)
+./amcr/amcr-pas/amater.qmd:141:[Archeologického informačního systému ČR (AIS ČR)](https://www.aiscr.cz/){.external}
+./amcr/amcr-pas/amater.qmd:142:[Archeologické mapy ČR (AMČR)](https://amcr-info.aiscr.cz/){.external}
+./amcr/amcr-pas/amater.qmd:234:[tutoriálu pro fotografickou dokumentaci nálezů](foto.qmd)
+./amcr/amcr-pas/amater.qmd:235:[Creative Commons Attribution Non-commercial 4.0 Int. (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/){.external}
+./amcr/amcr-pas/amater.qmd:278:[Samostatné nálezy](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external}
+./amcr/amcr-pas/archeolog.qmd:26:[10.5281/zenodo.4114128](https://doi.org/10.5281/zenodo.4114128){.external}
+./amcr/amcr-pas/archeolog.qmd:37:[projekt](/slovnik#projekty)
+./amcr/amcr-pas/archeolog.qmd:44:[https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}
+./amcr/amcr-pas/archeolog.qmd:45:[https://amcr-info.aiscr.cz/pas](https://amcr-info.aiscr.cz/pas){.external}
+./amcr/amcr-pas/archeolog.qmd:137:[dále](archeolog.qmd#archivace-projektu-typu-průzkum)
+./amcr/amcr-pas/archeolog.qmd:142:[Správa projektů](figs/pas-a_amcr.png)
+./amcr/amcr-pas/archeolog.qmd:145:[zde](/amcr/projekty.qmd)
+./amcr/amcr-pas/archeolog.qmd:149:[Zápis projektu typu průzkum](figs/pas-a_proj_zapsat.png)
+./amcr/amcr-pas/archeolog.qmd:162:[Projekt přihlásíme v pravém horním rohu okna](figs/pas-a_proj_prihlasit.png)
+./amcr/amcr-pas/archeolog.qmd:164:[Dialogové okno pro přihlášení projektu](figs/pas-a_proj_prihlasit2.png)
+./amcr/amcr-pas/archeolog.qmd:172:[zde](https://amcr-info.aiscr.cz/downloads/vzor_PAS_projekt.docx){.external}
+./amcr/amcr-pas/archeolog.qmd:174:[Památkového katalogu NPÚ](https://www.pamatkovykatalog.cz/){.external}
+./amcr/amcr-pas/archeolog.qmd:176:[Sekce pro připojení projektové dokumentace](figs/pas-a_proj_dok.png)
+./amcr/amcr-pas/archeolog.qmd:180:[Projekt zahájíme v terénu v pravém horním rohu okna](figs/pas-a_proj_zahajit.png)
+./amcr/amcr-pas/archeolog.qmd:188:[Číslo projektu](figs/pas-a_proj_akce.png)
+./amcr/amcr-pas/archeolog.qmd:201:[Správa samostatných nálezů v AMČR-PAS](figs/pas-a_main.png)
+./amcr/amcr-pas/archeolog.qmd:227:[Tabulka nálezů](figs/pas-a_potvrdit_tabulka.png)
+./amcr/amcr-pas/archeolog.qmd:240:[Tabulka přiložených fotografií](figs/pas-a_zapis_foto.png)
+./amcr/amcr-pas/archeolog.qmd:256:[Fotografická dokumentace nálezů](foto.qmd)
+./amcr/amcr-pas/archeolog.qmd:260:[Detail záznamu](figs/pas-a_zapis_okolnosti.png)
+./amcr/amcr-pas/archeolog.qmd:281:[Upravit záznam](figs/pas-a_zapis_upravit.png)
+./amcr/amcr-pas/archeolog.qmd:304:[Detaily uložení nálezu](figs/pas-a_zapis_ulozeni.png)
+./amcr/amcr-pas/archeolog.qmd:334:[Digitální archiv AMČR](figs/pas-digiarchiv1.png)
+./amcr/amcr-pas/archeolog.qmd:339:[Samostatné nálezy](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external}
+./amcr/amcr-pas/archeolog.qmd:349:[Samostatné nálezy v Digitálním archivu AMČR](figs/pas-digiarchiv2.png)
+./amcr/amcr-pas/archeolog.qmd:357:[zde](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_vzor_NZ.docx){.external}
+./amcr/amcr-pas/archeolog.qmd:359:[příklad](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_NZ_priklad.pdf){.external}
+./amcr/amcr-pas/archeolog.qmd:363:[Ukončení projektu v terénu](figs/pas-a-ukoncit.png)
+./amcr/amcr-pas/foto.qmd:16:[10.5281/zenodo.4560101](https://doi.org/10.5281/zenodo.4560100){.external}
+./amcr/amcr-pas/foto.qmd:99:[Jednoduchý způsob jak vyrušit nežádoucí stíny pomocí plastové desky](figs/foto-stin.jpg)
+./amcr/amcr-pas/foto.qmd:103:[Snímek před](figs/foto-stin_pred.jpg)
+./amcr/amcr-pas/foto.qmd:105:[Snímek po](figs/foto-stin_po.jpg)
+./amcr/amcr-pas/foto.qmd:116:[zde](AMCR-PAS_meritka.zip)
+./amcr/amcr-pas/foto.qmd:120:[Příklad správně komponované dokumentační fotografie, zdroj světla je zde stolní lampa](figs/foto-kompo.jpg)
+./amcr/amcr-pas/foto.qmd:126:[zlatou hodinku](https://cs.wikipedia.org/wiki/Zlat%C3%A1_hodina){.external}
+./amcr/amcr-pas/foto.qmd:135:[Základní pomůcky pro fotografování archeologických nálezů](figs/foto-tools.jpg)
+./amcr/amcr-pas/foto.qmd:150:[Příklad správně upraveného snímku ořízlého od pozadí a jednotlivých pohledů vsazených do jednoho obrázku](figs/foto-postproces.jpg)
+./amcr/amcr-pas/foto.qmd:210:[Clona f/3](figs/foto-clona_1.jpg)
+./amcr/amcr-pas/foto.qmd:212:[Clona f/11](figs/foto-clona_2x.jpg)
+./amcr/amcr-pas/foto.qmd:214:[Clona f/32](figs/foto-clona_3x.jpg)
+./amcr/amcr-pas/index.qmd:11:[https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}
+./amcr/amcr-pas/index.qmd:12:[https://amcr-info.aiscr.cz/pas](https://amcr-info.aiscr.cz/pas){.external}
+./amcr/amcr-pas/index.qmd:13:[Mapě archeologických organizací](https://oao.aiscr.cz/){.external}
+./amcr/amcr-pas/index.qmd:14:[Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external}
+./amcr/amcr-pas/index.qmd:15:[PeriodO](http://n2t.net/ark:/99152/p0wctqt){.external}
+./amcr/amcr-pas/index.qmd:24:[Návod pro spolupracovníky](amater.qmd)
+./amcr/amcr-pas/index.qmd:25:[Návod pro archeology](archeolog.qmd)
+./amcr/amcr-pas/index.qmd:26:[fotografickou dokumentaci nálezů](foto.qmd)
+./amcr/amcr-pas/index.qmd:30:[odkazu](https://forms.gle/Hkoygb6GgTueC7HeA){.external}
+./amcr/amcr-pas/index.qmd:45:[Vzor dohody](https://amcr-info.aiscr.cz/downloads/AMCR-PAS_dohoda_vzor.docx)
+./amcr/amcr-pas/index.qmd:45:[{{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/AMCR-PAS_dohoda_vzor.docx)
+./amcr/amcr-pas/index.qmd:46:[Vzor protokolu](https://amcr-info.aiscr.cz/downloads/AMCR-PAS_protokol_vzor.docx)
+./amcr/amcr-pas/index.qmd:46:[{{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/AMCR-PAS_protokol_vzor.docx)
+./amcr/amcr-pas/index.qmd:47:[Vzor projektu](https://amcr-info.aiscr.cz/downloads/vzor_PAS_projekt.docx)
+./amcr/amcr-pas/index.qmd:47:[{{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/vzor_PAS_projekt.docx)
+./amcr/amcr-pas/index.qmd:48:[Vzor NZ](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_vzor_NZ.docx)
+./amcr/amcr-pas/index.qmd:48:[{{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_vzor_NZ.docx)
+./amcr/amcr-pas/index.qmd:49:[Příklad NZ](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_NZ_priklad.pdf)
+./amcr/amcr-pas/index.qmd:49:[{{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/AMCR_PAS_NZ_priklad.pdf)
+./amcr/amcr-pas/index.qmd:50:[Grafická měřítka](https://amcr-info.aiscr.cz/downloads/meritka.zip)
+./amcr/amcr-pas/index.qmd:50:[{{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/meritka.zip)
+./amcr/amcr-pas/index.qmd:59:[https://doi.org/10.11141/ia.64.13](https://doi.org/10.11141/ia.64.13){.external}
+./amcr/amcr-pas/index.qmd:60:[Academia.edu](https://www.academia.edu/46580582/Jak_neztr%C3%A1cet_historii_How_not_to_Lose_History){.external}
+./amcr/amcr-pas/index.qmd:61:[Academia.edu](https://www.academia.edu/45093423/Poj%C4%8Fme_historii_objevovat_spole%C4%8Dn%C4%9B){.external}
+./amcr/dj.qmd:12:[akcí](/slovnik/index.qmd#akce)
+./amcr/dj.qmd:12:[dokumentační jednotku](/slovnik/index.qmd#dokumentační-jednotky)
+./amcr/dj.qmd:21:[PIAN](/slovnik/index.qmd#pian)
+./amcr/dj.qmd:25:[komponenty](/slovnik/index.qmd#komponenty)
+./amcr/dj.qmd:37:[Schéma základních pravidel pro výběr správného typu DJ](figs/dj00.png)
+./amcr/dj.qmd:39:[Vizualizace typických příkladů použití jednotlivých typů DJ](figs/dj01.png)
+./amcr/dj.qmd:60:[Celek a Část akce -- zápis DJ a zakreslení PIAN v mapovém okně](figs/dj02.jpg)
+./amcr/dj.qmd:71:[Sondy -- zápis DJ a zakreslení správného vymezení PIAN](figs/dj03.jpg)
+./amcr/dj.qmd:86:[Chybné vytyčení liniového PIAN a zápis DJ](figs/dj04.jpg)
+./amcr/dj.qmd:92:[celku a části akce](dj.qmd#dlouhé-liniové-akce)
+./amcr/dj.qmd:96:[Sondy -- zápis liniových PIAN s vymezením pozitivní části akce a zápis DJ](figs/dj05.jpg)
+./amcr/dj.qmd:104:[dlouhých liniových akcí](dj.qmd#dlouhé-liniové-akce)
+./amcr/dj.qmd:117:[Celek a Část akce -- zakreslení plošného vymezení PIAN pro DJ typu Celek akce](figs/dj06.jpg)
+./amcr/dj.qmd:119:[Celek a Část akce -- zakreslení plošného vymezení PIAN pro DJ typu Část akce](figs/dj07.jpg)
+./amcr/dj.qmd:121:[Celek a Část akce -- zakreslení plošného vymezení PIAN pro další DJ typu Část akce](figs/dj08.jpg)
+./amcr/dj.qmd:123:[Celek a Část akce -- zápis DJ a zakreslení polygonů PIAN](figs/dj09.jpg)
+./amcr/dj.qmd:135:[Celek a Část akce -- zakreslení plošného vymezení PIAN pro DJ typu Celek akce](figs/dj10.jpg)
+./amcr/dj.qmd:137:[Celek a Část akce -- zakreslení plošného vymezení PIAN pro několik DJ typu Část akce](figs/dj11.jpg)
+./amcr/dj.qmd:139:[Celek a Část akce -- zápis DJ a zakreslení polygonů PIAN](figs/dj12.jpg)
+./amcr/dj.qmd:154:[Sondy -- plošné vymezení PIAN a zápis DJ](figs/dj13.jpg)
+./amcr/dokumenty.qmd:8:[Digitální archiv AMČR](https://digiarchiv.aiscr.cz/){.external}
+./amcr/dokumenty.qmd:12:[Dokumenty](https://amcr.aiscr.cz/dokument/){.external}
+./amcr/dokumenty.qmd:12:[Knihovně 3D](knihovna3d.qmd)
+./amcr/dokumenty.qmd:13:[Dokumenty](/slovnik/index.qmd#dokumenty)
+./amcr/dokumenty.qmd:21:[Připojení dokumentu](https://youtu.be/eJ_H6Tonj9Y?si=Wtj6JSRXHYKNRjqS&t=857){.external}
+./amcr/dokumenty.qmd:30:[Knihovně 3D](knihovna3d.qmd)
+./amcr/dokumenty.qmd:32:[Digitální archiv AMČR](https://digiarchiv.aiscr.cz/){.external}
+./amcr/drobne-akce.qmd:17:[nálezové zprávy](/slovnik/index.qmd#nálezová-zpráva)
+./amcr/drobne-akce.qmd:17:[*Pravidly pro podání nálezové zprávy o terénním archeologickém výzkumu*](/metodika/pravidla-nz.qmd)
+./amcr/drobne-akce.qmd:19:[akcí](/slovnik/index.qmd#akce)
+./amcr/drobne-akce.qmd:35:[komponent](/slovnik/index.qmd#komponenty)
+./amcr/drobne-akce.qmd:35:[dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky)
+./amcr/gui.qmd:9:[https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}
+./amcr/gui.qmd:14:[uživatelské role](/o-systemu/role.qmd)
+./amcr/gui.qmd:32:[uživatelské role](/o-systemu/role.qmd)
+./amcr/gui.qmd:39:[procesních stavech](/o-systemu/procesy.qmd)
+./amcr/gui.qmd:57:[procesními stavy](/o-systemu/procesy.qmd)
+./amcr/gui.qmd:60:[roli](/o-systemu/role.qmd)
+./amcr/gui.qmd:61:[Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external}
+./amcr/gui.qmd:61:[AMČR API](https://api.aiscr.cz/){.external}
+./amcr/gui.qmd:71:[procesními stavy](/o-systemu/procesy.qmd)
+./amcr/index.qmd:13:[webové aplikace](gui.qmd)
+./amcr/index.qmd:14:[mapovým rozhraním](mapa.qmd)
+./amcr/index.qmd:15:[Formulář oznámení záměru](oznameni.qmd)
+./amcr/index.qmd:16:[projektů](projekty.qmd)
+./amcr/index.qmd:16:[akcí](akce.qmd)
+./amcr/index.qmd:16:[lokalit](lokality.qmd)
+./amcr/index.qmd:17:[dokumentace AMČR-PAS](amcr-pas/index.qmd)
+./amcr/index.qmd:18:[dokumentů](dokumenty.qmd)
+./amcr/index.qmd:18:[knihovny 3D](knihovna3d.qmd)
+./amcr/index.qmd:18:[externích zdrojů](externi.qmd)
+./amcr/index.qmd:28:[importní CSV s geometrií PIAN](pian-import.qmd)
+./amcr/index.qmd:29:[volbu a zápis správného typu dokumentačních jednotek](dj.qmd)
+./amcr/index.qmd:30:[archeologických akcí drobného rozsahu](drobne-akce.qmd)
+./amcr/index.qmd:31:[Archeologických dokumentačních bodů (ADB)](adb.qmd)
+./amcr/index.qmd:36:[fotografickou dokumentaci nálezů](amcr-pas/foto.qmd)
+./amcr/index.qmd:41:[Zásady evidence nemovitých archeologických památek (lokalit)](lokality-metodika.qmd)
+./amcr/index.qmd:42:[Zenodo](https://doi.org/10.5281/zenodo.7925830){.external}
+./amcr/index.qmd:43:[Zenodo](https://doi.org/10.5281/zenodo.7925795){.external}
+./amcr/index.qmd:48:[zde](https://youtu.be/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b){.external}
+./amcr/lokality-metodika.qmd:25:[10.5281/zenodo.4113964](https://doi.org/10.5281/zenodo.4113964){.external}
+./amcr/lokality-metodika.qmd:31:[archeologické akce](/slovnik/index.qmd#akce)
+./amcr/lokality-metodika.qmd:31:[lokality](/slovnik/index.qmd#lokality)
+./amcr/lokality-metodika.qmd:42:[Dokumentační jednotka a komponenta vůči projektové akci, samostatné akci a lokalitě](figs/lok-dj.png)
+./amcr/lokality-metodika.qmd:58:[komponent](/slovnik/index.qmd#komponenty)
+./amcr/lokality-metodika.qmd:136:[Formulář pro popis lokality](figs/lok-dtb.png)
+./amcr/lokality-metodika.qmd:231:[Formulář pro popis dokumentů](figs/lok-dtb-doc.png)
+./amcr/lokality-metodika.qmd:268:[Příklady vymezení lokality podle leteckého snímku](figs/lok-gis.png)
+./amcr/lokality-metodika.qmd:270:[Příklady nevhodného a správného vymezení lokality](figs/lok-gis2.png)
+./amcr/lokality-metodika.qmd:279:[Vztah akce/lokality a PIAN](figs/lok-pian.png)
+./amcr/lokality-metodika.qmd:281:[Vztah **L**/**N** lokalit a PIAN](figs/lok-pian2.png)
+./amcr/mapa.qmd:9:[oznámení záměru](https://amcr.aiscr.cz/oznameni/){.external}
+./amcr/mapa.qmd:10:[Projektech](https://amcr.aiscr.cz/projekt/){.external}
+./amcr/mapa.qmd:11:[Akcí](https://amcr.aiscr.cz/arch-z/akce/){.external}
+./amcr/mapa.qmd:12:[Lokalit](https://amcr.aiscr.cz/arch-z/lokalita/){.external}
+./amcr/mapa.qmd:13:[AMČR-PAS](https://amcr.aiscr.cz/pas/){.external}
+./amcr/mapa.qmd:14:[Knihovně 3D](https://amcr.aiscr.cz/dokument/model/){.external}
+./amcr/mapa.qmd:82:[PIANy](/slovnik/index.qmd#pian)
+./amcr/oznameni.qmd:9:[**https://amcr.aiscr.cz/oznameni/**](https://amcr.aiscr.cz/oznameni/){.external}
+./amcr/oznameni.qmd:10:[oznameni@arup.cas.cz](mailto:oznameni@arup.cas.cz)
+./amcr/oznameni.qmd:10:[oznameni@arub.cz](mailto:oznameni@arub.cz)
+./amcr/oznameni.qmd:11:[zde](https://www.zakonyprolidi.cz/cs/1987-20#cast3){.external}
+./amcr/pian-import.qmd:16:[Pomocí AMČR GIS konvertoru SHP na WKT](pian-import.qmd#amčr-gis-konvertor)
+./amcr/pian-import.qmd:17:[Pomocí QGIS pluginu Pian Exporter](pian-import.qmd#qgis-plugin-pian-exporter)
+./amcr/pian-import.qmd:20:[Manuálním exportem z QGIS](pian-import.qmd#mauální-export-csv-z-qgis)
+./amcr/pian-import.qmd:21:[Manuálně v textovém editoru](pian-import.qmd#vytvoření-csv-v-textovém-editoru)
+./amcr/pian-import.qmd:35:[CSV](https://www.rfc-editor.org/rfc/rfc4180){.external}
+./amcr/pian-import.qmd:42:[WGS 84](https://epsg.io/4326){.external}
+./amcr/pian-import.qmd:42:[S-JTSK / Krovak East North](https://epsg.io/5514){.external}
+./amcr/pian-import.qmd:70:[**https://amcr-convert.aiscr.cz/**](https://amcr-convert.aiscr.cz/){.external}
+./amcr/pian-import.qmd:99:[zde](https://plugins.qgis.org/plugins/pian_exporter/#plugin-about){.external}
+./amcr/pian-import.qmd:118:[postup](pian-import.qmd#import-souboru-csv-do-amčr)
+./amcr/pian-import.qmd:125:[QGIS](https://www.qgis.org/){.external}
+./amcr/pian-import.qmd:162:[postup](pian-import.qmd#import-souboru-csv-do-amčr)
+./amcr/pian-import.qmd:200:[postup](pian-import.qmd#import-souboru-csv-do-amčr)
+./amcr/pian-import.qmd:233:[https://www.km4city.org/wkt/](https://www.km4city.org/wkt/){.external}
+./amcr/pian-import.qmd:247:[Libre Office Calc](https://cs.libreoffice.org/download/download/){.external}
+./amcr/pian-import.qmd:267:[postup](pian-import.qmd#import-souboru-csv-do-amčr)
+./amcr/projekty.qmd:12:[Metodiky](/metodika/index.qmd)
+./amcr/projekty.qmd:12:[Metodické doporučení pro administraci projektů v AMČR](/metodika/administrace-proj.qmd)
+./amcr/projekty.qmd:12:[zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}
+./amcr/projekty.qmd:16:[slovník pojmů](/slovnik/index.qmd#projekty)
+./amcr/projekty.qmd:17:[Projekty](https://amcr.aiscr.cz/projekt/){.external}
+./amcr/projekty.qmd:17:[archeolog](/o-systemu/role.qmd)
+./amcr/projekty.qmd:19:[archeolog](/o-systemu/role.qmd)
+./amcr/projekty.qmd:19:[oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace)
+./amcr/projekty.qmd:53:[oprávněné organizaci](/slovnik/index.qmd#oprávněná-archeologická-organizace)
+./amcr/projekty.qmd:61:[zde](/metodika/badatelske-vyzkumy.qmd)
+./amcr/projekty.qmd:62:[AMČR-PAS](amcr-pas/archeolog.qmd)
+./amcr/projekty.qmd:90:[Zprávu o archeologické akci](/slovnik/index.qmd#zpráva-o-archeologické-akci-ZAA)
+./amcr/projekty.qmd:109:[Projekty](https://amcr.aiscr.cz/projekt/){.external}
+./amcr/projekty.qmd:164:[**Správa akcí**](akce.qmd)
+./amcr/projekty.qmd:188:[aplikačního rozhraní](gui.qmd#výběr-a-filtrace-záznamů)
+./digiarchiv/citace.qmd:9:[https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/){.external}
+./digiarchiv/citace.qmd:10:[https://api.aiscr.cz/](https://api.aiscr.cz/){.external}
+./digiarchiv/citace.qmd:14:[AIS CR](https://www.aiscr.cz/){.external}
+./digiarchiv/citace.qmd:14:[Digitálním archivu AMČR](/digiarchiv/index.qmd)
+./digiarchiv/citace.qmd:15:[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external}
+./digiarchiv/citace.qmd:15:[Licence](/index.qmd#licence-a-jak-citovat)
+./digiarchiv/citace.qmd:19:[Geoportál ČÚZK](https://geoportal.cuzk.cz/){.external}
+./digiarchiv/citace.qmd:19:[OpenStreetMap](https://www.openstreetmap.org/){.external}
+./digiarchiv/citace.qmd:39:[https://digiarchiv.aiscr.cz/id/M-201400460A](https://digiarchiv.aiscr.cz/id/M-201400460A)
+./digiarchiv/citace.qmd:47:[https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/)
+./digiarchiv/citace.qmd:62:[https://digiarchiv.aiscr.cz/id/C-TX-198201171](https://digiarchiv.aiscr.cz/id/C-TX-198201171)
+./digiarchiv/citace.qmd:74:[Archeologický informační systém ČR (AIS CR)](https://aiscr.cz/){.external}
+./digiarchiv/citace.qmd:80:[Rejstříku informací o výsledcích -- RIV](https://www.isvavai.cz/riv){.external}
+./digiarchiv/citace.qmd:80:[AV ČR](https://www.avcr.cz/){.external}
+./digiarchiv/citace.qmd:80:[ASEP](https://asep.lib.cas.cz/){.external}
+./digiarchiv/citace.qmd:81:[https://www.aiscr.cz/vystupy](https://www.aiscr.cz/vystupy){.external}
+./digiarchiv/index.qmd:9:[v2.1.1](https://github.com/ARUP-CAS/aiscr-digiarchiv-2/wiki/Changelog#v211){.external}
+./digiarchiv/index.qmd:9:[Changelog](https://github.com/ARUP-CAS/aiscr-digiarchiv-2/wiki/Changelog){.external}
+./digiarchiv/index.qmd:16:[Digitálního archivu AMČR](https://digiarchiv.aiscr.cz/){.external}
+./digiarchiv/index.qmd:31:[AMČR](https://amcr.aiscr.cz/){.external}
+./digiarchiv/index.qmd:31:[Registrovat uživatele](https://amcr.aiscr.cz/accounts/register/){.external}
+./digiarchiv/index.qmd:35:[zde](/zakladni-info/osobni-udaje.qmd)
+./digiarchiv/index.qmd:43:[procesní stavy](/o-systemu/procesy.qmd)
+./digiarchiv/index.qmd:43:[archivářů](/o-systemu/role.qmd)
+./digiarchiv/index.qmd:47:[Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external}
+./digiarchiv/index.qmd:67:[zde (využívání zástupných znaků)](https://solr.apache.org/guide/8_11/the-standard-query-parser.html#wildcard-searches){.external}
+./digiarchiv/index.qmd:67:[zde (práce se speciálními znaky)](https://solr.apache.org/guide/8_11/the-standard-query-parser.html#escaping-special-characters){.external}
+./digiarchiv/index.qmd:79:[Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external}
+./digiarchiv/index.qmd:115:[OAI-PMH API](https://api.aiscr.cz/){.external}
+./digiarchiv/index.qmd:136:[zde](https://api.aiscr.cz/){.external}
+./digiarchiv/index.qmd:142:[dokumentů](https://digiarchiv.aiscr.cz/results?entity=dokument){.external}
+./digiarchiv/index.qmd:142:[samostatných nálezů](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external}
+./digiarchiv/index.qmd:142:[Knihovně 3D](https://digiarchiv.aiscr.cz/results?entity=knihovna_3d){.external}
+./digiarchiv/index.qmd:231:[PIAN](/slovnik/index.qmd#/pian)
+./digiarchiv/index.qmd:241:[PIAN](/slovnik/index.qmd#/pian)
+./digiarchiv/index.qmd:253:[OpenStreetMap](https://www.openstreetmap.org/){.external}
+./index.qmd:28:[úvodní stránce](index.qmd)
+./index.qmd:28:[základní informace](zakladni-info/zakladni-info.qmd)
+./index.qmd:28:[uživatelským účtům](zakladni-info/ucty.qmd)
+./index.qmd:28:[historie](zakladni-info/historie.qmd)
+./index.qmd:29:[O systému](o-systemu/index.qmd)
+./index.qmd:31:[webovou aplikaci AMČR](amcr/index.qmd)
+./index.qmd:32:[Digitální archiv AMČR](digiarchiv/index.qmd)
+./index.qmd:33:[API](https://api.aiscr.cz/){.external}
+./index.qmd:34:[Zpravodaj](zpravodaj/index.qmd)
+./index.qmd:41:[Archeologická mapa České republiky (AMČR)](https://amcr-info.aiscr.cz/){.external}
+./index.qmd:42:[Archeologický informační systém České republiky (AIS CR)](https://aiscr.cz/){.external}
+./index.qmd:44:[https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/){.external}
+./index.qmd:45:[https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}
+./index.qmd:46:[https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/){.external}
+./index.qmd:47:[https://aiscr.cz/](https://aiscr.cz/){.external}
+./index.qmd:55:[https://amcr-tr.aiscr.cz/](https://amcr-tr.aiscr.cz/){.external}
+./index.qmd:64:[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/){.external}
+./index.qmd:68:[10.5281/zenodo.8141634](https://www.doi.org/10.5281/zenodo.8141634)
+./index.qmd:68:[https://amcr-help.aiscr.cz/](https://amcr-help.aiscr.cz/)
+./index.qmd:70:[CITATION.cff](CITATION.cff)
+./index.qmd:72:[tutoriálu k Import geometrie PIAN pomocí CSV souboru](/amcr/pian-import.qmd)
+./index.qmd:74:[10.5281/zenodo.8141634](https://www.doi.org/10.5281/zenodo.8141634)
+./index.qmd:74:[https://amcr-help.aiscr.cz/amcr/pian-import.html](https://amcr-help.aiscr.cz/amcr/pian-import.html)
+./index.qmd:76:[zde](/digiarchiv/citace.qmd)
+./index.qmd:83:[GitHub](https://github.com/ARUP-CAS/aiscr-webamcr-help/)
+./index.qmd:91:[markdownu](https://www.markdownguide.org/)
+./index.qmd:97:[link](https://www.aiscr.cz/)
+./metodika/administrace-proj.qmd:14:[AMČR](https://amcr.aiscr.cz/){.external}
+./metodika/administrace-proj.qmd:16:[zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}
+./metodika/administrace-proj.qmd:27:[oznámit Archeologickému ústavu stavební či jiný záměr](https://portal.gov.cz/sluzby-vs/oznameni-o-provadeni-stavebni-cinnosti-na-uzemi-s-archeologickymi-nalezy-S12844){.external}
+./metodika/administrace-proj.qmd:28:[informace k badatelským archeologickým výzkumům](badatelske-vyzkumy.qmd)
+./metodika/administrace-proj.qmd:29:[§ 22 odst. 2 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}
+./metodika/administrace-proj.qmd:30:[oznámit Archeologickému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S12785){.external}
+./metodika/administrace-proj.qmd:30:[Národnímu památkovému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S12786){.external}
+./metodika/administrace-proj.qmd:30:[§ 21 odst. 4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}
+./metodika/administrace-proj.qmd:31:[§ 23a odst. 3 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p23){.external}
+./metodika/administrace-proj.qmd:32:[odevzdat Archeologickému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S15815){.external}
+./metodika/administrace-proj.qmd:32:[Národnímu památkovému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S15824){.external}
+./metodika/administrace-proj.qmd:32:[§ 21 odst. 4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}
+./metodika/administrace-proj.qmd:49:[§ 21 odst. 4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}
+./metodika/administrace-proj.qmd:49:[§ 35 odst. 2 písm. f)](https://www.zakonyprolidi.cz/cs/1987-20#p35){.external}
+./metodika/administrace-proj.qmd:51:[oficiálních pokynů](pravidla-nz.qmd)
+./metodika/administrace-proj.qmd:61:[PamZ v ust. § 22 odst. 2](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}
+./metodika/administrace-proj.qmd:65:[online formulář v AMČR](https://amcr.aiscr.cz/oznameni/){.external}
+./metodika/administrace-proj.qmd:65:[stav P0](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:67:[stav P1](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:97:[Informace k badatelským archeologickým výzkumům](badatelske-vyzkumy.qmd)
+./metodika/administrace-proj.qmd:104:[stav P2](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:104:[ust. § 22 odst. 2 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}
+./metodika/administrace-proj.qmd:113:[Rušení projektů](administrace-proj.qmd#rušení-projektů)
+./metodika/administrace-proj.qmd:128:[stav P3](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:143:[§ 35 odst. 2 písm. f) a písm. h) a odst. 5 písm. b) PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p35){.external}
+./metodika/administrace-proj.qmd:144:[§ 21 odst. 5 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}
+./metodika/administrace-proj.qmd:147:[§ 22 odst. 4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p22)
+./metodika/administrace-proj.qmd:153:[stav P4](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:155:[§ 22 odst. 4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}
+./metodika/administrace-proj.qmd:160:[stav P5](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:165:[archeologickou akci](/amcr/akce.qmd)
+./metodika/administrace-proj.qmd:166:[Pravidel pro podání nálezové zprávy o terénním archeologickém výzkumu](pravidla-nz.qmd)
+./metodika/administrace-proj.qmd:168:[zde](/amcr/drobne-akce.qmd)
+./metodika/administrace-proj.qmd:170:[Informace k badatelským archeologickým výzkumům](badatelske-vyzkumy.qmd)
+./metodika/administrace-proj.qmd:176:[stav P6](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:176:[Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external}
+./metodika/administrace-proj.qmd:202:[stav P8](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:203:[stav P7](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:203:[stav P8](/o-systemu/procesy.qmd#procesní-stavy-projektů)
+./metodika/administrace-proj.qmd:286:[§ 22 odst. 2](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}
+./metodika/amcr-pas.qmd:18:[Stanovisko Ministerstva kultury, odboru památkové péče, č.j. 9711/2007](https://www.mkcr.cz/doc/cms_library/2007_09711-3407.doc){.external}
+./metodika/amcr-pas.qmd:24:[Evropské úmluvy o ochraně archeologického dědictví č. 99/2000 Sb.m.s.](https://www.zakonyprolidi.cz/ms/2000-99){.external}
+./metodika/amcr-pas.qmd:45:[§ 22 odst. 2 zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}
+./metodika/amcr-pas.qmd:45:[badatelským výzkumům](badatelske-vyzkumy.qmd)
+./metodika/amcr-pas.qmd:58:[zákona č. 89/2012 Sb., občanský zákoník](https://www.zakonyprolidi.cz/cs/2012-89){.external}
+./metodika/amcr-pas.qmd:74:[AMČR](https://amcr.aiscr.cz/){.external}
+./metodika/amcr-pas.qmd:74:[vzor](amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx)
+./metodika/amcr-pas.qmd:79:[jednotného vzoru](amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx)
+./metodika/amcr-pas.qmd:89:[§23](https://www.zakonyprolidi.cz/cs/1987-20#p23){.external}
+./metodika/amcr-pas.qmd:96:[§23](https://www.zakonyprolidi.cz/cs/1987-20#p23){.external}
+./metodika/amcr-pas.qmd:107:[DOCX 35.6 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx)
+./metodika/amcr-pas.qmd:108:[DOCX 13.65 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx)
+./metodika/badatelske-vyzkumy.qmd:12:[zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}
+./metodika/badatelske-vyzkumy.qmd:13:[oprávněnými archeologickými organizacemi](https://oao.aiscr.cz/){.external}
+./metodika/badatelske-vyzkumy.qmd:17:[památkově chráněném území či objektu](https://pamatkovykatalog.cz/){.external}
+./metodika/badatelske-vyzkumy.qmd:20:[AMČR](https://amcr.aiscr.cz/){.external}
+./metodika/badatelske-vyzkumy.qmd:25:[AMČR-PAS](https://amcr-info.aiscr.cz/pas){.external}
+./metodika/badatelske-vyzkumy.qmd:35:[Maltské úmluvy](https://www.zakonyprolidi.cz/ms/2000-99){.external}
+./metodika/badatelske-vyzkumy.qmd:42:[zapíše](/amcr/projekty.qmd#zapsat)
+./metodika/badatelske-vyzkumy.qmd:45:[žádost o vyjádření](docs/BAV_vyjadreni.docx)
+./metodika/badatelske-vyzkumy.qmd:46:[fxcng6z](https://www.mojedatovaschranka.cz/sds/detail?dbid=fxcng6z){.external}
+./metodika/badatelske-vyzkumy.qmd:46:[xnjf5zy](https://www.mojedatovaschranka.cz/sds/detail?dbid=xnjf5zy){.external}
+./metodika/badatelske-vyzkumy.qmd:48:[Projekt průzkumu](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx)
+./metodika/badatelske-vyzkumy.qmd:52:[Projektová dokumentace](figs/proj-dokumentace.jpg)
+./metodika/badatelske-vyzkumy.qmd:59:[informuje](/amcr/projekty.qmd#zahajit-teren)
+./metodika/badatelske-vyzkumy.qmd:64:[ukončen v terénu](/amcr/projekty.qmd#ukoncit-teren)
+./metodika/badatelske-vyzkumy.qmd:69:[zapíše do AMČR](/amcr/akce.qmd)
+./metodika/badatelske-vyzkumy.qmd:74:[Pravidly pro podání nálezové zprávy z terénního archeologického výzkumu](pravidla-nz.qmd)
+./metodika/badatelske-vyzkumy.qmd:74:[zkrácenou verzi](/amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx)
+./metodika/badatelske-vyzkumy.qmd:76:[Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external}
+./metodika/badatelske-vyzkumy.qmd:84:[DOCX 20.65 kB {{< fa file-download >}}](docs/BAV_vyjadreni.docx)
+./metodika/badatelske-vyzkumy.qmd:85:[DOCX 13.65 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx)
+./metodika/index.qmd:15:[administraci projektů v AMČR](administrace-proj.qmd)
+./metodika/index.qmd:16:[badatelské archeologické výzkumy](badatelske-vyzkumy.qmd)
+./metodika/index.qmd:17:[výklad AMČR-PAS](amcr-pas.qmd)
+./metodika/index.qmd:18:[Pravidla pro podání nálezové zprávy](pravidla-nz.qmd)
+./metodika/pravidla-nz.qmd:27:[Terénní dokumentace](pravidla-nz.qmd#terenni-dokumentace)
+./metodika/pravidla-nz.qmd:34:[Archeologická mapa České republiky (**AMČR**)](https://amcr-info.aiscr.cz/){.external}
+./metodika/pravidla-nz.qmd:35:[Zpráva/Záznam o archeologické akci](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa)
+./metodika/pravidla-nz.qmd:36:[**PIAN**](/slovnik/index.qmd#pian)
+./metodika/pravidla-nz.qmd:37:[Textová část NZ](pravidla-nz.qmd#textova-cast-nz)
+./metodika/pravidla-nz.qmd:38:[Terénní dokumentace](pravidla-nz.qmd#terenni-dokumentace)
+./metodika/pravidla-nz.qmd:39:[Seznamy](pravidla-nz.qmd#seznamy)
+./metodika/pravidla-nz.qmd:51:[ZAA se podává záznamem v informačním systému AMČR](/amcr/akce.qmd)
+./metodika/pravidla-nz.qmd:52:[Ostatní části NZ se podávají rovněž prostřednictvím AMČR](/amcr/dokumenty.qmd)
+./metodika/pravidla-nz.qmd:53:[seznamu aktuálně akceptovaných formátů](/amcr/dokumenty.qmd#formáty-souborů)
+./metodika/pravidla-nz.qmd:141:[seznamu aktuálně akceptovaných formátů](/amcr/dokumenty.qmd#formáty-souborů)
+./metodika/pravidla-nz.qmd:156:[seznamu aktuálně akceptovaných formátů](/amcr/dokumenty.qmd#formáty-souborů)
+./metodika/pravidla-nz.qmd:166:[PDF 125 kB {{< fa file-download >}}](docs/NZ_vzor_titulni_strana_evidencni_list.pdf)
+./metodika/pravidla-nz.qmd:167:[DOCX 35,6 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx)
+./o-systemu/datovy-model.qmd:17:[komponenty](/slovnik/index.qmd#komponenty)
+./o-systemu/datovy-model.qmd:17:[akcích](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:17:[MADB](/slovnik/index.qmd#madb)
+./o-systemu/datovy-model.qmd:21:[registr terénních zásahů](datovy-model.qmd#registr-projektů)
+./o-systemu/datovy-model.qmd:22:[evidence archeologických akcí](datovy-model.qmd#evidence-archeologických-akcí)
+./o-systemu/datovy-model.qmd:22:[projektů](/slovnik/index.qmd#projekty)
+./o-systemu/datovy-model.qmd:23:[evidence lokalit](datovy-model.qmd#evidence-lokalit)
+./o-systemu/datovy-model.qmd:24:[odborný popis akcí a lokalit](datovy-model.qmd#popis-akcí-a-lokalit)
+./o-systemu/datovy-model.qmd:24:[komponent](/slovnik/index.qmd#komponenty)
+./o-systemu/datovy-model.qmd:25:[digitální archiv a repozitář](datovy-model.qmd#digitální-archiv-a-repozitář)
+./o-systemu/datovy-model.qmd:26:[evidence leteckých snímků](datovy-model.qmd#evidence-leteckých-snímků)
+./o-systemu/datovy-model.qmd:27:[odborný popis obsahu dokumentů](datovy-model.qmd#popis-obsahu-dokumentů)
+./o-systemu/datovy-model.qmd:28:[evidence prostorových jednotek](datovy-model.qmd#evidence-pian)
+./o-systemu/datovy-model.qmd:28:[PIAN](/slovnik/index.qmd#pian)
+./o-systemu/datovy-model.qmd:29:[katalog bibliografických záznamů](datovy-model.qmd#katalog-externích-zdrojů)
+./o-systemu/datovy-model.qmd:29:[externích zdrojů](/slovnik/index.qmd#externí-zdroje-bibliografie)
+./o-systemu/datovy-model.qmd:30:[archeologických dokumentačních bodů](datovy-model.qmd#popis-madb)
+./o-systemu/datovy-model.qmd:30:[MADB](/slovnik/index.qmd#madb)
+./o-systemu/datovy-model.qmd:36:[identifikátorů](identifikatory.qmd)
+./o-systemu/datovy-model.qmd:41:[Datový model databáze AMČR](figs/datovy_model.png)
+./o-systemu/datovy-model.qmd:46:[projektům](/slovnik/index.qmd#projekty)
+./o-systemu/datovy-model.qmd:47:[PIAN](/slovnik/index.qmd#pian)
+./o-systemu/datovy-model.qmd:49:[Digitálního archivu AMČR](/slovnik/index.qmd#digitální-archiv-amčr)
+./o-systemu/datovy-model.qmd:53:[akce](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:53:[Zpráva o archeologické akci](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa)
+./o-systemu/datovy-model.qmd:56:[dokumentačních jednotek](/slovnik/index.qmd#dokumentační-jednotky)
+./o-systemu/datovy-model.qmd:56:[komponent](/slovnik/index.qmd#komponenty)
+./o-systemu/datovy-model.qmd:56:[nálezů](/slovnik/index.qmd#nálezy)
+./o-systemu/datovy-model.qmd:56:[PIAN](/slovnik/index.qmd#pian)
+./o-systemu/datovy-model.qmd:58:[Formulář správa o archeologické akci (ZAA)](figs/zaa.png)
+./o-systemu/datovy-model.qmd:62:[lokalit](/slovnik/index.qmd#lokality)
+./o-systemu/datovy-model.qmd:62:[akcím](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:63:[typ](heslare.qmd#lokality)
+./o-systemu/datovy-model.qmd:64:[dokumentační jednotka](/slovnik/index.qmd#dokumentační-jednotky)
+./o-systemu/datovy-model.qmd:64:[PIAN](/slovnik/index.qmd#pian)
+./o-systemu/datovy-model.qmd:64:[komponent](/slovnik/index.qmd#komponenty)
+./o-systemu/datovy-model.qmd:65:[nálezy](/slovnik/index.qmd#nálezy)
+./o-systemu/datovy-model.qmd:70:[dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky)
+./o-systemu/datovy-model.qmd:70:[akcí](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:70:[lokalit](/slovnik/index.qmd#lokality)
+./o-systemu/datovy-model.qmd:71:[Komponenty](/slovnik/index.qmd#komponenty)
+./o-systemu/datovy-model.qmd:71:[heslář Období](heslare.qmd#komponenty)
+./o-systemu/datovy-model.qmd:71:[heslář Areál](heslare.qmd#komponenty)
+./o-systemu/datovy-model.qmd:71:[heslář Aktivity](heslare.qmd#komponenty)
+./o-systemu/datovy-model.qmd:74:[Nálezy](/slovnik/index.qmd#nálezy)
+./o-systemu/datovy-model.qmd:75:[Kategorie](heslare.qmd#nálezy)
+./o-systemu/datovy-model.qmd:75:[Druh nálezu](heslare.qmd#nálezy)
+./o-systemu/datovy-model.qmd:77:[identifikátory](identifikatory.qmd)
+./o-systemu/datovy-model.qmd:81:[dokumentů](/slovnik/index.qmd#dokumenty)
+./o-systemu/datovy-model.qmd:82:[typy dokumentů](heslare.qmd#archiv-dokumentů)
+./o-systemu/datovy-model.qmd:84:[identifikátorů](identifikatory.qmd)
+./o-systemu/datovy-model.qmd:87:[Digitálního archivu ARÚP](/zakladni-info/historie.qmd#zdroje-financování)
+./o-systemu/datovy-model.qmd:90:[typ dokumentu](heslare.qmd#archiv-dokumentů)
+./o-systemu/datovy-model.qmd:90:[materiál originálu](heslare.qmd#archiv-dokumentů)
+./o-systemu/datovy-model.qmd:102:[Dokumenty](/slovnik/index.qmd#dokumenty)
+./o-systemu/datovy-model.qmd:102:[Lokality](/slovnik/index.qmd#lokality)
+./o-systemu/datovy-model.qmd:102:[Komponenty](/slovnik/index.qmd#komponenty)
+./o-systemu/datovy-model.qmd:102:[PIAN](/slovnik/index.qmd#pian)
+./o-systemu/datovy-model.qmd:103:[Tvary](heslare.qmd#letecké-snímky)
+./o-systemu/datovy-model.qmd:106:[Digitálním Archivu AMČR](https://digiarchiv.aiscr.cz/results?kategorie_dokumentu=lfoto&entity=dokument){.external}
+./o-systemu/datovy-model.qmd:110:[Dokumenty](/slovnik/index.qmd#dokumenty)
+./o-systemu/datovy-model.qmd:110:[akcím](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:110:[lokalitám](/slovnik/index.qmd#lokality)
+./o-systemu/datovy-model.qmd:111:[dokumentačním jednotkám](/slovnik/index.qmd#dokumentační-jednotky)
+./o-systemu/datovy-model.qmd:112:[komponent](/slovnik/index.qmd#komponenty)
+./o-systemu/datovy-model.qmd:112:[nálezů](/slovnik/index.qmd#nálezy)
+./o-systemu/datovy-model.qmd:115:[hlášení](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa)
+./o-systemu/datovy-model.qmd:115:[nálezové zprávy](/slovnik/index.qmd#nálezová-zpráva)
+./o-systemu/datovy-model.qmd:119:[nálezová zpráva](/slovnik/index.qmd#nálezová-zpráva)
+./o-systemu/datovy-model.qmd:120:[období](heslare.qmd#komponenty)
+./o-systemu/datovy-model.qmd:120:[areálům](heslare.qmd#komponenty)
+./o-systemu/datovy-model.qmd:128:[bibliografickými záznamy](/slovnik/index.qmd#externí-zdroje-bibliografie)
+./o-systemu/datovy-model.qmd:138:[PIAN](/slovnik/index.qmd#pian)
+./o-systemu/datovy-model.qmd:138:[akce](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:138:[lokality](/slovnik/index.qmd#lokality)
+./o-systemu/datovy-model.qmd:139:[tvarem](heslare.qmd#prostorové-vymezení)
+./o-systemu/datovy-model.qmd:139:[přesností](heslare.qmd#prostorové-vymezení)
+./o-systemu/datovy-model.qmd:141:[dokumentačních jednotek](/slovnik/index.qmd#dokumentační-jednotky)
+./o-systemu/datovy-model.qmd:141:[typu](heslare.qmd#prostorové-vymezení)
+./o-systemu/datovy-model.qmd:142:[typu (tvaru)](heslare.qmd#prostorové-vymezení)
+./o-systemu/datovy-model.qmd:142:[přesnosti](heslare.qmd#prostorové-vymezení)
+./o-systemu/datovy-model.qmd:144:[katastrálních území ČR](heslare.qmd#obecné-hesláře)
+./o-systemu/datovy-model.qmd:147:[akcí](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:147:[lokalit](/slovnik/index.qmd#lokality)
+./o-systemu/datovy-model.qmd:148:[projektových akcí](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:148:[samostatných akcí](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:159:[Bibliografie](/slovnik/index.qmd#externí-zdroje-bibliografie)
+./o-systemu/datovy-model.qmd:160:[repozitář ARÚP/ARÚB](datovy-model.qmd#digitální-archiv-a-repozitář)
+./o-systemu/datovy-model.qmd:163:[akcemi](/slovnik/index.qmd#akce)
+./o-systemu/datovy-model.qmd:163:[lokalitami](/slovnik/index.qmd#lokality)
+./o-systemu/datovy-model.qmd:168:[MADB](/slovnik/index.qmd#madb)
+./o-systemu/datovy-model.qmd:168:[modul leteckých snímků](datovy-model.qmd#evidence-leteckých-snímků)
+./o-systemu/datovy-model.qmd:169:[dokumentačních jednotek](/slovnik/index.qmd#dokumentační-jednotky)
+./o-systemu/datovy-model.qmd:171:[Národního památkového ústavu](https://npu.cz/){.external}
+./o-systemu/datovy-model.qmd:172:[https://praha.aiscr.cz/](https://praha.aiscr.cz/){.external}
+./o-systemu/heslare.qmd:20:[Areály](heslare.qmd#komponenty)
+./o-systemu/heslare.qmd:20:[Druh lokality](heslare.qmd#lokality)
+./o-systemu/heslare.qmd:20:[Kategorie](heslare.qmd#nálezy)
+./o-systemu/heslare.qmd:20:[Druh nálezu](heslare.qmd#nálezy)
+./o-systemu/heslare.qmd:24:[ZAA](/slovnik/index.qmd#zpráva-o-archeologické-akci-zaa)
+./o-systemu/heslare.qmd:26:[správcem systému](/slovnik/index.qmd#správce-systému)
+./o-systemu/heslare.qmd:27:[heslář jmen](heslare.qmd#obecné-hesláře)
+./o-systemu/heslare.qmd:30:[http://www.archeologickamapa.cz/?page=documents](http://www.archeologickamapa.cz/?page=documents){.external}
+./o-systemu/heslare.qmd:33:[Období](heslare.qmd#komponenty)
+./o-systemu/heslare.qmd:33:[Nálezy](heslare.qmd#nálezy)
+./o-systemu/heslare.qmd:33:[Typ projektu](heslare.qmd#projekty)
+./o-systemu/heslare.qmd:37:[Areály](heslare.qmd#komponenty)
+./o-systemu/heslare.qmd:37:[Období](heslare.qmd#komponenty)
+./o-systemu/heslare.qmd:40:[Období](heslare.qmd#komponenty)
+./o-systemu/heslare.qmd:102:[Význam chronologických pojmů](figs/heslare_obdobi.png)
+./o-systemu/identifikatory.qmd:14:[akcí](/slovnik/index.qmd#akce)
+./o-systemu/identifikatory.qmd:17:[projektu](/slovnik/index.qmd#projekty)
+./o-systemu/identifikatory.qmd:17:[akce](/slovnik/index.qmd#akce)
+./o-systemu/identifikatory.qmd:20:[systému IDAV](/slovnik/index.qmd#internetová-databáze-archeologických-výzkumů-idav)
+./o-systemu/identifikatory.qmd:23:[procesním stavu](procesy.qmd)
+./o-systemu/identifikatory.qmd:24:[řadách](heslare.qmd#archiv-dokumentů)
+./o-systemu/identifikatory.qmd:25:[lokalitám](/slovnik/index.qmd#lokality)
+./o-systemu/identifikatory.qmd:25:[dokumentům](/slovnik/index.qmd#dokumenty)
+./o-systemu/identifikatory.qmd:25:[bibliografii](/slovnik/index.qmd#externí-zdroje-bibliografie)
+./o-systemu/identifikatory.qmd:25:[PIAN](/slovnik/index.qmd#pian)
+./o-systemu/procesy.qmd:6:[akcí](/slovnik/index.qmd#akce)
+./o-systemu/procesy.qmd:8:[typ uživatele](role.qmd)
+./o-systemu/procesy.qmd:10:[Projekty](/slovnik/index.qmd#projekty)
+./o-systemu/procesy.qmd:10:[Akce](/slovnik/index.qmd#akce)
+./o-systemu/procesy.qmd:10:[Lokality](/slovnik/index.qmd#lokality)
+./o-systemu/procesy.qmd:10:[Dokumenty](/slovnik/index.qmd#dokumenty)
+./o-systemu/procesy.qmd:10:[Externí zdroje](/slovnik/index.qmd#externí-zdroje-bibliografie)
+./o-systemu/procesy.qmd:10:[PIAN](/slovnik/index.qmd#pian)
+./o-systemu/procesy.qmd:21:[Schéma přechodů mezi jednotlivými procesními stavy projektů](figs/procstavy-proj.svg)
+./o-systemu/procesy.qmd:25:[oprávněných organizací](/slovnik/index.qmd#oprávněná-archeologická-organizace)
+./o-systemu/procesy.qmd:26:[nálezovou zprávou](/slovnik/index.qmd#nálezová-zpráva)
+./o-systemu/procesy.qmd:29:[*Oznámení o stavebním či jiném záměru*](https://amcr.aiscr.cz/oznameni/){.external}
+./o-systemu/procesy.qmd:43:[Schéma přechodů mezi jednotlivými procesními stavy akcí (projektových i samostatných)](figs/procstavy-akce.svg)
+./o-systemu/procesy.qmd:45:[akcí](/slovnik/index.qmd#akce)
+./o-systemu/procesy.qmd:73:[Schéma přechodů mezi jednotlivými procesními stavy samostatných nálezů](figs/procstavy-pas.svg)
+./o-systemu/role.qmd:8:[organizací oprávněných k provádění archeologických výzkumů](/slovnik/index.qmd#oprávněná-archeologická-organizace)
+./o-systemu/role.qmd:16:[archivovaná data](procesy.qmd)
+./o-systemu/role.qmd:16:[letecké snímky](datovy-model.qmd#evidence-leteckých-snímků)
+./o-systemu/role.qmd:17:[dokumenty](/slovnik/index.qmd#dokumenty)
+./o-systemu/role.qmd:17:[registrovaní uživatelé](/slovnik/index.qmd#registrovaný-uživatel)
+./slovnik/index.qmd:20:[Datový model](/o-systemu/datovy-model.qmd)
+./slovnik/index.qmd:23:[projekty](/slovnik/index.qmd#projekty)
+./slovnik/index.qmd:24:[akce](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:24:[lokality](/slovnik/index.qmd#lokality)
+./slovnik/index.qmd:25:[komponenty](/slovnik/index.qmd#komponenty)
+./slovnik/index.qmd:31:[dokumenty](/slovnik/index.qmd#dokumenty)
+./slovnik/index.qmd:32:[nálezy](/slovnik/index.qmd#nálezy)
+./slovnik/index.qmd:36:[PIAN](/slovnik/index.qmd#pian)
+./slovnik/index.qmd:37:[externí zdroje](/slovnik/index.qmd#externí-zdroje-bibliografie)
+./slovnik/index.qmd:39:[Schéma návaznosti fází archeologického poznávacího procesu](figs/cyklus.png)
+./slovnik/index.qmd:44:[oprávněná organizace](/slovnik/index.qmd#oprávněná-archeologická-organizace)
+./slovnik/index.qmd:44:[projektová dokumentace](/slovnik/index.qmd#projektová-dokumentace)
+./slovnik/index.qmd:45:[terénních akcí](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:59:[projektu](/slovnik/index.qmd#projekt)
+./slovnik/index.qmd:70:[dokumentačním jednotkám](/slovnik/index.qmd#dokumentační-jednotky)
+./slovnik/index.qmd:80:[akce](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:82:[Akce](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:82:[typů](/o-systemu/heslare.qmd#prostorové-vymezení)
+./slovnik/index.qmd:82:[lokalita](/slovnik/index.qmd#lokality)
+./slovnik/index.qmd:84:[Dokumentační jednotka a komponenta vůči projektové akci, samostatné akci a lokalitě](figs/typy_akci.png)
+./slovnik/index.qmd:88:[dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky)
+./slovnik/index.qmd:88:[akce](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:88:[lokality](/slovnik/index.qmd#lokality)
+./slovnik/index.qmd:89:[dokumentu](/slovnik/index.qmd#dokumenty)
+./slovnik/index.qmd:91:[areálu](/o-systemu/heslare.qmd#komponenty)
+./slovnik/index.qmd:91:[období](/o-systemu/heslare.qmd#komponenty)
+./slovnik/index.qmd:92:[aktivit](/o-systemu/heslare.qmd#komponenty)
+./slovnik/index.qmd:99:[Negativní zjištění](/slovnik/index.qmd#ěnegativní-zjištění)
+./slovnik/index.qmd:104:[akci](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:104:[komponentu](/slovnik/index.qmd#komponenty)
+./slovnik/index.qmd:112:[dokumentačních jednotek](/slovnik/index.qmd#dokumentační-jednotky)
+./slovnik/index.qmd:115:[akcí](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:115:[lokalit](/slovnik/index.qmd#lokality)
+./slovnik/index.qmd:120:[externí zdroje](/slovnik/index.qmd#externí-zdroje-bibliografie)
+./slovnik/index.qmd:121:[komponentám akcí](/slovnik/index.qmd#komponenty)
+./slovnik/index.qmd:122:[akce](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:130:[dokumenty](/slovnik/index.qmd#dokumenty)
+./slovnik/index.qmd:135:[DF13P01OVV014](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF13P01OVV014){.external}
+./slovnik/index.qmd:142:[Praha archeologická](https://praha.aiscr.cz/){.external}
+./slovnik/index.qmd:146:[Sonda](/o-systemu/heslare.qmd#sondy-madb)
+./slovnik/index.qmd:153:[Datový model](/o-systemu/datovy-model.qmd#popis-madb)
+./slovnik/index.qmd:180:[Digitálním archivem AMČR](https://digiarchiv.aiscr.cz/){.external}
+./slovnik/index.qmd:192:[projekty](/slovnik/index.qmd#projekty)
+./slovnik/index.qmd:196:[akci](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:198:[Metodiky](/metodika/pravidla-nz.qmd)
+./slovnik/index.qmd:202:[akce](/slovnik/index.qmd#akce)
+./slovnik/index.qmd:202:[dokumentační jednotky](/slovnik/index.qmd#dokumentační-jednotky)
+./slovnik/index.qmd:204:[komponentu](/slovnik/index.qmd#komponenty)
+./slovnik/index.qmd:210:[Mapa archeologických organizací](https://oao.aiscr.cz/){.external}
+./slovnik/index.qmd:219:[oprávnění](/o-systemu/role.qmd)
+./slovnik/index.qmd:223:[oprávněním](/o-systemu/role.qmd)
+./slovnik/index.qmd:225:[{{< fa regular envelope size=xs >}} info@amapa.cz](mailto:info@amapa.cz)
+./slovnik/index.qmd:225:[Kontaktech](#kontakty)
+./slovnik/index.qmd:234:[definice MŠMT](https://www.msmt.cz/vyzkum-a-vyvoj/definice-infrastruktury){.external}
+./slovnik/index.qmd:234:[Velké výzkumné infrastruktury](https://www.vyzkumne-infrastruktury.cz/co-jsou-velke-vyzkumne-infrastruktury/){.external}
+./slovnik/index.qmd:238:[terénním zásahem](/slovnik/index.qmd#terénní-zásah)
+./slovnik/index.qmd:242:[Archeologickou databázi Čech](/slovnik/index.qmd#archeologická-databáze-čech-adč)
+./zakladni-info/historie.qmd:16:[DF12P01OVV003](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF12P01OVV003){.external}
+./zakladni-info/historie.qmd:18:[SmartGIS](http://www.smartgis.cz/){.external}
+./zakladni-info/historie.qmd:18:[Huld](https://huld.io/){.external}
+./zakladni-info/historie.qmd:20:[Archeologického informačního systému ČR](https://www.aiscr.cz/){.external}
+./zakladni-info/historie.qmd:20:[Cestovní mapy velkých výzkumných infrastruktur ČR](https://www.vyzkumne-infrastruktury.cz/cestovni-mapa-velkych-vyzkumnych-infrastruktur-cr/){.external}
+./zakladni-info/historie.qmd:21:[Strategie AV21](https://strategie.avcr.cz/){.external}
+./zakladni-info/historie.qmd:21:[Akademie věd ČR](https://www.avcr.cz/){.external}
+./zakladni-info/historie.qmd:26:[video](https://youtu.be/LWorbWbewrQ?si=6nQQrWsOBKBpy-ti){.external}
+./zakladni-info/historie.qmd:38:[Archeologické databáze Čech](/slovnik/index.qmd#archeologická-databáze-čech-adč)
+./zakladni-info/historie.qmd:38:[Internetové databáze archeologických výzkumů](/slovnik/index.qmd#internetová-databáze-archeologických-výzkumů-idav)
+./zakladni-info/historie.qmd:38:[Digitálního archivu a evidence archeologických výzkumů na Moravě a ve Slezsku](/slovnik/index.qmd#digitální-archiv-a-evidence-archeologických-výzkumů-moravy-a-slezska-daeav)
+./zakladni-info/historie.qmd:53:[IBS8002001](https://www.isvavai.cz/cep?ss=detail&n=0&h=IBS8002001){.external}
+./zakladni-info/historie.qmd:54:[Archeologické databáze Čech](/slovnik/index.qmd#archeologická-databáze-čech-adč)
+./zakladni-info/historie.qmd:58:[GV404/97/K024](https://www.isvavai.cz/cep?ss=detail&n=0&h=GV404%2F97%2FK024){.external}
+./zakladni-info/historie.qmd:63:[1ET200020405](https://www.isvavai.cz/cep?ss=detail&n=0&h=1ET200020405){.external}
+./zakladni-info/historie.qmd:68:[DF12P01OVV003](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF12P01OVV003){.external}
+./zakladni-info/historie.qmd:73:[FP7-INFRASTRUCTURES-2012-1-313193](https://cordis.europa.eu/project/id/313193){.external}
+./zakladni-info/historie.qmd:78:[DF13P01OVV014](https://www.isvavai.cz/cep?ss=detail&n=0&h=DF13P01OVV014){.external}
+./zakladni-info/historie.qmd:88:[LM2015080](https://www.isvavai.cz/cep?ss=detail&n=0&h=LM2015080){.external}
+./zakladni-info/historie.qmd:93:[DG16P02B039](https://www.isvavai.cz/cep?ss=detail&n=0&h=DG16P02B039){.external}
+./zakladni-info/historie.qmd:98:[CZ.02.1.01/0.0/0.0/16_013/0001439](https://www.isvavai.cz/cep?ss=detail&n=0&h=EF16_013%2F0001439){.external}
+./zakladni-info/historie.qmd:103:[DG18P02OVV058](https://www.isvavai.cz/cep?ss=detail&n=0&h=DG18P02OVV058){.external}
+./zakladni-info/historie.qmd:108:[H2020-INFRAIA-2018-1-823914](https://doi.org/10.3030/823914){.external}
+./zakladni-info/osobni-udaje.qmd:9:[Archeologického informačního systému České republiky](https://www.aiscr.cz/){.external}
+./zakladni-info/osobni-udaje.qmd:11:[https://www.arup.cas.cz/](https://www.arup.cas.cz/){.external}
+./zakladni-info/osobni-udaje.qmd:12:[https://www.arub.cz/](https://www.arub.cz/){.external}
+./zakladni-info/osobni-udaje.qmd:20:[zákona 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}
+./zakladni-info/osobni-udaje.qmd:21:[slovníku osob](/o-systemu/heslare.qmd)
+./zakladni-info/osobni-udaje.qmd:29:[nařízením Evropského parlamentu a Rady č. 2016/679 ze dne 27. 4. 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů a o zrušení směrnice 95/46/ES](https://eur-lex.europa.eu/legal-content/CS/ALL/?uri=CELEX:02016R0679-20160504){.external}
+./zakladni-info/osobni-udaje.qmd:29:[zákonem č. 110/2019 Sb., o zpracování osobních údajů](https://www.zakonyprolidi.cz/cs/2019-110){.external}
+./zakladni-info/osobni-udaje.qmd:81:[ARIADNE](https://www.ariadne-research-infrastructure.eu/){.external}
+./zakladni-info/osobni-udaje.qmd:81:[Europeana](https://www.europeana.eu/){.external}
+./zakladni-info/osobni-udaje.qmd:82:[DataCite](https://datacite.org/){.external}
+./zakladni-info/osobni-udaje.qmd:83:[EOSC](https://www.eosc.cz/){.external}
+./zakladni-info/osobni-udaje.qmd:106:[§ 22 odst. 2 zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}
+./zakladni-info/osobni-udaje.qmd:107:[https://amcr.aiscr.cz/oznameni/](https://amcr.aiscr.cz/oznameni/){.external}
+./zakladni-info/ucty.qmd:9:[https://amcr.aiscr.cz/accounts/register/](https://amcr.aiscr.cz/accounts/register/){.external}
+./zakladni-info/ucty.qmd:37:[zpracováním Vašich osobních údajů](osobni-udaje.qmd)
+./zakladni-info/ucty.qmd:43:[https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}
+./zakladni-info/ucty.qmd:44:[https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/){.external}
+./zakladni-info/ucty.qmd:45:[https://api.aiscr.cz/](https://api.aiscr.cz/){.external}
+./zakladni-info/ucty.qmd:51:[zde](/o-systemu/role.qmd)
+./zakladni-info/ucty.qmd:53:[organizací s oprávněním provádět archeologický výzkum](/slovnik/index.qmd#oprávněná-archeologická-organizace)
+./zakladni-info/zakladni-info.qmd:14:[AMČR](https://amcr-info.aiscr.cz/){.external}
+./zakladni-info/zakladni-info.qmd:15:[nálezové zprávy](/slovnik/index.qmd#nálezová-zpráva)
+./zakladni-info/zakladni-info.qmd:18:[velké výzkumné infrastruktury](/slovnik/index.qmd#výzkumné-infrastruktury)
+./zakladni-info/zakladni-info.qmd:18:[AIS CR](https://aiscr.cz/){.external}
+./zakladni-info/zakladni-info.qmd:26:[ARÚP](https://www.arup.cas.cz/){.external}
+./zakladni-info/zakladni-info.qmd:26:[ARÚB](https://arub.cz/){.external}
+./zakladni-info/zakladni-info.qmd:30:[persistentních identifikátorů](/o-systemu/identifikatory.qmd)
+./zakladni-info/zakladni-info.qmd:30:[archeologického fondu](/slovnik/index.qmd#archeologický-fond)
+./zakladni-info/zakladni-info.qmd:34:[Digitální archiv AMČR](https://digiarchiv.aiscr.cz/){.external}
+./zakladni-info/zakladni-info.qmd:44:[pražské památkové rezervace](https://praha.aiscr.cz/){.external}
+./zakladni-info/zakladni-info.qmd:45:[*Archeologický informační České republiky* (AIS CR)](https://aiscr.cz/){.external}
+./zakladni-info/zakladni-info.qmd:45:[*Cestovní mapě velkých infrastruktur pro výzkum, experimentální vývoj a invoace*](https://www.vyzkumne-infrastruktury.cz/){.external}
+./zpravodaj/zpravodaj_11.qmd:10:[Archeologického informačního systému České republiky (AIS CR)](https://www.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_11.qmd:17:[Archeologické mapy České republiky (AMČR)](https://amcr-info.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_11.qmd:22:[**https://amcr.aiscr.cz/**](https://amcr.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_11.qmd:24:[Úvodní stránka s kartami jednotlivých modulů webové AMČR](figs/11/amcr.png)
+./zpravodaj/zpravodaj_11.qmd:26:[https://amcr-help.aiscr.cz/](https://amcr-help.aiscr.cz/)
+./zpravodaj/zpravodaj_11.qmd:26:[uživatelskými tutoriály](https://amcr-help.aiscr.cz/amcr/#tutoriály)
+./zpravodaj/zpravodaj_11.qmd:27:[záznam z uživatelského školení práce s aplikací](https://amcr-help.aiscr.cz/amcr/#školení)
+./zpravodaj/zpravodaj_11.qmd:27:[YouTube kanále](https://youtu.be/EGKT8n2zpeo?si=Qh42XMYxz8Qad_7b){.external}
+./zpravodaj/zpravodaj_11.qmd:34:[nápověda zde](https://amcr-help.aiscr.cz/amcr/mapa.html)
+./zpravodaj/zpravodaj_11.qmd:38:[Digitálním archivem AMČR](https://digiarchiv.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_11.qmd:40:[amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
+./zpravodaj/zpravodaj_11.qmd:40:[amcr@arub.cz](mailto:amcr@arub.cz)
+./zpravodaj/zpravodaj_11.qmd:44:[přihlášením do systému](https://amcr.aiscr.cz/accounts/login/){.external}
+./zpravodaj/zpravodaj_11.qmd:56:[návod zde](https://amcr-help.aiscr.cz/amcr/pian-import.html)
+./zpravodaj/zpravodaj_11.qmd:64:[nápovědě](/amcr/pian-import.qmd#amčr-gis-konvertor)
+./zpravodaj/zpravodaj_11.qmd:66:[https://amcr-convert.aiscr.cz/](https://amcr-convert.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_11.qmd:72:[nápovědě](/amcr/pian-import.qmd#qgis-plugin-pian-exporter)
+./zpravodaj/zpravodaj_11.qmd:74:[zde](https://plugins.qgis.org/plugins/pian_exporter/#plugin-about){.external}
+./zpravodaj/zpravodaj_11.qmd:83:[nápovědě zde](https://amcr-help.aiscr.cz/amcr/oznameni.html)
+./zpravodaj/zpravodaj_11.qmd:85:[**https://amcr.aiscr.cz/oznameni/**](https://amcr.aiscr.cz/oznameni){.external}
+./zpravodaj/zpravodaj_11.qmd:87:[Nová podoba formuláře *Oznámení o stavebním či jiném záměru*](figs/11/ozn.png)
+./zpravodaj/zpravodaj_11.qmd:92:[Digitálního archivu AMČR](https://digiarchiv.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_11.qmd:99:[https://api.aiscr.cz/](https://api.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_11.qmd:110:[středověká a raně novověká vrchnostenská sídla](https://digiarchiv.aiscr.cz/results?entity=lokalita&page=0&f_druh_lokality=HES-001434:or){.external}
+./zpravodaj/zpravodaj_11.qmd:111:[hospodářské dvory](https://digiarchiv.aiscr.cz/results?entity=lokalita&page=0&f_druh_lokality=HES-001438:or){.external}
+./zpravodaj/zpravodaj_11.qmd:112:[výšinná sídliště](https://digiarchiv.aiscr.cz/results?entity=lokalita&page=0&q=v%C3%BD%C5%A1inn%C3%A9&f_druh_lokality=HES-001435:or){.external}
+./zpravodaj/zpravodaj_11.qmd:113:[zaniklé středověké a novověké vesnice](https://digiarchiv.aiscr.cz/results?entity=lokalita&page=0&q=zanik*&f_druh_lokality=HES-001435:or){.external}
+./zpravodaj/zpravodaj_11.qmd:122:[leteckých snímků z celé České republiky](https://digiarchiv.aiscr.cz/results?dokument_kategorie_dokumentu=lfoto&entity=dokument){.external}
+./zpravodaj/zpravodaj_11.qmd:123:[jednotné metodiky](https://doi.org/10.5281/zenodo.7925795){.external}
+./zpravodaj/zpravodaj_11.qmd:126:[zde](https://doi.org/10.5281/zenodo.7925830){.external}
+./zpravodaj/zpravodaj_11.qmd:127:[Digitálním archivu spolu s napojením na související lokality](https://digiarchiv.aiscr.cz/results?entity=dokument&page=0&sort=datestamp%20desc&f_rada=HES-000875:or&f_autor=Baier,%20Ond%C5%99ej:or){.external}
+./zpravodaj/zpravodaj_11.qmd:130:[Letecký snímek lokality, Gojda, Martin 2001: Dokument [C-LD-000000105](https://digiarchiv.aiscr.cz/id/C-LD-000000105){.external}
+./zpravodaj/zpravodaj_11.qmd:132:[Plán objektů viditelných na leteckém snímku, Baier, Ondřej -- Dyčka, Michal -- Gojda, Martin 2024: Dokument [C-DY-100000539](https://digiarchiv.aiscr.cz/id/C-DY-100000539){.external}
+./zpravodaj/zpravodaj_11.qmd:137:[Novomlýnských nádrží z Pavlova](https://digiarchiv.aiscr.cz/results?q=M-FT-900144*){.external}
+./zpravodaj/zpravodaj_11.qmd:138:[nálezových zpráv ÚAPP Brno z let 1993 až 2012](https://digiarchiv.aiscr.cz/results?dokument_kategorie_dokumentu=texty&entity=dokument&f_typ_dokumentu=HES-001075:or&page=0&f_organizace=ORG-000078:or){.external}
+./zpravodaj/zpravodaj_11.qmd:138:[*Moravik* a *Silesiak*](https://digiarchiv.aiscr.cz/results?entity=dokument&page=0&sort=datestamp%20desc&q=%22Moravika%22){.external}
+./zpravodaj/zpravodaj_11.qmd:138:[Karla Jaroslava Mašky z archivu osobních fondů](https://digiarchiv.aiscr.cz/results?entity=dokument&page=0&sort=datestamp%20desc&q=%22Osobn%C3%AD%20fond%20P027%20Ma%C5%A1ka%22){.external}
+./zpravodaj/zpravodaj_11.qmd:140:[Stránka z deníku XIV, Maška, K. J. 1884: Dokument [M-TX-202410014](https://digiarchiv.aiscr.cz/id/M-TX-202410014){.external}
+./zpravodaj/zpravodaj_12.qmd:11:[Archeologického informačního systému České republiky (AIS CR)](https://www.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_12.qmd:17:[zpravodaji](zpravodaj_11.qmd)
+./zpravodaj/zpravodaj_12.qmd:17:[menších (*minor*) verzí (`v1.0.0`--`v1.0.19`)](https://github.com/ARUP-CAS/aiscr-webamcr/releases){.external}
+./zpravodaj/zpravodaj_12.qmd:33:[[![](figs/12/fair.png)
+./zpravodaj/zpravodaj_12.qmd:36:[**DOI** (*Digital Object Identifier*)](https://www.doi.org/){.external}
+./zpravodaj/zpravodaj_12.qmd:37:[**IGSN** (*International Generic Sample Number*)](https://support.datacite.org/docs/igsn-ids){.external}
+./zpravodaj/zpravodaj_12.qmd:39:[**ORCID** (*Open Researcher and Contributor ID*)](https://orcid.org/){.external}
+./zpravodaj/zpravodaj_12.qmd:40:[Wikidata ID](https://www.wikidata.org/wiki/Wikidata:Identifiers){.external}
+./zpravodaj/zpravodaj_12.qmd:41:[**ROR** (*Research Organization Registry*)](https://ror.org/){.external}
+./zpravodaj/zpravodaj_12.qmd:42:[DataCite](https://datacite.org/){.external}
+./zpravodaj/zpravodaj_12.qmd:44:[DataCite Commons](https://commons.datacite.org/ror.org/01a7rqj69){.external}
+./zpravodaj/zpravodaj_12.qmd:79:[https://api.aiscr.cz/](https://api.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_12.qmd:91:[Digitálním archivu](https://digiarchiv.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_12.qmd:112:[Digitálního archivu](https://digiarchiv.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_12.qmd:114:[Changelogu](https://github.com/ARUP-CAS/aiscr-digiarchiv-2/wiki/Changelog){.external}
+./zpravodaj/zpravodaj_12.qmd:116:[![](figs/12/digiarchiv.png)
+./zpravodaj/zpravodaj_12.qmd:121:[Národního památkového ústavu](https://www.npu.cz/){.external}
+./zpravodaj/zpravodaj_12.qmd:129:[amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
+./zpravodaj/zpravodaj_12.qmd:156:[amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
+./zpravodaj/zpravodaj_12.qmd:177:[amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
+./zpravodaj/zpravodaj_12.qmd:189:[amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
+./zpravodaj/zpravodaj_12.qmd:207:[RIV](https://www.isvavai.cz/riv){.external}
+./zpravodaj/zpravodaj_12.qmd:210:[zde](/digiarchiv/citace.qmd)
+./zpravodaj/zpravodaj_12.qmd:222:[Archeologický ústav AV ČR, Brno](https://www.arub.cz/badatelske-archeologicke-vyzkumy/badatelske-archeologicke-vyzkumy/){.external}
+./zpravodaj/zpravodaj_12.qmd:223:[Archeologický ústav AV ČR, Praha](https://www.arup.cas.cz/veda-vyzkum/terenni-vyzkumy/badatelske-archeologicke-vyzkumy/){.external}
+./zpravodaj/zpravodaj_12.qmd:250:[povolení oprávněných organizací](https://oao.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_12.qmd:250:[Ministerstva kultury České republiky](https://www.mk.gov.cz/){.external}
+./zpravodaj/zpravodaj_12.qmd:263:[Týden pro digitální Česko 2024](https://digitalnicesko.gov.cz/){.external}
+./zpravodaj/zpravodaj_12.qmd:264:[YouTube kanále](https://www.youtube.com/@aiscr253){.external}
+./zpravodaj/zpravodaj_13.qmd:18:[AMČR](https://www.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_13.qmd:18:[OAO](https://oao.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_13.qmd:18:[**zákona č. 20/1987 Sb., o státní památkové péči**](https://www.zakonyprolidi.cz/cs/1987-20){.external}
+./zpravodaj/zpravodaj_13.qmd:24:[*Národnímu památkovému ústavu*](https://www.npu.cz/){.external}
+./zpravodaj/zpravodaj_13.qmd:25:[API služby](https://arup-cas.github.io/aiscr-api-home/oai-pmh/){.external}
+./zpravodaj/zpravodaj_13.qmd:25:[Digitálního archivu AMČR](https://digiarchiv.aiscr.cz/){.external}
+./zpravodaj/zpravodaj_13.qmd:50:[vydáno příslušné nařízení kraje (č. 1/2025)](https://sbirkapp.gov.cz/detail/SPPE2SWORSKRGXKG){.external}
+./zpravodaj/zpravodaj_13.qmd:69:[Týden pro digitální Česko 2024](https://digitalnicesko.gov.cz/){.external}
+./zpravodaj/zpravodaj_13.qmd:70:[YouTube kanále](https://www.youtube.com/@aiscr253){.external}
+./zpravodaj/zpravodaj_13.qmd:78:[nastavení uživatelského účtu](https://amcr.aiscr.cz/uzivatel/edit/){.external}
+./zpravodaj/zpravodaj_13.qmd:81:[ORCID](https://orcid.org/){.external}
