@@ -64,7 +64,7 @@ Informujeme Vás, že Vaše osobní údaje jsou zpracovávány v rozsahu Vámi v
 
 Vaše osobní údaje budeme ukládat po dobu nezbytně nutnou k zajištění fungování systému a naplňování jeho účelu. 
 V případě neaktivních a jinak nevyužitých účtů probíhá zpracování maximálně po dobu deseti let. 
-Tyto lhůty vyplývají ze zákonných požadavků, potřeb plnění veřejného zájmu a z titulu ochrany zájmu *subjektu*."
+Tyto lhůty vyplývají ze zákonných požadavků, potřeb plnění veřejného zájmu a z titulu ochrany zájmu *subjektu*.
 
 ### Další informace o zpracování osobních údajů
 
