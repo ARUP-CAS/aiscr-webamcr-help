@@ -110,7 +110,7 @@ AMČR-PAS.
 [![](figs/desatero.png)](https://amcr-info.aiscr.cz/downloads/Zodpovedne_hledani.pdf)
 :::
 
-Zásady zodpovědného hledání s detektory kovů jsou popsány v následujícím [videu](https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9){.external} a [dokumentu {{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/Zodpovedne_hledani.pdf).
+Zásady zodpovědného hledání s detektory kovů jsou popsány v následujícím [videu](https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9){.external} a [dokumentu {{< bi file-earmark-arrow-down >}}](https://amcr-info.aiscr.cz/downloads/Zodpovedne_hledani.pdf).
 
 {{< video https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9 >}}
 
@@ -202,7 +202,7 @@ Je nutné zadat následující údaje:
     - Ručním zápisem geografických souřadnic. Akceptovány jsou souřadnice:
         - WGS-84 uváděné v decimálních stupních, např. `50.0903260, 14.4090983`
         - S-JTSK uváděné v záporných hodnotách v metrech, např. `-597268, -1161521`.
-    - V případě práce v terénu s telefonem vybaveným GPS lokalizací pomocí tlačítka `Současná poloha` {{< fa map-marker-alt >}}. Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.
+    - V případě práce v terénu s telefonem vybaveným GPS lokalizací pomocí tlačítka `Současná poloha` {{< bi geo-alt >}}. Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.
     - Přiblížením v mapě a vybráním přesného bodu kliknutím na mapový podklad.
 5.  Přidám detailní popis lokalizace, např. formou parc. č., pomístního
     názvu (název trati, ulice, polohy aj.). Prosím dodržte následující

@@ -1,7 +1,7 @@
 ---
 title: Metodické pokyny a výklady
 subtitle: Dokumenty nastavující základní metodické přístupy aplikované v AMČR
-date: 2025-08-26
+date: 2025-08-29
 format:
   html: default
 repo-actions: false
@@ -10,9 +10,22 @@ toc: false
 
 Sekce **Metodické pokyny a výklady** obsahuje dokumenty nastavující základní metodické přístupy aplikované v AMČR a agendách souvisejících s jejím užíváním, vč. doporučení k výkladu existujících předpisů a regulací.
 
-### Obsah 
+## Obsah 
 
 - Metodické doporučení pro [administraci projektů v AMČR](administrace-proj.qmd)
 - Pravidla pro [badatelské archeologické výzkumy](badatelske-vyzkumy.qmd)
 - Metodický [výklad AMČR-PAS](amcr-pas.qmd) v kontextu zákona č. 20/1987 Sb., o státní památkové péči
+- [Stanovisko MK ČR k AMČR-PAS {{< bi file-earmark-arrow-down >}}](docs/AMCR-PAS_MK-CR_stanovisko.pdf) -- Odpověď *Památkové inspekce Ministerstva kultury ČR* na některé koncepční otázky spojené s AMČR-PAS
 - [Pravidla pro podání nálezové zprávy](pravidla-nz.qmd) o terénním archeologickém výzkumu
+
+
+## Dokumenty ke stažení 
+
+::: {.column-body-outset-right}
+
+| Dokument | | Formát | Datum  aktualizace | Popis dokumentu |
+|----------|-|--------|-------------------:|-----------------|
+| [Dodatek ke smlouvě -- ARÚP](docs/dodatek_AMCR_ARUP.docx) | [{{< bi file-word >}}](docs/dodatek_AMCR_ARUP.docx) | DOCX | 29. 8. 2025 | Dodatek k dohodě o užívání AMČR určený ke změně uživatelských oprávnění na úrovni "archeolog". |
+| [Dodatek ke smlouvě -- ARÚB](docs/dodatek_AMCR_ARUB.docx) | [{{< bi file-word >}}](docs/dodatek_AMCR_ARUB.docx) | DOCX | 29. 8. 2025 | Dodatek k dohodě o užívání AMČR určený ke změně uživatelských oprávnění na úrovni "archeolog". |
+
+:::

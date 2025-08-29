@@ -60,7 +60,7 @@ V horní liště záznamu jsou pak tlačítka umožňující právě přechody m
 Tato tlačítka závisí na kontextu a [roli](/o-systemu/role.qmd) přihlášeného uživatele.
 V nabídce `Další volby` lze zobrazit historii daného záznamu, přejít na daný záznam (jde-li o archivovaný záznam) v [Digitálním archivu AMČR](https://digiarchiv.aiscr.cz/){.external} a [AMČR API](https://api.aiscr.cz/){.external} a případně stáhnout metadata daného záznamu ve formátu *.xml*.
 
-Úpravy jednotlivých sekcí na stránce daného záznamu lze povolit pomocí ikony tužky {{< fa pen >}} v pravém horním rohu dané sekce.
+Úpravy jednotlivých sekcí na stránce daného záznamu lze povolit pomocí ikony tužky {{< bi pencil-fill >}} v pravém horním rohu dané sekce.
 Po povolení úprav se zobrazí konkrétní upravovaná sekce daného záznamu, kdy pole označená za popiskem hvězdičkou, jsou povinná.
 Pole ohraničená žlutě je pak nutné vyplnit pro posun do dalšího procesního stavu. 
 

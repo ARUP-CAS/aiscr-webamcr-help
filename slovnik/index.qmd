@@ -222,7 +222,7 @@ Za registrovaného uživatele je považován každý uživatel aplikace s aktivn
 
 Správcem systému se rozumí uživatelé s [oprávněním](/o-systemu/role.qmd) Archivář či Administrátor.
 Zpravidla jde o zaměstnance archivů ARÚP a ARÚB.
-Správce lze kontaktovat přes emailovou adresu [{{< fa regular envelope size=xs >}} info@amapa.cz](mailto:info@amapa.cz) nebo na adresách uvedených v [Kontaktech](/about).
+Správce lze kontaktovat přes emailovou adresu [{{<  bi envelope-at size=0.8em >}} info@amapa.cz](mailto:info@amapa.cz) nebo na adresách uvedených v [Kontaktech](/about).
 
 ### Terénní zásah
 
