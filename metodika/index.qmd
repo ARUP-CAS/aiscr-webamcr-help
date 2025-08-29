@@ -18,7 +18,7 @@ Sekce **Metodické pokyny a výklady** obsahuje dokumenty nastavující základn
 - Metodický [výklad AMČR-PAS](amcr-pas.qmd) v kontextu zákona č. 20/1987 Sb., o státní památkové péči
 - [Stanovisko MK ČR k AMČR-PAS {{< bi file-earmark-arrow-down >}}](docs/AMCR-PAS_MK-CR_stanovisko.pdf) -- Odpověď *Památkové inspekce Ministerstva kultury ČR* na některé koncepční otázky spojené s AMČR-PAS
 
-## Dokumenty ke stažení 
+<!-- ## Dokumenty ke stažení 
 
 ::: {.column-body-outset-right}
 
@@ -27,4 +27,4 @@ Sekce **Metodické pokyny a výklady** obsahuje dokumenty nastavující základn
 | [Dodatek ke smlouvě -- ARÚP](docs/dodatek_AMCR_ARUP.docx) | [{{< bi file-word >}}](docs/dodatek_AMCR_ARUP.docx) | DOCX | 29. 8. 2025 | Dodatek k dohodě o užívání AMČR určený ke změně uživatelských oprávnění na úrovni "archeolog". |
 | [Dodatek ke smlouvě -- ARÚB](docs/dodatek_AMCR_ARUB.docx) | [{{< bi file-word >}}](docs/dodatek_AMCR_ARUB.docx) | DOCX | 29. 8. 2025 | Dodatek k dohodě o užívání AMČR určený ke změně uživatelských oprávnění na úrovni "archeolog". |
 
-:::
+::: -->
