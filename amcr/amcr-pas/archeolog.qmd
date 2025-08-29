@@ -16,7 +16,8 @@ subtitle: "Pokyny pro archeology k vytváření a správě projektů typu průzk
 #     orcid: 0000-0002-0576-7230
 #   - name: Olga Lečbychová
 #     orcid: 0000-0001-5123-1261
-date: 2025-06-23
+date: 2025-08-29
+# date: 2025-06-23
 # doi: 10.5281/zenodo.4114128
 ---
 
@@ -167,9 +168,9 @@ vysvětlete v poli lokalizace.
     případů sami sebe).
 2.  Aplikace nás vyzve k vyplnění nezbytných údajů a projekt přihlásíme.
 3.  Do projektové dokumentace vložíme soubor s popisem projektu, jeho
-    cílů, územního rozsahu, metodiky a způsobu organizace (vzor
-    dokumentu ke stažení
-    [zde](docs/AMCR-PAS_projekt_vzor.docx)).
+    cílů, územního rozsahu, metodiky a způsobu organizace:
+      - vzor dokumentu ke stažení [zde (DOCX)](docs/AMCR-PAS_projekt_vzor.docx), 
+      - vyplněný příklad [zde (PDF)](docs/AMCR-PAS_projekt_priklad.pdf).
 4.  Pokud je projekt realizován na území s památkovou ochranou, doplníme
     název kulturní památky a její katalogové číslo dle [Památkového katalogu NPÚ](https://www.pamatkovykatalog.cz/){.external}.
     
@@ -240,7 +241,7 @@ Vám tyto nálezy pod kartou `Potvrdit` ve formě přehledné tabulky.
 ![Tabulka přiložených fotografií](figs/pas-a_zapis_foto.png){width="90%"}
 
 První zobrazenou sekcí je seznam přiložených fotografií, ty lze po
-kliknutí na ikonu {{< fa save >}} stáhnout. Rovněž je
+kliknutí na ikonu {{< bi floppy >}} stáhnout. Rovněž je
 možné nadbytečné fotografie nálezu smazat, případně přidat další, např.
 po laboratorním zpracování, případně již nahrané fotografie nahradit.
 **Upozorňujeme, že smazání fotografie ze systému je nevratné!**
@@ -294,7 +295,7 @@ Místo nálezu je možné určit několika způsoby:
     -   [wgs-84]{.smallcaps} uváděné v decimálních stupních, např. `50.0903260, 14.4090983`,
     -   [s-jtsk]{.smallcaps} uváděné v záporných hodnotách v metrech, např. `-597268, -1161521`.
 
--   V případě práce v terénu s telefonem s GPS lokalizací pomocí tlačítka `Současná poloha` {{< fa map-marker-alt >}}.
+-   V případě práce v terénu s telefonem s GPS lokalizací pomocí tlačítka `Současná poloha` {{< bi geo-alt >}}.
     Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.
 -   Přiblížením v mapě a vybráním přesného bodu.
 
