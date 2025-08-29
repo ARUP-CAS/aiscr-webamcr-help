@@ -17,6 +17,7 @@ Sekce **Metodické pokyny a výklady** obsahuje dokumenty nastavující základn
 - Pravidla pro [badatelské archeologické výzkumy](badatelske-vyzkumy.qmd)
 - Metodický [výklad AMČR-PAS](amcr-pas.qmd) v kontextu zákona č. 20/1987 Sb., o státní památkové péči
 - [Stanovisko MK ČR k AMČR-PAS {{< bi file-earmark-arrow-down >}}](docs/AMCR-PAS_MK-CR_stanovisko.pdf) -- Odpověď *Památkové inspekce Ministerstva kultury ČR* na některé koncepční otázky spojené s AMČR-PAS
+- Vzor dodatku k Dohodě o využívání AMČR ve verzi pro [Čechy {{< bi file-earmark-arrow-down >}}](docs/dodatek_AMCR_ARUP.docx) i [Moravu a Slezsko {{< bi file-earmark-arrow-down >}}](docs/dodatek_AMCR_ARUB.docx) určený ke změně uživatelských oprávnění na úrovni "archeolog".
 
 <!-- ## Dokumenty ke stažení 
 
