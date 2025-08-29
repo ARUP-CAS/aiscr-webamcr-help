@@ -174,7 +174,7 @@ website:
           contents: 
             - text: AMČR-PAS v kontextu památkového zákona
               href: metodika/amcr-pas.qmd
-            - text: Stanovisko Památkové inspekce
+            - text: Stanovisko Památkové inspekce MK ČR
               href: metodika/docs/AMCR-PAS_MK-CR_stanovisko.pdf
               icon: file-pdf
         - text: ---
