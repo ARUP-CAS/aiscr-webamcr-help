@@ -81,5 +81,5 @@ Další okolnosti, zejména podmínky poskytovatelů prostředků na provedení 
 
 ### Dokumenty ke stažení
 
-Žádost o vyjádření Archeologického ústavu AV ČR k realizaci archeologického výzkumu ([DOCX 20.65 kB {{< fa file-download >}}](docs/BAV_vyjadreni.docx))  
-Vzor projektové dokumentace pro projekty typu průzkum ([DOCX 13.65 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx))
+Žádost o vyjádření Archeologického ústavu AV ČR k realizaci archeologického výzkumu ([DOCX {{< bi file-earmark-arrow-down >}}](docs/BAV_vyjadreni.docx))  
+Vzor projektové dokumentace pro projekty typu průzkum ([DOCX {{< bi file-earmark-arrow-down >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx))

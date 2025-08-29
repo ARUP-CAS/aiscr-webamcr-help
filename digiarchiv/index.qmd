@@ -19,10 +19,11 @@ Manuál je platný pro verzi aplikace [v2.1.1](https://github.com/ARUP-CAS/aiscr
 
 V horní části stránky se nachází panel ovládacích prvků s tlačítky:
 
-- **{{< fa home >}} Home** -- návrat na hlavní stránku;
-- **{{< fa question-circle >}} Nápověda** -- otevře tuto nápovědu;
-- **{{< fa sign-in-alt >}} Přihlásit uživatele** -- registrovaní uživatelé se zde mohou přihlásit a získají tak přístup ke všem datům, podle své. uživatelské role;
-- **{{< fa user-check >}} Registrovat uživatele** -- neregistrovaní uživatelé zde mohou provést registraci;
+- **{{< bi house-door-fill >}} Home** -- návrat na hlavní stránku;
+- **{{< bi question-circle >}} Nápověda** -- otevře tuto nápovědu;
+- **{{< bi box-arrow-right >}} Přihlásit uživatele** -- registrovaní uživatelé se zde mohou přihlásit a získají tak přístup ke všem datům, podle své. uživatelské role;
+- **{{< bi person-check-fill >}} Registrovat uživatele** -- neregistrovaní uživatelé zde mohou provést registraci;
+- **{{< bi graph-up >}} Statistiky** -- statistiky přístupů k jednotlivým záznamům.
 - **English** -- přepnout do anglické verze webu.
 
 
@@ -58,7 +59,7 @@ Omezená přístupnost pro jednotlivé typy záznamů znamená:
 
 ### Fulltextové vyhledávání
 
-Pro fulltextové vyhledávání lze použít pole **{{< fa search >}} Zadejte vyhledávácí dotaz**.
+Pro fulltextové vyhledávání lze použít pole **{{< bi search >}} Zadejte vyhledávácí dotaz**.
 
 Dotaz v tomto poli hledá výskyt jednotlivých slov (tokenů). 
 Za oddělovač slov je považována vždy pouze mezera. 
@@ -70,7 +71,7 @@ Vyhledávací pole prohledává všechny popisné údaje v záznamech, nikoli v�
 
 ### Přechod do mapového okna
 
-Tlačítko **{{< fa map >}} Otevřít mapu** slouží pro přesun do mapového okna. 
+Tlačítko **{{< bi map-fill >}} Otevřít mapu** slouží pro přesun do mapového okna. 
 Práce v mapovém okně je podrobněji popsána níže. 
 
 
@@ -98,8 +99,8 @@ V horní části panelu jsou zobrazeny **typy záznamů** a v závorce uvedený 
 Mezi typy záznamů lze libovolně přepínat a výsledky se zobrazí v okně výsledků v pravé části stránky.
 
 V záhlaví části s výsledky jsou umístěna ovládací tlačítka pro volbu způsobu jejich zobrazení. 
-Výsledky lze zobrazit buď v **{{< fa desktop >}} Plném zobrazení** (titulek, náhled, popis), jako **{{< fa th >}} Galerii** (pouze náhledy), či v **{{< fa align-justify >}} Řádkovém zobrazení** (pouze titulek). 
-Vybrané záznamy lze exportovat jako seznam pomocí tlačítka {{< fa download >}} **Export**. 
+Výsledky lze zobrazit buď v **{{< bi display >}} Plném zobrazení** (titulek, náhled, popis), jako **{{< bi grid-3x3-gap-fill >}} Galerii** (pouze náhledy), či v **{{< bi justify >}} Řádkovém zobrazení** (pouze titulek). 
+Vybrané záznamy lze exportovat jako seznam pomocí tlačítka **{{< bi download >}} Export**. 
 Takto lze exportovat maximálně 1000 záznamů, které se zobrazí jako tabulka na samostatné stránce. 
 Záznamy je možné snadno pomocí nástrojů kopírovat/vložit přenést do tabulkového editoru (např. MS Excel, LibreOffice Spreadsheets apod.).
 
@@ -111,27 +112,27 @@ Počet zobrazených záznamů na stránce lze nastavit podle předvolených mož
 
  U jednotlivých výsledků lze vybrat z následujících voleb:
 
-- **{{< fa map >}} Zobrazit na mapě** -- otevře mapové okno, pokud je to pro záznam relevantní.
-- **{{< fa link >}} Odkazy** -- umožňuje získat permalink či odkaz na záznam v [OAI-PMH API](https://api.aiscr.cz/){.external} (více viz dále).
-- **{{< fa book-open >}} BibTeX** -- vygeneruje bibliografický záznam v BibTeX, který vytvoří soubor s příponou .bib a který lze použít k tvorbě bibliografie v externích nástrojích (např. Zotero).
-- **{{< fa print >}} Vytisknout** -- umožňuje tisk detailu daného záznamu.
-- **{{< fa star >}} Uložit do oblíbených** -- označí záznam jako oblíbený (pouze pro přihlášené uživatele). Oblíbené záznamy je možné zobrazit pomocí totožného symbolu v záhlaví stránky s výsledky.
-- **{{< fa comment-alt >}} Odeslat zpětnou vazbu** -- umožňuje odeslat komentář.
-- **Zobrazit detail {{< fa chevron-down >}}** -- otevře detail záznamu.
+- **{{< bi map-fill >}} Zobrazit na mapě** -- otevře mapové okno, pokud je to pro záznam relevantní.
+- **{{< bi link >}} Odkazy** -- umožňuje získat permalink či odkaz na záznam v [OAI-PMH API](https://api.aiscr.cz/){.external} (více viz dále).
+- **{{< bi book-half >}} BibTeX** -- vygeneruje bibliografický záznam v BibTeX, který vytvoří soubor s příponou .bib a který lze použít k tvorbě bibliografie v externích nástrojích (např. Zotero).
+- **{{< bi printer >}} Vytisknout** -- umožňuje tisk detailu daného záznamu.
+- **{{< bi star-fill >}} Uložit do oblíbených** -- označí záznam jako oblíbený (pouze pro přihlášené uživatele). Oblíbené záznamy je možné zobrazit pomocí totožného symbolu v záhlaví stránky s výsledky.
+- **{{< bi chat-left-dots-fill >}} Odeslat zpětnou vazbu** -- umožňuje odeslat komentář.
+- **Zobrazit detail {{< bi chevron-down >}}** -- otevře detail záznamu.
 
 
 ### Detail záznamu
 
-U každého ze zobrazených výsledků lze **Zobrazit detail {{< fa chevron-down >}}** záznamu, který obsahuje podrobný popis výsledku a odkazy na související záznamy. 
+U každého ze zobrazených výsledků lze **Zobrazit detail {{< bi chevron-down >}}** záznamu, který obsahuje podrobný popis výsledku a odkazy na související záznamy. 
 V detailu záznamu nalezneme podrobnější popis a další doplňující údaje (metadata) ve strukturované podobě. 
 Pro přehlednost detailu záznamu lze jeho jednotlivé podčásti rozbalovat a skrývat vždy pomocí tučných nadpisů těchto podčástí.
 
 ![](figs/da-detail.png)
 
-U detailu projektu jsou u polí vázaných na řízené slovníky (hesláře) symboly filtrace **{{< fa filter >}}**. 
+U detailu projektu jsou u polí vázaných na řízené slovníky (hesláře) symboly filtrace **{{< bi funnel-fill >}}**. 
 Po kliknutí na takto označené pole se konkrétní zvolené heslo použije jako aktivní filtr (k použití filtrů viz níže).
 
-Každý identifikátor v detailu záznamu je opatřen ikonou odkazu **{{< fa link >}}**, která umožňuje zobrazit samostatnou stránku persistentního odkazu se souvisejícími daty. 
+Každý identifikátor v detailu záznamu je opatřen ikonou odkazu **{{< bi link >}}**, která umožňuje zobrazit samostatnou stránku persistentního odkazu se souvisejícími daty. 
 Tato stránka má svůj trvalý odkaz a každý takovýto záznam je proto možné snadno přímo citovat. 
 Zároveň je zde možné zobrazit záznam ve formátu `XML` přes proklik do OAI-PMH API (samotné rozhraní API naleznete [zde](https://api.aiscr.cz/){.external}).
 
@@ -141,9 +142,9 @@ Detail obsahuje též informace o **souvisejících záznamech**, jelikož jedno
 
 U vyhledaných [dokumentů](https://digiarchiv.aiscr.cz/results?entity=dokument){.external}, [samostatných nálezů](https://digiarchiv.aiscr.cz/results?entity=samostatny_nalez){.external} a v [Knihovně 3D](https://digiarchiv.aiscr.cz/results?entity=knihovna_3d){.external} lze **zobrazit náhled souvisejících souborů** (kliknutím na náhled v okně výsledků) a soubory si prohlédnout. 
 Každý záznam může mít i více než jeden související soubor, mezi nimiž jde přepínat v záhlaví prohlížečky. 
-Soubory lze pomocí příslušného tlačítka stahovat {{< fa download >}}. 
+Soubory lze pomocí příslušného tlačítka stahovat **{{< bi download >}}**. 
 Generování náhledů souborů probíhá zpětně po jejich publikaci v Digitálním archivu. 
-Pokud u souboru ještě není vygenerován jeho náhled, zobrazí se místo něj ikona souboru bez náhledu {{< fa file >}}. 
+Pokud u souboru ještě není vygenerován jeho náhled, zobrazí se místo něj ikona souboru bez náhledu **{{< bi file-earmark-fill >}}**. 
 Přes ni je ale možné se na dokument prokliknout a následně jej stáhnout v plné verzi. 
 Možnost náhledu a stahování dokumentů závisí na uživatelské roli (viz výše). 
 Při stahování a dalším využití dat dbejte na dodržení licenčních podmínek a při citaci využívejte doporučený postup.
@@ -157,8 +158,8 @@ Pro každý záznam existuje jedinečný a stálý (persistentní) identifikáto
 Ten společně se základní částí URL adresy (`https://digiarchiv.aiscr.cz/id/...`) tvoří persistentní odkaz. 
 Pokud si uživatel uloží tento persistentní odkaz, může jej kdykoliv použít pro přístup ke konkrétnímu záznamu. 
 Persistentní odkaz vede ke stránce, na které je vždy možné najít stejný záznam. 
-Na tuto stránku se lze dostat vždy po kliknutí na symbol odkazu **{{< fa link >}}** kdekoliv v rámci aplikace. 
-Persistentní odkaz se nachází v ovládacích prvcích pod každým výsledkem či jeho popisem a u souvisejících záznamů po rozbalení nabídky **Zobrazit detail {{< fa chevron-down >}}**. 
+Na tuto stránku se lze dostat vždy po kliknutí na symbol odkazu **{{< bi link >}}** kdekoliv v rámci aplikace. 
+Persistentní odkaz se nachází v ovládacích prvcích pod každým výsledkem či jeho popisem a u souvisejících záznamů po rozbalení nabídky **Zobrazit detail {{< bi chevron-down >}}**. 
 Na stránce persistentního odkazu je kromě samotného záznamu uvedeno znění persistentního odkazu a doporučená forma citace záznamu. Ze stránky persistentního odkazu je možné otevřít mapové okno a zobrazit polohu záznamu v mapě. 
 
 ![](figs/da-pid.png)
@@ -170,23 +171,23 @@ Na stránce persistentního odkazu je kromě samotného záznamu uvedeno znění
 ### Filtrace podle polí bez heslářů
 
 Pole **Filtrovat podle pole bez hesláře** slouží pro vyhledávání v polích, pro které nejsou nastaveny **řízené slovníky** (např. datum, poznámky, číselné údaje apod.). 
-Po zvolení pole, podle kterého chceme vyhledávat, je třeba vyplnit hledanou hodnotu či rozsah hodnot (např. hledané rozpětí data výzkumu). Pro aplikaci zadaného filtru slouží tlačítko **{{< fa filter >}} Aplikovat filtr**.
+Po zvolení pole, podle kterého chceme vyhledávat, je třeba vyplnit hledanou hodnotu či rozsah hodnot (např. hledané rozpětí data výzkumu). Pro aplikaci zadaného filtru slouží tlačítko **{{< bi funnel-fill >}} Aplikovat filtr**.
 
 ![](figs/da-filtr1.png){.column-margin width=280}
 
 ### Filtrace podle polí s hesláři (facety)
 
 V případě polí, které jsou vázány na řízené slovníky (hesláře) vybíráme hodnoty ve filtrech z nabízených možností. 
-Ve filtrech je možné vyhledávat přímo konkrétní heslo v konkrétním hesláři, nebo je možné použít pole **Vyhledej pojem v heslářových filtrech {{< fa search >}}**.
+Ve filtrech je možné vyhledávat přímo konkrétní heslo v konkrétním hesláři, nebo je možné použít pole **Vyhledej pojem v heslářových filtrech {{< bi search >}}**.
 
 V tomto poli lze zadat hledaný výraz; následně se zobrazí pouze filtry obsahující hesla, které danému výrazu odpovídají. 
 Při vyhledávání není třeba zadat přesné znění hledaného hesla, ale výsledkem budou všechna slova obsahující zadaný textový řetězec (tedy např. začátek, kořen či konec slova). 
 Pro každou z možností je v závorce uveden počet odpovídajících záznamů za současného nastavení. 
-Hesla je možné řadit pomocí tlačítka **{{< fa sort-amount-down >}} Řadit dle** podle počtu záznamů, textu hesla či jeho pořadí v hesláři (např. u hesláře období).
+Hesla je možné řadit pomocí tlačítka **{{< bi filter-left >}} Řadit dle** podle počtu záznamů, textu hesla či jeho pořadí v hesláři (např. u hesláře období).
 
 ![](figs/da-filtr2.png){.column-margin width=280}
 
-Aktivní filtry vidíme v horní části panelu nad typy záznamů, kde lze jednotlivé filtry pomocí **{{< fa times >}}** křížku u dílčího filtru vypnout, případně zrušit všechny filtry pomocí křížku vpravo nahoře. Použité filtry lze libovolně kombinovat. Filtry lze aplikovat buď najednou výběrem z více filtrů, nebo lze další filtry, které se aplikují na již existující výsledky, přidávat. Stejně tak lze jednotlivé filtry i odebírat a výsledky se tomu dynamicky přizpůsobí.
+Aktivní filtry vidíme v horní části panelu nad typy záznamů, kde lze jednotlivé filtry pomocí **{{< bi x >}}** křížku u dílčího filtru vypnout, případně zrušit všechny filtry pomocí křížku vpravo nahoře. Použité filtry lze libovolně kombinovat. Filtry lze aplikovat buď najednou výběrem z více filtrů, nebo lze další filtry, které se aplikují na již existující výsledky, přidávat. Stejně tak lze jednotlivé filtry i odebírat a výsledky se tomu dynamicky přizpůsobí.
 
 ![](figs/da-filtr3.png){.column-margin width=280}
 
@@ -198,7 +199,7 @@ Mezi jednotlivými skupinami hesel (dílčími facetami; např. areál, katastr�
 ![](figs/da-filtr4.png){.column-margin width=200}
 
 Použití filtrů je možné nejen z pásu s jednotlivými facetami, ale je možné aplikovat filtry také volbou ve výpisu výsledků. 
-U hodnot použitelných pro filtraci je ikona pro aplikaci filtru **{{< fa filter >}}**. 
+U hodnot použitelných pro filtraci je ikona pro aplikaci filtru **{{< bi funnel-fill >}}**. 
 Vybraný parametr se následně přidá mezi aktivní filtry s podmínkou **MUSÍ** obsahovat.
 
 ![](figs/da-filtr5.png)
@@ -206,15 +207,15 @@ Vybraný parametr se následně přidá mezi aktivní filtry s podmínkou **MUS�
 
 ## Zobrazení v mapě
 
-Do mapového okna se lze dostat buď pomocí tlačítka **{{< fa map >}} Otevřít mapu** na horním panelu nebo pomocí tlačítka **{{< fa map >}} Zobrazit na mapě** u konkrétního záznamu.
+Do mapového okna se lze dostat buď pomocí tlačítka **{{< bi map-fill >}} Otevřít mapu** na horním panelu nebo pomocí tlačítka **{{< bi map-fill >}} Zobrazit na mapě** u konkrétního záznamu.
 
-V mapovém okně máme po levé straně pomocí tlačítka **{{< fa angle-right >}}| Filtrace/Výsledky** možnost vysunout panel, kde lze zobrazit výsledky a pracovat s filtry. 
+V mapovém okně máme po levé straně pomocí tlačítka **{{< bi chevron-bar-right >}} Filtrace/Výsledky** možnost vysunout panel, kde lze zobrazit výsledky a pracovat s filtry. 
 Použití filtrů je totožné jako v zobrazení stránky s výsledky. 
-Panel je možné pro větší přehlednost skrýt **|{{< fa angle-left >}}**. 
+Panel je možné pro větší přehlednost skrýt **{{< bi chevron-bar-left >}}**. 
 Rovněž zde platí možnost použít fulltextové vyhledávání.
 
 Většinu zobrazení zabírá mapové okno se zobrazenými výsledky. 
-Pro pohyb v mapě slouží myš a pro změnu měřítka tlačítka **{{< fa plus >}} {{< fa slash >}} {{< fa minus >}}** či kolečko myši. 
+Pro pohyb v mapě slouží myš a pro změnu měřítka tlačítka **{{< bi plus >}}** / **{{< bi dash >}}** či kolečko myši. 
 Při změně měřítka mapy se mění i počet zahrnutých výsledků, které jsou zobrazeny v panelu po levé straně – výsledky vždy odpovídají aktuálnímu náhledu mapy. 
 Mapu lze přiblížit též stiskem **SHIFT + levého tlačítka myši + tažením**; vyberete tak konkrétní oblast mapy pro přiblížení. 
 
@@ -229,7 +230,7 @@ Po přiblížení se k mapě na úroveň, kdy se zobrazuje méně než 10 000, a
 ![](figs/da-map3.png){.column-page-inset-right}
 
 Po dalším přiblížení nebo po kliknutí na vybraný shluk se shluk „rozpadne“ do jednotlivých záznamů. V tomto zobrazení již můžete vidět plné geometrie jednotlivých [PIAN](/slovnik/index.qmd#/pian) (tedy body, linie a polygony). 
-Symboly **{{< fa map-marker-alt >}}** reprezentují jejich definiční body. 
+Symboly **{{< bi geo-alt-fill >}}** reprezentují jejich definiční body. 
 
 ![](figs/da-map4.png){.column-page-inset-right}
 
@@ -238,22 +239,22 @@ Se záznamem je možné pracovat obdobně jako na stránce s výsledky (tedy nap
 
 ![](figs/da-map5.png){.column-page-inset-right}
 
-Po kliknutí na symbol záznamu v mapě **{{< fa map-marker-alt >}}** se tento záznam (obvykle jednotka [PIAN](/slovnik/index.qmd#/pian) použije jako parametr filtru a v okně výsledků se zobrazí pouze ty záznamy, které jsou s daným záznamem provázané (připojené záznamy lze vidět rovněž po najetí kurzorem na symbol záznamu jako tooltip). V některých případech, pokud je na prvek připojený jediný záznam, se zobrazí rovnou detail souvisejícího záznamu (např. pro samostatné nálezy a 3D modely).
+Po kliknutí na symbol záznamu v mapě **{{< bi geo-alt-fill >}}** se tento záznam (obvykle jednotka [PIAN](/slovnik/index.qmd#/pian) použije jako parametr filtru a v okně výsledků se zobrazí pouze ty záznamy, které jsou s daným záznamem provázané (připojené záznamy lze vidět rovněž po najetí kurzorem na symbol záznamu jako tooltip). V některých případech, pokud je na prvek připojený jediný záznam, se zobrazí rovnou detail souvisejícího záznamu (např. pro samostatné nálezy a 3D modely).
 
 ![](figs/da-map6.png){.column-page-inset-right}
 
-Mimo použití filtrů lze vyhledávat také pomocí prostorového výběru, který lze aktivovat tlačítkem **{{< fa vector-square >}}**.
+Mimo použití filtrů lze vyhledávat také pomocí prostorového výběru, který lze aktivovat tlačítkem **{{< bi bounding-box >}} Filtrovat oblast**.
 
 Vybraná oblast se zobrazí jako aktivní filtr (souřadnice rohů zvoleného území) a v mapovém okně i na stránce s výsledky se zobrazí pouze ty záznamy, které odpovídají danému prostorovému výběru. 
 Po zavření mapového okna a návratu k zobrazení výsledků zůstávají všechny použité filtry nadále aktivní a s výsledky můžeme dále pracovat v tomto zobrazení. 
 
 ![](figs/da-map7.png){.column-page-inset-right}
 
-Po kliknutí na ikonu **{{< fa layer-group >}}** v pravém horním rohu mapového okna je možné změnit mapový podklad. 
+Po kliknutí na ikonu **{{< bi stack >}}** v pravém horním rohu mapového okna je možné změnit mapový podklad. 
 Na výběr je ČÚZK – Základní mapa ČR, ČÚZK – Ortofotomapa a ČÚZK – Stínovaný reliéf 5G a dále [OpenStreetMap](https://www.openstreetmap.org/){.external}.
 K těmto podkladovým mapám je dále možné jako poloprůhledný překryv doplnit mapu ČÚZK – Katastrální území a ČÚZK – Katastrální mapu (dostupné podle zvoleného měřítka - mapu je nutno dostatečně přiblížit).
 
 ![](figs/da-map8.png){.column-margin width=200}
 
-Vybrané záznamy je možné pomocí tlačítka **{{< fa download >}} Exportovat seznam** exportovat a to ve formátech `GML`, `WKT` a `GeoJSON`, se kterými je možné dále pracovat např. v prostředí GIS (prostorové údaje v těchto formátech jsou uloženy v jednom z polí exportní tabulky; samostatně jsou vždy uváděny též souřadnice centroidu ve WGS-84). 
+Vybrané záznamy je možné pomocí tlačítka **{{< bi download >}} Exportovat seznam** exportovat a to ve formátech `GML`, `WKT` a `GeoJSON`, se kterými je možné dále pracovat např. v prostředí GIS (prostorové údaje v těchto formátech jsou uloženy v jednom z polí exportní tabulky; samostatně jsou vždy uváděny též souřadnice centroidu ve WGS-84). 
 Maximální počet exportovaných záznamů je omezen na 1000 řádků. 

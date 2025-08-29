@@ -104,5 +104,5 @@ Je rovněž třeba počítat s možností, že vlastník (správce, uživatel) m
 
 ### Dokumenty ke stažení
 
-Vzor nálezové zprávy pro projekty typu průzkum ([DOCX 35.6 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx))  
-Vzor projektové dokumentace pro projekty typu průzkum ([DOCX 13.65 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx))
+Vzor nálezové zprávy pro projekty typu průzkum ([DOCX {{< bi file-earmark-arrow-down >}}](/amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx))  
+Vzor projektové dokumentace pro projekty typu průzkum ([DOCX {{< bi file-earmark-arrow-down >}}](/amcr/amcr-pas/docs/AMCR-PAS_projekt_vzor.docx))

@@ -163,5 +163,5 @@ Součástí NZ **nesmí být osobní údaje oznamovatele**, stavebníka ani jin�
 
 ### Dokumenty ke stažení
 
-Vzor titulní strany a evidenčního listu nálezové zprávy ([PDF 125 kB {{< fa file-download >}}](docs/NZ_vzor_titulni_strana_evidencni_list.pdf))  
-Vzor nálezové zprávy pro projekty typu průzkum ([DOCX 35,6 kB {{< fa file-download >}}](/amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx))
+Vzor titulní strany a evidenčního listu nálezové zprávy ([PDF {{< bi file-earmark-arrow-down >}}](docs/NZ_vzor_titulni_strana_evidencni_list.pdf))  
+Vzor nálezové zprávy pro projekty typu průzkum ([DOCX {{< bi file-earmark-arrow-down >}}](/amcr/amcr-pas/docs/AMCR-PAS_NZ_vzor.docx))
