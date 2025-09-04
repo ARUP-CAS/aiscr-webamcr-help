@@ -76,6 +76,8 @@ read.csv("tabs/fileformats.csv", tryLogical = FALSE) |>
   knitr::kable(align = "ccclll", col.names = cnames)
 ```
 
+Optimalizace PDF do archviního formátu PDF/A-2b je prováděna pomocí Adobe Acrobat s využitím funkce "Kontrola před výstupem". Přesná specifikace a export nastavení jsou dostupné v [tomto archivu {{< bi file-earmark-arrow-down >}}](docs/AMCR_PDF_A2b_nastaveni.zip).
+
 ### Části dokumentu
 
 Ke každému záznamu o dokumentu je možné připojit i jeho části, které umožňují k dokumentu připojit komponentu, akci, lokalitu či projekt podle toho, k čemu se dokument vztahuje. 
