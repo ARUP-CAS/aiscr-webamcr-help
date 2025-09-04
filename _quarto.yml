@@ -169,6 +169,8 @@ website:
           href: metodika/pravidla-nz.qmd
         - text: Badatelské výzkumy
           href: metodika/badatelske-vyzkumy.qmd
+        - text: Dohody o využití AMČR
+          href: metodika/dohody.qmd
         - text: ---
         - section: AMČR-PAS
           contents: 
@@ -177,15 +179,6 @@ website:
             - text: Stanovisko Památkové inspekce MK ČR
               href: metodika/docs/AMCR-PAS_MK-CR_stanovisko.pdf
               icon: file-pdf
-        - text: ---
-        - section: Dodatky ke smlouvám
-          contents: 
-            - text: Dodatek ke smlouvě – ARÚ
-              href: metodika/docs/docs/dodatek_AMCR_ARUP.docx
-              icon: file-word
-            - text: Dodatek ke smlouvě – ARÚB
-              href: metodika/docs/docs/dodatek_AMCR_ARUB.docx
-              icon: file-word
 
     - id: pojmy
       contents:
