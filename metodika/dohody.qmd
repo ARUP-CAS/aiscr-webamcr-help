@@ -1,12 +1,6 @@
 ---
 title: Dohody o využívání Archeologické mapy České republiky
-# subtitle: 
-# date: 2020-03-04
-date: 2025-08-06
-description: Verze v1, platná od 4. 3. 2020
-format: 
-  html: default
-  pdf: default
+date: 2025-09-04
 ---
 
 AMČR lze v základním režimu využívat bez omezení, resp. po případné registraci [uživatelského účtu](/zakladni-info/ucty.qmd). Dohody o využívání Archeologické mapy České republiky slouží k zajištění vyšších oprávnění na úrovni "archeolog", a to zejména pro potřeby přístupu ke [správě projektů](/amcr/projekty.qmd):
