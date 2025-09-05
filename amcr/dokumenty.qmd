@@ -77,8 +77,8 @@ icons <- c("img" = "file-earmark-image", "tbl" = "file-earmark-ruled", "doc" = "
 
 formats <- read.csv("tabs/fileformats.csv", tryLogical = FALSE)
 # archival format - tick, non-archival format - cross
-formats[formats$archival, ]$archival <- "**&#x2714;**" 
-# formats[!formats$archival, ]$archival <- "**&#x2718;**"
+formats[formats$archival == "TRUE", ]$archival <- "**&#x2714;**" 
+# formats[formats$archival == "FALSE", ]$archival <- "**&#x2718;**"
 # icons 
 formats$icon <- paste0("{{< bi ", unname(icons[formats$icon]), " size=1.2em >}}")
 
