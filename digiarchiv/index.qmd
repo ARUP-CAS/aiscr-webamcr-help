@@ -1,7 +1,8 @@
 ---
 title: Digitální archiv AMČR
 subtitle: Uživatelský manuál
-date: 2024-07-31
+date: 2025-08-29
+# date: 2024-07-31
 ---
 
 ::: callout-note
@@ -23,7 +24,7 @@ V horní části stránky se nachází panel ovládacích prvků s tlačítky:
 - **{{< bi question-circle >}} Nápověda** -- otevře tuto nápovědu;
 - **{{< bi box-arrow-right >}} Přihlásit uživatele** -- registrovaní uživatelé se zde mohou přihlásit a získají tak přístup ke všem datům, podle své. uživatelské role;
 - **{{< bi person-check-fill >}} Registrovat uživatele** -- neregistrovaní uživatelé zde mohou provést registraci;
-- **{{< bi graph-up >}} Statistiky** -- statistiky přístupů k jednotlivým záznamům.
+- **{{< bi graph-up >}} Statistiky** -- statistiky přístupů k jednotlivým záznamům;
 - **English** -- přepnout do anglické verze webu.
 
 
