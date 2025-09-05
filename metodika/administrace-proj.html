@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.34">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Verze v1, platná od 26. 8. 2025">
+
+<title>Metodické doporučení pro administraci projektů v AMČR – Dokumentace AMČR</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../metodika/pravidla-nz.html" rel="next">
+<link href="../metodika/index.html" rel="prev">
+<link href="../figs/cover.png" rel="icon" type="image/png">
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1c482df168663182312e1019415d18e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Žádný výsledek",
+    "search-matching-documents-text": "Nalezené výsledky",
+    "search-copy-link-title": "Zkopírovat odkaz pro vyhledávání",
+    "search-hide-matches-text": "Skrýt další výsledky",
+    "search-more-match-text": "další výsledek v tomto dokumentu",
+    "search-more-matches-text": "dalších výsledků v tomto dokumentu",
+    "search-clear-button-title": "Vymazat",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Zrušit",
+    "search-submit-button-title": "Odeslat",
+    "search-label": "Hledat"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S3BT2B2SPF"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-S3BT2B2SPF', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"cs"
+  });
+});
+</script> 
+  
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../figs/cover_g.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Dokumentace AMČR</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Hledat"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Přepnout navigaci" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Úvod</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../o-systemu/index.html"> 
+<span class="menu-text">O systému</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../amcr/index.html"> 
+<span class="menu-text">AMČR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../digiarchiv/index.html"> 
+<span class="menu-text">Digitální archiv AMČR</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://ARUP-CAS.github.io/aiscr-api-home" target="_blank"> <i class="bi bi-box-arrow-up-right" role="img">
+</i> 
+<span class="menu-text">AMČR API</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../metodika/index.html" aria-current="page"> 
+<span class="menu-text">Metodiky</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../slovnik/index.html"> 
+<span class="menu-text">Slovník pojmů</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../zpravodaj/index.html"> 
+<span class="menu-text">Zpravodaj</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about/index.html"> 
+<span class="menu-text">Kontakty</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../metodika/administrace-proj.html">Administrace projektů</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
+<p><a href="../metodika/index.html"><img src="../figs/logo-amcr-hor.png" class="img-fluid"></a></p>
+</div></div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../metodika/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Úvod</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../metodika/administrace-proj.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Administrace projektů</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../metodika/pravidla-nz.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pravidla pro podání NZ</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../metodika/badatelske-vyzkumy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Badatelské výzkumy</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">AMČR-PAS</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Přepnout sekci">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../metodika/amcr-pas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AMČR-PAS v kontextu památkového zákona</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../metodika/docs/AMCR-PAS_MK-CR_stanovisko.pdf" class="sidebar-item-text sidebar-link"><i class="bi bi-file-pdf" role="img">
+</i> 
+ <span class="menu-text">Stanovisko Památkové inspekce MK ČR</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../metodika/dohody.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dohody o využití AMČR</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Na této stránce…</h2>
+   
+  <ul>
+  <li><a href="#vznik-projektu" id="toc-vznik-projektu" class="nav-link active" data-scroll-target="#vznik-projektu">Vznik projektu</a>
+  <ul class="collapse">
+  <li><a href="#oznámení-a-schválení-záměru" id="toc-oznámení-a-schválení-záměru" class="nav-link" data-scroll-target="#oznámení-a-schválení-záměru">Oznámení a schválení záměru</a></li>
+  <li><a href="#zápis-projektu" id="toc-zápis-projektu" class="nav-link" data-scroll-target="#zápis-projektu">Zápis projektu</a></li>
+  </ul></li>
+  <li><a href="#přihlášení-projektu-oprávněnou-archeologickou-organizací" id="toc-přihlášení-projektu-oprávněnou-archeologickou-organizací" class="nav-link" data-scroll-target="#přihlášení-projektu-oprávněnou-archeologickou-organizací">Přihlášení projektu oprávněnou archeologickou organizací</a></li>
+  <li><a href="#zahájení-výzkumu-v-terénu" id="toc-zahájení-výzkumu-v-terénu" class="nav-link" data-scroll-target="#zahájení-výzkumu-v-terénu">Zahájení výzkumu v terénu</a></li>
+  <li><a href="#ukončení-výzkumu-v-terénu" id="toc-ukončení-výzkumu-v-terénu" class="nav-link" data-scroll-target="#ukončení-výzkumu-v-terénu">Ukončení výzkumu v terénu</a></li>
+  <li><a href="#uzavření-projektu" id="toc-uzavření-projektu" class="nav-link" data-scroll-target="#uzavření-projektu">Uzavření projektu</a></li>
+  <li><a href="#archivace-projektu" id="toc-archivace-projektu" class="nav-link" data-scroll-target="#archivace-projektu">Archivace projektu</a></li>
+  <li><a href="#rušení-projektů" id="toc-rušení-projektů" class="nav-link" data-scroll-target="#rušení-projektů">Rušení projektů</a>
+  <ul class="collapse">
+  <li><a href="#duplicitní-oznámení" id="toc-duplicitní-oznámení" class="nav-link" data-scroll-target="#duplicitní-oznámení">Duplicitní oznámení</a></li>
+  <li><a href="#oznamovatel-neumožnil-provedení-záchranného-archeologického-výzkumu" id="toc-oznamovatel-neumožnil-provedení-záchranného-archeologického-výzkumu" class="nav-link" data-scroll-target="#oznamovatel-neumožnil-provedení-záchranného-archeologického-výzkumu">Oznamovatel neumožnil provedení záchranného archeologického výzkumu</a></li>
+  <li><a href="#v-oznámení-byly-uvedeny-nesprávné-údaje" id="toc-v-oznámení-byly-uvedeny-nesprávné-údaje" class="nav-link" data-scroll-target="#v-oznámení-byly-uvedeny-nesprávné-údaje">V oznámení byly uvedeny nesprávné údaje</a></li>
+  <li><a href="#provedení-záchranného-archeologického-výzkumu-není-vyžadováno" id="toc-provedení-záchranného-archeologického-výzkumu-není-vyžadováno" class="nav-link" data-scroll-target="#provedení-záchranného-archeologického-výzkumu-není-vyžadováno">Provedení záchranného archeologického výzkumu není vyžadováno</a></li>
+  <li><a href="#oznámený-záměr-nebude-realizován" id="toc-oznámený-záměr-nebude-realizován" class="nav-link" data-scroll-target="#oznámený-záměr-nebude-realizován">Oznámený záměr nebude realizován</a></li>
+  </ul></li>
+  <li><a href="#význam-administrace-projektů-v-amčr" id="toc-význam-administrace-projektů-v-amčr" class="nav-link" data-scroll-target="#význam-administrace-projektů-v-amčr">Význam administrace projektů v AMČR</a>
+  <ul class="collapse">
+  <li><a href="#kontrola-plnění-zákonných-povinností-ze-strany-úřadů" id="toc-kontrola-plnění-zákonných-povinností-ze-strany-úřadů" class="nav-link" data-scroll-target="#kontrola-plnění-zákonných-povinností-ze-strany-úřadů">Kontrola plnění zákonných povinností ze strany úřadů</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/metodika/administrace-proj.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/metodika/administrace-proj.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div><div class="quarto-alternate-formats"><h2>Stáhnout...</h2><ul><li><a href="administrace-proj.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Metodické doporučení pro administraci projektů v AMČR</h1>
+<p class="subtitle lead">V kontextu zákona č. 20/1987 Sb., o státní památkové péči, ve znění pozdějších předpisů</p>
+</div>
+
+<div>
+  <div class="description">
+    Verze v1, platná od 26. 8. 2025
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Aktualizováno</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">26. srpna 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Archeologická mapa České republiky (dále jen <a href="https://amcr.aiscr.cz/" class="external">AMČR</a>) je základním oborovým nástrojem archeologické památkové péče. AMČR plní dva hlavní účely – uchovat informace o archeologickém dědictví České republiky a umožnit subjektům archeologické památkové péče plnit zákonné povinnosti jednoduchým, transparentním a efektivním způsobem. Plnění těchto povinností, které vyplývají primárně ze <a href="https://www.zakonyprolidi.cz/cs/1987-20" class="external">zákona č. 20/1987 Sb., o státní památkové péči</a>, ve znění pozdějších předpisů (dále jen PamZ) a příslušných Dohod o rozsahu a podmínkách provádění archeologických výzkumů (dále jen Dohoda), je integrálním předpokladem ochrany archeologického dědictví České republiky.</p>
+<p>Užívání AMČR je vázáno na uzavření písemné Dohody o využívání Archeologické mapy ČR. Tato dohoda specifikuje vztah AMČR k PamZ a zákonným povinnostem. Bez uzavření dohody nelze AMČR užívat pro plnění povinností stanovených zákonem, nebo na základě zákona. Dohoda slouží také k vyjasnění povinností při správě osobních údajů.</p>
+<p>AMČR tedy v dílčích úkonech reflektuje povinnosti vázané na jednotlivá zákonná ustanovení a Dohodu. Dle logické souslednosti se jedná o (podrobněji viz dále):</p>
+<ol type="1">
+<li><ol type="a">
+<li>Povinnost <a href="https://portal.gov.cz/sluzby-vs/oznameni-o-provadeni-stavebni-cinnosti-na-uzemi-s-archeologickymi-nalezy-S12844" class="external">oznámit Archeologickému ústavu stavební či jiný záměr</a> na území s archeologickými nálezy, kterým by mohlo být ohroženo provádění archeologických výzkumů (§&nbsp;22 odst.&nbsp;2 PamZ).</li>
+<li>Povinnosti požádat Archeologický ústav o stanovisko k realizaci archeologického výzkumu, který nebyl vyvolán stavební či jinou činností (vyplývá z Dohod; blíže viz <a href="../metodika/badatelske-vyzkumy.html">informace k badatelským archeologickým výzkumům</a>).</li>
+</ol></li>
+<li>Povinnost umožnit<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> provedení záchranného archeologického výzkumu (<a href="https://www.zakonyprolidi.cz/cs/1987-20#p22" class="external">§&nbsp;22 odst.&nbsp;2 PamZ</a>).</li>
+<li>Povinnost <a href="https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S12785" class="external">oznámit Archeologickému ústavu</a> (a <a href="https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S12786" class="external">Národnímu památkovému ústavu</a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>) zahájení archeologického výzkumu (<a href="https://www.zakonyprolidi.cz/cs/1987-20#p21" class="external">§&nbsp;21 odst.&nbsp;4 PamZ</a>).</li>
+<li>Povinnost některých oprávněných archeologických organizací oznamovat zahájení výzkumu kraji (<a href="https://www.zakonyprolidi.cz/cs/1987-20#p23" class="external">§&nbsp;23a odst.&nbsp;3 PamZ</a> a jednotlivá krajská nařízení).</li>
+<li>Povinnost <a href="https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S15815" class="external">odevzdat Archeologickému ústavu</a> (a <a href="https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S15824" class="external">Národnímu památkovému ústavu</a><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>) zprávu o výsledcích archeologického výzkumu (dále jen nálezová zpráva) (<a href="https://www.zakonyprolidi.cz/cs/1987-20#p21" class="external">§&nbsp;21 odst.&nbsp;4 PamZ</a>).</li>
+</ol>
+<p>Důležitým výsledkem používání AMČR je kromě plnění zákonných povinností také transparentní komunikace mezi oznamovateli a oprávněnými archeologickými organizacemi (dále jen OAO). Jelikož AMČR napomáhá plnění povinností v oblasti veřejné správy, je žádoucí, aby oznamovatelé obdrželi relevantní odpověď na svá podání. Tou odpovědí je v první řadě potvrzení o splnění oznamovací povinnosti, neméně důležitá je pak ale také informace, zda oznamovatel v konkrétním případě má nebo nemá očekávat realizaci záchranného archeologického výzkumu (dále jen ZAV). Jak bude uvedeno níže, tuto informaci oznamovatel obdrží na základě přihlášení OAO k projektu, nebo na základě jeho zrušení.</p>
+<p>Pro zabezpečení transparentní komunikace s oznamovateli je proto nevyhnutelná koordinace Archeologických ústavů a OAO při administraci projektů.</p>
+<p>Archeologické ústavy proto doporučují dodržování následujících zásad práce s AMČR:</p>
+<ol type="1">
+<li><strong>V případě, že OAO zapisuje projekt samostatně, zvážit, zda má být investorovi odesláno potvrzení o splnění oznamovací povinnosti</strong> (např. dle toho, zda plní povinnost za stavebníka, nebo eviduje neoznámený záměr).</li>
+<li><strong>Přihlašovat ze strany OAO všechny projekty, které je zájem realizovat, a to ještě před uzavřením dohody o ZAV nebo v přímé návaznosti na tuto dohodu</strong>, a to v koordinaci s odpovídající Regionální archeologickou komisí. Tím je zajištěna transparentnost komunikace s oznamovatelem a dalšími dotčenými stranami.</li>
+<li><strong>V případě, že OAO neuzavře dohodu se stavebníkem, požádat prostřednictvím AMČR o odhlášení projektu.</strong> Na tomto základě Archeologický ústav projekt převede zpět mezi zapsané, případně <em>přehlásí</em> na jinou, realizující OAO.</li>
+<li><strong>Zadávat datum zahájení výzkumu v souladu se zákonem a příslušnou Dohodou o podmínkách a rozsahu provádění archeologických výzkumů</strong>, tj. nejpozději do 10 dnů od zahájení terénních prací. Zadáním ex-post při zpracování výzkumu dochází k porušení povinnosti stanovené v <a href="https://www.zakonyprolidi.cz/cs/1987-20#p21" class="external">§&nbsp;21 odst.&nbsp;4 PamZ</a>, za což OAO hrozí podle <a href="https://www.zakonyprolidi.cz/cs/1987-20#p35" class="external">§&nbsp;35 odst.&nbsp;2 písm.&nbsp;f)</a> sankce a při opakovaném porušování též odebrání oprávnění.</li>
+<li><strong>Zadávat datum ukončení výzkumu dle skutečnosti, v přímé návaznosti na reálné ukončení terénní části výzkumu ze strany OAO.</strong></li>
+<li><strong>Odevzdávat nálezové zprávy ve lhůtě tří let od ukončení terénní části</strong> a se všemi požadovanými náležitostmi podle <a href="../metodika/pravidla-nz.html">oficiálních pokynů</a>.</li>
+</ol>
+<p>Archeologické ústavy průběžně kontrolují odevzdané nálezové zprávy a po odstranění případných nedostatků ze strany OAO je archivují (nálezová zpráva může být považována za skutečně odevzdanou pouze při splnění základních požadavků). Archeologické ústavy také ruší projekty, u kterých nebude realizovaný ZAV, a to buď na návrh OAO, nebo samostatně tak, aby byli oznamovatelé včas informováni, že v rámci jejich záměru nebude ZAV realizován.</p>
+<section id="vznik-projektu" class="level2">
+<h2 class="anchored" data-anchor-id="vznik-projektu">Vznik projektu</h2>
+<section id="oznámení-a-schválení-záměru" class="level3">
+<h3 class="anchored" data-anchor-id="oznámení-a-schválení-záměru">Oznámení a schválení záměru</h3>
+<p><a href="https://www.zakonyprolidi.cz/cs/1987-20#p22" class="external">PamZ v ust. §&nbsp;22 odst.&nbsp;2</a> stanovuje, že</p>
+<blockquote class="blockquote">
+<p><em>„Má-li se provádět stavební činnost na území s archeologickými nálezy, jsou stavebníci již od doby přípravy záměru podle stavebního zákona, odstranění stavby nebo odstranění terénní úpravy povinni tento záměr oznámit Archeologickému ústavu (…) Obdobně se postupuje, má-li se na takovém území provádět jiná činnost, kterou by mohlo být ohroženo provádění archeologických výzkumů.“</em></p>
+</blockquote>
+<p>Preferovaným a dnes již většinově využívaným způsobem splnění oznamovací povinnosti je <strong><a href="https://amcr.aiscr.cz/oznameni/" class="external">online formulář v AMČR</a></strong>, jehož vyplněním oznamovatel zadává záměr přímo do systému jako záznam o projektu (procesní <a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P0</a>). Takto oznámené záměry kontrolují pracovníci Referátů archeologické památkové péče obou Archeologických ústavu AV ČR (dále jen RAPP). Po kontrole (případně po odstranění nedostatků) pracovníci RAPP záměr schválí, čímž dojde k vytvoření projektu (<a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P1</a>), který je již viditelný i pro další uživatele systému.</p>
+<p>Po schválení oznamovatel obdrží <strong>Potvrzení o splnění oznamovací povinnosti, které je automaticky odesíláno ze systému AMČR</strong> a uloženo jako součást dokumentace projektu.</p>
+</section>
+<section id="zápis-projektu" class="level3">
+<h3 class="anchored" data-anchor-id="zápis-projektu">Zápis projektu</h3>
+<p>Alternativním způsobem vytvoření projektu je jeho zápis přímo v AMČR. Tímto způsobem dochází k vytvoření projektů pracovníky RAPP v případě, že ke splnění oznamovací povinnosti stavebníka došlo jiným způsobem, než-li vyplněním online formuláře. Z hlediska naplnění zákonné povinnosti jsou oba způsoby zastupitelné. Po zápisu oznamovatel obdrží <strong>Potvrzení o splnění oznamovací povinnosti</strong>, pokud zapisující osoba neurčí jinak.</p>
+<p>Zápisem můžou projekty v AMČR vytvořit také další uživatelé, kupř. archeologové z OAO. V tomto případě je potřeba zohlednit následující faktory:</p>
+<ul>
+<li>V případě, že se jedná o záchranný archeologický výzkum, Archeologické ústavy interpretují zápis projektu jako splnění oznamovací povinnosti stavebníka prostřednictvím OAO. Datem splnění povinnosti je datum zápisu do AMČR, ne datum kontaktování OAO stavebníkem.</li>
+<li>Stejně jako v případě schválení oznámení nebo zápisu pracovníkem RAPP je na kontaktní e-mailovou adresu odesláno potvrzení o splnění oznamovací povinnosti.</li>
+<li>Za předpokladu, že <strong>OAO oznamovací povinnost za stavebníka neplní, pouze vytváří evidenci k záměru, který nebyl oznámen</strong>, je potřeba při zápisu odškrtnout políčko <strong>Odeslat potvrzení</strong> tak, aby k odeslání potvrzení nedošlo.</li>
+</ul>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Poznámka
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Tyto případy bývají řešeny také uvedením emailové adresy OAO místo adresy stavebníka. Směrem k němu je výsledek obdobný, dochází při tom ale ke ztrátě kontaktních údajů. Archeologické ústavy proto doporučují výše uvedený postup. Při zpětném zápisu starších projektů není uvádění kontaktních údajů nutné, neboť v dalších krocích zpracování projektu dojde k jejich opětovnému odstranění. Osobní údaje oznamovatelů jsou z evidenčního hlediska relevantní pouze při předběžném oznámení a v průběhu výzkumu.</p>
+</div>
+</div>
+<p>V případě, že se jedná o zápis badatelského projektu nebo projektu průzkum viz <a href="../metodika/badatelske-vyzkumy.html">Informace k badatelským archeologickým výzkumům</a>.</p>
+<p>Po zápisu je projekt viditelný i pro ostatní ověřené uživatele AMČR (pověřené pracovníky OAO), kteří mohou projekt přihlásit a dát tak najevo záměr projekt realizovat.</p>
+</section>
+</section>
+<section id="přihlášení-projektu-oprávněnou-archeologickou-organizací" class="level2">
+<h2 class="anchored" data-anchor-id="přihlášení-projektu-oprávněnou-archeologickou-organizací">Přihlášení projektu oprávněnou archeologickou organizací</h2>
+<p>Přihlášení projektu OAO (<a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P2</a>) směřuje k naplnění další povinnosti uvedené v <a href="https://www.zakonyprolidi.cz/cs/1987-20#p22" class="external">ust. §&nbsp;22 odst.&nbsp;2 PamZ</a> – <em>„Má-li se provádět stavební činnost na území s archeologickými nálezy, jsou stavebníci (…) povinni (…) Archeologickému ústavu nebo oprávněné organizaci [umožnit] provést na dotčeném území záchranný archeologický výzkum.“</em></p>
+<p>Přihlášení projektu slouží jako deklarace ze strany OAO směrem k oznamovateli a dalším uživatelům, že má OAO zájem realizovat ZAV v rámci daného záměru. Po přihlášení obdrží oznamovatel zprávu o tom, která OAO má zájem ZAV realizovat a kdo jej za tímto účelem bude kontaktovat. Tato informace je pro oznamovatele zásadní při plánování realizace vlastního záměru.</p>
+<p><strong>Přihlášení projektu není závazné!</strong> V případě nedohody mezi oznamovatelem a OAO lze na požádání skrze AMČR OAO od projektu odhlásit. Stejně tak v případě, že oznamovatel uzavřel dohodu s jinou OAO, lze projekt přehlásit na tuto OAO. <strong>V případě, že ZAV nebyl realizován, přihlášení projektu OAO nezavazuje k vypracování nálezové zprávy ani jiného výstupu pro oznamovatele</strong> (řešení těchto situací naleznete v kapitole <a href="../metodika/administrace-proj.html#rušení-projektů">Rušení projektů</a>).</p>
+<p>V AMČR jsou kontaktní údaje oznamovatele pro všechny OAO viditelné ještě 30 dní po přihlášení, takže tento úkon neomezuje ostatní OAO v případném kontaktování oznamovatele. Praxe, kdy OAO projekty nepřihlašují až do uzavření dohody o ZAV tedy není potřebná, snižuje transparentnost komunikace mezi oznamovatelem a OAO a také mezi různými OAO. V případně, že k přihlášení nedojde až do zahájení či ukončení výzkumu, je logickým důsledkem také porušení zákonné povinnosti OAO oznámit Archeologickému ústavu zahájení výzkumu se všemi z toho plynoucími právními riziky pro OAO.</p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Archeologické ústavy <strong>důrazně doporučují včas přihlašovat</strong> všechny projekty, které mají OAO zájem realizovat.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="zahájení-výzkumu-v-terénu" class="level2">
+<h2 class="anchored" data-anchor-id="zahájení-výzkumu-v-terénu">Zahájení výzkumu v terénu</h2>
+<p>Dalším krokem realizace záměru, a tedy i evidence v AMČR, je zahájení výzkumu (<a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P3</a>). Úkon je vázán na zákonnou povinnost OAO oznámit Archeologickému ústavu zahájení výzkumu:</p>
+<blockquote class="blockquote">
+<p><em>„Oprávněná organizace je povinna oznámit Archeologickému ústavu zahájení archeologických výzkumů a podat mu o jejich výsledcích zprávu. Jde-li o archeologické výzkumy na území prohlášeném za kulturní památku, národní kulturní památku, památkovou rezervaci nebo památkovou zónu. Archeologický ústav a oprávněné organizace oznámí zahájení archeologických výzkumů odborné organizaci státní památkové péče, které podají též zprávu o jejich výsledcích.“</em><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+</blockquote>
+<p>V souladu s příslušnými Dohodami<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> plní OAO tuto povinnost právě editací projektu v AMČR, a to zásadně <strong>nejpozději do 10 dnů od zahájení výzkumu</strong>.</p>
+<p>Jde-li o archeologické výzkumy na území prohlášeném za kulturní památku, národní kulturní památku, památkovou rezervaci nebo památkovou zónu, OAO editací projektu v AMČR plní uvedenou zákonnou povinnost také vůči Národnímu památkovému ústavu.</p>
+<p>Archeologický ústav upozorňuje na novelu PamZ, platnou od 1. 1. 2025, která stanovuje některým OAO <strong>povinnost oznámit zahájení výzkumu také kraji</strong>, jako vlastníku dotčených archeologických nálezů. Způsob plnění povinnosti mohou kraje upravit nařízením. Některé Kraje za tímto účelem využívají AMČR. Informace k aktuálnímu způsobu plnění povinnosti v jednotlivých krajích vám na požádání poskytnou pracovníci RAPP. Pro potřeby komunikace s dílčími subjekty lze využívat také <em>výpis projektu</em>, který shrnuje všechny základní informace o projektu.</p>
+<p><strong>Za nesplnění povinnosti oznámit zahájení výzkumu Archeologickému ústavu nebo kraji může být podle <a href="https://www.zakonyprolidi.cz/cs/1987-20#p35" class="external">§&nbsp;35 odst.&nbsp;2 písm.&nbsp;f) a písm.&nbsp;h) a odst.&nbsp;5 písm.&nbsp;b) PamZ</a> uložena sankce až do výše 4 mil. Kč.</strong> <strong>V případě opakovaného, závažného porušování povinnosti může být podle <a href="https://www.zakonyprolidi.cz/cs/1987-20#p21" class="external">§&nbsp;21 odst.&nbsp;5 PamZ</a> také odebráno povolení k provádění archeologických výzkumů.</strong> Archeologický ústav proto doporučuje náležitou evidenci projektů v AMČR v souladu se stanovenými pravidly.</p>
+</section>
+<section id="ukončení-výzkumu-v-terénu" class="level2">
+<h2 class="anchored" data-anchor-id="ukončení-výzkumu-v-terénu">Ukončení výzkumu v terénu</h2>
+<p>Stejně jako u data zahájení výzkumu, AMČR vyžaduje také evidenci data ukončení terénní části výzkumu (<a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P4</a>). Tato náležitost sama o sobě není vázána na zákonné povinnosti, je ale zásadním předpokladem jejich naplnění. <strong>Od data ukončení běží <em>Dohodami</em> stanovená tříletá lhůta pro odevzdání nálezové zprávy</strong>, kterým je naplněna povinnost OAO podat Archeologickému ústavu zprávu o výsledcích výzkumu (<a href="https://www.zakonyprolidi.cz/cs/1987-20#p22" class="external">§&nbsp;22 odst.&nbsp;4 PamZ</a>).</p>
+</section>
+<section id="uzavření-projektu" class="level2">
+<h2 class="anchored" data-anchor-id="uzavření-projektu">Uzavření projektu</h2>
+<p>Uzavření projektu (<a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P5</a>) je nutné provést do 3 let od data ukončení terénní části výzkumu, které OAO u konkrétního projektu uvedla. Před převedením projektu do stavu <em>Uzavřený</em> je nutno k příslušné <em>Akci</em> projektu odevzdat (nahrát) nálezovou zprávu (NZ). V důvodných případech lze Archeologické ústavy písemně požádat o odklad termínu odevzdání. O blížícím se termínu odevzdání NZ je uživatel, který projekt přihlásil, informován 90 dní předem a dále je automaticky informován o případném nedodržení termínu.</p>
+<p>Pro uzavření projektu je nutné ze strany OAO v rámci projektu vytvořit <a href="../amcr/akce.html">archeologickou akci</a> (nebo i více akcí) a v jejím rámci vyplnit části s detaily o provedeném výzkumu, konkrétní prostorovou lokalizaci a zjištěné archeologické komponenty. V případě, že došlo k pozitivnímu archeologickému zjištění, je také nutné nahrát k akci nálezovou zprávu dle <a href="../metodika/pravidla-nz.html">Pravidel pro podání nálezové zprávy o terénním archeologickém výzkumu</a>. Pokud nedošlo k pozitivnímu archeologickému zjištění, není nahrání nálezové zprávy vyžadováno; v takových případech je za splnění zákonné podmínky podání zprávy o terénním archeologickém výzkumu považováno vyplnění formuláře akce v odpovídajícím rozsahu. Postup pro vypracování nálezové zprávy pro akce drobného rozsahu naleznete <a href="../amcr/drobne-akce.html">zde</a>.</p>
+<p>V případě, že se jedná o ukončení <strong>badatelského projektu</strong> nebo <strong>projektu typu průzkum</strong>, viz <a href="../metodika/badatelske-vyzkumy.html">Informace k badatelským archeologickým výzkumům</a>.</p>
+</section>
+<section id="archivace-projektu" class="level2">
+<h2 class="anchored" data-anchor-id="archivace-projektu">Archivace projektu</h2>
+<p>Projekty uzavřené ze strany OAO jsou po formální a obsahové stránce zkontrolovány archiváři Archeologických ústavů (dle územní příslušnosti) a archivovány. Od momentu archivace (<a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P6</a>) jsou záznamy dostupné veřejnosti v <a href="https://digiarchiv.aiscr.cz/" class="external">Digitálním archivu AMČR</a> (záznamy s omezenou přístupností jsou dostupné pouze uživatelům s odpovídajícím oprávněním).</p>
+<p>V případě, že nálezová zpráva nebo projekt (a jeho akce) obsahují nedostatky nebo jsou nekompletní, archivář vrátí OAO projekt k dopracování s konkrétními požadavky na nápravu. Po odstranění nedostatků OAO projekt opět uzavře a archivář provede opětovnou kontrolu a případnou archivaci.</p>
+<p>Kontrolu projektu a nálezové zprávy provádí archivář do <strong>90 dnů</strong> od uzavření projektu ze strany OAO. V případě, že z kapacitních důvodů nebo z důvodu velkého rozsahu nálezové zprávy nebude možné provést kontrolu ve stanoveném termínu, informuje Archeologický ústav o této skutečnosti OAO a stanoví nový termín. <strong>Povinnost OAO podat Archeologickému ústavu zprávu o výsledcích archeologického výzkumu je splněna až odevzdáním nálezové zprávy splňující všechny stanovené formální i věcné náležitosti.</strong> Tuto skutečnost potvrzuje archivace projektu a nálezové zprávy ze strany Archeologického ústavu. V případě prodloužení termínu kontroly z důvodů na straně Archeologického ústavu se má až do kontroly za to, že nálezová zpráva je bezvadná. V odůvodněných případech (např. potřeba doložení referencí pro zadávací řízení) lze na žádost OAO provést kontrolu vybraných nálezových zpráv přednostně, a to do <strong>30 dnů</strong> od doručení žádosti.</p>
+<p><strong>Krok archivace je tedy považován za potvrzení splnění povinnosti odevzdat nálezovou zprávu z terénního archeologického výzkumu v souladu s povinnostmi vyplývajícími z <em>Dohod o rozsahu a podmínkách provádění archeologických výzkumů</em>.</strong> Až do odstranění nedostatků však není nálezová zpráva považována za odevzdanou. Archeologický ústav má za to, že až úspěšným dokončením a odevzdáním nálezové zprávy (tedy její archivací) je archeologický výzkum ukončen. Do tohoto momentu je výzkum ve fázi zpracování terénní části výzkumu, což odpovídá aktuální interpretaci zákona.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p>Jde-li o archeologické výzkumy na území prohlášeném za kulturní památku, národní kulturní památku, památkovou rezervaci nebo památkovou zónu, OAO editací projektu v AMČR plní uvedenou zákonnou povinnost také vůči Národnímu památkovému ústavu. Tato skutečnost vyplývá z uzavřených písemných dohod mezi OAO, Archeologickými ústavy a NPÚ.</p>
+</section>
+<section id="rušení-projektů" class="level2">
+<h2 class="anchored" data-anchor-id="rušení-projektů">Rušení projektů</h2>
+<p>Projekty evidované v AMČR lze technicky v kterékoliv fázi zrušit. Nejedná se o úplné smazání projektu a údajů v něm, ale pouze o jeho vyřazení z dalšího zpracování a klasifikaci jako zrušený (<a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P8</a>), protože v rámci něj nebude realizován archeologický výzkum. OAO může navrhnout zrušení projektu (<a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P7</a>), k samotnému zrušení (<a href="../o-systemu/procesy.html#procesní-stavy-projektů">stav P8</a>) ale dochází až po potvrzení pracovníkem Archeologického ústavu.</p>
+<p>Archeologický ústav rozlišuje 5 hlavních důvodů, ze kterých může OAO navrhnout zrušení projektu:</p>
+<ol type="1">
+<li><strong>Duplicitní oznámení</strong>. Projekt již byl v AMČR evidován pod jiným identifikátorem.</li>
+<li><strong>Oznamovatel neumožnil</strong> provedení záchranného archeologického výzkumu.</li>
+<li>V oznámení byly uvedeny <strong>nesprávné údaje</strong> (např. datum, kontakty). Záchranný výzkum proto nebylo možné provést.</li>
+<li><strong>Pravděpodobnost narušení archeologických nálezů záměrem je mimořádně nízká</strong> (území bez archeologických nálezů, malý rozsah zásahu/prací), provedení záchranného archeologického výzkumu tak není vyžadováno. V případě náhodného archeologického nálezu je doporučeno neprodleně kontaktovat nejbližší archeologické pracoviště.</li>
+<li>Oznámený <strong>záměr nebude realizován</strong>.</li>
+</ol>
+<p>V případě potřeby lze uvést také vlastní důvod návrhu zrušení.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Poznámka
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>O důvodu zrušení je oznamovatel informován v automaticky zaslaném e-mailu. Archeologický ústav tedy doporučuje formulovat důvody věcně a objektivně.</p>
+</div>
+</div>
+<p>Vymezené důvody zrušení by měly pokrývat všechny běžné situace, ke kterým v průběhu realizace výzkumu dochází. <strong>Po schválení zrušení projektu je stavebníkovi odeslán e-mail s automaticky vygenerovaným oficiálním dokumentem, který ho o této skutečnosti informuje.</strong></p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Poznámka
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Automaticky generovaného informativního sdělení o zrušení projektu lze využít například v situaci, kdy chce stavebník od OAO potvrzení o ZAV i v případě, že ten nebyl realizován. Po schválení zrušení stavebník dokument obdrží bez nadbytečné administrativní zátěže pro OAO nebo Archeologický ústav. Dokument je rovněž uložený v AMČR k dalšímu užití, a to po dobu jednoho roku od zrušení projektu (poté je automaticky odstraněn spolu s osobními údaji oznamovatele).</p>
+</div>
+</div>
+<section id="duplicitní-oznámení" class="level3">
+<h3 class="anchored" data-anchor-id="duplicitní-oznámení">Duplicitní oznámení</h3>
+<p>První důvod cílí na administrativní chyby, kdy dojde omylem k duplicitnímu zápisu stejného záměru (kupř. dva zástupci stavebníka oznámí záměr nezávisle na sobě). Z takových záznamů je vybrán pouze jeden, autoritní, a druhý je převeden na zrušený. Reference na autoritní projekt je uvedena v historii změn zrušeného projektu.</p>
+</section>
+<section id="oznamovatel-neumožnil-provedení-záchranného-archeologického-výzkumu" class="level3">
+<h3 class="anchored" data-anchor-id="oznamovatel-neumožnil-provedení-záchranného-archeologického-výzkumu">Oznamovatel neumožnil provedení záchranného archeologického výzkumu</h3>
+<p>Druhý důvod zrušení slouží pro případy, kdy stavebník sice splnil oznamovací povinnost, ale již nesplnil povinnost umožnit provedení ZAV. Z hlediska evidence dat o archeologickém dědictví takový projekt není dále relevantní. Z hlediska administrativně právního zůstává v AMČR informace o nesplnění povinností pro potřeby případného správního řízení. Na základě zrušení projektu z tohoto důvodu může být podáno trestní oznámení ve věci poškození cizí věci nebo životního prostředí.</p>
+</section>
+<section id="v-oznámení-byly-uvedeny-nesprávné-údaje" class="level3">
+<h3 class="anchored" data-anchor-id="v-oznámení-byly-uvedeny-nesprávné-údaje">V oznámení byly uvedeny nesprávné údaje</h3>
+<p>Třetí důvod zrušení se zaměřuje na uvedení nesprávných údajů v oznámení, a tedy potenciálně na nesplnění oznamovací povinnosti stavebníka. Nesprávnými údaji mohou být například:</p>
+<ul>
+<li>nesprávné datum zahájení, kvůli kterému OAO nedokázala provést ZAV,</li>
+<li>nesprávné kontaktní údaje, kvůli kterým OAO nedokázala kontaktovat stavebníka, nebo</li>
+<li>nesprávné údaje o lokalizaci činnosti, kvůli kterým OAO nesprávně vyhodnotila (ne)potřebnost ZAV.</li>
+</ul>
+<p>Z hlediska evidence dat o archeologickém dědictví takový projekt není dále relevantní. Z hlediska administrativně právního zůstává v AMČR informace o nesplnění povinností pro potřeby případného správního řízení. Na základě zrušení projektu z tohoto důvodu může být podán podnět k zahájení přestupkového řízení na příslušný krajský úřad.</p>
+</section>
+<section id="provedení-záchranného-archeologického-výzkumu-není-vyžadováno" class="level3">
+<h3 class="anchored" data-anchor-id="provedení-záchranného-archeologického-výzkumu-není-vyžadováno">Provedení záchranného archeologického výzkumu není vyžadováno</h3>
+<p>Na nepotřebnost provedení ZAV cíli čtvrtý důvod zrušení. Konkrétně se jedná o projekty, které archeologické dědictví neohrožují například z důvodu, že:</p>
+<ul>
+<li>rozsah prací je minimální a/nebo nezasahuje do archeologických situací,</li>
+<li>na místě se výskyt archeologických nálezů důvodně nepředpokládá,</li>
+<li>místo již bylo v rozsahu záměru v minulosti dostatečně prozkoumáno.</li>
+</ul>
+<p>Z hlediska evidence dat o archeologickém dědictví takovýto projekt není dále relevantní, zároveň v AMČR zůstává uchována informace, že ZAV nebyl proveden na základě odborného vyhodnocení ze strany OAO.</p>
+</section>
+<section id="oznámený-záměr-nebude-realizován" class="level3">
+<h3 class="anchored" data-anchor-id="oznámený-záměr-nebude-realizován">Oznámený záměr nebude realizován</h3>
+<p>Poslední důvod umožňuje zrušení projektů, u kterých vůbec nedojde k realizaci oznámeného záměru (např. projektant oznámil záměr ještě před zahájením stavebního řízení, ale stavební povolení nebylo vydáno, a proto k realizaci záměru a zásahu do archeologických situací nedojde). Z hlediska evidence dat o archeologickém dědictví takový projekt není dále relevantní.</p>
+</section>
+</section>
+<section id="význam-administrace-projektů-v-amčr" class="level2">
+<h2 class="anchored" data-anchor-id="význam-administrace-projektů-v-amčr">Význam administrace projektů v AMČR</h2>
+<p>Průběžná editace (včetně rušení projektů, u kterých nebude/nebyl realizován archeologický výzkum) pomáhá udržovat celkový přehled v evidenci archeologických výzkumů realizovaných na území ČR, je ale také zásadní součástí transparentní komunikace mezi archeology, stavebníky a úřady. Jak bylo uvedeno v úvodu, oznamovatel by na základě svého podání měl dostat informace o tom, jaký postup bude následovat:</p>
+<ul>
+<li>V případě, že má některá OAO zájem ZAV realizovat, <strong>přihlášením projektu</strong> dostává oznamovatel informaci o této skutečnost. Na jejím základě ví, že se na něj vztahuje zákonná povinnost umožnit provedení ZAV (<a href="https://www.zakonyprolidi.cz/cs/1987-20#p22" class="external">§&nbsp;22 odst.&nbsp;2</a>);</li>
+<li>V případě, že v rámci daného záměru není realizace ZAV nutná, <strong>zrušením projektu</strong> dostává oznamovatel informaci, že se na něj povinnost umožnit provedení ZAV již dále nevztahuje. Tuto skutečnost může zohlednit při plánování realizace.</li>
+<li>V případě, že <strong>nedojde ani k přihlášení, ani ke zrušení projektu, stavebník nemá informaci, zda musí s realizací ZAV nadále počítat</strong> a zda má ZAV přizpůsobovat realizaci stavby. To může vést buď k nutnosti <em>„obvolávání“</em> OAO a Archeologických ústavů s žádostí o další informace, nebo v horším případě <strong>k poškození či úplnému zničení archeologického dědictví</strong>.</li>
+</ul>
+<p>Evidence zahájení a ukončení výzkumu je pro OAO důležitá z hlediska jejich zákonných povinností. Průběžná editace projektů v AMČR je pro OAO základním předpokladem toho, že jim nebude ze strany krajského úřadu uložena sankce, či nebude Ministerstvem kultury odňato povolení k provádění archeologických výzkumů.</p>
+<p>Rušení projektů z důvodu pochybení stavebníka pak může být důležitým impulsem pro Archeologický ústav, aby inicioval správní či trestní řízení ve věci porušení zákona.</p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Zajištění <strong>transparentní digitální evidence</strong> je zcela klíčové a je v zájmu všech zúčastněných stran!</p>
+</div>
+</div>
+</div>
+<section id="kontrola-plnění-zákonných-povinností-ze-strany-úřadů" class="level3">
+<h3 class="anchored" data-anchor-id="kontrola-plnění-zákonných-povinností-ze-strany-úřadů">Kontrola plnění zákonných povinností ze strany úřadů</h3>
+<p>V návaznosti na novelu PamZ platnou od 1. 1. 2025 Archeologický ústav upozorňuje, že pracovníkům některých krajských úřadů a Ministerstva kultury byl zřízen přístup do AMČR. Tyto správní orgány tak mají možnost aktivně kontrolovat plnění zákonných povinností stavebníků a OAO, a to přímo v AMČR. <strong>Informace o jejich porušení tak mohou tyto úřady získat i bez podnětu Archeologického ústavu.</strong></p>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Poznámky pod čarou</h2>
+
+<ol>
+<li id="fn1"><p>Úkon <em>Přihlášení projektu</em> deklaruje směrem ke stavebníkovi zájem OAO provést ZAV a tedy aktivuje povinnost stavebníka umožnit jeho provedení.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Jde-li o archeologické výzkumy na území prohlášeném za kulturní památku, národní kulturní památku, památkovou rezervaci nebo památkovou zónu.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Jde-li o archeologické výzkumy na území prohlášeném za kulturní památku, národní kulturní památku, památkovou rezervaci nebo památkovou zónu.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><a href="https://www.zakonyprolidi.cz/cs/1987-20#p22">§&nbsp;22 odst.&nbsp;4 PamZ</a>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><em>Dohoda o rozsahu a podmínkách provádění archeologických výzkumů</em> a <em>Dohoda o využívání „Archeologické mapy ČR“</em><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Viz Zídek, Martin – Tupý, Michal – Klusoň, Jiří 2024: <em>Zákon o státní památkové péči. Praktický komentář.</em> Praha: Wolters Kluwer, 2. vyd. (978-80-286-0000-6), 387.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Zkopírováno!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Zkopírováno!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/amcr-help\.aiscr\.cz");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../metodika/index.html" class="pagination-link" aria-label="Úvod">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Úvod</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../metodika/pravidla-nz.html" class="pagination-link" aria-label="Pravidla pro podání NZ">
+        <span class="nav-page-text">Pravidla pro podání NZ</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="../about/index.html" class="fttext">Kontakty</a> | <u id="open_preferences_center" class="fttext">Cookies</u> | <span class="fttext">CC BY-NC 4.0</span></p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="https://www.aiscr.cz/" target="_blank"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/metodika/administrace-proj.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/metodika/administrace-proj.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Vytvořeno s ♡ v <a href="https://www.quarto.org/" target="_blank">Quarto</a>, zdroj na <a href="https://github.com/ARUP-CAS/aiscr-webamcr-help" target="_blank">GitHub <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512" width="14" style="fill:#6b6b6b; margin-left:2px;"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
