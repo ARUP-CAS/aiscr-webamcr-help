@@ -165,15 +165,19 @@ website:
           href: metodika/index.qmd
         - text: Administrace projektů
           href: metodika/administrace-proj.qmd
-        - text: Badatelské výzkumy
-          href: metodika/badatelske-vyzkumy.qmd
-        - text: AMČR-PAS v kontextu památkového zákona
-          href: metodika/amcr-pas.qmd
-        - text: Stanovisko Památkové inspekce MK ČR k AMČR-PAS
-          href: metodika/docs/AMCR-PAS_MK-CR_stanovisko.pdf
-          icon: file-pdf
         - text: Pravidla pro podání NZ
           href: metodika/pravidla-nz.qmd
+        - text: Badatelské výzkumy
+          href: metodika/badatelske-vyzkumy.qmd
+        - section: AMČR-PAS
+          contents: 
+            - text: AMČR-PAS v kontextu památkového zákona
+              href: metodika/amcr-pas.qmd
+            - text: Stanovisko Památkové inspekce MK ČR
+              href: metodika/docs/AMCR-PAS_MK-CR_stanovisko.pdf
+              icon: file-pdf
+        - text: Dohody o využití AMČR
+          href: metodika/dohody.qmd
 
     - id: pojmy
       contents:

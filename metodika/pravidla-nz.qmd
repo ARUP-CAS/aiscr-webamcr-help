@@ -12,8 +12,8 @@ format:
 ### Základní pojmy
 
 **Nálezová zpráva** je dokument obsahující základní popis a výsledky terénního archeologického výzkumu. 
-Jejím cílem je umožnit myšlenkovou rekonstrukci prozkoumaného archeologického kontextu v jeho rysech podstatných pro vědecký výzkum, tj. zachytit relevantní vztahy mezi nemovitými a movitými nálezy, stratigrafickými jednotkami a dalšími prvky archeologického kontextu. 
-Nálezová zpráva se skládá z výběru terénní dokumentace a dalších informací a sama je součástí terénní dokumentace. 
+Jejím cílem je umožnit myšlenkovou rekonstrukci prozkoumaného archeologického kontextu v jeho rysech podstatných pro vědecký výzkum, tj. zachytit relevantní vztahy mezi nemovitými a movitými nálezy, stratigrafickými jednotkami a dalšími prvky archeologického kontextu.
+Nálezová zpráva se skládá z výběru relevantní primární terénní dokumentace a dalších informací a sama je součástí archivu terénní dokumentace. 
 Její obsah a struktura jsou dány touto směrnicí.
 
 **Archiv terénní dokumentace** je soubor nálezových zpráv a další terénní dokumentace, utříděný a popsaný metadaty tak, aby umožnil širší badatelské využití dokumentů nad rámec nálezové zprávy.
@@ -23,7 +23,7 @@ Archivem se též rozumí pracoviště, které je správou souboru pověřeno.
 **Digitální repozitář** je soubor digitálních a digitalizovaných dokumentů z archeologického výzkumu vznikající v jakékoli jeho fázi. 
 Je udržovaný trvale jako záloha digitálních dat a badatelský zdroj pro interní potřebu organizace bez podrobného popisu dokumentů.
 
-**Terénní dokumentace** jsou dokumenty bezprostředně související s terénním archeologickým výzkumem a popisující prozkoumaný archeologický kontext slovem, kresbou, fotografií, digitálním objektem nebo souborem popisných atributů.
+**Terénní dokumentace** jsou dokumenty a data bezprostředně související s terénním archeologickým výzkumem a popisující prozkoumaný archeologický kontext slovem, kresbou, fotografií, digitálním objektem nebo souborem popisných atributů.
 Předepsaný a/nebo doporučený obsah výše uvedených souborů terénní dokumentace je blíže stanoven v kapitole [Terénní dokumentace](pravidla-nz.qmd#terenni-dokumentace).
 
 
@@ -62,7 +62,7 @@ Zpravidla obsahuje údaje podle následující osnovy:
 
 1. **Titulní strana a evidenční list** se souhrnem základních informací o projektu/akci
     - podoba titulní strany a evidenčního listu je specifikována ve vzoru na konci tohoto dokumentu;
-    - jako podklad evidenčního listu lze použít výpis vyplněného formuláře z AMČR, který se vygeneruje pomocí tlačítka „Výpis“ u patřičného záznamu o projektu/akci.
+    - jako podklad evidenčního listu lze použít výpis vyplněného formuláře z AMČR, který se vygeneruje pomocí tlačítka „Generovat výpis“ u patřičného záznamu o akci.
     
 2. **Podnět a okolnosti terénního výzkumu**
     a) podnět k provedení výzkumu, časový a organizační průběh terénních prací a okolnosti jejich realizace, příp. komplikace;
@@ -116,7 +116,7 @@ Do **archivu terénní dokumentace** se ukládá:
     
 Součástí **nálezové zprávy** jsou:
 
-- výřez ze Základní mapy ČR v měřítku 1: 10 000 nebo katastrální mapy s vyznačením místa výzkumu;
+- výřez ze Základní topografické mapy ČR v měřítku 1: 10 000 nebo katastrální mapy s vyznačením místa výzkumu;
 - celkový plán výzkumu s rozložením sond, objektů, stratigrafických jednotek, řezů atd. v přiměřeném měřítku;
 - dílčí půdorysné plány a řezy, zpravidla v měřítku 1:10 až 1:100, s popisem stratigrafických jednotek (objektů, vrstev, stavebních konstrukcí apod.);
 - fotografie terénních situací s vyloučením variant, tj. ve výběru zahrnujícím pro každou relevantní část terénního výzkumu jen jeden, nevhodnější snímek. Snímky jsou doprovozeny popisem zahrnujícím označením fotografovaného objektu, jméno autora a rok pořízení snímku;
@@ -125,7 +125,7 @@ Součástí **nálezové zprávy** jsou:
 
 **Terénní dokumentace** vkládaná do nálezové zprávy musí splňovat tyto podmínky:
 
-- plány vkládané do nálezové zprávy jsou revidovanou, příp. upravenou verzí původní terénní dokumentace, může (ale nemusí) jít i čistopisy připravované pro publikaci;
+- plány vkládané do nálezové zprávy jsou revidovanou, příp. upravenou verzí původní terénní dokumentace, může (ale nemusí) jít o čistopisy připravované pro publikaci;
 - popis celkových i dílčích plánů je úplný a čitelný;
 - na celkovém plánu jsou vyznačeny úseky dokumentovaných řezů a nejméně dva body s uvedením prostorových souřadnic;
 - na každém plánu je uvedeno jeho měřítko; 
@@ -133,9 +133,9 @@ Součástí **nálezové zprávy** jsou:
 - na řezech je uvedeno označení vrstev, koncové body řezů s označením a rovina s uvedenou nadmořskou výškou;
 - na kolmých snímcích a fotoplánech je uvedeno měřítko a vyznačeny vlícovací body s připojeným seznamem jejich prostorových souřadnic a nadmořské výšky;
 - fotografie obsahují označení (identifikátor) fotografovaného objektu a měřítko; 
-- na jednu stranu NZ ve formátu A4 mohou být vloženy maximálně 4 fotografie (tj. delší strana snímku nesmí být menší než 13 cm), optimální rozlišení fotografií v NZ je 200 dpi.
+- na jednu stranu NZ ve formátu A4 mohou být vloženy maximálně 4 fotografie (tj. delší strana snímku nesmí být menší než 13 cm), optimální rozlišení fotografií v NZ je 300 DPI.
 
-Veškeré dokumenty vzniklé v souvislosti s archeologickým výzkumem, které nejsou součástí NZ, ale jejich uchování je žádoucí (např. originály snímků, terénní záznamy, kresebné podklady, originály plánů, deník výzkumu, evidence docházky, geodetická a jiná analytická data apod.), musí být dlouhodobě bezpečně uloženy v digitálním repozitáři v důvěryhodném dlouhodobém úložišti a veřejně přístupné. 
+Veškeré dokumenty vzniklé v souvislosti s archeologickým výzkumem, které nejsou součástí NZ, ale jejich uchování je žádoucí (např. originály snímků, terénní záznamy, kresebné podklady, originály plánů, deník výzkumu, evidence docházky, geodetická a jiná analytická data apod.), musí být dlouhodobě bezpečně uloženy v digitálním repozitáři v důvěryhodném dlouhodobém úložišti a veřejně přístupné.
 Popis způsobu uložení a zpřístupnění těchto dokumentů je nedílnou součástí NZ.
 
 V případě, že je to vhodné s ohledem na opětovné využití dat, je žádoucí odevzdat *Terénní dokumentaci* v podobě jednotlivých oddělených souborů v jiných datových formátech dle [seznamu aktuálně akceptovaných formátů](/amcr/dokumenty.qmd#formáty-souborů) a podmínek jejich přijetí pro archivaci.

@@ -1,6 +1,7 @@
 ---
 title: Správa dokumentů
-date: 2025-08-06
+date: 2025-09-05
+# date: 2025-08-06
 ---
 
 ::: {.callout-note}
@@ -64,17 +65,27 @@ Náhled připojeného souboru se pak zobrazí na stránce detailu celého soubor
 
 ![](figs/dok04.png){width="90%" fig-align="center"}
 
+::: {.column-body-outset-right}
+
 #### Formáty souborů
 
 ```{r}
 #| tbl-cap: "Přijímané formáty souborů"
 cnames <- c("", "Formát", "Archivní formát", "Vhodné pro", "Doporučení", "Poznámka")
+# icons <- c("img" = "{{< bi card-image >}}", "tbl" = "{{< bi table >}}", "doc" = "{{< bi card-text >}}")
+icons <- c("img" = "file-earmark-image", "tbl" = "file-earmark-ruled", "doc" = "file-earmark-text")
 
 read.csv("tabs/fileformats.csv", tryLogical = FALSE) |> 
   dplyr::mutate(archival = dplyr::if_else(archival == TRUE, "&#x2714;", "&#x2718;"),
-                format = paste0("**", format, "**")) |>
+                format = paste0("**", format, "**"),
+                icon =  paste0("{{< bi ", icons[icon], " size=1.2em >}}")) |>
   knitr::kable(align = "ccclll", col.names = cnames)
 ```
+
+:::
+
+Optimalizace PDF do archviního formátu PDF/A-2b je prováděna pomocí Adobe Acrobat s využitím funkce "Kontrola před výstupem". 
+Přesná specifikace a export nastavení jsou dostupné v [tomto archivu {{< bi file-earmark-arrow-down >}}](docs/AMCR_PDF_A2b_nastaveni.zip).
 
 ### Části dokumentu
 

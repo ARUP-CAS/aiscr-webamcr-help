@@ -1,9 +1,9 @@
 "icon","format","archival","scope","recommendation","note"
-"{{< fa file >}}","PDF","TRUE","Textové dokumenty",,"Při archivaci převedeno na PDF/A"
-"{{< fa image >}}","TIFF","TRUE","Obrázky, fotografie","Používat LZW kompresi (při hloubce 8 bit/24 bit)",
-"{{< fa image >}}","JPEG","TRUE","Obrázky, fotografie","Nepoužívat subsampling, kompresní poměr ideálně 100 %, min. 80 %",
-"{{< fa image >}}","PNG","TRUE","Obrázky, fotografie",,
-"{{< fa image >}}","SVG","TRUE","Vektorová grafika",,
-"{{< fa file >}}","TXT","TRUE","Krátké textové dokumenty","Kódování UTF-8, jen jednoduché soubory",
-"{{< fa table >}}","CSV","TRUE","Strukturovaná data, tabulky","Kódování UFT-8",
-"{{< fa table >}}","XLSX","TRUE","Strukturovaná data, tabulky","Nesmí obsahovat grafy, vnořené tabulky, makra atp.",
+"doc","PDF","TRUE","textové dokumenty",,"Při archivaci převedeno na PDF/A-2b (specifikace viz níže)."
+"doc","TXT","TRUE","krátké texty, protokoly, logy","Kódování UTF-8, jen jednoduché soubory.",
+"img","TIFF","TRUE","plány, obrázky, fotografie","Používat LZW kompresi (při hloubce 8 bit/24 bit). Lze používat GeoTIFF v souřadnicích S-JTSK (EPSG:5514) nebo WGS-84 (EPSG:4326).",
+"img","JPEG","TRUE","obrázky, fotografie","Nepoužívat subsampling, kompresní poměr ideálně 100 %, min. 80 %.",
+"img","PNG","TRUE","obrázky, fotografie",,
+"img","SVG","TRUE","vektorová grafika",,
+"tbl","CSV","TRUE","strukturovaná data, tabulky","Kódování UFT-8.",
+"tbl","XLSX","TRUE","strukturovaná data, tabulky","Nesmí obsahovat grafy, vnořené tabulky, makra atp.",
