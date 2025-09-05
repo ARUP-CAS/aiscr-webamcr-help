@@ -27,16 +27,16 @@ Veškerou komunikaci ve věci dohod lze směřovat na oficiální email: [{{< bi
 
 | Dokument | | Formát | Datum  aktualizace | Popis dokumentu |
 |----------|-|--------|-------------------:|-----------------|
-| [Vzor dohody pro OAO -- ARÚ](docs/AMCR_dohoda_ARU_OAO_250904.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_OAO_250904.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro oprávněné archeologické organizace - verze pro Čechy. |
-| [Vzor dohody pro OAO -- ARÚB](docs/AMCR_dohoda_ARUB_OAO_250904.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_OAO_250904.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro oprávněné archeologické organizace - verze pro Moravu a Slezsko. |
+| [Vzor dohody pro OAO -- ARÚ](docs/AMCR_dohoda_ARU_OAO_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_OAO_2025-09-04.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro oprávněné archeologické organizace - verze pro Čechy. |
+| [Vzor dohody pro OAO -- ARÚB](docs/AMCR_dohoda_ARUB_OAO_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_OAO_2025-09-04.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro oprávněné archeologické organizace - verze pro Moravu a Slezsko. |
 ||||||
-| [Dodatek k dohodě pro OAO -- ARÚ](docs/AMCR_dohoda_ARU_OAO_dodatek_250904.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_OAO_dodatek_250904.docx) | DOCX | 4. 9. 2025 | Dodatek k dohodě o užívání AMČR určený ke změně uživatelských oprávnění - verze pro Čechy. |
-| [Dodatek k dohodě pro OAO -- ARÚB](docs/AMCR_dohoda_ARUB_OAO_dodatek_250904.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_OAO_dodatek_250904.docx) | DOCX | 4. 9. 2025 | Dodatek k dohodě o užívání AMČR určený ke změně uživatelských oprávnění - verze pro Moravu a Slezsko. |
+| [Dodatek k dohodě pro OAO -- ARÚ](docs/AMCR_dohoda_ARU_OAO_dodatek_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_OAO_dodatek_2025-09-04.docx) | DOCX | 4. 9. 2025 | Dodatek k dohodě o užívání AMČR určený ke změně uživatelských oprávnění - verze pro Čechy. |
+| [Dodatek k dohodě pro OAO -- ARÚB](docs/AMCR_dohoda_ARUB_OAO_dodatek_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_OAO_dodatek_2025-09-04.docx) | DOCX | 4. 9. 2025 | Dodatek k dohodě o užívání AMČR určený ke změně uživatelských oprávnění - verze pro Moravu a Slezsko. |
 ||||||
-| [Vzor dohody pro OVM -- ARÚ](docs/AMCR_dohoda_ARU_OVM_250904.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_OVM_250904.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro orgány veřejné moci - verze pro Čechy. |
-| [Vzor dohody pro OVM -- ARÚB](docs/AMCR_dohoda_ARUB_OVM_250904.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_OVM_250904.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro orgány veřejné moci - verze pro Moravu a Slezsko. |
+| [Vzor dohody pro OVM -- ARÚ](docs/AMCR_dohoda_ARU_OVM_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_OVM_2025-09-04.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro orgány veřejné moci - verze pro Čechy. |
+| [Vzor dohody pro OVM -- ARÚB](docs/AMCR_dohoda_ARUB_OVM_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_OVM_2025-09-04.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro orgány veřejné moci - verze pro Moravu a Slezsko. |
 ||||||
-| [Vzor dohody pro kraje -- ARÚ](docs/AMCR_dohoda_ARU_kraje_250904.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_kraje_250904.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro krajské samosprávy - verze pro Čechy. |
-| [Vzor dohody pro kraje -- ARÚB](docs/AMCR_dohoda_ARUB_kraje_250904.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_kraje_250904.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro krajské samosprávy - verze pro Moravu a Slezsko. |
+| [Vzor dohody pro kraje -- ARÚ](docs/AMCR_dohoda_ARU_kraje_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_kraje_2025-09-04.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro krajské samosprávy - verze pro Čechy. |
+| [Vzor dohody pro kraje -- ARÚB](docs/AMCR_dohoda_ARUB_kraje_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_kraje_2025-09-04.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro krajské samosprávy - verze pro Moravu a Slezsko. |
 
 :::
