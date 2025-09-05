@@ -1,11 +1,12 @@
 ---
 title: Uživatelské účty
-date: 2024-07-03
+date: 2025-08-26
+# date: 2024-07-03
 ---
 
 ::: {.callout-note}
 
-Registraci do AMČR můžete provést na následující stránce: [https://amcr.aiscr.cz/accounts/register/](https://amcr.aiscr.cz/registrace/){.external}.
+Registraci do AMČR můžete provést na následující stránce: [https://amcr.aiscr.cz/accounts/register/](https://amcr.aiscr.cz/accounts/register/){.external}.
 
 :::
 
@@ -33,6 +34,8 @@ Po vyplnění a odeslání registračního formuláře pak dojde k ověření uv
 Po aktivaci účtu správci systému přijde na zadanou emailovovou adresu email s potvrzením.
 Následně je možné se přihlásit.
 
+Registrací v AMČR souhlasíte se [zpracováním Vašich osobních údajů](osobni-udaje.qmd).
+
 ::: {.callout-tip}
 
 Uživatelský účet AMČR je možné použít především na následujících místech:
@@ -43,7 +46,7 @@ Uživatelský účet AMČR je možné použít především na následujících 
 
 :::
 
-### Uživatelské role 
+## Uživatelské role 
 
 Uživatelské role jsou detailně popsány [zde](/o-systemu/role.qmd).
 Registrací v systému získává uživatel automaticky roli **Badatel** (**B**).

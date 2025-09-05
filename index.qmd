@@ -41,7 +41,7 @@ listing:
 [Archeologická mapa České republiky (AMČR)](https://amcr-info.aiscr.cz/){.external}
 je páteřní součástí velké výzkumné infrastruktury [Archeologický informační systém České republiky (AIS CR)](https://aiscr.cz/){.external}.
 
-- **Úvodní stránku k AMČR** najdete na odkaze [https://amcr-info.aiscr.cz](https://amcr-info.aiscr.cz){.external}.
+- **Úvodní stránku k AMČR** najdete na odkaze [https://amcr-info.aiscr.cz/](https://amcr-info.aiscr.cz/){.external}.
 - Do **webové aplikace AMČR** vstoupíte zde [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.
 - **Digitální archiv AMČR** najdete na odkaze [https://digiarchiv.aiscr.cz/](https://digiarchiv.aiscr.cz/){.external}.
 - Stránky infrastruktury **AIS CR** s odkazy na další služby a součásti systému najdete zde: [https://aiscr.cz/](https://aiscr.cz/){.external}.

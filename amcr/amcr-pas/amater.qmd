@@ -40,7 +40,7 @@ zákonných norem ČR.
 ## Odkazy
 
 Modul AMČR-PAS naleznete po přihlášení na [https://amcr.aiscr.cz/](https://amcr.aiscr.cz/){.external}.  
-Webovou stránku AMČR-PAS pak zde [http://www.archeologickamapa.cz/pas](http://www.archeologickamapa.cz/pas){.external}.
+Webovou stránku AMČR-PAS pak zde [https://amcr-info.aiscr.cz/pas](https://amcr-info.aiscr.cz/pas){.external}.
 
 :::
 
@@ -56,7 +56,7 @@ Záznam z periodického školení *Portálu amatérských spolupracovníků a ev
 
 - [ ] V [Mapě archeologických organizací](https://oao.aiscr.cz/){.external} najdu organizaci, která působí v mém okolí nebo na území, které mne zajímá.
 - [ ] Kontaktuji archeologa*žku dané organizace a domluvím se na principech spolupráce.
-- [ ] Registruji se v [AMČR](https://amcr.aiscr.cz/accounts/register){.external}.
+- [ ] Registruji se v [AMČR](https://amcr.aiscr.cz/accounts/register/){.external}.
 - [ ] Projdu proškolením od archeologa*žky, s organizací uzavřu dohodu o spolupráci.
 - [ ] V modulu [Samostatné nálezy](https://amcr.aiscr.cz/pas/spoluprace/vyber?sort=organizace_vedouci&sort=spolupracovnik){.external} navážu s archeologem*žkou spolupráci. 
 - [ ] Archeolog*žka mi sdělí, pod které čísla projektů mohu zapisovat nálezy.
@@ -110,7 +110,7 @@ AMČR-PAS.
 [![](figs/desatero.png)](https://amcr-info.aiscr.cz/downloads/Zodpovedne_hledani.pdf)
 :::
 
-Zásady zodpovědného hledání s detektory kovů jsou popsány v následujícím [videu](https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9){.external} a [dokumentu {{< fa file-download >}}](https://amcr-info.aiscr.cz/downloads/Zodpovedne_hledani.pdf).
+Zásady zodpovědného hledání s detektory kovů jsou popsány v následujícím [videu](https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9){.external} a [dokumentu {{< bi file-earmark-arrow-down >}}](https://amcr-info.aiscr.cz/downloads/Zodpovedne_hledani.pdf).
 
 {{< video https://youtu.be/nZxX4ObyG4Y?si=eS6wUNunVFGtJWH9 >}}
 
@@ -120,8 +120,8 @@ Zásady zodpovědného hledání s detektory kovů jsou popsány v následujíc�
 ### Registrace a přihlášení
 
 
-Pro přihlášení do [aplikace](https://amcr.aiscr.cz/){.external} slouží emailová
-adresa a heslo. Nutná je předchozí [registrace](https://backend.aiscr.cz/registrace/0/){.external}.
+Pro přihlášení do [aplikace](https://amcr.aiscr.cz/){.external} slouží emailová adresa a heslo. 
+Nutná je předchozí [registrace](https://amcr.aiscr.cz/accounts/register/){.external}.
 
 Povinnými položkami pro registraci jsou:
 
@@ -202,7 +202,7 @@ Je nutné zadat následující údaje:
     - Ručním zápisem geografických souřadnic. Akceptovány jsou souřadnice:
         - WGS-84 uváděné v decimálních stupních, např. `50.0903260, 14.4090983`
         - S-JTSK uváděné v záporných hodnotách v metrech, např. `-597268, -1161521`.
-    - V případě práce v terénu s telefonem vybaveným GPS lokalizací pomocí tlačítka `Současná poloha` {{< fa map-marker-alt >}}. Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.
+    - V případě práce v terénu s telefonem vybaveným GPS lokalizací pomocí tlačítka `Současná poloha` {{< bi geo-alt >}}. Pro tuto funkci je nutné povolit v prohlížeči přístup k polohovým údajům zařízení, které používáte.
     - Přiblížením v mapě a vybráním přesného bodu kliknutím na mapový podklad.
 5.  Přidám detailní popis lokalizace, např. formou parc. č., pomístního
     názvu (název trati, ulice, polohy aj.). Prosím dodržte následující

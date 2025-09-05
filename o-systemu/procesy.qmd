@@ -26,7 +26,7 @@ Zapsaný projekt si může některá z [oprávněných organizací](/slovnik/ind
 Daná oprávněná organizace nyní získává povinnost zahájit a oznámit terénní práce (P3), informovat o jejich ukončení (P4) a v zákonné lhůtě podat závěrečnou informaci spolu s [nálezovou zprávou](/slovnik/index.qmd#nálezová-zpráva) (P5). 
 Poté archivář rozhoduje, zda podané podklady je třeba vrátit k doplnění/přepracování (vrátit do P4), nebo je možno je uznat za dostatečné a archivovat (P6).
 Speciálním procesním stavem projektu je stav P0. 
-Do tohoto stavu se projekt dostává po oznámení pomocí webového formuláře [*Oznámení o stavebním či jiném záměru*](https://amcr.aiscr.cz/oznameni){.external}.
+Do tohoto stavu se projekt dostává po oznámení pomocí webového formuláře [*Oznámení o stavebním či jiném záměru*](https://amcr.aiscr.cz/oznameni/){.external}.
 Následně dochází ke kontrole a případnému doplnění údajů pracovníky Referátů archeologické památkové péče archeologických ústavů (ARÚ) a poté je projekt posunut do stavu P1. 
 Projekty lze před jejich zahájením v odůvodněných případech navrhovat ke zrušení (P7) a po potvrzení pracovníky ARÚ jsou považovány za zrušené (P8) nebo vráceny zpět k možnému přihlášení jinou organizací.
 

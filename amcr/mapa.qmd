@@ -8,7 +8,7 @@ Mapové rozhraní je v aplikaci obecně dostupné na několika místech:
 
 - ve formuláři, sloužícímu pro odeslání [oznámení záměru](https://amcr.aiscr.cz/oznameni/){.external} -- přidání bodu lokalizujícího daný záměr (projekt);
 - v [Projektech](https://amcr.aiscr.cz/projekt/){.external} -- přidání/úprava bodové lokalizace projektu;
-- u [Akcí](https://amcr-tr.aiscr.cz/arch-z/akce/){.external} (jak projektových, tak samostatných) -- připojení PIAN (bod, linie, polygon);
+- u [Akcí](https://amcr.aiscr.cz/arch-z/akce/){.external} (jak projektových, tak samostatných) -- připojení PIAN (bod, linie, polygon);
 - u [Lokalit](https://amcr.aiscr.cz/arch-z/lokalita/){.external} -- připojení PIAN (bod, linie, polygon);
 - v [AMČR-PAS](https://amcr.aiscr.cz/pas/){.external} (Samostatné nálezy) -- lokalizace samostatného nálezu na bod;
 - v [Knihovně 3D](https://amcr.aiscr.cz/dokument/model/){.external} -- lokalizace 3D modelu na bod.

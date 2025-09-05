@@ -113,7 +113,7 @@ Vyrušení nežádoucího stínu pomocí plastové desky, zdroj světla stolní 
 
 - Fotografovaný předmět se snažte umístit do středu záběru (minimální optická deformace, nejlepší výkon automatiky ostření).
 - Delší osa předmětu by měla kopírovala delší rozměr záběru.
-- S mírným odstupem přiložte svislé a vodorovné měřítko (ke stažení [zde](AMCR-PAS_meritka.zip), při jeho tisku volte možnost *skutečná velikost*, na trhu jsou běžně k dostání i profesionální kriminalistická měřítka).
+- S mírným odstupem přiložte svislé a vodorovné měřítko (ke stažení [zde](docs/AMCR-PAS_meritka.zip), při jeho tisku volte možnost *skutečná velikost*, na trhu jsou běžně k dostání i profesionální kriminalistická měřítka).
 - Přepište identifikátor nálezu z AMČR-PAS na papír a přiložte na okraj záběru. Neklaďte předměty až k okraji záběru.
 - Správně komponovaný snímek není nutné ořezávat a otáčet.
 

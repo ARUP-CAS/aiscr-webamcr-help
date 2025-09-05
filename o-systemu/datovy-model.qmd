@@ -169,4 +169,4 @@ Mapa archeologických dokumentačních bodů ([MADB](/slovnik/index.qmd#madb)) j
 Rozšiřuje systém v oblasti [dokumentačních jednotek](/slovnik/index.qmd#dokumentační-jednotky), kde k dokumentačním jednotkám typu sonda připojuje další popis **Dokumentačních bodů** a **Výškových bodů**.
 
 Pro MADB je v rámci projektu *Integrovaný informační systém archeologických pramenů Prahy* implementováno speciální webové rozhraní, které umožňuje provázání údajů MADB s další evidencí, zejména pak s fondy [Národního památkového ústavu](https://npu.cz/){.external}. 
-Rozhraní je dostupné na webu [http://www.praha-archeologicka.cz/](http://www.praha-archeologicka.cz/){.external} a bylo uvedeno do provozu v roce 2017.
+Rozhraní je dostupné na webu [https://praha.aiscr.cz/](https://praha.aiscr.cz/){.external} a bylo uvedeno do provozu v roce 2017.

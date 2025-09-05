@@ -10,34 +10,37 @@ about:
     - icon: github
       text: Github
       href: https://github.com/ARUP-CAS/
-    - icon: twitter-x
-      text: X (Twitter)
-      href: https://x.com/AISCRproject/
     - icon: facebook
       text: Facebook
       href: https://www.facebook.com/ArcheologickyInformacniSystem/
     - icon: youtube
       text: YouTube
       href: https://www.youtube.com/@aiscr253
+    - icon: bluesky
+      text: Bluesky 
+      href: https://bsky.app/profile/aiscr.bsky.social
+    # - icon: twitter-x
+    #   text: X (Twitter)
+    #  href: https://x.com/AISCRproject/
 toc: false
 format-links: false
 repo-actions: false
 ---
 
 Archeologická mapa České republiky ([AMČR](https://amcr-info.aiscr.cz/){.external}) je součástí Archeologického informačního systému České republiky ([AIS CR](https://aiscr.cz/){.external}).  
-Infrastruktura je společně provozována Archeologickými ústavy Akademie věd České republiky v [Praze](https://www.arup.cas.cz){.external} a [Brně](https://www.arub.cz/){.external}.
+Infrastruktura je společně provozována Archeologickými ústavy Akademie věd České republiky v [Praze](https://www.arup.cas.cz/){.external} a [Brně](https://www.arub.cz/){.external}.
 
 
-## Kontakty
+### Kontakty
 
 Správa uživatelů a podpora pro oblast **Čech**:
 
 - Archeologický ústav AV ČR, Praha, v.v.i.  
   [https://www.arup.cas.cz/](https://www.arup.cas.cz/){.external}  
-  [{{< fa regular envelope size=xs >}} amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
+  [{{< bi envelope-at size=0.8em >}} amcr@arup.cas.cz](mailto:amcr@arup.cas.cz)
 
 Správa uživatelů a podpora pro oblast **Moravy a Slezska** (vč. Kraje Vysočina):
 
 - Archeologický ústav AV ČR, Brno, v.v.i.  
   [https://www.arub.cz/](https://www.arub.cz/){.external}  
-  [{{< fa regular envelope size=xs >}} amcr@arub.cz](mailto:amcr@arub.cz)
+  [{{< bi envelope-at size=0.8em >}} amcr@arub.cz](mailto:amcr@arub.cz)

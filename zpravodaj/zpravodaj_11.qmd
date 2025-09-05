@@ -82,7 +82,7 @@ Nejvýraznější změnou je zadávání přesné lokalizace stavebního záměr
 Změny jsou také v nahrávání projektové dokumentace (nové prostředí, kontrola duplicitních dokumentů) a v úvodním textu s informacemi pro oznamovatele.
 Videonávod pro práci s oznamovacím formulářem naleznete v [nápovědě zde](https://amcr-help.aiscr.cz/amcr/oznameni.html).
 
-Nový formulář naleznete na stránce [**https://amcr.aiscr.cz/oznameni**](https://amcr.aiscr.cz/oznameni){.external}.
+Nový formulář naleznete na stránce [**https://amcr.aiscr.cz/oznameni/**](https://amcr.aiscr.cz/oznameni){.external}.
 
 ![Nová podoba formuláře *Oznámení o stavebním či jiném záměru*](figs/11/ozn.png){width="80%" fig-align="center"}
 

@@ -41,5 +41,5 @@ Pro profesionální archeology je významnou inovací zapojení *Internetové da
 Díky tomu dochází k výraznému zpřehlednění administrace záchranných archeologických výzkumů, neboť organizace oprávněné k terénním výzkumům získávají i předávají potřebná data prostřednictvím jediného uzlového bodu – klienta AMČR. 
 K uzavření databáze IDAV v dosavadním webovém rozhraní došlo v roce 2017.
 
-AMČR je od počátku zamýšlena jako páteřní informační systém české archeologie, a proto již v současné době vznikají její účelová rozšíření pro archeologii [pražské památkové rezervace](http://www.praha-archeologicka.cz/){.external}, ale i další moduly. 
+AMČR je od počátku zamýšlena jako páteřní informační systém české archeologie, a proto již v současné době vznikají její účelová rozšíření pro archeologii [pražské památkové rezervace](https://praha.aiscr.cz/){.external}, ale i další moduly. 
 AMČR je tak nejdůležitější součástí širší infrastruktury [*Archeologický informační České republiky* (AIS CR)](https://aiscr.cz/){.external}, která je zapsána na [*Cestovní mapě velkých infrastruktur pro výzkum, experimentální vývoj a invoace*](https://www.vyzkumne-infrastruktury.cz/){.external} a podporována Vládou České republiky. 

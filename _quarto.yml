@@ -7,7 +7,7 @@ website:
   title: "Dokumentace AMČR"
   favicon: figs/cover.png
   repo-url: https://github.com/ARUP-CAS/aiscr-webamcr-help/
-  # repo-actions: [source, edit, issue]
+  repo-actions: [source, edit, issue]
   page-navigation: true
   google-analytics:
     tracking-id: "G-S3BT2B2SPF"
@@ -38,6 +38,8 @@ website:
         icon: box-arrow-up-right
         target: _blank
     right:
+      - text: Metodiky
+        href: metodika/index.qmd
       - text: Slovník pojmů
         href: slovnik/index.qmd
       - text: Zpravodaj
@@ -48,13 +50,15 @@ website:
   sidebar:
     - id: main
       collapse-level: 2
-      style: "floating"
+      style: docked
       header: |
         [![](/figs/logo-amcr-hor.png)](/index.qmd)
       contents:
         - index.qmd
         - zakladni-info/zakladni-info.qmd
         - zakladni-info/ucty.qmd
+        - text: Zpracování osobních údajů
+          href: zakladni-info/osobni-udaje.qmd
         - zakladni-info/historie.qmd
       # footer: |
       #   **{{< fa skull-crossbones >}}  Pozor, zavítali jste na stránky připravované pro novou verzi AMČR!**  
@@ -152,10 +156,32 @@ website:
     # - id: manual-api
     #   contents:
     #     - api/index.qmd
+    
+    - id: metodika 
+      header: |
+        [![](/figs/logo-amcr-hor.png)](/metodika/index.qmd)
+      contents: 
+        - text: Úvod
+          href: metodika/index.qmd
+        - text: Administrace projektů
+          href: metodika/administrace-proj.qmd
+        - text: Pravidla pro podání NZ
+          href: metodika/pravidla-nz.qmd
+        - text: Badatelské výzkumy
+          href: metodika/badatelske-vyzkumy.qmd
+        - section: AMČR-PAS
+          contents: 
+            - text: AMČR-PAS v kontextu památkového zákona
+              href: metodika/amcr-pas.qmd
+            - text: Stanovisko Památkové inspekce MK ČR
+              href: metodika/docs/AMCR-PAS_MK-CR_stanovisko.pdf
+              icon: file-pdf
+        - text: Dohody o využití AMČR
+          href: metodika/dohody.qmd
 
     - id: pojmy
       contents:
-        - slovnik/index.qmd
+        - slovnik/index.qmd        
         
     - id: zpravodaje 
       header: |
@@ -187,10 +213,12 @@ format:
     toc-depth: 3
     toc-location: left
     theme:
-      - spacelab
-      - theme.scss
+      light: 
+        - spacelab
+        # - cosmo
+        - theme.scss
     css:
-      - museo.css
+      # - museo.css
       - styles.css
     mainfont: "Alegreya Sans"
     fontsize: 1.1em

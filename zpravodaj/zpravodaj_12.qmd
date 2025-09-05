@@ -247,7 +247,7 @@ V případech, kdy již není žádoucí, aby oznamovatel takový e-mail z AMČR
 ## Novela zákona č. 20/1987 Sb., o státní památkové péči
 
 Od **1. ledna 2025** vstoupila v platnost novela památkového zákona. 
-Jednou z věcí, které tato novela upravuje je změna způsobu odnímání [povolení oprávněných organizací](https://oao.aiscr.cz){.external} ze strany [Ministerstva kultury České republiky](https://www.mk.gov.cz/){.external}. 
+Jednou z věcí, které tato novela upravuje je změna způsobu odnímání [povolení oprávněných organizací](https://oao.aiscr.cz/){.external} ze strany [Ministerstva kultury České republiky](https://www.mk.gov.cz/){.external}. 
 **Od ledna 2025 může MK ČR povolení odejmout i bez dohody s Akademií věd ČR**, a to kupř. v případě závažného porušování povinností stanovených zákonem, nebo na základě zákona. 
 V této souvislosti upozorňujeme, že MK ČR může kontroly v AMČR provádět samostatně prostřednictvím **vlastního přístupu do AMČR**.
 
