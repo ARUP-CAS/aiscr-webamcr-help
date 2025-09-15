@@ -60,7 +60,7 @@ Akce je zpravidla pokračováním archeologického [projektu](/slovnik/index.qmd
 V rámci projektu může proběhnout i několik (projektových) akcí, které se liší prostorovým vymezením, ale teoreticky třeba i sezónou výzkumu.
 
 Existují i případy akcí, které nesouvisejí s předem evidovaným projektem.
-Stává se to zejména při retrospektivním zpracování starších archeologických výzkumů, u neplánovaných výzkumů (např. při náhodných nálezech) nebo při aplikaci některých nedestruktivních terénních metod.
+Stává se to zejména při retrospektivním zpracování starších archeologických výzkumů, u neplánovaných výzkumů (např. při nepředvídaných nálezech) nebo při aplikaci některých nedestruktivních terénních metod.
 U těchto typů akcí není jejich předběžná a/nebo zpětná evidence jako projektů možná nebo účelná. Dané akce proto evidujeme samostatně a hovoříme o **samostatných akcích**.
 
 ## Lokality

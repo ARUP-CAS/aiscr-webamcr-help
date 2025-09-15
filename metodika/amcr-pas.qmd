@@ -1,8 +1,9 @@
 ---
 title: Metodický výklad AMČR-PAS v kontextu zákona č. 20/1987 Sb., o státní památkové péči
 # subtitle: 
+date: 2025-09-15
 # date: 2021-03-31
-date: 2025-08-06
+# date: 2025-08-06
 description: Verze v1, platná od 31. 3. 2021
 format: 
   html: default
@@ -24,7 +25,7 @@ oprávněných archeologických organizací.
 AMČR-PAS respektuje závazky vyplývající z [Evropské úmluvy o ochraně archeologického dědictví č. 99/2000 Sb.m.s.](https://www.zakonyprolidi.cz/ms/2000-99){.external}, která v čl. 3 odst. 3 zavazuje Českou republiku *„učinit používání detektorů kovů a jakýchkoli jiných detekčních zařízení nebo postupů archeologického výzkumu předmětem specifického předchozího oprávnění, kdykoli s tím počítá vnitřní právní úprava státu“*.
 Je třeba konstatovat, že důvodů pro užití detektoru může být více, např. pyrotechnický průzkum, vyhledávání inženýrských sítí či hledání ztracených předmětů. 
 Ve většině těchto případů nepředstavuje použití detekčního zařízení zvláštní hrozbu pro archeologické dědictví. 
-Případy náhodných nálezů při těchto činnostech jsou adekvátně upraveny zákonem v §23.
+Případy nepředvídaných nálezů při těchto činnostech jsou adekvátně upraveny zákonem v §23.
 
 Tento dokument popisuje vztah AMČR-PAS k jednotlivým ustanovením zákona č. 20/1987 Sb. a slouží jako metodický výklad ze strany Archeologických ústavů AV ČR.
 

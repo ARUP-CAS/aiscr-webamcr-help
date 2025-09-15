@@ -1,7 +1,8 @@
 ---
 title: Metodické doporučení pro administraci projektů v AMČR
 subtitle: V kontextu zákona č. 20/1987 Sb., o státní památkové péči, ve znění pozdějších předpisů
-date: 2025-08-26
+date: 2025-09-15
+# date: 2025-08-26
 # author: 
 #   - name: Róbert Antal
 #     orcid: 0009-0004-4482-2257
@@ -207,7 +208,7 @@ Archeologický ústav rozlišuje 5 hlavních důvodů, ze kterých může OAO na
 1. **Duplicitní oznámení**. Projekt již byl v AMČR evidován pod jiným identifikátorem.
 1. **Oznamovatel neumožnil** provedení záchranného archeologického výzkumu.
 1. V oznámení byly uvedeny **nesprávné údaje** (např. datum, kontakty). Záchranný výzkum proto nebylo možné provést.
-1. **Pravděpodobnost narušení archeologických nálezů záměrem je mimořádně nízká** (území bez archeologických nálezů, malý rozsah zásahu/prací), provedení záchranného archeologického výzkumu tak není vyžadováno. V případě náhodného archeologického nálezu je doporučeno neprodleně kontaktovat nejbližší archeologické pracoviště.
+1. **Pravděpodobnost narušení archeologických nálezů záměrem je mimořádně nízká** (území bez archeologických nálezů, malý rozsah zásahu/prací), provedení záchranného archeologického výzkumu tak není vyžadováno. V případě nepředvídaného archeologického nálezu je doporučeno neprodleně kontaktovat nejbližší archeologické pracoviště.
 1. Oznámený **záměr nebude realizován**.
 
 V případě potřeby lze uvést také vlastní důvod návrhu zrušení.
