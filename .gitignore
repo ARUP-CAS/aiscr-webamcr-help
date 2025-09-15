@@ -11,3 +11,5 @@ _site/
 /.luarc.json
 
 /api.bak/
+
+**/*.quarto_ipynb
