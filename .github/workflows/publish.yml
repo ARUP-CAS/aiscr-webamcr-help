@@ -19,10 +19,9 @@ jobs:
         # with:
         #   tinytex: true
           
-      - name: Install Czech LaTeX support
+      - name: Install Czech LaTeX support via R
         run: |
-          quarto install tinytex
-          tlmgr install babel-czech csquotes
+          R -e "tinytex::tlmgr_install(c('babel-czech', 'csquotes'))"
           
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
