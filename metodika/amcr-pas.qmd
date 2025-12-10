@@ -7,8 +7,8 @@ date: 2025-09-15
 description: Verze v1, platná od 31. 3. 2021
 format: 
   html: default
-  pdf: 
-    pdf-engine: xelatex
+  # pdf: 
+  #   pdf-engine: xelatex
 # reference-location: margin
 ---
 

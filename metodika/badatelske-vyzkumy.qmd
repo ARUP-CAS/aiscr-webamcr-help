@@ -6,8 +6,8 @@ date: 2025-08-12
 description: Verze v1, platná od 4. 1. 2025
 format: 
   html: default
-  pdf:  
-    pdf-engine: xelatex
+#   pdf:  
+#     pdf-engine: xelatex
 ---
 
 Do kategorie badatelských archeologických výzkumů patří všechny archeologické výzkumy, které nebyly vyvolány stavebním či jiným záměrem dle ust. § 22 odst. 2 [zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}, ve znění pozdějších předpisů. 

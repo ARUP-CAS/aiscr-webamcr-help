@@ -6,8 +6,8 @@ date: 2025-08-06
 description: Verze v1, platná od 4. 3. 2020
 format: 
   html: default
-  pdf: 
-    pdf-engine: xelatex
+#   pdf: 
+#     pdf-engine: xelatex
 ---
 
 ### Základní pojmy
