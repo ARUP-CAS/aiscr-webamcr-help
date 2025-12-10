@@ -9,7 +9,8 @@ date: 2025-09-15
 description: Verze v1, platná od 26. 8. 2025
 format: 
   html: default
-  pdf: default
+  pdf: 
+    pdf-engine: xelatex
 ---
 
 Archeologická mapa České republiky (dále jen [AMČR](https://amcr.aiscr.cz/){.external}) je základním oborovým nástrojem archeologické památkové péče. 
