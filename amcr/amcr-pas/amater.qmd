@@ -16,7 +16,8 @@ subtitle: Základní principy spolupráce a pokyny pro používání AMČR-PAS a
 #   orcid: 0000-0001-5123-1261
 # - name: Tomáš Chlup
 #   orcid: 0000-0003-3179-992X
-date: 2025-02-07
+date: 2025-12-10
+# date: 2025-02-07
 # doi: 10.5281/zenodo.4114081
 # image: ../../figs/thumb_pin.png
 ---
@@ -45,9 +46,22 @@ Webovou stránku AMČR-PAS pak zde [https://amcr-info.aiscr.cz/pas](https://amcr
 :::
 
 
-## Záznam ze školení
+## Záznamy ze školení
 
-Záznam z periodického školení *Portálu amatérských spolupracovníků a evidence samostatných nálezů Archeologické mapy ČR* pro širokou veřejnost, které se konalo dne 4. 12. 2024. Prezentace je dostupná [zde](https://doi.org/10.5281/zenodo.14277133){.external}.
+### Školení 2025
+
+Záznam z průběžného školení *Portálu amatérských spolupracovníků a evidence samostatných nálezů Archeologické mapy ČR* pro širokou veřejnost, které se konalo dne 8. 12. 2025. 
+Školením provedli Mgr. et Mgr. Róbert Antal, Ph.D. a Mgr. Eva Buchtová z Archeologického ústavu AV ČR, Brno.
+Prezentace je dostupná [zde](https://doi.org/10.5281/zenodo.17877342){.external}.
+
+{{< video https://youtu.be/gE1HBJ6GrxU?si=DvcCGAtVdTa3YpeI >}}
+
+
+### Školení 2024
+
+Záznam z periodického školení *Portálu amatérských spolupracovníků a evidence samostatných nálezů Archeologické mapy ČR* pro širokou veřejnost, které se konalo dne 4. 12. 2024. 
+Školením provedli Mgr. Jan Mařík, Ph.D. a Mgr. David Novák, Phd z Archeologického ústavu AV ČR, Praha.
+Prezentace je dostupná [zde](https://doi.org/10.5281/zenodo.14277133){.external}.
 
 {{< video https://youtu.be/vtNeLAm1XLQ?si=lsYhovTNwFn-bYIp >}}
 
@@ -64,6 +78,12 @@ Záznam z periodického školení *Portálu amatérských spolupracovníků a ev
 - [ ] Dbám na kvalitní fotografie nálezů (včetně fotografie kontextu nálezu), viz [Fotografická dokumentace nálezů](foto.qmd).
 - [ ] Nálezy předám archeologovi*žce.
 
+
+### Infografika
+
+Postup představuje i následující infografika. Plné rozlišení pro tisk na různé formáty můžete nalézt v [naší komunitě na Zenodo](https://zenodo.org/communities/aiscr/){.external} pod DOI [10.5281/zenodo.17572794](https://doi.org/10.5281/zenodo.17572794){.external}.
+
+![](docs/3_AMCR-PAS_Infografika_A4_web_cz.pdf){width="120%" height="800px"}
 
 
 ## Principy spolupráce
