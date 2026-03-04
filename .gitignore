@@ -13,4 +13,3 @@ _site/
 /api.bak/
 
 **/*.quarto_ipynb
-/site_libs
