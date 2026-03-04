@@ -148,6 +148,8 @@ website:
           contents:
             - text: Citace dat a dokumentů
               href: digiarchiv/citace.qmd
+            - text: QGIS plugin AMČR Viewer
+              href: digiarchiv/qgis-viewer.qmd
             - text: Sklízení dat pro GIS
               href: https://zenodo.org/doi/10.5281/zenodo.11490821
               icon: box-arrow-up-right
