@@ -1,0 +1,74 @@
+---
+title: QGIS plugin AMČR Viewer
+# subtitle: fuubar 
+author: 
+  - name: David Spáčil
+date: 2026-03-05
+
+---
+
+::: {.callout-note}
+
+## Poznámka
+
+Tento návod je platný pro verzi pluginu 1.1.0.
+
+:::
+
+Cílem níže popsaných postupů je představit fungování QGIS pluginu [AMČR Viewer](https://plugins.qgis.org/plugins/amcr_viewer/){.external}, který slouží ke stahování archivovaných dat z **AMČR** a jejich zobrazení v prostředí **QGIS**.
+Standardní možností exportu archivovaných dat z AMČR je využívání exportního dialogu Digiarchivu AMČR (viz [Hromadné sklízení prostorových dat Digitálního archivu AMČR pro GIS](https://zenodo.org/records/11490822){.external}). 
+AMČR Viewer, stejně jako exportní okno, čerpá data z API Digiarchivu, nabízí ovšem jejich přímější implementaci a podrobnější metadata.
+
+
+## Instalace pluginu
+
+Nejjednodušším způsobem je instalace přímo přes repozitář pluginů QGIS. 
+
+1. V hlavním menu v horní části okna QGIS otevřete nástroj `Plugins` → `Manage and Install Plugins...`.
+
+[![](figs/qv-plugins.png){width="66%" fig-align="center"}](figs/qv-plugins.png)
+
+2. Vyhledejte `AMČR Viewer` a nainstalujte jej kliknutím na tlačítko `Install Plugin`.
+
+[![](figs/qv-install.png){width="60%" fig-align="center"}](figs/qv-install.png)
+
+V prostředí QGIS se plugin zobrazí v podobě ikony ![](figs/qv-icon.png){width="2.4%"}.
+
+
+## Použití pluginu
+
+V současné verzi umožňuje plugin **pouze načítání metadat a geometrie akcí**. 
+Základním prvkem je pro plugin **[Dokumentační jednotka](/slovnik/index.qmd#dokumentační-jednotky)**, součást [archeologické akce](/slovnik/index.qmd#akce), která slouží jako unikátní prvek jak ve vztahu k akci, tak k příslušnému [PIAN](/slovnik/index.qmd#pian) (více k datové struktuře AMČR viz [Datový model](/o-systemu/datovy-model.qmd#evidence-archeologických-akcí)). 
+Podobně jako v Digiarchivu lze i v pluginu filtrovat výsledky jak prostorově, tak pomocí metadat samotné akce, ale i jí podřízených záznamů (zejména metadat komponenty jako je datace a typ areálu). 
+Základní postup užívání AMČR Viewer je následující:
+
+1. Ke spuštění pluginu slouží tlačítko `Načíst data z AMČR` ![](figs/qv-icon.png){width="2.4%"}, které by se mělo po instalaci automaticky zobrazit v jedné z horních nástrojových lišt QGIS. Pokud se tak nestalo, je možné plugin spustit z hlavního menu: `Plugins` → `AMČR Viewer` → `Načíst data z AMČR`.
+
+2. Otevřené okno `Filtr AMČR` slouží k filtrování dat před jejich stažením. Je možné filtrovat pomocí:
+    a) prostorových informací:
+        - `Kraj`, `Okres`, `Katastr` (lze vybrat více možností),
+        - `Omezit vyhledávání rozsahem okna` (tato možnost je ve výchozím nastavení vybrána z důvodu předejití neúmyslného načítání velkého množství dat),
+        - `PIAN přesnost` (ve výchozím nastavení je zakázána možnost `poloha podle katastru`; lze vybrat více možností);
+    b) administrativních informací:
+        - `Organizace`, `Typ výzkumu` (lze vybrat více možností),
+        - `Vedoucí výzkumu` (v čisté instalaci pluginu je seznam vedoucích prázdný a je třeba jej naplnit daty z API pomocí tlačítka 🔄, stejným způsobem lze seznam vedoucích i průběžně aktualizovat; lze vybrat více možností);
+    c) informací o nálezu:
+        - `Pouze pozitivní zjištění` (vrátí pouze dokumentační jednotky, jejichž atribut `typ zjištění` = `pozitivní`),
+        - `Období`, `Areál` (lze vybrat více možností).
+
+[![](figs/qv-usage.png){width="66%" fig-align="center"}](figs/qv-usage.png)
+
+3. Po potvrzení výběru dojde k načtení filtrovaných dat z API Digiarchivu AMČR do až třech dočasných vrstev (pro každý typ geometrie -- body, linie, polygony -- jedna vrstva). 
+Pro trvalé uložení výsledků **je potřeba dočasné vrstvy exportovat nebo uložit**. 
+V opačném případě dojde po zavření QGISu ke ztrátě stažených dat.
+
+
+### Omezení
+
+- V současné verzi je prohledávání a stahování dat omezeno na **archivované akce** s přístupností **A** (anonym). To představuje přes 99 % všech archivovaných akcí s geometrií.
+- Limit načítaných akcí je omezen na **20 000**. Doporučujeme využít filtrů pro předtřídění dat. V opačném případě načítejte data postupně po územních celcích (krajích či v některých případech okresech). Počty akcí podle krajů lze zkontrolovat v [Digiarchivu](https://digiarchiv.aiscr.cz/map?entity=akce&sort=datestamp%20desc&mapa=true&page=0){.external}.
+
+
+## Zapojte se
+
+V případě, že objevíte nějakou chybu, která nám unikla, či případně budete chtít přijít s nápadem na přidání nové funkce, využijte k tomu prosím tento formulář pro nahlášení problému: <https://forms.gle/KVV8tftrEp1t7ocL7>.
