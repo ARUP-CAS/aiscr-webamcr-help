@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="David Spáčil">
 
-<title>Úvod – Dokumentace AMČR</title>
+<title>QGIS plugin AMČR Viewer – Dokumentace AMČR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,29 +24,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./zakladni-info/zakladni-info.html" rel="next">
-<link href="./figs/cover.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7c73f86480cea57d5bf86a117ddb86c7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../digiarchiv/citace.html" rel="prev">
+<link href="../figs/cover.png" rel="icon" type="image/png">
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-7c73f86480cea57d5bf86a117ddb86c7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,35 +72,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Hledat"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-soucasti .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-href','listing-image',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-description","listing-href","listing-image"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-soucasti'] = new List('listing-soucasti', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S3BT2B2SPF"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -130,51 +100,22 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./figs/cover_g.png" alt="" class="navbar-logo light-content">
-    <img src="./figs/cover_g.png" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../figs/cover_g.png" alt="" class="navbar-logo light-content">
+    <img src="../figs/cover_g.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Dokumentace AMČR</span>
     </a>
   </div>
@@ -185,19 +126,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Úvod</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./o-systemu/index.html"> 
+    <a class="nav-link" href="../o-systemu/index.html"> 
 <span class="menu-text">O systému</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./amcr/index.html"> 
+    <a class="nav-link" href="../amcr/index.html"> 
 <span class="menu-text">AMČR</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./digiarchiv/index.html"> 
+    <a class="nav-link active" href="../digiarchiv/index.html" aria-current="page"> 
 <span class="menu-text">Digitální archiv AMČR</span></a>
   </li>  
   <li class="nav-item">
@@ -208,19 +149,19 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./metodika/index.html"> 
+    <a class="nav-link" href="../metodika/index.html"> 
 <span class="menu-text">Metodiky</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./slovnik/index.html"> 
+    <a class="nav-link" href="../slovnik/index.html"> 
 <span class="menu-text">Slovník pojmů</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./zpravodaj/index.html"> 
+    <a class="nav-link" href="../zpravodaj/index.html"> 
 <span class="menu-text">Zpravodaj</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about/index.html"> 
+    <a class="nav-link" href="../about/index.html"> 
 <span class="menu-text">Kontakty</span></a>
   </li>  
 </ul>
@@ -234,7 +175,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Úvod</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../digiarchiv/citace.html">Tutoriály</a></li><li class="breadcrumb-item"><a href="../digiarchiv/qgis-viewer.html">QGIS plugin AMČR Viewer</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Přepnout postranní panel" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -244,77 +185,104 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="quarto-sidebar-header"><div class="sidebar-header-item">
-<p><a href="./index.html"><img src="./figs/logo-amcr-hor.png" class="img-fluid"></a></p>
+<p><a href="../digiarchiv/index.html"><img src="../figs/thumb_digiarchiv.png" class="img-fluid"></a></p>
 </div></div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Návody</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Přepnout sekci">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Úvod</span></a>
+  <a href="../digiarchiv/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Digitální archiv AMČR</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Tutoriály</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Přepnout sekci">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./zakladni-info/zakladni-info.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Základní informace</span></a>
+  <a href="../digiarchiv/citace.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Citace dat a dokumentů</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./zakladni-info/ucty.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Uživatelské účty</span></a>
+  <a href="../digiarchiv/qgis-viewer.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">QGIS plugin AMČR Viewer</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./zakladni-info/osobni-udaje.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Zpracování osobních údajů</span></a>
+  <a href="https://zenodo.org/doi/10.5281/zenodo.11490821" class="sidebar-item-text sidebar-link" target="_blank"><i class="bi bi-box-arrow-up-right" role="img">
+</i> 
+ <span class="menu-text">Sklízení dat pro GIS</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./zakladni-info/historie.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Historie</span></a>
-  </div>
-</li>
+      </ul>
+  </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Na této stránce…</h2>
+   
+  <ul>
+  <li><a href="#instalace-pluginu" id="toc-instalace-pluginu" class="nav-link active" data-scroll-target="#instalace-pluginu">Instalace pluginu</a></li>
+  <li><a href="#použití-pluginu" id="toc-použití-pluginu" class="nav-link" data-scroll-target="#použití-pluginu">Použití pluginu</a>
+  <ul class="collapse">
+  <li><a href="#omezení" id="toc-omezení" class="nav-link" data-scroll-target="#omezení">Omezení</a></li>
+  </ul></li>
+  <li><a href="#zapojte-se" id="toc-zapojte-se" class="nav-link" data-scroll-target="#zapojte-se">Zapojte se</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/digiarchiv/qgis-viewer.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/digiarchiv/qgis-viewer.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../digiarchiv/citace.html">Tutoriály</a></li><li class="breadcrumb-item"><a href="../digiarchiv/qgis-viewer.html">QGIS plugin AMČR Viewer</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Úvod</h1>
-<p class="subtitle lead">Vítejte na stránkách uživatelské dokumentace AMČR!</p>
+<h1 class="title">QGIS plugin AMČR Viewer</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>David Spáčil </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Aktualizováno</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">26. března 2025</p>
+      <p class="date">5. března 2026</p>
     </div>
   </div>
   
     
-    <div>
-    <div class="quarto-title-meta-heading">Doi</div>
-    <div class="quarto-title-meta-contents">
-      <p class="doi">
-        <a href="https://doi.org/10.5281/zenodo.8141634">10.5281/zenodo.8141634</a>
-      </p>
-    </div>
-  </div>
   </div>
   
 
@@ -322,203 +290,85 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-soucasti" class="column-body quarto-listing quarto-listing-container-custom">
-
-<div class="list grid quarto-listing-cols-2" "="">
-
-  <a class="quarto-grid-link" href="./o-systemu/index.html" target="_self">
-    <div class="quarto-grid-item card h-100 w-200">
-      
-        <div class="listing-item-img-placeholder card-img-top" style="background-color: white;">
-          <img class="thumbnail-image card-img" src="figs/thumb_pin_wrench.svg" style="display:block;margin-right:auto;margin-left:auto;height:100%;">
-        </div>
-      
-      <div class="card-body post-contents">
-        <!-- <h5 class="no-anchor card-title listing-title">O systému</h5> -->
-        <b class="no-anchor card-title listing-title" style="color:#85150F;">O systému</b>
-        <div class="card-text listing-description">
-          <small> 
-            V této sekci je vysvětlena struktura dat, popsána architektura systému a
-shrnuty informace o používaných řízených slovnících, procesních pravidlech
-a přístupnosti jednotlivých záznamů.
- 
-          </small>
-        </div>
-      </div>
-      
-    </div>
-  </a>
-  
-
-  <a class="quarto-grid-link" href="./amcr/index.html" target="_self">
-    <div class="quarto-grid-item card h-100 w-200">
-      
-        <div class="listing-item-img-placeholder card-img-top" style="background-color: white;">
-          <img class="thumbnail-image card-img" src="figs/thumb_amcr.svg" style="display:block;margin-right:auto;margin-left:auto;height:100%;">
-        </div>
-      
-      <div class="card-body post-contents">
-        <!-- <h5 class="no-anchor card-title listing-title">Dokumentace AMČR</h5> -->
-        <b class="no-anchor card-title listing-title" style="color:#85150F;">Dokumentace AMČR</b>
-        <div class="card-text listing-description">
-          <small> 
-            Sekce obsahuje širokou škálu návodů pro používání webové
-aplikace AMČR od správy projektů, akcí a lokalit až po manuály
-Knihovny 3D či AMČR-PAS, včetně dobré praxe focení drobných nálezů atd.
- 
-          </small>
-        </div>
-      </div>
-      
-    </div>
-  </a>
-  
-
-  <a class="quarto-grid-link" href="./digiarchiv/index.html" target="_self">
-    <div class="quarto-grid-item card h-100 w-200">
-      
-        <div class="listing-item-img-placeholder card-img-top" style="background-color: white;">
-          <img class="thumbnail-image card-img" src="figs/thumb_digiarchiv.svg" style="display:block;margin-right:auto;margin-left:auto;height:100%;">
-        </div>
-      
-      <div class="card-body post-contents">
-        <!-- <h5 class="no-anchor card-title listing-title">Návod pro Digitální archiv AMČR</h5> -->
-        <b class="no-anchor card-title listing-title" style="color:#85150F;">Návod pro Digitální archiv AMČR</b>
-        <div class="card-text listing-description">
-          <small> 
-            Manuál představuje funkce Digitálního archivu AMČR, webové aplikace určené k
-prohlížení informací a dokumentů o archeologických výzkumech, lokalitách a nálezech.
- 
-          </small>
-        </div>
-      </div>
-      
-    </div>
-  </a>
-  
-
-  <a class="quarto-grid-link" href="https://api.aiscr.cz/" target="_self">
-    <div class="quarto-grid-item card h-100 w-200">
-      
-        <div class="listing-item-img-placeholder card-img-top" style="background-color: white;">
-          <img class="thumbnail-image card-img" src="figs/thumb_pin_bits.svg" style="display:block;margin-right:auto;margin-left:auto;height:100%;">
-        </div>
-      
-      <div class="card-body post-contents">
-        <!-- <h5 class="no-anchor card-title listing-title">Popis AMČR API</h5> -->
-        <b class="no-anchor card-title listing-title" style="color:#85150F;">Popis AMČR API</b>
-        <div class="card-text listing-description">
-          <small> 
-            Manuál popisuje API rozhraní, pomocí kterého lze získávat metadatové záznamy
-z databáze AMČR, a to pomocí protokolu OpenArchives Initiative Protocol
-for Metadata Harvesting (OAI-PMH). Manuál k API je pouze v Anglickém jazyce.
- 
-          </small>
-        </div>
-      </div>
-      
-    </div>
-  </a>
-  
-
-</div>
-
-<div class="listing-no-matching d-none">Žádné nalezené výsledky</div>
-</div>
-<!-- Uživatelská dokumentace AMČR je členěna do několika úrovní:
-
-- Na [úvodní stránce](index.qmd) najdete [základní informace](zakladni-info/zakladni-info.qmd) o celém systému, nápovědu k [uživatelským účtům](zakladni-info/ucty.qmd) a stručný souhrn [historie](zakladni-info/historie.qmd).
-- V sekci [O systému](o-systemu/index.qmd) je rámcově popsán používaný datový model a struktura systému, řízené slovníky apod.;
-- Následují sekce pro jednotlivé součásti AMČR:
-  - [webovou aplikaci AMČR](amcr/index.qmd) jako hlavní rozhraní pro práci s daty AMČR;
-  - [Digitální archiv AMČR](digiarchiv/index.qmd), který slouží k prohlížení a vyhledávání v AMČR; 
-  - [API](https://api.aiscr.cz/){.external}, které prostřednictvím protokolu OAI-PMH umožňuje hromadné sklízení dat AMČR, je pak popsáno na samostané stránce.
-- Sekce [Zpravodaj](zpravodaj/index.qmd) obsahuje jednotlivá vydání občasníku určeného uživatelům AMČR. -->
-<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Důležité</span>Služby AIS CR
+<span class="screen-reader-only">Poznámka</span>Poznámka
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><a href="https://amcr-info.aiscr.cz/" class="external">Archeologická mapa České republiky (AMČR)</a> je páteřní součástí velké výzkumné infrastruktury <a href="https://aiscr.cz/" class="external">Archeologický informační systém České republiky (AIS CR)</a>.</p>
+<p>Tento návod je platný pro verzi pluginu 1.1.0.</p>
+</div>
+</div>
+<p>Cílem níže popsaných postupů je představit fungování QGIS pluginu <a href="https://plugins.qgis.org/plugins/amcr_viewer/" class="external">AMČR Viewer</a>, který slouží ke stahování archivovaných dat z <strong>AMČR</strong> a jejich zobrazení v prostředí <strong>QGIS</strong>. Standardní možností exportu archivovaných dat z AMČR je využívání exportního dialogu Digiarchivu AMČR (viz <a href="https://zenodo.org/records/11490822" class="external">Hromadné sklízení prostorových dat Digitálního archivu AMČR pro GIS</a>). AMČR Viewer, stejně jako exportní okno, čerpá data z API Digiarchivu, nabízí ovšem jejich přímější implementaci a podrobnější metadata.</p>
+<section id="instalace-pluginu" class="level2">
+<h2 class="anchored" data-anchor-id="instalace-pluginu">Instalace pluginu</h2>
+<p>Nejjednodušším způsobem je instalace přímo přes repozitář pluginů QGIS.</p>
+<ol type="1">
+<li>V hlavním menu v horní části okna QGIS otevřete nástroj <code>Plugins</code> → <code>Manage and Install Plugins...</code>.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/qv-plugins.png"><img src="figs/qv-plugins.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:66.0%"></a></p>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Vyhledejte <code>AMČR Viewer</code> a nainstalujte jej kliknutím na tlačítko <code>Install Plugin</code>.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/qv-install.png"><img src="figs/qv-install.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></a></p>
+</figure>
+</div>
+<p>V prostředí QGIS se plugin zobrazí v podobě ikony <img src="figs/qv-icon.png" class="img-fluid" style="width:2.4%">.</p>
+</section>
+<section id="použití-pluginu" class="level2">
+<h2 class="anchored" data-anchor-id="použití-pluginu">Použití pluginu</h2>
+<p>V současné verzi umožňuje plugin <strong>pouze načítání metadat a geometrie akcí</strong>. Základním prvkem je pro plugin <strong><a href="../slovnik/index.html#dokumentační-jednotky">Dokumentační jednotka</a></strong>, součást <a href="../slovnik/index.html#akce">archeologické akce</a>, která slouží jako unikátní prvek jak ve vztahu k akci, tak k příslušnému <a href="../slovnik/index.html#pian">PIAN</a> (více k datové struktuře AMČR viz <a href="../o-systemu/datovy-model.html#evidence-archeologických-akcí">Datový model</a>). Podobně jako v Digiarchivu lze i v pluginu filtrovat výsledky jak prostorově, tak pomocí metadat samotné akce, ale i jí podřízených záznamů (zejména metadat komponenty jako je datace a typ areálu). Základní postup užívání AMČR Viewer je následující:</p>
+<ol type="1">
+<li><p>Ke spuštění pluginu slouží tlačítko <code>Načíst data z AMČR</code> <img src="figs/qv-icon.png" class="img-fluid" style="width:2.4%">, které by se mělo po instalaci automaticky zobrazit v jedné z horních nástrojových lišt QGIS. Pokud se tak nestalo, je možné plugin spustit z hlavního menu: <code>Plugins</code> → <code>AMČR Viewer</code> → <code>Načíst data z AMČR</code>.</p></li>
+<li><p>Otevřené okno <code>Filtr AMČR</code> slouží k filtrování dat před jejich stažením. Je možné filtrovat pomocí:</p>
+<ol type="a">
+<li>prostorových informací:
 <ul>
-<li><strong>Úvodní stránku k AMČR</strong> najdete na odkaze <a href="https://amcr-info.aiscr.cz/" class="external">https://amcr-info.aiscr.cz/</a>.</li>
-<li>Do <strong>webové aplikace AMČR</strong> vstoupíte zde <a href="https://amcr.aiscr.cz/" class="external">https://amcr.aiscr.cz/</a>.</li>
-<li><strong>Digitální archiv AMČR</strong> najdete na odkaze <a href="https://digiarchiv.aiscr.cz/" class="external">https://digiarchiv.aiscr.cz/</a>.</li>
-<li>Stránky infrastruktury <strong>AIS CR</strong> s odkazy na další služby a součásti systému najdete zde: <a href="https://aiscr.cz/" class="external">https://aiscr.cz/</a>.</li>
+<li><code>Kraj</code>, <code>Okres</code>, <code>Katastr</code> (lze vybrat více možností),</li>
+<li><code>Omezit vyhledávání rozsahem okna</code> (tato možnost je ve výchozím nastavení vybrána z důvodu předejití neúmyslného načítání velkého množství dat),</li>
+<li><code>PIAN přesnost</code> (ve výchozím nastavení je zakázána možnost <code>poloha podle katastru</code>; lze vybrat více možností);</li>
+</ul></li>
+<li>administrativních informací:
+<ul>
+<li><code>Organizace</code>, <code>Typ výzkumu</code> (lze vybrat více možností),</li>
+<li><code>Vedoucí výzkumu</code> (v čisté instalaci pluginu je seznam vedoucích prázdný a je třeba jej naplnit daty z API pomocí tlačítka 🔄, stejným způsobem lze seznam vedoucích i průběžně aktualizovat; lze vybrat více možností);</li>
+</ul></li>
+<li>informací o nálezu:
+<ul>
+<li><code>Pouze pozitivní zjištění</code> (vrátí pouze dokumentační jednotky, jejichž atribut <code>typ zjištění</code> = <code>pozitivní</code>),</li>
+<li><code>Období</code>, <code>Areál</code> (lze vybrat více možností).</li>
+</ul></li>
+</ol></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figs/qv-usage.png"><img src="figs/qv-usage.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:66.0%"></a></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>Po potvrzení výběru dojde k načtení filtrovaných dat z API Digiarchivu AMČR do až třech dočasných vrstev (pro každý typ geometrie – body, linie, polygony – jedna vrstva). Pro trvalé uložení výsledků <strong>je potřeba dočasné vrstvy exportovat nebo uložit</strong>. V opačném případě dojde po zavření QGISu ke ztrátě stažených dat.</li>
+</ol>
+<section id="omezení" class="level3">
+<h3 class="anchored" data-anchor-id="omezení">Omezení</h3>
+<ul>
+<li>V současné verzi je prohledávání a stahování dat omezeno na <strong>archivované akce</strong> s přístupností <strong>A</strong> (anonym). To představuje přes 99 % všech archivovaných akcí s geometrií.</li>
+<li>Limit načítaných akcí je omezen na <strong>20 000</strong>. Doporučujeme využít filtrů pro předtřídění dat. V opačném případě načítejte data postupně po územních celcích (krajích či v některých případech okresech). Počty akcí podle krajů lze zkontrolovat v <a href="https://digiarchiv.aiscr.cz/map?entity=akce&amp;sort=datestamp%20desc&amp;mapa=true&amp;page=0" class="external">Digiarchivu</a>.</li>
 </ul>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Tréninková verze AMČR
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Na adrese <a href="https://amcr-tr.aiscr.cz/" class="external">https://amcr-tr.aiscr.cz/</a> naleznete tréninkovou verzi aplikace, kde si můžete jednotlivé pracovní procesy, fungování aplikace apod. vyzkoušet nanečisto a nebát se, že přijdete o skutečná data. Přihlásíte se do ní pomocí stejného účtu, jako do běžné (provozní) verze AMČR. Veškerá data, která zde naleznete, jsou kopií dat ze skutečné AMČR, jen jsou zde některé osobní údaje či jinak senzitivní data anonymizovaná a nejsou zde soubory.</p>
-</div>
-</div>
-<section id="licence-a-jak-citovat" class="level2">
-<h2 class="anchored" data-anchor-id="licence-a-jak-citovat">Licence a jak citovat</h2>
-<p>Veškerý obsah těchto stránek podléhá licenci <a href="https://creativecommons.org/licenses/by-nc/4.0/" class="external">CC BY-NC 4.0</a> (Creative Commons Uveďte původ–Neužívejte komerčně 4.0).</p>
-<p>Pokud není uvedeno jinak, citujte dokumentaci jako:</p>
-<blockquote class="blockquote">
-<p>AMČR: <em>Uživatelská dokumentace AMČR</em>. DOI: <a href="https://www.doi.org/10.5281/zenodo.8141634">10.5281/zenodo.8141634</a>. Stránka: <a href="https://amcr-help.aiscr.cz/">https://amcr-help.aiscr.cz/</a>. [cit. RRRR-MM-DD]</p>
-</blockquote>
-<p>Případně viz soubor <a href="CITATION.cff">CITATION.cff</a>. Některé stránky dokumentace mají v záhlaví uvedeny autory, data zveřejnění/aktualizace apod. samostatně, ty pak prosím citujte dle těchto informací. Například stránku <a href="./amcr/pian-import.html">tutoriálu k Import geometrie PIAN pomocí CSV souboru</a> tedy citujte takto:</p>
-<blockquote class="blockquote">
-<p>Švejcar, O. 2024: Import geometrie PIAN pomocí CSV souboru. In: AMČR <em>Uživatelská dokumentace AMČR</em>. DOI: <a href="https://www.doi.org/10.5281/zenodo.8141634">10.5281/zenodo.8141634</a>. Stránka: <a href="https://amcr-help.aiscr.cz/amcr/pian-import.html">https://amcr-help.aiscr.cz/amcr/pian-import.html</a>. [cit. RRRR-MM-DD]</p>
-</blockquote>
-<p>Jak správně citovat <strong>data a dokumenty v AMČR</strong> se dočtete <a href="./digiarchiv/citace.html">zde</a>.</p>
-<!-- ::: {.callout-note  collapse="true"}
-
-# Jak upravovat
-
-Pro úpravy stačí kliknout na *Edit this page* v pravo pod navigací.
-Odkaz vede do [GitHub](https://github.com/ARUP-CAS/aiscr-webamcr-help/)
-repozitáře přímo na daný dokument, který lze rovnou upravovat (mám-li dostatečná práva).
-Při **commitu** se spustí akce, která celou stránku aktalizuje a nasadí
-(při větším množství úprav je tedy rozumné upravovat lokálně a **push** používat
-jen při ukončení práce, je to sice cizí výpočetní síla a nic nás nestojí, ale nemusí běžet zbytečně).
-
-Návod ke Quarto je zde: <https://quarto.org/>.
-
-Jednotlivé dokumenty jsou formátovány pomocí [markdownu](https://www.markdownguide.org/):
-
-- **\#** Nadpis 1. úrovně.
-- **\#\#** Nadpis 2. úrovně atd.
-- **\***Text**\*** *kurzívou*.
-- **\*\***Text**\*\*** **tučně**.
-- **\[**Text odkazu**\]\(**url**\)** vytvoří [link](https://www.aiscr.cz/).
-- Obrázek se vkládá obdobně: **\!\[**Popisek obrázku**\]\(**cesta fig/...**\)**.
-- Dvě mezery na konci řádku vytvoří nový odstavec, pro čitelnost je lepší vynechat celý řádek.
-
-## Tabulky
-
-Tabulky lze vkládat ručně jako text formátovaný v Markdownu, viz <https://quarto.org/docs/authoring/tables.html>.
-Druhou variantou je pak stavět tabulky automatizovaně z CSV souborů.
-CSV v UTF8 oddělené čárkami, s textovými buňkami ohraničenými dvojitými uvozovkami (")
-vkládejte do složky `./tabs/`.
-
-Tabulku lze pak vložit tímhle kódem:
-```hdufl
-#| label: tbl-role              # popisek pro křížové odkazy
-#| tbl-cap: "Uživatelské role." # popisek tabulky zobrazený v textu
-
-read.csv("tabs/table.csv") |>   #  "table" nahradit za skutečný název tabulky
-  knitr::kable()
-```
-
-::: -->
-
+</section>
+</section>
+<section id="zapojte-se" class="level2">
+<h2 class="anchored" data-anchor-id="zapojte-se">Zapojte se</h2>
+<p>V případě, že objevíte nějakou chybu, která nám unikla, či případně budete chtít přijít s nápadem na přidání nové funkce, využijte k tomu prosím tento formulář pro nahlášení problému: <a href="https://forms.gle/KVV8tftrEp1t7ocL7" class="uri">https://forms.gle/KVV8tftrEp1t7ocL7</a>.</p>
 
 
 </section>
@@ -931,22 +781,22 @@ read.csv("tabs/table.csv") |>   #  "table" nahradit za skutečný název tabulky
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../digiarchiv/citace.html" class="pagination-link" aria-label="Citace dat a dokumentů">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Citace dat a dokumentů</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./zakladni-info/zakladni-info.html" class="pagination-link" aria-label="Základní informace">
-        <span class="nav-page-text">Základní informace</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="./about/index.html" class="fttext">Kontakty</a> | <u id="open_preferences_center" class="fttext">Cookies</u> | <span class="fttext">CC BY-NC 4.0</span></p>
+<p><a href="../about/index.html" class="fttext">Kontakty</a> | <u id="open_preferences_center" class="fttext">Cookies</u> | <span class="fttext">CC BY-NC 4.0</span></p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="https://www.aiscr.cz/" target="_blank"><img src="./figs/logo-aiscr-hor.png" height="60"></a></p>
-<div class="toc-actions"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/index.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
+<p><a href="https://www.aiscr.cz/" target="_blank"><img src="../figs/logo-aiscr-hor.png" height="60"></a></p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/blob/main/digiarchiv/qgis-viewer.qmd" class="toc-action"><i class="bi bi-github"></i>Zobrazit zdrojový kód</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/edit/main/digiarchiv/qgis-viewer.qmd" class="toc-action"><i class="bi empty"></i>Upravit stránku</a></li><li><a href="https://github.com/ARUP-CAS/aiscr-webamcr-help/issues/new" class="toc-action"><i class="bi empty"></i>Nahlásit problém</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Vytvořeno s ♡ v <a href="https://www.quarto.org/" target="_blank">Quarto</a>, zdroj na <a href="https://github.com/ARUP-CAS/aiscr-webamcr-help" target="_blank">GitHub <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 496 512" width="14" style="fill:#6b6b6b; margin-left:2px;"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></p>
 </div>
