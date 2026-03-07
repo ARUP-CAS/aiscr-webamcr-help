@@ -1,0 +1,88 @@
+{
+  "repository": "ARUP-CAS/aiscr-webamcr-help",
+  "analysis_type": "frontend_analysis",
+  "last_updated": null,
+  "note": "Analýza CSS/SCSS/EJS/Quarto konfigurace. Bude doplněna při první review session.",
+
+  "quarto_configuration": {
+    "config_file": "_quarto.yml",
+    "output_format": "html",
+    "theme": {
+      "base": "bootstrap",
+      "custom_scss": "theme.scss",
+      "additional_css": ["museo.css", "styles.css"]
+    },
+    "extensions_used": ["shafayetShafee/bsicons"],
+    "freeze": {
+      "enabled": true,
+      "path": "_freeze/",
+      "note": "Freeze zajišťuje reproducibilitu R výpočtů bez nutnosti spouštět R při každém buildu"
+    },
+    "review_items": [
+      "Zkontrolovat verzi Quarto v _quarto.yml",
+      "Ověřit správnost navigační struktury vs. existující .qmd soubory",
+      "Zkontrolovat konfiguraci search"
+    ]
+  },
+
+  "styling": {
+    "theme_scss": {
+      "file": "theme.scss",
+      "type": "Bootstrap SCSS override",
+      "purpose": "Přizpůsobení Bootstrap proměnných (barvy, fonty, spacing) pro vizuální identitu AIS CR",
+      "review_items": [
+        "Ověřit konzistenci barev s vizuálním stylem ARUP-CAS",
+        "Zkontrolovat, zda jsou použity CSS proměnné pro snadnou údržbu"
+      ]
+    },
+    "museo_css": {
+      "file": "museo.css",
+      "type": "@font-face declarations",
+      "purpose": "Vlastní font Museo používaný v identitě AIS CR",
+      "font_path": "fonts/",
+      "review_items": [
+        "Ověřit, že jsou k dispozici fallback fonty",
+        "Zkontrolovat font-display strategii"
+      ]
+    },
+    "styles_css": {
+      "file": "styles.css",
+      "type": "Global CSS",
+      "purpose": "Doplňkové styly nezahrnuté v SCSS tématu",
+      "review_items": [
+        "Zkontrolovat, zda se nepřekrývají s theme.scss (potenciální konflikty)"
+      ]
+    }
+  },
+
+  "templating": {
+    "tiles_ejs": {
+      "file": "tiles.ejs",
+      "engine": "EJS",
+      "data_source": "soucasti.yml",
+      "purpose": "Generování HTML dlaždic pro přehled součástí AIS CR na úvodní stránce",
+      "review_items": [
+        "Ověřit validitu EJS šablony",
+        "Zkontrolovat, zda soucasti.yml obsahuje aktuální seznam součástí"
+      ]
+    }
+  },
+
+  "assets": {
+    "figs": {
+      "path": "figs/",
+      "note": "Screenshoty a diagramy — kontrolovat alt texty v .qmd souborech"
+    },
+    "fonts": {
+      "path": "fonts/",
+      "note": "Vlastní fonty Museo — binární soubory, neupravovat"
+    }
+  },
+
+  "review_items_summary": [
+    "Ověřit konzistenci témat across všech sekcí",
+    "Zkontrolovat responsivitu (mobile breakpoints)",
+    "Ověřit přístupnost (WCAG) — alt texty, kontrast, heading hierarchy",
+    "Zkontrolovat, zda jsou obrázky v figs/ optimalizovány pro web"
+  ]
+}
