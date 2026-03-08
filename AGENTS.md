@@ -44,6 +44,26 @@ For technical review sessions also read:
 docs_agents/PROMPT.md
 ```
 
+### Resolving Inconsistencies
+
+If content in `docs_agents/` contradicts high-level repository rules or governance
+defined in this document (`AGENTS.md`), `CONTRIBUTING.md`, or other authoritative
+project documentation, agents must treat those higher-level documents as the
+**source of truth**.
+
+In such cases agents should:
+
+1. Prefer the high-level governance rules defined in:
+   - `AGENTS.md`
+   - `CONTRIBUTING.md`
+   - repository documentation standards
+2. Adapt or update affected files in `docs_agents/` to align with those rules.
+3. Record the adjustment in the review history (for example `review_cache.json`
+   or `refactoring_backlog.md`) when relevant.
+
+This ensures long-running AI review artefacts remain consistent with
+current repository governance.
+
 ---
 
 ## AI-Generated Content
@@ -99,6 +119,19 @@ Agents must follow these behavioural rules:
    - `docs_agents/bugs.md`
    - `docs_agents/refactoring_backlog.md`
 5. If new insights about agent workflows arise, suggest updates to this file.
+
+### Recommended Skills
+
+Specialised agent capabilities that may help with repository maintenance.
+
+Skills are optional helpers and should be used when they improve efficiency
+or quality of work.
+
+- `doc` — reviewing and editing documentation artefacts, including `.qmd` files,
+  navigation structure, terminology and content accuracy
+- `gh-fix-ci` — diagnosing and fixing CI failures in GitHub Actions and Quarto
+  build pipelines
+- `gh-address-comments` — incorporating pull request review comments
 
 ---
 
@@ -271,7 +304,6 @@ Changes to `docs_agents/` always require **human review**.
 ```
 docs_agents/
 ├── PROMPT.md
-├── PROMPT_RUN.md
 ├── review_config.yaml
 ├── repository_map.json
 ├── dependency_graph.json
