@@ -2,7 +2,7 @@
 
 This file defines the rules, scope and workflows for AI agents (Claude Code, GitHub Copilot, Cursor, etc.) working in this repository.
 
-Rules in this file apply to the entire repository.  
+Rules in this file apply to the entire repository.
 A nested `AGENTS.md` in a subdirectory takes precedence for that subtree.
 
 ---
@@ -29,7 +29,7 @@ Before starting any work, agents **must gather repository context**.
 Always read the following files first:
 
 | File | Purpose |
-| ----- | ----- |
+| --- | --- |
 | `docs_agents/repository_map.json` | Repository structure overview |
 | `docs_agents/review_cache.json` | State of previous AI review sessions |
 | `docs_agents/bugs.md` | Known problems |
@@ -40,7 +40,7 @@ Reading them prevents duplicated work and helps maintain continuity between revi
 
 For technical review sessions also read:
 
-```markdown
+```
 docs_agents/PROMPT.md
 ```
 
@@ -59,13 +59,13 @@ Examples include:
 
 Agent work should be committed to a dedicated branch:
 
-```markdown
+```
 agents/<agent_name>/<topic>
 ```
 
 Examples:
 
-```markdown
+```
 agents/claude/review-content-structure
 agents/copilot/fix-broken-links
 ```
@@ -121,7 +121,7 @@ the following sources.
 ### Live Websites
 
 | Source | URL | Purpose |
-| ------ | ------ | ------ |
+| --- | --- | --- |
 | AMČR information site | https://amcr-info.aiscr.cz/ | Feature descriptions, terminology |
 | AIS CR main site | https://www.aiscr.cz/ | System overview |
 | Digital Archive AMČR | https://digiarchiv.aiscr.cz/ | Archive UI and behaviour |
@@ -132,7 +132,7 @@ the following sources.
 ### Source Code Repositories
 
 | Repository | URL |
-| ------ | ------ |
+| --- | --- |
 | AMČR main application | https://github.com/ARUP-CAS/aiscr-webamcr |
 | Digital Archive | https://github.com/ARUP-CAS/aiscr-digiarchiv-2 |
 | AMČR info site | https://github.com/ARUP-CAS/aiscr-amcr-home |
@@ -150,7 +150,7 @@ Source code is authoritative for:
 ### Technical Documentation
 
 | Source | URL |
-| ------ | ------ |
+| --- | --- |
 | AMČR technical documentation | https://aiscr-webamcr.readthedocs.io/ |
 
 This documentation is authoritative for:
@@ -182,7 +182,7 @@ Before editing documentation:
 3. When unsure, verify in **source code**.
 4. Record discrepancies in:
 
-```markdown
+```
 docs_agents/bugs.md
 ```
 
@@ -206,7 +206,7 @@ docs_agents/bugs.md
 
 Do not edit:
 
-```markdown
+```
 _freeze/
 _site/
 ```
@@ -215,7 +215,7 @@ These directories contain generated artefacts.
 
 Binary files in:
 
-```markdown
+```
 figs/
 fonts/
 ```
@@ -255,7 +255,7 @@ Rules:
 
 Branch naming:
 
-```markdown
+```
 agents/<agent-name>/<topic>
 docs/<topic>
 fix/<topic>
@@ -268,7 +268,7 @@ Changes to `docs_agents/` always require **human review**.
 
 ## docs_agents Structure
 
-```markdown
+```
 docs_agents/
 ├── PROMPT.md
 ├── PROMPT_RUN.md
@@ -296,7 +296,7 @@ are typically relevant.
 ## Key Files
 
 | File | Purpose |
-| ----- | ----- |
+| --- | --- |
 | `_quarto.yml` | Main Quarto configuration |
 | `soucasti.yml` | AIS CR component list |
 | `index.qmd` | Landing page |
@@ -311,7 +311,7 @@ are typically relevant.
 ## Repository Context in AIS CR
 
 | Repository | Purpose |
-| ------ | ------ |
+| --- | --- |
 | aiscr-webamcr | Main AMČR application |
 | aiscr-digiarchiv-2 | Digital Archive |
 | aiscr-webamcr-help | User documentation |
