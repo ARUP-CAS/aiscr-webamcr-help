@@ -1,8 +1,9 @@
 {
   "repository": "ARUP-CAS/aiscr-webamcr-help",
+  "schema_version": "3",
   "framework_version": "1.0.0",
   "framework_bootstrapped": "2026-03-07",
-  "note": "Tento soubor slouží jako cache stavu AI review. Aktualizuje se po každé review session.",
+  "note": "Tento soubor slouží jako cache stavu AI review. Aktualizuje se po každé review session. Stav 'in_progress' znamená přerušenou session — agent ji musí dokončit před spuštěním nové.",
 
   "last_review": {
     "date": null,
@@ -10,6 +11,57 @@
     "agent": null,
     "branch": null,
     "report": null
+  },
+
+  "sessions": {
+    "S01": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S02": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S03": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S04": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S05": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S06": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    }
   },
 
   "review_history": [],

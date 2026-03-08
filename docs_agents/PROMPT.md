@@ -66,10 +66,16 @@ At the start of every agent session, execute in this exact order:
 2. Read `docs_agents/review_config.yaml` — load configuration.
 3. Read `docs_agents/review_cache.json` — load session state and previous findings.
 4. Check `docs_agents/bugs.md` and `docs_agents/refactoring_backlog.md`.
-5. Run **Step 0 — Live Application Verification** (see below).
-6. Select the next pending session from the session type registry.
-7. Execute the session, respecting scope limits.
-8. Update `review_cache.json`, `bugs.md`, `refactoring_backlog.md` and write a report.
+5. **Check for interrupted sessions (MANDATORY before selecting a new session):**
+   - Look for any session with `"status": "in_progress"` in `review_cache.json`.
+   - If found → **resume that session** from the first step NOT listed in `completed_steps`.
+   - Do NOT start a new session while an `in_progress` session exists.
+6. If no `in_progress` session exists → Run **Step 0 — Live Application Verification** (see below).
+7. Select the next `pending` session from the session type registry.
+8. **Immediately** set that session's status to `"in_progress"` and `completed_steps: []` in `review_cache.json` before doing any work.
+9. Execute the session step by step, appending each completed step name to `completed_steps` after finishing it.
+10. When all steps are done → set status to `"done"`, record `completed_at`, clear `completed_steps`.
+11. Update `review_cache.json`, `bugs.md`, `refactoring_backlog.md` and write a report.
 
 ---
 
@@ -178,20 +184,24 @@ Create and maintain: `docs_agents/review_cache.json`
 
 ```json
 {
-  "schema_version": "2",
+  "schema_version": "3",
   "last_updated": "<iso8601>",
   "sessions": {
     "S01": {
-      "status": "pending|done|skipped",
+      "status": "pending|in_progress|done|skipped",
+      "started_at": null,
       "completed_at": null,
       "report_path": null,
-      "step0_results": null
+      "step0_results": null,
+      "completed_steps": []
     },
     "S02": {
-      "status": "pending|done|skipped",
+      "status": "pending|in_progress|done|skipped",
+      "started_at": null,
       "completed_at": null,
       "report_path": null,
-      "step0_results": null
+      "step0_results": null,
+      "completed_steps": []
     }
   },
   "reviewed_sections": {
@@ -203,6 +213,23 @@ Create and maintain: `docs_agents/review_cache.json`
   }
 }
 ```
+
+### Status values
+
+| Status | Meaning |
+| --- | --- |
+| `pending` | Session not yet started |
+| `in_progress` | Session started but not finished — **always resume, never skip** |
+| `done` | Session fully completed |
+| `skipped` | Session intentionally skipped (human decision) |
+
+### Partial completion rules
+
+- **Before starting any work** on a session → set `status: "in_progress"`, `started_at: <iso8601>`, `completed_steps: []`.
+- **After each logical step completes** → append the step name to `completed_steps` and update `review_cache.json`.
+- **If the agent run ends mid-session** → the `in_progress` status and `completed_steps` list tell the next agent exactly where to resume.
+- **Never mark a session `done` unless all steps are confirmed complete.**
+- **Never start a new session if another session has `status: "in_progress"`** — finish the interrupted one first.
 
 ---
 
