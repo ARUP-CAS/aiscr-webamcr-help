@@ -74,7 +74,7 @@ aiscr-webamcr-help/
 ├── DESCRIPTION            # R package description (pro renv)
 ├── CODEOWNERS             # Vlastníci kódu
 ├── AGENTS.md              # Pokyny pro AI agenty
-└── docs_agents/           # AI review infrastruktura
+└── .agents/           # AI review infrastruktura
 ```
 
 ---

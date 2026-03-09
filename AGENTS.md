@@ -30,10 +30,10 @@ Always read the following files first:
 
 | File | Purpose |
 | --- | --- |
-| `docs_agents/repository_map.json` | Repository structure overview |
-| `docs_agents/review_cache.json` | State of previous AI review sessions |
-| `docs_agents/bugs.md` | Known problems |
-| `docs_agents/refactoring_backlog.md` | Proposed improvements |
+| `.agents/analysis/repository_map.json` | Repository structure overview |
+| `.agents/config/review_cache.json` | State of previous AI review sessions |
+| `.agents/reports/bugs.md` | Known problems |
+| `.agents/reports/refactoring_backlog.md` | Proposed improvements |
 
 These files contain context accumulated across previous sessions.  
 Reading them prevents duplicated work and helps maintain continuity between review sessions.
@@ -41,12 +41,12 @@ Reading them prevents duplicated work and helps maintain continuity between revi
 For technical review sessions also read:
 
 ```
-docs_agents/PROMPT.md
+.agents/prompts/review_codebase.md
 ```
 
 ### Resolving Inconsistencies
 
-If content in `docs_agents/` contradicts high-level repository rules or governance
+If content in `.agents/` contradicts high-level repository rules or governance
 defined in this document (`AGENTS.md`), `CONTRIBUTING.md`, or other authoritative
 project documentation, agents must treat those higher-level documents as the
 **source of truth**.
@@ -57,7 +57,7 @@ In such cases agents should:
    - `AGENTS.md`
    - `CONTRIBUTING.md`
    - repository documentation standards
-2. Adapt or update affected files in `docs_agents/` to align with those rules.
+2. Adapt or update affected files in `.agents/` to align with those rules.
 3. Record the adjustment in the review history (for example `review_cache.json`
    or `refactoring_backlog.md`) when relevant.
 
@@ -68,7 +68,7 @@ current repository governance.
 
 ## AI-Generated Content
 
-All artefacts produced by AI agents belong in the `docs_agents/` directory.
+All artefacts produced by AI agents belong in the `.agents/` directory.
 
 Examples include:
 
@@ -113,11 +113,11 @@ Agents must avoid large unrelated refactors.
 Agents must follow these behavioural rules:
 
 1. **Always gather context first** (see Repository Orientation).
-2. **Do not repeat work** already recorded in `docs_agents/`.
+2. **Do not repeat work** already recorded in `.agents/`.
 3. Prefer **small incremental changes** over large edits.
 4. When identifying issues, record them in:
-   - `docs_agents/bugs.md`
-   - `docs_agents/refactoring_backlog.md`
+   - `.agents/reports/bugs.md`
+   - `.agents/reports/refactoring_backlog.md`
 5. If new insights about agent workflows arise, suggest updates to this file.
 
 ### Recommended Skills
@@ -216,7 +216,7 @@ Before editing documentation:
 4. Record discrepancies in:
 
 ```
-docs_agents/bugs.md
+.agents/reports/bugs.md
 ```
 
 ---
@@ -295,31 +295,36 @@ fix/<topic>
 chore/<topic>
 ```
 
-Changes to `docs_agents/` always require **human review**.
+Changes to `.agents/` always require **human review**.
 
 ---
 
-## docs_agents Structure
+## .agents Structure
 
 ```
-docs_agents/
-├── PROMPT.md
-├── review_config.yaml
-├── repository_map.json
-├── dependency_graph.json
-├── review_cache.json
-├── bugs.md
-├── refactoring_backlog.md
-├── cicd_analysis.json
-├── frontend_analysis.json
-├── review_reports/
-└── prompt_evolution/
+.agents/
+├── README.md
+├── prompts/
+│   ├── review_codebase.md
+│   └── prompt_evolution/
+├── config/
+│   ├── review_config.yaml
+│   └── review_cache.json
+├── analysis/
+│   ├── repository_map.json
+│   ├── dependency_graph.json
+│   ├── cicd_analysis.json
+│   └── frontend_analysis.json
+└── reports/
+    ├── review_reports/
+    ├── bugs.md
+    └── refactoring_backlog.md
 ```
 
 For this documentation repository only:
 
-- `cicd_analysis.json`
-- `frontend_analysis.json`
+- `analysis/cicd_analysis.json`
+- `analysis/frontend_analysis.json`
 
 are typically relevant.
 

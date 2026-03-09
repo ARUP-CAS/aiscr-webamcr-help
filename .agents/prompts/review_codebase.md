@@ -63,9 +63,9 @@ Before any review session, always study sources from all three categories below.
 At the start of every agent session, execute in this exact order:
 
 1. Read `AGENTS.md` — contains repository-specific governance rules that take precedence.
-2. Read `docs_agents/review_config.yaml` — load configuration.
-3. Read `docs_agents/review_cache.json` — load session state and previous findings.
-4. Check `docs_agents/bugs.md` and `docs_agents/refactoring_backlog.md`.
+2. Read `.agents/review_config.yaml` — load configuration.
+3. Read `.agents/review_cache.json` — load session state and previous findings.
+4. Check `.agents/bugs.md` and `.agents/refactoring_backlog.md`.
 5. **Check for interrupted sessions (MANDATORY before selecting a new session):**
    - Look for any session with `"status": "in_progress"` in `review_cache.json`.
    - If found → **resume that session** from the first step NOT listed in `completed_steps`.
@@ -83,7 +83,7 @@ At the start of every agent session, execute in this exact order:
 
 Run these checks **before loading any repository files**.
 Record results in the session report under "Step 0 results".
-Log any failures in `docs_agents/bugs.md`.
+Log any failures in `.agents/bugs.md`.
 
 ```bash
 # 1. Primary documentation reference site
@@ -118,40 +118,40 @@ sessions:
   - id: S01
     name: bootstrap
     description: Initial framework setup — repository map, structure overview, first bugs pass
-    target: docs_agents/review_reports/YYYY-MM-DD-bootstrap.md
+    target: .agents/review_reports/YYYY-MM-DD-bootstrap.md
     trigger: first session only
     creates:
-      - docs_agents/repository_map.json
-      - docs_agents/dependency_graph.json
+      - .agents/repository_map.json
+      - .agents/dependency_graph.json
 
   - id: S02
     name: general_review
     description: Full repository — navigation structure, section coverage, internal links, CI
-    target: docs_agents/review_reports/YYYY-MM-DD-general-review.md
+    target: .agents/review_reports/YYYY-MM-DD-general-review.md
     trigger: after each release
 
   - id: S03
     name: content_accuracy
     description: Content vs live amcr-info.aiscr.cz — terminology, screenshots, workflows
-    target: docs_agents/review_reports/YYYY-MM-DD-content-accuracy.md
+    target: .agents/review_reports/YYYY-MM-DD-content-accuracy.md
     trigger: after AMCR application updates
 
   - id: S04
     name: terminology_review
     description: Terminology vs aiscr-webamcr source (Django models, templates, UI labels)
-    target: docs_agents/review_reports/YYYY-MM-DD-terminology.md
+    target: .agents/review_reports/YYYY-MM-DD-terminology.md
     trigger: after major application changes
 
   - id: S05
     name: linkcheck
     description: Broken internal and external links
-    target: docs_agents/review_reports/YYYY-MM-DD-linkcheck.md
+    target: .agents/review_reports/YYYY-MM-DD-linkcheck.md
     trigger: monthly
 
   - id: S06
     name: cicd_review
     description: GitHub Actions workflows — build and deploy health
-    target: docs_agents/review_reports/YYYY-MM-DD-cicd.md
+    target: .agents/review_reports/YYYY-MM-DD-cicd.md
     trigger: when workflows change
 ```
 
@@ -162,25 +162,32 @@ sessions:
 Create and maintain:
 
 ```plain
-docs_agents/
-  bugs.md
-  cicd_analysis.json
-  dependency_graph.json
-  frontend_analysis.json
-  PROMPT.md
-  prompt_evolution/README.md
-  review_reports/README.md
-  refactoring_backlog.md
-  repository_map.json
-  review_cache.json
-  review_config.yaml
+.agents/
+  README.md
+  prompts/
+    review_codebase.md
+    prompt_evolution/
+      README.md
+  config/
+    review_config.yaml
+    review_cache.json
+  analysis/
+    repository_map.json
+    dependency_graph.json
+    cicd_analysis.json
+    frontend_analysis.json
+  reports/
+    review_reports/
+      README.md
+    bugs.md
+    refactoring_backlog.md
 ```
 
 ---
 
 ## REVIEW CACHE
 
-Create and maintain: `docs_agents/review_cache.json`
+Create and maintain: `.agents/review_cache.json`
 
 ```json
 {
@@ -235,7 +242,7 @@ Create and maintain: `docs_agents/review_cache.json`
 
 ## BUG TRACKING
 
-Create and maintain: `docs_agents/bugs.md`
+Create and maintain: `.agents/bugs.md`
 
 Before adding a bug entry:
 
@@ -263,7 +270,7 @@ Each bug entry:
 
 ## REPORT OUTPUT
 
-Each completed session must produce: `docs_agents/review_reports/YYYY-MM-DD-<session-type>.md`
+Each completed session must produce: `.agents/review_reports/YYYY-MM-DD-<session-type>.md`
 
 The report must be written in Czech and include:
 
@@ -297,11 +304,11 @@ At the end of each session report, include a section:
 - Jaka sekce dokumentace by bylo vhodne pridat do scope
 ```
 
-Save to: `docs_agents/prompt_evolution/<session_id>_prompt_update.md`
+Save to: `.agents/prompts/prompt_evolution/<session_id>_prompt_update.md`
 
 Suggestions accumulate across sessions. A human reviewer applies accepted
-suggestions to `docs_agents/PROMPT.md` before starting a new audit cycle.
-Agents must not self-modify `PROMPT.md`.
+suggestions to `.agents/prompts/review_codebase.md` before starting a new audit cycle.
+Agents must not self-modify `review_codebase.md`.
 
 ---
 
@@ -312,7 +319,7 @@ When reviewing content accuracy, agents must:
 1. Verify the workflow in the **live application** (https://amcr-info.aiscr.cz/).
 2. Verify terminology against **AMCR UI and amcr-info.aiscr.cz**.
 3. When unsure, verify in **source code** (aiscr-webamcr Django models and templates).
-4. Record discrepancies in `docs_agents/bugs.md`.
+4. Record discrepancies in `.agents/bugs.md`.
 
 Documentation must describe **how the system actually works today**.
 Screenshots, terminology and workflows change over time.
@@ -331,5 +338,5 @@ because AMCR has methodological and legal implications for archaeologists.
 5. All session outputs must be written in Czech.
 6. All PRs target `main`. Branch naming: `agents/<agent>/<topic>`.
 7. Never push directly to `main`.
-8. Changes to `docs_agents/` require human review before merge.
+8. Changes to `.agents/` require human review before merge.
 9. All new content must comply with the **CC-BY-NC-4.0 licence**.
