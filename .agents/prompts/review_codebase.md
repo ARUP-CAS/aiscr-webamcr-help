@@ -1,4 +1,4 @@
-# PROMPT.md — AI Review System for aiscr-webamcr-help
+# review_codebase.md — AI Review System for aiscr-webamcr-help
 
 This file defines the **system prompt and full execution procedure** for
 AI-assisted review of the `ARUP-CAS/aiscr-webamcr-help` repository.
@@ -63,9 +63,9 @@ Before any review session, always study sources from all three categories below.
 At the start of every agent session, execute in this exact order:
 
 1. Read `AGENTS.md` — contains repository-specific governance rules that take precedence.
-2. Read `.agents/review_config.yaml` — load configuration.
-3. Read `.agents/review_cache.json` — load session state and previous findings.
-4. Check `.agents/bugs.md` and `.agents/refactoring_backlog.md`.
+2. Read `.agents/config/review_config.yaml` — load configuration.
+3. Read `.agents/config/review_cache.json` — load session state and previous findings.
+4. Check `.agents/reports/bugs.md` and `.agents/reports/refactoring_backlog.md`.
 5. **Check for interrupted sessions (MANDATORY before selecting a new session):**
    - Look for any session with `"status": "in_progress"` in `review_cache.json`.
    - If found → **resume that session** from the first step NOT listed in `completed_steps`.
@@ -83,7 +83,7 @@ At the start of every agent session, execute in this exact order:
 
 Run these checks **before loading any repository files**.
 Record results in the session report under "Step 0 results".
-Log any failures in `.agents/bugs.md`.
+Log any failures in `.agents/reports/bugs.md`.
 
 ```bash
 # 1. Primary documentation reference site
@@ -118,40 +118,40 @@ sessions:
   - id: S01
     name: bootstrap
     description: Initial framework setup — repository map, structure overview, first bugs pass
-    target: .agents/review_reports/YYYY-MM-DD-bootstrap.md
+    target: .agents/reports/review_reports/YYYY-MM-DD-bootstrap.md
     trigger: first session only
     creates:
-      - .agents/repository_map.json
-      - .agents/dependency_graph.json
+      - .agents/analysis/repository_map.json
+      - .agents/analysis/dependency_graph.json
 
   - id: S02
     name: general_review
     description: Full repository — navigation structure, section coverage, internal links, CI
-    target: .agents/review_reports/YYYY-MM-DD-general-review.md
+    target: .agents/reports/review_reports/YYYY-MM-DD-general-review.md
     trigger: after each release
 
   - id: S03
     name: content_accuracy
     description: Content vs live amcr-info.aiscr.cz — terminology, screenshots, workflows
-    target: .agents/review_reports/YYYY-MM-DD-content-accuracy.md
+    target: .agents/reports/review_reports/YYYY-MM-DD-content-accuracy.md
     trigger: after AMCR application updates
 
   - id: S04
     name: terminology_review
     description: Terminology vs aiscr-webamcr source (Django models, templates, UI labels)
-    target: .agents/review_reports/YYYY-MM-DD-terminology.md
+    target: .agents/reports/review_reports/YYYY-MM-DD-terminology.md
     trigger: after major application changes
 
   - id: S05
     name: linkcheck
     description: Broken internal and external links
-    target: .agents/review_reports/YYYY-MM-DD-linkcheck.md
+    target: .agents/reports/review_reports/YYYY-MM-DD-linkcheck.md
     trigger: monthly
 
   - id: S06
     name: cicd_review
     description: GitHub Actions workflows — build and deploy health
-    target: .agents/review_reports/YYYY-MM-DD-cicd.md
+    target: .agents/reports/review_reports/YYYY-MM-DD-cicd.md
     trigger: when workflows change
 ```
 
@@ -187,7 +187,7 @@ Create and maintain:
 
 ## REVIEW CACHE
 
-Create and maintain: `.agents/review_cache.json`
+Create and maintain: `.agents/config/review_cache.json`
 
 ```json
 {
@@ -242,7 +242,7 @@ Create and maintain: `.agents/review_cache.json`
 
 ## BUG TRACKING
 
-Create and maintain: `.agents/bugs.md`
+Create and maintain: `.agents/reports/bugs.md`
 
 Before adding a bug entry:
 
@@ -270,7 +270,7 @@ Each bug entry:
 
 ## REPORT OUTPUT
 
-Each completed session must produce: `.agents/review_reports/YYYY-MM-DD-<session-type>.md`
+Each completed session must produce: `.agents/reports/review_reports/YYYY-MM-DD-<session-type>.md`
 
 The report must be written in Czech and include:
 
@@ -319,7 +319,7 @@ When reviewing content accuracy, agents must:
 1. Verify the workflow in the **live application** (https://amcr-info.aiscr.cz/).
 2. Verify terminology against **AMCR UI and amcr-info.aiscr.cz**.
 3. When unsure, verify in **source code** (aiscr-webamcr Django models and templates).
-4. Record discrepancies in `.agents/bugs.md`.
+4. Record discrepancies in `.agents/reports/bugs.md`.
 
 Documentation must describe **how the system actually works today**.
 Screenshots, terminology and workflows change over time.
