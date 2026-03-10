@@ -30,5 +30,5 @@ digiarchiv/                    @petrpajdla
 metodika/                      @petrpajdla
 
 # AI review infrastruktura — VŽDY vyžaduje lidský review před mergem
-docs_agents/                   @petrpajdla
+/.agents/                      @motyc
 AGENTS.md                      @petrpajdla

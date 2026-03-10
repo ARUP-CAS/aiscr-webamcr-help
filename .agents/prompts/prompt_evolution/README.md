@@ -25,7 +25,7 @@ Příklady:
 
 ## Aktuální verze promptu
 
-Aktuální systémový prompt je vždy v: `docs_agents/PROMPT.md`
+Aktuální systémový prompt je vždy v: `.agents/prompts/review_codebase.md`
 
 ## Historie verzí
 

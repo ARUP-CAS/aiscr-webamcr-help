@@ -74,7 +74,7 @@ aiscr-webamcr-help/
 ├── DESCRIPTION            # R package description (for renv)
 ├── CODEOWNERS             # Code ownership
 ├── AGENTS.md              # Instructions for AI agents
-└── docs_agents/           # AI review infrastructure
+└── .agents/           # AI review infrastructure
 ```
 
 ---
