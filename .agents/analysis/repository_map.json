@@ -1,0 +1,128 @@
+{
+  "repository": "ARUP-CAS/aiscr-webamcr-help",
+  "type": "documentation",
+  "description": "Uživatelský manuál AMČR — statický web generovaný nástrojem Quarto",
+  "published_url": "https://amcr-help.aiscr.cz/",
+  "last_updated": "2026-03-11",
+  "version": "1.1.0",
+  "licence": "CC-BY-NC-4.0",
+
+  "structure": {
+    "root_files": {
+      "_quarto.yml": "Hlavní konfigurace Quarto projektu — navigace, téma, výstupní formát",
+      "index.qmd": "Úvodní stránka dokumentace",
+      "404.qmd": "Stránka pro nenalezené URL",
+      "soucasti.yml": "YAML konfigurace součástí AIS CR (použita v šablonách)",
+      "references.bib": "BibTeX bibliografické reference",
+      "theme.scss": "Vlastní Bootstrap/Quarto SCSS téma",
+      "museo.css": "CSS pro font Museo (vlastní font ARUP-CAS)",
+      "styles.css": "Globální CSS styly",
+      "tiles.ejs": "EJS šablona pro dlaždice součástí AIS CR na úvodní stránce",
+      "CITATION.cff": "Citační metadata projektu (pro Zenodo a GitHub)",
+      "DESCRIPTION": "R package description (použito pro správu R závislostí)",
+      ".Rbuildignore": "Soubory ignorované při R package build",
+      ".gitignore": "Soubory ignorované Gitem"
+    },
+
+    "content_sections": {
+      "about": {
+        "description": "Informace o dokumentaci samotné",
+        "type": "qmd_section"
+      },
+      "amcr": {
+        "description": "Dokumentace webové aplikace AMČR — hlavní sekce manuálu",
+        "type": "qmd_section",
+        "note": "Primární obsah — návody pro práci s AMČR"
+      },
+      "digiarchiv": {
+        "description": "Dokumentace Digitálního archivu AMČR",
+        "type": "qmd_section"
+      },
+      "metodika": {
+        "description": "Metodické příručky a pracovní postupy",
+        "type": "qmd_section"
+      },
+      "o-systemu": {
+        "description": "Popis AIS CR a jeho součástí",
+        "type": "qmd_section"
+      },
+      "slovnik": {
+        "description": "Slovník odborných pojmů AMČR",
+        "type": "qmd_section"
+      },
+      "zakladni-info": {
+        "description": "Základní informace pro uživatele — přihlášení, role, první kroky",
+        "type": "qmd_section"
+      },
+      "zpravodaj": {
+        "description": "Zpravodaj / changelog dokumentace — novinky a aktualizace",
+        "type": "qmd_section"
+      },
+      "links": {
+        "description": "Sdílené odkazy používané napříč dokumentací",
+        "type": "shared_resources"
+      },
+      "figs": {
+        "description": "Obrázky, screenshoty a diagramy",
+        "type": "assets"
+      },
+      "fonts": {
+        "description": "Vlastní fonty",
+        "type": "assets"
+      }
+    },
+
+    "infrastructure": {
+      "_extensions": {
+        "description": "Quarto extensions",
+        "extensions": [
+          {
+            "name": "bsicons",
+            "author": "shafayetShafee",
+            "purpose": "Bootstrap Icons pro Quarto dokumenty"
+          }
+        ]
+      },
+      "_freeze": {
+        "description": "Quarto freeze soubory — uložené výsledky R výpočtů pro reproducibilitu",
+        "note": "Verzováno v Gitu; regenerovat pouze při změně výpočetního kódu"
+      },
+      ".github": {
+        "description": "GitHub Actions workflows pro CI/CD",
+        "expected_workflows": [
+          "build-and-deploy — render Quarto a publikace na GitHub Pages"
+        ]
+      }
+    }
+  },
+
+  "external_systems": {
+    "amcr_app": {
+      "url": "https://amcr.aiscr.cz/",
+      "description": "Webová aplikace AMČR (dokumentovaný systém)"
+    },
+    "digiarchiv": {
+      "url": "https://digiarchiv.aiscr.cz/",
+      "description": "Digitální archiv AMČR"
+    },
+    "aiscr_home": {
+      "url": "https://www.aiscr.cz/",
+      "description": "Hlavní web AIS CR"
+    },
+    "technical_docs": {
+      "url": "https://aiscr-webamcr.readthedocs.io/",
+      "description": "Technická dokumentace AMČR (ReadTheDocs)"
+    },
+    "zenodo": {
+      "url": "https://zenodo.org/badge/latestdoi/610682820",
+      "description": "Zenodo DOI pro citaci"
+    }
+  },
+
+  "related_repositories": {
+    "aiscr-webamcr": "Hlavní aplikace AMČR (Django/Python) — P0",
+    "aiscr-digiarchiv-2": "Digitální archiv (Java/Spring) — P0",
+    "aiscr-api-home": "Dokumentace AMČR API (Quarto) — P1",
+    "aiscr-home": "Hlavní web AIS CR (SvelteKit) — P1"
+  }
+}

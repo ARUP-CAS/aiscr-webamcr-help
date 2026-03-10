@@ -1,0 +1,34 @@
+# CODEOWNERS — aiscr-webamcr-help
+#
+# Definuje vlastníky částí repozitáře a automatické přiřazování reviewerů v PR.
+# Dokumentace: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# Formát: <vzor> <@github-uživatel nebo @org/tým>
+
+# Výchozí vlastník pro celý repozitář
+* @petrpajdla
+
+# Hlavní konfigurace projektu
+_quarto.yml                    @petrpajdla
+soucasti.yml                   @petrpajdla
+
+# Stylování
+theme.scss                     @petrpajdla
+museo.css                      @petrpajdla
+styles.css                     @petrpajdla
+
+# CI/CD workflows — vyžadují review
+.github/                       @petrpajdla
+
+# Dokumentace AMČR (webová aplikace)
+amcr/                          @petrpajdla
+
+# Digitální archiv
+digiarchiv/                    @petrpajdla
+
+# Metodika
+metodika/                      @petrpajdla
+
+# AI review infrastruktura — VŽDY vyžaduje lidský review před mergem
+/.agents/                      @motyc
+AGENTS.md                      @petrpajdla

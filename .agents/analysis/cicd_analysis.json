@@ -1,0 +1,53 @@
+{
+  "repository": "ARUP-CAS/aiscr-webamcr-help",
+  "analysis_type": "cicd_analysis",
+  "last_updated": null,
+  "note": "Analýza bude doplněna při první review session po prozkoumání .github/workflows/",
+
+  "provider": "GitHub Actions",
+  "workflows_path": ".github/workflows/",
+
+  "detected_workflows": {
+    "note": "Obsah složky .github/ nebyl při bootstrapu přístupný — doplnit při první review session",
+    "expected": [
+      {
+        "name": "build-and-deploy",
+        "purpose": "Render Quarto dokumentace a deploy na GitHub Pages",
+        "trigger_expected": ["push to main", "workflow_dispatch"],
+        "steps_expected": [
+          "checkout",
+          "setup R",
+          "install R dependencies",
+          "install Quarto",
+          "quarto render",
+          "deploy to GitHub Pages"
+        ]
+      }
+    ]
+  },
+
+  "github_pages": {
+    "enabled": true,
+    "custom_domain": "amcr-help.aiscr.cz",
+    "cname_file": "CNAME",
+    "source_branch": "gh-pages or main/_site"
+  },
+
+  "review_items": [
+    {
+      "item": "Ověřit verzi Quarto v CI",
+      "priority": "medium",
+      "note": "Zajistit, že CI používá stejnou verzi Quarto jako lokální vývojové prostředí"
+    },
+    {
+      "item": "Ověřit správu R závislostí v CI",
+      "priority": "medium",
+      "note": "Zkontrolovat, zda CI používá renv::restore() nebo jiný mechanismus"
+    },
+    {
+      "item": "Ověřit cache R balíčků",
+      "priority": "low",
+      "note": "Cache R balíčků může výrazně zrychlit CI pipeline"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+# review_config.yaml — Konfigurace AI review pro aiscr-webamcr-help
+#
+# Tento soubor konfiguruje AI review framework pro dokumentační repozitář.
+# Repozitář je čistě statický dokumentační web (Quarto/R) bez backendu.
+
+repository:
+  name: aiscr-webamcr-help
+  url: https://github.com/ARUP-CAS/aiscr-webamcr-help
+  type: documentation  # static documentation site, no backend
+  organisation: ARUP-CAS
+  primary_language: cs  # Czech
+  licence: CC-BY-NC-4.0
+  published_url: https://amcr-help.aiscr.cz/
+  default_branch: main
+  development_branch: main  # single-branch workflow for docs
+
+stack:
+  documentation_framework: quarto
+  quarto_version: ">=1.4"
+  computational_language: R
+  styling:
+    - scss
+    - css
+  templating:
+    - ejs
+  extensions:
+    - shafayetShafee/bsicons
+
+  # Explicitně vyloučené technologie (neaplikovatelné pro tento repo):
+  backend: false
+  database: false
+  docker: false
+  orm: false
+  celery: false
+  rest_api: false
+  graphql: false
+  elasticsearch: false
+
+ci_cd:
+  provider: github-actions
+  workflows_path: .github/
+  deployment_target: github-pages
+  custom_domain: amcr-help.aiscr.cz
+
+# Aktivní doménové analýzy (pouze relevantní pro tento stack)
+domain_analyses:
+  cicd_analysis:
+    enabled: true
+    path: .agents/analysis/cicd_analysis.json
+    description: GitHub Actions workflows — build a publish
+
+  frontend_analysis:
+    enabled: true
+    path: .agents/analysis/frontend_analysis.json
+    description: CSS/SCSS téma, EJS šablony, Quarto konfigurace
+
+  # Neaplikovatelné analýzy — explicitně vypnuty
+  docker_analysis:
+    enabled: false
+  orm_analysis:
+    enabled: false
+  security_analysis:
+    enabled: false
+    note: "Dokumentační web bez backendu — security analýza není relevantní"
+  solr_analysis:
+    enabled: false
+  xslt_analysis:
+    enabled: false
+  scripts_analysis:
+    enabled: false
+
+review:
+  focus_areas:
+    - quarto_configuration     # _quarto.yml konzistence
+    - content_completeness     # Úplnost a aktuálnost .qmd souborů
+    - internal_links           # Rozbité interní reference
+    - external_links           # Zastaralé externí URL
+    - navigation_structure     # Konzistence navigace
+    - styling_consistency      # CSS/SCSS konzistence
+    - cicd_health              # Stav GitHub Actions
+
+  exclusions:
+    - _freeze/                 # Automaticky generované freeze soubory
+    - _site/                   # Build output
+    - fonts/                   # Binární fonty
+    - figs/                    # Obrázky (binární)
+
+  report_path: .agents/reports/review_reports/
+  cache_path: .agents/config/review_cache.json
+  bugs_path: .agents/reports/bugs.md
+  backlog_path: .agents/reports/refactoring_backlog.md

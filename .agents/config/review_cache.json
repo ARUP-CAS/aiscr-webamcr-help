@@ -1,0 +1,95 @@
+{
+  "repository": "ARUP-CAS/aiscr-webamcr-help",
+  "schema_version": "3",
+  "framework_version": "1.0.0",
+  "framework_bootstrapped": "2026-03-07",
+  "note": "Tento soubor slouží jako cache stavu AI review. Aktualizuje se po každé review session. Stav 'in_progress' znamená přerušenou session — agent ji musí dokončit před spuštěním nové.",
+
+  "last_review": {
+    "date": null,
+    "type": null,
+    "agent": null,
+    "branch": null,
+    "report": null
+  },
+
+  "sessions": {
+    "S01": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S02": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S03": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S04": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S05": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    },
+    "S06": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "report_path": null,
+      "step0_results": null,
+      "completed_steps": []
+    }
+  },
+
+  "review_history": [],
+
+  "content_checksums": {
+    "note": "Po prvním review doplnit checksums klíčových souborů pro detekci změn",
+    "_quarto.yml": null,
+    "index.qmd": null,
+    "soucasti.yml": null
+  },
+
+  "known_issues_count": {
+    "bugs": 0,
+    "refactoring_items": 0,
+    "last_counted": null
+  },
+
+  "sections_reviewed": {
+    "amcr": false,
+    "digiarchiv": false,
+    "metodika": false,
+    "o-systemu": false,
+    "slovnik": false,
+    "zakladni-info": false,
+    "zpravodaj": false,
+    "about": false
+  },
+
+  "ci_cd_last_reviewed": null,
+  "frontend_last_reviewed": null
+}

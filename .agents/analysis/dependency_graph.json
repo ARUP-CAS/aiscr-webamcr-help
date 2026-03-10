@@ -1,0 +1,79 @@
+{
+  "repository": "ARUP-CAS/aiscr-webamcr-help",
+  "last_updated": "2025-09-05",
+  "note": "Dokumentační projekt — závislosti jsou Quarto extensions a R balíčky, nikoliv aplikační závislosti",
+
+  "quarto": {
+    "version_required": ">=1.4",
+    "output_format": "html",
+    "theme_base": "bootstrap",
+    "extensions": [
+      {
+        "name": "bsicons",
+        "shortcode": "bsicons",
+        "author": "shafayetShafee",
+        "source": "github:shafayetShafee/bsicons",
+        "path": "_extensions/shafayetShafee/bsicons",
+        "purpose": "Bootstrap Icons shortcodes pro inline ikony v dokumentaci"
+      }
+    ]
+  },
+
+  "r_dependencies": {
+    "note": "Závislosti jsou definovány v DESCRIPTION souboru; projekt může používat renv pro lockfile",
+    "likely_packages": [
+      {
+        "package": "knitr",
+        "purpose": "Vykreslování R kódu v Quarto (.qmd) souborech"
+      },
+      {
+        "package": "rmarkdown",
+        "purpose": "Podpora R Markdown / Quarto pipeline"
+      }
+    ],
+    "lockfile": "Zkontrolovat přítomnost renv.lock — pokud existuje, použij renv::restore()"
+  },
+
+  "css_scss_dependencies": {
+    "theme_scss": {
+      "file": "theme.scss",
+      "base": "Bootstrap 5 (prostřednictvím Quarto)",
+      "purpose": "Vlastní přepisování Bootstrap proměnných a komponent"
+    },
+    "museo_css": {
+      "file": "museo.css",
+      "purpose": "Deklarace @font-face pro font Museo",
+      "font_files_path": "fonts/"
+    },
+    "styles_css": {
+      "file": "styles.css",
+      "purpose": "Doplňkové globální styly"
+    }
+  },
+
+  "templating": {
+    "tiles_ejs": {
+      "file": "tiles.ejs",
+      "engine": "EJS (Embedded JavaScript Templates)",
+      "purpose": "Šablona pro dlaždice součástí AIS CR na úvodní stránce",
+      "data_source": "soucasti.yml"
+    }
+  },
+
+  "ci_cd": {
+    "provider": "GitHub Actions",
+    "workflows": ".github/workflows/",
+    "deployment": {
+      "type": "GitHub Pages",
+      "custom_domain": "amcr-help.aiscr.cz",
+      "cname_file": "CNAME"
+    }
+  },
+
+  "external_cdn_or_services": {
+    "zenodo": {
+      "purpose": "DOI a archivace verzí",
+      "doi": "10.5281/zenodo.610682820"
+    }
+  }
+}
