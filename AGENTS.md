@@ -44,6 +44,19 @@ For technical review sessions also read:
 .agents/prompts/review_codebase.md
 ```
 
+### Shared rules (mandatory)
+
+Before substantive edits, read and follow the rules in `.agents/rules/`:
+
+| File | Purpose |
+| --- | --- |
+| `.agents/rules/no-edit-generated.md` | Never edit `_site/` or `_freeze/`; refuse and point to source. |
+| `.agents/rules/project-conventions.md` | Checklist: context, verification against live apps, branch/PR, scope. |
+| `.agents/rules/pre-pr-check.md` | Before PR: run `quarto render` (or `.agents/scripts/quarto-render-check.ps1`), then open PR to `main`. |
+| `.agents/rules/subagents.md` | When to use code-reviewer or doc vs live-app pass. |
+
+These rules are the shared source of truth for all agents; local IDE config (e.g. `.cursor/`) may point to them but must not replace them.
+
 ### Resolving Inconsistencies
 
 If content in `.agents/` contradicts high-level repository rules or governance
@@ -64,6 +77,16 @@ In such cases agents should:
 This ensures long-running AI review artefacts remain consistent with
 current repository governance.
 
+### Documentation governance
+
+Which file owns what:
+
+- **CONTRIBUTING.md** — Branch naming, PR process, Quarto/freeze, commit messages, AI-assisted contributing. Canonical for human contributors.
+- **AGENTS.md** — Agent scope, orientation, verification URLs, branch/PR rules for agents, .agents structure, key files. Canonical for AI agents.
+- **.agents/rules/** — Shared agent rules (no-edit-generated, project-conventions, pre-pr-check, subagents). Single source of truth for those rules; do not duplicate them in full elsewhere — use cross-references.
+
+Avoid duplicating the same rule in multiple files; prefer a short pointer to the canonical file or section.
+
 ---
 
 ## AI-Generated Content
@@ -80,7 +103,7 @@ Examples include:
 Agent work should be committed to a dedicated branch:
 
 ```
-agents/<agent_name>/<topic>
+agents/<agent-name>/<topic>
 ```
 
 Examples:
@@ -304,6 +327,13 @@ Changes to `.agents/` always require **human review**.
 ```
 .agents/
 ├── README.md
+├── rules/
+│   ├── no-edit-generated.md
+│   ├── project-conventions.md
+│   ├── pre-pr-check.md
+│   └── subagents.md
+├── scripts/
+│   └── quarto-render-check.ps1
 ├── prompts/
 │   ├── review_codebase.md
 │   └── prompt_evolution/
