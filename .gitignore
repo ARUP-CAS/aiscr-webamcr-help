@@ -13,3 +13,11 @@ _site/
 /api.bak/
 
 **/*.quarto_ipynb
+
+# vscode
+.vscode/
+
+# agents
+.codex/
+.claude/
+.cursor/
