@@ -1,0 +1,23 @@
+název,popis
+PIAN,PIAN ID
+Přesnost,míra prostorové odchylky [jednotky/desítky/stovky metrů/definováno katastrem]
+PIAN – typ,[bod/linie/polygon]
+Dokumentační jednotka,ID dokumentační jednotky
+Typ dokumentační jednotky,[sonda/část akce/celek akce/katastrální území]
+Definiční bod(y) (WGS-84),centroid prvku v souřadnicovém systému WGS-84
+Akce,ID akce
+Odkaz do Digitálního archivu AMČR,odkaz na záznam akce v Digiarchivu
+Okres,okres
+Katastr,hlavní katastr
+Další katastry,"další katastry, zasahuje-li akce mimo hlavní katastr"
+Akce – lokalizace,slovní popis umístění akce
+Vedoucí akce,hlavní vedoucí
+Organizace,organizace provádějící výzkum
+Specifikace data,[přesné datum/přesně v letech/někdy v letech]
+Datum zahájeni,datum zahájení akce
+Datum ukončení,datum ukončení akce
+Hlavní typ,primární způsob provádění výzkumu [plošný odkryv/sonda/povrchový sběr/...]
+Vedlejší typ,sekundární způsob provádění výzkumu [stejné možnosti jako v předchozím případě]
+Zjištění,odhalil výzkum archeologické situace? [pozitivní/negativní]
+Akce – nahrazuje NZ,[ano/ne]
+Přístupnost,přístupnost záznamu [A/B/C/D]
