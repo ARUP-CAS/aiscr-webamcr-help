@@ -1,0 +1,6 @@
+název,popis
+komponenta,ID komponenty
+dj_id,ID *mateřské* dokumentační jednotky
+komponenta_areal,typ areálu [sídliště/pohřební areál/pole/...]
+komponenta_obdobi, datace [neolit/vrcholný středověk–novověk/střední doba laténská (LtB–C1)/...]
+vrstva,systémová hodnota odkazující na konkrétní tabulku s geometrií s příslušnou dokumentační jednotkou
