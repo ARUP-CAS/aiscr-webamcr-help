@@ -32,14 +32,18 @@ Správa všech dokumentů (mimo záznamů v [Knihovně 3D](knihovna3d.qmd)) v AM
 Zde je možné prohlížet a editovat již existující záznamy. Přidávat zcela nové záznamy Dokumentů je možné pouze skrze moduly Projekty, Akce a Lokality.
 Přímo z modulu je možné také stahovat dokumenty na lokální úložiště, ale primárně pro tuto aktivitu doporučujeme použít aplikaci [Digitální archiv AMČR](https://digiarchiv.aiscr.cz/){.external}.
 
-![](figs/dok01.png){width="60%" fig-align="center"}
+![](figs/dok05.png){width="60%" fig-align="center"}
 
  
 ### Zápis nového dokumentu
 
 Při kliknutí na tlačítko `+` v tabulce `Dokumenty` v modulech `Akce`, `Projekty` nebo `Lokality` je třeba vybrat z rolovací nabídky možnost `Přidat dokument`. Aplikace se tím přepne do editačního prostředí modulu `Dokumenty`.
 
-![](figs/dok02.png){width="72%" fig-align="center"}
+![](figs/dok06.png){width="72%" fig-align="center"}
+
+![](figs/dok07.png){width="72%" fig-align="center"}
+
+![](figs/dok08.png){width="72%" fig-align="center"}
 
 Zápisem v modulu `Dokumenty` vzniká záznam, který obsahuje informace o vloženém dokumentu. 
 Dokud je dokument ve stavu *zapsaný*, je mu přidělen pouze dočasný identifikátor začínající prefixem `X`. 
