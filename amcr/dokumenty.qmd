@@ -1,6 +1,7 @@
 ---
 title: Správa dokumentů
-date: 2025-09-05
+date: 2026-05-12
+# date: 2025-09-05
 # date: 2025-08-06
 ---
 
@@ -11,7 +12,7 @@ K prohlížení dokumentů uložených v AMČR slouží primárně služba [Digi
 :::
 
 Modul [Dokumenty](https://amcr.aiscr.cz/dokument/){.external} slouží pro správu dokumentů, které jsou v systému uloženy (mimo dokumentů v [Knihovně 3D](knihovna3d.qmd)).
-[Dokumenty](/slovnik/index.qmd#dokumenty) do AMČR nejčastěji připojujeme jako součásti projektových akcí, tedy nálezové zprávy apod., většina operací s dokumenty tedy probíhá v rámci správy projektů, resp. akcí, či na ně přímo navazuje. 
+[Dokumenty](/slovnik/index.qmd#dokumenty) do AMČR nejčastěji připojujeme jako součásti projektových akcí, tedy nálezové zprávy apod., většina operací s dokumenty tedy probíhá v rámci správy projektů, resp. akcí nebo lokalit či na ně přímo navazuje. 
 
 
 ## Videonávod
@@ -29,28 +30,34 @@ Pro modul `Dokumenty` je relevantní především část [Připojení dokumentu]
 ### Správa záznamů
 
 Správa všech dokumentů (mimo záznamů v [Knihovně 3D](knihovna3d.qmd)) v AMČR probíhá v modulu `Dokumenty`. 
-Zde je možné přidávat nové záznamy či prohlížet a editovat záznamy již existující.
+Zde je možné prohlížet a editovat již existující záznamy. 
+Přidávat zcela nové záznamy dokumentů je možné pouze skrze moduly `Projekty`, `Akce` a `Lokality`.
 Přímo z modulu je možné také stahovat dokumenty na lokální úložiště, ale primárně pro tuto aktivitu doporučujeme použít aplikaci [Digitální archiv AMČR](https://digiarchiv.aiscr.cz/){.external}.
 
-![](figs/dok01.png){width="60%" fig-align="center"}
+![](figs/dok05.png){width="42%" fig-align="center"}
 
  
-### Zápis dokumentu
+### Zápis nového dokumentu
 
-Při volbě karty `Zapsat` v modulu `Dokumenty` je jako první potřeba vybrat na vyskakovacím okně region, ke kterému se dokument váže (Čechy -- v identifikátoru prefix `C`, Morava a Slezsko -- v identifikátoru pak prefix `M`). 
+Při kliknutí na tlačítko `+` v tabulce `Dokumenty` v modulech `Akce`, `Projekty` nebo `Lokality` je třeba vybrat z rolovací nabídky možnost `Přidat dokument`. 
+Aplikace se tím přepne do editačního prostředí modulu `Dokumenty`.
 
-![](figs/dok02.png){width="72%" fig-align="center"}
+![](figs/dok06.png){width="50%" fig-align="center"}
+
+![](figs/dok07.png){width="50%" fig-align="center"}
+
+![](figs/dok08.png){width="50%" fig-align="center"}
 
 Zápisem v modulu `Dokumenty` vzniká záznam, který obsahuje informace o vloženém dokumentu. 
 Dokud je dokument ve stavu *zapsaný*, je mu přidělen pouze dočasný identifikátor začínající prefixem `X`. 
-Do zápisu dokumentu lze vstoupit buď přímo přes modul `Dokumenty` a kartu `Zapsat`, nebo je tato možnost přístupná i při připojování dokumentů k jiným typům záznamů (např. v modulech `Projekty`, `Samostatné akce` nebo `Lokality`).
+
  
 ![](figs/dok03.png){width="90%" fig-align="center"} 
 
 
 #### Popis dokumentu
 
-Po vytvoření dokumentu v je možné vyplnit jeho metadatový popis. 
+Po vytvoření dokumentu je možné vyplnit jeho metadatový popis. 
 Ten obsahuje informace o dokumentu. 
 Při zápisu je potřeba vyplnit povinné údaje označené hvězdičkou (`*`) a při posunu do dalších stavů je třeba doplnit pole žlutě zvýrazněná, stejně jako ve zbytku aplikace.
  
