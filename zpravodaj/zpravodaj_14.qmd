@@ -1,15 +1,16 @@
 ---
 title: Zpravodaj AMČR č. 14
-description: Novela památkového zákona, odesílání oznámení krajům a novinky v nastavení uživ. účtu
+description: Nové weby a vizuální styl, metodické pokyny, kontroly záznamů a licence u dokumentů 
 # categories: [webová AMČR, Digitální archiv, persistentní identifikátory, chybová hlášení, citace, badatelské výzkumy, legislativa]
 date: 2026-05-12
 toc-depth: 2
 ---
 
-> Vážení uživatelé AMČR,
+> Vážení uživatelé a uživatelky AMČR,
 >
 > přinášíme Vám zpravodaj **AMČR č. 14**, který představuje nové webové stránky a vizuální styl naší infrastruktury. 
 > Dále dáváme do pozornosti sekci *Metodické pokyny a výklady* Dokumentace AMČR a stručně popisujeme kontroly, kterými prochází dokumenty (aj.) po odeslání do AMČR.
+> Dokumentů se týká i to, že nově lze volit licenci, pod kterou budou zveřejněny v Digitálním archivu.
 >
 > Váš *tým* AIS CR...
 
@@ -98,3 +99,31 @@ Stejně tak je jejich specificitě přizpůsobena kontrola záznamů v AMČR-PAS
 Principy kompletnosti a přehlednosti údajů jsou však zachovány i zde.
 
 
+## Možnost volby licence u dokumentů
+
+V AMČR je nově možné volit licenci, pod kterou budou dokumenty zveřejněny v [Digitálním archivu](https://digiarchiv.aiscr.cz/){.external}.
+Doposud byla licence přednastavena dle licenční smlouvy mezi AIS CR a oprávněnou organizací, která dokument nahrála, viz [Mapa OAO](https://oao.aiscr.cz/){.external}, kde je u každé organizce uvedeno, pod jakou licencí své dokumenty v AMČR zveřejňuje.
+Ostatní dokumenty a dokumenty z archivů Archeologických ústavů pak byly zveřejňovány pod licencí [CC BY-NC 4.0 Int.](https://creativecommons.org/licenses/by-nc/4.0/deed.cs){.external}.
+
+::: {.column-margin}
+![](figs/14/licence.png){width="60%" fig-align="center"}
+:::
+
+Nově je možné volit mezi následujícími [Creative Commons](https://creativecommons.org/cc-licenses/){.external} licencemi:
+
+```{r}
+#| tbl-cap: "Licence"
+cc <- read.csv("../amcr/tabs/licenses.csv", tryLogical = FALSE)
+
+cc |> 
+  knitr::kable()
+```
+
+Prvky *Creative Commons* licencí jsou následující:
+
+- `BY` -- *Attribution* / Uveďte původ -- vždy je třeba uvést autora, název, zdroj díla a licenci;
+- `NC` -- *Non Commercial* / Neužívejte dílo komerčně -- dílo nesmí být použito pro komerční účely, tedy pro účel generování zisku;
+- `ND` -- *No Derivatives* / Nezpracovávejte -- dílo nesmí být upravováno, tedy ani nesmí být vytvářena odvozená díla;
+- `SA` -- *Share Alike* / Zachovejte licenci -- pokud dílo upravíte, musíte své dílo licencovat stejnou licencí.
+
+> O otevřených licencích, licencování dat apod. se můžete více dozvědět na webu k [Open Science](https://openscience.cz/){.external} spravovaným *Národní technickou knihovnou*, viz [https://openscience.cz/cs/open-science/komponenty/open-licencing/](https://openscience.cz/cs/open-science/komponenty/open-licencing/){.external} nebo webu [Open Science](https://openscience.lib.cas.cz/){.external} provozovaným *Knihovnou Akademie věd ČR*, viz [https://openscience.lib.cas.cz/open_access/verejne-licence/](https://openscience.lib.cas.cz/open_access/verejne-licence/){.external}.
