@@ -1,6 +1,7 @@
 ---
 title: Správa dokumentů
-date: 2025-09-05
+date: 2026-05-12
+# date: 2025-09-05
 # date: 2025-08-06
 ---
 
@@ -29,21 +30,23 @@ Pro modul `Dokumenty` je relevantní především část [Připojení dokumentu]
 ### Správa záznamů
 
 Správa všech dokumentů (mimo záznamů v [Knihovně 3D](knihovna3d.qmd)) v AMČR probíhá v modulu `Dokumenty`. 
-Zde je možné prohlížet a editovat již existující záznamy. Přidávat zcela nové záznamy Dokumentů je možné pouze skrze moduly Projekty, Akce a Lokality.
+Zde je možné prohlížet a editovat již existující záznamy. 
+Přidávat zcela nové záznamy dokumentů je možné pouze skrze moduly `Projekty`, `Akce` a `Lokality`.
 Přímo z modulu je možné také stahovat dokumenty na lokální úložiště, ale primárně pro tuto aktivitu doporučujeme použít aplikaci [Digitální archiv AMČR](https://digiarchiv.aiscr.cz/){.external}.
 
-![](figs/dok05.png){width="60%" fig-align="center"}
+![](figs/dok05.png){width="42%" fig-align="center"}
 
  
 ### Zápis nového dokumentu
 
-Při kliknutí na tlačítko `+` v tabulce `Dokumenty` v modulech `Akce`, `Projekty` nebo `Lokality` je třeba vybrat z rolovací nabídky možnost `Přidat dokument`. Aplikace se tím přepne do editačního prostředí modulu `Dokumenty`.
+Při kliknutí na tlačítko `+` v tabulce `Dokumenty` v modulech `Akce`, `Projekty` nebo `Lokality` je třeba vybrat z rolovací nabídky možnost `Přidat dokument`. 
+Aplikace se tím přepne do editačního prostředí modulu `Dokumenty`.
 
-![](figs/dok06.png){width="72%" fig-align="center"}
+![](figs/dok06.png){width="50%" fig-align="center"}
 
-![](figs/dok07.png){width="72%" fig-align="center"}
+![](figs/dok07.png){width="50%" fig-align="center"}
 
-![](figs/dok08.png){width="72%" fig-align="center"}
+![](figs/dok08.png){width="50%" fig-align="center"}
 
 Zápisem v modulu `Dokumenty` vzniká záznam, který obsahuje informace o vloženém dokumentu. 
 Dokud je dokument ve stavu *zapsaný*, je mu přidělen pouze dočasný identifikátor začínající prefixem `X`. 
@@ -54,7 +57,7 @@ Dokud je dokument ve stavu *zapsaný*, je mu přidělen pouze dočasný identifi
 
 #### Popis dokumentu
 
-Po vytvoření dokumentu v je možné vyplnit jeho metadatový popis. 
+Po vytvoření dokumentu je možné vyplnit jeho metadatový popis. 
 Ten obsahuje informace o dokumentu. 
 Při zápisu je potřeba vyplnit povinné údaje označené hvězdičkou (`*`) a při posunu do dalších stavů je třeba doplnit pole žlutě zvýrazněná, stejně jako ve zbytku aplikace.
  
