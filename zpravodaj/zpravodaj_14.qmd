@@ -73,7 +73,7 @@ Viz [Metodické doporučení pro administraci projektů v AMČR](/metodika/admin
 
 ## Postup kontroly záznamů při archivaci a způsoby jejich vracení
 
-> *Pro lepší pochopení co se dokumenty a ostatními daty děje po odeslání v AMČR Vám přinášíme stručný popis následných kontrol, které provádějí naši archiváři a archivářky.*
+> *Pro lepší pochopení co se s dokumenty a ostatními daty děje po odeslání v AMČR Vám přinášíme stručný popis následných kontrol, které provádějí naši archiváři a archivářky.*
 
 Po uzavření projektu dochází nejprve ke kontrole formální shody informací uvedených na kartě projektu a informací uvedených v popisu připojené archeologické akce. 
 Jelikož popis projektu obsahuje zejména administrativní data od oznamovatelů, nemusí se pochopitelně zcela shodovat s informacemi v archeologické akci, která obsahuje popis toho, jak akce probíhala skutečně v terénu. 
@@ -92,7 +92,7 @@ V případě zjištěných nedostatků je dokument spolu s akcí vrácen k oprav
 Pokud je dokument v pořádku, projde tzv. optimalizací zajišťující jeho správné otevření i po dlouhé době a je archivován. 
 
 Následně je archivována také akce a po archivaci poslední akce i celý projekt. 
-Po archivaci se všechny záznamy promítnou do [Digitálního archivu](https://digiarchiv.aiscr.cz/){.external} kde jsou s odpovídající přístupností zveřejněny.
+Po archivaci se všechny záznamy promítnou do [Digitálního archivu](https://digiarchiv.aiscr.cz/){.external}, kde jsou s odpovídající přístupností zveřejněny.
 
 U samostatných akcí při kontrole pochopitelně odpadá část s informacemi obsaženými v projektu, ale kontrola samostatné akce probíhá podle stejných principů jako kontrola projektové akce.
 Stejně tak je jejich specificitě přizpůsobena kontrola záznamů v AMČR-PAS, kde je specifická kontrola přikládaných fotografií a nálezová zpráva má pro tyto účely upravenou podobu. 
@@ -126,4 +126,4 @@ Prvky *Creative Commons* licencí jsou následující:
 - `ND` -- *No Derivatives* / Nezpracovávejte -- dílo nesmí být upravováno, tedy ani nesmí být vytvářena odvozená díla;
 - `SA` -- *Share Alike* / Zachovejte licenci -- pokud dílo upravíte, musíte své dílo licencovat stejnou licencí.
 
-> O otevřených licencích, licencování dat apod. se můžete více dozvědět na webu k [Open Science](https://openscience.cz/){.external} spravovaným *Národní technickou knihovnou*, viz [https://openscience.cz/cs/open-science/komponenty/open-licencing/](https://openscience.cz/cs/open-science/komponenty/open-licencing/){.external} nebo webu [Open Science](https://openscience.lib.cas.cz/){.external} provozovaným *Knihovnou Akademie věd ČR*, viz [https://openscience.lib.cas.cz/open_access/verejne-licence/](https://openscience.lib.cas.cz/open_access/verejne-licence/){.external}.
+> O otevřených licencích, licencování dat apod. se můžete více dozvědět na webu k [Open Science](https://openscience.cz/){.external} spravovaném *Národní technickou knihovnou*, viz [https://openscience.cz/cs/open-science/komponenty/open-licencing/](https://openscience.cz/cs/open-science/komponenty/open-licencing/){.external} nebo na webu [Open Science](https://openscience.lib.cas.cz/){.external} provozovaném *Knihovnou Akademie věd ČR*, viz [https://openscience.lib.cas.cz/open_access/verejne-licence/](https://openscience.lib.cas.cz/open_access/verejne-licence/){.external}.
