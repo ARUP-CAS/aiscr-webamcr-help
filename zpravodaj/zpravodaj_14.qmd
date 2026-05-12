@@ -102,8 +102,8 @@ Principy kompletnosti a přehlednosti údajů jsou však zachovány i zde.
 ## Možnost volby licence u dokumentů
 
 V AMČR je nově možné volit licenci, pod kterou budou dokumenty zveřejněny v [Digitálním archivu](https://digiarchiv.aiscr.cz/){.external}.
-Doposud byla licence přednastavena dle licenční smlouvy mezi AIS CR a oprávněnou organizací, která dokument nahrála, viz [Mapa OAO](https://oao.aiscr.cz/){.external}, kde je u každé organizce uvedeno, pod jakou licencí své dokumenty v AMČR zveřejňuje.
-Ostatní dokumenty a dokumenty z archivů Archeologických ústavů pak byly zveřejňovány pod licencí [CC BY-NC 4.0 Int.](https://creativecommons.org/licenses/by-nc/4.0/deed.cs){.external}.
+Doposud byla licence přednastavena dle licenční smlouvy mezi Archeologickými ústavy AV ČR a oprávněnou organizací, která dokument nahrála.
+Ostatní dokumenty a dokumenty z archivů Archeologických ústavů AV ČR pak byly zveřejňovány pod licencí [CC BY-NC 4.0 Int.](https://creativecommons.org/licenses/by-nc/4.0/deed.cs){.external}.
 
 ::: {.column-margin}
 ![](figs/14/licence.png){width="60%" fig-align="center"}
