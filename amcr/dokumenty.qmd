@@ -1,6 +1,6 @@
 ---
 title: Správa dokumentů
-date: 2026-05-12
+date: 2026-05-13
 # date: 2025-09-05
 # date: 2025-08-06
 ---
@@ -60,6 +60,14 @@ Dokud je dokument ve stavu *zapsaný*, je mu přidělen pouze dočasný identifi
 Po vytvoření dokumentu je možné vyplnit jeho metadatový popis. 
 Ten obsahuje informace o dokumentu. 
 Při zápisu je potřeba vyplnit povinné údaje označené hvězdičkou (`*`) a při posunu do dalších stavů je třeba doplnit pole žlutě zvýrazněná, stejně jako ve zbytku aplikace.
+
+```{r}
+#| tbl-cap: "Licence, které lze u dokumentů zvolit"
+cc <- read.csv("tabs/licenses.csv", tryLogical = FALSE)
+
+cc |> 
+  knitr::kable()
+```
  
  
 ### Připojení souboru
