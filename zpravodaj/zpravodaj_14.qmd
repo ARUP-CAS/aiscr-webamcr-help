@@ -109,7 +109,7 @@ Doposud byla licence přednastavena dle licenční smlouvy mezi Archeologickými
 Tuto licenci může nyní uživatel či uživatelka změnit na jinou [*Creative Commons*](https://creativecommons.org/cc-licenses/){.external} licenci, viz tabulka níže.
 
 Dokumenty z archivů Archeologických ústavů AV ČR jsou zpravidla zveřejněny pod licencí [CC BY-NC 4.0 Int.](https://creativecommons.org/licenses/by-nc/4.0/deed.cs){.external}.
-Dokumenty, u kterých je autorství nejisté nebo jinak problematické pak mají v políčku licence položku `neznámá`.
+Dokumenty, u kterých licenci nemáme, pak mají v políčku licence položku `neznámá`.
 Do budoucna doporučujeme volit licenci **CC BY 4.0 Int.**, která je permisivní a umožňuje široké využití nahraných dat a dokumentů, přičemž zachovává povinnost uvést autora a zdroj díla.
 Tato licence jako jediná plně odpovídá požadavkům [zákona č. 328/2025 Sb., o výzkumu, vývoji, inovacích a transferu znalostí](https://www.zakonyprolidi.cz/cs/2025-328){.external} na otevřená data.
 
