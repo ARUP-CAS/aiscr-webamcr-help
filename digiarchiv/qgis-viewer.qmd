@@ -91,7 +91,7 @@ Hesláře se aktualizují z AMČR OAI-PMH API, počítejte prosím s tím, že j
 
 ### Datová struktura
 
-Kvůli nutnosti dělit prvky podle typu geometrie musí plugin vykreslit načtená data ve třech různých různých vrstvách: `AMCR_{zaznam}_Body`, `AMCR_{zaznam}_Linie` a `AMCR_{zaznam}_Polygony`, přičemž položka `{zaznam}` odpovídá typu požadovaného archeologického záznamu `Akce`/`Lokalita`. 
+Kvůli nutnosti dělit prvky podle typu geometrie musí plugin vykreslit načtená data ve třech různých vrstvách: `AMCR_{zaznam}_Body`, `AMCR_{zaznam}_Linie` a `AMCR_{zaznam}_Polygony`, přičemž položka `{zaznam}` odpovídá typu požadovaného archeologického záznamu `Akce`/`Lokalita`. 
 V případě požadavku stažení komponent jsou součástí každé z vrstev navíc ještě pole `Komponenta`, `Areál` a `Období`.
 
 Atributové tabulky jednotlivých vrstev obsahují následující informace:
@@ -120,9 +120,9 @@ Zobrazená data je možné procházet několika způsoby. Nejjedodušším nást
 
 [![Procházení výsledků pomocí nástroje *Identifikovat prvky*, včetně připojených *komponent*.](figs/qv-identify-features.gif){width="66%" fig-align="center"}](figs/qv-identify-features.gif)
 
-O něco systematičtějším způsobem je pak možnost *Filtrovat*, která umožňuje filtrovat výsledky jak pomocí atributů *akce*/*lokality*, tak pomocí atributů připojených komponent. Postup filtrování je zobrazen na animaci níže.
+O něco systematičtějším způsobem je pak možnost *Filtr*, která umožňuje filtrovat výsledky jak pomocí atributů *akce*/*lokality*, tak pomocí atributů připojených komponent. Postup filtrování je zobrazen na animaci níže.
 
-[![Filtrování výsledků pomocí nástroje *Vybrat prvky dle hodnoty*, včetně připojených *komponent*.](figs/qv-filtering.webp){width="66%" fig-align="center"}](figs/qv-filtering.webp)
+[![Filtrování výsledků pomocí nástroje *Filtr*, včetně připojených *komponent*.](figs/qv-filtering.webp){width="66%" fig-align="center"}](figs/qv-filtering.webp)
 
 ### Omezení
 
