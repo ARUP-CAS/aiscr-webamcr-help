@@ -3,7 +3,7 @@ title: QGIS plugin AMČR Viewer
 # subtitle: fuubar 
 author: 
   - name: David Spáčil
-date: 2026-03-23
+date: 2026-06-08
 
 ---
 
@@ -31,6 +31,7 @@ V prostředí QGIS se plugin zobrazí v podobě ikony ![](figs/qv-icon-akce.png)
 
 Plugin umožňuje **načítání dat o *archeologických záznamech* (*akcích* a *lokalitách*)** a záznamech s nimi souvisejících (*PIAN*ech, *dokumentačních jednotkách* a *komponentách*). 
 Základním prvkem je pro plugin ***[dokumentační jednotka](/slovnik/index.qmd#dokumentační-jednotky)***, součást *[archeologické akce](/slovnik/index.qmd#akce)* či *[lokality](/slovnik/index.qmd#lokality)*, která slouží jako unikátní záznam jak ve vztahu k *akci*/*lokalitě*, tak k příslušnému *[PIAN](/slovnik/index.qmd#pian)* (více k datové struktuře AMČR viz [Datový model](/o-systemu/datovy-model.qmd#evidence-archeologických-akcí)). 
+V případě, že uživatel požádá o stahování komponent dotčených *akcí* či *lokalit*, je základním prvkem právě *komponenta*. 
 Podobně jako v Digiarchivu lze i v pluginu filtrovat výsledky jak prostorově, tak pomocí metadat samotného archeologického záznamu, ale i jemu podřízených záznamů (zejména metadat *[komponenty](/slovnik/index.qmd#komponenty)*, jako jsou datace a typ areálu). 
 
 ### Postup načítání dat
@@ -46,56 +47,72 @@ Základní postup užívání AMČR Viewer je následující:
         - `PIAN přesnost` (ve výchozím nastavení je zakázána možnost `poloha podle katastru`; lze vybrat více možností);
     b) údajů podmíněných typem dotazovaného záznamu:
         - administrativních informací:
-            - `Organizace`, `Typ výzkumu` (lze vybrat více možností),
-            - `Vedoucí výzkumu` (v čisté instalaci pluginu je seznam vedoucích prázdný a je třeba jej naplnit daty z API pomocí tlačítka 🔄, stejným způsobem lze seznam vedoucích i průběžně aktualizovat; lze vybrat více možností);
+            - `Organizace`, `Typ výzkumu`, `Vedoucí výzkumu` (lze vybrat více možností);
         - informací o lokalitě:
             - `Typ`, `Druh`, `Jistota určení`, `Stav dochování` (lze vybrat více možností);
     c) informací o nálezu:
         - `Pouze pozitivní zjištění` (relevantní pouze pro filtr *akcí*; vrátí pouze dokumentační jednotky, jejichž atribut `typ zjištění` = `pozitivní`),
-        - `Období`, `Areál` (lze vybrat více možností).
+        - `Období`, `Areál` (lze vybrat více možností);
+    d) přístupnosti záznamu (`Přístupnost`; lze vybrat více možností).
     - Poslední možností dialogu je checkbox `Načíst komponenty`, který je ve výchozím nastavení vypnutý.
 
-[![](figs/qv-usage.png){width="66%" fig-align="center"}](figs/qv-usage.png)
+[![](figs/qv-usage.webp){width="66%" fig-align="center"}](figs/qv-usage.webp)
 
-3. Po potvrzení výběru dojde k načtení filtrovaných dat z API Digiarchivu AMČR do až čtyř dočasných vrstev (pro každý typ geometrie -- body, linie, polygony -- jedna vrstva; jedna vrstva bez geometrie pro komponenty). 
-Pro trvalé uložení výsledků **je potřeba dočasné vrstvy uložit**. V opačném případě dojde po zavření QGISu ke ztrátě stažených dat.
+3. Po potvrzení výběru dojde k načtení filtrovaných dat z API Digiarchivu AMČR do až tří dočasných vrstev (pro každý typ geometrie -- body, linie, polygony -- jedna vrstva). 
+Pro trvalé uložení výsledků **je potřeba dočasné vrstvy uložit**. 
+V opačném případě dojde po zavření QGISu ke ztrátě stažených dat.
+
+### Přihlášení
+
+V případě potřeby je možné se do pluginu přihlásit pomocí přihlašovacích údajů použitých pro přístup do Digitálního archivu AMČR.
+Pro přihlášení klikněte v nabídce pluginu (pod tlačítky aktivující stahování *akcí* a *lokalit*) na tlačítko `Přihlásit se`, které otevře přihlašovací formulář.
+Před prvním přihlášením bude QGIS žádat nastavení master hesla pro `QGIS Password manager`, pokud jste tak již neučinili dříve. 
+Toto heslo nijak nesouvisí s AMČR a je na vašem uvážení, jaké heslo nastavíte. 
+Po úspěšném nastavení master hesla se dialogové okno automaticky změní na okno pro přihlášení do Digiarchivu, kam již vkládáte své přihlašovací údaje pro Digiarchiv.
+Tyto údaje jsou následně bezpečně uloženy v `QGIS Password manageru`, odkud si je plugin půjčuje pro komunikaci s Digiarchivem.
+Plugin sám přihlášení obnovuje po otevření QGIS či po uplynutí časového limitu session.  
+Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí na tlačítko `Přihlásit se` a vybrání možnosti `Odebrat uložené přihlašovací údaje`.
+K odhlášení dojde automaticky po vypršení session (po uplynutí časového limitu od posledního požadavku nebo po zavření QGIS).
+
+[![](figs/qv-login.webp){width="66%" fig-align="center"}](figs/qv-login.webp)
+
+### Aktualizace heslářů
+
+V každém z filtračních oken je vedle tlačítek `OK` a `Cancel` ještě i možnost `Aktualizovat hesláře 🔄️`.
+Plugin má z distribuce přiloženu sadu heslářů, není tedy nutné aktualizaci provádět hned po instalaci.
+Možnost aktualizace ale zaručuje, že lokálně uložené hesláře budou odpovídat aktuálnímu stavu v AMČR, měl-li by se změnit. 
+Aktualizace dává smysl zejména v případě hesláře osob (filtr `Vedoucí výzkumu`), neboť osoby v AMČR dynamicky přibývají. 
+
+::: {.callout-note}
+## Poznámka
+
+Hesláře se aktualizují z AMČR OAI-PMH API, počítejte prosím s tím, že jejich stahování může trvat i několik minut. 
+:::
 
 ### Datová struktura
 
-[![](figs/qv-schema.png){width="50%" fig-align="center"}](figs/qv-schema.png)
-
-Kvůli nutnosti dělit prvky podle typu geometrie musí plugin vykreslit načtená data ve třech různých různých vrstvách: `AMCR_{zaznam}_Body`, `AMCR_{zaznam}_Linie` a `AMCR_{zaznam}_Polygony`, přičemž položka `{zaznam}` odpovídá typu požadovaného archeologického záznamu `Akce`/`Lokalita`. Na ně je, v případě, že o to uživatel požádá, navázána ještě tabulka `AMCR_{zaznam}_Komponenty`, a to pomocí polymorfní relace. Díky tomu je možné propojit více nadřazených tabulek s jednou podřízenou ve vztahu 1:N. Záznamy z tabulky *komponent* se pak zobrazují zároveň se záznamy z tabulek *akce*/*lokality*, například při použití nástroje `Identifikovat prkvy`.
-
-::: {.callout-warning collapse="true"}
-
-## Relace propojující vrstvy s geometrií s tabulkou komponent není součástí ani jedné z vrstev, jde o vlastnost celého projektu. Relace se tím pádem nezachová například při sdílení pouze vrstev samotných nebo při jejich použití v jiném projektu. Relaci je ovšem možné znovu nastavit pomocí [tohoto postupu](https://docs.qgis.org/3.44/cs/docs/user_manual/working_with_vector/joins_relations.html#defining-polymorphic-relations){.external}.
-
-Při opětovném nastavování se řiďte následujícím příkladem:  
-[![](figs/qv-relation.png){width="50%" fig-align="left"}](figs/qv-relation.png)
-
-:::
+Kvůli nutnosti dělit prvky podle typu geometrie musí plugin vykreslit načtená data ve třech různých různých vrstvách: `AMCR_{zaznam}_Body`, `AMCR_{zaznam}_Linie` a `AMCR_{zaznam}_Polygony`, přičemž položka `{zaznam}` odpovídá typu požadovaného archeologického záznamu `Akce`/`Lokalita`. 
+V případě požadavku stažení komponent jsou součástí každé z vrstev navíc ještě pole `Komponenta`, `Areál` a `Období`.
 
 Atributové tabulky jednotlivých vrstev obsahují následující informace:
 
 ```{r}
 #| echo: false
 #| message: false
-#| layout-ncol: 3
+#| layout-ncol: 2
 #| tbl-cap: 
 #|   - "Atributová tabulka vrstev akcí"
 #|   - "Atributová tabulka vrstev lokalit"
-#|   - "Atributová tabulka komponent"
 
 library(knitr)
 
 akce <- read.csv("tabs/akce.csv")
 lokality <- read.csv("tabs/lokality.csv")
-komponenty <- read.csv("tabs/komponenty.csv")
 
 kable(akce)
 kable(lokality)
-kable(komponenty)
 ```
+*) Pole jsou přítomna pouze při požadavku na stažení dat komponent.
 
 ### Procházení a filtrování dat
 
@@ -103,14 +120,14 @@ Zobrazená data je možné procházet několika způsoby. Nejjedodušším nást
 
 [![Procházení výsledků pomocí nástroje *Identifikovat prvky*, včetně připojených *komponent*.](figs/qv-identify-features.gif){width="66%" fig-align="center"}](figs/qv-identify-features.gif)
 
-O něco systematičtějším způsobem je pak možnost *Vybrat prvky dle hodnoty*, která umožňuje filtrovat výsledky jak pomocí atributů *akce*/*lokality*, tak pomocí atributů připojených komponent. Postup filtrování je zobrazen na animaci níže.
+O něco systematičtějším způsobem je pak možnost *Filtrovat*, která umožňuje filtrovat výsledky jak pomocí atributů *akce*/*lokality*, tak pomocí atributů připojených komponent. Postup filtrování je zobrazen na animaci níže.
 
 [![Filtrování výsledků pomocí nástroje *Vybrat prvky dle hodnoty*, včetně připojených *komponent*.](figs/qv-filtering.webp){width="66%" fig-align="center"}](figs/qv-filtering.webp)
 
 ### Omezení
 
-- V současné verzi je prohledávání a stahování dat omezeno na **archivované *akce*** a ***lokality*** s přístupností **A** (anonym). To představuje přes 99 % všech archivovaných archeologických záznamů s geometrií.
 - Limit načítaných akcí je omezen na **20 000**. Doporučujeme využít filtrů pro předtřídění dat. V opačném případě načítejte data postupně po územních celcích (krajích či v některých případech okresech). Počty akcí podle krajů lze zkontrolovat v [Digiarchivu](https://digiarchiv.aiscr.cz/map?entity=akce&sort=datestamp%20desc&mapa=true&page=0){.external}.
+- Při načítání komponent jsou prostorové prvky duplikovány -- každý prvek odpovídá jedné komponentě. Prostorové analýzy (plochy, počty) mohou být zkreslené.
 
 
 ## Zapojte se

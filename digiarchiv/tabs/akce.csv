@@ -21,3 +21,6 @@ Vedlejší typ,sekundární způsob provádění výzkumu [stejné možnosti jak
 Zjištění,odhalil výzkum archeologické situace? [pozitivní/negativní]
 Akce – nahrazuje NZ,[ano/ne]
 Přístupnost,přístupnost záznamu [A/B/C/D]
+Komponenta*,ID komponenty
+Areál*,typ areálu [sídliště/pohřební areál/pole/...]
+Období*,datace [neolit/vrcholný středověk–novověk/střední doba laténská (LtB–C1)/...]

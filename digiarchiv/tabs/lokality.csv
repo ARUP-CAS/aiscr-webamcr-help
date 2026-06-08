@@ -10,9 +10,12 @@ Odkaz do Digitálního archivu AMČR,odkaz na záznam lokality v Digiarchivu
 Okres,okres
 Katastr,hlavní katastr
 Další katastry,"další katastry, zasahuje-li akce mimo hlavní katastr"
-nazev_lokality,název lokality
-popis_lokality,popis lokality
-typ_lokality,klasifikace lokalit podle metody jejich vymezení [polygon průzkumu/nemovitá památka/krajina]
-druh_lokality,klasifikace lokalit podle povahy identifikovaných terénních reliktů [polygon leteckého průzkumu/krajina/pozůstatek výroby/...]
-zachovalost,stav dochování lokality [zaniklá lokalita/ruina/nadzemní relikty/...]
+Název lokality,název lokality
+Popis lokality,popis lokality
+Typ lokality,klasifikace lokalit podle metody jejich vymezení [polygon průzkumu/nemovitá památka/krajina]
+Druh lokality,klasifikace lokalit podle povahy identifikovaných terénních reliktů [polygon leteckého průzkumu/krajina/pozůstatek výroby/...]
+Zachovalost,stav dochování lokality [zaniklá lokalita/ruina/nadzemní relikty/...]
 Přístupnost,přístupnost záznamu [A/B/C/D]
+Komponenta*,ID komponenty
+Areál*,typ areálu [sídliště/pohřební areál/pole/...]
+Období*,datace [neolit/vrcholný středověk–novověk/střední doba laténská (LtB–C1)/...]
