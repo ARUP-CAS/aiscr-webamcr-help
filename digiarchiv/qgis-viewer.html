@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,10 +46,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-031f24c22a84aeb089de0020851d458d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3b4d450d609455d4f1bf48d392aee074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -297,6 +300,16 @@ cookieconsent.run({
 </header>
 
 
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Návod je platný pro verzi pluginu <a href="https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases/tag/v2.1.2" class="external">v2.1.2</a>, přehled změn v jednotlivých verzích viz <a href="https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases" class="external">Releases</a>.</p>
+</div>
+</div>
+</div>
 <p>Cílem níže popsaných postupů je představit fungování QGIS pluginu <a href="https://plugins.qgis.org/plugins/amcr_viewer/" class="external">AMČR Viewer</a>, který slouží ke stahování archivovaných dat z <strong>AMČR</strong> a jejich zobrazení v prostředí <strong>QGIS</strong>. Standardní možností exportu archivovaných dat z AMČR je využívání exportního dialogu Digiarchivu AMČR (viz <a href="https://zenodo.org/records/11490822" class="external">Hromadné sklízení prostorových dat Digitálního archivu AMČR pro GIS</a>). AMČR Viewer, stejně jako exportní okno, čerpá data z API Digiarchivu, nabízí ovšem jejich přímější implementaci a podrobnější metadata.</p>
 <section id="instalace-pluginu" class="level2">
 <h2 class="anchored" data-anchor-id="instalace-pluginu">Instalace pluginu</h2>
@@ -321,42 +334,185 @@ cookieconsent.run({
 </section>
 <section id="použití-pluginu" class="level2">
 <h2 class="anchored" data-anchor-id="použití-pluginu">Použití pluginu</h2>
-<p>Plugin umožňuje <strong>načítání dat o <em>archeologických záznamech</em> (<em>akcích</em> a <em>lokalitách</em>)</strong> a záznamech s nimi souvisejících (<em>PIAN</em>ech, <em>dokumentačních jednotkách</em> a <em>komponentách</em>). Základním prvkem je pro plugin <strong><em><a href="../slovnik/index.html#dokumentační-jednotky">dokumentační jednotka</a></em></strong>, součást <em><a href="../slovnik/index.html#akce">archeologické akce</a></em> či <em><a href="../slovnik/index.html#lokality">lokality</a></em>, která slouží jako unikátní záznam jak ve vztahu k <em>akci</em>/<em>lokalitě</em>, tak k příslušnému <em><a href="../slovnik/index.html#pian">PIAN</a></em> (více k datové struktuře AMČR viz <a href="../o-systemu/datovy-model.html#evidence-archeologických-akcí">Datový model</a>). V případě, že uživatel požádá o stahování komponent dotčených <em>akcí</em> či <em>lokalit</em>, je základním prvkem právě <em>komponenta</em>. Podobně jako v Digiarchivu lze i v pluginu filtrovat výsledky jak prostorově, tak pomocí metadat samotného archeologického záznamu, ale i jemu podřízených záznamů (zejména metadat <em><a href="../slovnik/index.html#komponenty">komponenty</a></em>, jako jsou datace a typ areálu).</p>
+<p>Plugin umožňuje <strong>načítání dat z vybraných modulů Digiarchivu (<em>Akce</em>, <em>Lokality</em> a <em>Samostatné nálezy</em>)</strong> a záznamech s nimi souvisejících (<em>PIAN</em>ech, <em>dokumentačních jednotkách</em> a <em>komponentách</em>). Vykreslování záznamů z vyjmenovaných modulů respektuje <a href="../o-systemu/datovy-model.html#evidence-archeologických-akcí">Datový model AMČR</a>.</p>
 <section id="postup-načítání-dat" class="level3">
 <h3 class="anchored" data-anchor-id="postup-načítání-dat">Postup načítání dat</h3>
 <p>Základní postup užívání AMČR Viewer je následující:</p>
 <ol type="1">
-<li><p>Ke spuštění pluginu slouží dvojice tlačítek <code>Stáhnout data akcí</code> <img src="figs/qv-icon-akce.png" class="img-fluid" style="width:2.4%"> a <code>Stáhnout data lokalit</code> <img src="figs/qv-icon-lokality.png" class="img-fluid" style="width:2.4%">, která by se měla po instalaci automaticky zobrazit v jedné z horních nástrojových lišt QGIS v podobě rozevíratelné nabídky. Pokud se tak nestalo, je možné plugin spustit z hlavního menu: <code>Plugins</code> → <code>AMČR Viewer</code> → <code>AMČR Viewer</code>.</p></li>
-<li><p>Otevřené okno <code>Filtr AMČR</code> slouží k filtrování dat před jejich stažením. Je možné filtrovat pomocí:</p>
-<ol type="a">
-<li>prostorových informací:
-<ul>
-<li><code>Kraj</code>, <code>Okres</code>, <code>Katastr</code> (lze vybrat více možností),</li>
-<li><code>Omezit vyhledávání rozsahem okna</code> (tato možnost je ve výchozím nastavení vybrána z důvodu předejití neúmyslného načítání velkého množství dat),</li>
-<li><code>PIAN přesnost</code> (ve výchozím nastavení je zakázána možnost <code>poloha podle katastru</code>; lze vybrat více možností);</li>
-</ul></li>
-<li>údajů podmíněných typem dotazovaného záznamu:
-<ul>
-<li>administrativních informací:
-<ul>
-<li><code>Organizace</code>, <code>Typ výzkumu</code>, <code>Vedoucí výzkumu</code> (lze vybrat více možností);</li>
-</ul></li>
-<li>informací o lokalitě:
-<ul>
-<li><code>Typ</code>, <code>Druh</code>, <code>Jistota určení</code>, <code>Stav dochování</code> (lze vybrat více možností);</li>
-</ul></li>
-</ul></li>
-<li>informací o nálezu:
-<ul>
-<li><code>Pouze pozitivní zjištění</code> (relevantní pouze pro filtr <em>akcí</em>; vrátí pouze dokumentační jednotky, jejichž atribut <code>typ zjištění</code> = <code>pozitivní</code>),</li>
-<li><code>Období</code>, <code>Areál</code> (lze vybrat více možností);</li>
-</ul></li>
-<li>přístupnosti záznamu (<code>Přístupnost</code>; lze vybrat více možností).</li>
+<li><p>Ke spuštění pluginu slouží trojice tlačítek <code>Stáhnout data akcí</code> <img src="figs/qv-icon-akce.png" class="img-fluid" style="width:2.4%">, <code>Stáhnout data samostatných nálezů</code> <img src="figs/qv-icon-sn.png" class="img-fluid" style="width:2.4%"> a <code>Stáhnout data lokalit</code> <img src="figs/qv-icon-lokality.png" class="img-fluid" style="width:2.4%">, která se po instalaci automaticky zobrazí v jedné z horních nástrojových lišt QGIS v podobě rozevíratelné nabídky. Pokud se tak nestane, je možné plugin spustit z hlavního menu: <code>Plugins</code> → <code>AMČR Viewer</code> → <code>AMČR Viewer</code>. Nabídka dále obsahuje položku <code>Přihlásit se</code> (viz <a href="#přihlášení">Přihlášení</a>) a položku <code>Nápověda AMČR Help</code>, která otevře tuto stránku.</p></li>
+<li><p>Otevřené okno <code>Filtr AMČR</code> slouží k filtrování dat před jejich stažením. Je možné filtrovat pomocí polí vypsaných níže:</p></li>
 </ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Filtr</th>
+<th>Akce</th>
+<th>Lokality</th>
+<th>Sam. nálezy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Omezit vyhledávání rozsahem okna</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>Pouze pozitivní zjištění</td>
+<td>✓</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Pouze projektové akce</td>
+<td>✓</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Kraj</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="odd">
+<td>Okres</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>Katastr</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="odd">
+<td>Přístupnost</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>PIAN – přesnost</td>
+<td>✓</td>
+<td>✓</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Organizace</td>
+<td>✓</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>Vedoucí výzkumu</td>
+<td>✓</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Typ výzkumu</td>
+<td>✓</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Datum — <em>Zahájení</em> / <em>Ukončení</em></td>
+<td>✓</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Lokalita – typ</td>
+<td>—</td>
+<td>✓</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Lokalita – druh</td>
+<td>—</td>
+<td>✓</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Lokalita – jistota určení</td>
+<td>—</td>
+<td>✓</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Lokalita - stav dochování</td>
+<td>—</td>
+<td>✓</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Období</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>Kategorie nálezu</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="odd">
+<td>Druh nálezu</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>Specifikace nálezu</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="odd">
+<td>Okolnosti nálezu</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>Nálezce</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="odd">
+<td>Datum nálezu</td>
+<td>—</td>
+<td>—</td>
+<td>✓</td>
+</tr>
+<tr class="even">
+<td>Areál</td>
+<td>✓</td>
+<td>✓</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Načíst komponenty</td>
+<td>✓</td>
+<td>✓</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
 <ul>
-<li>Poslední možností dialogu je checkbox <code>Načíst komponenty</code>, který je ve výchozím nastavení vypnutý.</li>
-</ul></li>
-</ol>
+<li>U polí s výběrem lze vybrat více možností; pole, ve kterém není vybráno nic (<code>Nic nevybráno (vše)</code>), výsledky neomezuje,</li>
+<li>možnost <code>Omezit vyhledávání rozsahem okna</code> je ve výchozím nastavení vybrána z důvodu předejití neúmyslného načítání velkého množství dat,</li>
+<li>u položky <code>PIAN – přesnost</code> (relevantní pouze pro záznamy navázané na PIAN: <em>akce</em> a <em>lokality</em>) je ve výchozím nastavení zakázána možnost <code>poloha podle katastru</code>,</li>
+<li>možnost <code>Pouze pozitivní zjištění</code> je relevantní pouze pro filtr <em>akcí</em>; vrátí pouze dokumentační jednotky, jejichž atribut <code>typ zjištění</code> = <code>pozitivní</code>,</li>
+<li>možnost <code>Pouze projektové akce</code> vrátí pouze <em>akce</em> navázané na projekt,</li>
+<li>u polí s datem (<code>Datum</code> u <em>akcí</em>, <code>Datum nálezu</code> u <em>samostatných nálezů</em>) lze vyplnit jen jednu mez rozmezí, prázdné pole (<code>neomezeno</code>) znamená rozmezí otevřené z dané strany; rozmezí, jehož počáteční datum je pozdější než koncové, dialog nepřijme,</li>
+<li>u <em>akcí</em> a <em>lokalit</em> je poslední možností dialogu checkbox <code>Načíst komponenty</code>, který je ve výchozím nastavení vypnutý; jeho aktivací dojde k potenciálnímu znásobení výsledků podle počtu komponent na akci (dokumentační jednotku), na což dialog upozorní.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="figs/qv-usage.webp"><img src="figs/qv-usage.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:66.0%"></a></p>
@@ -368,8 +524,8 @@ cookieconsent.run({
 </section>
 <section id="přihlášení" class="level3">
 <h3 class="anchored" data-anchor-id="přihlášení">Přihlášení</h3>
-<p>V případě potřeby je možné se do pluginu přihlásit pomocí přihlašovacích údajů použitých pro přístup do Digitálního archivu AMČR. Pro přihlášení klikněte v nabídce pluginu (pod tlačítky aktivující stahování <em>akcí</em> a <em>lokalit</em>) na tlačítko <code>Přihlásit se</code>, které otevře přihlašovací formulář. Před prvním přihlášením bude QGIS žádat nastavení master hesla pro <code>QGIS Password manager</code>, pokud jste tak již neučinili dříve. Toto heslo nijak nesouvisí s AMČR a je na vašem uvážení, jaké heslo nastavíte. Po úspěšném nastavení master hesla se dialogové okno automaticky změní na okno pro přihlášení do Digiarchivu, kam již vkládáte své přihlašovací údaje pro Digiarchiv. Tyto údaje jsou následně bezpečně uloženy v <code>QGIS Password manageru</code>, odkud si je plugin půjčuje pro komunikaci s Digiarchivem. Plugin sám přihlášení obnovuje po otevření QGIS či po uplynutí časového limitu session.<br>
-Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí na tlačítko <code>Přihlásit se</code> a vybrání možnosti <code>Odebrat uložené přihlašovací údaje</code>. K odhlášení dojde automaticky po vypršení session (po uplynutí časového limitu od posledního požadavku nebo po zavření QGIS).</p>
+<p>Plugin je možné používat zcela anonymně. V tomto režimu vrací API Digiarchivu všechna data (odpovídající filtrům), která lze bez přihlášení zobrazit v <a href="https://digiarchiv.aiscr.cz/map?mapa=true&amp;loc_rpt=48.5731315612793,12.112100601196289,51.0154914855957,18.76592254638672">mapovém zobrazení Digiarchivu</a>. Tímto způsobem lze tedy zobrazit drtivou většinu <em>akcí</em> i <em>lokalit</em>, ne však <em>samostatných nálezů</em>.</p>
+<p>V případě potřeby je možné se do pluginu přihlásit pomocí přihlašovacích údajů použitých pro přístup do Digitálního archivu AMČR. Pro přihlášení klikněte v nabídce pluginu (pod tlačítky pro stahování dat) na tlačítko <code>Přihlásit se</code>, které otevře přihlašovací formulář <code>Přihlášení do AMČR</code>. Do formuláře vyplňte e-mail a heslo, které používáte pro přístup do Digiarchivu. Po potvrzení plugin údaje nejprve ověří přihlášením do Digiarchivu; nesprávné údaje se neuloží. Pokud je server Digiarchivu nedostupný, plugin se zeptá, zda chcete údaje přesto uložit bez ověření. Při prvním ukládání bude QGIS žádat nastavení master hesla pro <code>QGIS Password manager</code>, pokud jste tak již neučinili dříve (jinak vás může požádat o jeho zadání). Toto heslo nijak nesouvisí s AMČR a je na vašem uvážení, jaké heslo nastavíte. Přihlašovací údaje jsou následně bezpečně uloženy v <code>QGIS Password manageru</code>, odkud si je plugin půjčuje pro komunikaci s Digiarchivem. Plugin sám přihlášení obnovuje po otevření QGIS či po uplynutí časového limitu session. Pokud chcete uložené údaje změnit, otevřete znovu formulář tlačítkem <code>Přihlásit se</code>; e-mail je v něm předvyplněný a pole pro heslo lze ponechat prázdné, pokud se heslo nemění. Pokud chcete uložené údaje odstranit, můžete tak učinit v tomtéž formuláři volbou <code>Odebrat uložené přihlašovací údaje</code>. K odhlášení dojde automaticky po vypršení session (po uplynutí časového limitu od posledního požadavku nebo po zavření QGIS).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="figs/qv-login.webp"><img src="figs/qv-login.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:66.0%"></a></p>
@@ -378,7 +534,7 @@ Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí
 </section>
 <section id="aktualizace-heslářů" class="level3">
 <h3 class="anchored" data-anchor-id="aktualizace-heslářů">Aktualizace heslářů</h3>
-<p>V každém z filtračních oken je vedle tlačítek <code>OK</code> a <code>Cancel</code> ještě i možnost <code>Aktualizovat hesláře 🔄️</code>. Plugin má z distribuce přiloženu sadu heslářů, není tedy nutné aktualizaci provádět hned po instalaci. Možnost aktualizace ale zaručuje, že lokálně uložené hesláře budou odpovídat aktuálnímu stavu v AMČR, měl-li by se změnit. Aktualizace dává smysl zejména v případě hesláře osob (filtr <code>Vedoucí výzkumu</code>), neboť osoby v AMČR dynamicky přibývají.</p>
+<p>V každém z filtračních oken je vedle tlačítek <code>OK</code> a <code>Cancel</code> ještě i možnost <code>Aktualizovat hesláře 🔄️</code>. Plugin má z distribuce přiloženu sadu heslářů, není tedy nutné aktualizaci provádět hned po instalaci. Možnost aktualizace ale zaručuje, že lokálně uložené hesláře budou odpovídat aktuálnímu stavu v AMČR, měl-li by se změnit. Aktualizace dává smysl zejména v případě heslářů osob (filtry <code>Vedoucí výzkumu</code> a <code>Nálezce</code>), neboť osoby v AMČR dynamicky přibývají.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -389,17 +545,17 @@ Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Hesláře se aktualizují z AMČR OAI-PMH API, počítejte prosím s tím, že jejich stahování může trvat i několik minut.</p>
+<p>Hesláře se aktualizují z AMČR OAI-PMH API, seznamy osob (<code>Vedoucí výzkumu</code>, <code>Nálezce</code>) z API Digiarchivu. Počítejte prosím s tím, že jejich stahování může trvat i několik minut. Aktualizace běží na pozadí jako úloha QGIS, kterou lze v případě potřeby zrušit; po jejím dokončení plugin zobrazí hlášení.</p>
 </div>
 </div>
 </section>
 <section id="datová-struktura" class="level3">
 <h3 class="anchored" data-anchor-id="datová-struktura">Datová struktura</h3>
-<p>Kvůli nutnosti dělit prvky podle typu geometrie musí plugin vykreslit načtená data ve třech různých vrstvách: <code>AMCR_{zaznam}_Body</code>, <code>AMCR_{zaznam}_Linie</code> a <code>AMCR_{zaznam}_Polygony</code>, přičemž položka <code>{zaznam}</code> odpovídá typu požadovaného archeologického záznamu <code>Akce</code>/<code>Lokalita</code>. V případě požadavku stažení komponent jsou součástí každé z vrstev navíc ještě pole <code>Komponenta</code>, <code>Areál</code> a <code>Období</code>.</p>
+<p>Kvůli nutnosti dělit prvky podle typu geometrie musí plugin vykreslit načtená data ve třech různých vrstvách: <code>AMCR_{zaznam}_Body</code>, <code>AMCR_{zaznam}_Linie</code> a <code>AMCR_{zaznam}_Polygony</code>, přičemž položka <code>{zaznam}</code> odpovídá typu požadovaného záznamu <code>Akce</code>/<code>Lokalita</code>/<code>Samostatný_nález</code>. Vrstva se vytvoří jen pro ty typy geometrie, které se ve výsledku vyskytují. V případě požadavku stažení komponent (u <em>akcí</em> a <em>lokalit</em>) jsou součástí každé z vrstev navíc ještě pole <code>Komponenta</code>, <code>Areál</code> a <code>Období</code>.</p>
 <p>Atributové tabulky jednotlivých vrstev obsahují následující informace:</p>
-<div class="cell quarto-layout-panel" data-tbl-cap="[&quot;Atributová tabulka vrstev akcí&quot;,&quot;Atributová tabulka vrstev lokalit&quot;]" data-layout-ncol="2">
+<div class="cell quarto-layout-panel" data-layout-ncol="3" data-tbl-cap="[&quot;Atributová tabulka vrstev akcí&quot;,&quot;Atributová tabulka vrstev lokalit&quot;,&quot;Atributová tabulka vrstev samostatných nálezů&quot;]">
 <div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <table class="caption-top table table-sm table-striped small">
 <caption>Atributová tabulka vrstev akcí</caption>
 <colgroup>
@@ -434,12 +590,12 @@ Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí
 <td style="text-align: left;">[sonda/část akce/celek akce/katastrální území]</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Definiční bod(y) (WGS-84)</td>
-<td style="text-align: left;">centroid prvku v souřadnicovém systému WGS-84</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">Akce</td>
 <td style="text-align: left;">ID akce</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Definiční bod(y) (WGS-84)</td>
+<td style="text-align: left;">centroid prvku v souřadnicovém systému WGS-84</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Odkaz do Digitálního archivu AMČR</td>
@@ -498,25 +654,29 @@ Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí
 <td style="text-align: left;">[ano/ne]</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Projekt</td>
+<td style="text-align: left;">ID projektu (pouze u projektových akcí)</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Přístupnost</td>
 <td style="text-align: left;">přístupnost záznamu [A/B/C/D]</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Komponenta*</td>
 <td style="text-align: left;">ID komponenty</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Areál*</td>
 <td style="text-align: left;">typ areálu [sídliště/pohřební areál/pole/…]</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Období*</td>
 <td style="text-align: left;">datace [neolit/vrcholný středověk–novověk/střední doba laténská (LtB–C1)/…]</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <table class="caption-top table table-sm table-striped small">
 <caption>Atributová tabulka vrstev lokalit</caption>
 <colgroup>
@@ -551,12 +711,12 @@ Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí
 <td style="text-align: left;">[sonda/část akce/celek akce/katastrální území]</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Definiční bod(y) (WGS-84)</td>
-<td style="text-align: left;">centroid prvku v souřadnicovém systému WGS-84</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">Lokalita</td>
 <td style="text-align: left;">ID lokality</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Definiční bod(y) (WGS-84)</td>
+<td style="text-align: left;">centroid prvku v souřadnicovém systému WGS-84</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Odkaz do Digitálního archivu AMČR</td>
@@ -572,7 +732,7 @@ Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Další katastry</td>
-<td style="text-align: left;">další katastry, zasahuje-li akce mimo hlavní katastr</td>
+<td style="text-align: left;">další katastry, zasahuje-li lokalita mimo hlavní katastr</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Název lokality</td>
@@ -613,13 +773,114 @@ Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí
 </tbody>
 </table>
 </div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<table class="caption-top table table-sm table-striped small">
+<caption>Atributová tabulka vrstev samostatných nálezů</caption>
+<colgroup>
+<col style="width: 32%">
+<col style="width: 67%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">název</th>
+<th style="text-align: left;">popis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Samostatný nález</td>
+<td style="text-align: left;">ID samostatného nálezu</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Definiční bod(y) (WGS-84)</td>
+<td style="text-align: left;">centroid prvku v souřadnicovém systému WGS-84</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Odkaz do Digitálního archivu AMČR</td>
+<td style="text-align: left;">odkaz na záznam samostatného nálezu v Digiarchivu</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Okres</td>
+<td style="text-align: left;">okres</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Katastr</td>
+<td style="text-align: left;">katastr</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Další katastry</td>
+<td style="text-align: left;">u samostatných nálezů zůstává prázdné</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Projekt</td>
+<td style="text-align: left;">identifikátor projektu, pod který nález spadá</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nálezce</td>
+<td style="text-align: left;">jméno nálezce předmětu</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Datum nálezu</td>
+<td style="text-align: left;">datum nálezu</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Nálezové okolnosti</td>
+<td style="text-align: left;">v jakých podmínkách byl předmět nalezen (např. povrch, ornice, …)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Hloubka (cm)</td>
+<td style="text-align: left;">hloubka nálezu v centimetrech</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Lokalizace</td>
+<td style="text-align: left;">bližší lokalizace nálezu, např. trať</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Období</td>
+<td style="text-align: left;">datace nálezu</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Přesná datace</td>
+<td style="text-align: left;">upřesnění datace, pokud lze</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Nález</td>
+<td style="text-align: left;">typ nalezeného předmětu podle hesláře AMČR (např. spona, mince, …)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Materiál</td>
+<td style="text-align: left;">materiál nalezeného předmětu (např. bronz, železo, …)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Počet předmětů</td>
+<td style="text-align: left;">počet kusů předmětů v jednom nálezu</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Poznámka/bližší popis</td>
+<td style="text-align: left;">pole pro volný text, nejčastěji rozšiřující popis nalezeného předmětu</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Předáno organizaci</td>
+<td style="text-align: left;">které organizaci byl nález předán</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Evidenční číslo</td>
+<td style="text-align: left;">evidenční číslo předmětu</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Přístupnost</td>
+<td style="text-align: left;">přístupnost záznamu [A/B/C/D]</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 <p>*) Pole jsou přítomna pouze při požadavku na stažení dat komponent.</p>
 </section>
 <section id="procházení-a-filtrování-dat" class="level3">
 <h3 class="anchored" data-anchor-id="procházení-a-filtrování-dat">Procházení a filtrování dat</h3>
-<p>Zobrazená data je možné procházet několika způsoby. Nejjedodušším nástrojem typu “pokus-omyl” je nástroj <em>Identifikovat prvky</em>. Po kliknutí na prvek se zobrzazí jak informace o příslušné <em>dokumentační jednotce</em> (<em>akci</em>/<em>lokalitě</em>), tak i ty z připojených <em>komponent</em>, pokud jsou na <em>dokumentační jednotku</em> tyto navázány.</p>
+<p>Zobrazená data je možné procházet několika způsoby. Nejjednodušším nástrojem typu “pokus-omyl” je nástroj <em>Identifikovat prvky</em>. Po kliknutí na prvek se zobrazí jak informace o příslušné <em>dokumentační jednotce</em> (<em>akci</em>/<em>lokalitě</em>) či <em>samostatném nálezu</em>, tak i ty z připojených <em>komponent</em>, pokud jsou na <em>dokumentační jednotku</em> tyto navázány.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <div class="quarto-figure quarto-figure-center">
@@ -630,7 +891,7 @@ Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí
 <figcaption>Procházení výsledků pomocí nástroje <em>Identifikovat prvky</em>, včetně připojených <em>komponent</em>.</figcaption>
 </figure>
 </div>
-<p>O něco systematičtějším způsobem je pak možnost <em>Filtr</em>, která umožňuje filtrovat výsledky jak pomocí atributů <em>akce</em>/<em>lokality</em>, tak pomocí atributů připojených komponent. Postup filtrování je zobrazen na animaci níže.</p>
+<p>O něco systematičtějším způsobem je pak možnost <em>Filtr</em>, která umožňuje filtrovat výsledky jak pomocí atributů <em>akce</em>/<em>lokality</em>/<em>samostatného nálezu</em>, tak pomocí atributů připojených komponent. Postup filtrování je zobrazen na animaci níže.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <div class="quarto-figure quarto-figure-center">
@@ -645,7 +906,7 @@ Pokud chcete uložené údaje odstranit, můžete tak učinit opět po kliknutí
 <section id="omezení" class="level3">
 <h3 class="anchored" data-anchor-id="omezení">Omezení</h3>
 <ul>
-<li>Limit načítaných akcí je omezen na <strong>20 000</strong>. Doporučujeme využít filtrů pro předtřídění dat. V opačném případě načítejte data postupně po územních celcích (krajích či v některých případech okresech). Počty akcí podle krajů lze zkontrolovat v <a href="https://digiarchiv.aiscr.cz/map?entity=akce&amp;sort=datestamp%20desc&amp;mapa=true&amp;page=0" class="external">Digiarchivu</a>.</li>
+<li>Limit načítaných záznamů je omezen na <strong>20 000</strong>. Doporučujeme využít filtrů pro předtřídění dat. V opačném případě načítejte data postupně po územních celcích (krajích či v některých případech okresech). Počty akcí podle krajů lze zkontrolovat v <a href="https://digiarchiv.aiscr.cz/map?entity=akce&amp;sort=datestamp%20desc&amp;mapa=true&amp;page=0" class="external">Digiarchivu</a>.</li>
 <li>Při načítání komponent jsou prostorové prvky duplikovány – každý prvek odpovídá jedné komponentě. Prostorové analýzy (plochy, počty) mohou být zkreslené.</li>
 </ul>
 </section>
