@@ -1,0 +1,22 @@
+název,popis
+Samostatný nález,ID samostatného nálezu
+Definiční bod(y) (WGS-84),centroid prvku v souřadnicovém systému WGS-84
+Odkaz do Digitálního archivu AMČR,odkaz na záznam samostatného nálezu v Digiarchivu
+Okres,okres
+Katastr,katastr
+Další katastry,u samostatných nálezů zůstává prázdné
+Projekt,"identifikátor projektu, pod který nález spadá"
+Nálezce,jméno nálezce předmětu
+Datum nálezu,datum nálezu
+Nálezové okolnosti,"v jakých podmínkách byl předmět nalezen (např. povrch, ornice, ...)"
+Hloubka (cm),hloubka nálezu v centimetrech
+Lokalizace,"bližší lokalizace nálezu, např. trať"
+Období,datace nálezu
+Přesná datace,"upřesnění datace, pokud lze"
+Nález,"typ nalezeného předmětu podle hesláře AMČR (např. spona, mince, ...)"
+Materiál,"materiál nalezeného předmětu (např. bronz, železo, ...)"
+Počet předmětů,počet kusů předmětů v jednom nálezu 
+Poznámka/bližší popis,"pole pro volný text, nejčastěji rozšiřující popis nalezeného předmětu"
+Předáno organizaci,které organizaci byl nález předán
+Evidenční číslo,evidenční číslo předmětu
+Přístupnost,přístupnost záznamu [A/B/C/D]

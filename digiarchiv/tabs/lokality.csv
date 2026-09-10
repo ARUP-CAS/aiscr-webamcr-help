@@ -4,12 +4,12 @@ Přesnost,míra prostorové odchylky
 PIAN – typ,[bod/linie/polygon]
 Dokumentační jednotka,ID dokumentační jednotky
 Typ dokumentační jednotky,[sonda/část akce/celek akce/katastrální území]
-Definiční bod(y) (WGS-84),centroid prvku v souřadnicovém systému WGS-84
 Lokalita,ID lokality
+Definiční bod(y) (WGS-84),centroid prvku v souřadnicovém systému WGS-84
 Odkaz do Digitálního archivu AMČR,odkaz na záznam lokality v Digiarchivu
 Okres,okres
 Katastr,hlavní katastr
-Další katastry,"další katastry, zasahuje-li akce mimo hlavní katastr"
+Další katastry,"další katastry, zasahuje-li lokalita mimo hlavní katastr"
 Název lokality,název lokality
 Popis lokality,popis lokality
 Typ lokality,klasifikace lokalit podle metody jejich vymezení [polygon průzkumu/nemovitá památka/krajina]
