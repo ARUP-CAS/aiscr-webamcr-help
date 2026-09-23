@@ -29,6 +29,6 @@ repository-code: 'https://github.com/ARUP-CAS/aiscr-webamcr-help/'
 url: 'https://amcr-help.aiscr.cz/'
 abstract: "User documentation and help for AMCR web application (https://github.com/ARUP-CAS/aiscr-webamcr)"
 license: CC-BY-NC-4.0
-date-released: 2025-07-26
-version: v1.0.2
+date-released: 2025-09-23
+version: v1.1.0
 type: software
