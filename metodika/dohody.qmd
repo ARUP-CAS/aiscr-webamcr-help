@@ -1,6 +1,6 @@
 ---
 title: Dohody o využívání Archeologické mapy České republiky
-date: 2026-02-10
+date: 2026-09-23
 ---
 
 AMČR lze v základním režimu využívat bez omezení, resp. po případné registraci [uživatelského účtu](/zakladni-info/ucty.qmd). 
@@ -10,8 +10,9 @@ Dohody o využívání Archeologické mapy České republiky slouží k zajišt�
 - pro orgány veřejné moci při výkonu jejich pravomocí;
 - pro krajské samosprávy v souvislosti s plněním nařízení krajů a dohledu nad nakládáním s nálezy v majetku kraje.
 
-Přístup v ostatních případech, např. z důvodu propojení s jinými informačními systémy, může být zajištěn v závislosti na konkrétních potřebách. 
+Přístup v ostatních případech, např. z důvodu propojení s jinými informačními systémy, může být zajištěn v závislosti na konkrétních potřebách.
 V těchto případech se na nás jednotlivě obracejte s popisem vaší situace.
+Jedním z takových propojení je [integrace se sbírkovou evidencí muzeí v systému MUSEION](#museion) popsaná níže.
 
 Uzavření dohod pro přístup k projektům je nezbytné zejména z důvodu ošetření ochrany osobních údajů oznamovatelů záměrů, ale též pro vymezení povinností vyplývajících ze zákona, které mouhou být skrze AMČR naplňovány.
 
@@ -24,6 +25,53 @@ Zda má oprávněná organizace Dohodu o využívání AMČR uzavřenou, lze zji
 Veškerou komunikaci ve věci dohod lze směřovat na oficiální emaily [{{< bi envelope-at size=0.8em >}} amcr@arup.cas.cz](mailto:amcr@arup.cas.cz) (pro **oblast Čech**) nebo [{{< bi envelope-at size=0.8em >}} amcr@arub.cz](mailto:amcr@arub.cz) (pro **oblast Moravy a Slezska**).
 
 :::
+
+## Propojení se sbírkovou evidencí muzeí (MUSEION) {#museion}
+
+Muzea, která spravují své sbírky v systému MUSEION společnosti Axiell, mohou svou evidenci s AMČR propojit ve dvou směrech:
+
+- **Zápis nálezů do AMČR-PAS a načítání údajů z AMČR** (scénáře S2--S5): z MUSEIONu lze samostatné nálezy exportovat do [AMČR-PAS](/amcr/amcr-pas/index.qmd), aktualizovat jejich evidenční číslo a naopak načítat údaje z AMČR do katalogizačních karet.
+  Zápis do AMČR probíhá pod účtem konkrétního uživatele AMČR a s jeho oprávněními; uživatel má své přihlašovací údaje do AMČR uložené v MUSEIONu.
+  Pro tuto část proto platí dohody a role, které organizace a její pracovníci v AMČR již mají.
+- **Poskytování údajů o předmětech Digitálnímu archivu AMČR** (scénář S6): uživatelé Digitálního archivu si u projektů, akcí a samostatných nálezů mohou zobrazit předměty, které k nim muzeum eviduje, viz tutoriál [Předměty ve sbírkách muzeí](/digiarchiv/museion.qmd).
+  Tato část vyžaduje samostatnou dohodu mezi muzeem a ARÚ, popsanou níže.
+
+Předpokladem exportu do AMČR je **mapování slovníků MUSEIONu na hesláře AMČR** (scénář S1), např. pro předmět, materiál, dataci, okolnosti nálezu, druh objektu, areál nebo aktivitu.
+Mapování si provádí správce každé instalace MUSEIONu sám, protože slovníky se mezi muzei liší; hesláře AMČR jsou strojově dostupné prostřednictvím [AMČR API](https://arup-cas.github.io/aiscr-api-home/pas-api/#vocabulary-mapping){.external}.
+Postup na straně MUSEIONu popisuje [příručka společnosti Axiell](https://doc.axiell.cz/soubory/prirucky/p33_integrace_amcr.pdf){.external}.
+
+### Jak se stát poskytovatelem dat
+
+1. Muzeum v MUSEIONu vygeneruje pro webovou službu určenou AMČR identifikátor klienta a klíč.
+   Přístup se nastavuje pro konkrétního správce sbírky.
+2. Muzeum a ARÚ uzavřou [dohodu o sdílení údajů ze systému MUSEION](docs/AMCR_dohoda_ARU_Museion_2026-07-14.docx), která vymezí účel využití, instanci MUSEIONu a adresu její služby, výchozí úroveň sdílení, kontaktní osoby a způsob bezpečného předání přístupových údajů.
+3. ARÚ po předání přístupových údajů napojí službu muzea na Digitální archiv AMČR.
+
+Vzor dohody najdete v tabulce [níže](#vzory-dokumentů-ke-stažení); s jejím uzavřením se obracejte na kontakty uvedené výše.
+Dohoda je bezúplatná, uzavírá se na dobu neurčitou a každá strana ji může písemně vypovědět s výpovědní dobou 30 dnů.
+
+### Co muzeum sdílí a kdo o tom rozhoduje
+
+- **Jen předměty s identifikátorem AMČR.**
+  Webová služba poskytuje údaje výhradně podle identifikátorů AMČR (projekt, akce, samostatný nález); jiný pohled do sbírek neumožňuje.
+- **Rozsah volí muzeum.**
+  Muzeum nastavuje v MUSEIONu úroveň přístupu `BASIC` (pouze evidenční, resp. inventární číslo) nebo `FULL` (vybrané odborné údaje o předmětu).
+  Výchozí úroveň platí pro správce sbírky a u jednotlivých záznamů předmětů ji lze změnit.
+  Výchozí úroveň muzeum změní oznámením ARÚ a úpravou nastavení MUSEIONu; protože se údaje do Digitálního archivu načítají on-line, projeví se změna při příštím zobrazení.
+- **Jak s údaji nakládá ARÚ.**
+  Údaje se zobrazují jen v AMČR, Digitálním archivu AMČR a souvisejících službách AIS CR, vždy s uvedením muzea jako zdrojové organizace.
+  Úplné údaje o předmětech ARÚ trvale nepřebírá do databáze AMČR; ukládá pouze dočasnou technickou cache a pomocný index identifikátorů AMČR a souhrnných počtů, podle kterého funguje filtr v Digitálním archivu.
+- **Co se nesdílí nikdy.**
+  Rozsah údajů je pevně dán webovou službou a nezahrnuje místo uložení předmětu ani jeho ocenění.
+  Nepřenášejí se ani fotografie; ty se do AMČR dostávají pouze exportem nálezu do AMČR-PAS.
+
+### Úprava evidenčního čísla organizací, které byl nález předán
+
+Samostatný nález v AMČR-PAS rozlišuje organizaci projektu, pod kterým byl zapsán, a organizaci, které byl nález skutečně předán -- pole `Předáno organizaci` v části *Uložení*, vyplňované při potvrzení nálezu.
+Organizace uvedená v tomto poli s nálezem pracuje jako s nálezem své organizace (zobrazuje se jí mezi `Naše nálezy`), i když není původcem projektu.
+Může tak například po zařazení nálezu do systematické evidence nahradit v poli `Evidenční číslo` číslo pomocné evidence inventárním číslem, a to i hromadně z MUSEIONu.
+Změna je dohledatelná v historii záznamu.
+U starších záznamů, kde pole `Předáno organizaci` vyplněno není, zůstávají úpravy vyhrazeny organizaci projektu.
 
 ## Vzory dokumentů ke stažení
 
@@ -39,5 +87,6 @@ Veškerou komunikaci ve věci dohod lze směřovat na oficiální emaily [{{< bi
 | [Vzor dohody pro OVM -- ARÚB](docs/AMCR_dohoda_ARUB_OVM_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_OVM_2025-09-04.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro orgány veřejné moci - verze pro Moravu a Slezsko. |
 | [Vzor dohody pro kraje -- ARÚ](docs/AMCR_dohoda_ARU_kraje_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_kraje_2025-09-04.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro krajské samosprávy - verze pro Čechy. |
 | [Vzor dohody pro kraje -- ARÚB](docs/AMCR_dohoda_ARUB_kraje_2025-09-04.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARUB_kraje_2025-09-04.docx) | DOCX | 4. 9. 2025 | Vzor dohody o užívání AMČR určený pro krajské samosprávy - verze pro Moravu a Slezsko. |
+| [Vzor dohody o sdílení údajů z MUSEIONu](docs/AMCR_dohoda_ARU_Museion_2026-07-14.docx) | [{{< bi file-word >}}](docs/AMCR_dohoda_ARU_Museion_2026-07-14.docx) | DOCX | 14. 7. 2026 | Vzor dohody o sdílení údajů ze systému MUSEION za účelem jejich zpřístupnění uživatelům AMČR v Digitálním archivu AMČR, viz [propojení se sbírkovou evidencí muzeí](#museion). |
 
 :::
