@@ -1,23 +1,22 @@
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 *.Rproj
 
+# Quarto
 /.quarto/
-
 _site/
-
 /.luarc.json
-
 /api.bak/
-
 **/*.quarto_ipynb
 
 # vscode
 .vscode/
 
-# agents
-.codex/
-.claude/
-.cursor/
+# venv
+.venv/
+
+# node_modules
+node_modules/
