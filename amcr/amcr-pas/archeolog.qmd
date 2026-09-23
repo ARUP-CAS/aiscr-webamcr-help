@@ -16,7 +16,8 @@ subtitle: "Pokyny pro archeology k vytváření a správě projektů typu průzk
 #     orcid: 0000-0002-0576-7230
 #   - name: Olga Lečbychová
 #     orcid: 0000-0001-5123-1261
-date: 2025-08-29
+date: 2026-09-23
+# date: 2025-08-29
 # date: 2025-06-23
 # doi: 10.5281/zenodo.4114128
 ---
@@ -65,7 +66,8 @@ vedoucího, který je pracovníkem dané oprávněné organizace.
 Archeologické výzkumy jsou registrovány ve formě projektu v AMČR, a to vždy ještě před svým zahájením v terénu. 
 Územní rozsah projektu je vymezen na základě potřeby a cílů, které má projekt splnit. 
 Výzkum je možné vymezit různými způsoby: jak pro konkrétní dlouhodobě sledovanou lokalitu, tak jako projekt pro širší region (např. okres), při respektování zákonné působnosti oprávněné organizace.
-Doporučuje se, aby výzkumy s větším územním rozsahem nepřesahovaly z hlediska délky trvání jeden rok, naopak výzkumy zaměřené na kontinuální prospekci jedné lokality mohou probíhat i několik sezón (až pět let). 
+Maximální doba trvání výzkumu s větším územním rozsahem je zpravidla jeden kalendářní rok, naopak výzkumy zaměřené na kontinuální prospekci jedné 
+lokality mohou probíhat i několik sezón (až pět let). 
 Výzkumná strategie projektu a jeho základní principy by měly být konkretizovány a shrnuty v dokumentu přiloženém jako součást projektové dokumentace v (AMČR).
 
 ### Výzkum provádí oprávněná organizace
@@ -124,11 +126,11 @@ Projekty typu **průzkum** lze ve vztahu k době trvání vést dvojím
 způsobem:
 
 - **sběrné projekty**, v rámci kterých evidujeme nálezy z větších
-územní celků (okres, katastr, apod.), pro takto široce vymezené
-projekty platí, že doba jejich trvání nepřekračuje jeden rok;
+územních celků (okres, katastr, apod.), pro takto široce vymezené
+projekty platí, že doba jejich trvání nepřekračuje **jeden rok**;
 - projekty, v rámci kterých evidujeme nálezy z **konkrétní lokality**
 po delší dobu, pro takové projekty pak platí omezení doby trvání na
-max. pět let, v tomto případě vhodně vyplňte pole *lokalizace* v
+max. **pět let**, v tomto případě vhodně vyplňte pole *lokalizace* v
 projektu a do pole *podnět* uveďte informaci o očekávaném trvání
 projektu.
 - třetí kategorií projektů typu průzkum jsou **projekty pro retrospektivní zápis**, 
@@ -150,7 +152,7 @@ Základní postup správy projektů typu průzkum se v zásadě neliší od spr�
 ![Zápis projektu typu průzkum](figs/pas-a_proj_zapsat.png){width="60%"}
 
 1. Aby projekt mohl sloužit k zápisu samostatných nálezů, musí být zapsán jako **průzkum**.
-   Položky, které nám nejsou při zápisu projektu známy můžeme proškrtnout (-).
+   Položky, které nám nejsou při zápisu projektu známy, můžeme proškrtnout (-).
 1.  Po přidání obecné lokalizace v mapě a doplnění povinných polí projekt zapíšeme.
 
 Pro prospekce realizované na velkém množství katastrů (např. celý okres)
@@ -212,12 +214,22 @@ Samotný modul AMČR-PAS se skládá z několika karet:
 
 Na kartě `Spolupráce` se zobrazuje tabulka navázaných spolupracovníků.
 Po žádosti o spolupráci ze strany amatérského badatele budete vyzvání k
-jejímu potvrzení, to provedete právě v této části aplikace. Potvrzením
+jejímu potvrzení, a to provedete právě v této části aplikace. Potvrzením
 spolupráce vznikne vazba mezi Vámi a spolupracujícím amatérem.
 
 Po potvrzení spolupráce, vytvoření projektu a sdělení jeho
 identifikátoru může spolupracovník pod tento projekt začít zapisovat
 nálezy.
+
+#### Spolupráce vázaná na konkrétní projekty
+
+U každé spolupráce je pomocí možnosti `Editovat` ve sloupci `Upravit projekty` nutné nastavit výčet projektů typu průzkum, které mají být dostupné danému spolupracovníkovi k zápisu nálezů. 
+Omezuje se tak možnost chyby, kdy spolupracovník zapisuje nálezy pod špatný projekt, pokud Vaše organizace spravuje souběžně řadu běžících průzkumů.
+
+V přehledu spoluprací jsou viditelná čísla běžících projektů s proklikem na jejich detail; podle projektů lze v tabulce také filtrovat. 
+Nová spolupráce začíná s prázdným seznamem a spolupracovník při zápisu nálezu vidí jen projekty ze svého výčtu. 
+Bez nastavení aktivních projektů tak nemůže zapisovat nálezy.
+
 
 
 ### Potvrzení nálezu
@@ -238,13 +250,21 @@ Vám tyto nálezy pod kartou `Potvrdit` ve formě přehledné tabulky.
 
 #### Fotografie
 
-![Tabulka přiložených fotografií](figs/pas-a_zapis_foto.png){width="90%"}
+![Tabulka přiložených fotografií](figs/pas-a_zapis_foto.png){width="100%"}
 
 První zobrazenou sekcí je seznam přiložených fotografií, ty lze po
 kliknutí na ikonu {{< bi floppy >}} stáhnout. Rovněž je
 možné nadbytečné fotografie nálezu smazat, případně přidat další, např.
 po laboratorním zpracování, případně již nahrané fotografie nahradit.
 **Upozorňujeme, že smazání fotografie ze systému je nevratné!**
+
+::: {.callout-note}
+## Změna náhledové fotografie
+
+U nahraného souboru lze změnit jeho název (suffix určující pořadí, a to na povolené a neobsazené hodnoty) pomocí ikony u názvu. 
+Obsah souboru se tím nijak nemění, pouze dojde k přejmenování. 
+Přejmenováním lze ovlivnit řazení souborů a tím i výchozí fotografii používanou pro náhled celého nálezu.
+:::
 
 Fotografie musí splňovat archeologický dokumentační standard. Tím
 rozumějme kolmé a šikmé snímky předmětu tak, aby zachycovaly celkovou
@@ -308,14 +328,15 @@ Poslední vyplňovanou sekcí jsou informace o uložení a předání nálezu.
 Rozepsaný formulář lze v jakémkoliv bodě práce uložit a vrátit se k němu
 později. Zde je nutné:
 
-1.  **potvrdit předání** nálezu oprávněné organizaci,
+1.  **zvolit místo/instituci uložení nálezu**. Může se jednat o jinou organizaci než tu, která realizovala projekt (obvykle půjde o oblastní muzeum jako správce cílové sbírky). Jmenovaná organizace tím získává **oprávnění nakládat se záznamem o nálezu** podobně, jako organizace původce;
+1.  **potvrdit předání** nálezu oprávněné organizaci;
 2.  uvést `Evidenční číslo` přidělené danému nálezu. Tím není nutně
     inventární číslo, může jím být přírůstkové číslo či libovolný
     **unikátní identifikátor**, pod kterým bude možné daný nález ve
     sbírce kdykoli dohledat. Případně je možné pro evidenci využít
     unikátní identifikátor generovaný v AMČR-PAS, který se
     skládá z identifikátoru projektu a pořadového čísla nálezu v daném
-    projektu. Pak do kolonky `Evidenční číslo` přidáme poznámku .
+    projektu. Pak do kolonky `Evidenční číslo` přidáme poznámku;
 3.  nastavit `Přístupnost`, což je úroveň, na které bude zobrazena
     geografická poloha daného nálezu, automaticky je předvyplněna
     přístupnost `archeolog`, v odůvodněných případech lze přístupnost
@@ -353,25 +374,26 @@ souvisejícím projektu.
 
 Postup pro uzavření projektu:
 
-1. **ukončete projekt v terénu**, případně upravte začátek a konec projektu v terénu tak, aby data odpovídala skutečnosti, v tomto stavu již do projektu nebude možné zapisovat nové nálezy, nicméně lze editovat nálezy stávající;
+1. **ukončete projekt v terénu**, případně upravte začátek a konec projektu v terénu tak, aby data odpovídala skutečnosti, v tomto stavu lze projekt stále editovat, zaznamenávat nové a editovat stávající nálezy;
 6. nahrajte k projektu **nálezovou zprávu** podle zjednodušeného vzoru (vzor
     [zde](docs/AMCR-PAS_NZ_vzor.docx)),
     pro inspiraci můžete využít následující
     [příklad](docs/AMCR-PAS_NZ_priklad.pdf);
-7. **projekt uzavřete**, po tomto kroku již nebude možné projekt ani navázané nálezy editovat, proto před uzavřením dokončete úpravy všech nálezů;
+7. **projekt uzavřete**, po tomto kroku již nebude možné projekt editovat;
 7. archivář projekt zkontroluje a posune do stavu **archivovaný**.
 
 ![Ukončení projektu v terénu](figs/pas-a-ukoncit.png){width="60%"}
 
 ::: {.callout-important}
 
-## Stavy projektu typu průzkum
+## Aktualizace přiřazených projektů
 
-- Ve stavu projektu **ukončený v terénu** se spolupracovníkům již nebude zobrazovat číslo projektu ve webovém
-rozhraní, tj. **nebude možné pod projekt zapisovat nové nálezy**, již existující nálezy však bude možné stále editovat.
-- Ve stavu **uzavřený** již **nebude možné editovat nálezy** navázané na projekt.
+Při ukončení terénu je vhodné upozornit spolupracovnictvo, aby dokončili nahrávání nálezů do projektu, poté jim odebrat přístup k projektu a zároveň přiřadit navazující projekt k zápisu nově získaných nálezů. 
+**Zabráníte tak situaci, kdy spolupracovník zapisuje nálezy pod chybný projekt.**
 
 :::
+
+### Nálezová zpráva z projektů typu průzkum
 
 Forma NZ k projektům typu průzkum je o poznání stručnější než v případě
 klasických nálezových zpráv, neboť o vyplnění komponent a jednotlivých

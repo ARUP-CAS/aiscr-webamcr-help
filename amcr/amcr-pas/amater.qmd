@@ -16,7 +16,8 @@ subtitle: Základní principy spolupráce a pokyny pro používání AMČR-PAS a
 #   orcid: 0000-0001-5123-1261
 # - name: Tomáš Chlup
 #   orcid: 0000-0003-3179-992X
-date: 2025-12-10
+date: 2026-09-23
+# date: 2025-12-10
 # date: 2025-02-07
 # doi: 10.5281/zenodo.4114081
 # image: ../../figs/thumb_pin.png
@@ -186,7 +187,8 @@ registrován v systému AMČR.
 
 Po potvrzení spolupráce archeolog vytvoří `Projekt`, pod kterým budou
 Vaše nálezy evidovány. Pro další postup je nutné, aby Vám archeolog
-sdělil číslo projektu, pod kterým budete své nálezy evidovat.
+sdělil číslo projektu, pod kterým budete své nálezy evidovat a **v systému jej přiřadil k vašemu účtu**. 
+Čísla přiřazených spoluprací uvidíte v tabulce s přehledem svých spoluprací.
 :::
 
 ::::
@@ -203,6 +205,7 @@ zpětně. V terénu doporučujeme provést následující kroky:
 
 Pro prvotní zápis nového nálezu musím ze seznamu vybrat relevantní číslo projektu (jedná se o jediný údaj
 bezpodmínečně nutný pro první uložení nálezu do systému).
+**Dostupné k výběru jsou pouze aktivní projekty, které Vám byly přiřazeny archeologem či archeoložkou.**
 
 ![](figs/pas-b-zapsat){fig-align="center" width="90%"}
 
@@ -258,7 +261,15 @@ Fotografie musí splňovat archeologický dokumentační standard. Tím rozuměj
 
 Fotografie lze přiložit pomocí tlačítka `Nahrát soubory` v horní liště karty pro sekci `Fotografie`.
 
-![](figs/pas-b-foto.png){fig-align="center" width="90%"}
+::: {.callout-note}
+## Změna náhledové fotografie
+
+U nahraného souboru lze změnit jeho název (suffix určující pořadí, a to na povolené a neobsazené hodnoty) pomocí ikony u názvu. 
+Obsah souboru se tím nijak nemění, pouze dojde k přejmenování. 
+**Přejmenováním lze ovlivnit řazení souborů a tím i výchozí fotografii používanou pro náhled celého nálezu.**
+:::
+
+![Tabulka přiložených fotografií](figs/pas-a_zapis_foto.png){width="100%"}
 
 
 #### Odeslání záznamu
@@ -278,7 +289,7 @@ ohrožené lokality se může rozhodnout informace o poloze nálezu
 nezpřístupnit).
 
 
-### Moje zázany a Vybrat
+### Moje záznamy a Vybrat
 
 Karta `Moje záznamy` nabízí výpis veškerých vašich nálezů. 
 Toho využijete při uložení rozpracovaného záznamu v terénu s myšlenkou jeho
