@@ -153,6 +153,8 @@ website:
               href: digiarchiv/citace.qmd
             - text: QGIS plugin AMČR Viewer
               href: digiarchiv/qgis-viewer.qmd
+            - text: Předměty ve sbírkách muzeí (MUSEION)
+              href: digiarchiv/museion.qmd
             - text: Sklízení dat pro GIS
               href: https://zenodo.org/doi/10.5281/zenodo.11490821
               icon: box-arrow-up-right
