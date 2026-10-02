@@ -25,3 +25,4 @@ Přístupnost,přístupnost záznamu [A/B/C/D]
 Komponenta*,ID komponenty
 Areál*,typ areálu [sídliště/pohřební areál/pole/...]
 Období*,datace [neolit/vrcholný středověk–novověk/střední doba laténská (LtB–C1)/...]
+Váha prvku*,"1/n, kde n je počet komponent dokumentační jednotky, které prošly filtry Období a Areál; součet vah prvků jedné dokumentační jednotky je 1 (dokumentační jednotka bez komponent má váhu 1)"

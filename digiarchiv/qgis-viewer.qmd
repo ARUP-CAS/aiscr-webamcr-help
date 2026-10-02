@@ -3,13 +3,13 @@ title: QGIS plugin AMČR Viewer
 # subtitle: fuubar 
 author: 
   - name: David Spáčil
-date: 2026-06-08
+date: 2026-10-02
 
 ---
 
 ::: callout-note
 
-Návod je platný pro verzi pluginu [v2.1.2](https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases/tag/v2.1.2){.external}, přehled změn v jednotlivých verzích viz [Releases](https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases){.external}.
+Návod je platný pro verzi pluginu [v2.2.0](https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases/tag/v2.2.0){.external}, přehled změn v jednotlivých verzích viz [Releases](https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases){.external}.
 
 :::
 
@@ -66,11 +66,11 @@ Je možné filtrovat pomocí polí vypsaných níže:
 | Lokalita – typ | — | ✓ | — |
 | Lokalita – druh | — | ✓ | — |
 | Lokalita – jistota určení | — | ✓ | — |
-| Lokalita - stav dochování | — | ✓ | — |
+| Lokalita – stav dochování | — | ✓ | — |
 | Období | ✓ | ✓ | ✓ |
 | Kategorie nálezu | — | — | ✓ |
 | Druh nálezu | — | — | ✓ |
-| Specifikace nálezu | — | — | ✓ |
+| Materiál | — | — | ✓ |
 | Okolnosti nálezu | — | — | ✓ |
 | Nálezce | — | — | ✓ |
 | Datum nálezu | — | — | ✓ |
@@ -83,7 +83,11 @@ Je možné filtrovat pomocí polí vypsaných níže:
 - možnost `Pouze pozitivní zjištění` je relevantní pouze pro filtr *akcí*; vrátí pouze dokumentační jednotky, jejichž atribut `typ zjištění` = `pozitivní`,
 - možnost `Pouze projektové akce` vrátí pouze *akce* navázané na projekt,
 - u polí s datem (`Datum` u *akcí*, `Datum nálezu` u *samostatných nálezů*) lze vyplnit jen jednu mez rozmezí, prázdné pole (`neomezeno`) znamená rozmezí otevřené z dané strany; rozmezí, jehož počáteční datum je pozdější než koncové, dialog nepřijme,
-- u *akcí* a *lokalit* je poslední možností dialogu checkbox `Načíst komponenty`, který je ve výchozím nastavení vypnutý; jeho aktivací dojde k potenciálnímu znásobení výsledků podle počtu komponent na akci (dokumentační jednotku), na což dialog upozorní.
+- u *akcí* a *lokalit* je poslední možností dialogu checkbox `Načíst komponenty`, který je ve výchozím nastavení vypnutý; jeho aktivací dojde k potenciálnímu znásobení výsledků podle počtu komponent na akci (dokumentační jednotku), na což dialog upozorní,
+- filtrační dialog si pamatuje filtry naposledy potvrzené tlačítkem `OK`, a to zvlášť pro každý typ dat (*akce*, *lokality*, *samostatné nálezy*) a pouze po dobu běhu QGIS; zavření tlačítkem `Cancel` zapamatovaný stav nemění,
+- liší-li se obnovené filtry od výchozích, zobrazí se v horní části dialogu zelené upozornění `Načteny filtry z minulého hledání (aktivní filtry: N)`,
+- tlačítko `Obnovit výchozí` (vlevo od `OK`/`Cancel`) vrátí celý formulář do výchozího stavu – zaškrtnuté omezení na rozsah okna, tři předvybrané úrovně u `PIAN – přesnost`, ostatní pole prázdná; mění se jen obsah formuláře, zapamatované filtry se změní až po potvrzení tlačítkem `OK`,
+- vedle každého pole s výběrem je tlačítko ✕ (`Vymazat výběr`, u `PIAN – přesnost` `Vrátit výchozí výběr`), které vrátí do výchozího stavu jen daný filtr.
 
 [![](figs/qv-usage.webp){width="66%" fig-align="center"}](figs/qv-usage.webp)
 
@@ -105,10 +109,9 @@ Pokud je server Digiarchivu nedostupný, plugin se zeptá, zda chcete údaje př
 Při prvním ukládání bude QGIS žádat nastavení master hesla pro `QGIS Password manager`, pokud jste tak již neučinili dříve (jinak vás může požádat o jeho zadání).
 Toto heslo nijak nesouvisí s AMČR a je na vašem uvážení, jaké heslo nastavíte.
 Přihlašovací údaje jsou následně bezpečně uloženy v `QGIS Password manageru`, odkud si je plugin půjčuje pro komunikaci s Digiarchivem.
-Plugin sám přihlášení obnovuje po otevření QGIS či po uplynutí časového limitu session.
+Plugin před každým stažením dat ověří aktuální stav přihlášení a vypršelou session automaticky obnoví; pokud se to nepodaří, zobrazí v liště zpráv varování, že stahování proběhne anonymně a bude obsahovat jen záznamy s přístupností A.
 Pokud chcete uložené údaje změnit, otevřete znovu formulář tlačítkem `Přihlásit se`; e-mail je v něm předvyplněný a pole pro heslo lze ponechat prázdné, pokud se heslo nemění.
-Pokud chcete uložené údaje odstranit, můžete tak učinit v tomtéž formuláři volbou `Odebrat uložené přihlašovací údaje`.
-K odhlášení dojde automaticky po vypršení session (po uplynutí časového limitu od posledního požadavku nebo po zavření QGIS).
+Pokud chcete uložené údaje odstranit, můžete tak učinit v tomtéž formuláři volbou `Odebrat uložené přihlašovací údaje`; plugin vás zároveň odhlásí z Digiarchivu, takže následující stahování proběhne anonymně.
 
 [![](figs/qv-login.webp){width="66%" fig-align="center"}](figs/qv-login.webp)
 
@@ -125,13 +128,14 @@ Aktualizace dává smysl zejména v případě heslářů osob (filtry `Vedoucí
 Hesláře se aktualizují z AMČR OAI-PMH API, seznamy osob (`Vedoucí výzkumu`, `Nálezce`) z API Digiarchivu.
 Počítejte prosím s tím, že jejich stahování může trvat i několik minut.
 Aktualizace běží na pozadí jako úloha QGIS, kterou lze v případě potřeby zrušit; po jejím dokončení plugin zobrazí hlášení.
+Pokud se některý heslář nepodaří stáhnout nebo přijde prázdný, ponechá plugin jeho dosavadní hodnoty a po dokončení aktualizace takové hesláře vypíše.
 :::
 
 ### Datová struktura
 
 Kvůli nutnosti dělit prvky podle typu geometrie musí plugin vykreslit načtená data ve třech různých vrstvách: `AMCR_{zaznam}_Body`, `AMCR_{zaznam}_Linie` a `AMCR_{zaznam}_Polygony`, přičemž položka `{zaznam}` odpovídá typu požadovaného záznamu `Akce`/`Lokalita`/`Samostatný_nález`.
 Vrstva se vytvoří jen pro ty typy geometrie, které se ve výsledku vyskytují.
-V případě požadavku stažení komponent (u *akcí* a *lokalit*) jsou součástí každé z vrstev navíc ještě pole `Komponenta`, `Areál` a `Období`.
+V případě požadavku stažení komponent (u *akcí* a *lokalit*) jsou součástí každé z vrstev navíc ještě pole `Komponenta`, `Areál`, `Období` a `Váha prvku`.
 
 Atributové tabulky jednotlivých vrstev obsahují následující informace:
 
@@ -177,6 +181,7 @@ V opačném případě načítejte data postupně po územních celcích (krají
 Počty akcí podle krajů lze zkontrolovat v [Digiarchivu](https://digiarchiv.aiscr.cz/map?entity=akce&sort=datestamp%20desc&mapa=true&page=0){.external}.
 - Při načítání komponent jsou prostorové prvky duplikovány -- každý prvek odpovídá jedné komponentě. 
 Prostorové analýzy (plochy, počty) mohou být zkreslené.
+Pro výpočty, jako je např. heatmapa, lze duplikaci vyrovnat vážením prvků podle atributu `Váha prvku`.
 
 
 ## Zapojte se
