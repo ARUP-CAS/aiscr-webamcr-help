@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="cs" xml:lang="cs"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,10 +47,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3b4d450d609455d4f1bf48d392aee074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-caf2ac9b3ac804aed487d770c4fefaab.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -295,7 +295,7 @@ cookieconsent.run({
     <div>
     <div class="quarto-title-meta-heading">Aktualizováno</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">8. června 2026</p>
+      <p class="date">2. října 2026</p>
     </div>
   </div>
   
@@ -313,7 +313,7 @@ cookieconsent.run({
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Návod je platný pro verzi pluginu <a href="https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases/tag/v2.1.2" class="external">v2.1.2</a>, přehled změn v jednotlivých verzích viz <a href="https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases" class="external">Releases</a>.</p>
+<p>Návod je platný pro verzi pluginu <a href="https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases/tag/v2.2.0" class="external">v2.2.0</a>, přehled změn v jednotlivých verzích viz <a href="https://github.com/ARUP-CAS/aiscr-qgis-amcr-viewer/releases" class="external">Releases</a>.</p>
 </div>
 </div>
 </div>
@@ -450,7 +450,7 @@ cookieconsent.run({
 <td>—</td>
 </tr>
 <tr class="even">
-<td>Lokalita - stav dochování</td>
+<td>Lokalita – stav dochování</td>
 <td>—</td>
 <td>✓</td>
 <td>—</td>
@@ -474,7 +474,7 @@ cookieconsent.run({
 <td>✓</td>
 </tr>
 <tr class="even">
-<td>Specifikace nálezu</td>
+<td>Materiál</td>
 <td>—</td>
 <td>—</td>
 <td>✓</td>
@@ -518,7 +518,11 @@ cookieconsent.run({
 <li>možnost <code>Pouze pozitivní zjištění</code> je relevantní pouze pro filtr <em>akcí</em>; vrátí pouze dokumentační jednotky, jejichž atribut <code>typ zjištění</code> = <code>pozitivní</code>,</li>
 <li>možnost <code>Pouze projektové akce</code> vrátí pouze <em>akce</em> navázané na projekt,</li>
 <li>u polí s datem (<code>Datum</code> u <em>akcí</em>, <code>Datum nálezu</code> u <em>samostatných nálezů</em>) lze vyplnit jen jednu mez rozmezí, prázdné pole (<code>neomezeno</code>) znamená rozmezí otevřené z dané strany; rozmezí, jehož počáteční datum je pozdější než koncové, dialog nepřijme,</li>
-<li>u <em>akcí</em> a <em>lokalit</em> je poslední možností dialogu checkbox <code>Načíst komponenty</code>, který je ve výchozím nastavení vypnutý; jeho aktivací dojde k potenciálnímu znásobení výsledků podle počtu komponent na akci (dokumentační jednotku), na což dialog upozorní.</li>
+<li>u <em>akcí</em> a <em>lokalit</em> je poslední možností dialogu checkbox <code>Načíst komponenty</code>, který je ve výchozím nastavení vypnutý; jeho aktivací dojde k potenciálnímu znásobení výsledků podle počtu komponent na akci (dokumentační jednotku), na což dialog upozorní,</li>
+<li>filtrační dialog si pamatuje filtry naposledy potvrzené tlačítkem <code>OK</code>, a to zvlášť pro každý typ dat (<em>akce</em>, <em>lokality</em>, <em>samostatné nálezy</em>) a pouze po dobu běhu QGIS; zavření tlačítkem <code>Cancel</code> zapamatovaný stav nemění,</li>
+<li>liší-li se obnovené filtry od výchozích, zobrazí se v horní části dialogu zelené upozornění <code>Načteny filtry z minulého hledání (aktivní filtry: N)</code>,</li>
+<li>tlačítko <code>Obnovit výchozí</code> (vlevo od <code>OK</code>/<code>Cancel</code>) vrátí celý formulář do výchozího stavu – zaškrtnuté omezení na rozsah okna, tři předvybrané úrovně u <code>PIAN – přesnost</code>, ostatní pole prázdná; mění se jen obsah formuláře, zapamatované filtry se změní až po potvrzení tlačítkem <code>OK</code>,</li>
+<li>vedle každého pole s výběrem je tlačítko ✕ (<code>Vymazat výběr</code>, u <code>PIAN – přesnost</code> <code>Vrátit výchozí výběr</code>), které vrátí do výchozího stavu jen daný filtr.</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -532,7 +536,7 @@ cookieconsent.run({
 <section id="přihlášení" class="level3">
 <h3 class="anchored" data-anchor-id="přihlášení">Přihlášení</h3>
 <p>Plugin je možné používat zcela anonymně. V tomto režimu vrací API Digiarchivu všechna data (odpovídající filtrům), která lze bez přihlášení zobrazit v <a href="https://digiarchiv.aiscr.cz/map?mapa=true&amp;loc_rpt=48.5731315612793,12.112100601196289,51.0154914855957,18.76592254638672">mapovém zobrazení Digiarchivu</a>. Tímto způsobem lze tedy zobrazit drtivou většinu <em>akcí</em> i <em>lokalit</em>, ne však <em>samostatných nálezů</em>.</p>
-<p>V případě potřeby je možné se do pluginu přihlásit pomocí přihlašovacích údajů použitých pro přístup do Digitálního archivu AMČR. Pro přihlášení klikněte v nabídce pluginu (pod tlačítky pro stahování dat) na tlačítko <code>Přihlásit se</code>, které otevře přihlašovací formulář <code>Přihlášení do AMČR</code>. Do formuláře vyplňte e-mail a heslo, které používáte pro přístup do Digiarchivu. Po potvrzení plugin údaje nejprve ověří přihlášením do Digiarchivu; nesprávné údaje se neuloží. Pokud je server Digiarchivu nedostupný, plugin se zeptá, zda chcete údaje přesto uložit bez ověření. Při prvním ukládání bude QGIS žádat nastavení master hesla pro <code>QGIS Password manager</code>, pokud jste tak již neučinili dříve (jinak vás může požádat o jeho zadání). Toto heslo nijak nesouvisí s AMČR a je na vašem uvážení, jaké heslo nastavíte. Přihlašovací údaje jsou následně bezpečně uloženy v <code>QGIS Password manageru</code>, odkud si je plugin půjčuje pro komunikaci s Digiarchivem. Plugin sám přihlášení obnovuje po otevření QGIS či po uplynutí časového limitu session. Pokud chcete uložené údaje změnit, otevřete znovu formulář tlačítkem <code>Přihlásit se</code>; e-mail je v něm předvyplněný a pole pro heslo lze ponechat prázdné, pokud se heslo nemění. Pokud chcete uložené údaje odstranit, můžete tak učinit v tomtéž formuláři volbou <code>Odebrat uložené přihlašovací údaje</code>. K odhlášení dojde automaticky po vypršení session (po uplynutí časového limitu od posledního požadavku nebo po zavření QGIS).</p>
+<p>V případě potřeby je možné se do pluginu přihlásit pomocí přihlašovacích údajů použitých pro přístup do Digitálního archivu AMČR. Pro přihlášení klikněte v nabídce pluginu (pod tlačítky pro stahování dat) na tlačítko <code>Přihlásit se</code>, které otevře přihlašovací formulář <code>Přihlášení do AMČR</code>. Do formuláře vyplňte e-mail a heslo, které používáte pro přístup do Digiarchivu. Po potvrzení plugin údaje nejprve ověří přihlášením do Digiarchivu; nesprávné údaje se neuloží. Pokud je server Digiarchivu nedostupný, plugin se zeptá, zda chcete údaje přesto uložit bez ověření. Při prvním ukládání bude QGIS žádat nastavení master hesla pro <code>QGIS Password manager</code>, pokud jste tak již neučinili dříve (jinak vás může požádat o jeho zadání). Toto heslo nijak nesouvisí s AMČR a je na vašem uvážení, jaké heslo nastavíte. Přihlašovací údaje jsou následně bezpečně uloženy v <code>QGIS Password manageru</code>, odkud si je plugin půjčuje pro komunikaci s Digiarchivem. Plugin před každým stažením dat ověří aktuální stav přihlášení a vypršelou session automaticky obnoví; pokud se to nepodaří, zobrazí v liště zpráv varování, že stahování proběhne anonymně a bude obsahovat jen záznamy s přístupností A. Pokud chcete uložené údaje změnit, otevřete znovu formulář tlačítkem <code>Přihlásit se</code>; e-mail je v něm předvyplněný a pole pro heslo lze ponechat prázdné, pokud se heslo nemění. Pokud chcete uložené údaje odstranit, můžete tak učinit v tomtéž formuláři volbou <code>Odebrat uložené přihlašovací údaje</code>; plugin vás zároveň odhlásí z Digiarchivu, takže následující stahování proběhne anonymně.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="figs/qv-login.webp"><img src="figs/qv-login.webp" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:66.0%"></a></p>
@@ -552,22 +556,22 @@ cookieconsent.run({
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Hesláře se aktualizují z AMČR OAI-PMH API, seznamy osob (<code>Vedoucí výzkumu</code>, <code>Nálezce</code>) z API Digiarchivu. Počítejte prosím s tím, že jejich stahování může trvat i několik minut. Aktualizace běží na pozadí jako úloha QGIS, kterou lze v případě potřeby zrušit; po jejím dokončení plugin zobrazí hlášení.</p>
+<p>Hesláře se aktualizují z AMČR OAI-PMH API, seznamy osob (<code>Vedoucí výzkumu</code>, <code>Nálezce</code>) z API Digiarchivu. Počítejte prosím s tím, že jejich stahování může trvat i několik minut. Aktualizace běží na pozadí jako úloha QGIS, kterou lze v případě potřeby zrušit; po jejím dokončení plugin zobrazí hlášení. Pokud se některý heslář nepodaří stáhnout nebo přijde prázdný, ponechá plugin jeho dosavadní hodnoty a po dokončení aktualizace takové hesláře vypíše.</p>
 </div>
 </div>
 </section>
 <section id="datová-struktura" class="level3">
 <h3 class="anchored" data-anchor-id="datová-struktura">Datová struktura</h3>
-<p>Kvůli nutnosti dělit prvky podle typu geometrie musí plugin vykreslit načtená data ve třech různých vrstvách: <code>AMCR_{zaznam}_Body</code>, <code>AMCR_{zaznam}_Linie</code> a <code>AMCR_{zaznam}_Polygony</code>, přičemž položka <code>{zaznam}</code> odpovídá typu požadovaného záznamu <code>Akce</code>/<code>Lokalita</code>/<code>Samostatný_nález</code>. Vrstva se vytvoří jen pro ty typy geometrie, které se ve výsledku vyskytují. V případě požadavku stažení komponent (u <em>akcí</em> a <em>lokalit</em>) jsou součástí každé z vrstev navíc ještě pole <code>Komponenta</code>, <code>Areál</code> a <code>Období</code>.</p>
+<p>Kvůli nutnosti dělit prvky podle typu geometrie musí plugin vykreslit načtená data ve třech různých vrstvách: <code>AMCR_{zaznam}_Body</code>, <code>AMCR_{zaznam}_Linie</code> a <code>AMCR_{zaznam}_Polygony</code>, přičemž položka <code>{zaznam}</code> odpovídá typu požadovaného záznamu <code>Akce</code>/<code>Lokalita</code>/<code>Samostatný_nález</code>. Vrstva se vytvoří jen pro ty typy geometrie, které se ve výsledku vyskytují. V případě požadavku stažení komponent (u <em>akcí</em> a <em>lokalit</em>) jsou součástí každé z vrstev navíc ještě pole <code>Komponenta</code>, <code>Areál</code>, <code>Období</code> a <code>Váha prvku</code>.</p>
 <p>Atributové tabulky jednotlivých vrstev obsahují následující informace:</p>
-<div class="cell quarto-layout-panel" data-layout-ncol="3" data-tbl-cap="[&quot;Atributová tabulka vrstev akcí&quot;,&quot;Atributová tabulka vrstev lokalit&quot;,&quot;Atributová tabulka vrstev samostatných nálezů&quot;]">
+<div class="cell quarto-layout-panel" data-tbl-cap="[&quot;Atributová tabulka vrstev akcí&quot;,&quot;Atributová tabulka vrstev lokalit&quot;,&quot;Atributová tabulka vrstev samostatných nálezů&quot;]" data-layout-ncol="3">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <table class="caption-top table table-sm table-striped small">
 <caption>Atributová tabulka vrstev akcí</caption>
 <colgroup>
-<col style="width: 29%">
-<col style="width: 70%">
+<col style="width: 15%">
+<col style="width: 84%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -680,6 +684,10 @@ cookieconsent.run({
 <td style="text-align: left;">Období*</td>
 <td style="text-align: left;">datace [neolit/vrcholný středověk–novověk/střední doba laténská (LtB–C1)/…]</td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;">Váha prvku*</td>
+<td style="text-align: left;">1/n, kde n je počet komponent dokumentační jednotky, které prošly filtry Období a Areál; součet vah prvků jedné dokumentační jednotky je 1 (dokumentační jednotka bez komponent má váhu 1)</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -687,8 +695,8 @@ cookieconsent.run({
 <table class="caption-top table table-sm table-striped small">
 <caption>Atributová tabulka vrstev lokalit</caption>
 <colgroup>
-<col style="width: 21%">
-<col style="width: 78%">
+<col style="width: 15%">
+<col style="width: 84%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -776,6 +784,10 @@ cookieconsent.run({
 <tr class="even">
 <td style="text-align: left;">Období*</td>
 <td style="text-align: left;">datace [neolit/vrcholný středověk–novověk/střední doba laténská (LtB–C1)/…]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Váha prvku*</td>
+<td style="text-align: left;">1/n, kde n je počet komponent dokumentační jednotky, které prošly filtry Období a Areál; součet vah prvků jedné dokumentační jednotky je 1 (dokumentační jednotka bez komponent má váhu 1)</td>
 </tr>
 </tbody>
 </table>
@@ -914,7 +926,7 @@ cookieconsent.run({
 <h3 class="anchored" data-anchor-id="omezení">Omezení</h3>
 <ul>
 <li>Limit načítaných záznamů je omezen na <strong>20 000</strong>. Doporučujeme využít filtrů pro předtřídění dat. V opačném případě načítejte data postupně po územních celcích (krajích či v některých případech okresech). Počty akcí podle krajů lze zkontrolovat v <a href="https://digiarchiv.aiscr.cz/map?entity=akce&amp;sort=datestamp%20desc&amp;mapa=true&amp;page=0" class="external">Digiarchivu</a>.</li>
-<li>Při načítání komponent jsou prostorové prvky duplikovány – každý prvek odpovídá jedné komponentě. Prostorové analýzy (plochy, počty) mohou být zkreslené.</li>
+<li>Při načítání komponent jsou prostorové prvky duplikovány – každý prvek odpovídá jedné komponentě. Prostorové analýzy (plochy, počty) mohou být zkreslené. Pro výpočty, jako je např. heatmapa, lze duplikaci vyrovnat vážením prvků podle atributu <code>Váha prvku</code>.</li>
 </ul>
 </section>
 </section>
