@@ -213,7 +213,7 @@ Po uložení nálezu do systému je pro nález vygenerován unikátní identifik
 
 ![](figs/pas-b-rozepsany){fig-align="center" width="90%"}
 
-Detaly nálezu mohu upravit po kliknutí na ikonu tužky (`Upravit`) v záhlaví karty dané sekce.
+Detaily nálezu mohu upravit po kliknutí na ikonu tužky (`Upravit`) v záhlaví karty dané sekce.
 Je nutné zadat následující údaje:
 
 1.  Identifikuji nálezce (tlačítko `+` slouží k přidání chybějícího
