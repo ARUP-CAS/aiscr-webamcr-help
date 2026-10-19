@@ -100,6 +100,13 @@ ukončení práce v terénu. Vedoucí výzkumu rozhoduje o výběru, zveřejněn
 a míře zpřístupnění nálezů v AMČR-PAS, resp. Digitálním
 archivu AMČR.
 
+### Dohledávka
+
+Při uskutečnění dohledávky v rámci projektu typu průzkum archeolog či archeoložka po vyhodnocení situace může přistoupit k realizaci odkryvu v rozsahu nutném pro záchranu zasaženého kontextu, případně standardní formou přejít do režimu badatelského výzkumu. 
+Evidence terénní akce v tomto případě může proběhnout formou *Samostatné akce*, vč. navázání odpovídající nálezové zprávy a další dokumentace. 
+*Pro upřesnění postupu v individuálním případě kontaktujte správce AMČR-PAS.*
+
+
 ### Bez nálezného
 
 Jelikož archeologické nálezy evidované v AMČR-PAS jsou
