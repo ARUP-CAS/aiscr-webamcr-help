@@ -1,7 +1,7 @@
 ---
 title: Předměty ve sbírkách muzeí (MUSEION)
 subtitle: Tutoriál k zobrazení údajů ze sbírkové evidence muzeí v Digitálním archivu AMČR
-date: 2026-09-23
+date: 2026-10-19
 ---
 
 ::: callout-note
@@ -17,7 +17,7 @@ Jde o jeden ze scénářů integrace AMČR a MUSEIONu, v dokumentaci obou systé
 
 AMČR přitom nezískává údaje o všech předmětech v muzejních sbírkách, ale jen o těch, u nichž muzeum v MUSEIONu uvedlo identifikátor AMČR -- projektu, akce nebo samostatného nálezu.
 
-![Směry výměny dat mezi AMČR a napojenými MUSEIONy. Tento tutoriál se týká fialově vyznačeného získávání on-line dat ze sbírkových evidencí; zápis nálezů do AMČR-PAS a jejich načítání zpět do MUSEIONu probíhá na straně MUSEIONu.](figs/museion-architektura.png)
+![Směry výměny dat mezi AMČR a napojenými MUSEIONy. Tento tutoriál se týká získávání on-line dat ze sbírkových evidencí; zápis nálezů do AMČR-PAS a jejich načítání zpět do MUSEIONu probíhá na straně MUSEIONu.](figs/museion-architektura.png)
 
 ## Kde údaje z muzeí najdete
 
