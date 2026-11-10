@@ -257,7 +257,7 @@ Reference na autoritní projekt je uvedena v historii změn zrušeného projektu
 Druhý důvod zrušení slouží pro případy, kdy stavebník sice splnil oznamovací povinnost, ale již nesplnil povinnost umožnit provedení ZAV. 
 Z hlediska evidence dat o archeologickém dědictví takový projekt není dále relevantní. 
 Z hlediska administrativně právního zůstává v AMČR informace o nesplnění povinností pro potřeby případného správního řízení. 
-Na základě zrušení projektu z tohoto důvodu může být podáno trestní oznámení ve věci poškození cizí věci nebo životního prostředí.
+Na základě zrušení projektu z tohoto důvodu může být podáno trestní oznámení např. ve věci poškození cizí věci nebo životního prostředí.
 
 ### V oznámení byly uvedeny nesprávné údaje
 
