@@ -13,25 +13,34 @@ format:
 #     pdf-engine: xelatex
 ---
 
-Archeologická mapa České republiky (dále jen [AMČR](https://amcr.aiscr.cz/){.external}) je základním oborovým nástrojem archeologické památkové péče. 
+Archeologická mapa České republiky (dále jen [AMČR](https://amcr.aiscr.cz/){.external}) je základním oborovým evidenčním a komunikačním nástrojem archeologické památkové péče. 
 AMČR plní dva hlavní účely – uchovat informace o archeologickém dědictví České republiky a umožnit subjektům archeologické památkové péče plnit zákonné povinnosti jednoduchým, transparentním a efektivním způsobem. 
-Plnění těchto povinností, které vyplývají primárně ze [zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}, ve znění pozdějších předpisů (dále jen PamZ) a příslušných Dohod o rozsahu a podmínkách provádění archeologických výzkumů (dále jen Dohoda), je integrálním předpokladem ochrany archeologického dědictví České republiky. 
+Plnění těchto povinností, které vyplývají ze [zákona č. 20/1987 Sb., o státní památkové péči](https://www.zakonyprolidi.cz/cs/1987-20){.external}, ve znění pozdějších předpisů (dále jen PamZ) a příslušných Dohod o rozsahu a podmínkách provádění archeologických výzkumů (dále jen Dohoda), je integrálním předpokladem ochrany archeologického dědictví České republiky. 
 
-Užívání AMČR je vázáno na uzavření písemné Dohody o využívání Archeologické mapy ČR. 
+Užívání AMČR je vázáno na uzavření písemné Dohody o využívání AMČR mezi Archeologickými ústavy AV ČR a oprávněnými archeologickými organizacemi, příp. dalšími subjekty, jako jsou orgány veřejné moci. 
 Tato dohoda specifikuje vztah AMČR k PamZ a zákonným povinnostem. 
 Bez uzavření dohody nelze AMČR užívat pro plnění povinností stanovených zákonem, nebo na základě zákona. 
 Dohoda slouží také k vyjasnění povinností při správě osobních údajů.
+
+::: {.callout-tip}
+
+# Poznámka
+
+Je-li v tomto dokumentu uvedeno, že se určitá povinnost plní prostřednictvím AMČR, jde o popis praktického způsobu jejího plnění v rámci uzavřených Dohod a nastavených procesů.
+Tím není dotčeno, že samotná povinnost vzniká přímo ze zákona.
+
+:::
 
 AMČR tedy v dílčích úkonech reflektuje povinnosti vázané na jednotlivá zákonná ustanovení a Dohodu. 
 Dle logické souslednosti se jedná o (podrobněji viz dále):
 
 1. 
     a. Povinnost [oznámit Archeologickému ústavu stavební či jiný záměr](https://portal.gov.cz/sluzby-vs/oznameni-o-provadeni-stavebni-cinnosti-na-uzemi-s-archeologickymi-nalezy-S12844){.external} na území s archeologickými nálezy, kterým by mohlo být ohroženo provádění archeologických výzkumů (§&nbsp;22 odst.&nbsp;2 PamZ).
-    b. Povinnosti požádat Archeologický ústav o stanovisko k realizaci archeologického výzkumu, který nebyl vyvolán stavební či jinou činností (vyplývá z Dohod; blíže viz [informace k badatelským archeologickým výzkumům](badatelske-vyzkumy.qmd)).
+    b. Povinnost požádat Archeologický ústav o stanovisko k realizaci archeologického výzkumu, který nebyl vyvolán stavební či jinou činností (vyplývá z Dohod; blíže viz [informace k badatelským archeologickým výzkumům](badatelske-vyzkumy.qmd)).
 2. Povinnost umožnit[^1] provedení záchranného archeologického výzkumu ([§&nbsp;22 odst.&nbsp;2 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p22){.external}). 
-3. Povinnost [oznámit Archeologickému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S12785){.external} (a [Národnímu památkovému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S12786){.external}[^2]) zahájení archeologického výzkumu ([§&nbsp;21 odst.&nbsp;4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}).
+3. Povinnost [oznámit Archeologickému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S12785){.external} a [Národnímu památkovému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-oznamit-zahajeni-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S12786){.external}[^2] zahájení archeologického výzkumu ([§&nbsp;21 odst.&nbsp;4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}).
 4. Povinnost některých oprávněných archeologických organizací oznamovat zahájení výzkumu kraji ([§&nbsp;23a odst.&nbsp;3 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p23){.external} a jednotlivá krajská nařízení).
-5. Povinnost [odevzdat Archeologickému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S15815){.external} (a [Národnímu památkovému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S15824){.external}[^2]) zprávu o výsledcích archeologického výzkumu (dále jen nálezová zpráva) ([§&nbsp;21 odst.&nbsp;4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}).
+5. Povinnost [odevzdat Archeologickému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-archeologickemu-ustavu-av-cr-S15815){.external} a [Národnímu památkovému ústavu](https://portal.gov.cz/sluzby-vs/povinnost-podani-zpravy-o-vysledcich-archeologickeho-vyzkumu-narodnimu-pamatkovemu-ustavu-S15824){.external}[^2] zprávu o výsledcích archeologického výzkumu (dále jen nálezová zpráva) ([§&nbsp;21 odst.&nbsp;4 PamZ](https://www.zakonyprolidi.cz/cs/1987-20#p21){.external}).
 
 [^1]: Úkon *Přihlášení projektu* deklaruje směrem ke stavebníkovi zájem OAO provést ZAV a tedy aktivuje povinnost stavebníka umožnit jeho provedení.
 [^2]: Jde-li o archeologické výzkumy na území prohlášeném za kulturní památku, národní kulturní památku, památkovou rezervaci nebo památkovou zónu.
@@ -96,7 +105,7 @@ Při zpětném zápisu starších projektů není uvádění kontaktních údaj�
 
 :::
 
-V případě, že se jedná o zápis badatelského projektu nebo projektu průzkum viz [Informace k badatelským archeologickým výzkumům](badatelske-vyzkumy.qmd).
+V případě, že se jedná o zápis badatelského projektu nebo průzkumu viz [Informace k badatelským archeologickým výzkumům](badatelske-vyzkumy.qmd).
 
 Po zápisu je projekt viditelný i pro ostatní ověřené uživatele AMČR (pověřené pracovníky OAO), kteří mohou projekt přihlásit a dát tak najevo záměr projekt realizovat.
 
@@ -248,7 +257,7 @@ Reference na autoritní projekt je uvedena v historii změn zrušeného projektu
 Druhý důvod zrušení slouží pro případy, kdy stavebník sice splnil oznamovací povinnost, ale již nesplnil povinnost umožnit provedení ZAV. 
 Z hlediska evidence dat o archeologickém dědictví takový projekt není dále relevantní. 
 Z hlediska administrativně právního zůstává v AMČR informace o nesplnění povinností pro potřeby případného správního řízení. 
-Na základě zrušení projektu z tohoto důvodu může být podáno trestní oznámení ve věci poškození cizí věci nebo životního prostředí.
+Na základě zrušení projektu z tohoto důvodu může být podáno trestní oznámení např. ve věci poškození cizí věci nebo životního prostředí.
 
 ### V oznámení byly uvedeny nesprávné údaje
 
